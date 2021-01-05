@@ -1,0 +1,5 @@
+0 is none, this should send to the config GUI
+
+1 is Lobby
+
+2 is In Game

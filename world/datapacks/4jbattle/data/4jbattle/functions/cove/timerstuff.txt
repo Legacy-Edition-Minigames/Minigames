@@ -1,0 +1,17 @@
+##Long match
+#at 9 minutes a counter of time left starts
+#at 9 minutes and 30 seconds the timer makes sound
+#game ends at 10 minutes
+
+##Normal match
+#at 4 minutes a counter of time left starts
+#at 4 minutes and 30 seconds the timer makes sound
+#game ends at 5 minutes
+
+##Short match
+#at 2 minutes a counter of time left starts
+#at 2 minutes and 30 seconds the timer makes sound
+#game ends at 3 minutes
+
+##showdown happens 1 minute after the match starts
+##chests refill every 30 seconds

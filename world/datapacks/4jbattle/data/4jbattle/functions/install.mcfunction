@@ -1,0 +1,135 @@
+##Set Gamerules
+#Lock Time
+gamerule doDaylightCycle false
+time set noon
+
+##Set gamestatus
+scoreboard players set #Store 4j.gamestatus 0
+
+##Set prec
+scoreboard players set #Store 4j.prec 2
+
+##Set PID (Temporary!)
+#Reset stored PID
+scoreboard players reset #Store 4j.pid
+#Reset everyone's PID
+scoreboard players reset @a 4j.pid
+#Player
+execute as @a run function 4jbattle:game/player/setpid
+
+##Set plist
+#Sync
+execute store result score #Store 4j.plist2 if entity @a
+execute store result score #Store 4j.plist if entity @a
+
+##PID Teams
+#1
+team add P1
+team modify P1 color white
+#2
+team add P2
+team modify P2 color dark_green
+#3
+team add P3
+team modify P3 color red
+#4
+team add P4
+team modify P4 color blue
+#5
+team add P5
+team modify P5 color light_purple
+#6
+team add P6
+team modify P6 color gold
+#7
+team add P7
+team modify P7 color yellow
+#8
+team add P8
+team modify P8 color aqua
+
+##Team Player
+#Create
+team add player
+#Change color
+team modify player color gold
+#Disable FriendlyInvisibles
+team modify player seeFriendlyInvisibles false
+
+##Team Spectator
+#Create
+team add spectator
+#Change color
+team modify spectator color blue
+
+##Team Lobby
+#Create
+team add lobby
+#Change color
+team modify lobby color green
+#Disable FriendlyFire
+team modify lobby friendlyFire false
+
+##PushDown Bossbar
+#Create
+bossbar add pushdown ""
+#Set players
+#bossbar set minecraft:pushdown players @a
+#Show it
+#bossbar set minecraft:pushdown visible true
+
+##GlobalInfo
+#Create
+bossbar add globalinfo ""
+#Set players (TEMPORARY)
+#bossbar set minecraft:globalinfo players @a
+#Hide it (TEMPORARY)
+#bossbar set minecraft:globalinfo visible true
+
+##Player ID
+scoreboard objectives add 4j.pid dummy
+
+##Elimination check
+scoreboard objectives add 4j.eliminated deathCount
+
+##Team list
+scoreboard objectives add 4j.teamlist dummy
+
+##Round number
+scoreboard objectives add 4j.round dummy
+
+##Current map
+scoreboard objectives add 4j.map dummy
+
+##Lives
+scoreboard objectives add 4j.lives dummy
+
+##Teleport type
+scoreboard objectives add 4j.tp dummy
+
+##Chest type
+scoreboard objectives add 4j.chest dummy
+
+##PlayerBar
+scoreboard objectives add 4j.playerbar dummy
+
+##Relog
+scoreboard objectives add 4j.relog minecraft.custom:minecraft.leave_game
+
+##GameStatus
+scoreboard objectives add 4j.gamestatus dummy
+
+##Timer
+scoreboard objectives add 4j.timer dummy
+
+##Player requirement
+scoreboard objectives add 4j.prec dummy
+
+##Player List
+#plist
+scoreboard objectives add 4j.plist dummy
+#plist2
+scoreboard objectives add 4j.plist2 dummy
+
+##Simulate relog
+tag @s remove relog
