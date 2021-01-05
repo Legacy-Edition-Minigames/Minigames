@@ -1,0 +1,56 @@
+{
+    "providers": [
+        {
+            "type": "ttf",
+            "file": "4jbattle:negative_spaces.ttf",
+            "shift": [0.0, 0.0],
+            "size": 10.0,
+            "oversample": 1.0
+        },
+        {
+            "type": "bitmap",
+            "file": "4jbattle:font/win.png",
+            "ascent": -14,
+            "height": 100,
+            "chars": [
+                "\uEff0"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "4jbattle:font/star.png",
+            "ascent": -14,
+            "height": 10,
+            "chars": [
+                "\uEff1"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "4jbattle:font/star_outline.png",
+            "ascent": -14,
+            "height": 10,
+            "chars": [
+                "\uEff2"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "4jbattle:font/back.png",
+            "ascent": -12,
+            "height": 15,
+            "chars": [
+                "\uEff3"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "4jbattle:font/filter.png",
+            "ascent": 24,
+            "height": 139,
+            "chars": [
+                "\uEff4"
+            ]
+        }
+    ]
+}
