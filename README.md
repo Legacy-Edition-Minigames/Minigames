@@ -4,15 +4,19 @@ This is an attempt to port the Battle minigame from the Legacy Editions of minec
 
 ### Installation
 
+* You need the Java to be installed before you can proceed, you can find it at [Java.com](https://www.java.com/download/manual.jsp)
+
 * You must get the server jar yourself, you can find it in the minecraft launcher or at [Minecraft.net](https://www.minecraft.net/en-us/download/server)
 
 * Once you have the server jar, put it inside this folder and name it server.jar
 
 ### Running
 
-* For Windows users, open start.bat
+* For Windows users, open windows.bat
 
-* For Linux or Mac users, run start.sh. You might need to run chmod +x start.sh before you have permission to run it.
+* For MacOS users, run macos.sh. You might need to run chmod a+x macos.sh before you have permission to run it.
+
+* For Linux users, run linux.sh. You might need to run chmod +x linux.sh before you have permission to run it.
 
 * Once you have started the server, you must op the user that will be the host with /op username
 
