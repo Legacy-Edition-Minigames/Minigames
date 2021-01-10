@@ -17,4 +17,4 @@ tp @s[scores={4j.pid=7}] -70 27 -104 -135 0
 tp @s[scores={4j.pid=8}] -72 27 -108 -90 0
 
 ##Debug message
-tellraw @s ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Cove: Surround TP used","color":"gold"}]
+tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Cove: Surround TP used","color":"gold"}]
