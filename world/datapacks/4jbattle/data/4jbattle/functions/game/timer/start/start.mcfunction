@@ -15,3 +15,6 @@ execute as @a run attribute @s minecraft:generic.attack_damage base set -100
 
 ##Disable Damage
 function 4jbattle:game/damage/disable
+
+##Start showdown timer
+function 4jbattle:game/timer/showdown/start
