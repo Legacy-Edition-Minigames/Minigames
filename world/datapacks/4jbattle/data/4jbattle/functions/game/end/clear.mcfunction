@@ -5,8 +5,6 @@ schedule clear 4jbattle:game/end/check
 schedule clear 4jbattle:game/death/check
 #Chests
 function 4jbattle:game/chests/clear
-#Spectate
-schedule clear 4jbattle:game/end/spectate/spectate
 
 ##Map specific schedules
 #Cove

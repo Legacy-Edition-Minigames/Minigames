@@ -1,5 +1,8 @@
-#Remove all items on ground
+##Remove all items on ground
 kill @e[type=item]
+
+##Clear specator schedule
+schedule clear 4jbattle:game/end/spectate/spectate
 
 ##End the game if there are no more rounds
 execute unless score #Store 4j.round matches 2.. run function 4jbattle:game/end/run
