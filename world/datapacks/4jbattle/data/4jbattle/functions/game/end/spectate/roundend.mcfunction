@@ -16,6 +16,12 @@ bossbar set minecraft:globalinfo name ["",{"selector":"@a[tag=Victor]"},{"text":
 ##Play sound
 execute as @a at @s run playsound minecraft:ui.toast.challenge_complete master @s
 
+##Clear showdown schedule
+schedule clear 4jbattle:game/timer/showdown/run
+
+##Enable nametags
+function 4jbattle:game/namevisibility/enable
+
 ##Check if the game should end or go to the next round
 schedule function 4jbattle:game/end/roundcheck 7s
 

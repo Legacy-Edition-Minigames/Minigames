@@ -2,4 +2,4 @@
 tellraw @a "Showdown has begun!"
 
 ##Enable nametags
-function 4jbattle:game/namevisiblity/enable
+function 4jbattle:game/namevisibility/enable
