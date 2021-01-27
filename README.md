@@ -4,7 +4,7 @@ This is an attempt to port the Battle minigame from the Legacy Editions of minec
 
 ### Installation
 
-* You need the Java to be installed before you can proceed, you can find it at [Java.com](https://www.java.com/download/manual.jsp)
+* You need Java to be installed before you can proceed, you can find it at [Java.com](https://www.java.com/download/manual.jsp)
 
 * You must get the server jar yourself, you can find it in the minecraft launcher or at [Minecraft.net](https://www.minecraft.net/en-us/download/server)
 
@@ -22,7 +22,7 @@ This is an attempt to port the Battle minigame from the Legacy Editions of minec
 
 ### Game Options
 
-* Number Of Rounds: The amount of rounds of a game that will run before being sent back to the lobby
+* Number Of Rounds: The amount of rounds of a game that will run before being sent back to the lobby (currently broken)
 
 * TP Type: 1 teleports people around the center initially, 2 teleports people to random locations
 
