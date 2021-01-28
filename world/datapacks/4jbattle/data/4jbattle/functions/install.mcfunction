@@ -1,3 +1,51 @@
+##Player ID
+scoreboard objectives add 4j.pid dummy
+
+##Elimination check
+scoreboard objectives add 4j.eliminated deathCount
+
+##Team list
+scoreboard objectives add 4j.teamlist dummy
+
+##Round number
+scoreboard objectives add 4j.round dummy
+
+##Static Round Number
+scoreboard objectives add 4j.setround dummy
+
+##Current map
+scoreboard objectives add 4j.map dummy
+
+##Lives
+scoreboard objectives add 4j.lives dummy
+
+##Teleport type
+scoreboard objectives add 4j.tp dummy
+
+##Chest type
+scoreboard objectives add 4j.chest dummy
+
+##PlayerBar
+scoreboard objectives add 4j.playerbar dummy
+
+##Relog
+scoreboard objectives add 4j.relog minecraft.custom:minecraft.leave_game
+
+##GameStatus
+scoreboard objectives add 4j.gamestatus dummy
+
+##Timer
+scoreboard objectives add 4j.timer dummy
+
+##Player requirement
+scoreboard objectives add 4j.prec dummy
+
+##Player List
+#plist
+scoreboard objectives add 4j.plist dummy
+#plist2
+scoreboard objectives add 4j.plist2 dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
@@ -86,50 +134,6 @@ bossbar add globalinfo ""
 #Hide it (TEMPORARY)
 #bossbar set minecraft:globalinfo visible true
 
-##Player ID
-scoreboard objectives add 4j.pid dummy
-
-##Elimination check
-scoreboard objectives add 4j.eliminated deathCount
-
-##Team list
-scoreboard objectives add 4j.teamlist dummy
-
-##Round number
-scoreboard objectives add 4j.round dummy
-
-##Current map
-scoreboard objectives add 4j.map dummy
-
-##Lives
-scoreboard objectives add 4j.lives dummy
-
-##Teleport type
-scoreboard objectives add 4j.tp dummy
-
-##Chest type
-scoreboard objectives add 4j.chest dummy
-
-##PlayerBar
-scoreboard objectives add 4j.playerbar dummy
-
-##Relog
-scoreboard objectives add 4j.relog minecraft.custom:minecraft.leave_game
-
-##GameStatus
-scoreboard objectives add 4j.gamestatus dummy
-
-##Timer
-scoreboard objectives add 4j.timer dummy
-
-##Player requirement
-scoreboard objectives add 4j.prec dummy
-
-##Player List
-#plist
-scoreboard objectives add 4j.plist dummy
-#plist2
-scoreboard objectives add 4j.plist2 dummy
 
 ##Simulate relog
 tag @s remove relog
