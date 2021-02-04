@@ -13,6 +13,9 @@ scoreboard players remove @s 4j.lives 1
 ##Clear inventory
 clear @s
 
+##Remove cooldown
+function 4jbattle:game/combat/cooldown
+
 ##Display lives
 tellraw @s ["",{"text":"Status:"},{"text":"\n"},{"text":"Lives left: "},{"score":{"name":"@s","objective":"4j.lives"}}]
 

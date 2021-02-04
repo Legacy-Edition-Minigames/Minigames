@@ -20,3 +20,6 @@ function 4jbattle:relog/gamecheck
 
 ##Load GlobalInfo
 function 4jbattle:game/gui/globalinfo/load
+
+##Remove cooldown
+function 4jbattle:game/combat/cooldown
