@@ -40,6 +40,12 @@ scoreboard objectives add 4j.timer dummy
 ##Player requirement
 scoreboard objectives add 4j.prec dummy
 
+##Sword Blocking
+#Right Click Detection
+scoreboard objectives add 4j.block minecraft.used:minecraft.carrot_on_a_stick
+#Holding Detection
+scoreboard objectives add 4j.blocktimer dummy
+
 ##Player List
 #plist
 scoreboard objectives add 4j.plist dummy
