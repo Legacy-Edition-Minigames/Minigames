@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "4jbattle:chest/normal/armor"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "4jbattle:chest/normal/arrows"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "4jbattle:chest/normal/potions"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "4jbattle:chest/normal/misc"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "4jbattle:chest/normal/weapons"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "4jbattle:chest/normal/food"
+        }
+      ]
+    }
+  ]
+}
