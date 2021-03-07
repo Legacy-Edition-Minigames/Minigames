@@ -32,6 +32,8 @@ This is an attempt to port the Battle minigame from the Legacy Editions of minec
 
 ### Notices
 
+This project is currently on hold until 1.17 is released!
+
 This project is far from completion! Do not expect too much in its current state!
 
 Legacy Edition Battle is currently designed for [Minecraft Java Edition 1.16.5](https://www.minecraft.net/en-us/article/minecraft-java-edition-1-16-5)
