@@ -1,3 +1,6 @@
+###This file is for debugging and that kind of stuff
+###DO NOT EXECUTE THIS FILE UNLESS YOU KNOW WHAT YOU'RE DOING!!!
+
 ##Player ID
 scoreboard objectives add 4j.pid dummy
 
@@ -45,6 +48,12 @@ scoreboard objectives add 4j.prec dummy
 scoreboard objectives add 4j.block minecraft.used:minecraft.carrot_on_a_stick
 #Holding Detection
 scoreboard objectives add 4j.blocktimer dummy
+
+##Music Timer
+scoreboard objectives add 4j.mustimer dummy
+
+##Music RNG
+scoreboard objectives add 4j.musrandom dummy
 
 ##Player List
 #plist

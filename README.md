@@ -14,6 +14,8 @@ This is an attempt to port the Battle minigame from the Legacy Editions of minec
 
 * Once you have the server jar, put it inside this folder and name it server.jar
 
+* If for whatever reason, you cant use the server options to give everyone the resource pack, it can be downloaded from [Here.](https://github.com/DBTDerpbox/LEB-Resources/releases)
+
 ### Running
 
 * For Windows users, open windows.bat
@@ -35,8 +37,6 @@ This is an attempt to port the Battle minigame from the Legacy Editions of minec
 * Chest Type: 1 is the only available option
 
 ### Notices
-
-This project is currently on hold until 1.17 is released!
 
 This project is far from completion! Do not expect too much in its current state!
 

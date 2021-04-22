@@ -337,11 +337,14 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2021-04-22 03:02:59 -0500",
       "honey_bottle": "2021-01-05 07:52:43 -0600",
+      "cooked_mutton": "2021-04-21 21:29:14 -0500",
       "cooked_beef": "2021-01-05 07:53:06 -0600",
       "apple": "2020-11-13 02:44:52 -0600",
       "pumpkin_pie": "2021-01-05 07:52:53 -0600",
       "bread": "2020-11-13 02:47:06 -0600",
+      "golden_apple": "2021-02-04 11:21:19 -0600",
       "golden_carrot": "2020-12-18 06:23:53 -0600",
       "enchanted_golden_apple": "2020-11-07 16:20:31 -0600",
       "rabbit_stew": "2021-01-05 07:52:58 -0600"
@@ -507,6 +510,12 @@
   "minecraft:recipes/decorations/furnace": {
     "criteria": {
       "has_cobblestone": "2020-12-17 06:41:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_double_plant": "2021-04-21 22:17:56 -0500"
     },
     "done": true
   },
@@ -1179,6 +1188,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2021-04-21 19:28:05 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/yellow_wool": {
     "criteria": {
       "has_white_wool": "2020-11-04 23:50:21 -0600"
@@ -1371,6 +1386,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2021-01-31 05:38:04 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
     "criteria": {
       "has_polished_andesite": "2020-11-05 13:33:19 -0600"
@@ -1533,5 +1554,5 @@
     },
     "done": true
   },
-  "DataVersion": 2584
+  "DataVersion": 2586
 }
