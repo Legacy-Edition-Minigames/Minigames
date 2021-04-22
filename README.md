@@ -28,7 +28,7 @@ This is an attempt to port the Battle minigame from the Legacy Editions of minec
 
 ### Game Options
 
-* Number Of Rounds: The amount of rounds of a game that will run before being sent back to the lobby (currently broken)
+* Number Of Rounds: The amount of rounds of a game that will run before being sent back to the lobby
 
 * TP Type: 1 teleports people around the center initially, 2 teleports people to random locations
 
