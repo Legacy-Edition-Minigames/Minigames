@@ -19,8 +19,8 @@ tag @s remove Victor
 ##Teleport
 #tp @s -350 52 -338
 
-##Clear inventory
-clear @s
+##Reset Player
+function 4jbattle:game/playerreset
 
 ##Set gamemode
 gamemode adventure @s
