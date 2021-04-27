@@ -6,17 +6,19 @@ This is an attempt to port the Battle minigame from the Legacy Editions of minec
 
 [![forthebadge](https://forthebadge.com/images/badges/contains-tasty-spaghetti-code.svg)](https://forthebadge.com) ![Powered By Nostalgia](https://img.shields.io/badge/Powered_by-Nostalgia-e49454?style=for-the-badge)
 
-### Installation
+### Preperation
 
 * You need Java to be installed before you can proceed, you can find it at [Java.com](https://www.java.com/download/manual.jsp)
 
-* You must get the server jar yourself, you can find it in the minecraft launcher or at [Minecraft.net](https://www.minecraft.net/en-us/download/server)
+### Installation
 
-* Once you have the server jar, put it inside this folder and name it server.jar
+* Click on [`⤓ Code`](https://github.com/DBTDerpbox/Legacy-Edition-Battle/archive/refs/heads/main.zip) at the top and download as zip.
+
+* Extract the zip folder
 
 * If for whatever reason, you cant use the server options to give everyone the resource pack, it can be downloaded from [Here.](https://github.com/DBTDerpbox/LEB-Resources/releases)
 
-### Running
+### Executing
 
 * For Windows users, open windows.bat
 
@@ -25,6 +27,14 @@ This is an attempt to port the Battle minigame from the Legacy Editions of minec
 * For Linux users, run linux.sh. You might need to run chmod +x linux.sh before you have permission to run it.
 
 * Once you have started the server, you must op the user that will be the host with /op username
+
+### Connecting
+
+* For you, the user hosting the server, connect to the address `localhost` in Multiplayer
+
+* If you only want users on your local network to connect, give them your local ip and have them connect to that
+
+* If you want someone from outside your local network to connect, you will need to port forward port `25565` and give the them your public ip to connect to
 
 ### Game Options
 
