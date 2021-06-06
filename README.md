@@ -2,7 +2,7 @@
 
 This is an attempt to port the Battle minigame from the Legacy Editions of minecraft
 
-![Minecraft Version](https://img.shields.io/badge/Minecraft-1.16.5-80ba42?style=for-the-badge) ![License](https://img.shields.io/github/license/DBTDerpbox/legacy-edition-battle?style=for-the-badge) ![Last Commit](https://img.shields.io/github/last-commit/dbtderpbox/legacy-edition-battle?style=for-the-badge)
+![Minecraft Version](https://img.shields.io/badge/Minecraft-1.17-80ba42?style=for-the-badge) ![License](https://img.shields.io/github/license/DBTDerpbox/legacy-edition-battle?style=for-the-badge) ![Last Commit](https://img.shields.io/github/last-commit/dbtderpbox/legacy-edition-battle/1.17?style=for-the-badge)
 
 [![forthebadge](https://forthebadge.com/images/badges/contains-tasty-spaghetti-code.svg)](https://forthebadge.com) ![Powered By Nostalgia](https://img.shields.io/badge/Powered_by-Nostalgia-e49454?style=for-the-badge)
 
@@ -40,4 +40,4 @@ This is an attempt to port the Battle minigame from the Legacy Editions of minec
 
 This project is far from completion! Do not expect too much in its current state!
 
-Legacy Edition Battle is currently designed for [Minecraft Java Edition 1.16.5](https://www.minecraft.net/en-us/article/minecraft-java-edition-1-16-5)
+Legacy Edition Battle is currently designed for [Minecraft Java Edition 1.17](https://www.minecraft.net/en-us/article/minecraft-java-edition-1-17)
