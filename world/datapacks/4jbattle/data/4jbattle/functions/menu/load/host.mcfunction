@@ -13,7 +13,18 @@ scoreboard players reset @a 4j.pid
 execute as @a run function 4jbattle:game/player/setpid
 
 ##Temporary GUI
-tellraw @s ["",{"text":"[Number Of Rounds - ","color":"blue","clickEvent":{"action":"suggest_command","value":"/scoreboard players set #Store 4j.setround count"}},{"score":{"name":"#Store","objective":"4j.setround"},"color":"green","clickEvent":{"action":"suggest_command","value":"/scoreboard players set #Store 4j.setround count"}},{"text":"]","color":"blue","clickEvent":{"action":"suggest_command","value":"/scoreboard players set #Store 4j.setround count"}},{"text":"\n"},{"text":"[TP Type - ","color":"blue","clickEvent":{"action":"suggest_command","value":"/scoreboard players set #Store 4j.tp 1-2"}},{"score":{"name":"#Store","objective":"4j.tp"},"color":"green","clickEvent":{"action":"suggest_command","value":"/scoreboard players set #Store 4j.tp 1-2"}},{"text":"]","color":"blue","clickEvent":{"action":"suggest_command","value":"/scoreboard players set #Store 4j.tp 1-2"}},{"text":"\n"},{"text":"[Lives Count -","color":"blue","clickEvent":{"action":"suggest_command","value":"/scoreboard players set #Store 4j.lives count"}},{"score":{"name":"#Store","objective":"4j.lives"},"color":"green","clickEvent":{"action":"suggest_command","value":"/scoreboard players set #Store 4j.lives count"}},{"text":"]","color":"blue","clickEvent":{"action":"suggest_command","value":"/scoreboard players set #Store 4j.lives count"}},{"text":"\n"},{"text":"[Chest Type -","color":"blue","clickEvent":{"action":"suggest_command","value":"/scoreboard players set #Store 4j.chest 1-2"}},{"score":{"name":"#Store","objective":"4j.chest"},"color":"green","clickEvent":{"action":"suggest_command","value":"/scoreboard players set #Store 4j.chest 1-2"}},{"text":"]","color":"blue","clickEvent":{"action":"suggest_command","value":"/scoreboard players set #Store 4j.chest 1-2"}},{"text":"\n"},{"text":"[Crucible] ","color":"blue","clickEvent":{"action":"run_command","value":"/scoreboard players set #Store 4j.map 1"}},{"text":"[Cove] ","color":"blue","clickEvent":{"action":"run_command","value":"/scoreboard players set #Store 4j.map 2"}},{"text":"[Cavern] ","color":"blue","clickEvent":{"action":"run_command","value":"/scoreboard players set #Store 4j.map 3"}},{"text":"\n"},{"text":"[Start]","color":"blue","clickEvent":{"action":"run_command","value":"/execute as @a run function 4jbattle:lobby/start"}}]
+#Rounds
+function 4jbattle:menu/load/host/round/run
+#TP
+function 4jbattle:menu/load/host/tp/run
+#Lives
+function 4jbattle:menu/load/host/lives/run
+#Chest type
+function 4jbattle:menu/load/host/chest/run
+#Map
+function 4jbattle:menu/load/host/map/run
+#Start Button
+tellraw @s ["","\n",{"text":"[Start]","color":"blue","clickEvent":{"action":"run_command","value":"/execute as @a run function 4jbattle:lobby/start"}}]
 
 ##Set GlobalInfo
 bossbar set minecraft:globalinfo name "Please wait for Host"
