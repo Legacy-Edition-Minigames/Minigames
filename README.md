@@ -12,7 +12,7 @@ This is an attempt to port the Battle minigame from the Legacy Editions of minec
 
 ### Installation
 
-* Click on [`⤓ Code`](https://github.com/DBTDerpbox/Legacy-Edition-Battle/archive/refs/heads/main.zip) at the top and download as zip.
+* Click on [`⤓ Code`](https://github.com/DBTDerpbox/Legacy-Edition-Battle/archive/refs/heads/testing.zip) at the top and download as zip.
 
 * Extract the zip folder
 
