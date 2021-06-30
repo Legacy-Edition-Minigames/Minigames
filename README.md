@@ -24,8 +24,6 @@ This is an attempt to port the Battle minigame from the Legacy Editions of minec
 
 * For Linux users, run linux.sh. You might need to run chmod +x linux.sh before you have permission to run it.
 
-* Once you have started the server, you must op the user that will be the host with /op username
-
 ### Game Options
 
 * Number Of Rounds: The amount of rounds of a game that will run before being sent back to the lobby

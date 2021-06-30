@@ -61,6 +61,9 @@ scoreboard objectives add 4j.plist dummy
 #plist2
 scoreboard objectives add 4j.plist2 dummy
 
+##Menu Config trigger
+scoreboard objectives add 4j.gamecfg trigger
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
