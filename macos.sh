@@ -26,7 +26,7 @@ if [[ -e eula.txt ]]; then
     ##If the server.jar file could not be found, download it
   else
     echo "Server jar could not be found! Downloading it now..."
-    wget https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar
+    wget https://launcher.mojang.com/v1/objects/0a269b5f2c5b93b1712d0f5dc43b6182b9ab254e/server.jar
     ##If the server.jar file is found, start Minecraft
     if [[ -e server.jar ]]; then
       echo "Server jar downloaded successfully! Starting Minecraft..."
