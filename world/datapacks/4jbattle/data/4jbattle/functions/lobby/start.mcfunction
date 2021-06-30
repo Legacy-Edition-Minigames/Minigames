@@ -15,3 +15,6 @@ function 4jbattle:lobby/timer/check
 
 ##Check for Host
 function 4jbattle:host/check
+
+##Load Configure trigger
+function 4jbattle:menu/configure/runner

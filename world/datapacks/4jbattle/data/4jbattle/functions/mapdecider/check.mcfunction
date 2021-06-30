@@ -1,6 +1,9 @@
 ##Stop checking for host
 schedule clear 4jbattle:host/check
 
+##Stop checking for gamecfg
+schedule clear 4jbattle:menu/configure/runner
+
 ##Start Music
 #Set MusTimer
 scoreboard players set @a 4j.mustimer 0
