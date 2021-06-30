@@ -26,8 +26,6 @@ This is an attempt to port the Battle minigame from the Legacy Editions of minec
 
 * For Linux users, run linux.sh. You might need to run chmod +x linux.sh before you have permission to run it.
 
-* Once you have started the server, you must op the user that will be the host with /op username
-
 ### Connecting
 
 * For you, the user hosting the server, connect to the address `localhost` in Multiplayer
