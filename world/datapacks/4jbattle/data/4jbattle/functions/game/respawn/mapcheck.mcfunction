@@ -1,3 +1,6 @@
+##Respawn in crucible if it is the selected map
+execute if score #Store 4j.map matches 1 run function 4jbattle:crucible/join/respawn
+
 ##Respawn in cove if it is the selected map
 execute if score #Store 4j.map matches 2 run function 4jbattle:cove/join/respawn
 
