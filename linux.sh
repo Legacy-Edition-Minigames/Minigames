@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 
 ##Check if the EULA has been agreed to
 if [[ -e eula.txt ]]; then
