@@ -14,6 +14,8 @@ function 4jbattle:game/music/runner
 scoreboard players operation #Store 4j.round = #Store 4j.setround
 
 ##Load map
+#Crucible
+execute if score #Store 4j.map matches 1 run function 4jbattle:mapdecider/crucible/load
 #Cove
 execute if score #Store 4j.map matches 2 run function 4jbattle:mapdecider/cove/load
 
