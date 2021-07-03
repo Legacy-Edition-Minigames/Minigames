@@ -6,13 +6,17 @@ This is an attempt to port the Battle minigame from the Legacy Editions of minec
 
 [![forthebadge](https://forthebadge.com/images/badges/contains-tasty-spaghetti-code.svg)](https://forthebadge.com) ![Powered By Nostalgia](https://img.shields.io/badge/Powered_by-Nostalgia-e49454?style=for-the-badge)
 
+If you just want to play the game, you can connect to `leb.derpbox.dev` in multiplayer on Java Edition.
+
+If you want to create your own LEB server, keep reading.
+
 ### Preperation
 
-* You need Java to be installed before you can proceed, you can find it at [Java.com](https://www.java.com/download/manual.jsp)
+* You need Java 16 to be installed before you can proceed, you can find it at [Oracle.com](https://www.oracle.com/java/technologies/javase-jdk16-downloads.html)
 
 ### Installation
 
-* Click on [`⤓ Code`](https://github.com/DBTDerpbox/Legacy-Edition-Battle/archive/refs/heads/testing.zip) at the top and download as zip.
+* Click on [`⤓ Code`](https://github.com/DBTDerpbox/Legacy-Edition-Battle/archive/refs/heads/main.zip) at the top and download as zip.
 
 * Extract the zip folder
 
@@ -20,7 +24,13 @@ This is an attempt to port the Battle minigame from the Legacy Editions of minec
 
 ### Executing
 
-* For Windows users, open windows.bat
+#### Windows
+
+* You must get the server jar yourself, you can find it in the minecraft launcher or at [Minecraft.net](https://www.minecraft.net/en-us/download/server)
+
+* Once you have the server jar, put it inside this folder and name it server.jar
+
+#### MacOS and Linux
 
 * For MacOS users, run macos.sh. You might need to run chmod a+x macos.sh before you have permission to run it.
 
