@@ -6,6 +6,10 @@ This is an attempt to port the Battle minigame from the Legacy Editions of minec
 
 [![forthebadge](https://forthebadge.com/images/badges/contains-tasty-spaghetti-code.svg)](https://forthebadge.com) ![Powered By Nostalgia](https://img.shields.io/badge/Powered_by-Nostalgia-e49454?style=for-the-badge)
 
+If you just want to play the game, you can connect to `leb.derpbox.dev` in multiplayer on Java Edition.
+
+If you want to create your own LEB server, keep reading.
+
 ### Installation
 
 * You need Java to be installed before you can proceed, you can find it at [Java.com](https://www.java.com/download/manual.jsp)
