@@ -14,7 +14,6 @@ tag @s add lobby
 
 ##Disable FriendlyFire
 function 4jbattle:game/damage/disable
-execute as @a run attribute @s minecraft:generic.attack_damage base set -100
 
 ##Remove Victor tag
 tag @s remove Victor

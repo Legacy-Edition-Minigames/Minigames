@@ -23,3 +23,6 @@ function 4jbattle:game/gui/globalinfo/load
 
 ##Remove cooldown
 function 4jbattle:game/combat/cooldown
+
+##Disable FriendlyFire
+execute as @a run attribute @s minecraft:generic.attack_damage base set -100

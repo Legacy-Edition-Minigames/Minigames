@@ -5,3 +5,6 @@ gamerule fallDamage false
 gamerule fireDamage false
 #Disable Drowning damage
 gamerule drowningDamage false
+
+##Disable FriendlyFire
+execute as @a run attribute @s minecraft:generic.attack_damage base set -100

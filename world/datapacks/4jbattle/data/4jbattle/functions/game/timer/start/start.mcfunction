@@ -10,9 +10,6 @@ function 4jbattle:game/timer/start/count
 ##Freeze players in 10 ticks
 schedule function 4jbattle:game/setup/freeze/check 10t
 
-##Disable FriendlyFire
-execute as @a run attribute @s minecraft:generic.attack_damage base set -100
-
 ##Disable Damage
 function 4jbattle:game/damage/disable
 
