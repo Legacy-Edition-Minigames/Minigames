@@ -16,4 +16,3 @@ clear @s
 
 ##Set lives
 scoreboard players operation @s 4j.lives = #Store 4j.lives
-say game
