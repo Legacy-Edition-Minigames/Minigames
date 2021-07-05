@@ -14,7 +14,7 @@ function 4jbattle:game/setup/freeze/stop
 bossbar set minecraft:globalinfo name "The game has started!"
 
 ##Play sound
-execute as @a at @s run playsound minecraft:block.bell.use block @s ~ ~ ~ 1 0.8
+execute as @a at @s run playsound 4jbattle:sound.game.count2 master @s ~ ~ ~ 9999999
 
 ##Run invulnerability timer
 schedule function 4jbattle:game/timer/invulnerability/start 1s

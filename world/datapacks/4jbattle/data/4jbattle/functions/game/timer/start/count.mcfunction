@@ -11,4 +11,4 @@ execute if score #Store 4j.timer matches 1 run schedule function 4jbattle:game/t
 bossbar set minecraft:globalinfo name ["",{"text":"Time to start: "},{"score":{"name":"#Store","objective":"4j.timer"}},{"text":" seconds."}]
 
 ##Play Sound
-execute if score #Store 4j.timer matches 1..5 as @a at @s run playsound minecraft:block.note_block.cow_bell block @s ~ ~ ~ 999999
+execute if score #Store 4j.timer matches 1..5 as @a at @s run playsound 4jbattle:sound.game.count1 master @s ~ ~ ~ 999999

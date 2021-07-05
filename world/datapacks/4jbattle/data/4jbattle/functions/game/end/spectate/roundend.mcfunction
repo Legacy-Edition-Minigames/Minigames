@@ -14,7 +14,9 @@ effect give @a[tag=Victor] resistance 7 255
 bossbar set minecraft:globalinfo name ["",{"selector":"@a[tag=Victor]"},{"text":" has won!"}]
 
 ##Play sound
-execute as @a at @s run playsound minecraft:ui.toast.challenge_complete master @s
+execute as @a[tag=!Victor] at @s run playsound 4jbattle:sound.game.end master @s ~ ~ ~ 99999999
+execute as @a[tag=Victor] at @s run playsound 4jbattle:sound.game.win master @s ~ ~ ~ 99999999
+#execute as @a at @s run playsound minecraft:ui.toast.challenge_complete master @s
 
 ##Clear showdown schedule
 schedule clear 4jbattle:game/timer/showdown/run

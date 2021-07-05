@@ -11,4 +11,4 @@ bossbar set minecraft:globalinfo name ["",{"text":"Game starting in "},{"score":
 execute if score #Store 4j.timer matches 0 run function 4jbattle:mapdecider/check
 
 ##Play Sound
-execute if score #Store 4j.timer matches 1..5 as @a at @s run playsound minecraft:block.note_block.banjo record @s ~ ~ ~ 999999
+function 4jbattle:lobby/timer/run/sound
