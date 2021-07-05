@@ -28,8 +28,11 @@ execute as @s[scores={4j.gamecfg=9}] run function 4jbattle:menu/load/host/map/se
 ##Set Map to Cove if score is set to 10
 execute as @s[scores={4j.gamecfg=10}] run function 4jbattle:menu/load/host/map/setcove
 
-##Start game is score is set to 11
-execute as @s[scores={4j.gamecfg=11}] run function 4jbattle:menu/load/host/start
+##Set Map to Cavern if score is set to 11
+execute as @s[scores={4j.gamecfg=11}] run function 4jbattle:menu/load/host/map/setcavern
+
+##Start game is score is set to 12
+execute as @s[scores={4j.gamecfg=12}] run function 4jbattle:menu/load/host/start
 
 ##Reset score
 scoreboard players reset @s 4j.gamecfg

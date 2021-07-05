@@ -9,3 +9,6 @@ execute if score #Store 4j.map matches 1 run function 4jbattle:game/nextround/cr
 
 ##Load cove
 execute if score #Store 4j.map matches 2 run function 4jbattle:game/nextround/cove
+
+##Load cavern
+execute if score #Store 4j.map matches 3 run function 4jbattle:game/nextround/cavern

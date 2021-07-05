@@ -18,6 +18,8 @@ scoreboard players operation #Store 4j.round = #Store 4j.setround
 execute if score #Store 4j.map matches 1 run function 4jbattle:mapdecider/crucible/load
 #Cove
 execute if score #Store 4j.map matches 2 run function 4jbattle:mapdecider/cove/load
+#Cavern
+execute if score #Store 4j.map matches 3 run function 4jbattle:mapdecider/cavern/load
 
 ##Stop timer check
 schedule clear 4jbattle:lobby/timer/run/check

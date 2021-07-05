@@ -3,3 +3,5 @@
 execute if score #Store 4j.map matches 1 run function 4jbattle:crucible/setup/teleport/surround
 ##Cove
 execute if score #Store 4j.map matches 2 run function 4jbattle:cove/setup/teleport/surround
+##Cavern
+execute if score #Store 4j.map matches 3 run function 4jbattle:cavern/setup/teleport/surround
