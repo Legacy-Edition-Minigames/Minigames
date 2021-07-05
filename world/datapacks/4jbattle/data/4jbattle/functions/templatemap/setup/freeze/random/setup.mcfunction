@@ -17,4 +17,4 @@ execute as @e[type=area_effect_cloud,tag=RandomTP,sort=random,limit=1] at @s run
 execute as @e[type=area_effect_cloud,tag=RandomTP,sort=random,limit=1] at @s run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:240,Tags:[F-RTP-8]}
 
 ##Freeze
-function 4jbattle:crucible/setup/freeze/random/run
+function 4jbattle:templatemap/setup/freeze/random/run

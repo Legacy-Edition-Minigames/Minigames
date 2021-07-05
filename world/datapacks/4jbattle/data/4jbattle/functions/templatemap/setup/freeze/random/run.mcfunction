@@ -16,4 +16,4 @@ tp @a[scores={4j.pid=7}] @e[type=area_effect_cloud,tag=F-RTP-7,sort=random,limit
 #Player 8
 tp @a[scores={4j.pid=8}] @e[type=area_effect_cloud,tag=F-RTP-8,sort=random,limit=1]
 
-schedule function 4jbattle:crucible/setup/freeze/random/run 1t
+schedule function 4jbattle:templatemap/setup/freeze/random/run 1t
