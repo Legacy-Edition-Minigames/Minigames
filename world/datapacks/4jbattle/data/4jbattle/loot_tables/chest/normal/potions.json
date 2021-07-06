@@ -42,7 +42,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:swiftness\"}"
+              "tag": "{display:{Name:'[{\"text\":\"Potion of Swiftness\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:1b,Amplifier:0b,Duration:400}],Potion:\"minecraft:water\"}"
             }
           ],
           "conditions": [
@@ -58,7 +58,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:fire_resistance\"}"
+              "tag": "{display:{Name:'[{\"text\":\"Potion of Fire Resistance\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:12b,Amplifier:0b,Duration:400}],Potion:\"minecraft:water\"}"
             }
           ],
           "conditions": [
@@ -74,7 +74,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:invisibility\"}"
+              "tag": "{display:{Name:'[{\"text\":\"Potion of Invisibility\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:14b,Amplifier:0b,Duration:400}],Potion:\"minecraft:water\"}"
             }
           ],
           "conditions": [
@@ -90,7 +90,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:strength\"}"
+              "tag": "{display:{Name:'[{\"text\":\"Potion of Strength\",\"italic\":false},{\"text\":\" (0:10)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:5b,Amplifier:0b,Duration:200}],Potion:\"minecraft:water\"}"
             }
           ],
           "conditions": [
@@ -106,7 +106,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:regeneration\"}"
+              "tag": "{display:{Name:'[{\"text\":\"Potion of Regeneration\",\"italic\":false},{\"text\":\" (0:15)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:10b,Amplifier:0b,Duration:300}],Potion:\"minecraft:water\"}"
             }
           ],
           "conditions": [
@@ -154,7 +154,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:poison\"}"
+              "tag": "{display:{Name:'[{\"text\":\"Splash Potion of Poison\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:19b,Amplifier:1b,Duration:140}],Potion:\"minecraft:water\"}"
             }
           ],
           "conditions": [
@@ -170,7 +170,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:slowness\"}"
+              "tag": "{display:{Name:'[{\"text\":\"Splash Potion of Slowness\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:2b,Amplifier:0b,Duration:140}],Potion:\"minecraft:water\"}"
             }
           ],
           "conditions": [
@@ -186,7 +186,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:weakness\"}"
+              "tag": "{display:{Name:'[{\"text\":\"Splash Potion of Weakness\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:18b,Amplifier:0b,Duration:140}],Potion:\"minecraft:water\"}"
             }
           ],
           "conditions": [
