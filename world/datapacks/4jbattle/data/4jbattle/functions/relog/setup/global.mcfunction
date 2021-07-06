@@ -25,4 +25,4 @@ function 4jbattle:game/gui/globalinfo/load
 function 4jbattle:game/combat/cooldown
 
 ##Disable FriendlyFire
-execute as @a run attribute @s minecraft:generic.attack_damage base set -100
+execute as @s run attribute @s minecraft:generic.attack_damage base set -100

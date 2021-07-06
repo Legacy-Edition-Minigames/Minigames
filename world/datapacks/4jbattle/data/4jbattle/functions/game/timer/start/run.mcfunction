@@ -21,3 +21,6 @@ schedule function 4jbattle:game/timer/invulnerability/start 1s
 
 ##Fill chests
 function 4jbattle:game/chests/start
+
+##Remove combat cooldown
+execute as @a run function 4jbattle:game/combat/cooldown
