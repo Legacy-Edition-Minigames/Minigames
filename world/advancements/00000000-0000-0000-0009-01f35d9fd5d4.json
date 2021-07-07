@@ -191,12 +191,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/oak_sign": {
-    "criteria": {
-      "has_oak_planks": "2020-11-15 02:49:01 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/stick": {
     "criteria": {
       "has_planks": "2020-11-15 02:49:01 -0600"
@@ -239,5 +233,5 @@
     },
     "done": true
   },
-  "DataVersion": 2584
+  "DataVersion": 2724
 }
