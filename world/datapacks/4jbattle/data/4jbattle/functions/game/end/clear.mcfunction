@@ -7,6 +7,8 @@ schedule clear 4jbattle:game/death/check
 function 4jbattle:game/chests/clear
 #Potion checks
 schedule clear 4jbattle:game/potion/runner
+##Extras
+schedule function 4jbattle:game/end/clearextras 1s
 
 ##Map specific schedules
 #Cove

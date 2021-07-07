@@ -13,3 +13,6 @@ execute if score @s 4j.musrandom matches 2 run function 4jbattle:game/music/vani
 execute if score @s 4j.musrandom matches 3 run function 4jbattle:game/music/vanilla/battle3
 #Battle4
 execute if score @s 4j.musrandom matches 4 run function 4jbattle:game/music/vanilla/battle4
+
+##Debug Info
+tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Picking song for ","color":"gold"},{"selector":"@s","color":"yellow"}]

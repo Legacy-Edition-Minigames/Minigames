@@ -55,6 +55,9 @@ scoreboard objectives add 4j.mustimer dummy
 ##Music RNG
 scoreboard objectives add 4j.musrandom dummy
 
+##Last song
+scoreboard objectives add 4j.muslast dummy
+
 ##Player List
 #plist
 scoreboard objectives add 4j.plist dummy

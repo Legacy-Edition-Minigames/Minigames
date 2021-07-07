@@ -2,7 +2,7 @@
 scoreboard players set #Store 4j.gamestatus 0
 
 ##Stop Lobby check
-schedule clear 4jbattle:lobby/timer/run/check
+schedule clear 4jbattle:lobby/timer/check
 
 ##Reset all PID
 #Reset stored PID
