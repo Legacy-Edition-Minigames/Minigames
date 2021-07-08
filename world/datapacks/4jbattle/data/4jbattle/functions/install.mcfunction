@@ -67,6 +67,15 @@ scoreboard objectives add 4j.plist2 dummy
 ##Menu Config trigger
 scoreboard objectives add 4j.gamecfg trigger
 
+##Map voting trigger
+scoreboard objectives add 4j.playermapvote trigger
+
+##Map enable toggle
+scoreboard objectives add 4j.enablemap dummy
+
+##Enabled map count
+scoreboard objectives add 4j.mapcount dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

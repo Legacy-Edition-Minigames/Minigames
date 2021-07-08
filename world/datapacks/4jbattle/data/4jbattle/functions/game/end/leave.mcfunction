@@ -7,6 +7,9 @@ scoreboard players reset @s 4j.lives
 ##Reset gamecfg
 scoreboard players reset @s 4j.gamecfg
 
+##Reset map vote
+scoreboard players reset @s 4j.playermapvote
+
 ##Remove tag
 tag @s remove player
 tag @s remove spectator

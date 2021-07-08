@@ -12,8 +12,14 @@ scoreboard players reset @a 4j.pid
 #Player
 execute as @a run function 4jbattle:game/player/setpid
 
+##Load defaults
+function 4jbattle:menu/load/host/defaults
+
 ##Temporary GUI
 function 4jbattle:menu/load/host/gui
+
+##Hide sidebar
+scoreboard objectives setdisplay sidebar
 
 ##Set GlobalInfo
 bossbar set minecraft:globalinfo name "Please wait for Host"

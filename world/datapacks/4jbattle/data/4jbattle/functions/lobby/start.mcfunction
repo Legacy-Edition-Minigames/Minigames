@@ -18,3 +18,9 @@ function 4jbattle:host/check
 
 ##Load Configure trigger
 function 4jbattle:menu/configure/runner
+
+##Reset players
+function 4jbattle:game/playerreset
+
+##Loadmap voting
+function 4jbattle:mapdecider/vote/load

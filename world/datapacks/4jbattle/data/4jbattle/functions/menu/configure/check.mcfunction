@@ -23,16 +23,20 @@ execute as @s[scores={4j.gamecfg=7}] run function 4jbattle:menu/load/host/lives/
 execute as @s[scores={4j.gamecfg=8}] run function 4jbattle:menu/load/host/chest/setstandard
 
 ##Set Map to Crucible if score is set to 9
-execute as @s[scores={4j.gamecfg=9}] run function 4jbattle:menu/load/host/map/setcrucible
+#execute as @s[scores={4j.gamecfg=9}] run function 4jbattle:menu/load/host/map/setcrucible
 
 ##Set Map to Cove if score is set to 10
-execute as @s[scores={4j.gamecfg=10}] run function 4jbattle:menu/load/host/map/setcove
+#execute as @s[scores={4j.gamecfg=10}] run function 4jbattle:menu/load/host/map/setcove
 
 ##Set Map to Cavern if score is set to 11
-execute as @s[scores={4j.gamecfg=11}] run function 4jbattle:menu/load/host/map/setcavern
+#execute as @s[scores={4j.gamecfg=11}] run function 4jbattle:menu/load/host/map/setcavern
 
-##Start game is score is set to 12
-execute as @s[scores={4j.gamecfg=12}] run function 4jbattle:menu/load/host/start
+##Start game is score is set to 9
+execute as @s[scores={4j.gamecfg=9}] run function 4jbattle:menu/load/host/start
+
+##Map settings
+execute as @s[scores={4j.gamecfg=10..}] if score #Store 4j.gamestatus matches 0 run function 4jbattle:menu/configure/map
+execute as @s[scores={4j.gamecfg=10..}] if score #Store 4j.gamestatus matches 1.. run tellraw @s {"text":"You cannot change enabled maps when the game is already started!","color":"red"}
 
 ##Reset score
 scoreboard players reset @s 4j.gamecfg

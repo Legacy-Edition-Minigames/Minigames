@@ -26,3 +26,6 @@ function 4jbattle:game/combat/cooldown
 
 ##Disable FriendlyFire
 execute as @s run attribute @s minecraft:generic.attack_damage base set -100
+
+##Load MapDecider
+execute if score #Store 4j.gamestatus matches 1 run function 4jbattle:mapdecider/vote/join
