@@ -1,3 +1,6 @@
+##Set default gamemode
+gamemode adventure @s
+
 ##Remove tags
 tag @s remove host
 tag @s remove player
