@@ -76,6 +76,9 @@ scoreboard objectives add 4j.enablemap dummy
 ##Enabled map count
 scoreboard objectives add 4j.mapcount dummy
 
+##Builder Mode exit option
+scoreboard objectives add 4j.buildexit minecraft.used:minecraft.carrot_on_a_stick
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
