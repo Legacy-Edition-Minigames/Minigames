@@ -1,0 +1,17 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:wooden_sword"
+      },
+      "title": "The student...",
+      "description": "Win a battle mini game.",
+      "frame": "task"
+    },
+    "parent": "4jbattle:root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

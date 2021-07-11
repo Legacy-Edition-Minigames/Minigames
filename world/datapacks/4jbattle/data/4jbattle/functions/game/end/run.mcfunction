@@ -1,5 +1,7 @@
 ##Clear
 #schedule function 4jbattle:game/end/clear 2t
+##Determine Winner
+function 4jbattle:game/end/winner
 
 ##Send all players to lobby
 execute as @a run function 4jbattle:game/end/leave

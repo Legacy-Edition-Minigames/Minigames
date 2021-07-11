@@ -7,6 +7,9 @@ function 4jbattle:game/end/check
 ##Handle Potion checks
 function 4jbattle:game/potion/runner
 
+##Check for Achievements
+function 4jbattle:game/achievement/check
+
 ##Unfreeze players
 function 4jbattle:game/setup/freeze/stop
 

@@ -1,6 +1,9 @@
 ##Decide Victor
 tag @a[tag=player] add Victor
 
+##Add score
+scoreboard players add @a[tag=Victor] 4j.score 1
+
 ##Spectate Victor
 function 4jbattle:game/end/spectate/spectate
 

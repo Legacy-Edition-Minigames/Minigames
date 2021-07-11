@@ -9,6 +9,14 @@ function 4jbattle:game/chests/clear
 schedule clear 4jbattle:game/potion/runner
 ##Extras
 schedule function 4jbattle:game/end/clearextras 1s
+##Achievements
+schedule clear 4jbattle:game/achievement/check
+
+##Clear Scores
+#Cupid
+scoreboard players reset @a 4j.cupid
+#Scratch
+scoreboard players reset @s 4j.scratch
 
 ##Map specific schedules
 #Cove

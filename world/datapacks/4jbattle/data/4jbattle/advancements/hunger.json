@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:apple"
+    },
+    "title": "Hunger Pain",
+    "description": "Kill a player while you are starving in a Battle mini game.",
+    "frame": "task"
+  },
+  "parent": "4jbattle:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

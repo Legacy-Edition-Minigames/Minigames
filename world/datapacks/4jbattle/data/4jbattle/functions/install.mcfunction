@@ -85,6 +85,24 @@ scoreboard objectives add 4j.setmaptype dummy
 ##Map Type
 scoreboard objectives add 4j.maptype dummy
 
+##Score
+scoreboard objectives add 4j.score dummy
+
+##Win Streak
+scoreboard objectives add 4j.winstreak dummy
+
+##Achivement kill count
+scoreboard objectives add 4j.kill playerKillCount
+
+##Kill Count
+scoreboard objectives add 4j.killcount playerKillCount
+
+##Cupid achivement
+scoreboard objectives add 4j.cupid dummy
+
+##Tis but a scratch achivement
+scoreboard objectives add 4j.scratch minecraft.custom:minecraft.damage_taken
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

@@ -1,0 +1,17 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:diamond_sword"
+      },
+      "title": "...has become the master",
+      "description": "Win 3 battle games in a row.",
+      "frame": "challenge"
+    },
+    "parent": "4jbattle:student",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  
