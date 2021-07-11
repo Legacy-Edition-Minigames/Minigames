@@ -11,11 +11,11 @@ execute as @e[type=bat,tag=spawnrandomtp] at @s run function 4jbattle:build/spaw
 ##Remove tool
 execute as @e[type=bat,tag=removeaec] at @s run function 4jbattle:build/removeaec
 
-##Exit option
-execute as @a[scores={4j.buildexit=1..},nbt={SelectedItem:{tag:{BuilderMode:1}}}] run function 4jbattle:build/stop
-
 ##Display particles
 function 4jbattle:build/particle
 
 ##Loop
 schedule function 4jbattle:build/check 5t
+
+##Exit option
+execute as @a[scores={4j.buildexit=1..},nbt={SelectedItem:{tag:{BuilderMode:1}}}] run function 4jbattle:build/stop
