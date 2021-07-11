@@ -7,3 +7,12 @@ execute if score #Store 4j.map matches 2 run function 4jbattle:cove/setup/freeze
 
 ##Cavern
 execute if score #Store 4j.map matches 3 run function 4jbattle:cavern/setup/freeze/surround
+
+##Crucible Cove
+execute if score #Store 4j.map matches 4 run function 4jbattle:crucible_small/setup/freeze/surround
+
+##Small Cove
+execute if score #Store 4j.map matches 5 run function 4jbattle:cove_small/setup/freeze/surround
+
+##Small Cavern
+execute if score #Store 4j.map matches 6 run function 4jbattle:cavern_small/setup/freeze/surround
