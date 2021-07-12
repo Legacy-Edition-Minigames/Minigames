@@ -46,5 +46,11 @@ execute as @s[scores={4j.gamecfg=11}] run function 4jbattle:menu/load/host/map/s
 #Large
 execute as @s[scores={4j.gamecfg=12}] run function 4jbattle:menu/load/host/map/setlarge
 
+##Enable glowing if set to 13
+execute as @s[scores={4j.gamecfg=13}] run function 4jbattle:menu/load/host/showdown/glow/enable
+
+##Diable glowing if set to 14
+execute as @s[scores={4j.gamecfg=14}] run function 4jbattle:menu/load/host/showdown/glow/disable
+
 ##Reset score
 scoreboard players reset @s 4j.gamecfg

@@ -10,6 +10,9 @@ scoreboard players set #Store 4j.lives 1
 ##Set Chest type
 scoreboard players set #Store 4j.chest 1
 
+##Set glowing setting
+scoreboard players set #Store 4j.glow 1
+
 ##Enable maps
 #Crucible
 scoreboard players set #Crucible 4j.enablemap 1

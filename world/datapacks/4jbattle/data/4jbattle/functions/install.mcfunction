@@ -103,6 +103,9 @@ scoreboard objectives add 4j.cupid dummy
 ##Tis but a scratch achivement
 scoreboard objectives add 4j.scratch minecraft.custom:minecraft.damage_taken
 
+##Glowing Setting
+scoreboard objectives add 4j.glow dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

@@ -11,6 +11,8 @@ schedule clear 4jbattle:game/potion/runner
 schedule function 4jbattle:game/end/clearextras 1s
 ##Achievements
 schedule clear 4jbattle:game/achievement/check
+##Showdown
+schedule clear 4jbattle:game/showdown/check
 
 ##Clear Scores
 #Cupid
