@@ -5,7 +5,7 @@ scoreboard players set #Store 4j.gamestatus 0
 schedule clear 4jbattle:lobby/timer/check
 
 ##Teleport
-tp @s -427 50 -353 0 0
+tp @s -342 57 -341
 
 ##Summon menu (unused)
 #kill @e[type=armor_stand,tag=guitest]
