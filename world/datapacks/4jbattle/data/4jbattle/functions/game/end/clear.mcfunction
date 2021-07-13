@@ -13,6 +13,8 @@ schedule function 4jbattle:game/end/clearextras 1s
 schedule clear 4jbattle:game/achievement/check
 ##Showdown
 schedule clear 4jbattle:game/showdown/check
+##Small Inventory
+schedule clear 4jbattle:game/inventory/check
 
 ##Clear Scores
 #Cupid

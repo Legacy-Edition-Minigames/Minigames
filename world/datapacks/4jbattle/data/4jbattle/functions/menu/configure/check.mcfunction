@@ -52,5 +52,11 @@ execute as @s[scores={4j.gamecfg=13}] run function 4jbattle:menu/load/host/showd
 ##Diable glowing if set to 14
 execute as @s[scores={4j.gamecfg=14}] run function 4jbattle:menu/load/host/showdown/glow/disable
 
+##Disable Small Inventory if set to 15
+execute as @s[scores={4j.gamecfg=15}] run function 4jbattle:menu/load/host/inventory/disable
+
+##Enable Small Inventory if set to 16
+execute as @s[scores={4j.gamecfg=16}] run function 4jbattle:menu/load/host/inventory/enable
+
 ##Reset score
 scoreboard players reset @s 4j.gamecfg

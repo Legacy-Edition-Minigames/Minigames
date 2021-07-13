@@ -15,3 +15,6 @@ function 4jbattle:game/damage/disable
 
 ##Start showdown timer
 function 4jbattle:game/timer/showdown/start
+
+##Enable small inventory if set to
+execute if score #Store 4j.smallinv matches 1 run function 4jbattle:game/inventory/start

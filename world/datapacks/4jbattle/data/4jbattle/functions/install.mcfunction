@@ -106,6 +106,9 @@ scoreboard objectives add 4j.scratch minecraft.custom:minecraft.damage_taken
 ##Glowing Setting
 scoreboard objectives add 4j.glow dummy
 
+##Small inventory setting
+scoreboard objectives add 4j.smallinv dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
