@@ -4,6 +4,13 @@ scoreboard players set #Store 4j.gamestatus 0
 ##Stop Lobby check
 schedule clear 4jbattle:lobby/timer/check
 
+##Teleport
+tp @s -427 50 -353 0 0
+
+##Summon menu (unused)
+#kill @e[type=armor_stand,tag=guitest]
+#summon armor_stand -426.504 51.35 -352.1 {NoGravity:1b,Invisible:1b,Tags:["guitest"],DisabledSlots:1052688,Rotation:[180F,0F],ArmorItems:[{},{},{},{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:2}}]}
+
 ##Reset all PID
 #Reset stored PID
 scoreboard players reset #Store 4j.pid
