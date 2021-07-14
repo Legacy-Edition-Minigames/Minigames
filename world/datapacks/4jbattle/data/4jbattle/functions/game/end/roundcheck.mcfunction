@@ -1,6 +1,10 @@
 ##Remove all items on ground
 kill @e[type=item]
 
+##Remove all arrows
+kill @e[type=arrow]
+kill @e[type=spectral_arrow]
+
 ##Clear specator schedule
 schedule clear 4jbattle:game/end/spectate/spectate
 
