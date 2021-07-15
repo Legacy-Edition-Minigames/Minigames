@@ -109,6 +109,12 @@ scoreboard objectives add 4j.glow dummy
 ##Small inventory setting
 scoreboard objectives add 4j.smallinv dummy
 
+##Spectator type
+scoreboard objectives add 4j.spectype dummy
+
+##Get Player Head
+scoreboard objectives add 4j.gethead dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
@@ -180,6 +186,12 @@ team add lobby
 team modify lobby color green
 #Disable FriendlyFire
 team modify lobby friendlyFire false
+
+##Team nocollision
+#Create
+team add nocollision
+#Disable Collision
+team modify nocollision collisionRule never
 
 ##PushDown Bossbar
 #Create

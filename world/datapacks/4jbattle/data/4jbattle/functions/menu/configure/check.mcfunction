@@ -58,5 +58,20 @@ execute as @s[scores={4j.gamecfg=15}] run function 4jbattle:menu/load/host/inven
 ##Enable Small Inventory if set to 16
 execute as @s[scores={4j.gamecfg=16}] run function 4jbattle:menu/load/host/inventory/enable
 
+##Set spectator mob as none if set to 17
+execute as @s[scores={4j.gamecfg=17}] run function 4jbattle:menu/load/host/spectator/setinvis
+
+##Set spectator mob as bat if set to 18
+execute as @s[scores={4j.gamecfg=18}] run function 4jbattle:menu/load/host/spectator/setbat
+
+##Set spectator mob as parrot if set to 19
+execute as @s[scores={4j.gamecfg=19}] run function 4jbattle:menu/load/host/spectator/setparrot
+
+##Set spectator mob as vex if set to 20
+execute as @s[scores={4j.gamecfg=20}] run function 4jbattle:menu/load/host/spectator/setvex
+
+##Set spectator mob as head if set to 21
+execute as @s[scores={4j.gamecfg=21}] run function 4jbattle:menu/load/host/spectator/sethead
+
 ##Reset score
 scoreboard players reset @s 4j.gamecfg

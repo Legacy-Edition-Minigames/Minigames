@@ -27,3 +27,6 @@ function 4jbattle:game/chests/start
 
 ##Remove combat cooldown
 execute as @a run function 4jbattle:game/combat/cooldown
+
+##Start spectator check
+execute positioned -343 4 -342 run function 4jbattle:game/spectator/start

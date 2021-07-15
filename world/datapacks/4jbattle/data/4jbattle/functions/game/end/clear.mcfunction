@@ -15,6 +15,8 @@ schedule clear 4jbattle:game/achievement/check
 schedule clear 4jbattle:game/showdown/check
 ##Small Inventory
 schedule clear 4jbattle:game/inventory/check
+##Spectator check
+function 4jbattle:game/spectator/stop
 
 ##Clear Scores
 #Cupid

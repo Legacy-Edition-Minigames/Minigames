@@ -6,6 +6,8 @@ function 4jbattle:menu/load/host/tp/run
 function 4jbattle:menu/load/host/lives/run
 #Chest type
 function 4jbattle:menu/load/host/chest/run
+#Spectator settings
+function 4jbattle:menu/load/host/spectator/run
 #Showdown settings
 function 4jbattle:menu/load/host/showdown/run
 #Map
