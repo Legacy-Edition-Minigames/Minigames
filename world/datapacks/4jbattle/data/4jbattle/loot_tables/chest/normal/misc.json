@@ -31,8 +31,12 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:tnt",
+          "name": "minecraft:ghast_spawn_egg",
           "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CanPlaceOn:[\"#4jbattle:all_blocks\"],display:{Name:'{\"text\":\"TNT\",\"italic\":false}'},HideFlags:16,CustomModelData:4,EntityTag:{id:\"minecraft:marker\",Tags:[\"spawntnt\"]}}"
+            },
             {
               "function": "minecraft:set_count",
               "count": 3

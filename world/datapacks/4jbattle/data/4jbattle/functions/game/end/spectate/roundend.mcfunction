@@ -37,3 +37,6 @@ schedule function 4jbattle:game/globalinfo/hide 7s
 
 ##Reset playerbar
 schedule function 4jbattle:game/gui/playerbar/load 7s
+
+##Stop TNT Check
+schedule function 4jbattle:game/tnt/stop 8s
