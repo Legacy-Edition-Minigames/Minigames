@@ -115,6 +115,9 @@ scoreboard objectives add 4j.spectype dummy
 ##Get Player Head
 scoreboard objectives add 4j.gethead dummy
 
+##Visual time
+scoreboard objectives add 4j.vistime dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

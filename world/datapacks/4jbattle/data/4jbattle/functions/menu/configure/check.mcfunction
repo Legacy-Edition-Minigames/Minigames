@@ -73,5 +73,17 @@ execute as @s[scores={4j.gamecfg=20}] run function 4jbattle:menu/load/host/spect
 ##Set spectator mob as head if set to 21
 execute as @s[scores={4j.gamecfg=21}] run function 4jbattle:menu/load/host/spectator/sethead
 
+##Set time to day
+execute as @s[scores={4j.gamecfg=22}] run function 4jbattle:menu/load/host/time/setday
+
+##Set time to noon
+execute as @s[scores={4j.gamecfg=23}] run function 4jbattle:menu/load/host/time/setnoon
+
+##Set time to night
+execute as @s[scores={4j.gamecfg=24}] run function 4jbattle:menu/load/host/time/setnight
+
+##Set time to midnight
+execute as @s[scores={4j.gamecfg=25}] run function 4jbattle:menu/load/host/time/setmidnight
+
 ##Reset score
 scoreboard players reset @s 4j.gamecfg

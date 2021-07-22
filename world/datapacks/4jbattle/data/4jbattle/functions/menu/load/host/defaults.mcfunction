@@ -30,5 +30,11 @@ scoreboard players set #Store 4j.setmaptype 1
 ##Set mapcount
 scoreboard players set #Store 4j.mapcount 3
 
+##Visual time
+#Score
+scoreboard players set #Store 4j.vistime 2
+#Set time
+time set noon
+
 ##Set small inventory
 scoreboard players set #Store 4j.smallinv 1
