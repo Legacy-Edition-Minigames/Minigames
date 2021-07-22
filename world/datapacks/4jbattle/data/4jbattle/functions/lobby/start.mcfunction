@@ -24,3 +24,6 @@ function 4jbattle:game/playerreset
 
 ##Loadmap voting
 function 4jbattle:mapdecider/vote/load
+
+##Reset world back
+function 4jbattle:lobby/reset
