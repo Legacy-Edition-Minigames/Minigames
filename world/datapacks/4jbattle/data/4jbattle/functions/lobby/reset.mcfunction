@@ -56,20 +56,20 @@ setblock -347 69 -367 minecraft:oak_trapdoor[facing=west,half=top,open=false]
 #Fishing
 data merge block -355 52 -333 {Items:[{Count:1b,Slot:0b,id:"minecraft:fishing_rod",tag:{Damage:0}},{Count:1b,Slot:1b,id:"minecraft:fishing_rod",tag:{Damage:0}},{Count:1b,Slot:2b,id:"minecraft:fishing_rod",tag:{Damage:0}},{Count:1b,Slot:3b,id:"minecraft:fishing_rod",tag:{Damage:0}},{Count:1b,Slot:4b,id:"minecraft:fishing_rod",tag:{Damage:0}},{Count:1b,Slot:5b,id:"minecraft:fishing_rod",tag:{Damage:0}},{Count:1b,Slot:6b,id:"minecraft:fishing_rod",tag:{Damage:0}},{Count:1b,Slot:7b,id:"minecraft:fishing_rod",tag:{Damage:0}},{Count:1b,Slot:8b,id:"minecraft:fishing_rod",tag:{Damage:0}}]}
 #Nether tower
-data merge block -371 55 -310 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_disc_ward",tag:{CanPlaceOn:["minecraft:air"],HideFlags:16}}]}
+data merge block -371 55 -310 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_disc_ward",tag:{CanPlaceOn:["#4jbattle:all_blocks"],HideFlags:16}}]}
 data merge block -352 39 -293 {Items:[{Count:1b,Slot:3b,id:"minecraft:wither_skeleton_skull"},{Count:1b,Slot:4b,id:"minecraft:wither_skeleton_skull"},{Count:1b,Slot:5b,id:"minecraft:wither_skeleton_skull"},{Count:1b,Slot:12b,id:"minecraft:wither_skeleton_skull"},{Count:1b,Slot:13b,id:"minecraft:wither_skeleton_skull"},{Count:1b,Slot:14b,id:"minecraft:wither_skeleton_skull"},{Count:1b,Slot:21b,id:"minecraft:wither_skeleton_skull"},{Count:1b,Slot:22b,id:"minecraft:wither_skeleton_skull"},{Count:1b,Slot:23b,id:"minecraft:wither_skeleton_skull"}]}
 #Archery
 data merge block -352 55 -353 {Items:[{Count:1b,Slot:0b,id:"minecraft:bow",tag:{Damage:0}},{Count:1b,Slot:1b,id:"minecraft:bow",tag:{Damage:0}},{Count:1b,Slot:2b,id:"minecraft:bow",tag:{Damage:0}},{Count:1b,Slot:3b,id:"minecraft:bow",tag:{Damage:0}},{Count:1b,Slot:4b,id:"minecraft:bow",tag:{Damage:0}},{Count:1b,Slot:5b,id:"minecraft:bow",tag:{Damage:0}},{Count:1b,Slot:6b,id:"minecraft:bow",tag:{Damage:0}},{Count:1b,Slot:7b,id:"minecraft:bow",tag:{Damage:0}},{Count:1b,Slot:8b,id:"minecraft:bow",tag:{Damage:0}},{Count:64b,Slot:9b,id:"minecraft:arrow"},{Count:64b,Slot:10b,id:"minecraft:arrow"},{Count:64b,Slot:11b,id:"minecraft:arrow"},{Count:64b,Slot:12b,id:"minecraft:arrow"},{Count:64b,Slot:13b,id:"minecraft:arrow"},{Count:64b,Slot:14b,id:"minecraft:arrow"},{Count:64b,Slot:15b,id:"minecraft:arrow"},{Count:64b,Slot:16b,id:"minecraft:arrow"},{Count:64b,Slot:17b,id:"minecraft:arrow"}]}
 #Water tower
-data merge block -371 76 -372 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_disc_far",tag:{CanPlaceOn:["minecraft:air"],HideFlags:16}}]}
-data merge block -339 48 -381 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_disc_wait",tag:{CanPlaceOn:["minecraft:air"],HideFlags:16}}]}
+data merge block -371 76 -372 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_disc_far",tag:{CanPlaceOn:["#4jbattle:all_blocks"],HideFlags:16}}]}
+data merge block -339 48 -381 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_disc_wait",tag:{CanPlaceOn:["#4jbattle:all_blocks"],HideFlags:16}}]}
 #top right roof
-data merge block -302 77 -317 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_disc_mall",tag:{CanPlaceOn:["minecraft:air"],HideFlags:16}}]}
+data merge block -302 77 -317 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_disc_mall",tag:{CanPlaceOn:["#4jbattle:all_blocks"],HideFlags:16}}]}
 #I dont know what to name these
-data merge block -328 56 -362 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_disc_stal",tag:{CanPlaceOn:["minecraft:air"],HideFlags:16}}]}
-data merge block -324 58 -318 {Count:1b,Slot:4b,id:"minecraft:music_disc_strad",tag:{CanPlaceOn:["minecraft:air"],HideFlags:16}}
-data merge block -341 70 -370 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_disc_chirp",tag:{CanPlaceOn:["minecraft:air"],HideFlags:16}}]}
-data merge block -350 71 -312 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_disc_cat",tag:{CanPlaceOn:["minecraft:air"],HideFlags:16}}]}
+data merge block -328 56 -362 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_disc_stal",tag:{CanPlaceOn:["#4jbattle:all_blocks"],HideFlags:16}}]}
+data merge block -324 58 -318 {Count:1b,Slot:4b,id:"minecraft:music_disc_strad",tag:{CanPlaceOn:["#4jbattle:all_blocks"],HideFlags:16}}
+data merge block -341 70 -370 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_disc_chirp",tag:{CanPlaceOn:["#4jbattle:all_blocks"],HideFlags:16}}]}
+data merge block -350 71 -312 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_disc_cat",tag:{CanPlaceOn:["#4jbattle:all_blocks"],HideFlags:16}}]}
 
 ##Noteblocks
 fill -345 54 -342 -345 54 -340 minecraft:note_block[note=0]
