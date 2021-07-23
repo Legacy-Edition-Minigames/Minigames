@@ -67,7 +67,7 @@ data merge block -339 48 -381 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_dis
 data merge block -302 77 -317 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_disc_mall",tag:{CanPlaceOn:["#4jbattle:all_blocks"],HideFlags:16}}]}
 #I dont know what to name these
 data merge block -328 56 -362 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_disc_stal",tag:{CanPlaceOn:["#4jbattle:all_blocks"],HideFlags:16}}]}
-data merge block -324 58 -318 {Count:1b,Slot:4b,id:"minecraft:music_disc_strad",tag:{CanPlaceOn:["#4jbattle:all_blocks"],HideFlags:16}}
+data merge block -324 58 -318 {Items:[{Count:1b,Slot:4b,id:"minecraft:music_disc_strad",tag:{CanPlaceOn:["#4jbattle:all_blocks"],HideFlags:16}}]}
 data merge block -341 70 -370 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_disc_chirp",tag:{CanPlaceOn:["#4jbattle:all_blocks"],HideFlags:16}}]}
 data merge block -350 71 -312 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_disc_cat",tag:{CanPlaceOn:["#4jbattle:all_blocks"],HideFlags:16}}]}
 
