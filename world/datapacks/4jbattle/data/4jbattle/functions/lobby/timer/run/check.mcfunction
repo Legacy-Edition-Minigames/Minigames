@@ -6,3 +6,6 @@ execute unless score #Store 4j.plist >= #Store 4j.prec run function 4jbattle:lob
 
 ##Count down if there are enough players
 execute if score #Store 4j.plist >= #Store 4j.prec run function 4jbattle:lobby/timer/run/count
+
+##Run ready check
+function 4jbattle:lobby/ready/check

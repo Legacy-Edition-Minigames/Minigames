@@ -1,17 +1,35 @@
-##Set player playerbars
+##Set player playerbars (Ready)
 #1
-scoreboard players set @s[scores={4j.pid=1}] 4j.playerbar 1
+execute if entity @s[tag=ready] run scoreboard players set @s[scores={4j.pid=1}] 4j.playerbar 2
 #2
-scoreboard players set @s[scores={4j.pid=2}] 4j.playerbar 2
+execute if entity @s[tag=ready] run scoreboard players set @s[scores={4j.pid=2}] 4j.playerbar 2
 #3
-scoreboard players set @s[scores={4j.pid=3}] 4j.playerbar 3
+execute if entity @s[tag=ready] run scoreboard players set @s[scores={4j.pid=3}] 4j.playerbar 2
 #4
-scoreboard players set @s[scores={4j.pid=4}] 4j.playerbar 4
+execute if entity @s[tag=ready] run scoreboard players set @s[scores={4j.pid=4}] 4j.playerbar 2
 #5
-scoreboard players set @s[scores={4j.pid=5}] 4j.playerbar 5
+execute if entity @s[tag=ready] run scoreboard players set @s[scores={4j.pid=5}] 4j.playerbar 2
 #6
-scoreboard players set @s[scores={4j.pid=6}] 4j.playerbar 6
+execute if entity @s[tag=ready] run scoreboard players set @s[scores={4j.pid=6}] 4j.playerbar 2
 #7
-scoreboard players set @s[scores={4j.pid=7}] 4j.playerbar 7
+execute if entity @s[tag=ready] run scoreboard players set @s[scores={4j.pid=7}] 4j.playerbar 2
 #8
-scoreboard players set @s[scores={4j.pid=8}] 4j.playerbar 8
+execute if entity @s[tag=ready] run scoreboard players set @s[scores={4j.pid=8}] 4j.playerbar 2
+
+##Set player playerbars (Not Ready)
+#1
+execute if entity @s[tag=notready] run scoreboard players set @s[scores={4j.pid=1}] 4j.playerbar 1
+#2
+execute if entity @s[tag=notready] run scoreboard players set @s[scores={4j.pid=2}] 4j.playerbar 1
+#3
+execute if entity @s[tag=notready] run scoreboard players set @s[scores={4j.pid=3}] 4j.playerbar 1
+#4
+execute if entity @s[tag=notready] run scoreboard players set @s[scores={4j.pid=4}] 4j.playerbar 1
+#5
+execute if entity @s[tag=notready] run scoreboard players set @s[scores={4j.pid=5}] 4j.playerbar 1
+#6
+execute if entity @s[tag=notready] run scoreboard players set @s[scores={4j.pid=6}] 4j.playerbar 1
+#7
+execute if entity @s[tag=notready] run scoreboard players set @s[scores={4j.pid=7}] 4j.playerbar 1
+#8
+execute if entity @s[tag=notready] run scoreboard players set @s[scores={4j.pid=8}] 4j.playerbar 1

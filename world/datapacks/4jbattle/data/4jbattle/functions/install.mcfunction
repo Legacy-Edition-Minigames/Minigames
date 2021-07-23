@@ -118,6 +118,12 @@ scoreboard objectives add 4j.gethead dummy
 ##Visual time
 scoreboard objectives add 4j.vistime dummy
 
+##Carrot on a stick detection
+scoreboard objectives add 4j.coas minecraft.used:carrot_on_a_stick
+
+##Ready detection
+scoreboard objectives add 4j.ready dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

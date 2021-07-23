@@ -10,6 +10,14 @@ scoreboard players set #Store 4j.gamestatus 1
 ##Set GlobalInfo
 bossbar set minecraft:globalinfo name "1 or more additional players are required to start the round..."
 
+##Mark everyone as not ready
+#Remove ready tag
+tag @a remove ready
+#Add notready tag
+tag @a add notready
+#playerbar score
+scoreboard players set @s 4j.playerbar 1
+
 ##Start timer
 function 4jbattle:lobby/timer/check
 

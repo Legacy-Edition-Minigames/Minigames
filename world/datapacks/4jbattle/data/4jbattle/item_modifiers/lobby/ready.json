@@ -1,0 +1,7 @@
+[
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{display:{Name:'[{\"text\":\"Ready\",\"color\":\"green\",\"bold\":true,\"italic\":false},{\"text\":\" (Right Click)\",\"color\":\"gray\",\"bold\":false,\"italic\":false}]'},CustomModelData:4,ReadyCOAS:1}"
+    }
+  ]
+  

@@ -11,6 +11,10 @@ tag @s remove spectator
 tag @s remove lobby
 tag @s remove Victor
 tag @s remove Winner
+tag @s remove ready
+
+##Add notready tag
+tag @s add notready
 
 ##Leave team
 team leave @s
