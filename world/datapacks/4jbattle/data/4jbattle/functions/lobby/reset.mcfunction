@@ -70,6 +70,7 @@ data merge block -328 56 -362 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_dis
 data merge block -324 58 -318 {Items:[{Count:1b,Slot:4b,id:"minecraft:music_disc_strad",tag:{CanPlaceOn:["#4jbattle:all_blocks"],HideFlags:16}}]}
 data merge block -341 70 -370 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_disc_chirp",tag:{CanPlaceOn:["#4jbattle:all_blocks"],HideFlags:16}}]}
 data merge block -350 71 -312 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_disc_cat",tag:{CanPlaceOn:["#4jbattle:all_blocks"],HideFlags:16}}]}
+data merge block -337 76 -311 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_disc_blocks",tag:{CanPlaceOn:["#4jbattle:all_blocks"],HideFlags:16}}]}
 
 ##Noteblocks
 fill -345 54 -342 -345 54 -340 minecraft:note_block[note=0]
