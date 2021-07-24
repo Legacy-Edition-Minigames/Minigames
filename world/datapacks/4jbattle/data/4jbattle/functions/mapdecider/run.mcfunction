@@ -31,6 +31,10 @@ execute if score #Store 4j.maptype matches 2 if score #Cove 4j.enablemap matches
 execute if score #Store 4j.maptype matches 1 if score #Cavern 4j.enablemap matches 1 if score §aCavern 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 6
 #Cavern
 execute if score #Store 4j.maptype matches 2 if score #Cavern 4j.enablemap matches 1 if score §aCavern 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 3
+#Small Frontier
+execute if score #Store 4j.maptype matches 1 if score #Frontier 4j.enablemap matches 1 if score §aFrontier 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 8
+#Large Frontier
+execute if score #Store 4j.maptype matches 2 if score #Frontier 4j.enablemap matches 1 if score §aFrontier 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 7
 
 ##Stop vote check
 schedule clear 4jbattle:mapdecider/vote/check

@@ -16,5 +16,12 @@ execute if score #Store 4j.map matches 5 run function 4jbattle:cove_small/join/r
 ##Respawn in Small Cavern if it is the selected map
 execute if score #Store 4j.map matches 6 run function 4jbattle:cavern_small/join/respawn
 
+##Respawn in Large Frontier if it is the selected map
+execute if score #Store 4j.map matches 7 run function 4jbattle:frontier/join/respawn
+
+##Respawn in Small Frontier if it is the selected map
+execute if score #Store 4j.map matches 8 run function 4jbattle:frontier/join/respawn
+
+
 ##Debug message
 tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Respawning player","color":"gold"}]

@@ -21,3 +21,9 @@ execute if score #Store 4j.map matches 5 run function 4jbattle:game/nextround/co
 
 ##Load small cavern
 execute if score #Store 4j.map matches 6 run function 4jbattle:game/nextround/cavern_small
+
+##Load Large Frontier
+execute if score #Store 4j.map matches 7 run function 4jbattle:game/nextround/frontier
+
+##Load Small Frontier
+execute if score #Store 4j.map matches 8 run function 4jbattle:game/nextround/frontier_small

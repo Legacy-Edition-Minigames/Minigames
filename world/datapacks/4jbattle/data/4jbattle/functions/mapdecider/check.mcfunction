@@ -26,7 +26,10 @@ execute if score #Store 4j.maptype matches 2 if score #Cove 4j.enablemap matches
 execute if score #Store 4j.maptype matches 1 if score #Cavern 4j.enablemap matches 1 if score #Store 4j.map matches 6 run function 4jbattle:mapdecider/cavern/loadsmall
 #Cavern
 execute if score #Store 4j.maptype matches 2 if score #Cavern 4j.enablemap matches 1 if score #Store 4j.map matches 3 run function 4jbattle:mapdecider/cavern/load
-
+#Small Frontier
+execute if score #Store 4j.maptype matches 1 if score #Frontier 4j.enablemap matches 1 if score #Store 4j.map matches 8 run function 4jbattle:mapdecider/frontier/loadsmall
+#Large Frontier
+execute if score #Store 4j.maptype matches 2 if score #Frontier 4j.enablemap matches 1 if score #Store 4j.map matches 7 run function 4jbattle:mapdecider/frontier/load
 
 ##Stop timer check
 schedule clear 4jbattle:lobby/timer/run/check

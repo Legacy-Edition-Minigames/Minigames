@@ -7,3 +7,6 @@ tag @s remove votecove
 
 ##Cavern
 tag @s remove votecavern
+
+##Frontier
+tag @s remove votefrontier

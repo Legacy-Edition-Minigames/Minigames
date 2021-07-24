@@ -17,3 +17,9 @@ execute if score #Store 4j.map matches 5 run function 4jbattle:cove_small/setup/
 
 ##Small Cavern
 execute if score #Store 4j.map matches 6 run function 4jbattle:cavern_small/setup/teleport/surround
+
+##Large Frontier
+execute if score #Store 4j.map matches 7 run function 4jbattle:frontier/setup/teleport/surround
+
+##Small Frontier
+execute if score #Store 4j.map matches 8 run function 4jbattle:frontier_small/setup/teleport/surround

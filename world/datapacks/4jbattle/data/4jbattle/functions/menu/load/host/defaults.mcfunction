@@ -23,12 +23,14 @@ scoreboard players set #Crucible 4j.enablemap 1
 scoreboard players set #Cove 4j.enablemap 1
 #Cavern
 scoreboard players set #Cavern 4j.enablemap 1
+#Frontier
+scoreboard players set #Frontier 4j.enablemap 1
 
 ##Default Map Type
 scoreboard players set #Store 4j.setmaptype 1
 
 ##Set mapcount
-scoreboard players set #Store 4j.mapcount 3
+scoreboard players set #Store 4j.mapcount 4
 
 ##Visual time
 #Score

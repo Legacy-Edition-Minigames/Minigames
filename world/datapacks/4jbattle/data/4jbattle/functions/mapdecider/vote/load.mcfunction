@@ -16,6 +16,8 @@ execute if score #Crucible 4j.enablemap matches 1 run scoreboard players set §a
 execute if score #Cove 4j.enablemap matches 1 run scoreboard players set §aCove 4j.mapvote 0
 #Cavern
 execute if score #Cavern 4j.enablemap matches 1 run scoreboard players set §aCavern 4j.mapvote 0
+#Frontier
+execute if score #Frontier 4j.enablemap matches 1 run scoreboard players set §aFrontier 4j.mapvote 0
 
 ##Start runner
 function 4jbattle:mapdecider/vote/check
