@@ -24,7 +24,7 @@ function 4jbattle:game/custom/stop
 #Cupid
 scoreboard players reset @a 4j.cupid
 #Scratch
-scoreboard players reset @s 4j.scratch
+scoreboard players reset @a 4j.scratch
 
 ##Map specific schedules
 #Cove
