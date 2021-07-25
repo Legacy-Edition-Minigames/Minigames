@@ -23,3 +23,12 @@ execute if score #Store 4j.map matches 7 run function 4jbattle:frontier/setup/te
 
 ##Small Frontier
 execute if score #Store 4j.map matches 8 run function 4jbattle:frontier_small/setup/teleport/surround
+
+##Remastered Crucible
+execute if score #Store 4j.map matches 9 run function 4jbattle:crucible_remastered/setup/teleport/surround
+
+##Remastered Cove
+execute if score #Store 4j.map matches 10 run function 4jbattle:cove_remastered/setup/teleport/surround
+
+##Remastered Cavern
+execute if score #Store 4j.map matches 11 run function 4jbattle:cavern_remastered/setup/teleport/surround

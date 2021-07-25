@@ -27,3 +27,12 @@ execute if score #Store 4j.map matches 7 run function 4jbattle:game/nextround/fr
 
 ##Load Small Frontier
 execute if score #Store 4j.map matches 8 run function 4jbattle:game/nextround/frontier_small
+
+##Load Remastered Crucible
+execute if score #Store 4j.map matches 9 run function 4jbattle:game/nextround/crucible_remastered
+
+##Load Remastered Cove
+execute if score #Store 4j.map matches 10 run function 4jbattle:game/nextround/cove_remastered
+
+##Load Remastered Cavern
+execute if score #Store 4j.map matches 11 run function 4jbattle:game/nextround/cavern_remastered

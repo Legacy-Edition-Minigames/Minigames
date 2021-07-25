@@ -18,3 +18,9 @@ execute as @s[scores={4j.gamecfg=1005}] run function 4jbattle:menu/load/host/map
 
 ##Enable Cavern if set to 1006
 execute as @s[scores={4j.gamecfg=1006}] run function 4jbattle:menu/load/host/map/cavern/enable
+
+##Disable Frontier if set to 1007
+execute as @s[scores={4j.gamecfg=1007}] run function 4jbattle:menu/load/host/map/frontier/disable
+
+##Enable Frontier if set to 1008
+execute as @s[scores={4j.gamecfg=1008}] run function 4jbattle:menu/load/host/map/frontier/enable

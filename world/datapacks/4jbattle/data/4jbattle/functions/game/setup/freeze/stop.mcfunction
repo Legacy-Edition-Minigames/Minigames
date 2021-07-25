@@ -15,6 +15,13 @@ execute if score #Store 4j.map matches 6 run schedule clear 4jbattle:cavern_smal
 execute if score #Store 4j.map matches 7 run schedule clear 4jbattle:frontier/setup/freeze/surround
 #Small Frontier
 execute if score #Store 4j.map matches 8 run schedule clear 4jbattle:frontier_small/setup/freeze/surround
+#Remastered Crucible
+execute if score #Store 4j.map matches 9 run schedule clear 4jbattle:crucible_remastered/setup/freeze/surround
+#Remastered Cove
+execute if score #Store 4j.map matches 10 run schedule clear 4jbattle:cove_remastered/setup/freeze/surround
+#Remastered Cavern
+execute if score #Store 4j.map matches 11 run schedule clear 4jbattle:cavern_remastered/setup/freeze/surround
+
 
 ##Stop random
 schedule clear 4jbattle:game/setup/freeze/random/run

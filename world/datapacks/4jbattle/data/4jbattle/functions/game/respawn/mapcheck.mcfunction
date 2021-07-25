@@ -22,6 +22,14 @@ execute if score #Store 4j.map matches 7 run function 4jbattle:frontier/join/res
 ##Respawn in Small Frontier if it is the selected map
 execute if score #Store 4j.map matches 8 run function 4jbattle:frontier/join/respawn
 
+##Respawn in Remastered Crucible if it is the selected map
+execute if score #Store 4j.map matches 9 run function 4jbattle:crucible_remastered/join/respawn
+
+##Respawn in Remastered Cove if it is the selected map
+execute if score #Store 4j.map matches 10 run function 4jbattle:cove_remastered/join/respawn
+
+##Respawn in Remastered Cavern if it is the selected map
+execute if score #Store 4j.map matches 11 run function 4jbattle:cavern_remastered/join/respawn
 
 ##Debug message
 tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Respawning player","color":"gold"}]

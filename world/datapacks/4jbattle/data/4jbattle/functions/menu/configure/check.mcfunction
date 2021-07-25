@@ -45,6 +45,8 @@ execute as @s[scores={4j.gamecfg=10}] run function 4jbattle:menu/load/host/map/s
 execute as @s[scores={4j.gamecfg=11}] run function 4jbattle:menu/load/host/map/setsmall
 #Large
 execute as @s[scores={4j.gamecfg=12}] run function 4jbattle:menu/load/host/map/setlarge
+#Remastered
+execute as @s[scores={4j.gamecfg=26}] run function 4jbattle:menu/load/host/map/setremastered
 
 ##Enable glowing if set to 13
 execute as @s[scores={4j.gamecfg=13}] run function 4jbattle:menu/load/host/showdown/glow/enable
