@@ -20,4 +20,4 @@ function 4jbattle:game/timer/showdown/start
 execute if score #Store 4j.smallinv matches 1 run function 4jbattle:game/inventory/start
 
 ##Set all playerbars to full
-scoreboard players set @a 4j.playerbar 2
+scoreboard players set @a 4j.playerbar 3

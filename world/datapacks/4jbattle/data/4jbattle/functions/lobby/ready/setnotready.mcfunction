@@ -8,7 +8,7 @@ tag @s add notready
 item modify entity @s weapon.mainhand 4jbattle:lobby/notready
 
 ##Set PlayerBar
-scoreboard players set @s 4j.playerbar 1
+scoreboard players set @s 4j.playerbar 2
 
 ##Reset scores
 #coas

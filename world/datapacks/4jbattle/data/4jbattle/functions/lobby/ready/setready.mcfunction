@@ -8,7 +8,7 @@ tag @s add ready
 item modify entity @s weapon.mainhand 4jbattle:lobby/ready
 
 ##Set PlayerBar
-scoreboard players set @s 4j.playerbar 2
+scoreboard players set @s 4j.playerbar 3
 
 ##Reset score
 #coas

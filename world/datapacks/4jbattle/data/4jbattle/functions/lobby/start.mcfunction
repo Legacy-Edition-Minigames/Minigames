@@ -16,7 +16,7 @@ tag @a remove ready
 #Add notready tag
 tag @a add notready
 #playerbar score
-scoreboard players set @s 4j.playerbar 1
+scoreboard players set @s 4j.playerbar 2
 
 ##Start timer
 function 4jbattle:lobby/timer/check
