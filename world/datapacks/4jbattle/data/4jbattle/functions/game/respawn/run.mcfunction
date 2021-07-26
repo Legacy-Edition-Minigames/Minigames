@@ -20,4 +20,4 @@ function 4jbattle:game/combat/cooldown
 tellraw @s ["",{"text":"Status:"},{"text":"\n"},{"text":"Lives left: "},{"score":{"name":"@s","objective":"4j.lives"}}]
 
 ##Debug message
-tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Remastered Cove: Player respawned","color":"gold"}]
+tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Respawning player","color":"gold"}]
