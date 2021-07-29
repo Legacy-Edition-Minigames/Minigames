@@ -1,7 +1,13 @@
 {
+  "4jbattle:scratch": {
+    "criteria": {
+      "requirement": "2021-07-29 12:55:35 -0500"
+    },
+    "done": true
+  },
   "4jbattle:root": {
     "criteria": {
-      "requirement": "2021-07-25 04:11:53 -0500"
+      "requirement": "2021-07-27 23:17:03 -0500"
     },
     "done": true
   },
