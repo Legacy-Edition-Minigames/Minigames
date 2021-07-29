@@ -124,6 +124,39 @@ scoreboard objectives add 4j.coas minecraft.used:carrot_on_a_stick
 ##Ready detection
 scoreboard objectives add 4j.ready dummy
 
+##Hungerbar
+scoreboard objectives add 4j.hungerbar1 dummy
+scoreboard objectives add 4j.hungerbar2 dummy
+scoreboard objectives add 4j.hungerbar3 dummy
+scoreboard objectives add 4j.hungerbar4 dummy
+scoreboard objectives add 4j.hungerbar5 dummy
+scoreboard objectives add 4j.hungerbar6 dummy
+scoreboard objectives add 4j.hungerbar7 dummy
+scoreboard objectives add 4j.hungerbar8 dummy
+scoreboard objectives add 4j.hungerbar9 dummy
+scoreboard objectives add 4j.hungerbar10 dummy
+
+##Raw Hunger
+scoreboard objectives add 4j.rawhunger food
+
+##Raw hunger saturation
+scoreboard objectives add 4j.rawhungersat dummy
+
+##Raw health
+scoreboard objectives add 4j.rawhealth health
+
+##Hunger temp
+scoreboard objectives add 4j.hungertemp dummy
+
+##Hunger """Saturation"""
+scoreboard objectives add 4j.hungersat dummy
+
+##Hunger option
+scoreboard objectives add 4j.hungertype dummy
+
+##Heal timer
+scoreboard objectives add 4j.healtimer dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

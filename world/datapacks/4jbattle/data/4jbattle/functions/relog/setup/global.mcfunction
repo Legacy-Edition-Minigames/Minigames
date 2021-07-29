@@ -12,6 +12,12 @@ tag @s remove lobby
 tag @s remove Victor
 tag @s remove Winner
 tag @s remove ready
+tag @s remove hungertemp
+tag @s remove fullhunger
+tag @s remove midhunger
+tag @s remove lowhunger
+tag @s remove healtemp
+tag @s remove fullhungerinit
 
 ##Add notready tag
 tag @s add notready
@@ -43,6 +49,12 @@ clear @s
 
 ##Load MapDecider
 execute if score #Store 4j.gamestatus matches 1 run function 4jbattle:mapdecider/vote/join
+
+##Clear hunger display
+function 4jbattle:game/hunger/cleardisplay
+
+##Load hunger
+execute if score #Store 4j.gamestatus matches 2 run function 4jbattle:game/hunger/join
 
 ##Reset score
 scoreboard players reset @s 4j.score

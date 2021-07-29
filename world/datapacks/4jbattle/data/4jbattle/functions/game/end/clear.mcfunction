@@ -17,6 +17,8 @@ schedule clear 4jbattle:game/showdown/check
 schedule clear 4jbattle:game/inventory/check
 ##Spectator check
 function 4jbattle:game/spectator/stop
+##Hunger
+function 4jbattle:game/hunger/stop
 ##Custom checks
 function 4jbattle:game/custom/stop
 
