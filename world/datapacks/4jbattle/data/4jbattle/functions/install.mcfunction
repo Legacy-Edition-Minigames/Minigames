@@ -187,7 +187,7 @@ team add P1
 team modify P1 color white
 #2
 team add P2
-team modify P2 color dark_green
+team modify P2 color green
 #3
 team add P3
 team modify P3 color red
