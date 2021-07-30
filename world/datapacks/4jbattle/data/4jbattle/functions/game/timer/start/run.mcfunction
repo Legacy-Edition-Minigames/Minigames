@@ -33,3 +33,6 @@ execute positioned -343 4 -342 run function 4jbattle:game/spectator/start
 
 ##TNT Check
 function 4jbattle:game/tnt/check
+
+##Set spawnpoints
+execute as @a at @e[type=area_effect_cloud,tag=RandomTP,sort=random,limit=1] run spawnpoint @s ~ ~ ~

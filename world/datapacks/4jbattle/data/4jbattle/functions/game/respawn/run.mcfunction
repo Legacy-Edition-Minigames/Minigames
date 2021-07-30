@@ -1,9 +1,6 @@
 ##Set gamemode
 gamemode adventure @s
 
-##Teleport
-function 4jbattle:game/setup/teleport/random
-
 ##Remove score of eliminated
 scoreboard players reset @s 4j.eliminated
 
@@ -16,8 +13,11 @@ scoreboard players set @s 4j.hungerbar 20
 ##Clear inventory
 clear @s
 
-##Remove cooldown
-function 4jbattle:game/combat/cooldown
+##Add respawndelay tag
+tag @s add respawndelay
+
+##Schedule delayrun
+schedule function 4jbattle:game/respawn/delayrun 3t
 
 ##Display lives
 tellraw @s ["",{"text":"Status:"},{"text":"\n"},{"text":"Lives left: "},{"score":{"name":"@s","objective":"4j.lives"}}]

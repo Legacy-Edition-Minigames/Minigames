@@ -1,5 +1,5 @@
-#4j.tp
-#1 is surround and 2 is random
+###4j.tp
+###1 is surround and 2 is random
 ##Check for surround setting, if so, run
 execute if score #Store 4j.tp matches 1 as @a run function 4jbattle:game/setup/teleport/surround
 

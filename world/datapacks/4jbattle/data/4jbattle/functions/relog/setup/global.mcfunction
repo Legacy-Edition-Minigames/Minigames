@@ -18,6 +18,7 @@ tag @s remove midhunger
 tag @s remove lowhunger
 tag @s remove healtemp
 tag @s remove fullhungerinit
+tag @s remove respawndelay
 
 ##Add notready tag
 tag @s add notready
