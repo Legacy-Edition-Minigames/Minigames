@@ -283,7 +283,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Damage:1563}"
+              "tag": "{Damage:1559}"
             }
           ],
           "conditions": [
