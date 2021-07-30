@@ -87,5 +87,11 @@ execute as @s[scores={4j.gamecfg=24}] run function 4jbattle:menu/load/host/time/
 ##Set time to midnight
 execute as @s[scores={4j.gamecfg=25}] run function 4jbattle:menu/load/host/time/setmidnight
 
+##Set hunger to Normal
+execute as @s[scores={4j.gamecfg=27}] run function 4jbattle:menu/load/host/hunger/setnormal
+
+##Set hunger to Beta
+execute as @s[scores={4j.gamecfg=28}] run function 4jbattle:menu/load/host/hunger/setbeta
+
 ##Reset score
 scoreboard players reset @s 4j.gamecfg
