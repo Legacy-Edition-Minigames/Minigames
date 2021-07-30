@@ -2,7 +2,7 @@
 tellraw @s {"text":"- Map Settings -","color":"blue"}
 
 ##Option
-tellraw @s {"text":"[Enabled Maps]","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1000"},"hoverEvent":{"action":"show_text","contents":[{"text":"Select the maps that you want to play with.","color":"dark_aqua"}]}}
+tellraw @s {"text":" [Enabled Maps]","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1000"},"hoverEvent":{"action":"show_text","contents":[{"text":"Select the maps that you want to play with.","color":"dark_aqua"}]}}
 
 ##Map Type
 #Auto
