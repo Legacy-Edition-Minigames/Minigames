@@ -11,5 +11,11 @@
     },
     "done": true
   },
+  "4jbattle:student": {
+    "criteria": {
+      "requirement": "2021-07-31 12:55:45 -0500"
+    },
+    "done": true
+  },
   "DataVersion": 2730
 }
