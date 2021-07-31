@@ -23,6 +23,7 @@ tag @a remove midhealth
 tag @a remove fullhealth
 tag @a remove fullhealthinit
 tag @s remove respawndelay
+tag @s remove pidset
 
 ##Add notready tag
 tag @s add notready
