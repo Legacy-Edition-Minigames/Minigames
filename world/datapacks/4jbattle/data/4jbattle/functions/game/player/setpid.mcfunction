@@ -1,21 +1,21 @@
 ##Set player ID
 #execute as @s unless score @s 4j.pid matches 1.. store result score @s 4j.pid run scoreboard players add #Store 4j.pid 1
 #1
-execute unless entity @a[scores={4j.pid=1}] as @s[tag=!pidset] run function 4jbattle:game/player/setpid/1
+execute unless score @s 4j.pid matches 1.. unless entity @a[scores={4j.pid=1}] run function 4jbattle:game/player/setpid/1
 #2
-execute unless entity @a[scores={4j.pid=2}] as @s[tag=!pidset] run function 4jbattle:game/player/setpid/2
+execute unless score @s 4j.pid matches 1.. unless entity @a[scores={4j.pid=2}] run function 4jbattle:game/player/setpid/2
 #3
-execute unless entity @a[scores={4j.pid=3}] as @s[tag=!pidset] run function 4jbattle:game/player/setpid/3
+execute unless score @s 4j.pid matches 1.. unless entity @a[scores={4j.pid=3}] run function 4jbattle:game/player/setpid/3
 #4
-execute unless entity @a[scores={4j.pid=4}] as @s[tag=!pidset] run function 4jbattle:game/player/setpid/4
+execute unless score @s 4j.pid matches 1.. unless entity @a[scores={4j.pid=4}] run function 4jbattle:game/player/setpid/4
 #5
-execute unless entity @a[scores={4j.pid=5}] as @s[tag=!pidset] run function 4jbattle:game/player/setpid/5
+execute unless score @s 4j.pid matches 1.. unless entity @a[scores={4j.pid=5}] run function 4jbattle:game/player/setpid/5
 #6
-execute unless entity @a[scores={4j.pid=6}] as @s[tag=!pidset] run function 4jbattle:game/player/setpid/6
+execute unless score @s 4j.pid matches 1.. unless entity @a[scores={4j.pid=6}] run function 4jbattle:game/player/setpid/6
 #7
-execute unless entity @a[scores={4j.pid=7}] as @s[tag=!pidset] run function 4jbattle:game/player/setpid/7
+execute unless score @s 4j.pid matches 1.. unless entity @a[scores={4j.pid=7}] run function 4jbattle:game/player/setpid/7
 #8
-execute unless entity @a[scores={4j.pid=8}] as @s[tag=!pidset] run function 4jbattle:game/player/setpid/8
+execute unless score @s 4j.pid matches 1.. unless entity @a[scores={4j.pid=8}] run function 4jbattle:game/player/setpid/8
 
 ##Set team based on PID
 #1
