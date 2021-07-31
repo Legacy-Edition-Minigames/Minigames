@@ -1,5 +1,5 @@
 ##Add to hungerbar
-scoreboard players add @s 4j.hungerbar 3
+scoreboard players add @s 4j.hungerbar 4
 
 ##Force fullhunger reload
 tag @s remove fullhunger
