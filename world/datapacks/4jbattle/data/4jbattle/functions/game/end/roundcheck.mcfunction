@@ -5,6 +5,9 @@ kill @e[type=item]
 kill @e[type=arrow]
 kill @e[type=spectral_arrow]
 
+##Remove all TNT
+kill @e[type=tnt]
+
 ##Clear specator schedule
 schedule clear 4jbattle:game/end/spectate/spectate
 

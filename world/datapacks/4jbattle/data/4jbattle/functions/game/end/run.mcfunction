@@ -1,9 +1,6 @@
 ##Clear
 #schedule function 4jbattle:game/end/clear 2t
 
-##Kill TNT
-kill @e[type=tnt]
-
 ##Determine Winner
 function 4jbattle:game/end/winner
 
