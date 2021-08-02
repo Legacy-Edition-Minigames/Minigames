@@ -300,6 +300,10 @@ setblock -310 80 -338 air
 setblock -310 80 -338 minecraft:spruce_fence_gate[facing=south,in_wall=false,open=false,powered=false]
 setblock -313 80 -338 air
 setblock -313 80 -338 minecraft:spruce_fence_gate[facing=south,in_wall=false,open=false,powered=false]
+setblock -345 66 -306 air
+setblock -345 66 -306 minecraft:spruce_fence_gate[facing=south,in_wall=false,open=true,powered=false]
+setblock -347 66 -306 air
+setblock -347 66 -306 minecraft:spruce_fence_gate[facing=south,in_wall=false,open=true,powered=false]
 
 ##Trapdoors
 fill -339 67 -372 -339 69 -372 minecraft:oak_trapdoor[facing=south,half=top,open=true]
@@ -463,6 +467,18 @@ data merge block -315 86 -341 {Items:[{Count:1b,Slot:0b,id:"minecraft:skeleton_s
 data merge block -316 61 -315 {Items:[{Count:1b,Slot:3b,id:"minecraft:player_head"},{Count:1b,Slot:4b,id:"minecraft:player_head"},{Count:1b,Slot:5b,id:"minecraft:player_head"},{Count:1b,Slot:12b,id:"minecraft:player_head"},{Count:1b,Slot:13b,id:"minecraft:player_head"},{Count:1b,Slot:14b,id:"minecraft:player_head"},{Count:1b,Slot:21b,id:"minecraft:player_head"},{Count:1b,Slot:22b,id:"minecraft:player_head"},{Count:1b,Slot:23b,id:"minecraft:player_head"}]}
 #Buttons room
 data merge block -316 61 -367 {Items:[{Count:1b,Slot:3b,id:"minecraft:zombie_head"},{Count:1b,Slot:4b,id:"minecraft:zombie_head"},{Count:1b,Slot:5b,id:"minecraft:zombie_head"},{Count:1b,Slot:12b,id:"minecraft:zombie_head"},{Count:1b,Slot:13b,id:"minecraft:zombie_head"},{Count:1b,Slot:14b,id:"minecraft:zombie_head"},{Count:1b,Slot:21b,id:"minecraft:zombie_head"},{Count:1b,Slot:22b,id:"minecraft:zombie_head"},{Count:1b,Slot:23b,id:"minecraft:zombie_head"}]}
+#Dragon head room
+data merge block -364 39 -341 {Items:[{Count:1b,Slot:4b,id:"minecraft:dragon_head"}]}
+#Gold armor
+data merge block -350 63 -372 {Items:[{Count:1b,Slot:4b,id:"minecraft:golden_helmet",tag:{Damage:0}}]}
+data merge block -349 63 -373 {Items:[{Count:1b,Slot:4b,id:"minecraft:golden_chestplate",tag:{Damage:0}}]}
+data merge block -348 63 -372 {Items:[{Count:1b,Slot:4b,id:"minecraft:golden_leggings",tag:{Damage:0}}]}
+data merge block -349 62 -372 {Items:[{Count:1b,Slot:4b,id:"minecraft:golden_boots",tag:{Damage:0}}]}
+#Iron armor
+data merge block -345 63 -372 {Items:[{Count:1b,Slot:4b,id:"minecraft:iron_helmet",tag:{Damage:0}}]}
+data merge block -344 63 -373 {Items:[{Count:1b,Slot:4b,id:"minecraft:iron_chestplate",tag:{Damage:0}}]}
+data merge block -343 63 -372 {Items:[{Count:1b,Slot:4b,id:"minecraft:iron_leggings",tag:{Damage:0}}]}
+data merge block -344 62 -372 {Items:[{Count:1b,Slot:4b,id:"minecraft:iron_boots",tag:{Damage:0}}]}
 #I dont know what to name these
 data merge block -328 56 -362 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_disc_stal",tag:{CanPlaceOn:["#4jbattle:all_blocks"],HideFlags:16}}]}
 data merge block -324 58 -318 {Items:[{Count:1b,Slot:4b,id:"minecraft:music_disc_strad",tag:{CanPlaceOn:["#4jbattle:all_blocks"],HideFlags:16}}]}
@@ -474,29 +490,23 @@ data merge block -300 62 -369 {BurnTime:0s,CookTime:0s,CookTimeTotal:0s,Items:[]
 data merge block -346 72 -313 {BrewTime:0s,Fuel:0b,Items:[]}
 data merge block -304 62 -315 {Items:[{Count:16b,Slot:0b,id:"minecraft:snowball"},{Count:16b,Slot:1b,id:"minecraft:snowball"},{Count:16b,Slot:2b,id:"minecraft:snowball"},{Count:16b,Slot:3b,id:"minecraft:snowball"},{Count:16b,Slot:4b,id:"minecraft:snowball"},{Count:16b,Slot:5b,id:"minecraft:snowball"},{Count:16b,Slot:6b,id:"minecraft:snowball"},{Count:16b,Slot:7b,id:"minecraft:snowball"},{Count:16b,Slot:8b,id:"minecraft:snowball"}]}
 data merge block -305 62 -315 {Items:[]}
+data merge block -343 66 -307 {BurnTime:0s,CookTime:0s,CookTimeTotal:0s,Items:[],RecipesUsed:{}}
+#data merge block  {Lock:lock}
 
 ##Item frames
-data merge entity 7c221c66-c69a-4aa6-8950-6ca8fde6cb66 {ItemRotation:0b}
-data merge entity 0874045d-16c1-431c-b53e-f0f4646a42e5 {ItemRotation:0b}
-data merge entity 0918509f-5ef5-4c28-b193-61db29a19d09 {ItemRotation:6b}
-data merge entity 16a4f75a-d206-4298-9c74-4ef6130fd228 {ItemRotation:0b}
-data merge entity 9a204449-4969-4a29-acf2-72c7c48f5c5a {ItemRotation:0b}
-data merge entity b212f532-e141-4c87-9d25-1f47dda8a137 {ItemRotation:0b}
-data merge entity 93ff9abb-c50f-41f0-93f0-810c2eac2173 {ItemRotation:3b}
-data merge entity ecce208e-abdf-41ae-8243-deb078a28996 {ItemRotation:0b}
-data merge entity 7ae0dc7d-2302-4538-b856-b8602e0ca09f {ItemRotation:0b}
+execute as @e[type=item_frame,tag=itemrotate0] run data merge entity @s {ItemRotation:0}
+execute as @e[type=item_frame,tag=itemrotate1] run data merge entity @s {ItemRotation:1}
+execute as @e[type=item_frame,tag=itemrotate2] run data merge entity @s {ItemRotation:2}
+execute as @e[type=item_frame,tag=itemrotate3] run data merge entity @s {ItemRotation:3}
+execute as @e[type=item_frame,tag=itemrotate4] run data merge entity @s {ItemRotation:4}
+execute as @e[type=item_frame,tag=itemrotate5] run data merge entity @s {ItemRotation:5}
+execute as @e[type=item_frame,tag=itemrotate6] run data merge entity @s {ItemRotation:6}
+execute as @e[type=item_frame,tag=itemrotate7] run data merge entity @s {ItemRotation:7}
 tag 7ae0dc7d-2302-4538-b856-b8602e0ca09f remove correct
-data merge entity 995016da-9028-404d-a32d-c7af2c060e67 {ItemRotation:0}
 tag 995016da-9028-404d-a32d-c7af2c060e67 add correct
-data merge entity 36e071fe-beff-4ad6-bc3b-816ac21e31ef {ItemRotation:0b}
 tag 36e071fe-beff-4ad6-bc3b-816ac21e31ef remove correct
-data merge entity a6a7fc56-19f0-41a3-b836-738d3dd3e7e9 {ItemRotation:0b}
 tag a6a7fc56-19f0-41a3-b836-738d3dd3e7e9 remove correct
-data merge entity 06a2bc68-10dd-4e2a-aee2-23eeb096d8ad {ItemRotation:2b}
-data merge entity 618db34f-2cb3-460b-82c9-9838c1f4ad2c {ItemRotation:3b}
-data merge entity 7ec24cff-6035-4fa8-beed-d06b2a1ec427 {ItemRotation:5b}
-data merge entity 3d9d2ca4-2815-4fa1-802f-503ca81d7d47 {ItemRotation:3b}
-#/execute as @e[type=minecraft:item_frame] run data merge entity @s {Invulnerable:1b}
+#execute as @e[type=minecraft:item_frame] run data merge entity @s {Invulnerable:1b}
 ##Noteblocks
 fill -345 54 -342 -345 54 -340 minecraft:note_block[note=0]
 fill -347 37 -349 -347 37 -352 minecraft:note_block[note=0]
@@ -544,6 +554,8 @@ setblock -305 75 -327 air
 setblock -305 75 -327 minecraft:comparator[facing=west,mode=compare,powered=true]{OutputSignal:4}
 #Player Head chest
 function 4jbattle:lobby/secret/playerhead/close
+setblock -312 64 -317 air
+setblock -312 64 -317 minecraft:redstone_wire[east=side,north=none,power=2,south=none,west=side]
 #Snowball doors
 setblock -304 60 -316 air
 #Iron hint
@@ -574,3 +586,8 @@ setblock -343 35 -339 air
 setblock -343 35 -341 air
 setblock -343 35 -343 air
 setblock -345 35 -344 air
+#Armor stands in library
+kill @e[type=armor_stand,tag=GoldArmorStand]
+kill @e[type=armor_stand,tag=IronArmorStand]
+summon minecraft:armor_stand -335.50 67.00 -381.50 {Brain: {memories: {}}, HurtByTimestamp: 0, Attributes: [{Base: 0.0d, Name: "minecraft:generic.armor_toughness"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}, {Base: 0.0d, Name: "minecraft:generic.armor"}], Invulnerable: 0b, FallFlying: 0b, ShowArms: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, FallDistance: 0.0f, DisabledSlots: 4144959, DeathTime: 0s, Pose: {Head: [2.7284188f, 9.7691f, 0.0f], Body: [0.0f, 0.32871246f, 0.0f]}, Invisible: 0b, Tags: ["GoldArmorStand"], Motion: [0.0d, -0.0784000015258789d, 0.0d], Small: 0b, Health: 20.0f, Air: 300s, OnGround: 1b, Rotation: [0.0f, 0.0f], HandItems: [{}, {}], Fire: -1s, ArmorItems: [{id: "minecraft:golden_boots", Count: 1b, tag: {Damage: 0}}, {id: "minecraft:golden_leggings", Count: 1b, tag: {Damage: 0}}, {id: "minecraft:golden_chestplate", Count: 1b, tag: {Damage: 0}}, {id: "minecraft:golden_helmet", Count: 1b, tag: {Damage: 0}}], NoBasePlate: 0b, HurtTime: 0s}
+summon minecraft:armor_stand -328.50 67.00 -381.50 {Brain: {memories: {}}, HurtByTimestamp: 0, Attributes: [{Base: 0.0d, Name: "minecraft:generic.armor_toughness"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}, {Base: 0.0d, Name: "minecraft:generic.armor"}], Invulnerable: 0b, FallFlying: 0b, ShowArms: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, FallDistance: 0.0f, DisabledSlots: 4144959, DeathTime: 0s, Pose: {Head: [2.8294432f, 3.3270273f, 0.0f], Body: [0.0f, -0.9855528f, 0.0f]}, Invisible: 0b, Tags: ["IronArmorStand"], Motion: [0.0d, -0.0784000015258789d, 0.0d], Small: 0b, Health: 20.0f, Air: 300s, OnGround: 1b, Rotation: [0.0f, 0.0f], HandItems: [{}, {}], Fire: -1s, ArmorItems: [{id: "minecraft:iron_boots", Count: 1b, tag: {Damage: 0}}, {id: "minecraft:iron_leggings", Count: 1b, tag: {Damage: 0}}, {id: "minecraft:iron_chestplate", Count: 1b, tag: {Damage: 0}}, {id: "minecraft:iron_helmet", Count: 1b, tag: {Damage: 0}}], NoBasePlate: 0b, HurtTime: 0s}

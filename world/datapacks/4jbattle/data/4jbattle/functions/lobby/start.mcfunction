@@ -1,5 +1,8 @@
 ##Teleport
-tp @a -343 57 -341
+#Standard
+tp @a[tag=!Winner] -343 57 -341
+#Winner
+tp @a[tag=Winner] -363 69 -341 -90 0
 
 ##Refresh Playerbar
 function 4jbattle:game/gui/playerbar/load
