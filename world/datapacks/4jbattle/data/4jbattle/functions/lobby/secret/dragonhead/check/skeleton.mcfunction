@@ -1,0 +1,1 @@
+execute if block -343 35 -343 redstone_block run function 4jbattle:lobby/secret/dragonhead/check/creeper

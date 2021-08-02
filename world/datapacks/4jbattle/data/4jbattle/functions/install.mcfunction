@@ -157,6 +157,12 @@ scoreboard objectives add 4j.hungertype dummy
 ##Heal timer
 scoreboard objectives add 4j.healtimer dummy
 
+##Zombie Head combination
+scoreboard objectives add 4j.zhiron dummy
+scoreboard objectives add 4j.zhgold dummy
+scoreboard objectives add 4j.zhemerald dummy
+scoreboard objectives add 4j.zhdiamond dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

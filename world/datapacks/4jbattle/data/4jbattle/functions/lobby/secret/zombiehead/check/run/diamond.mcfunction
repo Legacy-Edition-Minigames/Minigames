@@ -1,0 +1,1 @@
+execute if score #Store 4j.zhdiamond matches 1 run function 4jbattle:lobby/secret/zombiehead/open

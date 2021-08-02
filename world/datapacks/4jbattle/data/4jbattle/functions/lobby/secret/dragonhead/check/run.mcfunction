@@ -1,0 +1,1 @@
+execute if block -345 35 -338 redstone_block run function 4jbattle:lobby/secret/dragonhead/check/wither
