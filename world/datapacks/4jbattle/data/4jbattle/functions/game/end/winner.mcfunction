@@ -17,8 +17,5 @@ advancement grant @a[tag=Winner] only 4jbattle:student
 ##Give winstreak advancement
 advancement grant @a[scores={4j.winstreak=3}] only 4jbattle:master
 
-##Remove Tag
-tag @a remove Winner
-
 ##Reset score
 scoreboard players reset @a 4j.score
