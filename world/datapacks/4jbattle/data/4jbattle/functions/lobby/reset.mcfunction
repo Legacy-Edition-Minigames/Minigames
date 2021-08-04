@@ -1,6 +1,8 @@
 ##Kill arrows
 kill @e[type=arrow]
 
+##Destroy waiting box
+fill -333 72 -340 -331 75 -342 air
 
 ##Set that playset thing
 #trapdoor set 1

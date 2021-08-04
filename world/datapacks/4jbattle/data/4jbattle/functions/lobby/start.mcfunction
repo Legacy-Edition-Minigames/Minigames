@@ -1,3 +1,6 @@
+##Clear menu check
+schedule clear 4jbattle:menu/check
+
 ##Teleport
 #Standard
 tp @a[tag=!Winner] -343 57 -341

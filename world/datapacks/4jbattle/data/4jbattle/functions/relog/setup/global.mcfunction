@@ -34,6 +34,9 @@ team leave @s
 scoreboard players reset @s
 function 4jbattle:game/player/setpid
 
+##Send to menu
+execute if score #Store 4j.gamestatus matches 0 run function 4jbattle:menu/load/user
+
 ##Add to player count
 function 4jbattle:disconnect/add
 
