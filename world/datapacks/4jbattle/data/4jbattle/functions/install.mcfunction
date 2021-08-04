@@ -191,27 +191,35 @@ execute store result score #Store 4j.plist if entity @a
 #1
 team add P1
 team modify P1 color white
+team modify P1 collisionRule never
 #2
 team add P2
 team modify P2 color green
+team modify P2 collisionRule never
 #3
 team add P3
 team modify P3 color red
+team modify P3 collisionRule never
 #4
 team add P4
 team modify P4 color blue
+team modify P4 collisionRule never
 #5
 team add P5
 team modify P5 color light_purple
+team modify P5 collisionRule never
 #6
 team add P6
 team modify P6 color gold
+team modify P6 collisionRule never
 #7
 team add P7
 team modify P7 color yellow
+team modify P7 collisionRule never
 #8
 team add P8
 team modify P8 color aqua
+team modify P8 collisionRule never
 
 ##Team Player
 #Create
