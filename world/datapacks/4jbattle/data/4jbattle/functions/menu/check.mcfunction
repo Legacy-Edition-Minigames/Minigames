@@ -1,5 +1,5 @@
 ##Clear check
-schedule clear 4jbattle:lobby/timer/check
+schedule clear 4jbattle:lobby/timer/run/check
 
 ##Set title times
 title @a times 0 10 1
