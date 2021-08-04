@@ -163,6 +163,12 @@ scoreboard objectives add 4j.zhgold dummy
 scoreboard objectives add 4j.zhemerald dummy
 scoreboard objectives add 4j.zhdiamond dummy
 
+##Fire age
+scoreboard objectives add 4j.fireage dummy
+
+##Fire RNG
+scoreboard objectives add 4j.firerandom dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

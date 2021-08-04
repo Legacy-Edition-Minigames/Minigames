@@ -40,3 +40,6 @@ schedule function 4jbattle:game/gui/playerbar/load 7s
 
 ##Stop TNT Check
 schedule function 4jbattle:game/tnt/stop 8s
+
+##Stop Fire Check
+schedule function 4jbattle:game/tnt/stop 8s

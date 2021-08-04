@@ -8,6 +8,9 @@ kill @e[type=spectral_arrow]
 ##Remove all TNT
 kill @e[type=tnt]
 
+##Remove all fire
+execute as @e[type=marker,tag=fire] at @s run function 4jbattle:game/fire/remove
+
 ##Clear specator schedule
 schedule clear 4jbattle:game/end/spectate/spectate
 
