@@ -36,3 +36,6 @@ function 4jbattle:game/tnt/check
 
 ##Set spawnpoints
 execute as @a at @e[type=area_effect_cloud,tag=RandomTP,sort=random,limit=1] run spawnpoint @s ~ ~ ~
+
+##Reset maps
+function 4jbattle:game/mapreset
