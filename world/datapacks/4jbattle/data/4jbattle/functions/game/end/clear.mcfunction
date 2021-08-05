@@ -21,6 +21,8 @@ function 4jbattle:game/spectator/stop
 function 4jbattle:game/hunger/stop
 ##Custom checks
 function 4jbattle:game/custom/stop
+##Auto Equip
+schedule clear 4jbattle:game/autoequip/check
 
 ##Clear Scores
 #Cupid

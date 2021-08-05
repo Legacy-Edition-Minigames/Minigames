@@ -1,0 +1,7 @@
+[
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{AutoEquipped:1}"
+    }
+  ]
+  

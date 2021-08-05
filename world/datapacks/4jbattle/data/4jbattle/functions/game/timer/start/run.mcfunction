@@ -42,3 +42,6 @@ execute as @a at @e[type=area_effect_cloud,tag=RandomTP,sort=random,limit=1] run
 
 ##Reset maps
 function 4jbattle:game/mapreset
+
+##Load AutoEquip
+function 4jbattle:game/autoequip/check
