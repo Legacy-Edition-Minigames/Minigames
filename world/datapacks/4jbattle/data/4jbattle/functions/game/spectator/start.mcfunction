@@ -7,5 +7,7 @@ execute if score #Store 4j.spectype matches 1 run function 4jbattle:game/spectat
 execute if score #Store 4j.spectype matches 2 run function 4jbattle:game/spectator/spawn/parrot
 #Vex
 execute if score #Store 4j.spectype matches 3 run function 4jbattle:game/spectator/spawn/vex
+#Bee
+execute if score #Store 4j.spectype matches 4 run function 4jbattle:game/spectator/spawn/bee
 #Player Head
-execute if score #Store 4j.spectype matches 4 run function 4jbattle:game/spectator/spawn/head
+execute if score #Store 4j.spectype matches 5 run function 4jbattle:game/spectator/spawn/head

@@ -1,5 +1,5 @@
 ##Set Spectator type
-scoreboard players set #Store 4j.spectype 5
+scoreboard players set #Store 4j.spectype 4
 
 ##Open menu
 function 4jbattle:menu/load/host/gui
