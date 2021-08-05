@@ -101,7 +101,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:knockback\",lvl:1s},{id:\"minecraft:fire_aspect\",lvl:1s}]}"
+              "tag": "{display:{Lore:['{\"text\":\"§9+1 Attack Damage\",\"color\":\"blue\",\"italic\":false}']},HideFlags:2,Enchantments:[{id:\"minecraft:knockback\",lvl:1s},{id:\"minecraft:fire_aspect\",lvl:1s}]}"
             }
           ],
           "conditions": [
@@ -116,8 +116,20 @@
           "name": "minecraft:diamond_shovel",
           "functions": [
             {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "",
+                  "amount": 4,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:knockback\",lvl:2s}]}"
+              "tag": "{display:{Lore:['{\"text\":\"§9+4.0 Attack Damage\",\"color\":\"blue\",\"italic\":false}']},HideFlags:2,Enchantments:[{id:\"minecraft:knockback\",lvl:2s}]}"
             }
           ],
           "conditions": [
@@ -132,8 +144,20 @@
           "name": "minecraft:iron_shovel",
           "functions": [
             {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "",
+                  "amount": 3,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:knockback\",lvl:1s}]}"
+              "tag": "{display:{Lore:['{\"text\":\"§9+3.0 Attack Damage\",\"color\":\"blue\",\"italic\":false}']},HideFlags:2,Enchantments:[{id:\"minecraft:knockback\",lvl:2s}]}"
             }
           ],
           "conditions": [
@@ -148,8 +172,20 @@
           "name": "minecraft:stone_shovel",
           "functions": [
             {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "",
+                  "amount": 2,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:fire_aspect\",lvl:1s}]}"
+              "tag": "{display:{Lore:['{\"text\":\"§9+2.0 Attack Damage\",\"color\":\"blue\",\"italic\":false}']},HideFlags:2,Enchantments:[{id:\"minecraft:fire_aspect\",lvl:2s}]}"
             }
           ],
           "conditions": [
@@ -164,8 +200,20 @@
           "name": "minecraft:wooden_shovel",
           "functions": [
             {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "",
+                  "amount": 1,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:2s}]}"
+              "tag": "{display:{Lore:['{\"text\":\"§9+1.5 Attack Damage\",\"color\":\"blue\",\"italic\":false}']},HideFlags:2,Enchantments:[{id:\"minecraft:sharpness\",lvl:2s}]}"
             }
           ],
           "conditions": [
@@ -178,6 +226,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"§9+5.0 Attack Damage\",\"color\":\"blue\",\"italic\":false}']},HideFlags:2}"
+            }
+          ],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -191,7 +245,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:1s}]}"
+              "tag": "{display:{Lore:['{\"text\":\"§9+2.0 Attack Damage\",\"color\":\"blue\",\"italic\":false}']},HideFlags:2,CustomModelData:1}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"§9+3.0 Attack Damage\",\"color\":\"blue\",\"italic\":false}']},HideFlags:2,CustomModelData:1,Enchantments:[{id:\"minecraft:sharpness\",lvl:1s}]}",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.3
+                }
+              ]
             }
           ],
           "conditions": [
@@ -203,7 +267,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_axe",
+          "name": "minecraft:iron_pickaxe",
           "functions": [
             {
               "function": "minecraft:set_attributes",
@@ -219,7 +283,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:knockback\",lvl:1s}]}"
+              "tag": "{display:{Name:'{\"text\":\"Iron Axe\",\"italic\":false}',Lore:['{\"text\":\"§9+5.0 Attack Damage\",\"color\":\"blue\",\"italic\":false}']},HideFlags:2,CustomModelData:1,Enchantments:[{id:\"minecraft:knockback\",lvl:1s}]}"
             }
           ],
           "conditions": [
@@ -231,8 +295,12 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone_axe",
+          "name": "minecraft:stone_pickaxe",
           "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Stone Axe\",\"italic\":false}',Lore:['{\"text\":\"§9+4.0 Attack Damage\",\"color\":\"blue\",\"italic\":false}']},HideFlags:2,CustomModelData:1}"
+            },
             {
               "function": "minecraft:set_attributes",
               "modifiers": [
@@ -255,8 +323,12 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:wooden_axe",
+          "name": "minecraft:wooden_pickaxe",
           "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Wooden Axe\",\"italic\":false}',Lore:['{\"text\":\"§9+3.0 Attack Damage\",\"color\":\"blue\",\"italic\":false}']},HideFlags:2,CustomModelData:1}"
+            },
             {
               "function": "minecraft:set_attributes",
               "modifiers": [
@@ -283,7 +355,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Damage:1559}"
+              "tag": "{display:{Lore:['{\"text\":\"§9+7.0 Attack Damage\",\"color\":\"blue\",\"italic\":false}']},HideFlags:2,Damage:1559}"
             }
           ],
           "conditions": [
@@ -299,7 +371,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:fire_aspect\",lvl:2s}]}"
+              "tag": "{display:{Lore:['{\"text\":\"§9+5.0 Attack Damage\",\"color\":\"blue\",\"italic\":false}']},HideFlags:2,Enchantments:[{id:\"minecraft:fire_aspect\",lvl:2s}]}"
             }
           ],
           "conditions": [
@@ -312,6 +384,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:wooden_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"§9+4.0 Attack Damage\",\"color\":\"blue\",\"italic\":false}']},HideFlags:2}"
+            }
+          ],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
