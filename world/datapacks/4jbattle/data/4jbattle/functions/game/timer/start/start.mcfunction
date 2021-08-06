@@ -31,3 +31,6 @@ scoreboard players set @a 4j.playerbar 3
 
 ##Remove Winner tag
 tag @a remove Winner
+
+##Copy mob head
+execute as @a[tag=headstore] run function 4jbattle:lobby/mobhead/copy
