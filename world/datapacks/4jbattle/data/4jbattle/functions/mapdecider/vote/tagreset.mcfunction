@@ -10,3 +10,6 @@ tag @s remove votecavern
 
 ##Frontier
 tag @s remove votefrontier
+
+##Shrunk
+tag @s remove voteshrunk

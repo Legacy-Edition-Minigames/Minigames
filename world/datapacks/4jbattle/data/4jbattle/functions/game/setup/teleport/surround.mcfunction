@@ -32,3 +32,6 @@ execute if score #Store 4j.map matches 10 run function 4jbattle:cove_remastered/
 
 ##Remastered Cavern
 execute if score #Store 4j.map matches 11 run function 4jbattle:cavern_remastered/setup/teleport/surround
+
+##Large Shrunk
+execute if score #Store 4j.map matches 12 in 4jbattle:shrunk run function 4jbattle:shrunk/setup/teleport/surround

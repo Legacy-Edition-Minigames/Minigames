@@ -8,7 +8,7 @@ schedule clear 4jbattle:menu/configure/runner
 #Set MusTimer
 scoreboard players set @a 4j.mustimer 0
 #Function
-function 4jbattle:game/music/runner
+schedule function 4jbattle:game/music/runner 3s
 
 ##Set Rounds
 scoreboard players operation #Store 4j.round = #Store 4j.setround
@@ -44,6 +44,8 @@ execute if score #Store 4j.maptype matches 3 if score #Cavern 4j.enablemap match
 execute if score #Store 4j.maptype matches 1 if score #Frontier 4j.enablemap matches 1 if score #Store 4j.map matches 8 run function 4jbattle:mapdecider/frontier/loadsmall
 #Large Frontier
 execute if score #Store 4j.maptype matches 2.. if score #Frontier 4j.enablemap matches 1 if score #Store 4j.map matches 7 run function 4jbattle:mapdecider/frontier/load
+#Large Shrunk
+execute if score #Shrunk 4j.enablemap matches 1 if score #Store 4j.map matches 12 run function 4jbattle:mapdecider/shrunk/load
 
 ##Stop timer check
 schedule clear 4jbattle:lobby/timer/run/check

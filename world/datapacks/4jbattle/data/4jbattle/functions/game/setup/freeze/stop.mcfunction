@@ -21,7 +21,8 @@ execute if score #Store 4j.map matches 9 run schedule clear 4jbattle:crucible_re
 execute if score #Store 4j.map matches 10 run schedule clear 4jbattle:cove_remastered/setup/freeze/surround
 #Remastered Cavern
 execute if score #Store 4j.map matches 11 run schedule clear 4jbattle:cavern_remastered/setup/freeze/surround
-
+#Large Shrunk
+execute if score #Store 4j.map matches 12 run schedule clear 4jbattle:shrunk/setup/freeze/surround
 
 ##Stop random
 schedule clear 4jbattle:game/setup/freeze/random/run

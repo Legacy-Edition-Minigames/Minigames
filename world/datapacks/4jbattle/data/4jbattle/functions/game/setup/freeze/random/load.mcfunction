@@ -21,7 +21,8 @@ execute if score #Store 4j.map matches 9 run tp @s -344 40 341
 execute if score #Store 4j.map matches 10 run tp @s -338 21 917
 #Remastered Cavern
 execute if score #Store 4j.map matches 11 run tp @s -323 33 1519
-
+#Large Shrunk
+execute if score #Store 4j.map matches 12 in 4jbattle:shrunk run tp @s 47 31 127
 
 ##Freeze in 1 second
 schedule function 4jbattle:game/setup/freeze/random/setup 1s

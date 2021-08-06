@@ -24,3 +24,9 @@ execute as @s[scores={4j.gamecfg=1007}] run function 4jbattle:menu/load/host/map
 
 ##Enable Frontier if set to 1008
 execute as @s[scores={4j.gamecfg=1008}] run function 4jbattle:menu/load/host/map/frontier/enable
+
+##Disable Shrunk if set to 1009
+execute as @s[scores={4j.gamecfg=1009}] run function 4jbattle:menu/load/host/map/shrunk/disable
+
+##Enable Shrunk if set to 1010
+execute as @s[scores={4j.gamecfg=1010}] run function 4jbattle:menu/load/host/map/shrunk/enable

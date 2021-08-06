@@ -36,3 +36,6 @@ execute if score #Store 4j.map matches 10 run function 4jbattle:game/nextround/c
 
 ##Load Remastered Cavern
 execute if score #Store 4j.map matches 11 run function 4jbattle:game/nextround/cavern_remastered
+
+##Load Large Shrunk
+execute if score #Store 4j.map matches 12 run function 4jbattle:game/nextround/shrunk

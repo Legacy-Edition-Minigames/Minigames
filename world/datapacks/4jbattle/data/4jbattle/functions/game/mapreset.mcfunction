@@ -21,3 +21,5 @@ execute if score #Store 4j.map matches 11 run function 4jbattle:cavern_remastere
 execute if score #Store 4j.map matches 7 run function 4jbattle:frontier/setup/reset
 #Small Frontier
 execute if score #Store 4j.map matches 8 run function 4jbattle:frontier_small/setup/reset
+#Large Shrunk
+execute if score #Store 4j.map matches 12 run function 4jbattle:shrunk/setup/reset

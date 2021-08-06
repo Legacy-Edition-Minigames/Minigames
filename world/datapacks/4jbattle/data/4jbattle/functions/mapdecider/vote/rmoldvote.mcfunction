@@ -9,3 +9,6 @@ execute if entity @s[tag=votecavern] run scoreboard players remove §aCavern 4j.
 
 ##Remove Frontier map vote
 execute if entity @s[tag=votefrontier] run scoreboard players remove §aFrontier 4j.mapvote 1
+
+##Remove Shrunk map vote
+execute if entity @s[tag=voteshrunk] run scoreboard players remove §aShrunk 4j.mapvote 1
