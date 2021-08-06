@@ -4,24 +4,24 @@ schedule clear 4jbattle:game/end/check
 #Elimination check
 schedule clear 4jbattle:game/death/check
 #Chests
-function 4jbattle:game/chests/clear
+schedule clear 4jbattle:game/chests/regen
 #Potion checks
 schedule clear 4jbattle:game/potion/runner
-##Extras
+#Extras
 schedule function 4jbattle:game/end/clearextras 1s
-##Achievements
+#Achievements
 schedule clear 4jbattle:game/achievement/check
-##Showdown
+#Showdown
 schedule clear 4jbattle:game/showdown/check
-##Small Inventory
+#Small Inventory
 schedule clear 4jbattle:game/inventory/check
-##Spectator check
+#Spectator check
 function 4jbattle:game/spectator/stop
-##Hunger
+#Hunger
 function 4jbattle:game/hunger/stop
-##Custom checks
+#Custom checks
 function 4jbattle:game/custom/stop
-##Auto Equip
+#Auto Equip
 schedule clear 4jbattle:game/autoequip/check
 
 ##Clear Scores

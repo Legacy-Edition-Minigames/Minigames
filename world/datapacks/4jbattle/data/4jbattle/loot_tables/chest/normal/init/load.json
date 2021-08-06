@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "4jbattle:chest/normal/weapons"
+          "name": "4jbattle:chest/normal/init/weapons"
         }
       ]
     },
@@ -15,7 +15,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "4jbattle:chest/normal/armor"
+          "name": "4jbattle:chest/normal/init/armor"
         }
       ]
     },
@@ -24,7 +24,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "4jbattle:chest/normal/arrows"
+          "name": "4jbattle:chest/normal/init/arrows"
         }
       ]
     },
@@ -33,7 +33,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "4jbattle:chest/normal/potions"
+          "name": "4jbattle:chest/normal/init/potions"
         }
       ]
     },
@@ -43,7 +43,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "4jbattle:chest/normal/misc"
+          "name": "4jbattle:chest/normal/init/misc"
         }
       ]
     },
@@ -52,7 +52,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "4jbattle:chest/normal/food"
+          "name": "4jbattle:chest/normal/init/food"
         }
       ]
     }

@@ -203,7 +203,7 @@ setblock -1885 44 -1808 minecraft:oak_trapdoor[facing=north,half=top,open=false,
 setblock -1881 50 -1814 minecraft:oak_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
 setblock -1881 51 -1814 minecraft:oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
 setblock -1919 46 -1836 minecraft:oak_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
-setblock -1908 45 -1837 minecraft:oak_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]
+setblock -1908 45 -1837 minecraft:oak_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
 setblock -1905 47 -1837 minecraft:oak_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
 setblock -1905 48 -1837 minecraft:oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
 setblock -1902 47 -1837 minecraft:oak_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
@@ -281,7 +281,6 @@ setblock -1894 44 -1828 minecraft:oak_trapdoor[facing=east,half=bottom,open=true
 setblock -1880 36 -1838 minecraft:oak_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
 setblock -1879 35 -1838 minecraft:oak_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
 setblock -1879 34 -1836 minecraft:oak_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
-setblock -1908 45 -1837 minecraft:oak_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]
 
 ##Redstone
 setblock -1881 43 -1820 minecraft:lever[face=wall,facing=south,powered=true]

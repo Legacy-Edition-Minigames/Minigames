@@ -1,5 +1,5 @@
 ##Summon AEC
-execute align y run summon area_effect_cloud ~ ~0.5 ~ {Duration:2147483647,Tags:["StandardChest"]}
+execute align y run summon area_effect_cloud ~ ~0.5 ~ {Duration:2147483647,Tags:["StandardChest","Chest"]}
 
 ##Place chest
 #North
