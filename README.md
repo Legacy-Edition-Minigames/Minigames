@@ -44,18 +44,16 @@ If you want to create your own LEB server, keep reading.
 
 * If you want someone from outside your local network to connect, you will need to port forward port `25565` and give the them your public ip to connect to
 
-### Game Options
-
-* Number Of Rounds: The amount of rounds of a game that will run before being sent back to the lobby
-
-* TP Type: 1 teleports people around the center initially, 2 teleports people to random locations
-
-* Lives Count: The amount of lives everyone has before being eliminated
-
-* Chest Type: 1 is the only available option
-
 ### Notices
 
 This project is far from completion! Do not expect too much in its current state!
 
 Legacy Edition Battle is currently designed for [Minecraft Java Edition 1.17](https://www.minecraft.net/en-us/article/minecraft-java-edition-1-17)
+
+### Credits
+
+Minecraft - [Mojang Studios](www.mojang.com)
+
+Legacy Editions - [4J Studios](https://www.4jstudios.com/)
+
+Large Shrunk Conversion - [NeonProYTP](https://www.planetminecraft.com/member/neonproytp/)
