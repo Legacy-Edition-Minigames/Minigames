@@ -1,5 +1,5 @@
 ##Spawn players
 #Standard
-tp @a[tag=!Winner] -343 57 -341
+tp @s[tag=!Winner] -343 57 -341
 #Winner
-tp @a[tag=Winner] -363 69 -341 -90 0
+tp @s[tag=Winner] -363 69 -341 -90 0
