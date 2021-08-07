@@ -1,4 +1,4 @@
-##Reset all players to default state
+###Reset all players to default state
 ##Clear
 clear @a
 
@@ -9,5 +9,10 @@ effect clear @a
 effect give @a instant_health 10 0 true
 
 ##Reset hunger
-#effect give @a saturation 20 255 true
 scoreboard players set @a 4j.hungerbar 20
+
+##Reset XP level
+#Levels
+xp set @a 0 levels
+#Points
+xp set @a 0 points
