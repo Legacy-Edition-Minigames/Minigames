@@ -15,3 +15,6 @@ function 4jbattle:menu/load/host/inventory/run
 
 ##Surround TP
 function 4jbattle:menu/load/host/tp/run
+
+##Lobby type
+function 4jbattle:menu/load/host/lobby/run

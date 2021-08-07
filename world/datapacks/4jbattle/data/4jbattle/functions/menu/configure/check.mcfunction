@@ -96,5 +96,11 @@ execute as @s[scores={4j.gamecfg=27}] run function 4jbattle:menu/load/host/hunge
 ##Set hunger to Beta
 execute as @s[scores={4j.gamecfg=28}] run function 4jbattle:menu/load/host/hunger/setbeta
 
+##Set lobby to old
+execute as @s[scores={4j.gamecfg=30}] run function 4jbattle:menu/load/host/lobby/setold
+
+##Set lobby to new
+execute as @s[scores={4j.gamecfg=31}] run function 4jbattle:menu/load/host/lobby/setnew
+
 ##Reset score
 scoreboard players reset @s 4j.gamecfg

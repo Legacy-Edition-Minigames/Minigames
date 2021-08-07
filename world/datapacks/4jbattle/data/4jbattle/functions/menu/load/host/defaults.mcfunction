@@ -45,3 +45,6 @@ time set noon
 
 ##Set small inventory
 scoreboard players set #Store 4j.smallinv 1
+
+##Set new lobby
+scoreboard players set #Store 4j.lobbytype 1

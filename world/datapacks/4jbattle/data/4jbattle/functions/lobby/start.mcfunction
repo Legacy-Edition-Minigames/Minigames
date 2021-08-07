@@ -1,11 +1,8 @@
 ##Clear menu check
 schedule clear 4jbattle:menu/check
 
-##Teleport
-#Standard
-tp @a[tag=!Winner] -343 57 -341
-#Winner
-tp @a[tag=Winner] -363 69 -341 -90 0
+##Spawn
+function 4jbattle:lobby/spawn
 
 ##Refresh Playerbar
 function 4jbattle:game/gui/playerbar/load
@@ -40,4 +37,4 @@ function 4jbattle:game/playerreset
 function 4jbattle:mapdecider/vote/load
 
 ##Reset world back
-function 4jbattle:lobby/reset
+schedule function 4jbattle:lobby/reset 2s

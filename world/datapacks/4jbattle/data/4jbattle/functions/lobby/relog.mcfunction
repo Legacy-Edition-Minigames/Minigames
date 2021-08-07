@@ -1,5 +1,5 @@
 ##Teleport
-tp @s -343 57 -341
+function 4jbattle:lobby/spawn
 
 ##Refresh Playerbar
 function 4jbattle:game/gui/playerbar/load

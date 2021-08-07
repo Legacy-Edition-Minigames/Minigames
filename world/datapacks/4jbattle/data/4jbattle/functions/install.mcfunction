@@ -169,6 +169,9 @@ scoreboard objectives add 4j.fireage dummy
 ##Fire RNG
 scoreboard objectives add 4j.firerandom dummy
 
+##Lobby type
+scoreboard objectives add 4j.lobbytype dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
