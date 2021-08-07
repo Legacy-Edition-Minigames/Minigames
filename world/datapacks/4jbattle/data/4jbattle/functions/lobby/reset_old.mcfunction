@@ -85,6 +85,8 @@ execute as @e[type=item_frame,tag=itemrotate7] run data merge entity @s {ItemRot
 ##Misc
 setblock -377 69 -381 minecraft:potted_cactus
 setblock -377 69 -379 minecraft:potted_cactus
+setblock -357 64 -404 minecraft:potted_cactus
+setblock -355 64 -404 minecraft:potted_cactus
 fill -342 64 -372 -342 64 -369 minecraft:note_block[note=0]
 
 ##Containers
@@ -102,7 +104,7 @@ data merge block -359 73 -409 {Items:[{Count:64b,Slot:4b,id:"minecraft:firework_
 data merge block -342 74 -380 {Items:[{Count:6b,Slot:4b,id:"minecraft:skeleton_skull"}]}
 data merge block -380 63 -386 {Items:[{Count:1b,Slot:12b,id:"minecraft:zombie_head"},{Count:1b,Slot:13b,id:"minecraft:zombie_head"},{Count:1b,Slot:14b,id:"minecraft:zombie_head"},{Count:1b,Slot:21b,id:"minecraft:zombie_head"},{Count:1b,Slot:22b,id:"minecraft:zombie_head"},{Count:1b,Slot:23b,id:"minecraft:zombie_head"}]}
 data merge block -380 63 -387 {Items:[{Count:1b,Slot:3b,id:"minecraft:zombie_head"},{Count:1b,Slot:4b,id:"minecraft:zombie_head"},{Count:1b,Slot:5b,id:"minecraft:zombie_head"}]}
-setblock -349 70 -404 minecraft:dropper[facing=west,triggered=false]{Items:[{Count:6b,Slot:4b,id:"minecraft:creeper_head"}]}
+data merge block -349 70 -404 {Items:[{Count:6b,Slot:4b,id:"minecraft:creeper_head"}]}
 
 ##Redstone
 setblock -384 69 -378 air
