@@ -4,7 +4,6 @@ kill @e[type=arrow]
 ##Remove items
 kill @e[type=item]
 
-
 ##Doors
 fill -373 63 -373 -373 64 -374 air
 setblock -373 63 -373 minecraft:oak_door[facing=east,half=lower,hinge=right,open=false,powered=false]
@@ -73,6 +72,16 @@ setblock -349 70 -363 minecraft:oak_fence_gate[facing=south,in_wall=false,open=t
 setblock -358 70 -363 minecraft:oak_fence_gate[facing=south,in_wall=false,open=true,powered=false]
 setblock -358 66 -363 minecraft:oak_fence_gate[facing=south,in_wall=false,open=true,powered=false]
 
+##Item frames
+execute as @e[type=item_frame,tag=itemrotate0] run data merge entity @s {ItemRotation:0}
+execute as @e[type=item_frame,tag=itemrotate1] run data merge entity @s {ItemRotation:1}
+execute as @e[type=item_frame,tag=itemrotate2] run data merge entity @s {ItemRotation:2}
+execute as @e[type=item_frame,tag=itemrotate3] run data merge entity @s {ItemRotation:3}
+execute as @e[type=item_frame,tag=itemrotate4] run data merge entity @s {ItemRotation:4}
+execute as @e[type=item_frame,tag=itemrotate5] run data merge entity @s {ItemRotation:5}
+execute as @e[type=item_frame,tag=itemrotate6] run data merge entity @s {ItemRotation:6}
+execute as @e[type=item_frame,tag=itemrotate7] run data merge entity @s {ItemRotation:7}
+
 ##Misc
 setblock -377 69 -381 minecraft:potted_cactus
 setblock -377 69 -379 minecraft:potted_cactus
@@ -97,11 +106,11 @@ setblock -349 70 -404 minecraft:dropper[facing=west,triggered=false]{Items:[{Cou
 
 ##Redstone
 setblock -384 69 -378 air
-setblock -384 69 -378 comparator
+setblock -384 69 -378 minecraft:comparator[facing=east,mode=compare,powered=true]{OutputSignal:1}
 setblock -384 69 -380 air
-setblock -384 69 -380 comparator
+setblock -384 69 -380 minecraft:comparator[facing=east,mode=compare,powered=true]{OutputSignal:1}
 setblock -384 69 -382 air
-setblock -384 69 -382 comparator
+setblock -384 69 -382 minecraft:comparator[facing=east,mode=compare,powered=true]{OutputSignal:1}
 setblock -375 63 -388 minecraft:lever[face=wall,facing=west,powered=false]
 setblock -375 63 -385 minecraft:lever[face=wall,facing=west,powered=false]
 setblock -344 62 -399 minecraft:lever[face=wall,facing=south,powered=false]
