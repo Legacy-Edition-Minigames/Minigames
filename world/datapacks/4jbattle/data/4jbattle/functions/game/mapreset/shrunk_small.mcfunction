@@ -8,16 +8,17 @@ setblock -53 23 146 minecraft:oak_trapdoor[facing=west,half=top,open=true,powere
 ##Containers
 fill -47 9 127 -47 8 125 air
 fill -47 9 127 -47 8 125 minecraft:dispenser[facing=east,triggered=false]{Items:[{Count:64b,Slot:0b,id:"minecraft:tnt"},{Count:64b,Slot:1b,id:"minecraft:tnt"},{Count:64b,Slot:2b,id:"minecraft:tnt"},{Count:64b,Slot:3b,id:"minecraft:tnt"},{Count:64b,Slot:4b,id:"minecraft:tnt"},{Count:64b,Slot:5b,id:"minecraft:tnt"},{Count:64b,Slot:6b,id:"minecraft:tnt"},{Count:64b,Slot:7b,id:"minecraft:tnt"},{Count:64b,Slot:8b,id:"minecraft:tnt"}]}
+fill -47 10 127 -47 10 125 redstone_wire
 setblock -47 9 126 minecraft:bedrock
 fill -46 9 128 -44 8 128 air
 fill -46 9 128 -44 8 128 minecraft:dispenser[facing=north,triggered=false]{Items:[{Count:64b,Slot:0b,id:"minecraft:tnt"},{Count:64b,Slot:1b,id:"minecraft:tnt"},{Count:64b,Slot:2b,id:"minecraft:tnt"},{Count:64b,Slot:3b,id:"minecraft:tnt"},{Count:64b,Slot:4b,id:"minecraft:tnt"},{Count:64b,Slot:5b,id:"minecraft:tnt"},{Count:64b,Slot:6b,id:"minecraft:tnt"},{Count:64b,Slot:7b,id:"minecraft:tnt"},{Count:64b,Slot:8b,id:"minecraft:tnt"}]}
+fill -44 10 128 -46 10 128 redstone_wire
 setblock -45 9 128 minecraft:bedrock
 fill -43 9 127 -43 8 125 air
 fill -43 9 127 -43 8 125 minecraft:dispenser[facing=west,triggered=false]{Items:[{Count:64b,Slot:0b,id:"minecraft:tnt"},{Count:64b,Slot:1b,id:"minecraft:tnt"},{Count:64b,Slot:2b,id:"minecraft:tnt"},{Count:64b,Slot:3b,id:"minecraft:tnt"},{Count:64b,Slot:4b,id:"minecraft:tnt"},{Count:64b,Slot:5b,id:"minecraft:tnt"},{Count:64b,Slot:6b,id:"minecraft:tnt"},{Count:64b,Slot:7b,id:"minecraft:tnt"},{Count:64b,Slot:8b,id:"minecraft:tnt"}]}
+fill -43 10 127 -43 10 125 redstone_wire
 setblock -43 9 126 minecraft:bedrock
 fill -44 9 124 -46 8 124 air
 fill -44 9 124 -46 8 124 minecraft:dispenser[facing=south,triggered=false]{Items:[{Count:64b,Slot:0b,id:"minecraft:tnt"},{Count:64b,Slot:1b,id:"minecraft:tnt"},{Count:64b,Slot:2b,id:"minecraft:tnt"},{Count:64b,Slot:3b,id:"minecraft:tnt"},{Count:64b,Slot:4b,id:"minecraft:tnt"},{Count:64b,Slot:5b,id:"minecraft:tnt"},{Count:64b,Slot:6b,id:"minecraft:tnt"},{Count:64b,Slot:7b,id:"minecraft:tnt"},{Count:64b,Slot:8b,id:"minecraft:tnt"}]}
+fill -44 10 124 -46 10 124 redstone_wire
 setblock -45 9 124 minecraft:bedrock
-fill -47 9 125 -47 8 127 air
-fill -47 9 125 -47 8 127 minecraft:dispenser[facing=east,triggered=false]{Items:[{Count:64b,Slot:0b,id:"minecraft:tnt"},{Count:64b,Slot:1b,id:"minecraft:tnt"},{Count:64b,Slot:2b,id:"minecraft:tnt"},{Count:64b,Slot:3b,id:"minecraft:tnt"},{Count:64b,Slot:4b,id:"minecraft:tnt"},{Count:64b,Slot:5b,id:"minecraft:tnt"},{Count:64b,Slot:6b,id:"minecraft:tnt"},{Count:64b,Slot:7b,id:"minecraft:tnt"},{Count:64b,Slot:8b,id:"minecraft:tnt"}]}
-setblock -47 9 126 minecraft:bedrock
