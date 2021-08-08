@@ -6,7 +6,7 @@ execute if score #Store 4j.map matches 2 run tp @s -70 27 -112
 #Cavern
 execute if score #Store 4j.map matches 3 run tp @s 527 32 515
 #Small Crucible
-execute if score #Store 4j.map matches 4 run tp @s -1097 28 -987
+execute if score #Store 4j.map matches 4 in 4jbattle:crucible_remastered run tp @s 347 36 331
 #Small Cove
 execute if score #Store 4j.map matches 5 run tp @s -713 50 -602
 #Small Cavern
