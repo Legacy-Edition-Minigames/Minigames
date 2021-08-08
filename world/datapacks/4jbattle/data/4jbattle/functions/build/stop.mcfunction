@@ -14,7 +14,7 @@ clear @a ghast_spawn_egg{BuilderMode:1}
 clear @a carrot_on_a_stick{BuilderMode:1}
 
 ##Send to lobby
-tp @a -343 58 -341
+execute as @a run function 4jbattle:lobby/spawn
 
 ##Disable damange
 function 4jbattle:game/damage/disable

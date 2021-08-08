@@ -4,6 +4,7 @@
 ##Pick Song
 #Vanilla
 execute if score #Store 4j.map matches 1..6 run function 4jbattle:game/music/vanilla/pick
+execute if score #Store 4j.map matches 9..11 run function 4jbattle:game/music/vanilla/pick
 #Frontier
 execute if score #Store 4j.map matches 7..8 run function 4jbattle:game/music/frontier/pick
 #Shrunk

@@ -7,6 +7,11 @@ execute as @e[type=bat,tag=spawncstandardchest] at @s run function 4jbattle:buil
 ##Spawnpoints
 #Random
 execute as @e[type=bat,tag=spawnrandomtp] at @s run function 4jbattle:build/spawn/spawnpoint/random
+#Center
+execute as @e[type=bat,tag=spawncentertp] at @s run function 4jbattle:build/spawn/spawnpoint/center
+
+##Center
+execute as @e[type=bat,tag=spawncenter] at @s run function 4jbattle:build/spawn/center
 
 ##Remove tool
 execute as @e[type=bat,tag=removeaec] at @s run function 4jbattle:build/removeaec

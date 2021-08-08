@@ -1,32 +1,19 @@
 ##Doors
-fill -383 25 915 -383 26 915 air
-setblock -383 25 915 minecraft:oak_door[facing=south,half=lower,hinge=left,open=false,powered=false]
-setblock -383 26 915 minecraft:oak_door[facing=south,half=upper,hinge=left,open=false,powered=false]
-fill -388 25 919 -388 26 919 air
-setblock -388 25 919 minecraft:oak_door[facing=west,half=lower,hinge=left,open=false,powered=false]
-setblock -388 26 919 minecraft:oak_door[facing=west,half=upper,hinge=left,open=false,powered=false]
+fill 0 68 249 0 69 249 air
+setblock 0 68 249 minecraft:oak_door[facing=south,half=lower,hinge=left,open=false,powered=false]
+setblock 0 69 249 minecraft:oak_door[facing=south,half=upper,hinge=left,open=false,powered=false]
+fill -5 68 253 -5 69 253 air
+setblock -5 68 253 minecraft:oak_door[facing=west,half=lower,hinge=left,open=false,powered=false]
+setblock -5 69 253 minecraft:oak_door[facing=west,half=upper,hinge=left,open=false,powered=false]
 
 ##Trapdoors
-setblock -383 31 921 minecraft:oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
+setblock 0 74 255 minecraft:oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
 
 ##Containers
-data merge block -374 29 922 {Items:[{Count:1b,Slot:0b,id:"minecraft:arrow"},{Count:1b,Slot:1b,id:"minecraft:arrow"},{Count:1b,Slot:2b,id:"minecraft:arrow"}],Lock:"lock"}
-data merge block -371 29 918 {Items:[{Count:1b,Slot:0b,id:"minecraft:arrow"},{Count:1b,Slot:1b,id:"minecraft:arrow"},{Count:1b,Slot:2b,id:"minecraft:arrow"}],Lock:"lock"}
-data merge block -371 25 910 {Items:[{Count:1b,Slot:0b,id:"minecraft:arrow"},{Count:1b,Slot:1b,id:"minecraft:arrow"},{Count:1b,Slot:2b,id:"minecraft:arrow"}],Lock:"lock"}
-data merge block -371 25 907 {Items:[{Count:1b,Slot:0b,id:"minecraft:arrow"},{Count:1b,Slot:1b,id:"minecraft:arrow"},{Count:1b,Slot:2b,id:"minecraft:arrow"}],Lock:"lock"}
-#no name
-data merge block -299 42 924 {Items:[{Count:1b,Slot:0b,id:"minecraft:arrow"},{Count:1b,Slot:1b,id:"minecraft:arrow"},{Count:1b,Slot:2b,id:"minecraft:arrow"}],Lock:"lock"}
-data merge block -349 36 904 {Items:[{Count:1b,Slot:0b,id:"minecraft:arrow"},{Count:1b,Slot:1b,id:"minecraft:arrow"},{Count:1b,Slot:2b,id:"minecraft:arrow"}],Lock:"lock"}
-data merge block -361 36 904 {Items:[{Count:1b,Slot:0b,id:"minecraft:arrow"},{Count:1b,Slot:1b,id:"minecraft:arrow"},{Count:1b,Slot:2b,id:"minecraft:arrow"}],Lock:"lock"}
-
-##Redstone
-#Ship
-setblock -373 25 907 minecraft:repeater[delay=1,facing=west,locked=false,powered=false]
-setblock -373 25 910 minecraft:repeater[delay=1,facing=west,locked=false,powered=false]
-setblock -373 29 918 minecraft:repeater[delay=1,facing=west,locked=false,powered=false]
-setblock -376 29 922 minecraft:repeater[delay=1,facing=west,locked=false,powered=false]
-setblock -359 36 904 minecraft:repeater[delay=1,facing=east,locked=false,powered=false]
-#no name
-setblock -297 42 924 minecraft:repeater[delay=1,facing=east,locked=false,powered=false]
-setblock -351 36 904 minecraft:repeater[delay=1,facing=west,locked=false,powered=false]
-setblock -359 36 904 minecraft:repeater[delay=1,facing=east,locked=false,powered=false]
+data merge block 9 72 256 {Lock:lock,Items:[{Count:1b,Slot:0b,id:"minecraft:arrow"},{Count:1b,Slot:1b,id:"minecraft:arrow"},{Count:1b,Slot:2b,id:"minecraft:arrow"}]}
+data merge block 12 72 252 {Lock:lock,Items:[{Count:3b,Slot:0b,id:"minecraft:arrow"}]}
+data merge block 12 68 244 {Lock:lock,Items:[{Count:1b,Slot:0b,id:"minecraft:arrow"},{Count:1b,Slot:1b,id:"minecraft:arrow"},{Count:1b,Slot:2b,id:"minecraft:arrow"}]}
+data merge block 12 68 241 {Lock:lock,Items:[{Count:1b,Slot:0b,id:"minecraft:arrow"},{Count:1b,Slot:1b,id:"minecraft:arrow"},{Count:1b,Slot:2b,id:"minecraft:arrow"}]}
+data merge block 22 79 238 {Lock:lock,Items:[{Count:3b,Slot:0b,id:"minecraft:arrow"}]}
+data merge block 34 79 238 {Lock:lock,Items:[{Count:3b,Slot:0b,id:"minecraft:arrow"}]}
+data merge block 84 85 258 {Lock:lock,Items:[{Count:3b,Slot:0b,id:"minecraft:arrow"}]}

@@ -1,4 +1,3 @@
 ##Glow berries
-setblock -342 33 1538 minecraft:cave_vines_plant[berries=true]
-setblock -342 34 1538 minecraft:cave_vines_plant[berries=true]
-setblock -344 31 1540 minecraft:cave_vines[age=15,berries=true]
+fill 249 29 31 249 30 31 minecraft:cave_vines_plant[berries=true]
+setblock 247 27 33 minecraft:cave_vines[age=15,berries=true]

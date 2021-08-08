@@ -1,28 +1,11 @@
-##Stop surround
-#Crucible
-execute if score #Store 4j.map matches 1 run schedule clear 4jbattle:crucible/setup/freeze/surround
-#Cove
-execute if score #Store 4j.map matches 2 run schedule clear 4jbattle:cove/setup/freeze/surround
-#Cavern
-execute if score #Store 4j.map matches 3 run schedule clear 4jbattle:cavern/setup/freeze/surround
-#Small Crucible 
-execute if score #Store 4j.map matches 4 run schedule clear 4jbattle:crucible_small/setup/freeze/surround
-#Small Cove 
-execute if score #Store 4j.map matches 5 run schedule clear 4jbattle:cove_small/setup/freeze/surround
-#Small Cavern
-execute if score #Store 4j.map matches 6 run schedule clear 4jbattle:cavern_small/setup/freeze/surround
-#Large Frontier
-execute if score #Store 4j.map matches 7 run schedule clear 4jbattle:frontier/setup/freeze/surround
-#Small Frontier
-execute if score #Store 4j.map matches 8 run schedule clear 4jbattle:frontier_small/setup/freeze/surround
-#Remastered Crucible
-execute if score #Store 4j.map matches 9 run schedule clear 4jbattle:crucible_remastered/setup/freeze/surround
-#Remastered Cove
-execute if score #Store 4j.map matches 10 run schedule clear 4jbattle:cove_remastered/setup/freeze/surround
-#Remastered Cavern
-execute if score #Store 4j.map matches 11 run schedule clear 4jbattle:cavern_remastered/setup/freeze/surround
-#Large Shrunk
-execute if score #Store 4j.map matches 12 run schedule clear 4jbattle:shrunk/setup/freeze/surround
+##Remove tags
+#Center
+tag @e[type=area_effect_cloud,tag=CenterTP] remove tpset
+#Random
+tag @e[type=area_effect_cloud,tag=RandomTP] remove tpset
 
 ##Stop random
 schedule clear 4jbattle:game/setup/freeze/random/run
+
+##Stop surround
+schedule clear 4jbattle:game/setup/freeze/surround/run

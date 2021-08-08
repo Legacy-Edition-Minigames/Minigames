@@ -7,6 +7,11 @@ give @s ghast_spawn_egg{display:{Name:'{"text":"Spawn Center Chest","color":"gol
 ##Spawnpoints
 #Random
 give @s ghast_spawn_egg{display:{Name:'{"text":"Create Random Spawnpoint","color":"dark_aqua","italic":false}'},BuilderMode:1,CustomModelData:2,EntityTag:{id:"minecraft:bat",Silent:1b,NoAI:1b,Tags:["spawnrandomtp"]}} 1
+#Center
+give @s ghast_spawn_egg{display:{Name:'{"text":"Create Central Spawnpoint","color":"white","italic":false}'},BuilderMode:1,CustomModelData:2,EntityTag:{id:"minecraft:bat",Silent:1b,NoAI:1b,Tags:["spawncentertp"]}} 1
+
+##Center
+give @s ghast_spawn_egg{display:{Name:'{"text":"Set Map Center","color":"dark_purple","italic":false}'},BuilderMode:1,CustomModelData:2,EntityTag:{id:"minecraft:bat",Silent:1b,NoAI:1b,Tags:["spawncenter"]}} 1
 
 ##Remove tool
 give @s ghast_spawn_egg{display:{Name:'{"text":"Remove","color":"red","italic":false}'},BuilderMode:1,CustomModelData:3,EntityTag:{id:"minecraft:bat",Silent:1b,NoAI:1b,Tags:["removeaec"]}} 1
