@@ -61,3 +61,5 @@ Remastered Maps - [\_JoeCool_](https://www.planetminecraft.com/member/_joecool_/
 Large Shrunk Conversion - [NeonProYTP](https://www.planetminecraft.com/member/neonproytp/)
 
 Old Lobby - [Greenphx](https://www.youtube.com/watch?v=jS8_P9xmGKQ)
+
+Every other map - [MinecraftDigger](https://www.youtube.com/c/MinecraftDigger/)
