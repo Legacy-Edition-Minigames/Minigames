@@ -23,3 +23,5 @@ execute if score #Store 4j.map matches 10 in 4jbattle:cove_remastered run tp @s 
 execute if score #Store 4j.map matches 11 in 4jbattle:cavern_remastered run tp @s 268 29 12
 #Large Shrunk
 execute if score #Store 4j.map matches 12 in 4jbattle:shrunk run tp @s 47 31 127
+#Small Shrunk
+execute if score #Store 4j.map matches 13 in 4jbattle:shrunk_small run tp @s -82 31 134

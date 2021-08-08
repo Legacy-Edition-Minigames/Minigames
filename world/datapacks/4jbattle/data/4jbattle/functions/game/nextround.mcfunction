@@ -43,6 +43,9 @@ execute if score #Store 4j.map matches 11 in 4jbattle:cavern_remastered run func
 ##Load Large Shrunk
 execute if score #Store 4j.map matches 12 in 4jbattle:shrunk run function 4jbattle:game/setup/teleport/check
 
+##Load Small Shrunk
+execute if score #Store 4j.map matches 13 in 4jbattle:shrunk_small run function 4jbattle:game/setup/teleport/check
+
 ##Join player team
 tag @s remove spectator
 tag @s add player

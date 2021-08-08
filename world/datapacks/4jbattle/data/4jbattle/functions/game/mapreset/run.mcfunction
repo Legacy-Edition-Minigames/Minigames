@@ -23,3 +23,5 @@ execute if score #Store 4j.map matches 7 run function 4jbattle:game/mapreset/fro
 execute if score #Store 4j.map matches 8 run function 4jbattle:game/mapreset/frontier_small
 #Large Shrunk
 execute if score #Store 4j.map matches 12 in 4jbattle:shrunk run function 4jbattle:game/mapreset/shrunk
+#Large Shrunk
+execute if score #Store 4j.map matches 13 in 4jbattle:shrunk_small run function 4jbattle:game/mapreset/shrunk_small

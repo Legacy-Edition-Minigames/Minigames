@@ -44,7 +44,9 @@ execute if score #Store 4j.maptype matches 1 if score #Frontier 4j.enablemap mat
 #Large Frontier
 execute if score #Store 4j.maptype matches 2.. if score #Frontier 4j.enablemap matches 1 if score §aFrontier 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 7
 #Large Shrunk
-execute if score #Shrunk 4j.enablemap matches 1 if score §aShrunk 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 12
+execute if score #Store 4j.maptype matches 2.. if score #Shrunk 4j.enablemap matches 1 if score §aShrunk 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 12
+#Small Shrunk
+execute if score #Store 4j.maptype matches 1 if score #Shrunk 4j.enablemap matches 1 if score §aShrunk 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 13
 
 ##Stop vote check
 schedule clear 4jbattle:mapdecider/vote/check
