@@ -5,7 +5,12 @@ scoreboard players remove #Store 4j.round 1
 tellraw @a ["",{"selector":"@a[tag=player]"},{"text":" has won this round!"}]
 
 ##Set gamemode
-gamemode adventure @s
+#Hide message (i have no clue why just this instance of the gamemode command causes this please help)
+gamerule sendCommandFeedback false
+#Set gamemode
+gamemode adventure @a
+#Enable message
+gamerule sendCommandFeedback true
 
 ##Load crucible
 execute if score #Store 4j.map matches 1 run function 4jbattle:game/setup/teleport/check
@@ -47,8 +52,8 @@ execute if score #Store 4j.map matches 12 in 4jbattle:shrunk run function 4jbatt
 execute if score #Store 4j.map matches 13 in 4jbattle:shrunk_small run function 4jbattle:game/setup/teleport/check
 
 ##Join player team
-tag @s remove spectator
-tag @s add player
+tag @a remove spectator
+tag @a add player
 
 ##Remove Victor tag
 tag @s remove Victor
@@ -57,5 +62,10 @@ tag @s remove Victor
 clear @s
 
 ##Set lives
-scoreboard players operation @s 4j.lives = #Store 4j.lives
+scoreboard players operation @a 4j.lives = #Store 4j.lives
 
+##Disable chest timer
+function 4jbattle:game/chests/clear
+
+##Load timer
+function 4jbattle:game/timer/start/start
