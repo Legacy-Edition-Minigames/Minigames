@@ -56,10 +56,10 @@ tag @a remove spectator
 tag @a add player
 
 ##Remove Victor tag
-tag @s remove Victor
+tag @a remove Victor
 
 ##Clear inventory
-clear @s
+clear @a
 
 ##Set lives
 scoreboard players operation @a 4j.lives = #Store 4j.lives
