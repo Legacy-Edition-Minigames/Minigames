@@ -18,4 +18,3 @@ execute as @e[type=area_effect_cloud,tag=RandomTP,tag=!tpset,sort=random,limit=1
 
 ##Freeze
 function 4jbattle:game/setup/freeze/random/run
-say bruh moment
