@@ -25,3 +25,7 @@ execute if score #Store 4j.map matches 8 run function 4jbattle:game/mapreset/fro
 execute if score #Store 4j.map matches 12 in 4jbattle:shrunk run function 4jbattle:game/mapreset/shrunk
 #Large Shrunk
 execute if score #Store 4j.map matches 13 in 4jbattle:shrunk_small run function 4jbattle:game/mapreset/shrunk_small
+#Large Dig
+execute if score #Store 4j.map matches 14 in 4jbattle:dig run function 4jbattle:game/mapreset/dig
+#Small Dig
+execute if score #Store 4j.map matches 15 in 4jbattle:dig_small run function 4jbattle:game/mapreset/dig_small

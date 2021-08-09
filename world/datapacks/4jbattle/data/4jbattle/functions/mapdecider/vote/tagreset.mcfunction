@@ -11,5 +11,8 @@ tag @s remove votecavern
 ##Frontier
 tag @s remove votefrontier
 
+##Dig
+tag @s remove votedig
+
 ##Shrunk
 tag @s remove voteshrunk

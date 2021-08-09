@@ -28,6 +28,8 @@ scoreboard players set #Cove 4j.enablemap 1
 scoreboard players set #Cavern 4j.enablemap 1
 #Frontier
 scoreboard players set #Frontier 4j.enablemap 1
+#Dig
+scoreboard players set #Dig 4j.enablemap 1
 #Shrunk
 scoreboard players set #Shrunk 4j.enablemap 1
 
@@ -35,7 +37,7 @@ scoreboard players set #Shrunk 4j.enablemap 1
 scoreboard players set #Store 4j.setmaptype 1
 
 ##Set mapcount
-scoreboard players set #Store 4j.mapcount 5
+scoreboard players set #Store 4j.mapcount 6
 
 ##Visual time
 #Score

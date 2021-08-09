@@ -51,6 +51,12 @@ execute if score #Store 4j.map matches 12 in 4jbattle:shrunk run function 4jbatt
 ##Load Small Shrunk
 execute if score #Store 4j.map matches 13 in 4jbattle:shrunk_small run function 4jbattle:game/setup/teleport/check
 
+##Load Large Dig
+execute if score #Store 4j.map matches 14 in 4jbattle:dig run function 4jbattle:game/setup/teleport/check
+
+##Load Small Dig
+execute if score #Store 4j.map matches 15 in 4jbattle:dig_small run function 4jbattle:game/setup/teleport/check
+
 ##Join player team
 tag @a remove spectator
 tag @a add player

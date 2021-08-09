@@ -30,3 +30,9 @@ execute as @s[scores={4j.gamecfg=1009}] run function 4jbattle:menu/load/host/map
 
 ##Enable Shrunk if set to 1010
 execute as @s[scores={4j.gamecfg=1010}] run function 4jbattle:menu/load/host/map/shrunk/enable
+
+##Disable Dig if set to 1011
+execute as @s[scores={4j.gamecfg=1011}] run function 4jbattle:menu/load/host/map/dig/disable
+
+##Enable Dig if set to 1011
+execute as @s[scores={4j.gamecfg=1011}] run function 4jbattle:menu/load/host/map/dig/enable

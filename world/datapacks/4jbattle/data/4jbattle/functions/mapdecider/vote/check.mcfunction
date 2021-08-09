@@ -25,6 +25,12 @@ execute if score #Frontier 4j.enablemap matches 1 as @a[scores={4j.playermapvote
 #If user hasnt voted for this map yet
 execute if score #Frontier 4j.enablemap matches 1 as @a[scores={4j.playermapvote=4}] run function 4jbattle:mapdecider/vote/add/frontier
 
+##add 1 to Dig's vote count if voted for
+#If user has voted for this map
+execute if score #Dig 4j.enablemap matches 1 as @a[scores={4j.playermapvote=6},tag=votedig] run function 4jbattle:mapdecider/vote/error
+#If user hasnt voted for this map yet
+execute if score #Dig 4j.enablemap matches 1 as @a[scores={4j.playermapvote=6}] run function 4jbattle:mapdecider/vote/add/dig
+
 ##add 1 to Shrunk's vote count if voted for
 #If user has voted for this map
 execute if score #Shrunk 4j.enablemap matches 1 as @a[scores={4j.playermapvote=5},tag=voteshrunk] run function 4jbattle:mapdecider/vote/error

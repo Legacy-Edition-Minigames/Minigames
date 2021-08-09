@@ -1,5 +1,5 @@
 ##Add vote
-scoreboard players add §aFrontier 4j.mapvote 1
+scoreboard players add §a4-1:Frontier 4j.mapvote 1
 
 ##Remove previous vote if it exists
 function 4jbattle:mapdecider/vote/rmoldvote

@@ -1,5 +1,5 @@
 ##Add vote
-scoreboard players add §aCove 4j.mapvote 1
+scoreboard players add §a1-2:Cove 4j.mapvote 1
 
 ##Remove previous vote if it exists
 function 4jbattle:mapdecider/vote/rmoldvote
