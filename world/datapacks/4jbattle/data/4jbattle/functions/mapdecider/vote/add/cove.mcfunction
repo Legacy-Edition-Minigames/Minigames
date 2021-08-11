@@ -1,11 +1,8 @@
 ##Add vote
 scoreboard players add §a1-2:Cove 4j.mapvote 1
 
-##Remove previous vote if it exists
-function 4jbattle:mapdecider/vote/rmoldvote
-
-##Remove previous vote tags
-function 4jbattle:mapdecider/vote/tagreset
+##Run global vote commands
+function 4jbattle:mapdecider/vote/add/global
 
 ##Mark as voted
 tag @s add votecove
