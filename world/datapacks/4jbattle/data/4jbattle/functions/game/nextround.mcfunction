@@ -64,8 +64,8 @@ tag @a add player
 ##Remove Victor tag
 tag @a remove Victor
 
-##Clear inventory
-clear @a
+##Reset player
+function 4jbattle:game/playerreset
 
 ##Set lives
 scoreboard players operation @a 4j.lives = #Store 4j.lives
