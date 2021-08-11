@@ -34,3 +34,6 @@ tag @a remove Winner
 
 ##Copy mob head
 execute as @a[tag=headstore] run function 4jbattle:lobby/mobhead/copy
+
+##Lock chests
+schedule function 4jbattle:game/chests/lock 1s
