@@ -408,6 +408,12 @@
                 "minecraft:infinity",
                 "minecraft:punch",
                 "minecraft:power"
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
               ]
             }
           ],
