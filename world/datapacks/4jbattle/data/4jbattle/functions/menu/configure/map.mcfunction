@@ -34,5 +34,5 @@ execute as @s[scores={4j.gamecfg=1010}] run function 4jbattle:menu/load/host/map
 ##Disable Dig if set to 1011
 execute as @s[scores={4j.gamecfg=1011}] run function 4jbattle:menu/load/host/map/dig/disable
 
-##Enable Dig if set to 1011
-execute as @s[scores={4j.gamecfg=1011}] run function 4jbattle:menu/load/host/map/dig/enable
+##Enable Dig if set to 1012
+execute as @s[scores={4j.gamecfg=1012}] run function 4jbattle:menu/load/host/map/dig/enable
