@@ -20,6 +20,9 @@ bossbar set minecraft:globalinfo name ["",{"selector":"@a[tag=Victor]"},{"text":
 execute as @a[tag=!Victor] at @s run playsound 4jbattle:sound.game.end master @s ~ ~ ~ 99999999
 execute as @a[tag=Victor] at @s run playsound 4jbattle:sound.game.win master @s ~ ~ ~ 99999999
 
+##Display particles
+function 4jbattle:game/particle/victory
+
 ##Clear showdown schedule
 schedule clear 4jbattle:game/timer/showdown/run
 
