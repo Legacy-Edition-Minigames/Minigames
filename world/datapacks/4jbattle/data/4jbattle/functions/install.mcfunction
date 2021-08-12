@@ -172,6 +172,9 @@ scoreboard objectives add 4j.firerandom dummy
 ##Lobby type
 scoreboard objectives add 4j.lobbytype dummy
 
+##Random map picker
+scoreboard objectives add 4j.maprandom dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
