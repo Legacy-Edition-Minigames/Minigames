@@ -1,5 +1,8 @@
 ##Remove empty potions
 clear @a glass_bottle
 
+##Modify thrown potion velocity
+execute as @e[type=potion,tag=!potionmodified] at @s run function 4jbattle:game/potion/modify/prep
+
 ##Loop
-schedule function 4jbattle:game/potion/runner 3t
+schedule function 4jbattle:game/potion/runner 1t

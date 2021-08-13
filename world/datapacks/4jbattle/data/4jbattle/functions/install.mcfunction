@@ -175,6 +175,9 @@ scoreboard objectives add 4j.lobbytype dummy
 ##Random map picker
 scoreboard objectives add 4j.maprandom dummy
 
+##Potion position modifiers
+scoreboard objectives add 4j.potionpos dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
