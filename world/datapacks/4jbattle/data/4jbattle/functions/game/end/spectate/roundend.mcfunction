@@ -11,7 +11,7 @@ function 4jbattle:game/end/spectate/spectate
 #Gamerules
 function 4jbattle:game/damage/disable
 #Resistance
-effect give @a[tag=Victor] resistance 7 255
+effect give @a[tag=Victor] resistance 7 255 true
 
 ##Show Victor
 bossbar set minecraft:globalinfo name ["",{"selector":"@a[tag=Victor]"},{"text":" has won!"}]
