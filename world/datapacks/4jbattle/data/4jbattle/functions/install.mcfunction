@@ -280,6 +280,5 @@ bossbar add globalinfo ""
 #Hide it (TEMPORARY)
 #bossbar set minecraft:globalinfo visible true
 
-
 ##Simulate relog
 tag @s remove relog

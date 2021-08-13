@@ -14,7 +14,12 @@ function 4jbattle:game/damage/disable
 effect give @a[tag=Victor] resistance 7 255 true
 
 ##Show Victor
-bossbar set minecraft:globalinfo name ["",{"selector":"@a[tag=Victor]"},{"text":" has won!"}]
+#Show banner
+bossbar set minecraft:pushdown name {"text":"1","font":"4jbattle:banner"}
+#Show banner textbox
+bossbar set minecraft:bannerpushdown2 name {"text":"2","font":"4jbattle:banner"}
+#Show Victor
+bossbar set minecraft:bannerinfo name ["",{"selector":"@a[tag=Victor]","color":"black"},{"text":" has won!","color":"black"}]
 
 ##Play sound
 execute as @a[tag=!Victor] at @s run playsound 4jbattle:sound.game.end master @s ~ ~ ~ 99999999
