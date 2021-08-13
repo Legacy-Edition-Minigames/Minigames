@@ -22,3 +22,9 @@ fill -44 9 124 -46 8 124 air
 fill -44 9 124 -46 8 124 minecraft:dispenser[facing=south,triggered=false]{Items:[{Count:64b,Slot:0b,id:"minecraft:tnt"},{Count:64b,Slot:1b,id:"minecraft:tnt"},{Count:64b,Slot:2b,id:"minecraft:tnt"},{Count:64b,Slot:3b,id:"minecraft:tnt"},{Count:64b,Slot:4b,id:"minecraft:tnt"},{Count:64b,Slot:5b,id:"minecraft:tnt"},{Count:64b,Slot:6b,id:"minecraft:tnt"},{Count:64b,Slot:7b,id:"minecraft:tnt"},{Count:64b,Slot:8b,id:"minecraft:tnt"}]}
 fill -44 10 124 -46 10 124 redstone_wire
 setblock -45 9 124 minecraft:bedrock
+
+##Lights
+#Turn on
+execute if predicate 4jbattle:is_nighttime run fill -100 91 155 -56 87 111 minecraft:glowstone replace minecraft:white_stained_glass
+#Turn off
+execute if predicate 4jbattle:is_daytime run fill -100 91 155 -56 87 111 minecraft:white_stained_glass replace minecraft:glowstone

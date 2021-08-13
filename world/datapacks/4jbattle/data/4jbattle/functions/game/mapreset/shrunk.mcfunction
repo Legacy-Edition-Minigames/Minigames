@@ -58,3 +58,9 @@ setblock 54 9 79 minecraft:bedrock
 setblock 71 33 77 minecraft:lever[face=wall,facing=south,powered=true]
 setblock 72 35 77 minecraft:lever[face=wall,facing=south,powered=false]
 setblock 73 33 77 minecraft:lever[face=wall,facing=south,powered=false]
+
+##Lights
+#Turn on
+execute if predicate 4jbattle:is_nighttime run fill 22 104 150 76 100 96 minecraft:glowstone replace minecraft:white_stained_glass
+#Turn off
+execute if predicate 4jbattle:is_daytime run fill 22 104 150 76 100 96 minecraft:white_stained_glass replace minecraft:glowstone
