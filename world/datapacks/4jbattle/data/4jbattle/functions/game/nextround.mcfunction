@@ -12,23 +12,23 @@ gamemode adventure @a
 #Enable message
 gamerule sendCommandFeedback true
 
-##Load crucible
-execute if score #Store 4j.map matches 1 run function 4jbattle:game/setup/teleport/check
+##Load Large Crucible
+execute if score #Store 4j.map matches 1 in 4jbattle:crucible run function 4jbattle:game/setup/teleport/check
 
-##Load cove
-execute if score #Store 4j.map matches 2 run function 4jbattle:game/setup/teleport/check
+##Load Large cove
+execute if score #Store 4j.map matches 2 in 4jbattle:cove run function 4jbattle:game/setup/teleport/check
 
-##Load cavern
-execute if score #Store 4j.map matches 3 run function 4jbattle:game/setup/teleport/check
+##Load Large Cavern
+execute if score #Store 4j.map matches 3 in 4jbattle:cavern run function 4jbattle:game/setup/teleport/check
 
 ##Load small crucible
-execute if score #Store 4j.map matches 4 run function 4jbattle:game/setup/teleport/check
+execute if score #Store 4j.map matches 4 in 4jbattle:crucible_small run function 4jbattle:game/setup/teleport/check
 
 ##Load small cove
-execute if score #Store 4j.map matches 5 run function 4jbattle:game/setup/teleport/check
+execute if score #Store 4j.map matches 5 in 4jbattle:cove_small run function 4jbattle:game/setup/teleport/check
 
 ##Load small cavern
-execute if score #Store 4j.map matches 6 run function 4jbattle:game/setup/teleport/check
+execute if score #Store 4j.map matches 6 in 4jbattle:cavern_small run function 4jbattle:game/setup/teleport/check
 
 ##Load Large Frontier
 execute if score #Store 4j.map matches 7 run function 4jbattle:game/setup/teleport/check

@@ -1,16 +1,16 @@
 ##Pre teleport
-#Crucible
-execute if score #Store 4j.map matches 1 run tp @s 227 41 231
-#Cove
-execute if score #Store 4j.map matches 2 run tp @s -70 27 -112
-#Cavern
-execute if score #Store 4j.map matches 3 run tp @s 527 32 515
+#Large Crucible
+execute if score #Store 4j.map matches 1 in 4jbattle:crucible run tp @s 347 36 331
+#Large Cove
+execute if score #Store 4j.map matches 2 in 4jbattle:cove run tp @s 45 64 251
+#Large Cavern
+execute if score #Store 4j.map matches 3 in 4jbattle:cavern run tp @s 268 28 12
 #Small Crucible
-execute if score #Store 4j.map matches 4 run tp @s -1097 28 -987
+execute if score #Store 4j.map matches 4 in 4jbattle:crucible_small run tp @s 317 75 301
 #Small Cove
-execute if score #Store 4j.map matches 5 run tp @s -713 50 -602
+execute if score #Store 4j.map matches 5 in 4jbattle:cove_small run tp @s 219 64 -220
 #Small Cavern
-execute if score #Store 4j.map matches 6 run tp @s -1457 21 -1377
+execute if score #Store 4j.map matches 6 in 4jbattle:cavern_small run tp @s -223 65 287
 #Large Frontier
 execute if score #Store 4j.map matches 7 run tp @s 949 39 1001
 #Small Frontier
