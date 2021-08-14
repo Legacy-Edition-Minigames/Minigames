@@ -57,6 +57,12 @@ execute if score #Store 4j.map matches 14 in 4jbattle:dig run function 4jbattle:
 ##Load Small Dig
 execute if score #Store 4j.map matches 15 in 4jbattle:dig_small run function 4jbattle:game/setup/teleport/check
 
+##Load Large Lair
+execute if score #Store 4j.map matches 16 in 4jbattle:lair run function 4jbattle:game/setup/teleport/check
+
+##Load Small Lair
+execute if score #Store 4j.map matches 17 in 4jbattle:lair_small run function 4jbattle:game/setup/teleport/check
+
 ##Join player team
 tag @a remove spectator
 tag @a add player

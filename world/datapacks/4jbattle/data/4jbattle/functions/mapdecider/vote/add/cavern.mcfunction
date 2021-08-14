@@ -1,5 +1,5 @@
 ##Add vote
-scoreboard players add §a1-3:Cavern 4j.mapvote 1
+scoreboard players add §a0-3:Cavern 4j.mapvote 1
 
 ##Run global vote commands
 function 4jbattle:mapdecider/vote/add/global

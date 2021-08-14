@@ -29,3 +29,7 @@ execute if score #Store 4j.map matches 13 in 4jbattle:shrunk_small run function 
 execute if score #Store 4j.map matches 14 in 4jbattle:dig run function 4jbattle:game/mapreset/dig
 #Small Dig
 execute if score #Store 4j.map matches 15 in 4jbattle:dig_small run function 4jbattle:game/mapreset/dig_small
+#Large Lair
+execute if score #Store 4j.map matches 16 in 4jbattle:lair run function 4jbattle:game/mapreset/lair/run
+#Small Lair
+execute if score #Store 4j.map matches 17 in 4jbattle:lair_small run function 4jbattle:game/mapreset/lair_small

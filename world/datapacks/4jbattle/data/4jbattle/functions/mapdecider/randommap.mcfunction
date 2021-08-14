@@ -35,6 +35,10 @@ execute if score #Store 4j.maptype matches 1 if score #Shrunk 4j.enablemap match
 execute if score #Store 4j.maptype matches 2.. if score #Dig 4j.enablemap matches 1 if score #Store 4j.maprandom matches 6 run scoreboard players set #Store 4j.map 14
 #Small Dig
 execute if score #Store 4j.maptype matches 1 if score #Dig 4j.enablemap matches 1 if score #Store 4j.maprandom matches 6 run scoreboard players set #Store 4j.map 15
+#Large Lair
+execute if score #Store 4j.maptype matches 2.. if score #Lair 4j.enablemap matches 1 if score #Store 4j.maprandom matches 6 run scoreboard players set #Store 4j.map 16
+#Small Lair
+execute if score #Store 4j.maptype matches 1 if score #Lair 4j.enablemap matches 1 if score #Store 4j.maprandom matches 6 run scoreboard players set #Store 4j.map 17
 
 ##Roll again if map not found
 execute if score #Store 4j.map matches ..0 run function 4jbattle:mapdecider/randommap

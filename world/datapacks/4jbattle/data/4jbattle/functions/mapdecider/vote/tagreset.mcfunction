@@ -16,3 +16,6 @@ tag @s remove votedig
 
 ##Shrunk
 tag @s remove voteshrunk
+
+##Lair
+tag @s remove votelair

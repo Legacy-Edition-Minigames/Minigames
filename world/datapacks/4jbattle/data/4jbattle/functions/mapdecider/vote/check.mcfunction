@@ -37,6 +37,12 @@ execute if score #Shrunk 4j.enablemap matches 1 as @a[scores={4j.playermapvote=5
 #If user hasnt voted for this map yet
 execute if score #Shrunk 4j.enablemap matches 1 as @a[scores={4j.playermapvote=5}] run function 4jbattle:mapdecider/vote/add/shrunk
 
+##add 1 to Lair's vote count if voted for
+#If user has voted for this map
+execute if score #Lair 4j.enablemap matches 1 as @a[scores={4j.playermapvote=7},tag=votelair] run function 4jbattle:mapdecider/vote/error
+#If user hasnt voted for this map yet
+execute if score #Lair 4j.enablemap matches 1 as @a[scores={4j.playermapvote=7}] run function 4jbattle:mapdecider/vote/add/lair
+
 ##Play sound
 execute as @a[scores={4j.playermapvote=1..}] at @s run playsound ui.button.click master @s ~ ~ ~ 0.25
 

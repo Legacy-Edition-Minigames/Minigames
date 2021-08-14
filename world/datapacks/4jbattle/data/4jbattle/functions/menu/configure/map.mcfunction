@@ -36,3 +36,9 @@ execute as @s[scores={4j.gamecfg=1011}] run function 4jbattle:menu/load/host/map
 
 ##Enable Dig if set to 1012
 execute as @s[scores={4j.gamecfg=1012}] run function 4jbattle:menu/load/host/map/dig/enable
+
+##Disable Lair if set to 1013
+execute as @s[scores={4j.gamecfg=1013}] run function 4jbattle:menu/load/host/map/lair/disable
+
+##Enable Lair if set to 1014
+execute as @s[scores={4j.gamecfg=1014}] run function 4jbattle:menu/load/host/map/lair/enable

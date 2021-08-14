@@ -19,6 +19,12 @@ execute if score #Cavern 4j.enablemap matches 1 run tellraw @s ["",{"text":"[","
 #Disabled
 execute if score #Cavern 4j.enablemap matches 0 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1006"}},{"text":"❌","color":"red","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1006"}},{"text":"] Cavern","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1006"}}]
 
+##Lair
+#Enabled
+execute if score #Lair 4j.enablemap matches 1 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1013"}},{"text":"✔","color":"green","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1013"}},{"text":"] Lair","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1013"}}]
+#Disabled
+execute if score #Lair 4j.enablemap matches 0 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1014"}},{"text":"❌","color":"red","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1014"}},{"text":"] Lair","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1014"}}]
+
 ##Frontier
 #Enabled
 execute if score #Frontier 4j.enablemap matches 1 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1007"}},{"text":"✔","color":"green","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1007"}},{"text":"] Frontier","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1007"}}]
