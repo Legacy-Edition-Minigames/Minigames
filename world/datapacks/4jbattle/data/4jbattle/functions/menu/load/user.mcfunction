@@ -1,3 +1,3 @@
 ##Something will go here eventually..
 ##Teleport
-tp @s -332 73 -341
+execute in 4jbattle:menu run tp @s 7 97 -149
