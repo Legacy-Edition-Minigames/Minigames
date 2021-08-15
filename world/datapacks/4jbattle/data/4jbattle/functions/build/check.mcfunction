@@ -9,6 +9,10 @@ execute as @e[type=bat,tag=spawncstandardchest] at @s run function 4jbattle:buil
 execute as @e[type=bat,tag=spawnrandomtp] at @s run function 4jbattle:build/spawn/spawnpoint/random
 #Center
 execute as @e[type=bat,tag=spawncentertp] at @s run function 4jbattle:build/spawn/spawnpoint/center
+#New Lobby
+#execute as @e[type=bat,tag=spawnrandomtp] at @s run function 4jbattle:build/spawn/spawnpoint/lobby/new
+#Old Lobby
+#execute as @e[type=bat,tag=spawncentertp] at @s run function 4jbattle:build/spawn/spawnpoint/lobby/old
 
 ##Center
 execute as @e[type=bat,tag=spawncenter] at @s run function 4jbattle:build/spawn/center

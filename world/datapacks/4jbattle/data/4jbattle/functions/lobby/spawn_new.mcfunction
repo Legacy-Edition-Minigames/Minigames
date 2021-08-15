@@ -1,5 +1,5 @@
 ##Spawn players
 #Standard
-tp @s[tag=!Winner] -343 57 -341
+execute as @s[tag=!Winner] run tp @s @e[type=area_effect_cloud,tag=NewLobbyTP,limit=1,sort=random]
 #Winner
-tp @s[tag=Winner] -363 69 -341 -90 0
+tp @s[tag=Winner] -357 70 -341 -90 0
