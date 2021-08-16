@@ -21,3 +21,6 @@ execute if entity @s[tag=votelair] run scoreboard players remove §a1-1:Lair 4j.
 
 ##Remove Medusa map vote
 execute if entity @s[tag=votemedusa] run scoreboard players remove §a1-2:Medusa 4j.mapvote 1
+
+##Remove Temple map vote
+execute if entity @s[tag=votetemple] run scoreboard players remove §a1-3:Temple 4j.mapvote 1

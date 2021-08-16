@@ -69,6 +69,11 @@ execute if score #Store 4j.map matches 18 in 4jbattle:medusa run function 4jbatt
 ##Load Small Medusa
 execute if score #Store 4j.map matches 19 in 4jbattle:medusa_small run function 4jbattle:game/setup/teleport/check
 
+##Load Large Temple
+execute if score #Store 4j.map matches 20 in 4jbattle:temple run function 4jbattle:game/setup/teleport/check
+
+##Load Small Temple
+execute if score #Store 4j.map matches 21 in 4jbattle:temple_small run function 4jbattle:game/setup/teleport/check
 
 ##Join player team
 tag @a remove spectator

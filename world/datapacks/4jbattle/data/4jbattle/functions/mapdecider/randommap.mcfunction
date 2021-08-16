@@ -36,13 +36,17 @@ execute if score #Store 4j.maptype matches 2.. if score #Dig 4j.enablemap matche
 #Small Dig
 execute if score #Store 4j.maptype matches 1 if score #Dig 4j.enablemap matches 1 if score #Store 4j.maprandom matches 6 run scoreboard players set #Store 4j.map 15
 #Large Lair
-execute if score #Store 4j.maptype matches 2.. if score #Lair 4j.enablemap matches 1 if score #Store 4j.maprandom matches 6 run scoreboard players set #Store 4j.map 16
+execute if score #Store 4j.maptype matches 2.. if score #Lair 4j.enablemap matches 1 if score #Store 4j.maprandom matches 7 run scoreboard players set #Store 4j.map 16
 #Small Lair
-execute if score #Store 4j.maptype matches 1 if score #Lair 4j.enablemap matches 1 if score #Store 4j.maprandom matches 6 run scoreboard players set #Store 4j.map 17
+execute if score #Store 4j.maptype matches 1 if score #Lair 4j.enablemap matches 1 if score #Store 4j.maprandom matches 7 run scoreboard players set #Store 4j.map 17
 #Large Medusa
-execute if score #Store 4j.maptype matches 2.. if score #Medusa 4j.enablemap matches 1 if score #Store 4j.maprandom matches 6 run scoreboard players set #Store 4j.map 18
+execute if score #Store 4j.maptype matches 2.. if score #Medusa 4j.enablemap matches 1 if score #Store 4j.maprandom matches 8 run scoreboard players set #Store 4j.map 18
 #Small Medusa
-execute if score #Store 4j.maptype matches 1 if score #Medusa 4j.enablemap matches 1 if score #Store 4j.maprandom matches 6 run scoreboard players set #Store 4j.map 19
+execute if score #Store 4j.maptype matches 1 if score #Medusa 4j.enablemap matches 1 if score #Store 4j.maprandom matches 8 run scoreboard players set #Store 4j.map 19
+#Large Temple
+execute if score #Store 4j.maptype matches 2.. if score #Temple 4j.enablemap matches 1 if score #Store 4j.maprandom matches 9 run scoreboard players set #Store 4j.map 20
+#Small Temple
+execute if score #Store 4j.maptype matches 1 if score #Temple 4j.enablemap matches 1 if score #Store 4j.maprandom matches 9 run scoreboard players set #Store 4j.map 21
 
 ##Roll again if map not found
 execute if score #Store 4j.map matches ..0 run function 4jbattle:mapdecider/randommap

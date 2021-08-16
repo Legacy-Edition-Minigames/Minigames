@@ -22,3 +22,6 @@ tag @s remove votelair
 
 ##Medusa
 tag @s remove votemedusa
+
+##Temple
+tag @s remove votetemple

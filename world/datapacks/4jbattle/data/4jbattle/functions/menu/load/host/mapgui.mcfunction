@@ -31,6 +31,12 @@ execute if score #Medusa 4j.enablemap matches 1 run tellraw @s ["",{"text":"[","
 #Disabled
 execute if score #Medusa 4j.enablemap matches 0 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1016"}},{"text":"❌","color":"red","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1016"}},{"text":"] Medusa","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1016"}}]
 
+##Temple
+#Enabled
+execute if score #Temple 4j.enablemap matches 1 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1017"}},{"text":"✔","color":"green","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1017"}},{"text":"] Temple","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1017"}}]
+#Disabled
+execute if score #Temple 4j.enablemap matches 0 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1018"}},{"text":"❌","color":"red","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1018"}},{"text":"] Temple","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1018"}}]
+
 ##Frontier
 #Enabled
 execute if score #Frontier 4j.enablemap matches 1 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1007"}},{"text":"✔","color":"green","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1007"}},{"text":"] Frontier","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1007"}}]

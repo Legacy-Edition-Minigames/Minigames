@@ -48,3 +48,9 @@ execute as @s[scores={4j.gamecfg=1015}] run function 4jbattle:menu/load/host/map
 
 ##Enable Medusa if set to 1016
 execute as @s[scores={4j.gamecfg=1016}] run function 4jbattle:menu/load/host/map/medusa/enable
+
+##Disable Temple if set to 1017
+execute as @s[scores={4j.gamecfg=1017}] run function 4jbattle:menu/load/host/map/temple/disable
+
+##Enable Temple if set to 1018
+execute as @s[scores={4j.gamecfg=1018}] run function 4jbattle:menu/load/host/map/temple/enable
