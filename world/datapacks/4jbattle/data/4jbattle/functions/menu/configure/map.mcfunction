@@ -42,3 +42,9 @@ execute as @s[scores={4j.gamecfg=1013}] run function 4jbattle:menu/load/host/map
 
 ##Enable Lair if set to 1014
 execute as @s[scores={4j.gamecfg=1014}] run function 4jbattle:menu/load/host/map/lair/enable
+
+##Disable Medusa if set to 1015
+execute as @s[scores={4j.gamecfg=1015}] run function 4jbattle:menu/load/host/map/medusa/disable
+
+##Enable Medusa if set to 1016
+execute as @s[scores={4j.gamecfg=1016}] run function 4jbattle:menu/load/host/map/medusa/enable

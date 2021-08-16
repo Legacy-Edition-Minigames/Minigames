@@ -34,6 +34,10 @@ execute if score #Store 4j.maptype matches 1 if score #Dig 4j.enablemap matches 
 execute if score #Store 4j.maptype matches 2.. if score #Lair 4j.enablemap matches 1 if score §a1-1:Lair 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 16
 #Small Lair
 execute if score #Store 4j.maptype matches 1 if score #Lair 4j.enablemap matches 1 if score §a1-1:Lair 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 17
+#Large Medusa
+execute if score #Store 4j.maptype matches 2.. if score #Medusa 4j.enablemap matches 1 if score §a1-2:Medusa 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 18
+#Small Medusa
+execute if score #Store 4j.maptype matches 1 if score #Medusa 4j.enablemap matches 1 if score §a1-2:Medusa 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 19
 
 ##Load map
 function 4jbattle:mapdecider/check

@@ -33,3 +33,7 @@ execute if score #Store 4j.map matches 15 in 4jbattle:dig_small run tp @s 59 48 
 execute if score #Store 4j.map matches 16 in 4jbattle:lair run tp @s 70 49 70
 #Small Lair
 execute if score #Store 4j.map matches 17 in 4jbattle:lair_small run tp @s 45 29 45
+#Large Medusa
+execute if score #Store 4j.map matches 18 in 4jbattle:medusa run tp @s 244 67 100
+#Small Medusa
+execute if score #Store 4j.map matches 19 in 4jbattle:medusa_small run tp @s 228 66 100

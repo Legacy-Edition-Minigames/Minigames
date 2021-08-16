@@ -24,6 +24,8 @@ execute if score #Dig 4j.enablemap matches 1 run scoreboard players set §a4-2:D
 execute if score #Shrunk 4j.enablemap matches 1 run scoreboard players set §a4-3:Shrunk 4j.mapvote 0
 #Lair
 execute if score #Lair 4j.enablemap matches 1 run scoreboard players set §a1-1:Lair 4j.mapvote 0
+#Medusa
+execute if score #Medusa 4j.enablemap matches 1 run scoreboard players set §a1-2:Medusa 4j.mapvote 0
 
 ##Start runner
 function 4jbattle:mapdecider/vote/check

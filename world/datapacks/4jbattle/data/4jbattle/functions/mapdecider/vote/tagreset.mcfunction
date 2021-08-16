@@ -19,3 +19,6 @@ tag @s remove voteshrunk
 
 ##Lair
 tag @s remove votelair
+
+##Medusa
+tag @s remove votemedusa

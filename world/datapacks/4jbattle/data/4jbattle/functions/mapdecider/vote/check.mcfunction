@@ -43,6 +43,12 @@ execute if score #Lair 4j.enablemap matches 1 as @a[scores={4j.playermapvote=7},
 #If user hasnt voted for this map yet
 execute if score #Lair 4j.enablemap matches 1 as @a[scores={4j.playermapvote=7}] run function 4jbattle:mapdecider/vote/add/lair
 
+##add 1 to Medusa's vote count if voted for
+#If user has voted for this map
+execute if score #Medusa 4j.enablemap matches 1 as @a[scores={4j.playermapvote=8},tag=votemedusa] run function 4jbattle:mapdecider/vote/error
+#If user hasnt voted for this map yet
+execute if score #Medusa 4j.enablemap matches 1 as @a[scores={4j.playermapvote=8}] run function 4jbattle:mapdecider/vote/add/medusa
+
 ##Play sound
 execute as @a[scores={4j.playermapvote=1..}] at @s run playsound ui.button.click master @s ~ ~ ~ 0.25
 
