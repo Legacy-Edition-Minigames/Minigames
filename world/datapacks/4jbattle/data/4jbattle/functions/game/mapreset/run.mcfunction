@@ -41,3 +41,7 @@ execute if score #Store 4j.map matches 19 in 4jbattle:medusa_small run function 
 execute if score #Store 4j.map matches 20 in 4jbattle:temple run function 4jbattle:game/mapreset/temple
 #Small Temple
 execute if score #Store 4j.map matches 21 in 4jbattle:temple_small run function 4jbattle:game/mapreset/temple_small
+#Large Atlantis
+execute if score #Store 4j.map matches 22 in 4jbattle:atlantis run function 4jbattle:game/mapreset/atlantis
+#Small Atlantis
+execute if score #Store 4j.map matches 23 in 4jbattle:atlantis_small run function 4jbattle:game/mapreset/atlantis_small

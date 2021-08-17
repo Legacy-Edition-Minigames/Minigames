@@ -25,3 +25,6 @@ tag @s remove votemedusa
 
 ##Temple
 tag @s remove votetemple
+
+##Atlantis
+tag @s remove voteatlantis

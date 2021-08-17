@@ -38,12 +38,14 @@ scoreboard players set #Lair 4j.enablemap 1
 scoreboard players set #Medusa 4j.enablemap 1
 #Temple
 scoreboard players set #Temple 4j.enablemap 1
+#Atlantis
+scoreboard players set #Atlantis 4j.enablemap 1
 
 ##Default Map Type
 scoreboard players set #Store 4j.setmaptype 1
 
 ##Set mapcount
-scoreboard players set #Store 4j.mapcount 9
+scoreboard players set #Store 4j.mapcount 10
 
 ##Visual time
 #Score
