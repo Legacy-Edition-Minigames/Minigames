@@ -38,6 +38,9 @@ function 4jbattle:game/player/setpid
 ##Send to menu
 execute if score #Store 4j.gamestatus matches 0 run function 4jbattle:menu/load/user
 
+##Set music timer
+execute if score #Store 4j.gamestatus matches 2 run scoreboard players set @s 4j.mustimer 10
+
 ##Add to player count
 function 4jbattle:disconnect/add
 
@@ -67,3 +70,6 @@ execute if score #Store 4j.gamestatus matches 2 run function 4jbattle:game/hunge
 
 ##Reset score
 scoreboard players reset @s 4j.score
+
+##Teleport to a random player if spectator
+execute if score #Store 4j.gamestatus matches 2 run tp @s @r
