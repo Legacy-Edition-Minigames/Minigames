@@ -4,12 +4,6 @@ schedule clear 4jbattle:host/check
 ##Stop checking for gamecfg
 schedule clear 4jbattle:menu/configure/runner
 
-##Start Music
-#Set MusTimer
-scoreboard players set @a 4j.mustimer 0
-#Function
-schedule function 4jbattle:game/music/runner 3s
-
 ##Set Rounds
 scoreboard players operation #Store 4j.round = #Store 4j.setround
 
