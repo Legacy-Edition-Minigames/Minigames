@@ -4,7 +4,7 @@
 function 4jbattle:game/setup/teleport/load
 
 ##Check for surround setting, if so, run
-execute if score #Store 4j.tp matches 1 as @a run schedule function 4jbattle:game/setup/teleport/surround 3t
+execute if score #Store 4j.tp matches 1 as @a run schedule function 4jbattle:game/setup/teleport/surround 1s
 
 ##Check for random setting, if so, run
-execute if score #Store 4j.tp matches 2 as @a run schedule function 4jbattle:game/setup/teleport/random 3t
+execute if score #Store 4j.tp matches 2 as @a run schedule function 4jbattle:game/setup/teleport/random 1s
