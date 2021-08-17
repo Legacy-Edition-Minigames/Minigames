@@ -235,6 +235,38 @@ team modify P7 collisionRule never
 team add P8
 team modify P8 color aqua
 team modify P8 collisionRule never
+#9
+team add P9
+team modify P9 color dark_aqua
+team modify P9 collisionRule never
+#10
+team add P10
+team modify P10 color green
+team modify P10 collisionRule never
+#11
+team add P11
+team modify P11 color dark_purple
+team modify P11 collisionRule never
+#12
+team add P12
+team modify P12 color gold
+team modify P12 collisionRule never
+#13
+team add P13
+team modify P13 color dark_red
+team modify P13 collisionRule never
+#14
+team add P14
+team modify P14 color dark_green
+team modify P14 collisionRule never
+#15
+team add P15
+team modify P15 color light_purple
+team modify P15 collisionRule never
+#16
+team add P16
+team modify P16 color gray
+team modify P16 collisionRule never
 
 ##Team Player
 #Create

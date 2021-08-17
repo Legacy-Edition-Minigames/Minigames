@@ -16,6 +16,22 @@ execute unless score @s 4j.pid matches 1.. unless entity @a[scores={4j.pid=6}] r
 execute unless score @s 4j.pid matches 1.. unless entity @a[scores={4j.pid=7}] run function 4jbattle:game/player/setpid/7
 #8
 execute unless score @s 4j.pid matches 1.. unless entity @a[scores={4j.pid=8}] run function 4jbattle:game/player/setpid/8
+#9
+execute unless score @s 4j.pid matches 1.. unless entity @a[scores={4j.pid=9}] run function 4jbattle:game/player/setpid/9
+#10
+execute unless score @s 4j.pid matches 1.. unless entity @a[scores={4j.pid=10}] run function 4jbattle:game/player/setpid/10
+#11
+execute unless score @s 4j.pid matches 1.. unless entity @a[scores={4j.pid=11}] run function 4jbattle:game/player/setpid/11
+#12
+execute unless score @s 4j.pid matches 1.. unless entity @a[scores={4j.pid=12}] run function 4jbattle:game/player/setpid/12
+#13
+execute unless score @s 4j.pid matches 1.. unless entity @a[scores={4j.pid=13}] run function 4jbattle:game/player/setpid/13
+#14
+execute unless score @s 4j.pid matches 1.. unless entity @a[scores={4j.pid=14}] run function 4jbattle:game/player/setpid/14
+#15
+execute unless score @s 4j.pid matches 1.. unless entity @a[scores={4j.pid=15}] run function 4jbattle:game/player/setpid/15
+#16
+execute unless score @s 4j.pid matches 1.. unless entity @a[scores={4j.pid=16}] run function 4jbattle:game/player/setpid/16
 
 ##Set team based on PID
 #1
@@ -34,3 +50,19 @@ execute if score @s 4j.pid matches 6 run team join P6
 execute if score @s 4j.pid matches 7 run team join P7
 #8
 execute if score @s 4j.pid matches 8 run team join P8
+#9
+execute if score @s 4j.pid matches 9 run team join P9
+#10
+execute if score @s 4j.pid matches 10 run team join P10
+#11
+execute if score @s 4j.pid matches 11 run team join P11
+#12
+execute if score @s 4j.pid matches 12 run team join P12
+#13
+execute if score @s 4j.pid matches 13 run team join P13
+#14
+execute if score @s 4j.pid matches 14 run team join P14
+#15
+execute if score @s 4j.pid matches 15 run team join P15
+#16
+execute if score @s 4j.pid matches 16 run team join P16

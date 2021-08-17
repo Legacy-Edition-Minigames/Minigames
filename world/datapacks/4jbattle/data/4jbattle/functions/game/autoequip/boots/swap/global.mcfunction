@@ -8,6 +8,14 @@ execute in minecraft:overworld run item replace block -339 4 -341 container.4 fr
 execute in minecraft:overworld run item replace block -339 4 -341 container.5 from entity @s[scores={4j.pid=6}] armor.feet 4jbattle:game/autoequip
 execute in minecraft:overworld run item replace block -339 4 -341 container.6 from entity @s[scores={4j.pid=7}] armor.feet 4jbattle:game/autoequip
 execute in minecraft:overworld run item replace block -339 4 -341 container.7 from entity @s[scores={4j.pid=8}] armor.feet 4jbattle:game/autoequip
+execute in minecraft:overworld run item replace block -339 4 -341 container.8 from entity @s[scores={4j.pid=9}] armor.feet 4jbattle:game/autoequip
+execute in minecraft:overworld run item replace block -339 4 -341 container.9 from entity @s[scores={4j.pid=10}] armor.feet 4jbattle:game/autoequip
+execute in minecraft:overworld run item replace block -339 4 -341 container.10 from entity @s[scores={4j.pid=11}] armor.feet 4jbattle:game/autoequip
+execute in minecraft:overworld run item replace block -339 4 -341 container.11 from entity @s[scores={4j.pid=12}] armor.feet 4jbattle:game/autoequip
+execute in minecraft:overworld run item replace block -339 4 -341 container.12 from entity @s[scores={4j.pid=13}] armor.feet 4jbattle:game/autoequip
+execute in minecraft:overworld run item replace block -339 4 -341 container.13 from entity @s[scores={4j.pid=14}] armor.feet 4jbattle:game/autoequip
+execute in minecraft:overworld run item replace block -339 4 -341 container.14 from entity @s[scores={4j.pid=15}] armor.feet 4jbattle:game/autoequip
+execute in minecraft:overworld run item replace block -339 4 -341 container.15 from entity @s[scores={4j.pid=16}] armor.feet 4jbattle:game/autoequip
 #Copy new armor
 execute in minecraft:overworld run item replace entity @s armor.feet from entity @s weapon.mainhand
 #Move old armor to mainhand
@@ -19,3 +27,11 @@ execute in minecraft:overworld run item replace entity @s[scores={4j.pid=5}] wea
 execute in minecraft:overworld run item replace entity @s[scores={4j.pid=6}] weapon.mainhand from block -339 4 -341 container.5
 execute in minecraft:overworld run item replace entity @s[scores={4j.pid=7}] weapon.mainhand from block -339 4 -341 container.6
 execute in minecraft:overworld run item replace entity @s[scores={4j.pid=8}] weapon.mainhand from block -339 4 -341 container.7
+execute in minecraft:overworld run item replace entity @s[scores={4j.pid=9}] weapon.mainhand from block -339 4 -341 container.8
+execute in minecraft:overworld run item replace entity @s[scores={4j.pid=10}] weapon.mainhand from block -339 4 -341 container.9
+execute in minecraft:overworld run item replace entity @s[scores={4j.pid=11}] weapon.mainhand from block -339 4 -341 container.10
+execute in minecraft:overworld run item replace entity @s[scores={4j.pid=12}] weapon.mainhand from block -339 4 -341 container.11
+execute in minecraft:overworld run item replace entity @s[scores={4j.pid=13}] weapon.mainhand from block -339 4 -341 container.12
+execute in minecraft:overworld run item replace entity @s[scores={4j.pid=14}] weapon.mainhand from block -339 4 -341 container.13
+execute in minecraft:overworld run item replace entity @s[scores={4j.pid=15}] weapon.mainhand from block -339 4 -341 container.14
+execute in minecraft:overworld run item replace entity @s[scores={4j.pid=16}] weapon.mainhand from block -339 4 -341 container.15

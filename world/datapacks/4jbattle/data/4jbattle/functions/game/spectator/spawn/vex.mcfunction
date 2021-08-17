@@ -15,6 +15,22 @@ summon vex ~ ~ ~ {HasVisualFire:0,Team:"nocollision",Invulnerable:1b,Persistence
 summon vex ~ ~ ~ {HasVisualFire:0,Team:"nocollision",Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["spectatormob","specmobp7"]}
 #8
 summon vex ~ ~ ~ {HasVisualFire:0,Team:"nocollision",Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["spectatormob","specmobp8"]}
+#9
+summon vex ~ ~ ~ {HasVisualFire:0,Team:"nocollision",Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["spectatormob","specmobp9"]}
+#10
+summon vex ~ ~ ~ {HasVisualFire:0,Team:"nocollision",Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["spectatormob","specmobp10"]}
+#11
+summon vex ~ ~ ~ {HasVisualFire:0,Team:"nocollision",Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["spectatormob","specmobp11"]}
+#12
+summon vex ~ ~ ~ {HasVisualFire:0,Team:"nocollision",Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["spectatormob","specmobp12"]}
+#13
+summon vex ~ ~ ~ {HasVisualFire:0,Team:"nocollision",Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["spectatormob","specmobp13"]}
+#14
+summon vex ~ ~ ~ {HasVisualFire:0,Team:"nocollision",Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["spectatormob","specmobp14"]}
+#15
+summon vex ~ ~ ~ {HasVisualFire:0,Team:"nocollision",Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["spectatormob","specmobp15"]}
+#16
+summon vex ~ ~ ~ {HasVisualFire:0,Team:"nocollision",Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["spectatormob","specmobp16"]}
 
 ##Start check
 function 4jbattle:game/spectator/check
