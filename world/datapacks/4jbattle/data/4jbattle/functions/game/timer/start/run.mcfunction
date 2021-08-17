@@ -63,4 +63,4 @@ function 4jbattle:game/music/runner
 execute if score #Store 4j.tp matches 1 as @a at @s as @e[type=area_effect_cloud,tag=CenterTP,sort=nearest,limit=1] at @s run tp @p ~ ~ ~
 
 #Check for random setting, if so, run
-execute if score #Store 4j.tp matches 2 as @a at @s as @e[type=area_effect_cloud,tag=RandomTP,sort=random,limit=1] at @s run tp @p ~ ~ ~
+execute if score #Store 4j.tp matches 2 as @a at @s as @e[type=area_effect_cloud,tag=RandomTP,sort=nearest,limit=1] at @s run tp @p ~ ~ ~
