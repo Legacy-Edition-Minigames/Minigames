@@ -11,7 +11,11 @@ function 4jbattle:game/potion/runner
 function 4jbattle:game/achievement/check
 
 ##Unfreeze players
+#Stop check
 function 4jbattle:game/setup/freeze/stop
+#Remove shulkers
+execute as @e[tag=boatWall] run tp @s ~ 0 ~
+kill @e[tag=boatWall]
 
 ##Inform users the game has started
 bossbar set minecraft:globalinfo name "The game has started!"
@@ -52,8 +56,3 @@ function 4jbattle:game/autoequip/check
 ##Unlock chests
 function 4jbattle:game/chests/unlock
 
-##TP back to spawn points just in case
-#Check for surround setting, if so, run
-#execute if score #Store 4j.tp matches 1 as @a at @s as @e[type=area_effect_cloud,tag=CenterTP,sort=nearest,limit=1] at @s run tp @p ~ ~ ~
-#Check for random setting, if so, run
-#execute if score #Store 4j.tp matches 2 as @a at @s as @e[type=area_effect_cloud,tag=RandomTP,sort=nearest,limit=1] at @s run tp @p ~ ~ ~

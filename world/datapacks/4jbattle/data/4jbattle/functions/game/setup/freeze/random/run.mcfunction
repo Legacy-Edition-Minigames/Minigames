@@ -32,4 +32,8 @@ execute as @e[type=area_effect_cloud,tag=F-RTP-15,sort=random,limit=1] at @s run
 #Player 16
 execute as @e[type=area_effect_cloud,tag=F-RTP-16,sort=random,limit=1] at @s run tp @a[scores={4j.pid=16}] ~ ~ ~
 
+##Hide shulkers
+effect give @e[type=shulker,tag=boatWall] invisibility 10 0 true
+
+##Loop
 schedule function 4jbattle:game/setup/freeze/random/run 1t
