@@ -1,6 +1,6 @@
 ##Inform all users that showdown has begun
 #Show banner
-bossbar set minecraft:pushdown name {"text":"1","font":"4jbattle:banner"}
+bossbar set minecraft:pushdown name {"text":"4","font":"4jbattle:banner"}
 #Show banner textbox
 bossbar set minecraft:bannerpushdown2 name {"text":"3","font":"4jbattle:banner"}
 #Show banner text
