@@ -81,6 +81,12 @@ execute if score #Store 4j.map matches 22 in 4jbattle:atlantis run function 4jba
 ##Load Small Atlantis
 execute if score #Store 4j.map matches 23 in 4jbattle:atlantis run function 4jbattle:game/setup/teleport/check
 
+##Load Large Ruin
+execute if score #Store 4j.map matches 24 in 4jbattle:ruin run function 4jbattle:game/setup/teleport/check
+
+##Load Small Ruin
+execute if score #Store 4j.map matches 25 in 4jbattle:ruin_small run function 4jbattle:game/setup/teleport/check
+
 ##Join player team
 tag @a remove spectator
 tag @a add player

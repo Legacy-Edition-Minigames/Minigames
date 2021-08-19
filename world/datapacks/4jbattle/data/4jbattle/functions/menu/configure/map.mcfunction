@@ -60,3 +60,9 @@ execute as @s[scores={4j.gamecfg=1019}] run function 4jbattle:menu/load/host/map
 
 ##Enable Atlantis if set to 1020
 execute as @s[scores={4j.gamecfg=1020}] run function 4jbattle:menu/load/host/map/atlantis/enable
+
+##Disable Ruin if set to 1019
+execute as @s[scores={4j.gamecfg=1021}] run function 4jbattle:menu/load/host/map/ruin/disable
+
+##Enable Ruin if set to 1020
+execute as @s[scores={4j.gamecfg=1022}] run function 4jbattle:menu/load/host/map/ruin/enable

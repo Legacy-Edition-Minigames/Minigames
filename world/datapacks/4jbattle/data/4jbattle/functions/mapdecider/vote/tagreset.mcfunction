@@ -28,3 +28,6 @@ tag @s remove votetemple
 
 ##Atlantis
 tag @s remove voteatlantis
+
+##Ruin
+tag @s remove voteruin

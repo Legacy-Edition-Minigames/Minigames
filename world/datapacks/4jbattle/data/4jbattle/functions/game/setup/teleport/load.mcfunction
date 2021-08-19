@@ -45,3 +45,7 @@ execute if score #Store 4j.map matches 21 in 4jbattle:temple_small run tp @s -11
 execute if score #Store 4j.map matches 22 in 4jbattle:atlantis run tp @s 151 47 175
 #Small Atlantis
 execute if score #Store 4j.map matches 23 in 4jbattle:atlantis_small run tp @s 153 34 156
+#Large Ruin
+execute if score #Store 4j.map matches 24 in 4jbattle:ruin run tp @s -51 3 50
+#Small Ruin
+execute if score #Store 4j.map matches 25 in 4jbattle:ruin_small run tp @s -206 14 178

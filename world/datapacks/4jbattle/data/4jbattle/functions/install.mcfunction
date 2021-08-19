@@ -206,67 +206,67 @@ execute store result score #Store 4j.plist if entity @a
 #1
 team add P1
 team modify P1 color white
-team modify P1 collisionRule never
+team modify P1 collisionRule pushOwnTeam
 #2
 team add P2
 team modify P2 color green
-team modify P2 collisionRule never
+team modify P2 collisionRule pushOwnTeam
 #3
 team add P3
 team modify P3 color red
-team modify P3 collisionRule never
+team modify P3 collisionRule pushOwnTeam
 #4
 team add P4
 team modify P4 color blue
-team modify P4 collisionRule never
+team modify P4 collisionRule pushOwnTeam
 #5
 team add P5
 team modify P5 color light_purple
-team modify P5 collisionRule never
+team modify P5 collisionRule pushOwnTeam
 #6
 team add P6
 team modify P6 color gold
-team modify P6 collisionRule never
+team modify P6 collisionRule pushOwnTeam
 #7
 team add P7
 team modify P7 color yellow
-team modify P7 collisionRule never
+team modify P7 collisionRule pushOwnTeam
 #8
 team add P8
 team modify P8 color aqua
-team modify P8 collisionRule never
+team modify P8 collisionRule pushOwnTeam
 #9
 team add P9
 team modify P9 color dark_aqua
-team modify P9 collisionRule never
+team modify P9 collisionRule pushOwnTeam
 #10
 team add P10
 team modify P10 color green
-team modify P10 collisionRule never
+team modify P10 collisionRule pushOwnTeam
 #11
 team add P11
 team modify P11 color dark_purple
-team modify P11 collisionRule never
+team modify P11 collisionRule pushOwnTeam
 #12
 team add P12
 team modify P12 color gold
-team modify P12 collisionRule never
+team modify P12 collisionRule pushOwnTeam
 #13
 team add P13
 team modify P13 color dark_red
-team modify P13 collisionRule never
+team modify P13 collisionRule pushOwnTeam
 #14
 team add P14
 team modify P14 color dark_green
-team modify P14 collisionRule never
+team modify P14 collisionRule pushOwnTeam
 #15
 team add P15
 team modify P15 color light_purple
-team modify P15 collisionRule never
+team modify P15 collisionRule pushOwnTeam
 #16
 team add P16
 team modify P16 color gray
-team modify P16 collisionRule never
+team modify P16 collisionRule pushOwnTeam
 
 ##Team Player
 #Create

@@ -43,6 +43,12 @@ execute if score #Atlantis 4j.enablemap matches 1 run tellraw @s ["",{"text":"["
 #Disabled
 execute if score #Atlantis 4j.enablemap matches 0 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1020"}},{"text":"❌","color":"red","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1020"}},{"text":"] Atlantis","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1020"}}]
 
+##Ruin
+#Enabled
+execute if score #Ruin 4j.enablemap matches 1 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1021"}},{"text":"✔","color":"green","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1021"}},{"text":"] Ruin","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1021"}}]
+#Disabled
+execute if score #Ruin 4j.enablemap matches 0 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 2022"}},{"text":"❌","color":"red","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 2022"}},{"text":"] Ruin","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 2022"}}]
+
 ##Frontier
 #Enabled
 execute if score #Frontier 4j.enablemap matches 1 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1007"}},{"text":"✔","color":"green","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1007"}},{"text":"] Frontier","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1007"}}]
