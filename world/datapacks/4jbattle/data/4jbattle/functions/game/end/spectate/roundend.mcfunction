@@ -1,6 +1,9 @@
 ##Decide Victor
 tag @a[tag=player] add Victor
 
+##Add saturation to victor
+effect give @a[tag=Victor] saturation 10 255 true
+
 ##Add score
 scoreboard players add @a[tag=Victor] 4j.score 1
 
