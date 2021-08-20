@@ -47,7 +47,7 @@ execute if score #Atlantis 4j.enablemap matches 0 run tellraw @s ["",{"text":"["
 #Enabled
 execute if score #Ruin 4j.enablemap matches 1 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1021"}},{"text":"✔","color":"green","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1021"}},{"text":"] Ruin","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1021"}}]
 #Disabled
-execute if score #Ruin 4j.enablemap matches 0 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 2022"}},{"text":"❌","color":"red","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 2022"}},{"text":"] Ruin","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 2022"}}]
+execute if score #Ruin 4j.enablemap matches 0 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1022"}},{"text":"❌","color":"red","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1022"}},{"text":"] Ruin","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1022"}}]
 
 ##Frontier
 #Enabled
