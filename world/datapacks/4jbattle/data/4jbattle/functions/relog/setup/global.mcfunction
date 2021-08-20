@@ -72,4 +72,7 @@ execute if score #Store 4j.gamestatus matches 2 run function 4jbattle:game/hunge
 scoreboard players reset @s 4j.score
 
 ##Teleport to a random player if spectator
-execute if score #Store 4j.gamestatus matches 2 run tp @s @r
+#Add tag
+execute if score #Store 4j.gamestatus matches 2 run tag @s add relogrtp
+#Teleport in 10s (please fix the resourcce pack issue dear god)
+execute if score #Store 4j.gamestatus matches 2 run schedule function 4jbattle:relog/setup/rtp 10s
