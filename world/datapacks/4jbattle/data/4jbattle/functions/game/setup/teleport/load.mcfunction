@@ -12,9 +12,9 @@ execute if score #Store 4j.map matches 5 in 4jbattle:cove_small run tp @s 219 64
 #Small Cavern
 execute if score #Store 4j.map matches 6 in 4jbattle:cavern_small run tp @s -223 65 287
 #Large Frontier
-execute if score #Store 4j.map matches 7 run tp @s 949 39 1001
+execute if score #Store 4j.map matches 7 in 4jbattle:frontier run tp @s 288 52 211
 #Small Frontier
-execute if score #Store 4j.map matches 8 run tp @s -1886 42 -1845
+execute if score #Store 4j.map matches 8 in 4jbattle:frontier_small run tp @s 288 52 211
 #Remastered Crucible
 execute if score #Store 4j.map matches 9 in 4jbattle:crucible_remastered run tp @s 347 36 331
 #Remastered Cove

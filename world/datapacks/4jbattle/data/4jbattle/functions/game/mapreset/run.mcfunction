@@ -18,9 +18,9 @@ execute if score #Store 4j.map matches 6 in 4jbattle:cavern_small run function 4
 #Remastered Cavern
 execute if score #Store 4j.map matches 11 in 4jbattle:cavern_remastered run function 4jbattle:game/mapreset/cavern_remastered
 #Large Frontier
-execute if score #Store 4j.map matches 7 run function 4jbattle:game/mapreset/frontier
+execute if score #Store 4j.map matches 7 in 4jbattle:frontier run function 4jbattle:game/mapreset/frontier
 #Small Frontier
-execute if score #Store 4j.map matches 8 run function 4jbattle:game/mapreset/frontier_small
+execute if score #Store 4j.map matches 8 in 4jbattle:frontier_small run function 4jbattle:game/mapreset/frontier_small
 #Large Shrunk
 execute if score #Store 4j.map matches 12 in 4jbattle:shrunk run function 4jbattle:game/mapreset/shrunk
 #Large Shrunk

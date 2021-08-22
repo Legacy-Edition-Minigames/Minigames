@@ -31,10 +31,10 @@ execute if score #Store 4j.map matches 5 in 4jbattle:cove_small run function 4jb
 execute if score #Store 4j.map matches 6 in 4jbattle:cavern_small run function 4jbattle:game/setup/teleport/check
 
 ##Load Large Frontier
-execute if score #Store 4j.map matches 7 run function 4jbattle:game/setup/teleport/check
+execute if score #Store 4j.map matches 7 in 4jbattle:frontier run function 4jbattle:game/setup/teleport/check
 
 ##Load Small Frontier
-execute if score #Store 4j.map matches 8 run function 4jbattle:game/setup/teleport/check
+execute if score #Store 4j.map matches 8 in 4jbattle:frontier_small run function 4jbattle:game/setup/teleport/check
 
 ##Load Remastered Crucible
 execute if score #Store 4j.map matches 9 in 4jbattle:crucible_remastered run function 4jbattle:game/setup/teleport/check
