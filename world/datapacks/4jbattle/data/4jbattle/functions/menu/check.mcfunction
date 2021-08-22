@@ -1,5 +1,5 @@
 ##Teleport
-execute in 4jbattle:menu run tp @a 7 97 -149
+execute in minecraft:overworld run tp @a 7 97 -149
 
 ##Clear check
 schedule clear 4jbattle:lobby/timer/run/check
