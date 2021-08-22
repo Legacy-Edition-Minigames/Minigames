@@ -26,7 +26,7 @@ setblock 275 57 171 minecraft:oak_door[facing=south,half=lower,hinge=right,open=
 setblock 275 58 171 minecraft:oak_door[facing=south,half=upper,hinge=right,open=false,powered=false]
 setblock 276 57 171 minecraft:oak_door[facing=south,half=lower,hinge=left,open=false,powered=false]
 setblock 276 58 171 minecraft:oak_door[facing=south,half=upper,hinge=left,open=false,powered=false]
-fill 272 57 181 271 58 179 air
+fill 271 57 180 271 58 179 air
 setblock 271 57 180 minecraft:spruce_door[facing=west,half=lower,hinge=left,open=false,powered=false]
 setblock 271 58 180 minecraft:spruce_door[facing=west,half=upper,hinge=left,open=false,powered=false]
 setblock 271 57 179 minecraft:spruce_door[facing=west,half=lower,hinge=right,open=false,powered=false]
@@ -114,9 +114,9 @@ setblock 277 53 244 minecraft:spruce_door[facing=east,half=upper,hinge=right,ope
 setblock 277 52 243 minecraft:spruce_door[facing=east,half=lower,hinge=left,open=false,powered=false]
 setblock 277 53 243 minecraft:spruce_door[facing=east,half=upper,hinge=left,open=false,powered=false]
 fill 270 61 258 270 62 258 air
-setblock 270 61 258 minecraft:spruce_door[facing=east,half=lower,hinge=left,open=false,powered=false]
-setblock 270 62 258 minecraft:spruce_door[facing=east,half=upper,hinge=left,open=false,powered=false]
-fill 270 61 258 262 62 255 air
+setblock 270 61 258 minecraft:spruce_door[facing=east,half=lower,hinge=right,open=false,powered=false]
+setblock 270 62 258 minecraft:spruce_door[facing=east,half=upper,hinge=right,open=false,powered=false]
+fill 262 61 255 262 62 255 air
 setblock 262 61 255 minecraft:spruce_door[facing=west,half=lower,hinge=left,open=false,powered=false]
 setblock 262 62 255 minecraft:spruce_door[facing=west,half=upper,hinge=left,open=false,powered=false]
 fill 295 54 253 294 55 253 air
