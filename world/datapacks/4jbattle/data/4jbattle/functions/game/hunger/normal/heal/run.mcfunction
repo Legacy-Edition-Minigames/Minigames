@@ -35,4 +35,4 @@ execute if score @s 4j.hungersat matches ..1 run scoreboard players remove @s 4j
 execute if score @s 4j.hungersat matches 2.. run scoreboard players remove @s 4j.hungersat 1
 
 ##Reset healtimer
-scoreboard players set @s 4j.healtimer 37
+scoreboard players operation @s 4j.healtimer = #Store 4j.healtimer

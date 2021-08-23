@@ -10,3 +10,6 @@ scoreboard players set @s 4j.hungerbar7 1
 scoreboard players set @s 4j.hungerbar8 1
 scoreboard players set @s 4j.hungerbar9 1
 scoreboard players set @s 4j.hungerbar10 1
+
+##Set healtimer
+scoreboard players operation @s 4j.healtimer = #Store 4j.healtimer

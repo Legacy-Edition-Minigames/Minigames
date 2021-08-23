@@ -93,6 +93,9 @@ execute as @s[scores={4j.gamecfg=25}] run function 4jbattle:menu/load/host/time/
 ##Set hunger to Normal
 execute as @s[scores={4j.gamecfg=27}] run function 4jbattle:menu/load/host/hunger/setnormal
 
+##Set hunger to Fast Healting
+execute as @s[scores={4j.gamecfg=32}] run function 4jbattle:menu/load/host/hunger/setfastheal
+
 ##Set hunger to Beta
 execute as @s[scores={4j.gamecfg=28}] run function 4jbattle:menu/load/host/hunger/setbeta
 
@@ -101,6 +104,12 @@ execute as @s[scores={4j.gamecfg=30}] run function 4jbattle:menu/load/host/lobby
 
 ##Set lobby to new
 execute as @s[scores={4j.gamecfg=31}] run function 4jbattle:menu/load/host/lobby/setnew
+
+##Enable Natural Regen
+execute as @s[scores={4j.gamecfg=33}] run function 4jbattle:menu/load/host/regen/enable
+
+##Disable Natural Regen
+execute as @s[scores={4j.gamecfg=34}] run function 4jbattle:menu/load/host/regen/disable
 
 ##Reset score
 scoreboard players reset @s 4j.gamecfg

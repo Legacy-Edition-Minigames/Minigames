@@ -181,6 +181,8 @@ scoreboard objectives add 4j.potionpos dummy
 ##Relog resourcepack timer
 scoreboard objectives add 4j.relogtimer dummy
 
+##naturalregen toggle
+scoreboard objectives add 4j.naturalregen dummy
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
