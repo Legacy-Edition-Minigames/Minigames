@@ -1,6 +1,8 @@
 ##Clear schedule
 #Normal
 execute if score #Store 4j.hungertype matches 1 run schedule clear 4jbattle:game/hunger/normal/check
+#Fast Healing
+execute if score #Store 4j.hungertype matches 3 run schedule clear 4jbattle:game/hunger/normal/check
 #Beta
 execute if score #Store 4j.hungertype matches 2 run schedule clear 4jbattle:game/hunger/beta/check
 
