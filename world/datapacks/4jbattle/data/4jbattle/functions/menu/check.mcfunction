@@ -9,7 +9,7 @@ title @a times 0 10 1
 
 ##Display text
 #Non-hosts
-title @a[tag=!host] title "Waiting on host to configure game..."
+title @a[tag=!host,tag=!relogtimer] title "Waiting on host to configure game..."
 #Hosts
 title @a[tag=host] title ["","Please press ",{"text":"[","color":"gold"},{"keybind":"key.chat","color":"yellow"},{"text":"] ","color":"gold"}]
 title @a[tag=host] subtitle "And use the menu to configure your game."

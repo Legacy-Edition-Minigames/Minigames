@@ -1,42 +1,15 @@
 ##Display message
 tellraw @s ["",{"text":"Come join the Community Server to talk about LEB, ask for help, find groups to play with and see development updates!","color":"#7289DA"},"\n",{"text":"https://discord.gg/mqpf93ZTgM","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://discord.gg/mqpf93ZTgM"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click to open: https://discord.gg/mqpf93ZTgM","color":"blue"}]}}]
 
-##Set default gamemode
-gamemode adventure @s
+##Reset resourcepack timer score
+scoreboard players reset @s 4j.relogtimer
 
-##Remove tags
-tag @s remove host
-tag @s remove player
-tag @s remove spectator
-tag @s remove lobby
-tag @s remove Victor
-tag @s remove Winner
-tag @s remove ready
-tag @s remove hungertemp
-tag @s remove fullhunger
-tag @s remove midhunger
-tag @s remove lowhunger
-tag @s remove healtemp
-tag @s remove fullhungerinit
-tag @a remove healthtemp
-tag @a remove midhealth
-tag @a remove fullhealth
-tag @a remove fullhealthinit
-tag @s remove respawndelay
-tag @s remove headstore
-
-##Add notready tag
-tag @s add notready
-
-##Leave team
-team leave @s
+##Remove resource pack timer
+tag @s remove relogtimer
 
 ##Set PID
 scoreboard players reset @s
 function 4jbattle:game/player/setpid
-
-##Send to menu
-execute if score #Store 4j.gamestatus matches 0 run function 4jbattle:menu/load/user
 
 ##Set music timer
 execute if score #Store 4j.gamestatus matches 2 run scoreboard players set @s 4j.mustimer 10
@@ -47,17 +20,11 @@ function 4jbattle:disconnect/add
 ##Check the Game Status
 function 4jbattle:relog/gamecheck
 
-##Load GlobalInfo
-function 4jbattle:game/gui/globalinfo/load
-
 ##Remove cooldown
 function 4jbattle:game/combat/cooldown
 
 ##Disable FriendlyFire
 execute as @s run attribute @s minecraft:generic.attack_damage base set -100
-
-##Clear inventory
-clear @s
 
 ##Load MapDecider
 execute if score #Store 4j.gamestatus matches 1 run function 4jbattle:mapdecider/vote/join
@@ -72,7 +39,4 @@ execute if score #Store 4j.gamestatus matches 2 run function 4jbattle:game/hunge
 scoreboard players reset @s 4j.score
 
 ##Teleport to a random player if spectator
-#Add tag
-execute if score #Store 4j.gamestatus matches 2 run tag @s add relogrtp
-#Teleport in 10s (please fix the resourcce pack issue dear god)
-execute if score #Store 4j.gamestatus matches 2 run schedule function 4jbattle:relog/setup/rtp 10s
+execute if score #Store 4j.gamestatus matches 2 run tp @s @r

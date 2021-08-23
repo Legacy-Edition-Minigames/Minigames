@@ -178,6 +178,9 @@ scoreboard objectives add 4j.maprandom dummy
 ##Potion position modifiers
 scoreboard objectives add 4j.potionpos dummy
 
+##Relog resourcepack timer
+scoreboard objectives add 4j.relogtimer dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

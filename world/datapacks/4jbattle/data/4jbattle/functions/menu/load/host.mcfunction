@@ -1,6 +1,3 @@
-##Spawn waiting box
-fill -333 72 -340 -331 75 -342 barrier hollow
-
 ##Set GameStatus
 scoreboard players set #Store 4j.gamestatus 0
 
@@ -11,7 +8,7 @@ schedule function 4jbattle:lobby/timer/run/clearcheck 1s
 function 4jbattle:menu/check
 
 ##Teleport
-tp @s -332 73 -341
+execute in minecraft:overworld run tp @s 7 97 -149
 
 ##Summon menu (unused)
 #kill @e[type=armor_stand,tag=guitest]
