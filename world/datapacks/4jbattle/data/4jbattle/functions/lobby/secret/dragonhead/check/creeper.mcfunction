@@ -1,1 +1,1 @@
-execute if block -345 35 -344 redstone_block run function 4jbattle:lobby/secret/dragonhead/open
+execute if block -345 35 -344 redstone_block in 4jbattle:lobby run function 4jbattle:lobby/secret/dragonhead/open

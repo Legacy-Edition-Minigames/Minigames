@@ -11,7 +11,7 @@ execute if data block -347 33 -341 {Items:[{Slot:0b,id:"minecraft:skeleton_skull
 execute if data block -347 33 -341 {Items:[{Slot:0b,id:"minecraft:creeper_head"}]} run function 4jbattle:lobby/secret/dragonhead/creeper
 
 ##Remove head from chest
-function 4jbattle:lobby/secret/dragonhead/chestreset
+execute in 4jbattle:lobby run function 4jbattle:lobby/secret/dragonhead/chestreset
 
 ##Check if all heads are collected
-function 4jbattle:lobby/secret/dragonhead/check/run
+execute in 4jbattle:lobby run function 4jbattle:lobby/secret/dragonhead/check/run
