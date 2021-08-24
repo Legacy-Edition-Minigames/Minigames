@@ -67,6 +67,12 @@ execute if score #Ruin 4j.enablemap matches 1 as @a[scores={4j.playermapvote=11}
 #If user hasnt voted for this map yet
 execute if score #Ruin 4j.enablemap matches 1 as @a[scores={4j.playermapvote=11}] run function 4jbattle:mapdecider/vote/add/ruin
 
+##add 1 to Seige's vote count if voted for
+#If user has voted for this map
+execute if score #Seige 4j.enablemap matches 1 as @a[scores={4j.playermapvote=12},tag=voteseige] run function 4jbattle:mapdecider/vote/error
+#If user hasnt voted for this map yet
+execute if score #Seige 4j.enablemap matches 1 as @a[scores={4j.playermapvote=12}] run function 4jbattle:mapdecider/vote/add/seige
+
 ##Play sound
 execute as @a[scores={4j.playermapvote=1..}] at @s run playsound ui.button.click master @s ~ ~ ~ 0.25
 

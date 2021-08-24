@@ -49,6 +49,12 @@ execute if score #Ruin 4j.enablemap matches 1 run tellraw @s ["",{"text":"[","co
 #Disabled
 execute if score #Ruin 4j.enablemap matches 0 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1022"}},{"text":"❌","color":"red","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1022"}},{"text":"] Ruin","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1022"}}]
 
+##Seige
+#Enabled
+execute if score #Seige 4j.enablemap matches 1 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1023"}},{"text":"✔","color":"green","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1023"}},{"text":"] Seige","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1023"}}]
+#Disabled
+execute if score #Seige 4j.enablemap matches 0 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1024"}},{"text":"❌","color":"red","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1024"}},{"text":"] Seige","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1024"}}]
+
 ##Frontier
 #Enabled
 execute if score #Frontier 4j.enablemap matches 1 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1007"}},{"text":"✔","color":"green","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1007"}},{"text":"] Frontier","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1007"}}]

@@ -49,3 +49,7 @@ execute if score #Store 4j.map matches 23 in 4jbattle:atlantis_small run tp @s 1
 execute if score #Store 4j.map matches 24 in 4jbattle:ruin run tp @s -51 3 50
 #Small Ruin
 execute if score #Store 4j.map matches 25 in 4jbattle:ruin_small run tp @s -206 14 178
+#Large Seige
+execute if score #Store 4j.map matches 26 in 4jbattle:seige run tp @s 52 68 208
+#Small Seige
+execute if score #Store 4j.map matches 27 in 4jbattle:seige_small run tp @s 52 68 208

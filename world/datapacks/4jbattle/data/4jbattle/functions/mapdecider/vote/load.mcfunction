@@ -32,6 +32,8 @@ execute if score #Temple 4j.enablemap matches 1 run scoreboard players set §a1-
 execute if score #Atlantis 4j.enablemap matches 1 run scoreboard players set §a2-1:Atlantis 4j.mapvote 0
 #Ruin
 execute if score #Ruin 4j.enablemap matches 1 run scoreboard players set §a2-2:Ruin 4j.mapvote 0
+#Seige
+execute if score #Seige 4j.enablemap matches 1 run scoreboard players set §a2-3:Seige 4j.mapvote 0
 
 ##Start runner
 function 4jbattle:mapdecider/vote/check

@@ -31,3 +31,6 @@ tag @s remove voteatlantis
 
 ##Ruin
 tag @s remove voteruin
+
+##Seige
+tag @s remove voteseige

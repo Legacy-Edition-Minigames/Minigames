@@ -66,3 +66,9 @@ execute as @s[scores={4j.gamecfg=1021}] run function 4jbattle:menu/load/host/map
 
 ##Enable Ruin if set to 1022
 execute as @s[scores={4j.gamecfg=1022}] run function 4jbattle:menu/load/host/map/ruin/enable
+
+##Disable Seige if set to 1021
+execute as @s[scores={4j.gamecfg=1023}] run function 4jbattle:menu/load/host/map/seige/disable
+
+##Enable Seige if set to 1022
+execute as @s[scores={4j.gamecfg=1024}] run function 4jbattle:menu/load/host/map/seige/enable
