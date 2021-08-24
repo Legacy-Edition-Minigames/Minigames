@@ -1,5 +1,5 @@
 ##Disable map
-scoreboard players set #Seige 4j.enablemap 0
+scoreboard players set #Siege 4j.enablemap 0
 
 ##Decrease mapcount
 scoreboard players remove #Store 4j.mapcount 1

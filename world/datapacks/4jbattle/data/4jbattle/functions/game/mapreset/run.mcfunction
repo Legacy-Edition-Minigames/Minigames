@@ -49,7 +49,7 @@ execute if score #Store 4j.map matches 23 in 4jbattle:atlantis_small run functio
 execute if score #Store 4j.map matches 24 in 4jbattle:ruin run function 4jbattle:game/mapreset/ruin
 #Small Ruin
 execute if score #Store 4j.map matches 25 in 4jbattle:ruin_small run function 4jbattle:game/mapreset/ruin_small
-#Large Seige
-execute if score #Store 4j.map matches 26 in 4jbattle:seige run function 4jbattle:game/mapreset/seige
-#Small Seige
-execute if score #Store 4j.map matches 27 in 4jbattle:seige_small run function 4jbattle:game/mapreset/seige_small
+#Large Siege
+execute if score #Store 4j.map matches 26 in 4jbattle:siege run function 4jbattle:game/mapreset/siege
+#Small Siege
+execute if score #Store 4j.map matches 27 in 4jbattle:siege_small run function 4jbattle:game/mapreset/siege_small

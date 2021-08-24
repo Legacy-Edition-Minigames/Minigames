@@ -1,5 +1,5 @@
 ##Enable map
-scoreboard players set #Seige 4j.enablemap 1
+scoreboard players set #Siege 4j.enablemap 1
 
 ##Increase mapcount
 scoreboard players add #Store 4j.mapcount 1

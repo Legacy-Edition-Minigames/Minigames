@@ -15,7 +15,7 @@ execute if score #Store 4j.map matches 20..21 run function 4jbattle:game/music/v
 execute if score #Store 4j.map matches 22..23 run function 4jbattle:game/music/greek/pick
 #Ruin
 execute if score #Store 4j.map matches 24..25 run function 4jbattle:game/music/city/pick
-#Seige
+#Siege
 execute if score #Store 4j.map matches 26..28 run function 4jbattle:game/music/fantasy/pick
 #Frontier
 execute if score #Store 4j.map matches 7..8 run function 4jbattle:game/music/frontier/pick

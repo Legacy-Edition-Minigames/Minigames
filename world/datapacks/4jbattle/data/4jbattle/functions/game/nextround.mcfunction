@@ -87,11 +87,11 @@ execute if score #Store 4j.map matches 24 in 4jbattle:ruin run function 4jbattle
 ##Load Small Ruin
 execute if score #Store 4j.map matches 25 in 4jbattle:ruin_small run function 4jbattle:game/setup/teleport/check
 
-##Load Large Seige
-execute if score #Store 4j.map matches 26 in 4jbattle:seige run function 4jbattle:game/setup/teleport/check
+##Load Large Siege
+execute if score #Store 4j.map matches 26 in 4jbattle:siege run function 4jbattle:game/setup/teleport/check
 
-##Load Small Seige
-execute if score #Store 4j.map matches 27 in 4jbattle:seige_small run function 4jbattle:game/setup/teleport/check
+##Load Small Siege
+execute if score #Store 4j.map matches 27 in 4jbattle:siege_small run function 4jbattle:game/setup/teleport/check
 
 ##Join player team
 tag @a remove spectator

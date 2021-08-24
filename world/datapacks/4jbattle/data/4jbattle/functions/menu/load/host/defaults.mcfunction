@@ -42,8 +42,8 @@ scoreboard players set #Temple 4j.enablemap 1
 scoreboard players set #Atlantis 4j.enablemap 1
 #Ruin
 scoreboard players set #Ruin 4j.enablemap 1
-#Seige
-scoreboard players set #Seige 4j.enablemap 1
+#Siege
+scoreboard players set #Siege 4j.enablemap 1
 
 ##Default Map Type
 scoreboard players set #Store 4j.setmaptype 1
