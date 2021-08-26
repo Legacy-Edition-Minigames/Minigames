@@ -1,17 +1,17 @@
 ##Empty leggings
-execute as @a[nbt=!{Inventory:[{Slot:101b}]}] run function 4jbattle:game/autoequip/leggings/check/empty
+execute as @s[nbt=!{Inventory:[{Slot:101b}]}] run function 4jbattle:game/autoequip/leggings/check/empty
 
 ##Leather leggings
-execute as @a[nbt={Inventory:[{Slot:101b,id:"minecraft:leather_leggings"}]}] run function 4jbattle:game/autoequip/leggings/check/leather
+execute as @s[nbt={Inventory:[{Slot:101b,id:"minecraft:leather_leggings"}]}] run function 4jbattle:game/autoequip/leggings/check/leather
 
 ##Chainmail leggings
-execute as @a[nbt={Inventory:[{Slot:101b,id:"minecraft:chainmail_leggings"}]}] run function 4jbattle:game/autoequip/leggings/check/chainmail
+execute as @s[nbt={Inventory:[{Slot:101b,id:"minecraft:chainmail_leggings"}]}] run function 4jbattle:game/autoequip/leggings/check/chainmail
 
 ##Golden leggings
-execute as @a[nbt={Inventory:[{Slot:101b,id:"minecraft:golden_leggings"}]}] run function 4jbattle:game/autoequip/leggings/check/golden
+execute as @s[nbt={Inventory:[{Slot:101b,id:"minecraft:golden_leggings"}]}] run function 4jbattle:game/autoequip/leggings/check/golden
 
 ##Iron leggings
-execute as @a[nbt={Inventory:[{Slot:101b,id:"minecraft:iron_leggings"}]}] run function 4jbattle:game/autoequip/leggings/check/iron
+execute as @s[nbt={Inventory:[{Slot:101b,id:"minecraft:iron_leggings"}]}] run function 4jbattle:game/autoequip/leggings/check/iron
 
 ##Diamond leggings
-execute as @a[nbt={Inventory:[{Slot:101b,id:"minecraft:diamond_leggings"}]}] run function 4jbattle:game/autoequip/leggings/check/diamond
+execute as @s[nbt={Inventory:[{Slot:101b,id:"minecraft:diamond_leggings"}]}] run function 4jbattle:game/autoequip/leggings/check/diamond
