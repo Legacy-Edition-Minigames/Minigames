@@ -4,9 +4,9 @@ function 4jbattle:menu/load/host/round/run
 #Lives
 function 4jbattle:menu/load/host/lives/run
 #Chest type
-#function 4jbattle:menu/load/host/chest/run
+function 4jbattle:menu/load/host/chest/run
 #Showdown settings
-function 4jbattle:menu/load/host/showdown/run
+#function 4jbattle:menu/load/host/showdown/run
 #Map
 function 4jbattle:menu/load/host/map/run
 #Extras

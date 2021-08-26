@@ -371,7 +371,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"§9+5.0 Attack Damage\",\"color\":\"blue\",\"italic\":false}']},HideFlags:2,Enchantments:[{id:\"minecraft:fire_aspect\",lvl:2s}]}"
+              "tag": "{display:{Lore:['{\"text\":\"§9+5.0 Attack Damage\",\"color\":\"blue\",\"italic\":false}']},HideFlags:2,Enchantments:[{id:\"minecraft:fire_aspect\",lvl:1s}]}"
             }
           ],
           "conditions": [

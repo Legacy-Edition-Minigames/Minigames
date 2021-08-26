@@ -111,5 +111,23 @@ execute as @s[scores={4j.gamecfg=33}] run function 4jbattle:menu/load/host/regen
 ##Disable Natural Regen
 execute as @s[scores={4j.gamecfg=34}] run function 4jbattle:menu/load/host/regen/disable
 
+##Set Item set to No Armor if score is set to 35
+execute as @s[scores={4j.gamecfg=35}] run function 4jbattle:menu/load/host/chest/setnoarmor
+
+##Set Item set to High Power if score is set to 36
+execute as @s[scores={4j.gamecfg=36}] run function 4jbattle:menu/load/host/chest/sethighpower
+
+##Set Item set to Decayed if score is set to 8
+execute as @s[scores={4j.gamecfg=37}] run function 4jbattle:menu/load/host/chest/setdecayed
+
+##Set Item set to Food Central if score is set to 8
+execute as @s[scores={4j.gamecfg=38}] run function 4jbattle:menu/load/host/chest/setfoodcentral
+
+##Set Item set to Remastered if score is set to 8
+execute as @s[scores={4j.gamecfg=39}] run function 4jbattle:menu/load/host/chest/setremastered
+
+##Set Item set to Random if score is set to 8
+execute as @s[scores={4j.gamecfg=40}] run function 4jbattle:menu/load/host/chest/setrandom
+
 ##Reset score
 scoreboard players reset @s 4j.gamecfg

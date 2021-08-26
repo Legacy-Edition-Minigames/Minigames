@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.004
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CanPlaceOn:[\"#4jbattle:fire_charge_placeable\"],display:{Name:'{\"text\":\"Fire Charge\",\"italic\":false}'},HideFlags:16,CustomModelData:5,EntityTag:{id:\"minecraft:marker\",Tags:[\"spawnfire\"]}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 10
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CanPlaceOn:[\"#4jbattle:all_blocks\"],display:{Name:'{\"text\":\"TNT\",\"italic\":false}'},HideFlags:16,CustomModelData:4,EntityTag:{id:\"minecraft:marker\",Tags:[\"spawntnt\"]}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

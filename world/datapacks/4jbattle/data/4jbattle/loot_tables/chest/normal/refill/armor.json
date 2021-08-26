@@ -6,6 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 2,
           "name": "minecraft:diamond_boots",
           "conditions": [
             {
@@ -16,6 +17,7 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 2,
           "name": "minecraft:iron_boots",
           "functions": [
             {
@@ -32,6 +34,7 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 2,
           "name": "minecraft:chainmail_boots",
           "conditions": [
             {
@@ -42,6 +45,7 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 2,
           "name": "minecraft:golden_boots",
           "functions": [
             {
@@ -74,38 +78,29 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 1,
           "name": "minecraft:leather_boots",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:feather_falling\",lvl:1s}]}",
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:feather_falling": {
+                  "min": 1,
+                  "max": 2
+                }
+              },
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
                   "chance": 0.5
                 }
               ]
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:feather_falling\",lvl:1s}]}",
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.5
-                }
-              ]
-            }
-          ],
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.2
             }
           ]
         },
         {
           "type": "minecraft:item",
+          "weight": 2,
           "name": "minecraft:iron_leggings",
           "functions": [
             {
@@ -122,6 +117,7 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 2,
           "name": "minecraft:chainmail_leggings",
           "conditions": [
             {
@@ -132,6 +128,7 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 2,
           "name": "minecraft:golden_leggings",
           "functions": [
             {
@@ -164,6 +161,7 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 2,
           "name": "minecraft:leather_leggings",
           "conditions": [
             {
@@ -174,6 +172,7 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 2,
           "name": "minecraft:iron_chestplate",
           "functions": [
             {
@@ -206,6 +205,7 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 2,
           "name": "minecraft:chainmail_chestplate",
           "conditions": [
             {
@@ -216,6 +216,7 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 2,
           "name": "minecraft:golden_chestplate",
           "functions": [
             {
@@ -248,6 +249,7 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 2,
           "name": "minecraft:leather_chestplate",
           "functions": [
             {
@@ -270,6 +272,7 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 2,
           "name": "minecraft:iron_helmet",
           "functions": [
             {
@@ -292,6 +295,7 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 2,
           "name": "minecraft:chainmail_helmet",
           "conditions": [
             {
@@ -302,6 +306,7 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 2,
           "name": "minecraft:golden_helmet",
           "functions": [
             {
@@ -334,6 +339,7 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 2,
           "name": "minecraft:leather_helmet",
           "functions": [
             {
@@ -345,6 +351,25 @@
             {
               "condition": "minecraft:random_chance",
               "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:leather_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:depth_strider": 2
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
             }
           ]
         }

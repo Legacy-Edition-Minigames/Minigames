@@ -183,6 +183,10 @@ scoreboard objectives add 4j.relogtimer dummy
 
 ##naturalregen toggle
 scoreboard objectives add 4j.naturalregen dummy
+
+##SetChest score
+scoreboard objectives add 4j.setchest dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
