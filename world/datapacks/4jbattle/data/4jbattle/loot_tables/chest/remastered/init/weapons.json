@@ -397,7 +397,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:fire_aspect\",lvl:2s}]}"
+              "tag": "{Enchantments:[{id:\"minecraft:fire_aspect\",lvl:1s}]}"
             }
           ],
           "conditions": [
