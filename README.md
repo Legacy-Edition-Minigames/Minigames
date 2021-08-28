@@ -10,6 +10,8 @@ If you just want to play the game, you can connect to `leb.derpbox.dev` in multi
 
 If you want to create your own LEB server, keep reading.
 
+If you do make your own LEB server, please at least credit me.
+
 ### Preperation
 
 * You need Java 16 to be installed before you can proceed, you can find it at [Oracle.com](https://www.oracle.com/java/technologies/javase-jdk16-downloads.html)
