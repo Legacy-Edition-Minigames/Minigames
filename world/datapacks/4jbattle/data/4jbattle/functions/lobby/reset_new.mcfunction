@@ -1,6 +1,9 @@
 ##Kill arrows
 kill @e[type=arrow]
 
+##Remove items
+kill @e[type=item]
+
 ##Set that playset thing
 #trapdoor set 1
 fill -331 57 -328 -331 63 -328 minecraft:oak_trapdoor[half=top,facing=west]
