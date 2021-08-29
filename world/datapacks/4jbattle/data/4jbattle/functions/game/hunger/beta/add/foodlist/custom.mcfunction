@@ -18,10 +18,10 @@ execute as @s[scores={4j.rawhealth=15}] run attribute @s generic.max_health base
 execute as @s[scores={4j.rawhealth=16..}] run attribute @s generic.max_health base set 20
 
 ##Update health
-effect give @s instant_health 1
+effect give @s instant_health 1 10
 
 ##Add temp tag
 tag @s add healtemp
 
 ##Restore max health to default
-schedule function 4jbattle:game/hunger/beta/heal/restore 2t
+schedule function 4jbattle:game/hunger/normal/heal/restore 2t
