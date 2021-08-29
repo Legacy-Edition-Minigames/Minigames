@@ -53,3 +53,7 @@ execute if score #Store 4j.map matches 25 in 4jbattle:ruin_small run function 4j
 execute if score #Store 4j.map matches 26 in 4jbattle:siege run function 4jbattle:game/mapreset/siege
 #Small Siege
 execute if score #Store 4j.map matches 27 in 4jbattle:siege_small run function 4jbattle:game/mapreset/siege_small
+#Large Castle
+execute if score #Store 4j.map matches 28 in 4jbattle:castle run function 4jbattle:game/mapreset/castle
+#Small Castle
+execute if score #Store 4j.map matches 29 in 4jbattle:castle_small run function 4jbattle:game/mapreset/castle_small

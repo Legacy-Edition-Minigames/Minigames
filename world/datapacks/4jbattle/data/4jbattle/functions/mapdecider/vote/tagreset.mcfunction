@@ -34,3 +34,6 @@ tag @s remove voteruin
 
 ##Siege
 tag @s remove votesiege
+
+##Castle
+tag @s remove votecastle

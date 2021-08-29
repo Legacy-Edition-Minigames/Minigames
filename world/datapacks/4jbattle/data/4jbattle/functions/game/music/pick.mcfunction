@@ -16,7 +16,9 @@ execute if score #Store 4j.map matches 22..23 run function 4jbattle:game/music/g
 #Ruin
 execute if score #Store 4j.map matches 24..25 run function 4jbattle:game/music/city/pick
 #Siege
-execute if score #Store 4j.map matches 26..28 run function 4jbattle:game/music/fantasy/pick
+execute if score #Store 4j.map matches 26..27 run function 4jbattle:game/music/fantasy/pick
+#Castle
+execute if score #Store 4j.map matches 28..29 run function 4jbattle:game/music/vanilla/pick
 #Frontier
 execute if score #Store 4j.map matches 7..8 run function 4jbattle:game/music/frontier/pick
 #Dig
@@ -24,7 +26,7 @@ execute if score #Store 4j.map matches 14..15 run function 4jbattle:game/music/v
 #Shrunk
 execute if score #Store 4j.map matches 12..13 run function 4jbattle:game/music/shrunk/pick
 #Default to vanilla if not set
-execute if score #Store 4j.map matches 29.. run function 4jbattle:game/music/vanilla/pick
+execute if score #Store 4j.map matches 30.. run function 4jbattle:game/music/vanilla/pick
 
 ##Debug Info
 tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Picking song for ","color":"gold"},{"selector":"@s","color":"yellow"}]

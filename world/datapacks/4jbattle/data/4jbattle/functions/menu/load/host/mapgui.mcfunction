@@ -55,6 +55,12 @@ execute if score #Siege 4j.enablemap matches 1 run tellraw @s ["",{"text":"[","c
 #Disabled
 execute if score #Siege 4j.enablemap matches 0 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1024"}},{"text":"❌","color":"red","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1024"}},{"text":"] Siege","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1024"}}]
 
+##Castle
+#Enabled
+execute if score #Castle 4j.enablemap matches 1 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1025"}},{"text":"✔","color":"green","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1025"}},{"text":"] Castle","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1025"}}]
+#Disabled
+execute if score #Castle 4j.enablemap matches 0 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1026"}},{"text":"❌","color":"red","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1026"}},{"text":"] Castle","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1026"}}]
+
 ##Frontier
 #Enabled
 execute if score #Frontier 4j.enablemap matches 1 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1007"}},{"text":"✔","color":"green","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1007"}},{"text":"] Frontier","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1007"}}]

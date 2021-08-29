@@ -44,12 +44,14 @@ scoreboard players set #Atlantis 4j.enablemap 1
 scoreboard players set #Ruin 4j.enablemap 1
 #Siege
 scoreboard players set #Siege 4j.enablemap 1
+#Castle
+scoreboard players set #Castle 4j.enablemap 1
 
 ##Default Map Type
 scoreboard players set #Store 4j.setmaptype 1
 
 ##Set mapcount
-scoreboard players set #Store 4j.mapcount 12
+scoreboard players set #Store 4j.mapcount 13
 
 ##Visual time
 #Score

@@ -59,6 +59,10 @@ execute if score #Store 4j.maptype matches 1 if score #Ruin 4j.enablemap matches
 execute if score #Store 4j.maptype matches 1 if score #Siege 4j.enablemap matches 1 if score #Store 4j.maprandom matches 12 run scoreboard players set #Store 4j.map 26
 #Small Siege
 execute if score #Store 4j.maptype matches 1 if score #Siege 4j.enablemap matches 1 if score #Store 4j.maprandom matches 12 run scoreboard players set #Store 4j.map 27
+#Large Castle
+execute if score #Store 4j.maptype matches 2.. if score #Castle 4j.enablemap matches 1 if score #Store 4j.maprandom matches 13 run scoreboard players set #Store 4j.map 28
+#Small Castle
+execute if score #Store 4j.maptype matches 1 if score #Castle 4j.enablemap matches 1 if score #Store 4j.maprandom matches 13 run scoreboard players set #Store 4j.map 29
 
 ##Roll again if map not found
 execute if score #Store 4j.map matches ..0 run function 4jbattle:mapdecider/randommap
