@@ -99,6 +99,12 @@ execute if score #Store 4j.map matches 28 in 4jbattle:castle run function 4jbatt
 ##Load Small Castle
 execute if score #Store 4j.map matches 29 in 4jbattle:castle_small run function 4jbattle:game/setup/teleport/check
 
+##Load Large Invasion
+execute if score #Store 4j.map matches 30 in 4jbattle:invasion run function 4jbattle:game/setup/teleport/check
+
+##Load Small Invasion
+execute if score #Store 4j.map matches 31 in 4jbattle:invasion_small run function 4jbattle:game/setup/teleport/check
+
 ##Join player team
 tag @a remove spectator
 tag @a add player

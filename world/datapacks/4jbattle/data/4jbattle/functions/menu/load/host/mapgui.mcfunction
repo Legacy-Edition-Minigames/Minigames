@@ -61,6 +61,12 @@ execute if score #Castle 4j.enablemap matches 1 run tellraw @s ["",{"text":"[","
 #Disabled
 execute if score #Castle 4j.enablemap matches 0 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1026"}},{"text":"❌","color":"red","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1026"}},{"text":"] Castle","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1026"}}]
 
+##Invasion
+#Enabled
+execute if score #Invasion 4j.enablemap matches 1 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1027"}},{"text":"✔","color":"green","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1027"}},{"text":"] Invasion!","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1027"}}]
+#Disabled
+execute if score #Invasion 4j.enablemap matches 0 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1028"}},{"text":"❌","color":"red","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1028"}},{"text":"] Invasion!","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1028"}}]
+
 ##Frontier
 #Enabled
 execute if score #Frontier 4j.enablemap matches 1 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1007"}},{"text":"✔","color":"green","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1007"}},{"text":"] Frontier","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1007"}}]

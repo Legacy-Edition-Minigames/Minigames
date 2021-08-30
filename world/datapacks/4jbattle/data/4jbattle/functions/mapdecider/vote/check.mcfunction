@@ -79,6 +79,12 @@ execute if score #Castle 4j.enablemap matches 1 as @a[scores={4j.playermapvote=1
 #If user hasnt voted for this map yet
 execute if score #Castle 4j.enablemap matches 1 as @a[scores={4j.playermapvote=13}] run function 4jbattle:mapdecider/vote/add/castle
 
+##add 1 to Invasion's vote count if voted for
+#If user has voted for this map
+execute if score #Invasion 4j.enablemap matches 1 as @a[scores={4j.playermapvote=14},tag=voteinvasion] run function 4jbattle:mapdecider/vote/error
+#If user hasnt voted for this map yet
+execute if score #Invasion 4j.enablemap matches 1 as @a[scores={4j.playermapvote=14}] run function 4jbattle:mapdecider/vote/add/invasion
+
 ##Play sound
 execute as @a[scores={4j.playermapvote=1..}] at @s run playsound ui.button.click master @s ~ ~ ~ 0.25
 

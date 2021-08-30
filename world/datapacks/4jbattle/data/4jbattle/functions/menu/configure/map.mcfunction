@@ -78,3 +78,9 @@ execute as @s[scores={4j.gamecfg=1025}] run function 4jbattle:menu/load/host/map
 
 ##Enable Castle if set to 1026
 execute as @s[scores={4j.gamecfg=1026}] run function 4jbattle:menu/load/host/map/castle/enable
+
+##Disable Invasion if set to 1027
+execute as @s[scores={4j.gamecfg=1027}] run function 4jbattle:menu/load/host/map/invasion/disable
+
+##Enable Invasion if set to 1028
+execute as @s[scores={4j.gamecfg=1028}] run function 4jbattle:menu/load/host/map/invasion/enable

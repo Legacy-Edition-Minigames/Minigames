@@ -36,6 +36,8 @@ execute if score #Ruin 4j.enablemap matches 1 run scoreboard players set §a2-2:
 execute if score #Siege 4j.enablemap matches 1 run scoreboard players set §a2-3:Siege 4j.mapvote 0
 #Castle
 execute if score #Castle 4j.enablemap matches 1 run scoreboard players set §a3-1:Castle 4j.mapvote 0
+#Invasion
+execute if score #Invasion 4j.enablemap matches 1 run scoreboard players set §a3-2:Invasion! 4j.mapvote 0
 
 ##Start runner
 function 4jbattle:mapdecider/vote/check

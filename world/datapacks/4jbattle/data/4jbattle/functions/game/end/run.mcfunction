@@ -14,5 +14,7 @@ scoreboard players set #Store 4j.gamestatus 1
 function 4jbattle:lobby/start
 
 ##Stop Music
-#Music
 function 4jbattle:game/music/stop
+
+##Run mapinit end functions
+function 4jbattle:game/mapinit/stop

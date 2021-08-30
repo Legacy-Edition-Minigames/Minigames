@@ -37,3 +37,6 @@ tag @s remove votesiege
 
 ##Castle
 tag @s remove votecastle
+
+##Invasion
+tag @s remove voteinvasion

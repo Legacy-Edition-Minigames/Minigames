@@ -25,6 +25,9 @@ execute if score #highestScore 4j.mapvote matches 0 run function 4jbattle:mapdec
 ##Find highest vote if votes were made
 execute if score #highestScore 4j.mapvote matches 1.. run function 4jbattle:mapdecider/findhighest
 
+##Load Init functions
+function 4jbattle:game/mapinit/run
+
 ##Stop vote check
 schedule clear 4jbattle:mapdecider/vote/check
 
