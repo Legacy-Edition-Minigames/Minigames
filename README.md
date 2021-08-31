@@ -38,6 +38,8 @@ If you do make your own LEB server, please at least credit me.
 
 * For Linux users, run linux.sh. You might need to run chmod +x linux.sh before you have permission to run it.
 
+#### Dependencies
+
 * You need to install [FabricMC](https://fabricmc.net/use/) and [SwitchableResourcePacks](https://github.com/kyrptonaught/SwitchableResourcepacks) ([GitHub](https://github.com/kyrptonaught/SwitchableResourcepacks/releases) [Modrinth](https://modrinth.com/mod/switchableresourcepacks) [CurseForge](https://www.curseforge.com/minecraft/mc-mods/switchableresourcepacks))
 
 ### Connecting
