@@ -1,0 +1,29 @@
+
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:command_block_minecart"
+      },
+      "title": {
+        "text": "Resourcepack load started!"
+      },
+      "description": {
+        "text": "Resourcepack load started!"
+      },
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false,
+      "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+      "custom": {
+        "trigger": "switchableresourcepacks:started"
+      }
+    },
+    "requirements": [
+      [
+        "custom"
+      ]
+    ]
+  }

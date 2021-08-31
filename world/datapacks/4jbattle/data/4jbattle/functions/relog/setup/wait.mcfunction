@@ -21,6 +21,7 @@ tag @a remove fullhealth
 tag @a remove fullhealthinit
 tag @s remove respawndelay
 tag @s remove headstore
+tag @s remove resourceloaded
 
 ##Add notready tag
 tag @s add notready
@@ -38,10 +39,13 @@ function 4jbattle:game/gui/globalinfo/load
 clear @s
 
 ##Set timer for resource pack wait
-scoreboard players set @s 4j.relogtimer 15
+#scoreboard players set @s 4j.relogtimer 15
 
 ##Add resource pack timer tag
 tag @s add relogtimer
+
+##Revoke resourcepack loading advancements
+function 4jbattle:game/resource/advancementreset
 
 ##Run timer
 function 4jbattle:relog/timer/check

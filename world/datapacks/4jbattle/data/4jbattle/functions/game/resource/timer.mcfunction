@@ -6,6 +6,7 @@ scoreboard players remove #Store 4j.timer 1
 title @a[tag=!relogtimer] title "Loading resources..."
 #Timer
 title @a[tag=!relogtimer] subtitle ["","Starting in ",{"score":{"name":"#Store","objective":"4j.timer"}}," seconds"]
+
 ##Loop
 schedule function 4jbattle:game/resource/timer 1s
 

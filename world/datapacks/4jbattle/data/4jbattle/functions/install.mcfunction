@@ -193,6 +193,9 @@ scoreboard objectives add 4j.custompack dummy
 ##Optifine resources toggle
 scoreboard objectives add optifinepack trigger
 
+##Loaded pack count
+scoreboard objectives add 4j.loadedpacks dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

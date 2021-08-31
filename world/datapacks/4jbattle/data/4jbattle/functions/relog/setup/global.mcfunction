@@ -1,8 +1,11 @@
 ##Display message
 tellraw @s ["",{"text":"Come join the Community Server to talk about LEB, ask for help, find groups to play with and see development updates!","color":"#7289DA"},"\n",{"text":"https://discord.gg/mqpf93ZTgM","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://discord.gg/mqpf93ZTgM"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click to open: https://discord.gg/mqpf93ZTgM","color":"blue"}]}}]
 
+##Revoke resourcepack loading advancements
+function 4jbattle:game/resource/advancementreset
+
 ##Reset resourcepack timer score
-scoreboard players reset @s 4j.relogtimer
+#scoreboard players reset @s 4j.relogtimer
 
 ##Remove resource pack timer
 tag @s remove relogtimer
