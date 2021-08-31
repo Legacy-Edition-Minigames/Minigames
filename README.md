@@ -70,4 +70,6 @@ Old Lobby - [Greenphx](https://www.youtube.com/watch?v=jS8_P9xmGKQ)
 
 Map Packs 1-4 - [MinecraftDigger](https://www.youtube.com/c/MinecraftDigger/)
 
+[Plastic Texture Pack](https://www.planetminecraft.com/texture-pack/the-plastic-texture-pack/) - [Komik_mmm](https://www.planetminecraft.com/member/komik_mmm/)
+
 Switchable Resource Packs - [Kyrptonaught](https://github.com/kyrptonaught)
