@@ -38,6 +38,8 @@ If you do make your own LEB server, please at least credit me.
 
 * For Linux users, run linux.sh. You might need to run chmod +x linux.sh before you have permission to run it.
 
+* You need to install [FabricMC](https://fabricmc.net/use/) and [SwitchableResourcePacks](https://github.com/kyrptonaught/SwitchableResourcepacks) ([GitHub](https://github.com/kyrptonaught/SwitchableResourcepacks/releases) [Modrinth](https://modrinth.com/mod/switchableresourcepacks) [CurseForge](https://www.curseforge.com/minecraft/mc-mods/switchableresourcepacks))
+
 ### Connecting
 
 * For you, the user hosting the server, connect to the address `localhost` in Multiplayer
@@ -64,4 +66,6 @@ Large Shrunk Conversion - [NeonProYTP](https://www.planetminecraft.com/member/ne
 
 Old Lobby - [Greenphx](https://www.youtube.com/watch?v=jS8_P9xmGKQ)
 
-Every other map - [MinecraftDigger](https://www.youtube.com/c/MinecraftDigger/)
+Map Packs 1-4 - [MinecraftDigger](https://www.youtube.com/c/MinecraftDigger/)
+
+Switchable Resource Packs - [Kyrptonaught](https://github.com/kyrptonaught)
