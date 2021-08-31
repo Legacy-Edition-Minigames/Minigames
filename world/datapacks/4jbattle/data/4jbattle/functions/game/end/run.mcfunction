@@ -5,7 +5,7 @@
 function 4jbattle:game/end/winner
 
 ##Send all players to lobby
-execute as @a run function 4jbattle:game/end/leave
+execute as @a[tag=!relogtimer] run function 4jbattle:game/end/leave
 
 ##Set game status to Lobby
 scoreboard players set #Store 4j.gamestatus 1
@@ -21,9 +21,9 @@ function 4jbattle:game/mapinit/stop
 
 ##Reset pack to vanilla
 #Non-Optifine
-execute if score #Store 4j.custompack matches 1 as @a[advancements={4jbattle:config/optifine=false}] run loadresource vanilla
+execute if score #Store 4j.custompack matches 1 as @a[tag=!relogtimer,advancements={4jbattle:config/optifine=false}] run loadresource vanilla
 #Optifine
-execute if score #Store 4j.custompack matches 1 as @a[advancements={4jbattle:config/optifine=true}] run loadresource vanilla-optifine
+execute if score #Store 4j.custompack matches 1 as @a[tag=!relogtimer,advancements={4jbattle:config/optifine=true}] run loadresource vanilla-optifine
 
 ##Reset custompack score
 scoreboard players reset #Store 4j.custompack

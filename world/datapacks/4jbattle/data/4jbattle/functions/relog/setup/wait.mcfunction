@@ -29,6 +29,9 @@ tag @s add notready
 ##Leave team
 team leave @s
 
+##Reset scores
+scoreboard players reset @s
+
 ##Send to menu
 function 4jbattle:menu/load/user
 

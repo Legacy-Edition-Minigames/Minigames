@@ -5,4 +5,4 @@
 execute if score #Store 4j.mapcount matches 0 run tellraw @s {"text":"You need at least 1 map enabled!","color":"red"}
 
 ##If gamestatus is set to menu and there are more than 0 maps enabled, start
-execute as @a unless score #Store 4j.mapcount matches 0 if score #Store 4j.gamestatus matches 0 run function 4jbattle:lobby/start
+execute as @a unless score #Store 4j.mapcount matches 0 if score #Store 4j.gamestatus matches 0 run function 4jbattle:menu/load/host/start/run

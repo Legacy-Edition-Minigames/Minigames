@@ -32,7 +32,7 @@ execute as @s[scores={4j.gamecfg=8}] run function 4jbattle:menu/load/host/chest/
 #execute as @s[scores={4j.gamecfg=11}] run function 4jbattle:menu/load/host/map/setcavern
 
 ##Start game is score is set to 9
-execute as @s[scores={4j.gamecfg=9}] run function 4jbattle:menu/load/host/start
+execute as @s[scores={4j.gamecfg=9}] run function 4jbattle:menu/load/host/start/check
 
 ##Map settings
 execute as @s[scores={4j.gamecfg=1000..}] if score #Store 4j.gamestatus matches 0 run function 4jbattle:menu/configure/map

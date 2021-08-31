@@ -3,6 +3,7 @@ execute in minecraft:overworld run tp @a 7 97 -149
 
 ##Clear check
 schedule clear 4jbattle:lobby/timer/run/check
+schedule clear 4jbattle:lobby/timer/check
 
 ##Set title times
 title @a times 0 10 1

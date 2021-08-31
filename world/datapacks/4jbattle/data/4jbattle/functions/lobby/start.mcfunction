@@ -2,7 +2,7 @@
 schedule clear 4jbattle:menu/check
 
 ##Spawn
-execute as @a run function 4jbattle:lobby/spawn
+execute as @a[tag=!relogtimer] run function 4jbattle:lobby/spawn
 
 ##Refresh Playerbar
 function 4jbattle:game/gui/playerbar/load

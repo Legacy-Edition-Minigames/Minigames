@@ -8,7 +8,7 @@ function 4jbattle:game/resource/check
 scoreboard players set #Store 4j.timer 6
 
 ##Revoke advancement
-execute as @a run function 4jbattle:game/resource/advancementreset
+execute as @a[tag=!relogtimer] run function 4jbattle:game/resource/advancementreset
 
 ##Load resource packs
 schedule function 4jbattle:game/resource/load/run 10t
