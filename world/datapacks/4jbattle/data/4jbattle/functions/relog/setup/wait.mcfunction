@@ -38,10 +38,16 @@ function 4jbattle:game/gui/globalinfo/load
 clear @s
 
 ##Set timer for resource pack wait
-scoreboard players set @s 4j.relogtimer 10
+scoreboard players set @s 4j.relogtimer 15
 
 ##Add resource pack timer tag
 tag @s add relogtimer
 
 ##Run timer
 function 4jbattle:relog/timer/check
+
+##Load resource pack
+#Non-Optifine
+execute as @s[advancements={4jbattle:config/optifine=false}] run loadresource vanilla
+#Optifine
+execute as @s[advancements={4jbattle:config/optifine=true}] run loadresource vanilla-optifine

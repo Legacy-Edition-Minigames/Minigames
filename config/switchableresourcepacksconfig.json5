@@ -1,0 +1,68 @@
+{
+	"packs": [
+		{
+			"packname": "vanilla",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/vanilla.zip",
+			"hash": "8b3f3f896e08afcd7356690a86bfad0e6b1159c2",
+			"required": false,
+			"hasPrompt": true,
+			"message": "Legacy Edition Battle requires a resource pack to function properly!"
+		},
+		{
+			"packname": "vanilla-optifine",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/vanilla.zip",
+			"hash": "163b470e91518a57aa10e0e07b4d63063dbe4ccb",
+			"required": false,
+			"hasPrompt": true,
+			"message": "Legacy Edition Battle requires a resource pack to function properly!"
+		},
+		{
+			"packname": "plastic",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/plastic.zip",
+			"hash": "581632ceb462c032a91fe8c87dd1b021e9369283",
+			"required": false,
+			"hasPrompt": true,
+			"message": "This map requires a custom texture pack!"
+		},
+		{
+			"packname": "plastic-optifine",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/plastic.zip",
+			"hash": "1c17c699bddf2c18d7e00e637e712b521e7e35e2",
+			"required": false,
+			"hasPrompt": true,
+			"message": "This map requires a custom texture pack!"
+		},
+		{
+			"packname": "fantasy",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/fantasy.zip",
+			"hash": "f9e85691c82a0f0dba2fc2e9c5cc8cc698c91547",
+			"required": false,
+			"hasPrompt": true,
+			"message": "This map requires a custom texture pack!"
+		},
+		{
+			"packname": "fantasy-optifine",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/fantasy.zip",
+			"hash": "4600e5c1543aaebc3ad0fa44ce6ac9c7ffac393e",
+			"required": false,
+			"hasPrompt": true,
+			"message": "This map requires a custom texture pack!"
+		},
+		{
+			"packname": "city",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/city.zip",
+			"hash": "e6bf13ba610aeba4dad51c97b41daffa79ca6586",
+			"required": false,
+			"hasPrompt": true,
+			"message": "This map requires a custom texture pack!"
+		},
+		{
+			"packname": "city-optifine",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/city.zip",
+			"hash": "719e5b5ed78b310f80a10741817775c1c14f852a",
+			"required": false,
+			"hasPrompt": true,
+			"message": "This map requires a custom texture pack!"
+		}
+	]
+}

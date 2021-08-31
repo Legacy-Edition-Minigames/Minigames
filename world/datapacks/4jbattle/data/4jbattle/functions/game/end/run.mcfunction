@@ -18,3 +18,12 @@ function 4jbattle:game/music/stop
 
 ##Run mapinit end functions
 function 4jbattle:game/mapinit/stop
+
+##Reset pack to vanilla
+#Non-Optifine
+execute if score #Store 4j.custompack matches 1 as @a[advancements={4jbattle:config/optifine=false}] run loadresource vanilla
+#Optifine
+execute if score #Store 4j.custompack matches 1 as @a[advancements={4jbattle:config/optifine=true}] run loadresource vanilla-optifine
+
+##Reset custompack score
+scoreboard players reset #Store 4j.custompack

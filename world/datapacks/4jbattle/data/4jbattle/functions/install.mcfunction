@@ -187,6 +187,12 @@ scoreboard objectives add 4j.naturalregen dummy
 ##SetChest score
 scoreboard objectives add 4j.setchest dummy
 
+##Custom resource pack
+scoreboard objectives add 4j.custompack dummy
+
+##Optifine resources toggle
+scoreboard objectives add optifinepack trigger
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

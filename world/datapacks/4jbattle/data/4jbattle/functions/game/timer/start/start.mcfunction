@@ -40,3 +40,6 @@ schedule function 4jbattle:game/chests/lock 1s
 
 ##Load Item Set
 function 4jbattle:game/chests/load
+
+##Run TP check
+function 4jbattle:game/setup/teleport/check

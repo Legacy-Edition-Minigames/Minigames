@@ -9,3 +9,6 @@ function 4jbattle:host/check
 
 ##Load PlayerBar
 function 4jbattle:game/gui/display
+
+##Check for optifine pack toggles
+function 4jbattle:optifine/check
