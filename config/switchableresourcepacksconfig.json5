@@ -1,4 +1,7 @@
 {
+	// Should all criteria be automatically revoked next time the command is executed.
+	"autoRevoke": false,
+	// List of all the resourcepacks configurations to use
 	"packs": [
 		{
 			"packname": "vanilla",
