@@ -2,7 +2,7 @@
 
 This is an attempt to port the Battle minigame from the Legacy Editions of minecraft
 
-![Minecraft Version](https://img.shields.io/badge/Minecraft-1.17-80ba42?style=for-the-badge) ![License](https://img.shields.io/github/license/DBTDerpbox/legacy-edition-battle?style=for-the-badge) ![Last Commit](https://img.shields.io/github/last-commit/dbtderpbox/legacy-edition-battle/testing?style=for-the-badge)
+![Minecraft Version](https://img.shields.io/badge/Minecraft-1.17-80ba42?style=for-the-badge) ![License](https://img.shields.io/github/license/DBTDerpbox/legacy-edition-battle?style=for-the-badge) ![Last Commit](https://img.shields.io/github/last-commit/dbtderpbox/legacy-edition-battle?style=for-the-badge)
 
 [![forthebadge](https://forthebadge.com/images/badges/contains-tasty-spaghetti-code.svg)](https://forthebadge.com) ![Powered By Nostalgia](https://img.shields.io/badge/Powered_by-Nostalgia-e49454?style=for-the-badge)
 
