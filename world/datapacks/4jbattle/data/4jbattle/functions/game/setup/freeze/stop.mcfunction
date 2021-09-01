@@ -9,3 +9,6 @@ schedule clear 4jbattle:game/setup/freeze/random/run
 
 ##Stop surround
 schedule clear 4jbattle:game/setup/freeze/surround/run
+
+##Stop mixed
+schedule clear 4jbattle:game/setup/freeze/mixed/run

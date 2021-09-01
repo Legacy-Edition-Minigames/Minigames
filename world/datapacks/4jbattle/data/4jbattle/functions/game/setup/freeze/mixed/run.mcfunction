@@ -33,4 +33,4 @@ execute as @e[type=area_effect_cloud,tag=F-MTP-15,sort=random,limit=1] at @s run
 execute as @e[type=area_effect_cloud,tag=F-MTP-16,sort=random,limit=1] at @s run tp @a[scores={4j.pid=16}] ~ ~ ~
 
 ##Loop
-schedule function 4jbattle:game/setup/freeze/surround/run 1t
+schedule function 4jbattle:game/setup/freeze/mixed/run 1t
