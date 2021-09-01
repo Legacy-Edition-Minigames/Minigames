@@ -20,9 +20,12 @@ effect give @a[tag=Victor] resistance 7 255 true
 #Show banner
 bossbar set minecraft:pushdown name {"text":"1","font":"4jbattle:banner"}
 #Show banner textbox
-bossbar set minecraft:bannerpushdown2 name {"text":"2","font":"4jbattle:banner"}
+execute if entity @a[tag=Victor] run bossbar set minecraft:bannerpushdown2 name {"text":"2","font":"4jbattle:banner"}
+execute unless entity @a[tag=Victor] run bossbar set minecraft:bannerpushdown2 name {"text":"3","font":"4jbattle:banner"}
 #Show Victor
-bossbar set minecraft:bannerinfo name ["",{"selector":"@a[tag=Victor]","color":"black"},{"text":" has won!","color":"black"}]
+execute if entity @a[tag=Victor] run bossbar set minecraft:bannerinfo name ["",{"selector":"@a[tag=Victor]","color":"black"},{"text":" has won!","color":"black"}]
+#Show draw if nobody won
+execute unless entity @a[tag=Victor] run bossbar set minecraft:bannerinfo name {"text":"DRAW!","color":"black"}
 
 ##Play sound
 execute as @a[tag=!Victor] at @s run playsound 4jbattle:sound.game.end master @s ~ ~ ~ 99999999
