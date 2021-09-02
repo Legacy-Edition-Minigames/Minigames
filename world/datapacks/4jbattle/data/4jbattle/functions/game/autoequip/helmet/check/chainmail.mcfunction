@@ -1,6 +1,4 @@
 ##Equip helmet depending on item held
-#Golden
-execute as @s[nbt={SelectedItem:{id:"minecraft:golden_helmet"}}] unless entity @s[nbt={Inventory:[{Slot:103b,tag:{AutoEquipped:1}}]}] at @s run function 4jbattle:game/autoequip/helmet/swap/golden
 #Iron
 execute as @s[nbt={SelectedItem:{id:"minecraft:iron_helmet"}}] unless entity @s[nbt={Inventory:[{Slot:103b,tag:{AutoEquipped:1}}]}] at @s run function 4jbattle:game/autoequip/helmet/swap/iron
 #Diamond
