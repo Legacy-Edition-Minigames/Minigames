@@ -1,5 +1,8 @@
 ##Teleport
-execute in minecraft:overworld run tp @a 7 97 -149
+tp @a @e[type=armor_stand,tag=panorama,limit=1,sort=nearest]
+
+##Move Panorama
+execute as @e[type=armor_stand,tag=panorama] at @s run tp @s ~ ~ ~ ~0.1 ~
 
 ##Clear check
 schedule clear 4jbattle:lobby/timer/run/check
@@ -24,4 +27,4 @@ function 4jbattle:lobby/timer/effects
 effect give @a invisibility 1 0 true
 
 ##Loop
-schedule function 4jbattle:menu/check 5t
+schedule function 4jbattle:menu/check 1t
