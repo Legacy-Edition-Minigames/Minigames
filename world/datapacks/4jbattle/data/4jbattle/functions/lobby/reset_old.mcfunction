@@ -122,3 +122,6 @@ setblock -350 76 -358 minecraft:lever[face=wall,facing=west,powered=false]
 setblock -351 76 -404 minecraft:lever[face=floor,facing=west,powered=false]
 setblock -348 76 -358 minecraft:redstone_wire[east=side,north=none,power=0,south=none,west=side]
 setblock -350 75 -404 minecraft:redstone_wire[east=side,north=none,power=0,south=none,west=side]
+setblock -353 65 -354 minecraft:lever[face=floor,facing=west,powered=false]
+setblock -353 65 -353 air
+setblock -353 65 -353 minecraft:redstone_wire[east=none,north=side,power=0,south=none,west=up]
