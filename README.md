@@ -54,6 +54,8 @@ If you do make your own LEB server, please at least credit me.
 
 This project is far from completion! Do not expect too much in its current state!
 
+Optifine has issues with the default pack, please [read this](https://github.com/DBTDerpbox/Legacy-Edition-Battle/issues/4) for info on a fix.
+
 Legacy Edition Battle is currently designed for [Minecraft Java Edition 1.17.1](https://www.minecraft.net/en-us/article/minecraft-java-edition-1-17-1)
 
 ### Credits
