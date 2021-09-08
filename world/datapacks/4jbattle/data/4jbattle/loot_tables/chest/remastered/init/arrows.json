@@ -26,7 +26,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 5
+              "count": {
+                "min": 3,
+                "max": 5
+              }
             },
             {
               "function": "minecraft:set_nbt",
