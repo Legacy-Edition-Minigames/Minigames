@@ -16,6 +16,9 @@ function 4jbattle:lobby/start
 ##Stop Music
 function 4jbattle:game/music/stop
 
+##Stop custom checks
+function 4jbattle:game/custom/stop
+
 ##Run mapinit end functions
 function 4jbattle:game/mapinit/stop
 
