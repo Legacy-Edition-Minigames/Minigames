@@ -22,7 +22,7 @@ If you do make your own LEB server, please at least credit me.
 
 * Extract the zip folder
 
-* If for whatever reason, you can't download the resources properly with the current SRP config, you can edit the config inside of the `config` folder and the files can be found [here.](https://github.com/DBTDerpbox/LEB-Resources/tree/main/zip)
+* If for whatever reason, you can't download the resources properly with the current SRP config, you can edit the config inside of the `config` folder and the files can be found [here.](https://github.com/DBTDerpbox/LEB-Resources/tree/zip/zip)
 
 ### Executing
 
