@@ -5,64 +5,80 @@
 	"packs": [
 		{
 			"packname": "vanilla",
-			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/vanilla.zip",
-			"hash": "1b26174182b44f86fcf0a04dd51019291cd4a07f",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/R19/vanilla.zip",
+			"hash": "",
 			"required": true,
 			"hasPrompt": true,
 			"message": "Legacy Edition Battle requires a resource pack to function properly!"
 		},
 		{
 			"packname": "vanilla-optifine",
-			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/vanilla.zip",
-			"hash": "d0a31c3bce1451b0c031f92f6d8c98f3c0a299ed",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/R19/vanilla.zip",
+			"hash": "",
 			"required": true,
 			"hasPrompt": true,
 			"message": "Legacy Edition Battle requires a resource pack to function properly!"
 		},
 		{
 			"packname": "plastic",
-			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/plastic.zip",
-			"hash": "581632ceb462c032a91fe8c87dd1b021e9369283",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/R19/plastic.zip",
+			"hash": "",
 			"required": true,
 			"hasPrompt": true,
 			"message": "This map requires a custom texture pack!"
 		},
 		{
 			"packname": "plastic-optifine",
-			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/plastic.zip",
-			"hash": "1c17c699bddf2c18d7e00e637e712b521e7e35e2",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/R19/plastic.zip",
+			"hash": "",
 			"required": true,
 			"hasPrompt": true,
 			"message": "This map requires a custom texture pack!"
 		},
 		{
 			"packname": "fantasy",
-			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/fantasy.zip",
-			"hash": "f9e85691c82a0f0dba2fc2e9c5cc8cc698c91547",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/R19/fantasy.zip",
+			"hash": "",
 			"required": true,
 			"hasPrompt": true,
 			"message": "This map requires a custom texture pack!"
 		},
 		{
 			"packname": "fantasy-optifine",
-			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/fantasy.zip",
-			"hash": "4600e5c1543aaebc3ad0fa44ce6ac9c7ffac393e",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/R19/fantasy.zip",
+			"hash": "",
 			"required": true,
 			"hasPrompt": true,
 			"message": "This map requires a custom texture pack!"
 		},
 		{
 			"packname": "city",
-			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/city.zip",
-			"hash": "e6bf13ba610aeba4dad51c97b41daffa79ca6586",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/R19/city.zip",
+			"hash": "",
 			"required": true,
 			"hasPrompt": true,
 			"message": "This map requires a custom texture pack!"
 		},
 		{
 			"packname": "city-optifine",
-			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/city.zip",
-			"hash": "719e5b5ed78b310f80a10741817775c1c14f852a",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/R19/city.zip",
+			"hash": "",
+			"required": true,
+			"hasPrompt": true,
+			"message": "This map requires a custom texture pack!"
+		},
+		{
+			"packname": "greek",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/R19/greek-mythology.zip",
+			"hash": "",
+			"required": true,
+			"hasPrompt": true,
+			"message": "This map requires a custom texture pack!"
+		},
+		{
+			"packname": "greek-optifine",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/R19/greek-mythology.zip",
+			"hash": "",
 			"required": true,
 			"hasPrompt": true,
 			"message": "This map requires a custom texture pack!"
