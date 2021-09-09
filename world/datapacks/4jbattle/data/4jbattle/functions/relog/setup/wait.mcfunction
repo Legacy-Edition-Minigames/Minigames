@@ -15,10 +15,10 @@ tag @s remove midhunger
 tag @s remove lowhunger
 tag @s remove healtemp
 tag @s remove fullhungerinit
-tag @a remove healthtemp
-tag @a remove midhealth
-tag @a remove fullhealth
-tag @a remove fullhealthinit
+tag @s remove healthtemp
+tag @s remove midhealth
+tag @s remove fullhealth
+tag @s remove fullhealthinit
 tag @s remove respawndelay
 tag @s remove headstore
 tag @s remove resourceloaded
@@ -26,8 +26,8 @@ tag @s remove resourceloaded
 ##Add notready tag
 tag @s add notready
 
-##Leave team
-team leave @s
+##Set team to loading
+team join loading @s
 
 ##Reset scores
 scoreboard players reset @s

@@ -19,7 +19,7 @@ bossbar set minecraft:globalinfo name "Chests have been filled!"
 schedule function 4jbattle:game/globalinfo/hide 3s
 
 ##Play sound
-execute as @a at @s run playsound 4jbattle:sound.game.refill master @s ~ ~ ~ 99999999
+execute as @a[tag=!relogtimer] at @s run playsound 4jbattle:sound.game.refill master @s ~ ~ ~ 99999999
 
 ##Refill chests in 30 seconds
 schedule function 4jbattle:game/chests/regen 30s

@@ -8,7 +8,7 @@ tellraw @a ["",{"selector":"@a[tag=player]"},{"text":" has won this round!"}]
 #Hide message (i have no clue why just this instance of the gamemode command causes this please help)
 gamerule sendCommandFeedback false
 #Set gamemode
-gamemode adventure @a
+gamemode adventure @a[tag=!relogtimer]
 #Enable message
 gamerule sendCommandFeedback true
 
@@ -106,8 +106,8 @@ execute if score #Store 4j.map matches 30 in 4jbattle:invasion run function 4jba
 execute if score #Store 4j.map matches 31 in 4jbattle:invasion_small run function 4jbattle:game/setup/teleport/check
 
 ##Join player team
-tag @a remove spectator
-tag @a add player
+tag @a[tag=!relogtimer] remove spectator
+tag @a[tag=!relogtimer] add player
 
 ##Remove Victor tag
 tag @a remove Victor

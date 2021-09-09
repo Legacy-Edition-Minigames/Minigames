@@ -20,7 +20,7 @@ scoreboard players reset #Store 4j.pid
 #Reset everyone's PID
 scoreboard players reset @a 4j.pid
 #Player
-execute as @a run function 4jbattle:game/player/setpid
+execute as @a[tag=!relogtimer] run function 4jbattle:game/player/setpid
 
 ##Load defaults
 function 4jbattle:menu/load/host/defaults

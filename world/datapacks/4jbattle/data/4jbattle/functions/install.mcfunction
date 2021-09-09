@@ -314,6 +314,16 @@ team add nocollision
 #Disable Collision
 team modify nocollision collisionRule never
 
+##Team loading
+#Create
+team add loading
+#Disable Collision
+team modify loading collisionRule never
+#Disable FriendlyInvisibles
+team modify loading seeFriendlyInvisibles false
+#Show loading text
+team modify loading prefix {"text":"[Loading]","italic":true,"color":"dark_gray"}
+
 ##PushDown Bossbar
 #Create
 bossbar add pushdown ""

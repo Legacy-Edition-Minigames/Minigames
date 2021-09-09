@@ -1,5 +1,5 @@
 ##Refresh player number
-execute store result score #Store 4j.plist if entity @a
+execute store result score #Store 4j.plist if entity @a[tag=!relogtimer]
 
 ##Check for surround setting, if so, run
 #8 Players, not L+

@@ -27,7 +27,7 @@ tag @a add ready
 tag @a remove notready
 
 ##Set all playerbars to full
-scoreboard players set @a 4j.playerbar 3
+scoreboard players set @a[tag=!relogtimer] 4j.playerbar 3
 
 ##Remove Winner tag
 tag @a remove Winner
