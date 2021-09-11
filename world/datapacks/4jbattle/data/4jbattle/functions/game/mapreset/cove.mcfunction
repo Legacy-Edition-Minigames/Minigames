@@ -73,3 +73,4 @@ data merge block 12 68 244 {Lock:lock,Items:[{Count:1b,Slot:0b,id:"minecraft:arr
 data merge block 12 68 241 {Lock:lock,Items:[{Count:1b,Slot:0b,id:"minecraft:arrow"},{Count:1b,Slot:1b,id:"minecraft:arrow"},{Count:1b,Slot:2b,id:"minecraft:arrow"}]}
 data merge block 22 79 238 {Lock:lock,Items:[{Count:3b,Slot:0b,id:"minecraft:arrow"}]}
 data merge block 34 79 238 {Lock:lock,Items:[{Count:3b,Slot:0b,id:"minecraft:arrow"}]}
+data merge block 84 85 258 {Lock:lock,Items:[{Count:3b,Slot:0b,id:"minecraft:arrow"}]}
