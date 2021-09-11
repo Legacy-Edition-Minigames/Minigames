@@ -40,3 +40,6 @@ tag @s remove votecastle
 
 ##Invasion
 tag @s remove voteinvasion
+
+##Shipyard
+tag @s remove voteshipyard

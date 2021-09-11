@@ -62,6 +62,10 @@ execute if score #Store 4j.maptype matches 1 if score #Castle 4j.enablemap match
 execute if score #Store 4j.maptype matches 2.. if score #Invasion 4j.enablemap matches 1 if score §a3-2:Invasion! 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 30
 #Small Invasion
 execute if score #Store 4j.maptype matches 1 if score #Invasion 4j.enablemap matches 1 if score §a3-2:Invasion! 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 31
+#Large Shipyard
+execute if score #Store 4j.maptype matches 2.. if score #Shipyard 4j.enablemap matches 1 if score §a3-3:Shipyard 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 32
+#Small Shipyard
+execute if score #Store 4j.maptype matches 1 if score #Shipyard 4j.enablemap matches 1 if score §a3-3:Shipyard 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 33
 
 ##Load map
 function 4jbattle:mapdecider/check

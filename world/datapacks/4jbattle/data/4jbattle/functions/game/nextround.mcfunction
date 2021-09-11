@@ -105,6 +105,12 @@ execute if score #Store 4j.map matches 30 in 4jbattle:invasion run function 4jba
 ##Load Small Invasion
 execute if score #Store 4j.map matches 31 in 4jbattle:invasion_small run function 4jbattle:game/setup/teleport/check
 
+##Load Large Shipyard
+execute if score #Store 4j.map matches 32 in 4jbattle:shipyard run function 4jbattle:game/setup/teleport/check
+
+##Load Small Shipyard
+execute if score #Store 4j.map matches 33 in 4jbattle:shipyard_small run function 4jbattle:game/setup/teleport/check
+
 ##Join player team
 tag @a[tag=!relogtimer] remove spectator
 tag @a[tag=!relogtimer] add player

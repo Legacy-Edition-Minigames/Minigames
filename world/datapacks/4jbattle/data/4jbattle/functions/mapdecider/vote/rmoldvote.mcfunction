@@ -39,3 +39,6 @@ execute if entity @s[tag=votecastle] run scoreboard players remove §a3-1:Castle
 
 ##Remove Invasion map vote
 execute if entity @s[tag=voteinvasion] run scoreboard players remove §a3-2:Invasion! 4j.mapvote 1
+
+##Remove Shipyard map vote
+execute if entity @s[tag=voteshipyard] run scoreboard players remove §a3-3:Shipyard 4j.mapvote 1

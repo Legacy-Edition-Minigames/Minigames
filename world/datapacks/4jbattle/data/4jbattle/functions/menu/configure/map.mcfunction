@@ -84,3 +84,9 @@ execute as @s[scores={4j.gamecfg=1027}] run function 4jbattle:menu/load/host/map
 
 ##Enable Invasion if set to 1028
 execute as @s[scores={4j.gamecfg=1028}] run function 4jbattle:menu/load/host/map/invasion/enable
+
+##Disable Shipyard if set to 1029
+execute as @s[scores={4j.gamecfg=1029}] run function 4jbattle:menu/load/host/map/shipyard/disable
+
+##Enable Shipyard if set to 1030
+execute as @s[scores={4j.gamecfg=1030}] run function 4jbattle:menu/load/host/map/shipyard/enable

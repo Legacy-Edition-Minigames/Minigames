@@ -13,3 +13,5 @@ execute if score #Store 4j.map matches 24..25 run function 4jbattle:game/resourc
 execute if score #Store 4j.map matches 26..27 run function 4jbattle:game/resource/load/fantasy
 #Invasion
 execute if score #Store 4j.map matches 30..31 run function 4jbattle:game/resource/load/city
+#Shipyard
+execute if score #Store 4j.map matches 32..33 run function 4jbattle:game/resource/load/steampunk

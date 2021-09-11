@@ -61,3 +61,7 @@ execute if score #Store 4j.map matches 29 in 4jbattle:castle_small run function 
 execute if score #Store 4j.map matches 30 in 4jbattle:invasion run function 4jbattle:game/mapreset/invasion
 #Small Invasion
 execute if score #Store 4j.map matches 31 in 4jbattle:invasion_small run function 4jbattle:game/mapreset/invasion_small
+#Large Shipyard
+execute if score #Store 4j.map matches 32 in 4jbattle:shipyard run function 4jbattle:game/mapreset/shipyard
+#Small Shipyard
+execute if score #Store 4j.map matches 33 in 4jbattle:shipyard_small run function 4jbattle:game/mapreset/shipyard_small
