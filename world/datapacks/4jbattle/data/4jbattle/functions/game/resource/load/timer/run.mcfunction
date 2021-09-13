@@ -12,9 +12,9 @@ execute store result score #Store 4j.loadedpacks if entity @a[tag=!relogtimer,ta
 
 ##Display
 #Message
-title @a[tag=!relogtimer] title "Loading resources..."
+#title @a[tag=!relogtimer] title "Loading resources..."
 #Timer
-title @a[tag=!relogtimer] subtitle ["",{"score":{"name":"#Store","objective":"4j.loadedpacks"}},"/",{"score":{"name":"#Store","objective":"4j.plist"}}]
+title @a[tag=!relogtimer] subtitle ["",{"text":"Loading Resources: "},{"score":{"name":"#Store","objective":"4j.loadedpacks"}},"/",{"score":{"name":"#Store","objective":"4j.plist"}}]
 
 ##Loop
 schedule function 4jbattle:game/resource/load/timer/run 1s

@@ -44,6 +44,9 @@ clear @s
 ##Set timer for resource pack wait
 #scoreboard players set @s 4j.relogtimer 15
 
+##Set animation to 1 if first load
+execute unless entity @a[tag=relogtimer] run scoreboard players set #Store 4j.relogtimerani 1
+
 ##Add resource pack timer tag
 tag @s add relogtimer
 

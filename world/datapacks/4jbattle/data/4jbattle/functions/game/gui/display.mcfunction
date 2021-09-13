@@ -1,11 +1,10 @@
-execute if score #Store 4j.plist matches ..8 as @a[gamemode=!spectator] run function 4jbattle:game/gui/display/game/8
-execute if score #Store 4j.plist matches 9..10 as @a[gamemode=!spectator] run function 4jbattle:game/gui/display/game/10
-execute if score #Store 4j.plist matches 11.. as @a[gamemode=!spectator] run function 4jbattle:game/gui/display/game/16
-execute if score #Store 4j.plist matches ..8 as @a[gamemode=spectator] run function 4jbattle:game/gui/display/spectator/8
-execute if score #Store 4j.plist matches 9..10 as @a[gamemode=spectator] run function 4jbattle:game/gui/display/spectator/10
-execute if score #Store 4j.plist matches 16.. as @a[gamemode=spectator] run function 4jbattle:game/gui/display/spectator/16
+##Display modes
+#Game
+execute if score #Store 4j.displaymode matches 1 run function 4jbattle:game/gui/display/game/display
+#Loading
+execute if score #Store 4j.displaymode matches 2 run function 4jbattle:game/gui/display/loading/display
 
-schedule function 4jbattle:game/gui/display 5t
+schedule function 4jbattle:game/gui/display 1t
 
 
 ##WIP config menu

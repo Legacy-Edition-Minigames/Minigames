@@ -1,6 +1,9 @@
 ##Set GameStatus
 scoreboard players set #Store 4j.gamestatus 0
 
+##Set display mode
+scoreboard players set #Store 4j.displaymode 0
+
 ##Stop Lobby check
 schedule function 4jbattle:lobby/timer/run/clearcheck 1s
 

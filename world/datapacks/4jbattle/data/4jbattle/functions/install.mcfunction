@@ -196,6 +196,15 @@ scoreboard objectives add optifinepack trigger
 ##Loaded pack count
 scoreboard objectives add 4j.loadedpacks dummy
 
+##Loading animation timer
+scoreboard objectives add 4j.loadinganim dummy
+
+##Relogtimer animation
+scoreboard objectives add 4j.relogtimerani dummy
+
+##Display modes
+scoreboard objectives add 4j.displaymode dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
@@ -224,69 +233,85 @@ execute store result score #Store 4j.plist if entity @a
 #1
 team add P1
 team modify P1 color white
+team modify P1 prefix ["",{"text":"\uF801","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
 team modify P1 collisionRule pushOwnTeam
 #2
 team add P2
 team modify P2 color green
+team modify P2 prefix ["",{"text":"\uF802","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
 team modify P2 collisionRule pushOwnTeam
 #3
 team add P3
 team modify P3 color red
+team modify P3 prefix ["",{"text":"\uF803","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
 team modify P3 collisionRule pushOwnTeam
 #4
 team add P4
 team modify P4 color blue
+team modify P4 prefix ["",{"text":"\uF804","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
 team modify P4 collisionRule pushOwnTeam
 #5
 team add P5
 team modify P5 color light_purple
+team modify P5 prefix ["",{"text":"\uF805","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
 team modify P5 collisionRule pushOwnTeam
 #6
 team add P6
 team modify P6 color gold
+team modify P6 prefix ["",{"text":"\uF806","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
 team modify P6 collisionRule pushOwnTeam
 #7
 team add P7
 team modify P7 color yellow
+team modify P7 prefix ["",{"text":"\uF807","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
 team modify P7 collisionRule pushOwnTeam
 #8
 team add P8
 team modify P8 color aqua
+team modify P8 prefix ["",{"text":"\uF808","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
 team modify P8 collisionRule pushOwnTeam
 #9
 team add P9
 team modify P9 color dark_aqua
+team modify P9 prefix ["",{"text":"\uF809","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
 team modify P9 collisionRule pushOwnTeam
 #10
 team add P10
 team modify P10 color green
+team modify P10 prefix ["",{"text":"\uF810","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
 team modify P10 collisionRule pushOwnTeam
 #11
 team add P11
 team modify P11 color dark_purple
+team modify P11 prefix ["",{"text":"\uF811","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
 team modify P11 collisionRule pushOwnTeam
 #12
 team add P12
 team modify P12 color gold
+team modify P12 prefix ["",{"text":"\uF812","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
 team modify P12 collisionRule pushOwnTeam
 #13
 team add P13
 team modify P13 color dark_red
+team modify P13 prefix ["",{"text":"\uF813","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
 team modify P13 collisionRule pushOwnTeam
 #14
 team add P14
 team modify P14 color dark_green
+team modify P14 prefix ["",{"text":"\uF814","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
 team modify P14 collisionRule pushOwnTeam
 #15
 team add P15
 team modify P15 color light_purple
+team modify P15 prefix ["",{"text":"\uF815","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
 team modify P15 collisionRule pushOwnTeam
 #16
 team add P16
 team modify P16 color gray
+team modify P16 prefix ["",{"text":"\uF816","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
 team modify P16 collisionRule pushOwnTeam
 
-##Team Player
+##Team Player (unused relic of earlier builds)
 #Create
 team add player
 #Change color
@@ -294,13 +319,13 @@ team modify player color gold
 #Disable FriendlyInvisibles
 team modify player seeFriendlyInvisibles false
 
-##Team Spectator
+##Team Spectator (unused relic of earlier builds)
 #Create
 team add spectator
 #Change color
 team modify spectator color blue
 
-##Team Lobby
+##Team Lobby (unused relic of earlier builds)
 #Create
 team add lobby
 #Change color
