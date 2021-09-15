@@ -1,6 +1,7 @@
 ##Load pack
 #Shrunk
 execute if score #Store 4j.map matches 12..13 run function 4jbattle:game/resource/load/plastic
+execute if score #Store 4j.map matches 34 run function 4jbattle:game/resource/load/plastic
 #Lair
 execute if score #Store 4j.map matches 16..17 run function 4jbattle:game/resource/load/fantasy
 #Medusa

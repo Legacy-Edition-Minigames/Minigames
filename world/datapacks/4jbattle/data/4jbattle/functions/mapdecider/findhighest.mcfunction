@@ -23,7 +23,7 @@ execute if score #Store 4j.maptype matches 1 if score #Frontier 4j.enablemap mat
 #Large Frontier
 execute if score #Store 4j.maptype matches 2.. if score #Frontier 4j.enablemap matches 1 if score §a4-1:Frontier 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 7
 #Large Shrunk
-execute if score #Store 4j.maptype matches 2.. if score #Shrunk 4j.enablemap matches 1 if score §a4-3:Shrunk 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 12
+execute if score #Store 4j.maptype matches 2 if score #Shrunk 4j.enablemap matches 1 if score §a4-3:Shrunk 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 12
 #Small Shrunk
 execute if score #Store 4j.maptype matches 1 if score #Shrunk 4j.enablemap matches 1 if score §a4-3:Shrunk 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 13
 #Large Dig
@@ -66,6 +66,8 @@ execute if score #Store 4j.maptype matches 1 if score #Invasion 4j.enablemap mat
 execute if score #Store 4j.maptype matches 2.. if score #Shipyard 4j.enablemap matches 1 if score §a3-3:Shipyard 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 32
 #Small Shipyard
 execute if score #Store 4j.maptype matches 1 if score #Shipyard 4j.enablemap matches 1 if score §a3-3:Shipyard 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 33
+#Remastered Shrunk
+execute if score #Store 4j.maptype matches 3 if score #Shrunk 4j.enablemap matches 1 if score §a4-3:Shrunk 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 34
 
 ##Load map
 function 4jbattle:mapdecider/check

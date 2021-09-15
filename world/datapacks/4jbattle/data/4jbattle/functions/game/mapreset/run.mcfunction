@@ -65,3 +65,5 @@ execute if score #Store 4j.map matches 31 in 4jbattle:invasion_small run functio
 execute if score #Store 4j.map matches 32 in 4jbattle:shipyard run function 4jbattle:game/mapreset/shipyard
 #Small Shipyard
 execute if score #Store 4j.map matches 33 in 4jbattle:shipyard_small run function 4jbattle:game/mapreset/shipyard_small
+#Remastered Shrunk
+execute if score #Store 4j.map matches 34 in 4jbattle:shrunk_remastered run function 4jbattle:game/mapreset/shrunk_remastered

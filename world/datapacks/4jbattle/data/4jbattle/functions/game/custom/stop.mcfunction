@@ -9,3 +9,6 @@ execute if score #Store 4j.map matches 30..31 run function 4jbattle:game/custom/
 
 ##Shipyard
 execute if score #Store 4j.map matches 32..33 run function 4jbattle:game/custom/shipyard/stop
+
+##Shrunk Remastered
+execute if score #Store 4j.map matches 34 run function 4jbattle:game/custom/shrunk_remastered/stop

@@ -28,7 +28,7 @@ execute if score #Store 4j.maptype matches 1 if score #Frontier 4j.enablemap mat
 #Large Frontier
 execute if score #Store 4j.maptype matches 2.. if score #Frontier 4j.enablemap matches 1 if score #Store 4j.maprandom matches 4 run scoreboard players set #Store 4j.map 7
 #Large Shrunk
-execute if score #Store 4j.maptype matches 2.. if score #Shrunk 4j.enablemap matches 1 if score #Store 4j.maprandom matches 5 run scoreboard players set #Store 4j.map 12
+execute if score #Store 4j.maptype matches 2 if score #Shrunk 4j.enablemap matches 1 if score #Store 4j.maprandom matches 5 run scoreboard players set #Store 4j.map 12
 #Small Shrunk
 execute if score #Store 4j.maptype matches 1 if score #Shrunk 4j.enablemap matches 1 if score #Store 4j.maprandom matches 5 run scoreboard players set #Store 4j.map 13
 #Large Dig
@@ -71,6 +71,8 @@ execute if score #Store 4j.maptype matches 1 if score #Invasion 4j.enablemap mat
 execute if score #Store 4j.maptype matches 2.. if score #Shipyard 4j.enablemap matches 1 if score #Store 4j.maprandom matches 15 run scoreboard players set #Store 4j.map 32
 #Small Shipyard
 execute if score #Store 4j.maptype matches 1 if score #Shipyard 4j.enablemap matches 1 if score #Store 4j.maprandom matches 15 run scoreboard players set #Store 4j.map 33
+#Remastered Shrunk
+execute if score #Store 4j.maptype matches 3 if score #Shrunk 4j.enablemap matches 1 if score #Store 4j.maprandom matches 5 run scoreboard players set #Store 4j.map 12
 
 ##Roll again if map not found
 execute if score #Store 4j.map matches ..0 run function 4jbattle:mapdecider/randommap

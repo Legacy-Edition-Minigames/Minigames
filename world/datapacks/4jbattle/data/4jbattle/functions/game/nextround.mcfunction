@@ -111,6 +111,9 @@ execute if score #Store 4j.map matches 32 in 4jbattle:shipyard run function 4jba
 ##Load Small Shipyard
 execute if score #Store 4j.map matches 33 in 4jbattle:shipyard_small run function 4jbattle:game/setup/teleport/check
 
+##Load Remastered Shrunk
+execute if score #Store 4j.map matches 34 in 4jbattle:shrunk_remastered run function 4jbattle:game/setup/teleport/check
+
 ##Join player team
 tag @a[tag=!relogtimer] remove spectator
 tag @a[tag=!relogtimer] add player
