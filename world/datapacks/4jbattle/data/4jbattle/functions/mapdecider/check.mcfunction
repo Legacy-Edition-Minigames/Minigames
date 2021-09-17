@@ -14,6 +14,7 @@ execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:player_head"}]}] run func
 execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:zombie_head"}]}] run function 4jbattle:lobby/mobhead/store
 execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:creeper_head"}]}] run function 4jbattle:lobby/mobhead/store
 execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:dragon_head"}]}] run function 4jbattle:lobby/mobhead/store
+execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:carved_pumpkin"}]}] run function 4jbattle:lobby/mobhead/store
 
 ##Set gamestatus
 scoreboard players set #Store 4j.gamestatus 2
