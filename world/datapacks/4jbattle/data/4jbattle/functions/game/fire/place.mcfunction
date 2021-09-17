@@ -17,4 +17,4 @@ tag @s add fire
 scoreboard players set @s 4j.fireage 60
 
 ##Remove if fire can't be placed
-execute as @s at @s align xyz positioned ~0.5 ~0.9 ~0.5 unless block ~ ~ ~ fire run function 4jbattle:game/fire/cancel
+execute as @s at @s align xyz positioned ~0.5 ~0.9 ~0.5 unless block ~ ~ ~ #minecraft:fire run function 4jbattle:game/fire/cancel
