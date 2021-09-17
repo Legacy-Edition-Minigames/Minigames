@@ -4,6 +4,9 @@ tellraw @s ["",{"text":"Come join the Community Server to talk about LEB, ask fo
 ##Add resoureloaded tag
 tag @s add resourceloaded
 
+##Remove custompack tag
+tag @s remove custompack
+
 ##Revoke resourcepack loading advancements
 function 4jbattle:game/resource/advancementreset
 
@@ -18,7 +21,7 @@ scoreboard players reset @s
 function 4jbattle:game/player/setpid
 
 ##Set music timer
-execute if score #Store 4j.gamestatus matches 2 run scoreboard players set @s 4j.mustimer 10
+execute if score #Store 4j.gamestatus matches 2 run scoreboard players set @s 4j.mustimer 15
 
 ##Add to player count
 function 4jbattle:disconnect/add

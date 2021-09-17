@@ -22,6 +22,7 @@ tag @s remove fullhealthinit
 tag @s remove respawndelay
 tag @s remove headstore
 tag @s remove resourceloaded
+tag @s remove custompack
 
 ##Add notready tag
 tag @s add notready
@@ -57,7 +58,4 @@ function 4jbattle:game/resource/advancementreset
 function 4jbattle:relog/timer/check
 
 ##Load resource pack
-#Non-Optifine
-execute as @s[advancements={4jbattle:config/optifine=false}] run loadresource vanilla
-#Optifine
-execute as @s[advancements={4jbattle:config/optifine=true}] run loadresource vanilla-optifine
+function 4jbattle:game/resource/load/run

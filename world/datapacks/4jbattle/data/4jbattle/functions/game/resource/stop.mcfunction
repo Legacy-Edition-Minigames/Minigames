@@ -17,6 +17,9 @@ title @a[tag=!relogtimer] subtitle ""
 ##Clear tridents
 clear @a trident
 
+##Remove custompack tag
+tag @a remove custompack
+
 ##Start game
 schedule function 4jbattle:game/timer/start/start 5t
 

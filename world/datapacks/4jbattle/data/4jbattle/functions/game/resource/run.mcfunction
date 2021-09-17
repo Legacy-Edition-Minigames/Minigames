@@ -19,8 +19,11 @@ execute as @a[tag=!relogtimer] run function 4jbattle:game/resource/advancementre
 ##Remove resourceloaded tag
 tag @a remove resourceloaded
 
+##Remove custompack tag
+tag @a remove custompack
+
 ##Load resource packs
-schedule function 4jbattle:game/resource/load/run 10t
+schedule function 4jbattle:game/resource/load/check 10t
 
 ##Start timer
 schedule function 4jbattle:game/resource/timer 2s
