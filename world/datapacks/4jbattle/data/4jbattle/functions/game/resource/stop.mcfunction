@@ -14,6 +14,9 @@ scoreboard players set #Store 4j.displaymode 1
 title @a[tag=!relogtimer] title ""
 title @a[tag=!relogtimer] subtitle ""
 
+##Clear tridents
+clear @a trident
+
 ##Start game
 schedule function 4jbattle:game/timer/start/start 5t
 

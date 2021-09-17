@@ -5,6 +5,9 @@ kill @e[type=item]
 kill @e[type=arrow]
 kill @e[type=spectral_arrow]
 
+##Remove all Tridents
+kill @e[type=trident]
+
 ##Remove all TNT
 kill @e[type=tnt]
 
