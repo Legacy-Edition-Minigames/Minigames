@@ -18,14 +18,18 @@ effect give @a[tag=Victor] resistance 7 255 true
 
 ##Show Victor
 #Show banner
-bossbar set minecraft:pushdown name {"text":"1","font":"4jbattle:banner"}
+function 4jbattle:game/gui/banner/battle/run
 #Show banner textbox
-execute if entity @a[tag=Victor] run bossbar set minecraft:bannerpushdown2 name {"text":"2","font":"4jbattle:banner"}
-execute unless entity @a[tag=Victor] run bossbar set minecraft:bannerpushdown2 name {"text":"3","font":"4jbattle:banner"}
+execute if entity @a[tag=Victor] run scoreboard players set #Store 4j.bannermode 1
+execute unless entity @a[tag=Victor] run scoreboard players set #Store 4j.bannermode 2
+#Temporarily hide playericons
+function 4jbattle:game/gui/playerlist/playericon/disable
 #Show Victor
-execute if entity @a[tag=Victor] run bossbar set minecraft:bannerinfo name ["",{"selector":"@a[tag=Victor]","color":"black"},{"text":" has won!","color":"black"}]
+execute if entity @a[tag=Victor] run bossbar set minecraft:bannerinfo name ["",{"selector":"@a[tag=Victor]","color":"black","font":"4jbattle:banner/text/default"},{"text":" won!","color":"black","font":"4jbattle:banner/text/default"}]
 #Show draw if nobody won
-execute unless entity @a[tag=Victor] run bossbar set minecraft:bannerinfo name {"text":"DRAW!","color":"black"}
+execute unless entity @a[tag=Victor] run bossbar set minecraft:bannerinfo name {"text":"DRAW!","color":"black","font":"4jbattle:banner/text/default"}
+#Re-enable playericons
+function 4jbattle:game/gui/playerlist/playericon/enable
 
 ##Play sound
 execute as @a[tag=!Victor] at @s run playsound 4jbattle:sound.game.end master @s ~ ~ ~ 99999999

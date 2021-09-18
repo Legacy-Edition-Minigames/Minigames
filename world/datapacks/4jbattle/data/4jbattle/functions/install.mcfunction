@@ -205,6 +205,12 @@ scoreboard objectives add 4j.relogtimerani dummy
 ##Display modes
 scoreboard objectives add 4j.displaymode dummy
 
+##Banner animation
+scoreboard objectives add 4j.banneranim dummy
+
+##Banner text mode
+scoreboard objectives add 4j.bannermode dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
