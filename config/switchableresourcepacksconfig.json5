@@ -20,6 +20,38 @@
 			"message": "Legacy Edition Battle requires a resource pack to function properly!"
 		},
 		{
+			"packname": "all-music-1",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/R22/all-music-1.zip",
+			"hash": "",
+			"required": true,
+			"hasPrompt": true,
+			"message": "Legacy Edition Battle requires a resource pack to function properly!"
+		},
+		{
+			"packname": "all-music-2",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/R22/all-music-2.zip",
+			"hash": "",
+			"required": true,
+			"hasPrompt": true,
+			"message": "Legacy Edition Battle requires a resource pack to function properly!"
+		},
+		{
+			"packname": "all-music-1-optifine",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/R22/all-music-1.zip",
+			"hash": "",
+			"required": true,
+			"hasPrompt": true,
+			"message": "Legacy Edition Battle requires a resource pack to function properly!"
+		},
+		{
+			"packname": "all-music-2-optifine",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/R22/all-music-2.zip",
+			"hash": "",
+			"required": true,
+			"hasPrompt": true,
+			"message": "Legacy Edition Battle requires a resource pack to function properly!"
+		},
+		{
 			"packname": "plastic",
 			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/R22/plastic.zip",
 			"hash": "",
