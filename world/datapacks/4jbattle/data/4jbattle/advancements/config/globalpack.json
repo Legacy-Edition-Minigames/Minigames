@@ -1,0 +1,18 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:filled_map"
+      },
+      "title": "No per-map textures",
+      "description": ["","Disable the per-map texture packs.","\n","\n",{"text":"Can be toggled with /trigger maptextures","color":"gold"}],
+      "frame": "task",
+      "announce_to_chat": false
+    },
+    "parent": "4jbattle:config/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

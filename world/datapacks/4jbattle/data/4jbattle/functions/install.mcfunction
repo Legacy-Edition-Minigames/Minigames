@@ -211,6 +211,9 @@ scoreboard objectives add 4j.banneranim dummy
 ##Banner text mode
 scoreboard objectives add 4j.bannermode dummy
 
+##Per-Map texture packs toggle
+scoreboard objectives add maptextures trigger
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

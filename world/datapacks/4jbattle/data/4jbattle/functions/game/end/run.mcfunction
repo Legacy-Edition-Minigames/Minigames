@@ -25,11 +25,5 @@ function 4jbattle:game/mapinit/stop
 ##Reset map id
 scoreboard players set #Store 4j.map 0
 
-##Reset pack to vanilla
-#Non-Optifine
-execute if score #Store 4j.custompack matches 1 as @a[tag=!relogtimer,advancements={4jbattle:config/optifine=false}] run loadresource vanilla
-#Optifine
-execute if score #Store 4j.custompack matches 1 as @a[tag=!relogtimer,advancements={4jbattle:config/optifine=true}] run loadresource vanilla-optifine
-
-##Reset custompack score
-scoreboard players reset #Store 4j.custompack
+##Load resources
+function 4jbattle:game/end/resources/check

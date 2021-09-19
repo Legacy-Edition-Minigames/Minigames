@@ -23,6 +23,7 @@ tag @s remove respawndelay
 tag @s remove headstore
 tag @s remove resourceloaded
 tag @s remove custompack
+tag @s remove allmusic1
 
 ##Add notready tag
 tag @s add notready
