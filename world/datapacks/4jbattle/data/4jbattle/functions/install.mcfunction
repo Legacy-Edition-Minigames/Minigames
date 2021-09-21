@@ -240,50 +240,50 @@ execute store result score #Store 4j.plist if entity @a
 
 ##PID Teams
 #1
-team add P1
-team modify P1 color white
-team modify P1 prefix ["",{"text":"\uF801","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
-team modify P1 collisionRule pushOwnTeam
+team add P01
+team modify P01 color white
+team modify P01 prefix ["",{"text":"\uF801","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
+team modify P01 collisionRule pushOwnTeam
 #2
-team add P2
-team modify P2 color green
-team modify P2 prefix ["",{"text":"\uF802","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
-team modify P2 collisionRule pushOwnTeam
+team add P02
+team modify P02 color green
+team modify P02 prefix ["",{"text":"\uF802","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
+team modify P02 collisionRule pushOwnTeam
 #3
-team add P3
-team modify P3 color red
-team modify P3 prefix ["",{"text":"\uF803","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
-team modify P3 collisionRule pushOwnTeam
+team add P03
+team modify P03 color red
+team modify P03 prefix ["",{"text":"\uF803","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
+team modify P03 collisionRule pushOwnTeam
 #4
-team add P4
-team modify P4 color blue
-team modify P4 prefix ["",{"text":"\uF804","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
-team modify P4 collisionRule pushOwnTeam
+team add P04
+team modify P04 color blue
+team modify P04 prefix ["",{"text":"\uF804","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
+team modify P04 collisionRule pushOwnTeam
 #5
-team add P5
-team modify P5 color light_purple
-team modify P5 prefix ["",{"text":"\uF805","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
-team modify P5 collisionRule pushOwnTeam
+team add P05
+team modify P05 color light_purple
+team modify P05 prefix ["",{"text":"\uF805","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
+team modify P05 collisionRule pushOwnTeam
 #6
-team add P6
-team modify P6 color gold
-team modify P6 prefix ["",{"text":"\uF806","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
-team modify P6 collisionRule pushOwnTeam
+team add P06
+team modify P06 color gold
+team modify P06 prefix ["",{"text":"\uF806","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
+team modify P06 collisionRule pushOwnTeam
 #7
-team add P7
-team modify P7 color yellow
-team modify P7 prefix ["",{"text":"\uF807","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
-team modify P7 collisionRule pushOwnTeam
+team add P07
+team modify P07 color yellow
+team modify P07 prefix ["",{"text":"\uF807","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
+team modify P07 collisionRule pushOwnTeam
 #8
-team add P8
-team modify P8 color aqua
-team modify P8 prefix ["",{"text":"\uF808","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
-team modify P8 collisionRule pushOwnTeam
+team add P08
+team modify P08 color aqua
+team modify P08 prefix ["",{"text":"\uF808","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
+team modify P08 collisionRule pushOwnTeam
 #9
-team add P9
-team modify P9 color dark_aqua
-team modify P9 prefix ["",{"text":"\uF809","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
-team modify P9 collisionRule pushOwnTeam
+team add P09
+team modify P09 color dark_aqua
+team modify P09 prefix ["",{"text":"\uF809","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
+team modify P09 collisionRule pushOwnTeam
 #10
 team add P10
 team modify P10 color green

@@ -36,23 +36,23 @@ summon armor_stand ~ ~ ~ {Marker:1,HasVisualFire:0,Invulnerable:1b,Invisible:1,T
 #Set score
 scoreboard players set @a 4j.gethead 1
 #1
-loot replace entity @e[tag=specmobp1] armor.head kill @a[team=P1,limit=1]
+loot replace entity @e[tag=specmobp1] armor.head kill @a[team=P01,limit=1]
 #2
-loot replace entity @e[tag=specmobp2] armor.head kill @a[team=P2,limit=1]
+loot replace entity @e[tag=specmobp2] armor.head kill @a[team=P02,limit=1]
 #3
-loot replace entity @e[tag=specmobp3] armor.head kill @a[team=P3,limit=1]
+loot replace entity @e[tag=specmobp3] armor.head kill @a[team=P03,limit=1]
 #4
-loot replace entity @e[tag=specmobp4] armor.head kill @a[team=P4,limit=1]
+loot replace entity @e[tag=specmobp4] armor.head kill @a[team=P04,limit=1]
 #5
-loot replace entity @e[tag=specmobp5] armor.head kill @a[team=P5,limit=1]
+loot replace entity @e[tag=specmobp5] armor.head kill @a[team=P05,limit=1]
 #6
-loot replace entity @e[tag=specmobp6] armor.head kill @a[team=P6,limit=1]
+loot replace entity @e[tag=specmobp6] armor.head kill @a[team=P06,limit=1]
 #7
-loot replace entity @e[tag=specmobp7] armor.head kill @a[team=P7,limit=1]
+loot replace entity @e[tag=specmobp7] armor.head kill @a[team=P07,limit=1]
 #8
-loot replace entity @e[tag=specmobp8] armor.head kill @a[team=P8,limit=1]
+loot replace entity @e[tag=specmobp8] armor.head kill @a[team=P08,limit=1]
 #9
-loot replace entity @e[tag=specmobp9] armor.head kill @a[team=P9,limit=1]
+loot replace entity @e[tag=specmobp9] armor.head kill @a[team=P09,limit=1]
 #10
 loot replace entity @e[tag=specmobp10] armor.head kill @a[team=P10,limit=1]
 #11

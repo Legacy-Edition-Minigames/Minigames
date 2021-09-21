@@ -1,22 +1,22 @@
 ##Make mobs hidden
 #P1
-execute if entity @a[team=P1,tag=player] as @e[tag=specmobp1] unless entity @s[tag=hidden] run function 4jbattle:game/spectator/hide/run
+execute if entity @a[team=P01,tag=player] as @e[tag=specmobp1] unless entity @s[tag=hidden] run function 4jbattle:game/spectator/hide/run
 #P2
-execute if entity @a[team=P2,tag=player] as @e[tag=specmobp2] unless entity @s[tag=hidden] run function 4jbattle:game/spectator/hide/run
+execute if entity @a[team=P02,tag=player] as @e[tag=specmobp2] unless entity @s[tag=hidden] run function 4jbattle:game/spectator/hide/run
 #P3
-execute if entity @a[team=P3,tag=player] as @e[tag=specmobp3] unless entity @s[tag=hidden] run function 4jbattle:game/spectator/hide/run
+execute if entity @a[team=P03,tag=player] as @e[tag=specmobp3] unless entity @s[tag=hidden] run function 4jbattle:game/spectator/hide/run
 #P4
-execute if entity @a[team=P4,tag=player] as @e[tag=specmobp4] unless entity @s[tag=hidden] run function 4jbattle:game/spectator/hide/run
+execute if entity @a[team=P04,tag=player] as @e[tag=specmobp4] unless entity @s[tag=hidden] run function 4jbattle:game/spectator/hide/run
 #P5
-execute if entity @a[team=P5,tag=player] as @e[tag=specmobp5] unless entity @s[tag=hidden] run function 4jbattle:game/spectator/hide/run
+execute if entity @a[team=P05,tag=player] as @e[tag=specmobp5] unless entity @s[tag=hidden] run function 4jbattle:game/spectator/hide/run
 #P6
-execute if entity @a[team=P6,tag=player] as @e[tag=specmobp6] unless entity @s[tag=hidden] run function 4jbattle:game/spectator/hide/run
+execute if entity @a[team=P06,tag=player] as @e[tag=specmobp6] unless entity @s[tag=hidden] run function 4jbattle:game/spectator/hide/run
 #P7
-execute if entity @a[team=P7,tag=player] as @e[tag=specmobp7] unless entity @s[tag=hidden] run function 4jbattle:game/spectator/hide/run
+execute if entity @a[team=P07,tag=player] as @e[tag=specmobp7] unless entity @s[tag=hidden] run function 4jbattle:game/spectator/hide/run
 #P8
-execute if entity @a[team=P8,tag=player] as @e[tag=specmobp8] unless entity @s[tag=hidden] run function 4jbattle:game/spectator/hide/run
+execute if entity @a[team=P08,tag=player] as @e[tag=specmobp8] unless entity @s[tag=hidden] run function 4jbattle:game/spectator/hide/run
 #P9
-execute if entity @a[team=P9,tag=player] as @e[tag=specmobp9] unless entity @s[tag=hidden] run function 4jbattle:game/spectator/hide/run
+execute if entity @a[team=P09,tag=player] as @e[tag=specmobp9] unless entity @s[tag=hidden] run function 4jbattle:game/spectator/hide/run
 #P10
 execute if entity @a[team=P10,tag=player] as @e[tag=specmobp10] unless entity @s[tag=hidden] run function 4jbattle:game/spectator/hide/run
 #P11

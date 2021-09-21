@@ -1,22 +1,22 @@
 ##Enable Name Visibility
 #P1
-team modify P1 nametagVisibility hideForOtherTeams
+team modify P01 nametagVisibility hideForOtherTeams
 #P2
-team modify P2 nametagVisibility hideForOtherTeams
+team modify P02 nametagVisibility hideForOtherTeams
 #P3
-team modify P3 nametagVisibility hideForOtherTeams
+team modify P03 nametagVisibility hideForOtherTeams
 #P4
-team modify P4 nametagVisibility hideForOtherTeams
+team modify P04 nametagVisibility hideForOtherTeams
 #P5
-team modify P5 nametagVisibility hideForOtherTeams
+team modify P05 nametagVisibility hideForOtherTeams
 #P6
-team modify P6 nametagVisibility hideForOtherTeams
+team modify P06 nametagVisibility hideForOtherTeams
 #P7
-team modify P7 nametagVisibility hideForOtherTeams
+team modify P07 nametagVisibility hideForOtherTeams
 #P8
-team modify P8 nametagVisibility hideForOtherTeams
+team modify P08 nametagVisibility hideForOtherTeams
 #P9
-team modify P9 nametagVisibility hideForOtherTeams
+team modify P09 nametagVisibility hideForOtherTeams
 #P10
 team modify P10 nametagVisibility hideForOtherTeams
 #P11

@@ -1,22 +1,22 @@
 ##Enable Name Visibility
 #P1
-team modify P1 nametagVisibility always
+team modify P01 nametagVisibility always
 #P2
-team modify P2 nametagVisibility always
+team modify P02 nametagVisibility always
 #P3
-team modify P3 nametagVisibility always
+team modify P03 nametagVisibility always
 #P4
-team modify P4 nametagVisibility always
+team modify P04 nametagVisibility always
 #P5
-team modify P5 nametagVisibility always
+team modify P05 nametagVisibility always
 #P6
-team modify P6 nametagVisibility always
+team modify P06 nametagVisibility always
 #P7
-team modify P7 nametagVisibility always
+team modify P07 nametagVisibility always
 #P8
-team modify P8 nametagVisibility always
+team modify P08 nametagVisibility always
 #P9
-team modify P9 nametagVisibility always
+team modify P09 nametagVisibility always
 #P10
 team modify P10 nametagVisibility always
 #P11

@@ -35,23 +35,23 @@ execute unless score @s 4j.pid matches 1.. unless entity @a[scores={4j.pid=16}] 
 
 ##Set team based on PID
 #1
-execute if score @s 4j.pid matches 1 run team join P1
+execute if score @s 4j.pid matches 1 run team join P01
 #2
-execute if score @s 4j.pid matches 2 run team join P2
+execute if score @s 4j.pid matches 2 run team join P02
 #3
-execute if score @s 4j.pid matches 3 run team join P3
+execute if score @s 4j.pid matches 3 run team join P03
 #4
-execute if score @s 4j.pid matches 4 run team join P4
+execute if score @s 4j.pid matches 4 run team join P04
 #5
-execute if score @s 4j.pid matches 5 run team join P5
+execute if score @s 4j.pid matches 5 run team join P05
 #6
-execute if score @s 4j.pid matches 6 run team join P6
+execute if score @s 4j.pid matches 6 run team join P06
 #7
-execute if score @s 4j.pid matches 7 run team join P7
+execute if score @s 4j.pid matches 7 run team join P07
 #8
-execute if score @s 4j.pid matches 8 run team join P8
+execute if score @s 4j.pid matches 8 run team join P08
 #9
-execute if score @s 4j.pid matches 9 run team join P9
+execute if score @s 4j.pid matches 9 run team join P09
 #10
 execute if score @s 4j.pid matches 10 run team join P10
 #11

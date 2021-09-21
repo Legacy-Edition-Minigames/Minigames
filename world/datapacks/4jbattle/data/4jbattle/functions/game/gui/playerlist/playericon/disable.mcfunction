@@ -1,22 +1,22 @@
 ##Hide player icons
 #1
-team modify P1 prefix ""
+team modify P01 prefix ""
 #2
-team modify P2 prefix ""
+team modify P02 prefix ""
 #3
-team modify P3 prefix ""
+team modify P03 prefix ""
 #4
-team modify P4 prefix ""
+team modify P04 prefix ""
 #5
-team modify P5 prefix ""
+team modify P05 prefix ""
 #6
-team modify P6 prefix ""
+team modify P06 prefix ""
 #7
-team modify P7 prefix ""
+team modify P07 prefix ""
 #8
-team modify P8 prefix ""
+team modify P08 prefix ""
 #9
-team modify P9 prefix ""
+team modify P09 prefix ""
 #10
 team modify P10 prefix ""
 #11
