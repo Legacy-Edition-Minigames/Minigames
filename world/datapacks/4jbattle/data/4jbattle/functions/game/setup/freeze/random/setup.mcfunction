@@ -33,11 +33,11 @@ execute as @e[type=area_effect_cloud,tag=RandomTP,tag=!tpset,sort=random,limit=1
 execute as @e[type=area_effect_cloud,tag=RandomTP,tag=!tpset,sort=random,limit=1] at @s run function 4jbattle:game/setup/freeze/random/spawn/16
 
 ##Spawn boats
-execute as @e[tag=RTP] at @s run summon armor_stand ~ ~1.8 ~ {NoGravity:1b,Marker:1b,Invisible:1b,Tags:["boatWall"],Passengers:[{id:"minecraft:boat",Silent:1b,Type:"acacia",Tags:["boatWall"]}]}
-execute as @e[tag=RTP] at @s run summon armor_stand ~ ~-0.563 ~ {NoGravity:1b,Marker:1b,Invisible:1b,Tags:["boatWall"],Passengers:[{id:"minecraft:boat",Silent:1b,Type:"acacia",Tags:["boatWall"]}]}
-execute as @e[tag=RTP] at @s run summon armor_stand ~0.989999 ~0.5 ~ {NoGravity:1b,Marker:1b,Invisible:1b,Tags:["boatWall"],Passengers:[{id:"minecraft:boat",Silent:1b,Type:"acacia",Tags:["boatWall"]}]}
-execute as @e[tag=RTP] at @s run summon armor_stand ~-0.989999 ~0.5 ~ {NoGravity:1b,Marker:1b,Invisible:1b,Tags:["boatWall"],Passengers:[{id:"minecraft:boat",Silent:1b,Type:"acacia",Tags:["boatWall"]}]}
-execute as @e[tag=RTP] at @s run summon armor_stand ~ ~0.5 ~0.989999 {NoGravity:1b,Marker:1b,Invisible:1b,Tags:["boatWall"],Passengers:[{id:"minecraft:boat",Silent:1b,Type:"acacia",Tags:["boatWall"]}]}
-execute as @e[tag=RTP] at @s run summon armor_stand ~ ~0.5 ~-0.989999 {NoGravity:1b,Marker:1b,Invisible:1b,Tags:["boatWall"],Passengers:[{id:"minecraft:boat",Silent:1b,Type:"acacia",Tags:["boatWall"]}]}
+execute as @e[tag=RTP] at @s run summon armor_stand ~ ~1.8 ~ {NoGravity:1b,Marker:1b,Invisible:1b,Tags:["boatWall"],Passengers:[{id:"minecraft:boat",Silent:1b,Type:"acacia",Tags:["boatWall"],Passengers:[{id:"minecraft:marker",Tags:["boatWall"]},{id:"minecraft:marker",Tags:["boatWall"]}]}]}
+execute as @e[tag=RTP] at @s run summon armor_stand ~ ~-0.563 ~ {NoGravity:1b,Marker:1b,Invisible:1b,Tags:["boatWall"],Passengers:[{id:"minecraft:boat",Silent:1b,Type:"acacia",Tags:["boatWall"],Passengers:[{id:"minecraft:marker",Tags:["boatWall"]},{id:"minecraft:marker",Tags:["boatWall"]}]}]}
+execute as @e[tag=RTP] at @s run summon armor_stand ~0.989999 ~0.5 ~ {NoGravity:1b,Marker:1b,Invisible:1b,Tags:["boatWall"],Passengers:[{id:"minecraft:boat",Silent:1b,Type:"acacia",Tags:["boatWall"],Passengers:[{id:"minecraft:marker",Tags:["boatWall"]},{id:"minecraft:marker",Tags:["boatWall"]}]}]}
+execute as @e[tag=RTP] at @s run summon armor_stand ~-0.989999 ~0.5 ~ {NoGravity:1b,Marker:1b,Invisible:1b,Tags:["boatWall"],Passengers:[{id:"minecraft:boat",Silent:1b,Type:"acacia",Tags:["boatWall"],Passengers:[{id:"minecraft:marker",Tags:["boatWall"]},{id:"minecraft:marker",Tags:["boatWall"]}]}]}
+execute as @e[tag=RTP] at @s run summon armor_stand ~ ~0.5 ~0.989999 {NoGravity:1b,Marker:1b,Invisible:1b,Tags:["boatWall"],Passengers:[{id:"minecraft:boat",Silent:1b,Type:"acacia",Tags:["boatWall"],Passengers:[{id:"minecraft:marker",Tags:["boatWall"]},{id:"minecraft:marker",Tags:["boatWall"]}]}]}
+execute as @e[tag=RTP] at @s run summon armor_stand ~ ~0.5 ~-0.989999 {NoGravity:1b,Marker:1b,Invisible:1b,Tags:["boatWall"],Passengers:[{id:"minecraft:boat",Silent:1b,Type:"acacia",Tags:["boatWall"],Passengers:[{id:"minecraft:marker",Tags:["boatWall"]},{id:"minecraft:marker",Tags:["boatWall"]}]}]}
 ##Freeze
 function 4jbattle:game/setup/freeze/random/run
