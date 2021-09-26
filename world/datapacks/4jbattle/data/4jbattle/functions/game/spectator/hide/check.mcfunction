@@ -34,3 +34,9 @@ execute if entity @a[team=P16,tag=player] as @e[tag=specmobp16] unless entity @s
 
 ##Hide if in player
 execute as @e[tag=spectatormob,tag=!playerhide] at @s if entity @a[tag=player,distance=0..2] run function 4jbattle:game/spectator/hide/player
+
+##Hide if in arrow
+execute as @e[type=!armor_stand,tag=spectatormob,tag=!arrowhide] at @s if entity @e[type=arrow,distance=0..4] run function 4jbattle:game/spectator/hide/arrow
+
+##Hide if in potion
+execute as @e[type=!armor_stand,tag=spectatormob,tag=!potionhide] at @s if entity @e[type=potion,distance=0..4] run function 4jbattle:game/spectator/hide/potion

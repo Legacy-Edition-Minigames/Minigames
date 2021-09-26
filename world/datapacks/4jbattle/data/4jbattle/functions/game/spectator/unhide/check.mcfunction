@@ -65,3 +65,9 @@ execute as @e[tag=specmobp14,tag=playerhidden] at @a[team=P14] if entity @a[tag=
 execute as @e[tag=specmobp15,tag=playerhidden] at @a[team=P15] if entity @a[tag=player,distance=2..3] run function 4jbattle:game/spectator/unhide/player
 #16
 execute as @e[tag=specmobp16,tag=playerhidden] at @a[team=P16] if entity @a[tag=player,distance=2..3] run function 4jbattle:game/spectator/unhide/player
+
+##Unhide if in arrow
+execute as @e[type=!armor_stand,tag=spectatormob,tag=arrowhidden] at @s if entity @e[type=arrow,distance=4..5] run function 4jbattle:game/spectator/unhide/arrow
+
+##Unhide if in potion
+execute as @e[type=!armor_stand,tag=spectatormob,tag=potionhidden] at @s if entity @e[type=potion,distance=4..5] run function 4jbattle:game/spectator/unhide/potion
