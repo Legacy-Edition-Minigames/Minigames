@@ -37,9 +37,6 @@ scoreboard players reset @s
 ##Send to menu
 function 4jbattle:menu/load/user
 
-##Load GlobalInfo
-function 4jbattle:game/gui/globalinfo/load
-
 ##Clear inventory
 clear @s
 

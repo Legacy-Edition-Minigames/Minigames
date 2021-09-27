@@ -367,12 +367,38 @@ bossbar add pushdown ""
 #bossbar set minecraft:pushdown visible true
 
 ##GlobalInfo
-#Create
-bossbar add globalinfo ""
-#Set players (TEMPORARY)
-#bossbar set minecraft:globalinfo players @a
-#Hide it (TEMPORARY)
-#bossbar set minecraft:globalinfo visible true
+#P1
+bossbar add globalinfo1 ""
+#P2
+bossbar add globalinfo2 ""
+#P3
+bossbar add globalinfo3 ""
+#P4
+bossbar add globalinfo4 ""
+#P5
+bossbar add globalinfo5 ""
+#P6
+bossbar add globalinfo6 ""
+#P7
+bossbar add globalinfo7 ""
+#P8
+bossbar add globalinfo8 ""
+#P9
+bossbar add globalinfo9 ""
+#P10
+bossbar add globalinfo10 ""
+#P11
+bossbar add globalinfo11 ""
+#P12
+bossbar add globalinfo12 ""
+#P13
+bossbar add globalinfo13 ""
+#P14
+bossbar add globalinfo14 ""
+#P15
+bossbar add globalinfo15 ""
+#P16
+bossbar add globalinfo16 ""
 
 ##Simulate relog
 tag @s remove relog
