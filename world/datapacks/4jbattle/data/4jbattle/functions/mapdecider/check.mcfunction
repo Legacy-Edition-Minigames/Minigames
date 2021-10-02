@@ -34,5 +34,17 @@ function 4jbattle:game/mapinit/run
 ##Load custom behavior
 function 4jbattle:game/custom/load
 
+##Render game tablist
+function 4jbattle:game/gui/playerlist/scores/check/game
+
+##Reset kill counter
+#Per-Round
+scoreboard players reset @a 4j.killcount
+#Global
+scoreboard players reset @a 4j.globalkills
+
+##Reset win counter
+scoreboard players reset @a 4j.roundwins
+
 ##Stop timer check
 schedule clear 4jbattle:lobby/timer/run/check

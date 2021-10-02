@@ -214,6 +214,18 @@ scoreboard objectives add 4j.bannermode dummy
 ##Per-Map texture packs toggle
 scoreboard objectives add maptextures trigger
 
+##Heart cosmetic toggle
+scoreboard objectives add heartcosmetic trigger
+
+##Alive status
+scoreboard objectives add 4j.alive dummy
+
+##Round win streak
+scoreboard objectives add 4j.roundwins dummy
+
+##Global kill count
+scoreboard objectives add 4j.globalkills playerKillCount
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

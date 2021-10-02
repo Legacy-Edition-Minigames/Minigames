@@ -13,3 +13,6 @@ function 4jbattle:game/gui/playerbar/elim/run
 
 ##Reset scores
 function 4jbattle:game/death/scores
+
+##Set heart to empty
+scoreboard players set @s 4j.alive 0

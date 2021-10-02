@@ -1,0 +1,19 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:knowledge_book",
+        "nbt": "{CustomModelData:3}"
+      },
+      "title": "Grass Heart",
+      "description": ["","Classic Grass Block.","\n","\n",{"text":"Can be changed with /trigger heartcosmetic","color":"gold"}],
+      "frame": "task",
+      "announce_to_chat": false
+    },
+    "parent": "4jbattle:config/heart/default",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

@@ -28,6 +28,15 @@ tag @s remove allmusic1
 ##Add notready tag
 tag @s add notready
 
+##Reset kill counter
+#Per-Round
+scoreboard players reset @s 4j.killcount
+#Global
+scoreboard players reset @s 4j.globalkills
+
+##Reset win counter
+scoreboard players reset @s 4j.roundwins
+
 ##Set team to loading
 team join loading @s
 
@@ -51,6 +60,9 @@ tag @s add relogtimer
 
 ##Revoke resourcepack loading advancements
 function 4jbattle:game/resource/advancementreset
+
+##Hide tablist heart
+setSuffixFont alive "4jbattle:tablist/heart/empty" @s
 
 ##Run timer
 function 4jbattle:relog/timer/check

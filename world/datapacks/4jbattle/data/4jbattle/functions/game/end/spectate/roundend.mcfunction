@@ -7,6 +7,9 @@ effect give @a[tag=Victor] saturation 10 255 true
 ##Add score
 scoreboard players add @a[tag=Victor] 4j.score 1
 
+##Add to win count
+scoreboard players add @a[tag=Victor] 4j.roundwins 1
+
 ##Spectate Victor
 function 4jbattle:game/end/spectate/spectate
 

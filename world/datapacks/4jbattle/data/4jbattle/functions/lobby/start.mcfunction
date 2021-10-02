@@ -69,3 +69,6 @@ function 4jbattle:mapdecider/vote/load
 
 ##Reset world back
 schedule function 4jbattle:lobby/reset 2s
+
+##Set tablist display
+function 4jbattle:game/gui/playerlist/scores/check/lobby

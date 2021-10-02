@@ -1,0 +1,19 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:knowledge_book",
+        "nbt": "{CustomModelData:5}"
+      },
+      "title": "Trans Pride Heart",
+      "description": ["","Trans pride heart","\n","\n",{"text":"Can be changed with /trigger heartcosmetic","color":"gold"}],
+      "frame": "task",
+      "announce_to_chat": false
+    },
+    "parent": "4jbattle:config/heart/pride",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

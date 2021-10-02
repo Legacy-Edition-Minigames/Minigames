@@ -23,6 +23,12 @@ function 4jbattle:game/player/setpid
 ##Load GlobalInfo
 function 4jbattle:game/gui/globalinfo/load
 
+##Set heart to full
+scoreboard players set @s 4j.alive 1
+
+##Load heart cosmetic
+function 4jbattle:clientconfig/heart/load/run
+
 ##Set music timer
 execute if score #Store 4j.gamestatus matches 2 run scoreboard players set @s 4j.mustimer 15
 
