@@ -5,7 +5,7 @@
 	"packs": [
 		{
 			"packname": "vanilla",
-			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/R22/vanilla.zip",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/R23/vanilla.zip",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -13,7 +13,7 @@
 		},
 		{
 			"packname": "vanilla-optifine",
-			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/R22/vanilla.zip",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/R23/vanilla.zip",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -21,7 +21,7 @@
 		},
 		{
 			"packname": "all-music-1",
-			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/R22/all-music-1.zip",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/R23/all-music-1.zip",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -29,7 +29,7 @@
 		},
 		{
 			"packname": "all-music-2",
-			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/R22/all-music-2.zip",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/R23/all-music-2.zip",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -37,7 +37,7 @@
 		},
 		{
 			"packname": "all-music-1-optifine",
-			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/R22/all-music-1.zip",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/R23/all-music-1.zip",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -45,7 +45,7 @@
 		},
 		{
 			"packname": "all-music-2-optifine",
-			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/R22/all-music-2.zip",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/R23/all-music-2.zip",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -53,7 +53,7 @@
 		},
 		{
 			"packname": "plastic",
-			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/R22/plastic.zip",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/R23/plastic.zip",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -61,7 +61,7 @@
 		},
 		{
 			"packname": "plastic-optifine",
-			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/R22/plastic.zip",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/R23/plastic.zip",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -69,7 +69,7 @@
 		},
 		{
 			"packname": "fantasy",
-			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/R22/fantasy.zip",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/R23/fantasy.zip",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -77,7 +77,7 @@
 		},
 		{
 			"packname": "fantasy-optifine",
-			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/R22/fantasy.zip",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/R23/fantasy.zip",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -85,7 +85,7 @@
 		},
 		{
 			"packname": "city",
-			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/R22/city.zip",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/R23/city.zip",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -93,7 +93,7 @@
 		},
 		{
 			"packname": "city-optifine",
-			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/R22/city.zip",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/R23/city.zip",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -101,7 +101,7 @@
 		},
 		{
 			"packname": "greek",
-			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/R22/greek-mythology.zip",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/R23/greek-mythology.zip",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -109,7 +109,7 @@
 		},
 		{
 			"packname": "greek-optifine",
-			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/R22/greek-mythology.zip",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/R23/greek-mythology.zip",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -117,7 +117,7 @@
 		},
 		{
 			"packname": "steampunk",
-			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/R22/steampunk.zip",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/standard/R23/steampunk.zip",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -125,7 +125,7 @@
 		},
 		{
 			"packname": "steampunk-optifine",
-			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/R22/steampunk.zip",
+			"url": "https://dbtderpbox.github.io/LEB-Resources/zip/optifine/R23/steampunk.zip",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
