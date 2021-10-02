@@ -12,3 +12,5 @@ function 4jbattle:game/gui/display
 
 ##Check for optifine pack toggles
 function 4jbattle:optifine/check
+
+#setScoreboardSuffix [{"text":"\uF801","color":"white","font":"4jbattle:playericon"}, "scoreboard=4j.lives", {"text":" 1","color":"white","font":"4jbattle:tablist/alive"}]
