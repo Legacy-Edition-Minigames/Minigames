@@ -24,6 +24,14 @@ If you do make your own LEB server, please at least credit me.
 
 * If for whatever reason, you can't download the resources properly with the current SRP config, you can edit the config inside of the `config` folder and the files can be found [here.](https://github.com/DBTDerpbox/LEB-Resources/tree/zip/zip)
 
+#### Dependencies
+
+* You need to install [FabricMC](https://fabricmc.net/use/) and the following mods:
+
+* [SwitchableResourcePacks](https://github.com/kyrptonaught/SwitchableResourcepacks) ([GitHub](https://github.com/kyrptonaught/SwitchableResourcepacks/releases) [Modrinth](https://modrinth.com/mod/switchableresourcepacks) [CurseForge](https://www.curseforge.com/minecraft/mc-mods/switchableresourcepacks))
+
+* [scoreboardsuffix](https://github.com/kyrptonaught/scoreboardsuffix) ([GitHub Releases](https://github.com/kyrptonaught/scoreboardsuffix/releases))
+
 ### Executing
 
 #### Windows
@@ -37,10 +45,6 @@ If you do make your own LEB server, please at least credit me.
 * For MacOS users, run macos.sh. You might need to run chmod a+x macos.sh before you have permission to run it.
 
 * For Linux users, run linux.sh. You might need to run chmod +x linux.sh before you have permission to run it.
-
-#### Dependencies
-
-* You need to install [FabricMC](https://fabricmc.net/use/) and [SwitchableResourcePacks](https://github.com/kyrptonaught/SwitchableResourcepacks) ([GitHub](https://github.com/kyrptonaught/SwitchableResourcepacks/releases) [Modrinth](https://modrinth.com/mod/switchableresourcepacks) [CurseForge](https://www.curseforge.com/minecraft/mc-mods/switchableresourcepacks))
 
 ### Connecting
 
