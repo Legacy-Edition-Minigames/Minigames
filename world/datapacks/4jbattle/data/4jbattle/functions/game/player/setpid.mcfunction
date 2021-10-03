@@ -35,34 +35,34 @@ execute unless score @s 4j.pid matches 1.. unless entity @a[scores={4j.pid=16}] 
 
 ##Set team based on PID
 #1
-execute if score @s 4j.pid matches 1 run team join P01
+execute if score @s 4j.pid matches 1 run function 4jbattle:game/player/team/1
 #2
-execute if score @s 4j.pid matches 2 run team join P02
+execute if score @s 4j.pid matches 2 run function 4jbattle:game/player/team/2
 #3
-execute if score @s 4j.pid matches 3 run team join P03
+execute if score @s 4j.pid matches 3 run function 4jbattle:game/player/team/3
 #4
-execute if score @s 4j.pid matches 4 run team join P04
+execute if score @s 4j.pid matches 4 run function 4jbattle:game/player/team/4
 #5
-execute if score @s 4j.pid matches 5 run team join P05
+execute if score @s 4j.pid matches 5 run function 4jbattle:game/player/team/5
 #6
-execute if score @s 4j.pid matches 6 run team join P06
+execute if score @s 4j.pid matches 6 run function 4jbattle:game/player/team/6
 #7
-execute if score @s 4j.pid matches 7 run team join P07
+execute if score @s 4j.pid matches 7 run function 4jbattle:game/player/team/7
 #8
-execute if score @s 4j.pid matches 8 run team join P08
+execute if score @s 4j.pid matches 8 run function 4jbattle:game/player/team/8
 #9
-execute if score @s 4j.pid matches 9 run team join P09
+execute if score @s 4j.pid matches 9 run function 4jbattle:game/player/team/9
 #10
-execute if score @s 4j.pid matches 10 run team join P10
+execute if score @s 4j.pid matches 10 run function 4jbattle:game/player/team/10
 #11
-execute if score @s 4j.pid matches 11 run team join P11
+execute if score @s 4j.pid matches 11 run function 4jbattle:game/player/team/11
 #12
-execute if score @s 4j.pid matches 12 run team join P12
+execute if score @s 4j.pid matches 12 run function 4jbattle:game/player/team/12
 #13
-execute if score @s 4j.pid matches 13 run team join P13
+execute if score @s 4j.pid matches 13 run function 4jbattle:game/player/team/13
 #14
-execute if score @s 4j.pid matches 14 run team join P14
+execute if score @s 4j.pid matches 14 run function 4jbattle:game/player/team/14
 #15
-execute if score @s 4j.pid matches 15 run team join P15
+execute if score @s 4j.pid matches 15 run function 4jbattle:game/player/team/15
 #16
-execute if score @s 4j.pid matches 16 run team join P16
+execute if score @s 4j.pid matches 16 run function 4jbattle:game/player/team/16
