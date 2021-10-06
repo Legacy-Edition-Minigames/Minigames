@@ -4,8 +4,8 @@ execute if score #Store 4j.spectype matches 1..4 run function 4jbattle:game/spec
 #Head
 execute if score #Store 4j.spectype matches 5 run function 4jbattle:game/spectator/tphead
 
-##Set OnGround to 0
-execute as @e[tag=spectatormob] run data merge entity @s {OnGround:0b}
+##Run NBT Check
+execute as @e[tag=spectatormob] run function 4jbattle:game/spectator/nbtcheck
 
 ##Make hidden if unused
 function 4jbattle:game/spectator/hide/check
