@@ -1,6 +1,12 @@
 ##Play animation
 function 4jbattle:relog/timer/animation
 
+##Count down
+scoreboard players remove @a[tag=relogtimer,scores={4j.timer=0..}] 4j.timer 1
+
+##Load resource pack
+execute as @a[tag=relogtimer,scores={4j.timer=0}] run function 4jbattle:game/resource/load/run
+
 ##Send to game once timer ends
 execute as @a[tag=relogtimer,advancements={4jbattle:resource/finished=true}] run function 4jbattle:relog/setup/global
 

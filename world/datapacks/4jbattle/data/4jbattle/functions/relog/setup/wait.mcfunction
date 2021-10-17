@@ -64,8 +64,8 @@ function 4jbattle:game/resource/advancementreset
 ##Hide tablist heart
 setSuffixFont alive "4jbattle:tablist/heart/empty" @s
 
+##Set resource load delay (In ticks!!)
+scoreboard players set @s 4j.timer 100
+
 ##Run timer
 function 4jbattle:relog/timer/check
-
-##Load resource pack
-function 4jbattle:game/resource/load/run
