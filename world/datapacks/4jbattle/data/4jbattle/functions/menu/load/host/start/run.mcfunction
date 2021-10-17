@@ -15,4 +15,4 @@ scoreboard players reset @a 4j.killcount
 scoreboard players reset @a 4j.globalkills
 
 ##Start
-function 4jbattle:lobby/start
+function 4jbattle:lobby/start/load

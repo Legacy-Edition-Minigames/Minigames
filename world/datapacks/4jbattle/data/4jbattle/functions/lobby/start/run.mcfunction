@@ -1,6 +1,3 @@
-##Clear menu check
-schedule clear 4jbattle:menu/check
-
 ##Spawn
 execute as @a[tag=!relogtimer] run function 4jbattle:lobby/spawn
 
@@ -68,7 +65,7 @@ function 4jbattle:game/playerreset
 function 4jbattle:mapdecider/vote/load
 
 ##Reset world back
-schedule function 4jbattle:lobby/reset 2s
+function 4jbattle:lobby/reset
 
 ##Set tablist display
 function 4jbattle:game/gui/playerlist/scores/check/lobby

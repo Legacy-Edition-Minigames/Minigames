@@ -11,7 +11,7 @@ execute as @a[tag=!relogtimer] run function 4jbattle:game/end/leave
 scoreboard players set #Store 4j.gamestatus 1
 
 ##Load Lobby
-function 4jbattle:lobby/start
+function 4jbattle:lobby/start/load
 
 ##Stop Music
 function 4jbattle:game/music/stop
