@@ -29,6 +29,9 @@ tag @a remove notready
 ##Set all playerbars to full
 scoreboard players set @a[tag=!relogtimer] 4j.playerbar 3
 
+##Reload playerbar
+function 4jbattle:game/gui/playerbar/load
+
 ##Remove Winner tag
 tag @a remove Winner
 
