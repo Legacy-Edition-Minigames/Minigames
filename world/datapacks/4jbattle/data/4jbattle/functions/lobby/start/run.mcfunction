@@ -1,9 +1,6 @@
 ##Spawn
 execute as @a[tag=!relogtimer] run function 4jbattle:lobby/spawn
 
-##Refresh Playerbar
-function 4jbattle:game/gui/playerbar/load
-
 ##Set gamestatus
 scoreboard players set #Store 4j.gamestatus 1
 
@@ -48,6 +45,9 @@ tag @a remove ready
 tag @a add notready
 #playerbar score
 scoreboard players set @s 4j.playerbar 2
+
+##Refresh Playerbar
+function 4jbattle:game/gui/playerbar/load
 
 ##Start timer
 function 4jbattle:lobby/timer/check
