@@ -41,9 +41,6 @@ execute as @a[tag=Victor] at @s run playsound 4jbattle:sound.game.win master @s 
 ##Display particles
 function 4jbattle:game/particle/victory
 
-##Clear showdown schedule
-schedule clear 4jbattle:game/timer/showdown/run
-
 ##Enable nametags
 function 4jbattle:game/namevisibility/enable
 

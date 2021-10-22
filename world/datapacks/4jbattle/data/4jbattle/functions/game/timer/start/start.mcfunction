@@ -13,8 +13,8 @@ schedule function 4jbattle:game/setup/freeze/check 10t
 ##Disable Damage
 function 4jbattle:game/damage/disable
 
-##Start showdown timer
-function 4jbattle:game/timer/showdown/start
+##Hide usernames
+function 4jbattle:game/namevisibility/disable
 
 ##Load hunger
 function 4jbattle:game/hunger/start

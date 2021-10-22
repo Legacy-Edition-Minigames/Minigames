@@ -12,7 +12,11 @@ schedule function 4jbattle:game/end/clearextras 1s
 #Achievements
 schedule clear 4jbattle:game/achievement/check
 #Showdown
+schedule clear 4jbattle:game/showdown/run
+#Showdown check
 schedule clear 4jbattle:game/showdown/check
+#Showdown timer
+schedule clear 4jbattle:game/showdown/timer/run
 #Small Inventory
 schedule clear 4jbattle:game/inventory/check
 #Spectator check

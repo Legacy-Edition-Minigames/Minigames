@@ -226,6 +226,9 @@ scoreboard objectives add 4j.roundwins dummy
 ##Global kill count
 scoreboard objectives add 4j.globalkills playerKillCount
 
+##Showdown timer
+scoreboard objectives add 4j.showdowntimer dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

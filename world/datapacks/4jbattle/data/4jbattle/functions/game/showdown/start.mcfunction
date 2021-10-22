@@ -1,3 +1,6 @@
+##Clear schedule
+schedule clear 4jbattle:game/showdown/timer/run
+
 ##Inform all users that showdown has begun
 #Show banner
 function 4jbattle:game/gui/banner/stopwatch/run
@@ -15,4 +18,4 @@ execute as @a at @s run playsound 4jbattle:sound.game.showdown master @s ~ ~ ~ 9
 function 4jbattle:game/namevisibility/enable
 
 ##Start showdown check
-function 4jbattle:game/showdown/check
+function 4jbattle:game/showdown/run

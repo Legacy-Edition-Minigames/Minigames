@@ -10,6 +10,9 @@ function 4jbattle:game/potion/runner
 ##Check for Achievements
 function 4jbattle:game/achievement/check
 
+##Start showdown timer
+function 4jbattle:game/showdown/check
+
 ##Unfreeze players
 #Stop check
 function 4jbattle:game/setup/freeze/stop
