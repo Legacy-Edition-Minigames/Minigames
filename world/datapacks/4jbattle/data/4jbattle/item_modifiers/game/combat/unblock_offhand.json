@@ -1,0 +1,19 @@
+[
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:0,SwordBlock:0}",
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "offhand": {
+                "tag": "4jbattle:swords"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]

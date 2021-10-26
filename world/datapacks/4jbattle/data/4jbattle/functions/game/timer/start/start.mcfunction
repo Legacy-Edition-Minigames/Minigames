@@ -46,3 +46,6 @@ function 4jbattle:game/chests/load
 
 ##Run TP check
 function 4jbattle:game/setup/teleport/check
+
+##Start combat check
+function 4jbattle:game/combat/block/check
