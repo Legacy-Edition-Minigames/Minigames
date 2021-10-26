@@ -229,6 +229,12 @@ scoreboard objectives add 4j.globalkills playerKillCount
 ##Showdown timer
 scoreboard objectives add 4j.showdowntimer dummy
 
+##Chest animation
+scoreboard objectives add 4j.chestanim dummy
+
+##GlobalInfo mode
+scoreboard objectives add 4j.gimode dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
@@ -430,6 +436,9 @@ bossbar add globalinfo14 ""
 bossbar add globalinfo15 ""
 #P16
 bossbar add globalinfo16 ""
+
+##ChestAnim GlobalInfo
+bossbar add chestanim ""
 
 ##Simulate relog
 tag @s remove relog
