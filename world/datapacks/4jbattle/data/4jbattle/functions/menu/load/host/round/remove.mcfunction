@@ -1,5 +1,5 @@
 ##Remove score
-scoreboard players remove #Store 4j.setround 1
+execute if score #Store 4j.setround matches 2.. run scoreboard players remove #Store 4j.setround 1
 
 ##Display Message
 tellraw @a ["","The host has set Rounds to ",{"score":{"name":"#Store","objective":"4j.setround"}},"."]
