@@ -1,5 +1,5 @@
 ##Add score
-scoreboard players add #Store 4j.lives 1
+execute if score #Store 4j.lives matches ..9 run scoreboard players add #Store 4j.lives 1
 
 ##Display Message
 tellraw @a ["","The host has set Lives to ",{"score":{"name":"#Store","objective":"4j.lives"}},"."]
