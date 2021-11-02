@@ -30,8 +30,10 @@ execute if score #Store 4j.map matches 34 run function 4jbattle:game/music/shrun
 execute if score #Store 4j.map matches 30..31 run function 4jbattle:game/music/city/pick
 #Shipyard
 execute if score #Store 4j.map matches 32..33 run function 4jbattle:game/music/steampunk/pick
+#Halloween
+execute if score #Store 4j.map matches 35..36 run function 4jbattle:game/music/halloween/pick
 #Default to vanilla if not set
-execute if score #Store 4j.map matches 35.. run function 4jbattle:game/music/vanilla/pick
+execute if score #Store 4j.map matches 37.. run function 4jbattle:game/music/vanilla/pick
 
 ##Debug Info
 tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Picking song for ","color":"gold"},{"selector":"@s","color":"yellow"}]

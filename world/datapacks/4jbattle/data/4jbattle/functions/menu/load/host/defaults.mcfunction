@@ -50,12 +50,14 @@ scoreboard players set #Castle 4j.enablemap 1
 scoreboard players set #Invasion 4j.enablemap 1
 #Shipyard
 scoreboard players set #Shipyard 4j.enablemap 1
+#Halloween
+scoreboard players set #Halloween 4j.enablemap 1
 
 ##Default Map Type
 scoreboard players set #Store 4j.setmaptype 1
 
 ##Set mapcount
-scoreboard players set #Store 4j.mapcount 15
+scoreboard players set #Store 4j.mapcount 16
 
 ##Visual time
 #Score

@@ -90,3 +90,9 @@ execute as @s[scores={4j.gamecfg=1029}] run function 4jbattle:menu/load/host/map
 
 ##Enable Shipyard if set to 1030
 execute as @s[scores={4j.gamecfg=1030}] run function 4jbattle:menu/load/host/map/shipyard/enable
+
+##Disable Halloween if set to 1031
+execute as @s[scores={4j.gamecfg=1031}] run function 4jbattle:menu/load/host/map/halloween/disable
+
+##Enable Halloween if set to 1032
+execute as @s[scores={4j.gamecfg=1032}] run function 4jbattle:menu/load/host/map/halloween/enable

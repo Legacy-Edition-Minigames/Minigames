@@ -67,3 +67,7 @@ execute if score #Store 4j.map matches 32 in 4jbattle:shipyard run tp @s 20 154 
 execute if score #Store 4j.map matches 33 in 4jbattle:shipyard_small run tp @s -9 154 -1
 #Remastered Shrunk
 execute if score #Store 4j.map matches 34 in 4jbattle:shrunk_remastered run tp @s 47 31 127
+#Small Halloween
+execute if score #Store 4j.map matches 35 in 4jbattle:halloween_small run tp @s 56 25 141
+#Large Halloween
+execute if score #Store 4j.map matches 36 in 4jbattle:halloween run tp @s 56 25 141

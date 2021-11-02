@@ -91,6 +91,12 @@ execute if score #Shipyard 4j.enablemap matches 1 as @a[scores={4j.playermapvote
 #If user hasnt voted for this map yet
 execute if score #Shipyard 4j.enablemap matches 1 as @a[scores={4j.playermapvote=15}] run function 4jbattle:mapdecider/vote/add/shipyard
 
+##add 1 to Halloween's vote count if voted for
+#If user has voted for this map
+execute if score #Halloween 4j.enablemap matches 1 as @a[scores={4j.playermapvote=16},tag=votehalloween] run function 4jbattle:mapdecider/vote/error
+#If user hasnt voted for this map yet
+execute if score #Halloween 4j.enablemap matches 1 as @a[scores={4j.playermapvote=16}] run function 4jbattle:mapdecider/vote/add/halloween
+
 ##Play sound
 execute as @a[scores={4j.playermapvote=1..}] at @s run playsound ui.button.click master @s ~ ~ ~ 0.25
 

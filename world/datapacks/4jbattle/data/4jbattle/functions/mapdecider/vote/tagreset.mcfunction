@@ -43,3 +43,6 @@ tag @s remove voteinvasion
 
 ##Shipyard
 tag @s remove voteshipyard
+
+##Halloween
+tag @s remove votehalloween

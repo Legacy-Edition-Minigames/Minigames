@@ -16,5 +16,7 @@ execute if score #Store 4j.map matches 26..27 run function 4jbattle:game/resourc
 execute if score #Store 4j.map matches 30..31 run function 4jbattle:game/resource/load/city/run
 #Shipyard
 execute if score #Store 4j.map matches 32..33 run function 4jbattle:game/resource/load/steampunk/run
+#Halloween
+execute if score #Store 4j.map matches 35..36 run function 4jbattle:game/resource/load/halloween/run
 #Default
 execute if entity @s[tag=relogtimer,tag=!custompack] run function 4jbattle:game/resource/load/vanilla/run
