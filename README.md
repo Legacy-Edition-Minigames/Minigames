@@ -30,7 +30,9 @@ If you do make your own LEB server, please at least credit me.
 
 * [SwitchableResourcePacks](https://github.com/kyrptonaught/SwitchableResourcepacks) ([GitHub](https://github.com/kyrptonaught/SwitchableResourcepacks/releases) [Modrinth](https://modrinth.com/mod/switchableresourcepacks) [CurseForge](https://www.curseforge.com/minecraft/mc-mods/switchableresourcepacks))
 
-* [scoreboardsuffix](https://github.com/kyrptonaught/scoreboardsuffix) ([GitHub Releases](https://github.com/kyrptonaught/scoreboardsuffix/releases))
+* [scoreboardsuffix](https://github.com/kyrptonaught/scoreboardsuffix) [GitHub Releases](https://github.com/kyrptonaught/scoreboardsuffix/releases)
+
+* [Extended Structures](https://github.com/kyrptonaught/Extended-Structures) [GitHub Releases](https://github.com/kyrptonaught/Extended-Structures)
 
 ### Executing
 
@@ -60,6 +62,8 @@ This project is far from completion! Do not expect too much in its current state
 
 Optifine has issues with the default pack, please [read this](https://github.com/DBTDerpbox/Legacy-Edition-Battle/issues/4) for info on a fix.
 
+If your server is crashing on loading maps, [read this](https://github.com/DBTDerpbox/Legacy-Edition-Battle/issues/7) about what to do.
+
 Legacy Edition Battle is currently designed for [Minecraft Java Edition 1.17.1](https://www.minecraft.net/en-us/article/minecraft-java-edition-1-17-1)
 
 ### Credits
@@ -78,4 +82,4 @@ Map Packs 1-4 - [MinecraftDigger](https://www.youtube.com/c/MinecraftDigger/)
 
 Texture Pack ports - [Ultmate_Mario](https://ultmatemario.wixsite.com/ultmatemario)
 
-Switchable Resource Packs - [Kyrptonaught](https://github.com/kyrptonaught)
+Significant Modding Help - [Kyrptonaught](https://github.com/kyrptonaught)
