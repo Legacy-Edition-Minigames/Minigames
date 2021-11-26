@@ -78,9 +78,6 @@ function 4jbattle:game/fire/check
 ##Set spawnpoints
 execute as @a at @s run spawnpoint @s ~ ~ ~
 
-##Reset maps
-function 4jbattle:game/mapreset/run
-
 ##Remove items
 kill @e[type=item]
 

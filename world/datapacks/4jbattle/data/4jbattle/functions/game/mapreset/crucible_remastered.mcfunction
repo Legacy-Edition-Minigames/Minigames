@@ -1,18 +1,11 @@
 ###Map reset file
 ###Put all commands needed to reset the map to its normal state here
-###Use F3+I to even get close to keeping your sanity
-##Trapdoors
-setblock 315 36 296 minecraft:crimson_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
-setblock 315 35 296 minecraft:crimson_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 312 36 299 minecraft:crimson_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]
-setblock 312 35 299 minecraft:crimson_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 312 36 293 minecraft:crimson_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
-setblock 312 35 293 minecraft:crimson_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 385 36 366 minecraft:warped_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
-setblock 385 35 366 minecraft:warped_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 382 36 363 minecraft:warped_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
-setblock 382 35 363 minecraft:warped_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 379 36 366 minecraft:warped_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
-setblock 379 35 366 minecraft:warped_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 382 36 369 minecraft:warped_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]
-setblock 382 35 369 minecraft:warped_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
+###Use F3+I to easily copy structure block data
+##Global functions
+function 4jbattle:game/mapreset/global
+
+##Set Structure block
+setblock 274 105 259 minecraft:structure_block[mode=load]{author:"DBTDerpbox",ignoreEntities:0b,integrity:1.0f,metadata:"",mirror:"NONE",mode:"LOAD",name:"4jbattle:crucible_remastered",posX:0,posY:-105,posZ:0,powered:0b,rotation:"NONE",seed:0L,showair:0b,showboundingbox:1b,sizeX:146,sizeY:106,sizeZ:147}
+
+##Activate structure block
+setblock 275 105 259 minecraft:redstone_block

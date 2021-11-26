@@ -80,4 +80,4 @@ setblock 93 67 124 minecraft:oak_trapdoor[facing=north,half=top,open=true,powere
 setblock 75 45 34 minecraft:lever[face=wall,facing=north,powered=false]
 setblock 75 44 35 air
 setblock 75 44 35 minecraft:redstone_wire[east=side,north=none,power=0,south=none,west=side]
-schedule function 4jbattle:game/mapreset/lair/lava 5s
+schedule function 4jbattle:game/mapreset/old/lair/lava 5s

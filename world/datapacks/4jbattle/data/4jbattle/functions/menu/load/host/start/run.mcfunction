@@ -14,5 +14,8 @@ scoreboard players reset @a 4j.killcount
 #Global
 scoreboard players reset @a 4j.globalkills
 
+##Enable first-time full reset
+scoreboard players set #Store 4j.fullreset 1
+
 ##Start
 function 4jbattle:lobby/start/load

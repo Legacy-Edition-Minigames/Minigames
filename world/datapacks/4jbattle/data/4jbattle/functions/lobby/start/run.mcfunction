@@ -65,7 +65,7 @@ function 4jbattle:game/playerreset
 function 4jbattle:mapdecider/vote/load
 
 ##Reset world back
-function 4jbattle:lobby/reset
+function 4jbattle:lobby/reset/run
 
 ##Set tablist display
 function 4jbattle:game/gui/playerlist/scores/check/lobby

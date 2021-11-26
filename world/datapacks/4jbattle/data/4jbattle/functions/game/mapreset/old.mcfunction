@@ -1,0 +1,73 @@
+##Load reset file for the correct map
+#Large Crucible
+execute if score #Store 4j.map matches 1 in 4jbattle:crucible run function 4jbattle:game/mapreset/old/crucible
+#Small Crucible
+execute if score #Store 4j.map matches 4 in 4jbattle:crucible_small run function 4jbattle:game/mapreset/old/crucible_small
+#Remastered Crucible
+execute if score #Store 4j.map matches 9 in 4jbattle:crucible_remastered run function 4jbattle:game/mapreset/old/crucible_remastered
+#Large Cove
+execute if score #Store 4j.map matches 2 in 4jbattle:cove run function 4jbattle:game/mapreset/old/cove
+#Small Cove
+execute if score #Store 4j.map matches 5 in 4jbattle:cove_small run function 4jbattle:game/mapreset/old/cove_small
+#Remastered Cove
+execute if score #Store 4j.map matches 10 in 4jbattle:cove_remastered run function 4jbattle:game/mapreset/old/cove_remastered
+#Large Cavern
+execute if score #Store 4j.map matches 3 in 4jbattle:cavern run function 4jbattle:game/mapreset/old/cavern
+#Small Cavern
+execute if score #Store 4j.map matches 6 in 4jbattle:cavern_small run function 4jbattle:game/mapreset/old/cavern_small
+#Remastered Cavern
+execute if score #Store 4j.map matches 11 in 4jbattle:cavern_remastered run function 4jbattle:game/mapreset/old/cavern_remastered
+#Large Frontier
+execute if score #Store 4j.map matches 7 in 4jbattle:frontier run function 4jbattle:game/mapreset/old/frontier
+#Small Frontier
+execute if score #Store 4j.map matches 8 in 4jbattle:frontier_small run function 4jbattle:game/mapreset/old/frontier_small
+#Large Shrunk
+execute if score #Store 4j.map matches 12 in 4jbattle:shrunk run function 4jbattle:game/mapreset/old/shrunk
+#Large Shrunk
+execute if score #Store 4j.map matches 13 in 4jbattle:shrunk_small run function 4jbattle:game/mapreset/old/shrunk_small
+#Large Dig
+execute if score #Store 4j.map matches 14 in 4jbattle:dig run function 4jbattle:game/mapreset/old/dig
+#Small Dig
+execute if score #Store 4j.map matches 15 in 4jbattle:dig_small run function 4jbattle:game/mapreset/old/dig_small
+#Large Lair
+execute if score #Store 4j.map matches 16 in 4jbattle:lair run function 4jbattle:game/mapreset/old/lair/run
+#Small Lair
+execute if score #Store 4j.map matches 17 in 4jbattle:lair_small run function 4jbattle:game/mapreset/old/lair_small
+#Large Medusa
+execute if score #Store 4j.map matches 18 in 4jbattle:medusa run function 4jbattle:game/mapreset/old/medusa
+#Small Medusa
+execute if score #Store 4j.map matches 19 in 4jbattle:medusa_small run function 4jbattle:game/mapreset/old/medusa_small
+#Large Temple
+execute if score #Store 4j.map matches 20 in 4jbattle:temple run function 4jbattle:game/mapreset/old/temple
+#Small Temple
+execute if score #Store 4j.map matches 21 in 4jbattle:temple_small run function 4jbattle:game/mapreset/old/temple_small
+#Large Atlantis
+execute if score #Store 4j.map matches 22 in 4jbattle:atlantis run function 4jbattle:game/mapreset/old/atlantis
+#Small Atlantis
+execute if score #Store 4j.map matches 23 in 4jbattle:atlantis_small run function 4jbattle:game/mapreset/old/atlantis_small
+#Large Ruin
+execute if score #Store 4j.map matches 24 in 4jbattle:ruin run function 4jbattle:game/mapreset/old/ruin
+#Small Ruin
+execute if score #Store 4j.map matches 25 in 4jbattle:ruin_small run function 4jbattle:game/mapreset/old/ruin_small
+#Large Siege
+execute if score #Store 4j.map matches 26 in 4jbattle:siege run function 4jbattle:game/mapreset/old/siege
+#Small Siege
+execute if score #Store 4j.map matches 27 in 4jbattle:siege_small run function 4jbattle:game/mapreset/old/siege_small
+#Large Castle
+execute if score #Store 4j.map matches 28 in 4jbattle:castle run function 4jbattle:game/mapreset/old/castle
+#Small Castle
+execute if score #Store 4j.map matches 29 in 4jbattle:castle_small run function 4jbattle:game/mapreset/old/castle_small
+#Large Invasion
+execute if score #Store 4j.map matches 30 in 4jbattle:invasion run function 4jbattle:game/mapreset/old/invasion
+#Small Invasion
+execute if score #Store 4j.map matches 31 in 4jbattle:invasion_small run function 4jbattle:game/mapreset/old/invasion_small
+#Large Shipyard
+execute if score #Store 4j.map matches 32 in 4jbattle:shipyard run function 4jbattle:game/mapreset/old/shipyard
+#Small Shipyard
+execute if score #Store 4j.map matches 33 in 4jbattle:shipyard_small run function 4jbattle:game/mapreset/old/shipyard_small
+#Remastered Shrunk
+execute if score #Store 4j.map matches 34 in 4jbattle:shrunk_remastered run function 4jbattle:game/mapreset/old/shrunk_remastered
+#Small Halloween
+execute if score #Store 4j.map matches 35 in 4jbattle:halloween_small run function 4jbattle:game/mapreset/old/halloween_small
+#Large Halloween
+execute if score #Store 4j.map matches 36 in 4jbattle:halloween run function 4jbattle:game/mapreset/old/halloween

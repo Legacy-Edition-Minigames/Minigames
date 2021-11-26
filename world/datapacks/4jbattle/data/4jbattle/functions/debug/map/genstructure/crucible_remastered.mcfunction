@@ -1,0 +1,2 @@
+execute in 4jbattle:crucible_remastered run setblock 273 106 258 air
+execute in 4jbattle:crucible_remastered run setblock 273 106 258 minecraft:structure_block[mode=save]{author:"DBTDerpbox",ignoreEntities:0b,integrity:1.0f,metadata:"",mirror:"NONE",mode:"SAVE",name:"4jbattle:crucible_remastered",posX:1,posY:-106,posZ:1,powered:0b,rotation:"NONE",seed:0L,showair:0b,showboundingbox:1b,sizeX:146,sizeY:106,sizeZ:147}

@@ -1,76 +1,11 @@
-##Doors
-fill 0 68 249 0 69 249 air
-setblock 0 68 249 minecraft:oak_door[facing=south,half=lower,hinge=left,open=true,powered=false]
-setblock 0 69 249 minecraft:oak_door[facing=south,half=upper,hinge=left,open=true,powered=false]
-fill -5 68 253 -5 69 253 air
-setblock -5 68 253 minecraft:oak_door[facing=west,half=lower,hinge=left,open=true,powered=false]
-setblock -5 69 253 minecraft:oak_door[facing=west,half=upper,hinge=left,open=true,powered=false]
+###Map reset file
+###Put all commands needed to reset the map to its normal state here
+###Use F3+I to easily copy structure block data
+##Global functions
+function 4jbattle:game/mapreset/global
 
-##Trapdoors
-setblock 3 69 248 minecraft:oak_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 2 69 247 minecraft:oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 1 69 248 minecraft:oak_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
-setblock -1 69 248 minecraft:oak_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
-setblock -2 69 247 minecraft:oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-setblock -3 69 248 minecraft:oak_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 0 74 255 minecraft:oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 19 82 267 minecraft:oak_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]
-setblock 20 82 266 minecraft:oak_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
-setblock 19 82 265 minecraft:oak_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
-setblock 18 82 266 minecraft:oak_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 34 77 263 minecraft:oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 35 77 262 minecraft:oak_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 33 77 262 minecraft:oak_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 34 77 261 minecraft:oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 54 86 265 minecraft:oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 53 86 264 minecraft:oak_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 54 86 263 minecraft:oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 55 86 264 minecraft:oak_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 70 92 264 minecraft:oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 69 92 265 minecraft:oak_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 70 92 266 minecraft:oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 71 92 265 minecraft:oak_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 76 92 265 minecraft:oak_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 77 92 264 minecraft:oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 78 92 265 minecraft:oak_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 77 92 266 minecraft:oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 99 86 248 minecraft:oak_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 100 86 249 minecraft:oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 100 86 247 minecraft:oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 101 86 248 minecraft:oak_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 74 80 237 minecraft:oak_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]
-setblock 75 80 236 minecraft:oak_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
-setblock 74 80 235 minecraft:oak_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
-setblock 73 80 236 minecraft:oak_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
-setblock 68 80 237 minecraft:oak_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]
-setblock 69 80 236 minecraft:oak_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 67 80 236 minecraft:oak_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
-setblock 68 80 235 minecraft:oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 74 96 269 minecraft:oak_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
-setblock 73 96 269 minecraft:oak_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
-setblock 73 96 268 minecraft:oak_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
-setblock 74 96 268 minecraft:oak_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
-setblock 35 77 233 minecraft:oak_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 36 77 234 minecraft:oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 37 77 233 minecraft:oak_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 24 65 220 minecraft:oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 25 65 219 minecraft:oak_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 24 65 218 minecraft:oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 23 65 219 minecraft:oak_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 56 70 237 minecraft:oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 55 70 238 minecraft:oak_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 56 70 239 minecraft:oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 57 70 238 minecraft:oak_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
-setblock 63 75 261 minecraft:oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 64 75 260 minecraft:oak_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 63 75 259 minecraft:oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-setblock 62 75 260 minecraft:oak_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+##Set Structure block
+setblock -10 101 215 minecraft:structure_block[mode=load]{author:"DBTDerpbox",ignoreEntities:0b,integrity:1.0f,metadata:"",mirror:"NONE",mode:"LOAD",name:"4jbattle:cove",posX:0,posY:-47,posZ:0,powered:0b,rotation:"NONE",seed:0L,showair:0b,showboundingbox:1b,sizeX:118,sizeY:48,sizeZ:80}
 
-##Containers
-data merge block 9 72 256 {Lock:lock,Items:[{Count:1b,Slot:0b,id:"minecraft:arrow"},{Count:1b,Slot:1b,id:"minecraft:arrow"},{Count:1b,Slot:2b,id:"minecraft:arrow"}]}
-data merge block 12 72 252 {Lock:lock,Items:[{Count:3b,Slot:0b,id:"minecraft:arrow"}]}
-data merge block 12 68 244 {Lock:lock,Items:[{Count:1b,Slot:0b,id:"minecraft:arrow"},{Count:1b,Slot:1b,id:"minecraft:arrow"},{Count:1b,Slot:2b,id:"minecraft:arrow"}]}
-data merge block 12 68 241 {Lock:lock,Items:[{Count:1b,Slot:0b,id:"minecraft:arrow"},{Count:1b,Slot:1b,id:"minecraft:arrow"},{Count:1b,Slot:2b,id:"minecraft:arrow"}]}
-data merge block 22 79 238 {Lock:lock,Items:[{Count:3b,Slot:0b,id:"minecraft:arrow"}]}
-data merge block 34 79 238 {Lock:lock,Items:[{Count:3b,Slot:0b,id:"minecraft:arrow"}]}
-data merge block 84 85 258 {Lock:lock,Items:[{Count:3b,Slot:0b,id:"minecraft:arrow"}]}
+##Activate structure block
+setblock -9 101 215 minecraft:redstone_block

@@ -1,27 +1,14 @@
 ###Map reset file
 ###Put all commands needed to reset the map to its normal state here
-###Use F3+I to even get close to keeping your sanity
-##Trapdoors
-setblock -95 39 102 minecraft:oak_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
-setblock -53 23 146 minecraft:oak_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
+###Use F3+I to easily copy structure block data
+##Global functions
+function 4jbattle:game/mapreset/global
 
-##Containers
-fill -47 9 127 -47 8 125 air
-fill -47 9 127 -47 8 125 minecraft:dispenser[facing=east,triggered=false]{Items:[{Count:64b,Slot:0b,id:"minecraft:tnt"},{Count:64b,Slot:1b,id:"minecraft:tnt"},{Count:64b,Slot:2b,id:"minecraft:tnt"},{Count:64b,Slot:3b,id:"minecraft:tnt"},{Count:64b,Slot:4b,id:"minecraft:tnt"},{Count:64b,Slot:5b,id:"minecraft:tnt"},{Count:64b,Slot:6b,id:"minecraft:tnt"},{Count:64b,Slot:7b,id:"minecraft:tnt"},{Count:64b,Slot:8b,id:"minecraft:tnt"}]}
-fill -47 10 127 -47 10 125 redstone_wire
-setblock -47 9 126 minecraft:bedrock
-fill -46 9 128 -44 8 128 air
-fill -46 9 128 -44 8 128 minecraft:dispenser[facing=north,triggered=false]{Items:[{Count:64b,Slot:0b,id:"minecraft:tnt"},{Count:64b,Slot:1b,id:"minecraft:tnt"},{Count:64b,Slot:2b,id:"minecraft:tnt"},{Count:64b,Slot:3b,id:"minecraft:tnt"},{Count:64b,Slot:4b,id:"minecraft:tnt"},{Count:64b,Slot:5b,id:"minecraft:tnt"},{Count:64b,Slot:6b,id:"minecraft:tnt"},{Count:64b,Slot:7b,id:"minecraft:tnt"},{Count:64b,Slot:8b,id:"minecraft:tnt"}]}
-fill -44 10 128 -46 10 128 redstone_wire
-setblock -45 9 128 minecraft:bedrock
-fill -43 9 127 -43 8 125 air
-fill -43 9 127 -43 8 125 minecraft:dispenser[facing=west,triggered=false]{Items:[{Count:64b,Slot:0b,id:"minecraft:tnt"},{Count:64b,Slot:1b,id:"minecraft:tnt"},{Count:64b,Slot:2b,id:"minecraft:tnt"},{Count:64b,Slot:3b,id:"minecraft:tnt"},{Count:64b,Slot:4b,id:"minecraft:tnt"},{Count:64b,Slot:5b,id:"minecraft:tnt"},{Count:64b,Slot:6b,id:"minecraft:tnt"},{Count:64b,Slot:7b,id:"minecraft:tnt"},{Count:64b,Slot:8b,id:"minecraft:tnt"}]}
-fill -43 10 127 -43 10 125 redstone_wire
-setblock -43 9 126 minecraft:bedrock
-fill -44 9 124 -46 8 124 air
-fill -44 9 124 -46 8 124 minecraft:dispenser[facing=south,triggered=false]{Items:[{Count:64b,Slot:0b,id:"minecraft:tnt"},{Count:64b,Slot:1b,id:"minecraft:tnt"},{Count:64b,Slot:2b,id:"minecraft:tnt"},{Count:64b,Slot:3b,id:"minecraft:tnt"},{Count:64b,Slot:4b,id:"minecraft:tnt"},{Count:64b,Slot:5b,id:"minecraft:tnt"},{Count:64b,Slot:6b,id:"minecraft:tnt"},{Count:64b,Slot:7b,id:"minecraft:tnt"},{Count:64b,Slot:8b,id:"minecraft:tnt"}]}
-fill -44 10 124 -46 10 124 redstone_wire
-setblock -45 9 124 minecraft:bedrock
+##Set Structure block
+setblock -118 87 93 minecraft:structure_block[mode=load]{author:"DBTDerpbox",ignoreEntities:0b,integrity:1.0f,metadata:"",mirror:"NONE",mode:"LOAD",name:"4jbattle:shrunk_small",posX:0,posY:-80,posZ:0,powered:0b,rotation:"NONE",seed:0L,showair:0b,showboundingbox:1b,sizeX:81,sizeY:81,sizeZ:81}
+
+##Activate structure block
+setblock -117 87 93 minecraft:redstone_block
 
 ##Lights
 #Turn on

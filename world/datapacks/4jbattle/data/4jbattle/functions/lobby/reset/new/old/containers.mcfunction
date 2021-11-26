@@ -1,0 +1,22 @@
+##Remove arrows
+kill @e[type=arrow]
+
+##Remove items
+kill @e[type=item]
+
+##Reset the containers
+data merge block -342 63 -390 {Items:[{Count:1b,Slot:0b,id:"minecraft:bow",tag:{Damage:0}},{Count:1b,Slot:1b,id:"minecraft:bow",tag:{Damage:0}},{Count:1b,Slot:2b,id:"minecraft:bow",tag:{Damage:0}},{Count:1b,Slot:3b,id:"minecraft:bow",tag:{Damage:0}},{Count:1b,Slot:4b,id:"minecraft:bow",tag:{Damage:0}},{Count:1b,Slot:5b,id:"minecraft:bow",tag:{Damage:0}},{Count:1b,Slot:6b,id:"minecraft:bow",tag:{Damage:0}},{Count:1b,Slot:7b,id:"minecraft:bow",tag:{Damage:0}},{Count:1b,Slot:8b,id:"minecraft:bow",tag:{Damage:0}},{Count:64b,Slot:9b,id:"minecraft:arrow"},{Count:64b,Slot:10b,id:"minecraft:arrow"},{Count:64b,Slot:11b,id:"minecraft:arrow"},{Count:64b,Slot:12b,id:"minecraft:arrow"},{Count:64b,Slot:13b,id:"minecraft:arrow"},{Count:64b,Slot:14b,id:"minecraft:arrow"},{Count:64b,Slot:15b,id:"minecraft:arrow"},{Count:64b,Slot:16b,id:"minecraft:arrow"},{Count:64b,Slot:17b,id:"minecraft:arrow"}]}
+data merge block -342 63 -389 {Items:[]}
+data merge block -342 74 -380 {Items:[{Count:6b,Slot:4b,id:"minecraft:skeleton_skull"}]}
+data merge block -349 70 -404 {Items:[{Count:6b,Slot:4b,id:"minecraft:creeper_head"}],Lock:"lock"}
+data merge block -368 87 -369 {Items:[{Count:6b,Slot:4b,id:"minecraft:player_head"}]}
+data merge block -374 77 -380 {Items:[{Count:6b,Slot:4b,id:"minecraft:wither_skeleton_skull"}]}
+data merge block -347 76 -360 {Items:[{Count:64b,Slot:0b,id:"minecraft:firework_rocket",tag:{Fireworks:{Explosions:[{Colors:[I;12801229],FadeColors:[I;2437522],Flicker:1b,Type:4b}],Flight:3b}}},{Count:64b,Slot:1b,id:"minecraft:firework_rocket",tag:{Fireworks:{Explosions:[{Colors:[I;12801229],FadeColors:[I;2437522],Flicker:1b,Type:4b}],Flight:3b}}},{Count:64b,Slot:2b,id:"minecraft:firework_rocket",tag:{Fireworks:{Explosions:[{Colors:[I;6719955],Flicker:1b,Type:0b}],Flight:1b}}},{Count:64b,Slot:3b,id:"minecraft:firework_rocket",tag:{Fireworks:{Explosions:[{Colors:[I;11743532],FadeColors:[I;15435844],Type:4b}],Flight:2b}}}]}
+data merge block -345 75 -358 {Items:[{Count:64b,Slot:0b,id:"minecraft:firework_rocket",tag:{Fireworks:{Explosions:[{Colors:[I;12801229],FadeColors:[I;2437522],Flicker:1b,Type:4b}],Flight:3b}}},{Count:64b,Slot:1b,id:"minecraft:firework_rocket",tag:{Fireworks:{Explosions:[{Colors:[I;12801229],FadeColors:[I;2437522],Flicker:1b,Type:4b}],Flight:3b}}},{Count:64b,Slot:2b,id:"minecraft:firework_rocket",tag:{Fireworks:{Explosions:[{Colors:[I;6719955],Flicker:1b,Type:0b}],Flight:1b}}},{Count:64b,Slot:3b,id:"minecraft:firework_rocket",tag:{Fireworks:{Explosions:[{Colors:[I;11743532],FadeColors:[I;15435844],Type:4b}],Flight:2b}}}]}
+data merge block -347 76 -356 {Items:[{Count:64b,Slot:0b,id:"minecraft:firework_rocket",tag:{Fireworks:{Explosions:[{Colors:[I;14602026],FadeColors:[I;15435844],Trail:1b,Type:2b}],Flight:2b}}},{Count:64b,Slot:1b,id:"minecraft:firework_rocket",tag:{Fireworks:{Explosions:[{Colors:[I;12801229],FadeColors:[I;2437522],Flicker:1b,Type:4b}],Flight:3b}}},{Count:64b,Slot:2b,id:"minecraft:firework_rocket",tag:{Fireworks:{Explosions:[{Colors:[I;11743532],FadeColors:[I;15435844],Type:4b}],Flight:2b}}},{Count:64b,Slot:3b,id:"minecraft:firework_rocket",tag:{Fireworks:{Explosions:[{Colors:[I;3887386],Type:3b}],Flight:2b}}}]}
+data merge block -350 73 -409 {Items:[{Count:64b,Slot:4b,id:"minecraft:firework_rocket",tag:{Fireworks:{Explosions:[{Colors:[I;3887386],Type:3b}],Flight:2b}}}]}
+data merge block -354 73 -409 {Items:[{Count:64b,Slot:4b,id:"minecraft:firework_rocket",tag:{Fireworks:{Explosions:[{Colors:[I;12801229],FadeColors:[I;2437522],Flicker:1b,Type:4b}],Flight:3b}}}]}
+data merge block -355 73 -409 {Items:[{Count:64b,Slot:4b,id:"minecraft:firework_rocket",tag:{Fireworks:{Explosions:[{Colors:[I;11743532],FadeColors:[I;15435844],Type:4b}],Flight:2b}}}]}
+data merge block -359 73 -409 {Items:[{Count:64b,Slot:4b,id:"minecraft:firework_rocket",tag:{Fireworks:{Explosions:[{Colors:[I;14602026],FadeColors:[I;15435844],Trail:1b,Type:2b}],Flight:2b}}}]}
+data merge block -380 63 -386 {Items:[{Count:1b,Slot:12b,id:"minecraft:zombie_head"},{Count:1b,Slot:13b,id:"minecraft:zombie_head"},{Count:1b,Slot:14b,id:"minecraft:zombie_head"},{Count:1b,Slot:21b,id:"minecraft:zombie_head"},{Count:1b,Slot:22b,id:"minecraft:zombie_head"},{Count:1b,Slot:23b,id:"minecraft:zombie_head"}]}
+data merge block -380 63 -387 {Items:[{Count:1b,Slot:3b,id:"minecraft:zombie_head"},{Count:1b,Slot:4b,id:"minecraft:zombie_head"},{Count:1b,Slot:5b,id:"minecraft:zombie_head"}]}
