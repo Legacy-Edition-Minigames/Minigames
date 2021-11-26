@@ -30,9 +30,9 @@ If you do make your own LEB server, please at least credit me.
 
 * [SwitchableResourcePacks](https://github.com/kyrptonaught/SwitchableResourcepacks) ([GitHub](https://github.com/kyrptonaught/SwitchableResourcepacks/releases) [Modrinth](https://modrinth.com/mod/switchableresourcepacks) [CurseForge](https://www.curseforge.com/minecraft/mc-mods/switchableresourcepacks))
 
-* [scoreboardsuffix](https://github.com/kyrptonaught/scoreboardsuffix) [GitHub Releases](https://github.com/kyrptonaught/scoreboardsuffix/releases)
+* [scoreboardsuffix](https://github.com/kyrptonaught/scoreboardsuffix) ([GitHub Releases](https://github.com/kyrptonaught/scoreboardsuffix/releases))
 
-* [Extended Structures](https://github.com/kyrptonaught/Extended-Structures) [GitHub Releases](https://github.com/kyrptonaught/Extended-Structures)
+* [Extended Structures](https://github.com/kyrptonaught/Extended-Structures) ([GitHub Releases](https://github.com/kyrptonaught/Extended-Structures))
 
 ### Executing
 
