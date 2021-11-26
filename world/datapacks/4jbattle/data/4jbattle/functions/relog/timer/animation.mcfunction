@@ -1,3 +1,6 @@
+##Update display
+function 4jbattle:relog/timer/forceupdate
+
 ##Increase loading animation timer
 execute if score #Store 4j.relogtimerani matches 1.. run scoreboard players add #Store 4j.relogtimerani 1
 
