@@ -241,6 +241,9 @@ scoreboard objectives add 4j.legacyreset dummy
 ##Lobby Full Reset number
 scoreboard objectives add 4j.fullreset dummy
 
+##Potion visual fix
+scoreboard objectives add 4j.visfix dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
