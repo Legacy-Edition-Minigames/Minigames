@@ -12,6 +12,9 @@ gamemode adventure @a[tag=!relogtimer]
 #Enable message
 gamerule sendCommandFeedback true
 
+##Teleport players to map center
+tp @a @e[limit=1,type=area_effect_cloud,tag=MapCenter]
+
 ##Load Large Crucible
 execute if score #Store 4j.map matches 1 in 4jbattle:crucible run function 4jbattle:game/setup/teleport/check
 
