@@ -43,6 +43,9 @@ scoreboard players reset @a 4j.killcount
 #Global
 scoreboard players reset @a 4j.globalkills
 
+##Update
+function 4jbattle:relog/timer/forceupdate
+
 ##Reset win counter
 scoreboard players reset @a 4j.roundwins
 
