@@ -11,3 +11,6 @@ execute if score #Store 4j.spectype matches 3 run function 4jbattle:game/spectat
 execute if score #Store 4j.spectype matches 4 run function 4jbattle:game/spectator/spawn/bee
 #Player Head
 execute if score #Store 4j.spectype matches 5 run function 4jbattle:game/spectator/spawn/head
+
+##Start void check
+function 4jbattle:game/spectator/voidcheck
