@@ -1,5 +1,8 @@
 ##Clear schedule
+#Timer
 schedule clear 4jbattle:game/showdown/timer/run
+#Check
+schedule clear 4jbattle:game/showdown/check
 
 ##Inform all users that showdown has begun
 #Show banner
