@@ -6,6 +6,7 @@ execute if score #Store 4j.gametimer matches ..60 run function 4jbattle:game/tim
 
 ##Once at 30 seconds, play sound
 execute if score #Store 4j.gametimer matches ..30 run function 4jbattle:game/timer/end/sound
+
 ##Loop
 schedule function 4jbattle:game/timer/end/count 1s
 
