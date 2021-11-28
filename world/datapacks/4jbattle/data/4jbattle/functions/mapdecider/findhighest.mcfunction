@@ -72,6 +72,10 @@ execute if score #Store 4j.maptype matches 3 if score #Shrunk 4j.enablemap match
 execute if score #Store 4j.maptype matches 1 if score #Halloween 4j.enablemap matches 1 if score §a6:Halloween 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 35
 #Large Halloween
 execute if score #Store 4j.maptype matches 2.. if score #Halloween 4j.enablemap matches 1 if score §a6:Halloween 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 36
+#Large Valley
+execute if score #Store 4j.maptype matches 2.. if score #Valley 4j.enablemap matches 1 if score §a5:Valley 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 37
+#Small Valley
+execute if score #Store 4j.maptype matches 1 if score #Valley 4j.enablemap matches 1 if score §a5:Valley 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 38
 
 ##Load map
 function 4jbattle:mapdecider/check

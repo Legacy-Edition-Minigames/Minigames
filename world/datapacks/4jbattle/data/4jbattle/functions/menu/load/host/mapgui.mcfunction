@@ -91,6 +91,12 @@ execute if score #Dig 4j.enablemap matches 1 run tellraw @s ["",{"text":"[","col
 #Disabled
 execute if score #Dig 4j.enablemap matches 0 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1012"}},{"text":"❌","color":"red","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1012"}},{"text":"] Dig","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1012"}}]
 
+##Valley
+#Enabled
+execute if score #Valley 4j.enablemap matches 1 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1033"}},{"text":"✔","color":"green","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1033"}},{"text":"] Valley","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1033"}}]
+#Disabled
+execute if score #Valley 4j.enablemap matches 0 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1034"}},{"text":"❌","color":"red","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1034"}},{"text":"] Valley","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1034"}}]
+
 ##Halloween
 #Enabled
 execute if score #Halloween 4j.enablemap matches 1 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1031"}},{"text":"✔","color":"green","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1031"}},{"text":"] Halloween","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1031"}}]

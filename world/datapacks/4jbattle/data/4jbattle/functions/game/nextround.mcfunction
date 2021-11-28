@@ -123,6 +123,13 @@ execute if score #Store 4j.map matches 35 in 4jbattle:halloween_small run functi
 ##Load Large Halloween
 execute if score #Store 4j.map matches 36 in 4jbattle:halloween run function 4jbattle:game/setup/teleport/check
 
+##Load Large Valley
+execute if score #Store 4j.map matches 37 in 4jbattle:valley run function 4jbattle:game/setup/teleport/check
+
+##Load Small Valley
+execute if score #Store 4j.map matches 38 in 4jbattle:valley_small run function 4jbattle:game/setup/teleport/check
+
+
 ##Join player team
 tag @a[tag=!relogtimer] remove spectator
 tag @a[tag=!relogtimer] add player

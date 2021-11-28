@@ -71,3 +71,7 @@ execute if score #Store 4j.map matches 34 in 4jbattle:shrunk_remastered run tp @
 execute if score #Store 4j.map matches 35 in 4jbattle:halloween_small run tp @s 56 25 141
 #Large Halloween
 execute if score #Store 4j.map matches 36 in 4jbattle:halloween run tp @s 56 25 141
+#Large Valley
+execute if score #Store 4j.map matches 37 in 4jbattle:valley run tp @s 213 72 239
+#Small Valley
+execute if score #Store 4j.map matches 38 in 4jbattle:valley_small run tp @s 213 72 239

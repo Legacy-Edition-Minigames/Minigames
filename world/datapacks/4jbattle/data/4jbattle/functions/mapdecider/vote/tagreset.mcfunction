@@ -46,3 +46,6 @@ tag @s remove voteshipyard
 
 ##Halloween
 tag @s remove votehalloween
+
+##Valley
+tag @s remove votevalley

@@ -96,3 +96,9 @@ execute as @s[scores={4j.gamecfg=1031}] run function 4jbattle:menu/load/host/map
 
 ##Enable Halloween if set to 1032
 execute as @s[scores={4j.gamecfg=1032}] run function 4jbattle:menu/load/host/map/halloween/enable
+
+##Disable Valley if set to 1033
+execute as @s[scores={4j.gamecfg=1033}] run function 4jbattle:menu/load/host/map/valley/disable
+
+##Enable Valley if set to 1034
+execute as @s[scores={4j.gamecfg=1034}] run function 4jbattle:menu/load/host/map/valley/enable

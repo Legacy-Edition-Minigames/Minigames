@@ -132,6 +132,22 @@
 			"message": "This map requires a custom texture pack!"
 		},
 		{
+			"packname": "chinese",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R24/chinese-mythology.zip?raw=true",
+			"hash": "",
+			"required": true,
+			"hasPrompt": true,
+			"message": "This map requires a custom texture pack!"
+		},
+		{
+			"packname": "chinese-optifine",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R24/chinese-mythology.zip?raw=true",
+			"hash": "",
+			"required": true,
+			"hasPrompt": true,
+			"message": "This map requires a custom texture pack!"
+		},
+		{
 			"packname": "halloween",
 			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R24/halloween.zip?raw=true",
 			"hash": "",
