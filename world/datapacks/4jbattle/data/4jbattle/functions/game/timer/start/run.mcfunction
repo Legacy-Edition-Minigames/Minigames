@@ -10,6 +10,9 @@ function 4jbattle:game/potion/runner
 ##Check for Achievements
 function 4jbattle:game/achievement/check
 
+##Start game timer
+function 4jbattle:game/timer/end/start
+
 ##Start showdown timer
 function 4jbattle:game/showdown/check
 

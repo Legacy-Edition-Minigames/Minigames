@@ -10,6 +10,9 @@ function 4jbattle:menu/load/host/hunger/run
 ##Spectator type
 function 4jbattle:menu/load/host/spectator/run
 
+##Time Limit
+function 4jbattle:menu/load/host/timelimit/run
+
 ##Natural Regeneration
 function 4jbattle:menu/load/host/regen/run
 

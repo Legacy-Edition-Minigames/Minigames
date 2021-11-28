@@ -12,7 +12,7 @@ function 4jbattle:menu/load/host/map/run
 #Extras
 function 4jbattle:menu/load/host/extra/run
 #Start Button
-tellraw @s ["","\n",{"text":"[Start]","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 9"}}]
+tellraw @s {"text":"[Start]","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 9"}}
 #Remastered Info
 execute if score #Store 4j.setmaptype matches 4 run tellraw @s ["",{"text":"Remastered maps were created by ","color":"blue"},{"text":"_JoeCool_ on PMC","color":"aqua","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/member/_joecool_/"},"hoverEvent":{"action":"show_text","contents":[{"text":"https://www.planetminecraft.com/member/_joecool_/","color":"aqua"}]}},{"text":", you can find the collection ","color":"blue"},{"text":"here","color":"aqua","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/collection/116874/minecraft-legacy-console-edition-battle-mode-remastered/"},"hoverEvent":{"action":"show_text","contents":[{"text":"https://www.planetminecraft.com/collection/116874/minecraft-legacy-console-edition-battle-mode-remastered/","color":"aqua"}]}},{"text":"!","color":"blue"},"\n",{"text":"Notice: Remastered maps only effect Map Pack 0 and Shrunk!","color":"blue"}]
 

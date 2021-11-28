@@ -2,7 +2,7 @@
 gamemode spectator @s
 
 ##Display Death message
-tellraw @s "You died"
+#tellraw @s "You died"
 
 ##Switch to spectator tag
 tag @s remove player

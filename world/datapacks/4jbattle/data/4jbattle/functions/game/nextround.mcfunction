@@ -1,9 +1,6 @@
 ##Remove 1 round
 scoreboard players remove #Store 4j.round 1
 
-##Announce victor
-tellraw @a ["",{"selector":"@a[tag=player]"},{"text":" has won this round!"}]
-
 ##Set gamemode
 #Hide message (i have no clue why just this instance of the gamemode command causes this please help)
 gamerule sendCommandFeedback false

@@ -1,5 +1,5 @@
 ##Decide Victor
-tag @a[tag=player] add Victor
+execute unless score #Store 4j.novictorcheck matches 1 run tag @a[tag=player] add Victor
 
 ##Add saturation to victor
 effect give @a[tag=Victor] saturation 10 255 true
@@ -44,20 +44,26 @@ function 4jbattle:game/particle/victory
 ##Enable nametags
 function 4jbattle:game/namevisibility/enable
 
-##Check if the game should end or go to the next round
-schedule function 4jbattle:game/end/roundcheck 7s
+##Start timer
+schedule function 4jbattle:game/end/spectate/timer/start 1s
+
+##Display message
+bossbar set globalinfo1 name "Round end!"
+bossbar set globalinfo2 name "Round end!"
+bossbar set globalinfo3 name "Round end!"
+bossbar set globalinfo4 name "Round end!"
+bossbar set globalinfo5 name "Round end!"
+bossbar set globalinfo6 name "Round end!"
+bossbar set globalinfo7 name "Round end!"
+bossbar set globalinfo8 name "Round end!"
+bossbar set globalinfo9 name "Round end!"
+bossbar set globalinfo10 name "Round end!"
+bossbar set globalinfo11 name "Round end!"
+bossbar set globalinfo12 name "Round end!"
+bossbar set globalinfo13 name "Round end!"
+bossbar set globalinfo14 name "Round end!"
+bossbar set globalinfo15 name "Round end!"
+bossbar set globalinfo16 name "Round end!"
 
 ##Clear all schedules
 schedule function 4jbattle:game/end/clear 2t
-
-##Hide GlobalInfo
-schedule function 4jbattle:game/globalinfo/hide 7s
-
-##Reset playerbar
-schedule function 4jbattle:game/gui/playerbar/load 7s
-
-##Stop TNT Check
-schedule function 4jbattle:game/tnt/stop 8s
-
-##Stop Fire Check
-schedule function 4jbattle:game/tnt/stop 8s

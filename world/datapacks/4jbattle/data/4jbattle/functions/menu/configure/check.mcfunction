@@ -129,5 +129,14 @@ execute as @s[scores={4j.gamecfg=39}] run function 4jbattle:menu/load/host/chest
 ##Set Item set to Random if score is set to 8
 execute as @s[scores={4j.gamecfg=40}] run function 4jbattle:menu/load/host/chest/setrandom
 
+##Set time limit to short
+execute as @s[scores={4j.gamecfg=41}] run function 4jbattle:menu/load/host/timelimit/setshort
+
+##Set time limit to normal
+execute as @s[scores={4j.gamecfg=42}] run function 4jbattle:menu/load/host/timelimit/setnormal
+
+##Set time limit to long
+execute as @s[scores={4j.gamecfg=43}] run function 4jbattle:menu/load/host/timelimit/setlong
+
 ##Reset score
 scoreboard players reset @s 4j.gamecfg

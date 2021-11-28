@@ -78,3 +78,6 @@ scoreboard players set #Store 4j.naturalregen 1
 
 ##Set new lobby
 scoreboard players set #Store 4j.lobbytype 1
+
+##Set time limit
+scoreboard players set #Store 4j.timelimit 2

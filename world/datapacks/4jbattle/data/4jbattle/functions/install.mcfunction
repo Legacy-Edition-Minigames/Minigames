@@ -247,6 +247,27 @@ scoreboard objectives add 4j.visfix dummy
 ##Y Position
 scoreboard objectives add 4j.yvalue dummy
 
+##Round time limit
+scoreboard objectives add 4j.timelimit dummy
+
+##Round timer countdown
+scoreboard objectives add 4j.gametimer dummy
+
+##Damage taken
+scoreboard objectives add 4j.damagetaken minecraft.custom:minecraft.damage_taken
+
+##Damage dealt
+scoreboard objectives add 4j.damagedealt minecraft.custom:minecraft.damage_dealt
+
+##Draw score
+scoreboard objectives add 4j.drawscore dummy
+
+##Ignore victor check
+scoreboard objectives add 4j.novictorcheck dummy
+
+##Victor count
+scoreboard objectives add 4j.victorcount dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
