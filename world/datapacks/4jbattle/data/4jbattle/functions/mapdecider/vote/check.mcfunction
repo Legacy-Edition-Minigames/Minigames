@@ -1,6 +1,9 @@
 ##Enable trigger
 scoreboard players enable @a 4j.playermapvote
 
+##Remove vote
+execute as @a[scores={4j.playermapvote=-1}] run function 4jbattle:mapdecider/vote/remove
+
 ##add 1 to Crucible's vote count if voted for
 #If user has voted for this map
 execute if score #Crucible 4j.enablemap matches 1 as @a[scores={4j.playermapvote=1},tag=votecrucible] run function 4jbattle:mapdecider/vote/error
@@ -113,7 +116,7 @@ execute if score #Festive 4j.enablemap matches 1 as @a[scores={4j.playermapvote=
 execute as @a[scores={4j.playermapvote=1..}] at @s run playsound ui.button.click master @s ~ ~ ~ 0.25
 
 ##Reset score
-scoreboard players reset @a[scores={4j.playermapvote=1..}] 4j.playermapvote
+execute as @a unless score @s 4j.playermapvote matches 0 run scoreboard players set @s 4j.playermapvote 0
 
 ##Loop
 schedule function 4jbattle:mapdecider/vote/check 3t
