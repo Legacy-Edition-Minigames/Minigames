@@ -102,3 +102,9 @@ execute as @s[scores={4j.gamecfg=1033}] run function 4jbattle:menu/load/host/map
 
 ##Enable Valley if set to 1034
 execute as @s[scores={4j.gamecfg=1034}] run function 4jbattle:menu/load/host/map/valley/enable
+
+##Disable Festive if set to 1035
+execute as @s[scores={4j.gamecfg=1035}] run function 4jbattle:menu/load/host/map/festive/disable
+
+##Enable Festive if set to 1036
+execute as @s[scores={4j.gamecfg=1036}] run function 4jbattle:menu/load/host/map/festive/enable

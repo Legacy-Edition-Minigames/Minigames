@@ -103,6 +103,11 @@ execute if score #Halloween 4j.enablemap matches 1 run tellraw @s ["",{"text":"[
 #Disabled
 execute if score #Halloween 4j.enablemap matches 0 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1032"}},{"text":"❌","color":"red","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1032"}},{"text":"] Halloween","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1032"}}]
 
+##Festive
+#Enabled
+execute if score #Festive 4j.enablemap matches 1 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1035"}},{"text":"✔","color":"green","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1035"}},{"text":"] Festive","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1035"}}]
+#Disabled
+execute if score #Festive 4j.enablemap matches 0 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1036"}},{"text":"❌","color":"red","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1036"}},{"text":"] Festive","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1036"}}]
 
 ##Go back button
 tellraw @s {"text":"[Go Back]","color":"gray","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click to go back to the normal configuration page","color":"dark_aqua"}]}}

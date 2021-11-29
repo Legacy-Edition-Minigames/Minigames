@@ -49,3 +49,6 @@ tag @s remove votehalloween
 
 ##Valley
 tag @s remove votevalley
+
+##Festive
+tag @s remove votefestive

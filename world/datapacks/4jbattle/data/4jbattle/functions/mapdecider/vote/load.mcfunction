@@ -44,6 +44,8 @@ execute if score #Shipyard 4j.enablemap matches 1 run scoreboard players set §a
 execute if score #Halloween 4j.enablemap matches 1 run scoreboard players set §a6:Halloween 4j.mapvote 0
 #Valley
 execute if score #Valley 4j.enablemap matches 1 run scoreboard players set §a5:Valley 4j.mapvote 0
+#Festive
+execute if score #Festive 4j.enablemap matches 1 run scoreboard players set §a7:Festive 4j.mapvote 0
 
 ##Start runner
 function 4jbattle:mapdecider/vote/check

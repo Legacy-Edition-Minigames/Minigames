@@ -54,12 +54,14 @@ scoreboard players set #Shipyard 4j.enablemap 1
 scoreboard players set #Halloween 4j.enablemap 1
 #Valley
 scoreboard players set #Valley 4j.enablemap 1
+#Festive
+scoreboard players set #Festive 4j.enablemap 1
 
 ##Default Map Type
 scoreboard players set #Store 4j.setmaptype 1
 
 ##Set mapcount
-scoreboard players set #Store 4j.mapcount 17
+scoreboard players set #Store 4j.mapcount 18
 
 ##Visual time
 #Score

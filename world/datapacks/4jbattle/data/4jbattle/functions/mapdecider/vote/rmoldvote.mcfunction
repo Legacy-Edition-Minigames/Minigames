@@ -48,3 +48,6 @@ execute if entity @s[tag=votehalloween] run scoreboard players remove §a6:Hallo
 
 ##Remove Valley map vote
 execute if entity @s[tag=votevalley] run scoreboard players remove §a5:Valley 4j.mapvote 1
+
+##Remove Festive map vote
+execute if entity @s[tag=votefestive] run scoreboard players remove §a7:Festive 4j.mapvote 1

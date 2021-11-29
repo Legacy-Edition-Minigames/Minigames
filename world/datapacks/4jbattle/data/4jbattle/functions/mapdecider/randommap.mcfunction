@@ -78,9 +78,13 @@ execute if score #Store 4j.maptype matches 1 if score #Halloween 4j.enablemap ma
 #Large Halloween
 execute if score #Store 4j.maptype matches 2.. if score #Halloween 4j.enablemap matches 1 if score #Store 4j.maprandom matches 16 run scoreboard players set #Store 4j.map 36
 #Large Valley
-execute if score #Store 4j.maptype matches 2.. if score #Valley 4j.enablemap matches 1 if score #Store 4j.maprandom matches 6 run scoreboard players set #Store 4j.map 37
+execute if score #Store 4j.maptype matches 2.. if score #Valley 4j.enablemap matches 1 if score #Store 4j.maprandom matches 17 run scoreboard players set #Store 4j.map 37
 #Small Valley
-execute if score #Store 4j.maptype matches 1 if score #Valley 4j.enablemap matches 1 if score #Store 4j.maprandom matches 6 run scoreboard players set #Store 4j.map 38
+execute if score #Store 4j.maptype matches 1 if score #Valley 4j.enablemap matches 1 if score #Store 4j.maprandom matches 17 run scoreboard players set #Store 4j.map 38
+#Large Festive
+execute if score #Store 4j.maptype matches 1 if score #Festive 4j.enablemap matches 1 if score #Store 4j.maprandom matches 18 run scoreboard players set #Store 4j.map 39
+#Small Festive
+execute if score #Store 4j.maptype matches 1 if score #Festive 4j.enablemap matches 1 if score #Store 4j.maprandom matches 18 run scoreboard players set #Store 4j.map 40
 
 ##Roll again if map not found
 execute if score #Store 4j.map matches ..0 run function 4jbattle:mapdecider/randommap

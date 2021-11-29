@@ -17,8 +17,10 @@ execute if score #Store 4j.map matches 30..31 run function 4jbattle:game/resourc
 #Shipyard
 execute if score #Store 4j.map matches 32..33 run function 4jbattle:game/resource/load/steampunk/run
 #Valley
-execute if score #Store 4j.map matches 38..39 run function 4jbattle:game/resource/load/chinese/run
+execute if score #Store 4j.map matches 37..38 run function 4jbattle:game/resource/load/chinese/run
 #Halloween
 execute if score #Store 4j.map matches 35..36 run function 4jbattle:game/resource/load/halloween/run
+#Festive
+execute if score #Store 4j.map matches 39..40 run function 4jbattle:game/resource/load/festive/run
 #Default
 execute if entity @s[tag=relogtimer,tag=!custompack] run function 4jbattle:game/resource/load/vanilla/run

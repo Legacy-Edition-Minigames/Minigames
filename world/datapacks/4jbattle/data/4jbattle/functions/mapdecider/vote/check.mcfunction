@@ -103,6 +103,12 @@ execute if score #Valley 4j.enablemap matches 1 as @a[scores={4j.playermapvote=1
 #If user hasnt voted for this map yet
 execute if score #Valley 4j.enablemap matches 1 as @a[scores={4j.playermapvote=17}] run function 4jbattle:mapdecider/vote/add/valley
 
+##add 1 to Festive's vote count if voted for
+#If user has voted for this map
+execute if score #Festive 4j.enablemap matches 1 as @a[scores={4j.playermapvote=18},tag=votefestive] run function 4jbattle:mapdecider/vote/error
+#If user hasnt voted for this map yet
+execute if score #Festive 4j.enablemap matches 1 as @a[scores={4j.playermapvote=18}] run function 4jbattle:mapdecider/vote/add/festive
+
 ##Play sound
 execute as @a[scores={4j.playermapvote=1..}] at @s run playsound ui.button.click master @s ~ ~ ~ 0.25
 
