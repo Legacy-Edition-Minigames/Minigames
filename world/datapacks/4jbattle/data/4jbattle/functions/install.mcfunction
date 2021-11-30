@@ -274,6 +274,7 @@ scoreboard objectives add 4j.drop_item minecraft.custom:minecraft.drop
 scoreboard objectives add 4j.throw_splash minecraft.used:minecraft.splash_potion
 scoreboard objectives add 4j.throw_linger minecraft.used:minecraft.lingering_potion
 scoreboard objectives add 4j.throw_snow minecraft.used:minecraft.snowball
+scoreboard objectives add 4j.break_fishing minecraft.broken:minecraft.fishing_rod
 
 ##Hotbar Swap toggle
 scoreboard objectives add hotbarswap trigger
