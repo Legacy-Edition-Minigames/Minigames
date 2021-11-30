@@ -268,6 +268,16 @@ scoreboard objectives add 4j.novictorcheck dummy
 ##Victor count
 scoreboard objectives add 4j.victorcount dummy
 
+##Inventory hotbar swaper
+scoreboard objectives add 4j.item_in_hand dummy
+scoreboard objectives add 4j.drop_item minecraft.custom:minecraft.drop
+scoreboard objectives add 4j.throw_splash minecraft.used:minecraft.splash_potion
+scoreboard objectives add 4j.throw_linger minecraft.used:minecraft.lingering_potion
+scoreboard objectives add 4j.throw_snow minecraft.used:minecraft.snowball
+
+##Hotbar Swap toggle
+scoreboard objectives add hotbarswap trigger
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

@@ -20,7 +20,7 @@ function 4jbattle:game/namevisibility/disable
 function 4jbattle:game/hunger/start
 
 ##Enable small inventory if set to
-execute if score #Store 4j.smallinv matches 1 run function 4jbattle:game/inventory/start
+execute if score #Store 4j.smallinv matches 1 run function 4jbattle:game/inventory/small/start
 
 ##Set everyone as ready
 tag @a add ready
@@ -49,3 +49,6 @@ function 4jbattle:game/setup/teleport/check
 
 ##Start combat check
 function 4jbattle:game/combat/block/check
+
+##Inventory hotbar swap
+execute if score #Store 4j.smallinv matches 0 run function 4jbattle:game/inventory/swap/start

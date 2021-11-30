@@ -18,7 +18,7 @@ schedule clear 4jbattle:game/showdown/check
 #Showdown timer
 schedule clear 4jbattle:game/showdown/timer/run
 #Small Inventory
-schedule clear 4jbattle:game/inventory/check
+schedule clear 4jbattle:game/inventory/small/check
 #Spectator check
 function 4jbattle:game/spectator/stop
 #Hunger
@@ -29,6 +29,8 @@ schedule clear 4jbattle:game/autoequip/check
 function 4jbattle:game/combat/block/stop
 #End Timer
 schedule clear 4jbattle:game/timer/end/count
+#Inventory swapper
+schedule clear 4jbattle:game/inventory/swap/check
 
 ##Clear Scores
 #Cupid

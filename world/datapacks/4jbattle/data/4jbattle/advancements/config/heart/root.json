@@ -1,7 +1,8 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:command_block"
+        "item": "minecraft:knowledge_book",
+        "nbt": "{CustomModelData:2}"
       },
       "title": "Heart texture",
       "description": "",
