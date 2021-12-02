@@ -1,8 +1,10 @@
 ##Chests
 #Stndard
-give @s ghast_spawn_egg{display:{Name:'{"text":"Spawn Standard Chest","color":"white","italic":false}'},BuilderMode:1,CustomModelData:1,EntityTag:{id:"minecraft:bat",Silent:1b,NoAI:1b,Tags:["spawncstandardchest"]}} 1
+give @s ghast_spawn_egg{display:{Name:'{"text":"Spawn Standard Chest","color":"white","italic":false}'},BuilderMode:1,CustomModelData:1,EntityTag:{id:"minecraft:bat",Silent:1b,NoAI:1b,Tags:["spawnstandardchest"]}} 1
 #Center
 give @s ghast_spawn_egg{display:{Name:'{"text":"Spawn Center Chest","color":"gold","italic":false}'},BuilderMode:1,CustomModelData:1,EntityTag:{id:"minecraft:bat",Silent:1b,NoAI:1b,Tags:["spawncenterchest"]}} 1
+#Powerful
+give @s ghast_spawn_egg{display:{Name:'{"text":"Spawn Powerful Chest","color":"dark_purple","italic":false}'},CustomModelData:1,BuilderMode:1,EntityTag:{id:"minecraft:bat",Silent:1b,NoAI:1b,Tags:["spawnpowerfulchest"]}} 1
 
 ##Spawnpoints
 #Random

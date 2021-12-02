@@ -2,7 +2,9 @@
 #Center
 execute as @e[type=bat,tag=spawncenterchest] at @s run function 4jbattle:build/spawn/chest/center
 #Standard
-execute as @e[type=bat,tag=spawncstandardchest] at @s run function 4jbattle:build/spawn/chest/standard
+execute as @e[type=bat,tag=spawnstandardchest] at @s run function 4jbattle:build/spawn/chest/standard
+#Powerful
+execute as @e[type=bat,tag=spawnpowerfulchest] at @s run function 4jbattle:build/spawn/chest/powerful
 
 ##Spawnpoints
 #Random
