@@ -1,8 +1,10 @@
 ##Display modes
 #Game
 execute if score #Store 4j.displaymode matches 1 run function 4jbattle:game/gui/display/game/display
+#Loading Map
+execute if score #Store 4j.displaymode matches 2 run function 4jbattle:game/gui/display/loadingmap/display
 #Loading
-execute if score #Store 4j.displaymode matches 2 run function 4jbattle:game/gui/display/loading/display
+execute if score #Store 4j.displaymode matches 3 run function 4jbattle:game/gui/display/loading/display
 
 schedule function 4jbattle:game/gui/display 1t
 

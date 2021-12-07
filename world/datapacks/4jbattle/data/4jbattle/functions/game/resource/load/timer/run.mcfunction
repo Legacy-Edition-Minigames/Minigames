@@ -11,10 +11,14 @@ execute store result score #Store 4j.plist if entity @a[tag=!relogtimer]
 execute store result score #Store 4j.loadedpacks if entity @a[tag=!relogtimer,tag=resourceloaded]
 
 ##Display
-#Message
-#title @a[tag=!relogtimer] title "Loading resources..."
-#Timer
-title @a[tag=!relogtimer] subtitle ["",{"text":"Loading Resources: "},{"score":{"name":"#Store","objective":"4j.loadedpacks"}},"/",{"score":{"name":"#Store","objective":"4j.plist"}}]
+#Copy loaded pack users to temp
+scoreboard players operation .temp 4j.loadedpacks = #Store 4j.loadedpacks
+#Multiply loaded pack users by 64
+scoreboard players operation .temp 4j.loadedpacks *= .64 4j.loadedpacks
+#Divide loaded pack users by total players
+scoreboard players operation .temp 4j.loadedpacks /= #Store 4j.plist
+#Copy output to loading bar
+scoreboard players operation #Store 4j.loadingbar = .temp 4j.loadedpacks
 
 ##Loop
 schedule function 4jbattle:game/resource/load/timer/run 1s

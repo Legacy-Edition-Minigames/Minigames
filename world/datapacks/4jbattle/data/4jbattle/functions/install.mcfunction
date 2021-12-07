@@ -279,6 +279,21 @@ scoreboard objectives add 4j.break_fishing minecraft.broken:minecraft.fishing_ro
 ##Hotbar Swap toggle
 scoreboard objectives add hotbarswap trigger
 
+##Loading bar progress
+scoreboard objectives add 4j.loadingbar dummy
+
+##Loading bar mode
+scoreboard objectives add 4j.barmode dummy
+
+##Max for timer display
+scoreboard objectives add 4j.timermax dummy
+
+##Which tooltip to display
+scoreboard objectives add 4j.tooltip dummy
+
+##Tooltip timer
+scoreboard objectives add 4j.tooltiptimer dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
