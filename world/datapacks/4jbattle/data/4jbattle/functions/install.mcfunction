@@ -294,6 +294,9 @@ scoreboard objectives add 4j.tooltip dummy
 ##Tooltip timer
 scoreboard objectives add 4j.tooltiptimer dummy
 
+##VT Dark mode support toggle
+scoreboard objectives add vtdarkinv trigger
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
