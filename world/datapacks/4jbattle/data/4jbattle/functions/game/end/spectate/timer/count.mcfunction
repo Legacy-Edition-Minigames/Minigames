@@ -19,6 +19,9 @@ bossbar set globalinfo14 name ["","Time to round end: ",{"score":{"name":"#Store
 bossbar set globalinfo15 name ["","Time to round end: ",{"score":{"name":"#Store","objective":"4j.timer"}}," seconds"]
 bossbar set globalinfo16 name ["","Time to round end: ",{"score":{"name":"#Store","objective":"4j.timer"}}," seconds"]
 
+##Apply Resistance
+effect give @a resistance 2 255 true
+
 ##Loop
 schedule function 4jbattle:game/end/spectate/timer/count 1s
 

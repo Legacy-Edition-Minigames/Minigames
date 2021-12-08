@@ -14,10 +14,7 @@ scoreboard players add @a[tag=Victor] 4j.roundwins 1
 function 4jbattle:game/end/spectate/spectate
 
 ##Disable Damage
-#Gamerules
 function 4jbattle:game/damage/disable
-#Resistance
-effect give @a[tag=Victor] resistance 7 255 true
 
 ##Show Victor
 #Show banner
