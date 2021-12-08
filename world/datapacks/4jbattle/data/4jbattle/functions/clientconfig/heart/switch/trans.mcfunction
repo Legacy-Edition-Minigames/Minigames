@@ -4,7 +4,7 @@ advancement revoke @s through 4jbattle:config/heart/root
 ##Give root advancement
 advancement grant @s only 4jbattle:config/heart/root
 
-##Give trans heart
+##Give heart
 advancement grant @s only 4jbattle:config/heart/pride_trans
 
 ##Load heart

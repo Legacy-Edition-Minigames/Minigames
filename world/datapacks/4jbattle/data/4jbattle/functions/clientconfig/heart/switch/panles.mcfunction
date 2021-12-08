@@ -5,10 +5,10 @@ advancement revoke @s through 4jbattle:config/heart/root
 advancement grant @s only 4jbattle:config/heart/root
 
 ##Give heart
-advancement grant @s only 4jbattle:config/heart/pride
+advancement grant @s only 4jbattle:config/heart/panles
 
 ##Load heart
-setSuffixFont alive "4jbattle:tablist/heart/pride" @s
+setSuffixFont alive "4jbattle:tablist/heart/panles" @s
 
 ##Display message
 tellraw @s {"text":"Heart set successfully!","color":"green"}

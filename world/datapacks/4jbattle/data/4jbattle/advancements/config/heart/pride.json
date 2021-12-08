@@ -1,14 +1,4 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:knowledge_book",
-        "nbt": "{CustomModelData:4}"
-      },
-      "title": "Pride Heart",
-      "description": ["","Pride heart","\n","\n",{"text":"Can be changed with /trigger heartcosmetic","color":"gold"}],
-      "frame": "task",
-      "announce_to_chat": false
-    },
     "parent": "4jbattle:config/heart/root",
     "criteria": {
       "requirement": {
