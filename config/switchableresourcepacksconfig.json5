@@ -173,7 +173,7 @@
 		},
 		{
 			"packname": "festive-optifine",
-			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R25/festive.zip?raw=true",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R25/festive-fix.zip?raw=true",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
