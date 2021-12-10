@@ -20,6 +20,9 @@ tag @s remove relogtimer
 scoreboard players reset @s
 function 4jbattle:game/player/setpid
 
+##Display some game settings
+function 4jbattle:game/timer/start/displaysettings
+
 ##Load GlobalInfo
 function 4jbattle:game/gui/globalinfo/load
 
