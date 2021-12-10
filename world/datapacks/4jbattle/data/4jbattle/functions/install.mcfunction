@@ -40,9 +40,6 @@ scoreboard objectives add 4j.gamestatus dummy
 ##Timer
 scoreboard objectives add 4j.timer dummy
 
-##Player requirement
-scoreboard objectives add 4j.prec dummy
-
 ##Sword Blocking
 #Right Click Detection
 scoreboard objectives add 4j.block minecraft.used:minecraft.carrot_on_a_stick
@@ -304,9 +301,6 @@ time set noon
 
 ##Set gamestatus
 scoreboard players set #Store 4j.gamestatus 0
-
-##Set prec
-scoreboard players set #Store 4j.prec 2
 
 ##Set PID (Temporary!)
 #Reset stored PID

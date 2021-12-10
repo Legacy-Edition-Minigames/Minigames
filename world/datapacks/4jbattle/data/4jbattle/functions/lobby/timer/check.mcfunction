@@ -1,5 +1,5 @@
 ##Start timer if enough players are online
-execute if score #Store 4j.plist >= #Store 4j.prec run function 4jbattle:lobby/timer/run/start
+execute if score #Store 4j.plist matches 2.. run function 4jbattle:lobby/timer/run/start
 
 ##Run ready check
 function 4jbattle:lobby/ready/check

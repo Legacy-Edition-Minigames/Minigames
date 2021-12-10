@@ -39,7 +39,7 @@ bossbar set minecraft:globalinfo15 name ["",{"text":"Time to game change: "},{"s
 bossbar set minecraft:globalinfo16 name ["",{"text":"Time to game change: "},{"score":{"name":"#Store","objective":"4j.timer"}},{"text":" seconds"}]
 
 ##Start game if everyone is ready
-execute unless entity @a[tag=notready] if score #Store 4j.plist >= #Store 4j.prec run function 4jbattle:mapdecider/run
+execute unless entity @a[tag=!relogtimer,tag=notready] if score #Store 4j.plist matches 2.. run function 4jbattle:mapdecider/run
 
 ##Start game if timer hits 0
 execute if score #Store 4j.timer matches 0 run function 4jbattle:mapdecider/run
