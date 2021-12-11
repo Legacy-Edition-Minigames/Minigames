@@ -4,7 +4,7 @@
 
 * Switch your server jar to Fabric 1.17.1
 
-* Inside MineHut's File Manager, remove the world folder and server.properties
+* Inside MineHut's File Manager, remove the `world` folder and `server.properties`
 
 ### Installation
 
