@@ -13,6 +13,9 @@ function 4jbattle:game/gui/display
 ##Check for client config toggles
 function 4jbattle:clientconfig/check
 
+##Check for resource reloads
+function 4jbattle:game/resource/reload/check
+
 ##Set GlobalInfo mode
 scoreboard players set #Store 4j.globalinfo 1
 #setScoreboardSuffix [{"text":"\uF801","color":"white","font":"4jbattle:playericon"}, "scoreboard=4j.lives", {"text":" 1","color":"white","font":"4jbattle:tablist/alive"}]
