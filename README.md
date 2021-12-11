@@ -13,9 +13,7 @@ If you want to create your own LEB server, keep reading.
 If you do make your own LEB server, please at least credit me.
 
 ### Screenshots
-![Lobby](/images/lobby.png) ![Old Lobby](/images/old-lobby.png)
-
-![Cove](/images/cove.png) ![Chest](/images/chest.png)
+Screenshots can be viewed [here.](https://github.com/DBTDerpbox/Legacy-Edition-Battle/blob/main/SCREENSHOTS.md)
 
 ### Preperation
 
