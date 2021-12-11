@@ -19,4 +19,4 @@ execute if score #Store 4j.chest matches 6 run tellraw @s "Item set: Remastered"
 tellraw @s ["","Round count: ",{"score":{"name":"#Store","objective":"4j.setround"}}]
 
 ##Remaining Round count
-tellraw @s ["","Remaining rounds: ",{"score":{"name":"#Store","objective":"4j.round"}}]
+execute if score #Store 4j.setround matches 2.. run tellraw @s ["","Remaining rounds: ",{"score":{"name":"#Store","objective":"4j.round"}}]
