@@ -19,7 +19,7 @@ Screenshots can be viewed [here.](https://github.com/DBTDerpbox/Legacy-Edition-B
 
 [Standard selfhost install](https://github.com/DBTDerpbox/Legacy-Edition-Battle/blob/main/INSTALLATION.md)
 
-* If you want someone from outside your local network to connect, you will need to port forward port `25565` and give the them your public ip to connect to
+[MineHut](https://github.com/DBTDerpbox/Legacy-Edition-Battle/blob/main/INSTALLATION-MINEHUT.md)
 
 ### Notices
 
