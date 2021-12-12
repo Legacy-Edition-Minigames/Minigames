@@ -297,6 +297,9 @@ scoreboard objectives add vtdarkinv trigger
 ##Reload resources command
 scoreboard objectives add reloadresources trigger
 
+##Blocking damage sound
+scoreboard objectives add 4j.blocksound minecraft.custom:minecraft.damage_taken
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

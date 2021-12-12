@@ -4,3 +4,6 @@ attribute @s minecraft:generic.armor base set 10
 
 ##Add Tag
 tag @s add blocking
+
+##Reset sound score
+scoreboard players reset @s 4j.blocksound
