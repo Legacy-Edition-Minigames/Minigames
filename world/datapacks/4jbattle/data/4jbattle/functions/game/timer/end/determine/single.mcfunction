@@ -1,8 +1,8 @@
 ##Add damage dealt
-execute as @a run scoreboard players operation @s 4j.drawscore = @s 4j.damagedealt
+execute as @a[tag=player] run scoreboard players operation @s 4j.drawscore = @s 4j.damagedealt
 
 ##Remove damage taken
-execute as @a run scoreboard players operation @s 4j.drawscore -= @s 4j.damagetaken
+execute as @a[tag=player] run scoreboard players operation @s 4j.drawscore -= @s 4j.damagetaken
 
 ##Disable victor check
 scoreboard players set #Store 4j.novictorcheck 1
@@ -12,7 +12,7 @@ scoreboard players set #highestScore 4j.drawscore 0
 scoreboard players operation #highestScore 4j.drawscore > * 4j.drawscore
 
 ##Find highest scoring player
-execute as @a if score @s 4j.drawscore = #highestScore 4j.drawscore run tag @s add Victor
+execute as @a[tag=player] if score @s 4j.drawscore = #highestScore 4j.drawscore run tag @s add Victor
 
 ##If more than 2 players won, draw
 #Get Victor count
