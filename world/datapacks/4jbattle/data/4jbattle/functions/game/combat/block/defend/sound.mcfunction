@@ -1,5 +1,5 @@
 ##Play sound
-playsound minecraft:item.shield.block player @a
+execute if entity @s[tag=blocking] run playsound minecraft:item.shield.block player @a
 
-##Reset score
-scoreboard players reset @s 4j.blocksound
+##Revoke advancement
+advancement revoke @s only 4jbattle:game/combat/sound
