@@ -55,6 +55,9 @@ execute if score #Store 4j.map matches 38 run title @s title ["",{"text":"\uF829
 execute if score #Store 4j.map matches 37 run title @s title ["",{"text":"\uF829\uF8241","font":"4jbattle:loading/battle/icon"},{"text":"\uF80A\uF805\uF916","font":"4jbattle:loading/mapname"}]
 execute if score #Store 4j.map matches 38 run title @s title ["",{"text":"\uF829\uF8241","font":"4jbattle:loading/battle/icon"},{"text":"\uF80A\uF805\uF916","font":"4jbattle:loading/mapname"}]
 #Halloween
+execute if score #Store 4j.map matches 35 run title @s title ["",{"text":"\uF829\uF8241","font":"4jbattle:loading/battle/icon"},{"text":"\uF80A\uF805\uF917","font":"4jbattle:loading/mapname"}]
+execute if score #Store 4j.map matches 36 run title @s title ["",{"text":"\uF829\uF8241","font":"4jbattle:loading/battle/icon"},{"text":"\uF80A\uF805\uF917","font":"4jbattle:loading/mapname"}]
+#Festive
 execute if score #Store 4j.map matches 39 run title @s title ["",{"text":"\uF829\uF8241","font":"4jbattle:loading/battle/icon"},{"text":"\uF80A\uF805\uF918","font":"4jbattle:loading/mapname"}]
 execute if score #Store 4j.map matches 40 run title @s title ["",{"text":"\uF829\uF8241","font":"4jbattle:loading/battle/icon"},{"text":"\uF80A\uF805\uF918","font":"4jbattle:loading/mapname"}]
 #Fallback
