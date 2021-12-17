@@ -8,6 +8,8 @@ gamerule fallDamage true
 gamerule fireDamage true
 #Enable Drowning damage
 gamerule drowningDamage true
+#Enable Freezing damage
+gamerule freezeDamage true
 
 ##Enable FriendlyFire
 execute as @a run attribute @s minecraft:generic.attack_damage base set 1
