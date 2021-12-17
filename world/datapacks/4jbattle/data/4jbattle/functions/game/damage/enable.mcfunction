@@ -1,10 +1,13 @@
-#Resistence
+##Clear Resistance
 effect clear @a resistance
-#FriendlyFire
-execute as @a run attribute @s minecraft:generic.attack_damage base set 1
-#Disable Fall damage
+
+##Gamerules
+#Enable Fall damage
 gamerule fallDamage true
-#Disable Fire damage
+#Enable Fire damage
 gamerule fireDamage true
-#Disable Drowning damage
+#Enable Drowning damage
 gamerule drowningDamage true
+
+##Enable FriendlyFire
+execute as @a run attribute @s minecraft:generic.attack_damage base set 1
