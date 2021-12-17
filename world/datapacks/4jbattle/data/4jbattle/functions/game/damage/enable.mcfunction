@@ -13,3 +13,6 @@ gamerule freezeDamage true
 
 ##Enable FriendlyFire
 execute as @a run attribute @s minecraft:generic.attack_damage base set 1
+
+##Enable knockback
+execute as @a run attribute @s minecraft:generic.knockback_resistance base set 0
