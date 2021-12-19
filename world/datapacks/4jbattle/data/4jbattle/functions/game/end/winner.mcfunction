@@ -6,6 +6,8 @@ scoreboard players operation #highestScore 4j.score > * 4j.score
 execute as @a if score @s 4j.score = #highestScore 4j.score run tag @s add Winner
 
 ##Detect if tie
+#Reset stored score
+scoreboard players set #Store 4j.score 0
 #Find players (use score cause im lazy)
 execute store result score #Store 4j.score if entity @a[tag=Winner]
 #Remove tag if 2 or above
