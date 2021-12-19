@@ -24,6 +24,7 @@ tag @s remove headstore
 tag @s remove resourceloaded
 tag @s remove custompack
 tag @s remove allmusic1
+tag @s remove keeprltimer
 
 ##Add notready tag
 tag @s add notready

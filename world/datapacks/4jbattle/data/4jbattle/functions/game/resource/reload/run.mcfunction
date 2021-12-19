@@ -1,11 +1,13 @@
 ##Add relogtimer to reload vanilla if needed
-tag @s add relogtimer
+execute if entity @s[tag=relogtimer] run tag @s add keeprltimer
+tag @s[tag=!keeprltimer] add relogtimer
 
 ##Reload resources
 function 4jbattle:game/resource/load/run
 
 ##Remove relogtimer
-tag @s remove relogtimer
+tag @s[tag=!keeprltimer] remove relogtimer
+tag @s remove keeprltimer
 
 ##Reset score
 scoreboard players reset @s reloadresources
