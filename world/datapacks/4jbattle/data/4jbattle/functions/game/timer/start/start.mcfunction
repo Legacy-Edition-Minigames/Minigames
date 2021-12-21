@@ -52,3 +52,6 @@ function 4jbattle:game/combat/block/check
 
 ##Inventory hotbar swap
 execute if score #Store 4j.smallinv matches 0 run function 4jbattle:game/inventory/swap/start
+
+##GlobalInfo clear timer
+function 4jbattle:game/globalinfo/clear/check

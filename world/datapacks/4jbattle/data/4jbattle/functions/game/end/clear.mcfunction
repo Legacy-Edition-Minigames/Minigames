@@ -31,12 +31,16 @@ function 4jbattle:game/combat/block/stop
 schedule clear 4jbattle:game/timer/end/count
 #Inventory swapper
 schedule clear 4jbattle:game/inventory/swap/check
+#GlobalInfo Clear Timer
+schedule clear 4jbattle:game/globalinfo/clear/check
 
 ##Clear Scores
 #Cupid
 scoreboard players reset @a 4j.cupid
 #Scratch
 scoreboard players reset @a 4j.scratch
+#GlobalInfo clear timer
+scoreboard players reset @a 4j.cleargi
 
 ##Map specific schedules
 #Cove

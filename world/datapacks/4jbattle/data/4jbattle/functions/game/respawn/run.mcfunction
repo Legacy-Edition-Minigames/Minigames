@@ -54,6 +54,8 @@ execute if score @s 4j.lives matches 1 if score @s 4j.pid matches 13 run bossbar
 execute if score @s 4j.lives matches 1 if score @s 4j.pid matches 14 run bossbar set globalinfo14 name ["","You have ",{"score":{"name":"@s ","objective":"4j.lives"}}," life remaining!"]
 execute if score @s 4j.lives matches 1 if score @s 4j.pid matches 15 run bossbar set globalinfo15 name ["","You have ",{"score":{"name":"@s ","objective":"4j.lives"}}," life remaining!"]
 execute if score @s 4j.lives matches 1 if score @s 4j.pid matches 16 run bossbar set globalinfo16 name ["","You have ",{"score":{"name":"@s ","objective":"4j.lives"}}," life remaining!"]
+#Set globalinfo clear timer
+scoreboard players set @s 4j.cleargi 4
 
 ##Debug message
 tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Respawning player","color":"gold"}]

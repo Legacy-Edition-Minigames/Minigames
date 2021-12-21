@@ -297,6 +297,9 @@ scoreboard objectives add vtdarkinv trigger
 ##Reload resources command
 scoreboard objectives add reloadresources trigger
 
+##GlobalInfo clear timer
+scoreboard objectives add 4j.cleargi dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
