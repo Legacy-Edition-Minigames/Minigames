@@ -33,6 +33,8 @@ schedule clear 4jbattle:game/timer/end/count
 schedule clear 4jbattle:game/inventory/swap/check
 #GlobalInfo Clear Timer
 schedule clear 4jbattle:game/globalinfo/clear/check
+#GlobalInfo hide
+schedule clear 4jbattle:game/globalinfo/hide
 
 ##Clear Scores
 #Cupid
