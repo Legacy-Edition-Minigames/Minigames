@@ -55,3 +55,6 @@ execute if score #Store 4j.smallinv matches 0 run function 4jbattle:game/invento
 
 ##GlobalInfo clear timer
 function 4jbattle:game/globalinfo/clear/check
+
+##Reset eliminated score
+scoreboard players reset @a 4j.eliminated
