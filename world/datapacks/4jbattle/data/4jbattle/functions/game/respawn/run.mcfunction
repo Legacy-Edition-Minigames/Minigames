@@ -5,7 +5,7 @@ gamemode adventure @s
 scoreboard players reset @s 4j.eliminated
 
 ##Remove a life
-scoreboard players remove @s 4j.lives 1
+scoreboard players remove @s[scores={4j.lives=1..}] 4j.lives 1
 
 ##Set hunger to 20
 scoreboard players set @s 4j.hungerbar 20

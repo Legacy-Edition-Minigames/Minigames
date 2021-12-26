@@ -1,5 +1,8 @@
 ##Lives
-tellraw @s ["","Lives: ",{"score":{"name":"#Store","objective":"4j.lives"}}]
+#Normal
+execute if score #Store 4j.lives matches 1.. run tellraw @s ["","Lives: ",{"score":{"name":"#Store","objective":"4j.lives"}}]
+#Infinite
+execute if score #Store 4j.lives matches -1 run tellraw @s "Lives: Infinite"
 
 ##Item Set
 #Normal
