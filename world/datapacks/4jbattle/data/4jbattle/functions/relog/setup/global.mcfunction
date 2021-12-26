@@ -25,7 +25,7 @@ title @s title ""
 title @s subtitle ""
 
 ##Display some game settings
-function 4jbattle:game/timer/start/displaysettings
+execute if score #Store 4j.gamestatus matches 2 run function 4jbattle:game/timer/start/displaysettings
 
 ##Load GlobalInfo
 function 4jbattle:game/gui/globalinfo/load
