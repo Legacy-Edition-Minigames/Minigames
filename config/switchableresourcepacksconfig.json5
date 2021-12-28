@@ -178,6 +178,22 @@
 			"required": true,
 			"hasPrompt": true,
 			"message": "This map requires a custom texture pack!"
+		},
+		{
+			"packname": "fallout",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R25/fallout.zip?raw=true",
+			"hash": "",
+			"required": true,
+			"hasPrompt": true,
+			"message": "This map requires a custom texture pack!"
+		},
+		{
+			"packname": "fallout-optifine",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R25/fallout.zip?raw=true",
+			"hash": "",
+			"required": true,
+			"hasPrompt": true,
+			"message": "This map requires a custom texture pack!"
 		}
 	]
 }
