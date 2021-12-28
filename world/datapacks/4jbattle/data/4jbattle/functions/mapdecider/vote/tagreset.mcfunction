@@ -52,3 +52,6 @@ tag @s remove votevalley
 
 ##Festive
 tag @s remove votefestive
+
+##Atomics
+tag @s remove voteatomics

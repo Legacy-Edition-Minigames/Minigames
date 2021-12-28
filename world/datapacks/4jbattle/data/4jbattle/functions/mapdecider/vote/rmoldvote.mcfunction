@@ -51,3 +51,6 @@ execute if entity @s[tag=votevalley] run scoreboard players remove §a5:Valley 4
 
 ##Remove Festive map vote
 execute if entity @s[tag=votefestive] run scoreboard players remove §a7:Festive 4j.mapvote 1
+
+##Remove Atomics map vote
+execute if entity @s[tag=voteatomics] run scoreboard players remove §a8-1:Atomics 4j.mapvote 1

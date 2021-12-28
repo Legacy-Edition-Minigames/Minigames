@@ -3,3 +3,6 @@ execute if score #Store 4j.map matches 30..31 run function 4jbattle:game/mapinit
 
 ##Festive
 execute if score #Store 4j.map matches 39..40 run function 4jbattle:game/mapinit/festive/stop
+
+##Atomics
+execute if score #Store 4j.map matches 41..42 run function 4jbattle:game/mapinit/atomics/stop

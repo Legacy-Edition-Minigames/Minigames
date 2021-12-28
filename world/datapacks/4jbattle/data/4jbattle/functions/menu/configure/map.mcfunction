@@ -108,3 +108,9 @@ execute as @s[scores={4j.gamecfg=1035}] run function 4jbattle:menu/load/host/map
 
 ##Enable Festive if set to 1036
 execute as @s[scores={4j.gamecfg=1036}] run function 4jbattle:menu/load/host/map/festive/enable
+
+##Disable Atomics if set to 1035
+execute as @s[scores={4j.gamecfg=1037}] run function 4jbattle:menu/load/host/map/atomics/disable
+
+##Enable Atomics if set to 1036
+execute as @s[scores={4j.gamecfg=1038}] run function 4jbattle:menu/load/host/map/atomics/enable

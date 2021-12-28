@@ -109,6 +109,12 @@ execute if score #Festive 4j.enablemap matches 1 run tellraw @s ["",{"text":"[",
 #Disabled
 execute if score #Festive 4j.enablemap matches 0 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1036"}},{"text":"❌","color":"red","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1036"}},{"text":"] Festive","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1036"}}]
 
+##Atomics
+#Enabled
+execute if score #Atomics 4j.enablemap matches 1 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1037"}},{"text":"✔","color":"green","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1037"}},{"text":"] Atomics","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1037"}}]
+#Disabled
+execute if score #Atomics 4j.enablemap matches 0 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1038"}},{"text":"❌","color":"red","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1038"}},{"text":"] Atomics","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1038"}}]
+
 ##Go back button
 tellraw @s {"text":"[Go Back]","color":"gray","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click to go back to the normal configuration page","color":"dark_aqua"}]}}
 

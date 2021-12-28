@@ -56,12 +56,14 @@ scoreboard players set #Halloween 4j.enablemap 1
 scoreboard players set #Valley 4j.enablemap 1
 #Festive
 scoreboard players set #Festive 4j.enablemap 1
+#Atomics
+scoreboard players set #Atomics 4j.enablemap 1
 
 ##Default Map Type
 scoreboard players set #Store 4j.setmaptype 1
 
 ##Set mapcount
-scoreboard players set #Store 4j.mapcount 18
+scoreboard players set #Store 4j.mapcount 19
 
 ##Visual time
 #Score

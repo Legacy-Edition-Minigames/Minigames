@@ -79,3 +79,7 @@ execute if score #Store 4j.map matches 38 in 4jbattle:valley_small run function 
 execute if score #Store 4j.map matches 39 in 4jbattle:festive run function 4jbattle:game/mapreset/festive
 #Small Festive
 execute if score #Store 4j.map matches 40 in 4jbattle:festive_small run function 4jbattle:game/mapreset/festive_small
+#Large Atomics
+execute if score #Store 4j.map matches 41 in 4jbattle:atomics run function 4jbattle:game/mapreset/atomics
+#Small Atomics
+execute if score #Store 4j.map matches 42 in 4jbattle:atomics_small run function 4jbattle:game/mapreset/atomics_small
