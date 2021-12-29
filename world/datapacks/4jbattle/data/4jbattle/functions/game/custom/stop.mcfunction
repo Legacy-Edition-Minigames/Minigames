@@ -12,3 +12,6 @@ execute if score #Store 4j.map matches 32..33 run function 4jbattle:game/custom/
 
 ##Shrunk Remastered
 execute if score #Store 4j.map matches 34 run function 4jbattle:game/custom/shrunk_remastered/stop
+
+##Halloween
+execute if score #Store 4j.map matches 35..36 run function 4jbattle:game/custom/halloween/stop
