@@ -1,2 +1,2 @@
 execute in 4jbattle:shipyard run setblock -38 165 -70 air
-execute in 4jbattle:shipyard run setblock -38 165 -70 minecraft:structure_block[mode=save]{author:"DBTDerpbox",ignoreEntities:0b,integrity:1.0f,metadata:"",mirror:"NONE",mode:"SAVE",name:"4jbattle:shipyard",posX:1,posY:-26,posZ:1,powered:0b,rotation:"NONE",seed:0L,showair:0b,showboundingbox:1b,sizeX:103,sizeY:26,sizeZ:116}
+execute in 4jbattle:shipyard run setblock -38 175 -70 minecraft:structure_block[mode=save]{author:"DBTDerpbox",id:"minecraft:structure_block",ignoreEntities:0b,integrity:1.0f,metadata:"",mirror:"NONE",mode:"SAVE",name:"4jbattle:shipyard",posX:1,posY:-36,posZ:1,powered:0b,rotation:"NONE",seed:0L,showair:0b,showboundingbox:1b,sizeX:103,sizeY:36,sizeZ:116,x:-38,y:175,z:-70}
