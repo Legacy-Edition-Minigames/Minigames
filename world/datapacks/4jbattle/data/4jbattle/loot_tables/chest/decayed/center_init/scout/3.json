@@ -1,0 +1,64 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:diamond_sword",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Lore:['[{\"text\":\"+7.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2,Damage:1560}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.swiftness\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:1b,Amplifier:0b,Duration:400}],Potion:\"minecraft:water\"}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:leather_boots",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{Enchantments:[{id:\"minecraft:feather_falling\",lvl:2s}],Damage:54}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

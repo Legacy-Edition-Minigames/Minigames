@@ -1,0 +1,60 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:iron_helmet",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{Enchantments:[{id:\"minecraft:respiration\",lvl:1s}]}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:iron_boots",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:diamond_pickaxe",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'{\"translate\":\"item.minecraft.diamond_axe\",\"italic\":false}',Lore:['[{\"text\":\"+6.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2,CustomModelData:1}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

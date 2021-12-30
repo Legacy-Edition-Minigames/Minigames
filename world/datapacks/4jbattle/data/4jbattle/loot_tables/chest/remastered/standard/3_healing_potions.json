@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 3,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Potion:\"minecraft:strong_healing\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
