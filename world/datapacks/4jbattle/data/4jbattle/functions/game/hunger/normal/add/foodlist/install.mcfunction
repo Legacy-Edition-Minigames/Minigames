@@ -3,3 +3,12 @@ scoreboard objectives add 4j.eat.cookpork minecraft.used:minecraft.cooked_porkch
 scoreboard objectives add 4j.eat.goldapple minecraft.used:minecraft.golden_apple
 scoreboard objectives add 4j.eat.rabstew minecraft.used:minecraft.rabbit_stew
 scoreboard objectives add 4j.eat.cookmutto minecraft.used:minecraft.cooked_mutton
+scoreboard objectives add 4j.eat.cookpotat minecraft.used:minecraft.baked_potato
+scoreboard objectives add 4j.eat.beetsoup minecraft.used:minecraft.beetroot_soup
+scoreboard objectives add 4j.eat.beetroot minecraft.used:minecraft.beetroot
+scoreboard objectives add 4j.eat.cookbeef minecraft.used:minecraft.cooked_beef
+scoreboard objectives add 4j.eat.cookchick minecraft.used:minecraft.cooked_chicken
+scoreboard objectives add 4j.eat.cookrabbi minecraft.used:minecraft.cooked_rabbit
+scoreboard objectives add 4j.eat.cookie minecraft.used:minecraft.cookie
+scoreboard objectives add 4j.eat.goldcarro minecraft.used:minecraft.golden_carrot
+scoreboard objectives add 4j.eat.mushstew minecraft.used:minecraft.mushroom_stew
