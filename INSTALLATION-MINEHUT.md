@@ -26,6 +26,8 @@
 
 * [Extended Structures](https://github.com/kyrptonaught/Extended-Structures) ([GitHub Releases](https://github.com/kyrptonaught/Extended-Structures))
 
+* [Snowball and Egg Knockback](https://github.com/capitalistspz/SnowballKB) ([GitHub Releases](https://github.com/capitalistspz/SnowballKB/releases/tag/1.1) [CurseForge](https://www.curseforge.com/minecraft/mc-mods/snowball-and-egg-knockback-fabric/files/3399693))
+
 ### Connecting
 
 * Here is [MineHut's help page](https://superleague.zendesk.com/hc/en-us/articles/1500007830882-How-do-I-join-a-server-) regarding connecting
