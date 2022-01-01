@@ -1,13 +1,4 @@
 
-world/advancements/00000000-0000-0000-0009-01f35d9fd5d4.json
-world/advancements/a20181ca-a75d-401e-ac58-36ab8f040cf5.json
-world/advancements/e12648d0-65ae-4587-8445-dcc4e9ef6bd3.json
-world/playerdata/00000000-0000-0000-0009-01f35d9fd5d4.dat
-world/playerdata/00000000-0000-0000-0009-01f35d9fd5d4.dat_old
-world/playerdata/a20181ca-a75d-401e-ac58-36ab8f040cf5.dat
-world/playerdata/a20181ca-a75d-401e-ac58-36ab8f040cf5.dat_old
-world/playerdata/e12648d0-65ae-4587-8445-dcc4e9ef6bd3.dat
-world/playerdata/e12648d0-65ae-4587-8445-dcc4e9ef6bd3.dat_old
-world/stats/00000000-0000-0000-0009-01f35d9fd5d4.json
-world/stats/a20181ca-a75d-401e-ac58-36ab8f040cf5.json
-world/stats/e12648d0-65ae-4587-8445-dcc4e9ef6bd3.json
+world/advancements/*
+world/playerdata/*
+world/stats/*
