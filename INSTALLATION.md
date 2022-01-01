@@ -16,7 +16,7 @@
 
 #### Dependencies
 
-The installer will try to install FabricMC and the required mods for you, but if it fails you can manually install then:
+The installer will try to install FabricMC and the required mods for you, but if it fails you can manually install them:
 
 * [FabricMC](https://fabricmc.net/use/)
 
