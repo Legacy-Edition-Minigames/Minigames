@@ -13,13 +13,13 @@ If you want to create your own LEB server, keep reading.
 If you do make your own LEB server, please at least credit me.
 
 ### Screenshots
-Screenshots can be viewed [here.](https://github.com/DBTDerpbox/Legacy-Edition-Battle/blob/main/SCREENSHOTS.md)
+Screenshots can be viewed [here.](Legacy-Edition-Battle/blob/main/SCREENSHOTS.md)
 
 ### Installation
 
-[Standard selfhost install](https://github.com/DBTDerpbox/Legacy-Edition-Battle/blob/main/INSTALLATION.md)
+[Standard selfhost install](Legacy-Edition-Battle/blob/main/INSTALLATION.md)
 
-[MineHut](https://github.com/DBTDerpbox/Legacy-Edition-Battle/blob/main/INSTALLATION-MINEHUT.md)
+[MineHut](Legacy-Edition-Battle/blob/main/INSTALLATION-MINEHUT.md)
 
 ### Notices
 
