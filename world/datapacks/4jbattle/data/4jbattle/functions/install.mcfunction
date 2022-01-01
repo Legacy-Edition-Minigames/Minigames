@@ -300,6 +300,9 @@ scoreboard objectives add reloadresources trigger
 ##GlobalInfo clear timer
 scoreboard objectives add 4j.cleargi dummy
 
+##Hotbarswap tipped arrow toggle
+scoreboard objectives add swaptipped trigger
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

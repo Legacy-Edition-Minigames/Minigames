@@ -10,6 +10,9 @@ function 4jbattle:clientconfig/heart/check
 ##Move items to hotbar
 function 4jbattle:clientconfig/hotbarswap/check
 
+##Tipped arrow hotbarswap toggle
+function 4jbattle:clientconfig/swaptipped/check
+
 ##VT Dark small inventory
 function 4jbattle:clientconfig/vtdarkinv/check
 

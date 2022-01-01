@@ -1,0 +1,19 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:tipped_arrow",
+        "nbt": "{Potion:\"minecraft:harming\"}"
+      },
+      "title": "No tipped arrows hotbar swap",
+      "description": ["","Ignore tipped arrows when using hotbarswapping","\n","\n",{"text":"Can be toggled with /trigger swaptipped","color":"gold"}],
+      "frame": "task",
+      "announce_to_chat": false
+    },
+    "parent": "4jbattle:config/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

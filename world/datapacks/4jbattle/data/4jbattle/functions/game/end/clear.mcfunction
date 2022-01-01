@@ -30,7 +30,7 @@ function 4jbattle:game/combat/block/stop
 #End Timer
 schedule clear 4jbattle:game/timer/end/count
 #Inventory swapper
-schedule clear 4jbattle:game/inventory/swap/check
+schedule clear 4jbattle:game/inventory/swap/check/run
 #GlobalInfo Clear Timer
 schedule clear 4jbattle:game/globalinfo/clear/check
 #GlobalInfo hide
