@@ -12,4 +12,4 @@ gamerule freezeDamage false
 execute as @a run attribute @s minecraft:generic.attack_damage base set -100
 
 ##Disable knockback
-#execute as @a run attribute @s minecraft:generic.knockback_resistance base set 1
+execute as @a run attribute @s minecraft:generic.knockback_resistance base set 1

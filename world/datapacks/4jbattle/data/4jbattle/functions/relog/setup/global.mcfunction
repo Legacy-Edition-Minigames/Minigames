@@ -51,9 +51,6 @@ function 4jbattle:game/combat/cooldown
 ##Disable FriendlyFire
 attribute @s minecraft:generic.attack_damage base set -100
 
-##Disable knockback
-attribute @s minecraft:generic.knockback_resistance base set 1
-
 ##Load MapDecider
 execute if score #Store 4j.gamestatus matches 1 run function 4jbattle:mapdecider/vote/join
 
