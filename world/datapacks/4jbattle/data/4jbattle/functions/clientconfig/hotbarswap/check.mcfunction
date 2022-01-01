@@ -1,4 +1,4 @@
-##Toggle hotbarswap pack
+##Toggle hotbarswapping
 #Enable
 execute as @a[scores={hotbarswap=1..},advancements={4jbattle:config/nohotbarswap=true}] run function 4jbattle:clientconfig/hotbarswap/enable
 #Disable
