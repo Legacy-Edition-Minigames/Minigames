@@ -21,7 +21,7 @@
 		},
 		{
 			"packname": "all-music-1",
-			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R25/all-music-1-fix.zip?raw=true",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/releases/download/R25/all-music-1.zip",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -37,7 +37,7 @@
 		},
 		{
 			"packname": "all-music-1-optifine",
-			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R25/all-music-1-fix.zip?raw=true",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/releases/download/RO25/all-music-1.zip",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
