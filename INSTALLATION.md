@@ -10,7 +10,7 @@
 
 * Download LEB-Installer from its [Releases Page](https://github.com/DBTDerpbox/LEB-Installer/releases)
 
-* Run LEB-Installer
+* Put the installer executable in LEB's folder and run LEB-Installer
 
 * If for whatever reason, you can't download the resources properly with the current SRP config, you can edit the config inside of the `config` folder and the files can be found [here.](https://github.com/DBTDerpbox/LEB-Resources/tree/zip/zip)
 
