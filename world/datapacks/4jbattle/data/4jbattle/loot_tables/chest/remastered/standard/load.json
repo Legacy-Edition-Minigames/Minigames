@@ -234,7 +234,7 @@
           {
             "type": "minecraft:loot_table",
             "weight": 3,
-            "name": "4jbattle:chest/nemastered/standard/3_healing_potions"
+            "name": "4jbattle:chest/remastered/standard/3_healing_potions"
           },
           {
             "type": "minecraft:item",
