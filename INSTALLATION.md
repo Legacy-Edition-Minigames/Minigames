@@ -2,15 +2,15 @@
 
 * You need Java 16 or higher to be installed before you can proceed, you can find it at [Oracle.com](https://www.oracle.com/java/technologies/javase-jdk16-downloads.html)
 
-* You need Python to be installed to run the installer, you can find it at [Python.org](https://www.python.org/downloads/)
-
 ### Installation
 
 * Click on [`⤓ Code`](https://github.com/DBTDerpbox/Legacy-Edition-Battle/archive/refs/heads/main.zip) at the top and download as zip.
 
 * Extract the zip folder
 
-* Run `installer.py` using Python
+* Download LEB-Installer from its [Releases Page](https://github.com/DBTDerpbox/LEB-Installer/releases)
+
+* Run LEB-Installer
 
 * If for whatever reason, you can't download the resources properly with the current SRP config, you can edit the config inside of the `config` folder and the files can be found [here.](https://github.com/DBTDerpbox/LEB-Resources/tree/zip/zip)
 
