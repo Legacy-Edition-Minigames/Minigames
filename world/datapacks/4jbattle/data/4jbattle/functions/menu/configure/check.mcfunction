@@ -138,5 +138,14 @@ execute as @s[scores={4j.gamecfg=42}] run function 4jbattle:menu/load/host/timel
 ##Set time limit to long
 execute as @s[scores={4j.gamecfg=43}] run function 4jbattle:menu/load/host/timelimit/setlong
 
+##Open extra options menu
+execute as @s[scores={4j.gamecfg=44}] run function 4jbattle:menu/load/host/extra/open
+
+##Open Item Set options menu
+execute as @s[scores={4j.gamecfg=45}] run function 4jbattle:menu/load/host/chest/open
+
+##Open Map options menu
+execute as @s[scores={4j.gamecfg=46}] run function 4jbattle:menu/load/host/map/open
+
 ##Reset score
 scoreboard players reset @s 4j.gamecfg

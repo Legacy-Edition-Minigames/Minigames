@@ -8,4 +8,4 @@ scoreboard players set #Store 4j.fullreset 1
 tellraw @a "The host has enabled Old Lobby."
 
 ##Open menu
-function 4jbattle:menu/load/host/gui
+function 4jbattle:menu/load/host/extra/open

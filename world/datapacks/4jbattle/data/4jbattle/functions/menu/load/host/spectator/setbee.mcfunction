@@ -5,4 +5,4 @@ scoreboard players set #Store 4j.spectype 4
 tellraw @a "The host has set the Spectator Mob to Bee."
 
 ##Open menu
-function 4jbattle:menu/load/host/gui
+function 4jbattle:menu/load/host/extra/open

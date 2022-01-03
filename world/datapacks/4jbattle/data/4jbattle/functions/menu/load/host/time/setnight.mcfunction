@@ -8,4 +8,4 @@ scoreboard players set #Store 4j.vistime 3
 tellraw @a "The host has set the time to Night."
 
 ##Open menu
-function 4jbattle:menu/load/host/gui
+function 4jbattle:menu/load/host/extra/open

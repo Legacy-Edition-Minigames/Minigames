@@ -5,4 +5,4 @@ scoreboard players set #Store 4j.setmaptype 1
 tellraw @a "The host has set Map Type to Auto."
 
 ##Open menu
-function 4jbattle:menu/load/host/gui
+function 4jbattle:menu/load/host/map/open
