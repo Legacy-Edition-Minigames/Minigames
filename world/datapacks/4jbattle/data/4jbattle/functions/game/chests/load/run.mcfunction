@@ -13,4 +13,4 @@ execute if score #Store 4j.setchest matches 5 run scoreboard players set #Store 
 execute if score #Store 4j.setchest matches 6 run scoreboard players set #Store 4j.chest 6
 
 ##Load random item set if set to random by host
-execute if score #Store 4j.setchest matches 7 store result score #Store 4j.chest run loot spawn ~ -2 ~ loot 4jbattle:chestrandom
+execute if score #Store 4j.setchest matches 7 run function 4jbattle:game/chests/load/random

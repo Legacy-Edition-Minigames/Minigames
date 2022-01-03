@@ -303,6 +303,12 @@ scoreboard objectives add 4j.cleargi dummy
 ##Hotbarswap tipped arrow toggle
 scoreboard objectives add swaptipped trigger
 
+##Randomm Item set toggle
+scoreboard objectives add 4j.enableset dummy
+
+##Enabled item set count
+scoreboard objectives add 4j.setcount dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

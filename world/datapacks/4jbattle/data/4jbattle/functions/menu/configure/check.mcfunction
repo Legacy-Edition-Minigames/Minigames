@@ -147,5 +147,11 @@ execute as @s[scores={4j.gamecfg=45}] run function 4jbattle:menu/load/host/chest
 ##Open Map options menu
 execute as @s[scores={4j.gamecfg=46}] run function 4jbattle:menu/load/host/map/open
 
+##Open Random Item Set config menu
+execute as @s[scores={4j.gamecfg=47}] run function 4jbattle:menu/load/host/chest/randomconfig/open
+
+##Item set customization
+execute as @s[scores={4j.gamecfg=48..59}] run function 4jbattle:menu/load/host/chest/randomconfig/run
+
 ##Reset score
 scoreboard players reset @s 4j.gamecfg

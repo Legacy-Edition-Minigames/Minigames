@@ -59,11 +59,28 @@ scoreboard players set #Festive 4j.enablemap 1
 #Atomics
 scoreboard players set #Atomics 4j.enablemap 1
 
+##Enable item sets
+#Normal
+scoreboard players set #Normal 4j.enableset 1
+#No Armor
+scoreboard players set #NoArmor 4j.enableset 1
+#High Power
+scoreboard players set #HighPower 4j.enableset 1
+#Decayed
+scoreboard players set #Decayed 4j.enableset 1
+#Food Central
+scoreboard players set #FoodCentral 4j.enableset 1
+#Remastered
+scoreboard players set #Remastered 4j.enableset 1
+
 ##Default Map Type
 scoreboard players set #Store 4j.setmaptype 1
 
 ##Set mapcount
 scoreboard players set #Store 4j.mapcount 19
+
+##Set item set count
+scoreboard players set #Store 4j.setcount 6
 
 ##Visual time
 #Score

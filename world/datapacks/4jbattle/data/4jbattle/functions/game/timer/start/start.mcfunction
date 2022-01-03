@@ -39,7 +39,7 @@ execute as @a[tag=headstore] run function 4jbattle:lobby/mobhead/copy
 schedule function 4jbattle:game/chests/lock 1s
 
 ##Load Item Set
-function 4jbattle:game/chests/load
+function 4jbattle:game/chests/load/run
 
 ##Display some game settings
 execute as @a[tag=!relogtimer] run function 4jbattle:game/timer/start/displaysettings
