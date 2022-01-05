@@ -20,6 +20,8 @@ The installer will try to install FabricMC and the required mods for you, but if
 
 * [FabricMC](https://fabricmc.net/use/)
 
+* [Fabric API](https://github.com/FabricMC/fabric) ([GitHub](https://github.com/FabricMC/fabric/releases) [Modrinth](https://modrinth.com/mod/fabric-api [CurseForge](https://www.curseforge.com/minecraft/mc-mods/fabric-api))
+
 * [SwitchableResourcePacks](https://github.com/kyrptonaught/SwitchableResourcepacks) ([GitHub](https://github.com/kyrptonaught/SwitchableResourcepacks/releases) [Modrinth](https://modrinth.com/mod/switchableresourcepacks) [CurseForge](https://www.curseforge.com/minecraft/mc-mods/switchableresourcepacks))
 
 * [scoreboardsuffix](https://github.com/kyrptonaught/scoreboardsuffix) ([GitHub Releases](https://github.com/kyrptonaught/scoreboardsuffix/releases))
