@@ -153,5 +153,86 @@ execute as @s[scores={4j.gamecfg=47}] run function 4jbattle:menu/load/host/chest
 ##Item set customization
 execute as @s[scores={4j.gamecfg=48..59}] run function 4jbattle:menu/load/host/chest/randomconfig/run
 
+##Open Preset menu
+execute as @s[scores={4j.gamecfg=60}] run function 4jbattle:menu/load/host/preset/open
+
+##Open Preset save menu
+execute as @s[scores={4j.gamecfg=61}] run function 4jbattle:menu/load/host/preset/save/run
+
+##Open Preset load menu
+execute as @s[scores={4j.gamecfg=62}] run function 4jbattle:menu/load/host/preset/load/run
+
+##Preset save warning
+execute as @s[scores={4j.gamecfg=63..72}] run function 4jbattle:menu/load/host/preset/save/confirm
+
+##Save Presets
+#Preset 1
+execute as @s[scores={4j.gamecfg=73}] run function 4jbattle:menu/load/host/preset/save/1
+#Preset 2
+execute as @s[scores={4j.gamecfg=74}] run function 4jbattle:menu/load/host/preset/save/2
+#Preset 3
+execute as @s[scores={4j.gamecfg=75}] run function 4jbattle:menu/load/host/preset/save/3
+#Preset 4
+execute as @s[scores={4j.gamecfg=76}] run function 4jbattle:menu/load/host/preset/save/4
+#Preset 5
+execute as @s[scores={4j.gamecfg=77}] run function 4jbattle:menu/load/host/preset/save/5
+#Preset 6
+execute as @s[scores={4j.gamecfg=78}] run function 4jbattle:menu/load/host/preset/save/6
+#Preset 7
+execute as @s[scores={4j.gamecfg=79}] run function 4jbattle:menu/load/host/preset/save/7
+#Preset 8
+execute as @s[scores={4j.gamecfg=80}] run function 4jbattle:menu/load/host/preset/save/8
+#Preset 9
+execute as @s[scores={4j.gamecfg=81}] run function 4jbattle:menu/load/host/preset/save/9
+#Preset 10
+execute as @s[scores={4j.gamecfg=82}] run function 4jbattle:menu/load/host/preset/save/10
+
+##Preset load display
+execute as @s[scores={4j.gamecfg=83..92}] run function 4jbattle:menu/load/host/preset/load/confirm
+
+##Load Presets if saved
+#Preset 1
+execute if entity @s[advancements={4jbattle:menu/host/presets/1/saved=true}] as @s[scores={4j.gamecfg=93}] run function 4jbattle:menu/load/host/preset/load/1/run
+#Preset 2
+execute if entity @s[advancements={4jbattle:menu/host/presets/2/saved=true}] as @s[scores={4j.gamecfg=94}] run function 4jbattle:menu/load/host/preset/load/2/run
+#Preset 3
+execute if entity @s[advancements={4jbattle:menu/host/presets/3/saved=true}] as @s[scores={4j.gamecfg=95}] run function 4jbattle:menu/load/host/preset/load/3/run
+#Preset 4
+execute if entity @s[advancements={4jbattle:menu/host/presets/4/saved=true}] as @s[scores={4j.gamecfg=96}] run function 4jbattle:menu/load/host/preset/load/4/run
+#Preset 5
+execute if entity @s[advancements={4jbattle:menu/host/presets/5/saved=true}] as @s[scores={4j.gamecfg=97}] run function 4jbattle:menu/load/host/preset/load/5/run
+#Preset 6
+execute if entity @s[advancements={4jbattle:menu/host/presets/6/saved=true}] as @s[scores={4j.gamecfg=98}] run function 4jbattle:menu/load/host/preset/load/6/run
+#Preset 7
+execute if entity @s[advancements={4jbattle:menu/host/presets/7/saved=true}] as @s[scores={4j.gamecfg=99}] run function 4jbattle:menu/load/host/preset/load/7/run
+#Preset 8
+execute if entity @s[advancements={4jbattle:menu/host/presets/8/saved=true}] as @s[scores={4j.gamecfg=100}] run function 4jbattle:menu/load/host/preset/load/8/run
+#Preset 9
+execute if entity @s[advancements={4jbattle:menu/host/presets/9/saved=true}] as @s[scores={4j.gamecfg=101}] run function 4jbattle:menu/load/host/preset/load/9/run
+#Preset 10
+execute if entity @s[advancements={4jbattle:menu/host/presets/10/saved=true}] as @s[scores={4j.gamecfg=102}] run function 4jbattle:menu/load/host/preset/load/10/run
+
+##Don't Presets if not saved
+#Preset 1
+execute if entity @s[advancements={4jbattle:menu/host/presets/1/saved=false}] as @s[scores={4j.gamecfg=93}] run function 4jbattle:menu/load/host/preset/load/notsaved
+#Preset 2
+execute if entity @s[advancements={4jbattle:menu/host/presets/2/saved=false}] as @s[scores={4j.gamecfg=94}] run function 4jbattle:menu/load/host/preset/load/notsaved
+#Preset 3
+execute if entity @s[advancements={4jbattle:menu/host/presets/3/saved=false}] as @s[scores={4j.gamecfg=95}] run function 4jbattle:menu/load/host/preset/load/notsaved
+#Preset 4
+execute if entity @s[advancements={4jbattle:menu/host/presets/4/saved=false}] as @s[scores={4j.gamecfg=96}] run function 4jbattle:menu/load/host/preset/load/notsaved
+#Preset 5
+execute if entity @s[advancements={4jbattle:menu/host/presets/5/saved=false}] as @s[scores={4j.gamecfg=97}] run function 4jbattle:menu/load/host/preset/load/notsaved
+#Preset 6
+execute if entity @s[advancements={4jbattle:menu/host/presets/6/saved=false}] as @s[scores={4j.gamecfg=98}] run function 4jbattle:menu/load/host/preset/load/notsaved
+#Preset 7
+execute if entity @s[advancements={4jbattle:menu/host/presets/7/saved=false}] as @s[scores={4j.gamecfg=99}] run function 4jbattle:menu/load/host/preset/load/notsaved
+#Preset 8
+execute if entity @s[advancements={4jbattle:menu/host/presets/8/saved=false}] as @s[scores={4j.gamecfg=100}] run function 4jbattle:menu/load/host/preset/load/notsaved
+#Preset 9
+execute if entity @s[advancements={4jbattle:menu/host/presets/9/saved=false}] as @s[scores={4j.gamecfg=101}] run function 4jbattle:menu/load/host/preset/load/notsaved
+#Preset 10
+execute if entity @s[advancements={4jbattle:menu/host/presets/10/saved=false}] as @s[scores={4j.gamecfg=102}] run function 4jbattle:menu/load/host/preset/load/notsaved
+
 ##Reset score
 scoreboard players reset @s 4j.gamecfg

@@ -8,6 +8,8 @@ function 4jbattle:menu/load/host/chest/run
 function 4jbattle:menu/load/host/map/run
 #Extras
 function 4jbattle:menu/load/host/extra/run
+#Presets
+function 4jbattle:menu/load/host/preset/run
 #Start Button
 execute if score #Store 4j.gamestatus matches 0 run tellraw @s {"text":"[Start]","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 9"}}
 
