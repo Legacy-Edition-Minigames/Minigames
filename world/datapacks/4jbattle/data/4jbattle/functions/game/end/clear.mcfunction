@@ -35,6 +35,8 @@ schedule clear 4jbattle:game/inventory/swap/check/run
 schedule clear 4jbattle:game/globalinfo/clear/check
 #GlobalInfo hide
 schedule clear 4jbattle:game/globalinfo/hide
+#Tipped Arrow fixer
+schedule clear 4jbattle:game/inventory/arrowfix/check
 
 ##Clear Scores
 #Cupid

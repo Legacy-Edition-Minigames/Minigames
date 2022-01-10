@@ -90,3 +90,5 @@ function 4jbattle:game/autoequip/check
 ##Unlock chests
 function 4jbattle:game/chests/unlock
 
+##Start the tipped arrow fixer
+function 4jbattle:game/inventory/arrowfix/check
