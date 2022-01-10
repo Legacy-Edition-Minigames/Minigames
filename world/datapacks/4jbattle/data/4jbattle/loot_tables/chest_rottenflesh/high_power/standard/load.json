@@ -168,9 +168,15 @@
             ]
           },
           {
-            "type": "minecraft:loot_table",
+            "type": "minecraft:item",
             "weight": 3,
-            "name": "4jbattle:chest/high_power/standard/3_healing_potions"
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Potion:\"minecraft:strong_healing\"}"
+              }
+            ]
           },
           {
             "type": "minecraft:item",

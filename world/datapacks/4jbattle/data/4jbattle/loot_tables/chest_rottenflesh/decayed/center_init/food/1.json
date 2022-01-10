@@ -1,15 +1,16 @@
 {
+    "type": "minecraft:chest",
     "pools": [
       {
-        "rolls": 3,
+        "rolls": 1,
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:potion",
+            "name": "minecraft:cooked_porkchop",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{Potion:\"minecraft:strong_healing\"}"
+                "function": "minecraft:set_count",
+                "count": 3
               }
             ]
           }
