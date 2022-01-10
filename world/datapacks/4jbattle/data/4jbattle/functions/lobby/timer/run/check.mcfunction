@@ -12,6 +12,3 @@ execute if score #Store 4j.plist matches 2.. run function 4jbattle:lobby/timer/r
 
 ##Give effects
 function 4jbattle:lobby/timer/effects
-
-##Run ready check
-function 4jbattle:lobby/ready/check
