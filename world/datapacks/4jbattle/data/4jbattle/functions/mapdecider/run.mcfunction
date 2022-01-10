@@ -31,6 +31,9 @@ schedule clear 4jbattle:mapdecider/vote/check
 ##Stop ready check
 schedule clear 4jbattle:lobby/ready/check
 
+##Stop nodrop check
+schedule clear 4jbattle:lobby/nodrop/check
+
 ##Debug info
 tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Running MapDecider...","color":"gold"}]
 tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Current Map ID: ","color":"gold"},{"score":{"name":"#Store","objective":"4j.map"},"color":"yellow"}]
