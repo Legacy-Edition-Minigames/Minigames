@@ -64,4 +64,4 @@ execute if score #Store 4j.gamestatus matches 2 run function 4jbattle:game/hunge
 scoreboard players reset @s 4j.score
 
 ##Teleport to a random player if spectator
-execute if score #Store 4j.gamestatus matches 2 run tp @s @r
+
