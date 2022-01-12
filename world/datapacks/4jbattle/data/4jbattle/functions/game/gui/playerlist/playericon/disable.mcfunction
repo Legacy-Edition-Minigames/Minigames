@@ -31,3 +31,6 @@ team modify P14 prefix ""
 team modify P15 prefix ""
 #16
 team modify P16 prefix ""
+
+##Update display
+function 4jbattle:relog/timer/forceupdate

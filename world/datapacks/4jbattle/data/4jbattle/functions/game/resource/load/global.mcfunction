@@ -12,3 +12,9 @@ schedule clear 4jbattle:game/resource/timer
 
 ##Start resource loader check
 function 4jbattle:game/resource/load/timer/run
+
+##Start loading animation in tablist
+#Reset loading animation
+scoreboard players set #Store 4j.packtimerani 1
+#Start
+function 4jbattle:game/resource/load/timer/tablist/run

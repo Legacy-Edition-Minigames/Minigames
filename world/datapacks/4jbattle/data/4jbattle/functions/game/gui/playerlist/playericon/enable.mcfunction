@@ -31,3 +31,6 @@ team modify P14 prefix ["",{"text":"\uF814","color":"white","font":"4jbattle:pla
 team modify P15 prefix ["",{"text":"\uF815","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
 #16
 team modify P16 prefix ["",{"text":"\uF816","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
+
+##Update display
+function 4jbattle:relog/timer/forceupdate

@@ -309,6 +309,9 @@ scoreboard objectives add 4j.enableset dummy
 ##Enabled item set count
 scoreboard objectives add 4j.setcount dummy
 
+##Resource loading animation timer
+scoreboard objectives add 4j.packtimerani dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
