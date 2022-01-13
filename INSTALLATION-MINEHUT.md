@@ -20,7 +20,7 @@
 
 * Install the following mods to your server:
 
-* [Fabric API](https://github.com/FabricMC/fabric) ([GitHub](https://github.com/FabricMC/fabric/releases) [Modrinth](https://modrinth.com/mod/fabric-api [CurseForge](https://www.curseforge.com/minecraft/mc-mods/fabric-api))
+* [Fabric API](https://github.com/FabricMC/fabric) ([GitHub](https://github.com/FabricMC/fabric/releases) [Modrinth](https://modrinth.com/mod/fabric-api) [CurseForge](https://www.curseforge.com/minecraft/mc-mods/fabric-api))
 
 * [SwitchableResourcePacks](https://github.com/kyrptonaught/SwitchableResourcepacks) ([GitHub](https://github.com/kyrptonaught/SwitchableResourcepacks/releases) [Modrinth](https://modrinth.com/mod/switchableresourcepacks) [CurseForge](https://www.curseforge.com/minecraft/mc-mods/switchableresourcepacks))
 
