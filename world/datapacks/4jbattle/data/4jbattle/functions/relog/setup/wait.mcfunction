@@ -25,6 +25,7 @@ tag @s remove resourceloaded
 tag @s remove custompack
 tag @s remove allmusic1
 tag @s remove keeprltimer
+tag @s remove delfix
 
 ##Add notready tag
 tag @s add notready
