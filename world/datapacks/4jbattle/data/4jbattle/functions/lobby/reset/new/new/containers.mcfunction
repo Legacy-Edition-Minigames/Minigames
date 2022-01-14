@@ -4,10 +4,6 @@ kill @e[type=arrow]
 ##Remove items
 kill @e[type=item]
 
-##Reset jukebox
-setblock -350 52 -341 air
-setblock -350 52 -341 minecraft:jukebox[has_record=false]{id:"minecraft:jukebox",x:-350,y:52,z:-341}
-
 ##I'm not even going to try to comment this
 ##Its a bunch of data merge commands to refill the containers in the lobby
 data merge block -371 69 -340 {Items:[{Count:1b,Slot:4b,id:"minecraft:diamond_chestplate",tag:{Damage:0}}],Lock:"lock"}
