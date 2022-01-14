@@ -1,0 +1,16 @@
+{
+  "id": "default",
+  "name": "Default",
+  "header": [
+    "<gradient:#e2ded9:#ada4a1><bold>Legacy Edition</bold></gradient> <gradient:#f0c319:#e6a01b><bold>Battle</bold></gradient>",
+    "<color:#1cf89e>%server:online%<color:#2f4049>/</color>%server:max_players%",
+    ""
+  ],
+  "footer": [
+    "",
+    "<gray>TPS: %server:tps_colored% <dark_gray>| <gray>MSPT: %server:mspt_colored%",
+    "<gray>Ping: <color:#ffba26>%player:ping_colored%</color>"
+  ],
+  "hidden": false,
+  "permission": ""
+}
