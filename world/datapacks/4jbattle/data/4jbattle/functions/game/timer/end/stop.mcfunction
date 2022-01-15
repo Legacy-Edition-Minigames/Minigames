@@ -8,4 +8,7 @@ execute unless entity @a[scores={4j.killcount=1..}] run function 4jbattle:game/t
 execute if entity @a[scores={4j.killcount=1..}] run function 4jbattle:game/timer/end/determine/kills
 
 ##End game
+#Clear end check
+schedule clear 4jbattle:game/end/check
+#Run
 function 4jbattle:game/end/spectate/roundend
