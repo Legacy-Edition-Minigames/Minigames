@@ -312,6 +312,9 @@ scoreboard objectives add 4j.setcount dummy
 ##Resource loading animation timer
 scoreboard objectives add 4j.packtimerani dummy
 
+##PID calculation in squashing
+scoreboard objectives add 4j.pidcalc dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

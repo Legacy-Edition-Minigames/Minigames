@@ -26,6 +26,9 @@ scoreboard players set @a 4j.alive 1
 ##Reset kill counter
 scoreboard players reset @a 4j.killcount
 
+##Squash Player IDs down
+function 4jbattle:game/player/fixpid/check
+
 ##End the game if there are no more rounds
 execute unless score #Store 4j.round matches 2.. run function 4jbattle:game/end/run
 execute unless score #Store 4j.plist matches 2.. run function 4jbattle:game/end/run
