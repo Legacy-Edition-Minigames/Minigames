@@ -83,3 +83,5 @@ execute if score #Store 4j.map matches 40 in 4jbattle:festive_small run tp @s 10
 execute if score #Store 4j.map matches 41 in 4jbattle:atomics run tp @s 144 17 222
 #Small Atomics
 execute if score #Store 4j.map matches 42 in 4jbattle:atomics_small run tp @s 144 17 222
+#Remastered Castle
+execute if score #Store 4j.map matches 43 in 4jbattle:castle_remastered run tp @s -169 64 134

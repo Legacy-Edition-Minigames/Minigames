@@ -138,6 +138,9 @@ execute if score #Store 4j.map matches 41 in 4jbattle:atomics run function 4jbat
 ##Load Small Atomics
 execute if score #Store 4j.map matches 42 in 4jbattle:atomics_small run function 4jbattle:game/setup/teleport/check
 
+##Load Remastered Castle
+execute if score #Store 4j.map matches 43 in 4jbattle:castle_remastered run function 4jbattle:game/setup/teleport/check
+
 ##Join player team
 tag @a[tag=!relogtimer] remove spectator
 tag @a[tag=!relogtimer] add player

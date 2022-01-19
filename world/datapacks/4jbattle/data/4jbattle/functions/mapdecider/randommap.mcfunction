@@ -60,7 +60,7 @@ execute if score #Store 4j.maptype matches 1 if score #Siege 4j.enablemap matche
 #Small Siege
 execute if score #Store 4j.maptype matches 1 if score #Siege 4j.enablemap matches 1 if score #Store 4j.maprandom matches 12 run scoreboard players set #Store 4j.map 27
 #Large Castle
-execute if score #Store 4j.maptype matches 2.. if score #Castle 4j.enablemap matches 1 if score #Store 4j.maprandom matches 13 run scoreboard players set #Store 4j.map 28
+execute if score #Store 4j.maptype matches 2 if score #Castle 4j.enablemap matches 1 if score #Store 4j.maprandom matches 13 run scoreboard players set #Store 4j.map 28
 #Small Castle
 execute if score #Store 4j.maptype matches 1 if score #Castle 4j.enablemap matches 1 if score #Store 4j.maprandom matches 13 run scoreboard players set #Store 4j.map 29
 #Large Invasion
@@ -89,6 +89,8 @@ execute if score #Store 4j.maptype matches 1 if score #Festive 4j.enablemap matc
 execute if score #Store 4j.maptype matches 2.. if score #Atomics 4j.enablemap matches 1 if score #Store 4j.maprandom matches 19 run scoreboard players set #Store 4j.map 41
 #Small Atomics
 execute if score #Store 4j.maptype matches 1 if score #Atomics 4j.enablemap matches 1 if score #Store 4j.maprandom matches 19 run scoreboard players set #Store 4j.map 42
+#Remastered Castle
+execute if score #Store 4j.maptype matches 3 if score #Castle 4j.enablemap matches 1 if score #Store 4j.maprandom matches 13 run scoreboard players set #Store 4j.map 43
 
 ##Roll again if map not found
 execute if score #Store 4j.map matches ..0 run function 4jbattle:mapdecider/randommap
