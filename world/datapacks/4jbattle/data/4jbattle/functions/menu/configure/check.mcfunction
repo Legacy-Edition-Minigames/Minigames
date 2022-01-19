@@ -234,5 +234,8 @@ execute if entity @s[advancements={4jbattle:menu/host/presets/9/saved=false}] as
 #Preset 10
 execute if entity @s[advancements={4jbattle:menu/host/presets/10/saved=false}] as @s[scores={4j.gamecfg=102}] run function 4jbattle:menu/load/host/preset/load/notsaved
 
+##Transfer host
+execute as @s[scores={4j.gamecfg=103..119}] run function 4jbattle:menu/configure/swaphost/check
+
 ##Reset score
 scoreboard players reset @s 4j.gamecfg
