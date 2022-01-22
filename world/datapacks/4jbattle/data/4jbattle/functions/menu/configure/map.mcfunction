@@ -109,8 +109,14 @@ execute if score #Festive 4j.enablemap matches 1 as @s[scores={4j.gamecfg=1035}]
 ##Enable Festive if set to 1036
 execute unless score #Festive 4j.enablemap matches 1 as @s[scores={4j.gamecfg=1036}] run function 4jbattle:menu/load/host/map/festive/enable
 
-##Disable Atomics if set to 1035
+##Disable Atomics if set to 1037
 execute if score #Atomics 4j.enablemap matches 1 as @s[scores={4j.gamecfg=1037}] run function 4jbattle:menu/load/host/map/atomics/disable
 
-##Enable Atomics if set to 1036
+##Enable Atomics if set to 1038
 execute unless score #Atomics 4j.enablemap matches 1 as @s[scores={4j.gamecfg=1038}] run function 4jbattle:menu/load/host/map/atomics/enable
+
+##Disable Libertalia if set to 1039
+execute if score #Libertalia 4j.enablemap matches 1 as @s[scores={4j.gamecfg=1039}] run function 4jbattle:menu/load/host/map/libertalia/disable
+
+##Enable Libertalia if set to 1040
+execute unless score #Libertalia 4j.enablemap matches 1 as @s[scores={4j.gamecfg=1040}] run function 4jbattle:menu/load/host/map/libertalia/enable

@@ -141,6 +141,12 @@ execute if score #Store 4j.map matches 42 in 4jbattle:atomics_small run function
 ##Load Remastered Castle
 execute if score #Store 4j.map matches 43 in 4jbattle:castle_remastered run function 4jbattle:game/setup/teleport/check
 
+##Load Large Libertalia
+execute if score #Store 4j.map matches 44 in 4jbattle:libertalia run function 4jbattle:game/setup/teleport/check
+
+##Load Small Libertalia
+execute if score #Store 4j.map matches 45 in 4jbattle:libertalia_small run function 4jbattle:game/setup/teleport/check
+
 ##Join player team
 tag @a[tag=!relogtimer] remove spectator
 tag @a[tag=!relogtimer] add player

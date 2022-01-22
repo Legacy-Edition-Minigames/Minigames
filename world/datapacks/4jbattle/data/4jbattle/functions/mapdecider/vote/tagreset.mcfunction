@@ -55,3 +55,6 @@ tag @s remove votefestive
 
 ##Atomics
 tag @s remove voteatomics
+
+##Libertalia
+tag @s remove votelibertalia

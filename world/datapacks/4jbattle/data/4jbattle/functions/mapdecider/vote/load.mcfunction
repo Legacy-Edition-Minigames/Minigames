@@ -48,6 +48,8 @@ execute if score #Valley 4j.enablemap matches 1 run scoreboard players set §a5:
 execute if score #Festive 4j.enablemap matches 1 run scoreboard players set §a7:Festive 4j.mapvote 0
 #Atomics
 execute if score #Atomics 4j.enablemap matches 1 run scoreboard players set §a8-1:Atomics 4j.mapvote 0
+#Libertalia
+execute if score #Libertalia 4j.enablemap matches 1 run scoreboard players set §a8-2:Libertalia 4j.mapvote 0
 
 ##Start runner
 function 4jbattle:mapdecider/vote/check

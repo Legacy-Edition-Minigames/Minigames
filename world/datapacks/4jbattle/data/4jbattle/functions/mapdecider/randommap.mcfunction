@@ -91,6 +91,10 @@ execute if score #Store 4j.maptype matches 2.. if score #Atomics 4j.enablemap ma
 execute if score #Store 4j.maptype matches 1 if score #Atomics 4j.enablemap matches 1 if score #Store 4j.maprandom matches 19 run scoreboard players set #Store 4j.map 42
 #Remastered Castle
 execute if score #Store 4j.maptype matches 3 if score #Castle 4j.enablemap matches 1 if score #Store 4j.maprandom matches 13 run scoreboard players set #Store 4j.map 43
+#Large Libertalia
+execute if score #Store 4j.maptype matches 1 if score #Libertalia 4j.enablemap matches 1 if score #Store 4j.maprandom matches 6 run scoreboard players set #Store 4j.map 44
+#Small Libertalia
+execute if score #Store 4j.maptype matches 1 if score #Libertalia 4j.enablemap matches 1 if score #Store 4j.maprandom matches 6 run scoreboard players set #Store 4j.map 45
 
 ##Roll again if map not found
 execute if score #Store 4j.map matches ..0 run function 4jbattle:mapdecider/randommap
