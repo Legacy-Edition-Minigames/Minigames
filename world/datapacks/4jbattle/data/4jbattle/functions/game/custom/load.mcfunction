@@ -1,5 +1,6 @@
 ##Frontier
 execute if score #Store 4j.map matches 7..8 run function 4jbattle:game/custom/frontier/load
+execute if score #Store 4j.map matches 46 run function 4jbattle:game/custom/frontier/load
 
 ##Invasion
 execute if score #Store 4j.map matches 18..19 run function 4jbattle:game/custom/medusa/load

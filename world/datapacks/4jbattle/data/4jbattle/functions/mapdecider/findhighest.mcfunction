@@ -21,7 +21,7 @@ execute if score #Store 4j.maptype matches 3 if score #Cavern 4j.enablemap match
 #Small Frontier
 execute if score #Store 4j.maptype matches 1 if score #Frontier 4j.enablemap matches 1 if score §a4-1:Frontier 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 8
 #Large Frontier
-execute if score #Store 4j.maptype matches 2.. if score #Frontier 4j.enablemap matches 1 if score §a4-1:Frontier 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 7
+execute if score #Store 4j.maptype matches 2 if score #Frontier 4j.enablemap matches 1 if score §a4-1:Frontier 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 7
 #Large Shrunk
 execute if score #Store 4j.maptype matches 2 if score #Shrunk 4j.enablemap matches 1 if score §a4-3:Shrunk 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 12
 #Small Shrunk
@@ -90,6 +90,8 @@ execute if score #Store 4j.maptype matches 3 if score #Castle 4j.enablemap match
 execute if score #Store 4j.maptype matches 2.. if score #Libertalia 4j.enablemap matches 1 if score §a8-2:Libertalia 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 44
 #Small Libertalia
 execute if score #Store 4j.maptype matches 1 if score #Libertalia 4j.enablemap matches 1 if score §a8-2:Libertalia 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 45
+#Remastered Frontier
+execute if score #Store 4j.maptype matches 3 if score #Frontier 4j.enablemap matches 1 if score §a4-1:Frontier 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 46
 
 ##Load map
 function 4jbattle:mapdecider/check

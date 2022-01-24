@@ -89,3 +89,5 @@ execute if score #Store 4j.map matches 43 in 4jbattle:castle_remastered run func
 execute if score #Store 4j.map matches 44 in 4jbattle:libertalia run function 4jbattle:game/mapreset/libertalia
 #Small Libertalia
 execute if score #Store 4j.map matches 45 in 4jbattle:libertalia_small run function 4jbattle:game/mapreset/libertalia_small
+#Remastered Frontier
+execute if score #Store 4j.map matches 46 in 4jbattle:frontier_remastered run function 4jbattle:game/mapreset/frontier_remastered

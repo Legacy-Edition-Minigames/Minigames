@@ -42,6 +42,7 @@ execute if score #Store 4j.map matches 33 run title @s title ["",{"text":"\uF829
 #Frontier
 execute if score #Store 4j.map matches 8 run title @s title ["",{"text":"\uF829\uF8241","font":"4jbattle:loading/battle/icon"},{"text":"\uF80A\uF805\uF913","font":"4jbattle:loading/mapname"}]
 execute if score #Store 4j.map matches 7 run title @s title ["",{"text":"\uF829\uF8241","font":"4jbattle:loading/battle/icon"},{"text":"\uF80A\uF805\uF913","font":"4jbattle:loading/mapname"}]
+execute if score #Store 4j.map matches 46 run title @s title ["",{"text":"\uF829\uF8241","font":"4jbattle:loading/battle/icon"},{"text":"\uF80A\uF805\uF913","font":"4jbattle:loading/mapname"}]
 #Dig
 execute if score #Store 4j.map matches 14 run title @s title ["",{"text":"\uF829\uF8241","font":"4jbattle:loading/battle/icon"},{"text":"\uF80A\uF805\uF914","font":"4jbattle:loading/mapname"}]
 execute if score #Store 4j.map matches 15 run title @s title ["",{"text":"\uF829\uF8241","font":"4jbattle:loading/battle/icon"},{"text":"\uF80A\uF805\uF914","font":"4jbattle:loading/mapname"}]
@@ -69,5 +70,5 @@ execute if score #Store 4j.map matches 44 run title @s title ["",{"text":"\uF829
 execute if score #Store 4j.map matches 45 run title @s title ["",{"text":"\uF829\uF8241","font":"4jbattle:loading/battle/icon"},{"text":"\uF80A\uF805\uF920","font":"4jbattle:loading/mapname"}]
 #Fallback
 execute if score #Store 4j.map matches ..0 run title @s title ["",{"text":"\uF829\uF8241","font":"4jbattle:loading/battle/icon"},{"text":"\uF80A\uF805\uF900","font":"4jbattle:loading/mapname"}]
-execute if score #Store 4j.map matches 46.. run title @s title ["",{"text":"\uF829\uF8241","font":"4jbattle:loading/battle/icon"},{"text":"\uF80A\uF805\uF900","font":"4jbattle:loading/mapname"}]
+execute if score #Store 4j.map matches 47.. run title @s title ["",{"text":"\uF829\uF8241","font":"4jbattle:loading/battle/icon"},{"text":"\uF80A\uF805\uF900","font":"4jbattle:loading/mapname"}]
 #{"jformat":7,"jobject":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"font":"4jbattle:loading/battle/icon","color":"none","insertion":"","click_event_type":0,"click_event_value":"","hover_event_type":0,"hover_event_value":"","hover_event_object":{},"hover_event_children":[],"text":"1"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"font":"4jbattle:loading/mapname","color":"none","insertion":"","click_event_type":0,"click_event_value":"","hover_event_type":0,"hover_event_value":"","hover_event_object":{},"hover_event_children":[],"text":"\\uF80A1"}],"command":"%s","jtemplate":"tellraw"}

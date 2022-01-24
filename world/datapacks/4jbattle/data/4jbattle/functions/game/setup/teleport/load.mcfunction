@@ -89,3 +89,5 @@ execute if score #Store 4j.map matches 43 in 4jbattle:castle_remastered run tp @
 execute if score #Store 4j.map matches 44 in 4jbattle:libertalia run tp @s -12 14 197
 #Small Libertalia
 execute if score #Store 4j.map matches 45 in 4jbattle:libertalia_small run tp @s 158 14 180
+#Remastered Frontier
+execute if score #Store 4j.map matches 46 in 4jbattle:frontier_remastered run tp @s 288 52 211
