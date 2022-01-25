@@ -22,8 +22,12 @@ execute as @a[scores={heartcosmetic=5}] run function 4jbattle:clientconfig/heart
 #Hardcore
 execute as @a[scores={heartcosmetic=6}] run function 4jbattle:clientconfig/heart/switch/hardcore
 #UNDERTALE
-#Monster Soul
+#Monster Soul (MC)
 execute as @a[scores={heartcosmetic=7}] run function 4jbattle:clientconfig/heart/switch/soul_m
+#Monster Soul (UT)
+execute as @a[scores={heartcosmetic=18}] run function 4jbattle:clientconfig/heart/switch/ut_soul_m
+#Human Soul (UT)
+execute as @a[scores={heartcosmetic=19}] run function 4jbattle:clientconfig/heart/switch/ut_soul_h
 #Pride
 #Pride
 execute as @a[scores={heartcosmetic=8}] run function 4jbattle:clientconfig/heart/switch/pride

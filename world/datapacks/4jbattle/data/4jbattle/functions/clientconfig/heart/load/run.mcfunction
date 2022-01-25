@@ -14,8 +14,12 @@ execute if entity @s[advancements={4jbattle:config/heart/ice=true}] run setSuffi
 execute if entity @s[advancements={4jbattle:config/heart/hardcore=true}] run setSuffixFont alive "4jbattle:tablist/heart/minecraft/hardcore" @s
 
 ##UNDERTALE Set
-#Load Monster Soul
+#Load Monster Soul (MC)
 execute if entity @s[advancements={4jbattle:config/heart/soul_m=true}] run setSuffixFont alive "4jbattle:tablist/heart/undertale/soul_m" @s
+#Load Monster Soul (UT)
+execute if entity @s[advancements={4jbattle:config/heart/ut_soul_m=true}] run setSuffixFont alive "4jbattle:tablist/heart/undertale/ut_soul_m" @s
+#Load Human Soul (UT)
+execute if entity @s[advancements={4jbattle:config/heart/ut_soul_h=true}] run setSuffixFont alive "4jbattle:tablist/heart/undertale/ut_soul_h" @s
 
 ##Pride Set
 #Load Pride heart
