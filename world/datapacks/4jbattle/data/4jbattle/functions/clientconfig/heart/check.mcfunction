@@ -1,7 +1,16 @@
-##Display menu
-execute as @a[scores={heartcosmetic=1}] run function 4jbattle:clientconfig/heart/menu
+##Display menus
+#Main
+execute as @a[scores={heartcosmetic=1}] run function 4jbattle:clientconfig/heart/menu/main
+#Minecraft
+execute as @a[scores={heartcosmetic=-1}] run function 4jbattle:clientconfig/heart/menu/minecraft
+#UNDERTALE
+execute as @a[scores={heartcosmetic=-2}] run function 4jbattle:clientconfig/heart/menu/undertale
+#Pride
+execute as @a[scores={heartcosmetic=-3}] run function 4jbattle:clientconfig/heart/menu/pride
+
 
 ##Switch hearts
+#Minecraft
 #Default
 execute as @a[scores={heartcosmetic=2}] run function 4jbattle:clientconfig/heart/switch/default
 #Grass
@@ -12,8 +21,10 @@ execute as @a[scores={heartcosmetic=4}] run function 4jbattle:clientconfig/heart
 execute as @a[scores={heartcosmetic=5}] run function 4jbattle:clientconfig/heart/switch/ice
 #Hardcore
 execute as @a[scores={heartcosmetic=6}] run function 4jbattle:clientconfig/heart/switch/hardcore
+#UNDERTALE
 #Monster Soul
 execute as @a[scores={heartcosmetic=7}] run function 4jbattle:clientconfig/heart/switch/soul_m
+#Pride
 #Pride
 execute as @a[scores={heartcosmetic=8}] run function 4jbattle:clientconfig/heart/switch/pride
 #Trans

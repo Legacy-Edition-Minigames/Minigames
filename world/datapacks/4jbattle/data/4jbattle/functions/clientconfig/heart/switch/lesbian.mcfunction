@@ -8,7 +8,7 @@ advancement grant @s only 4jbattle:config/heart/root
 advancement grant @s only 4jbattle:config/heart/lesbian
 
 ##Load heart
-setSuffixFont alive "4jbattle:tablist/heart/lesbian" @s
+setSuffixFont alive "4jbattle:tablist/heart/pride/lesbian" @s
 
 ##Display message
 tellraw @s {"text":"Heart set successfully!","color":"green"}

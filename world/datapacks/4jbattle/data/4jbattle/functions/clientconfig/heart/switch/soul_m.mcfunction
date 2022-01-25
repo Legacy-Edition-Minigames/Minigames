@@ -8,7 +8,7 @@ advancement grant @s only 4jbattle:config/heart/root
 advancement grant @s only 4jbattle:config/heart/soul_m
 
 ##Load heart
-setSuffixFont alive "4jbattle:tablist/heart/soul_m" @s
+setSuffixFont alive "4jbattle:tablist/heart/undertale/soul_m" @s
 
 ##Display message
 tellraw @s {"text":"* You updated your Heart Cosmetic!","font":"4jbattle:dtm-mono"}
