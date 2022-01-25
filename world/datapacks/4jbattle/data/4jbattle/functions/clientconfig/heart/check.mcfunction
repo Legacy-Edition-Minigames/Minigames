@@ -7,7 +7,8 @@ execute as @a[scores={heartcosmetic=-1}] run function 4jbattle:clientconfig/hear
 execute as @a[scores={heartcosmetic=-2}] run function 4jbattle:clientconfig/heart/menu/undertale
 #Pride
 execute as @a[scores={heartcosmetic=-3}] run function 4jbattle:clientconfig/heart/menu/pride
-
+#Patreon
+execute as @a[scores={heartcosmetic=-4}] run function 4jbattle:clientconfig/heart/menu/patreon
 
 ##Switch hearts
 #Minecraft
@@ -49,6 +50,22 @@ execute as @a[scores={heartcosmetic=15}] run function 4jbattle:clientconfig/hear
 execute as @a[scores={heartcosmetic=16}] run function 4jbattle:clientconfig/heart/switch/biles
 #Lesboy
 execute as @a[scores={heartcosmetic=17}] run function 4jbattle:clientconfig/heart/switch/lesboy
+#Patreon
+#Tiny
+execute as @a[scores={heartcosmetic=20}] if entity @s[scores={4j.patreon=1..}] run function 4jbattle:clientconfig/heart/switch/tiny/run
+execute as @a[scores={heartcosmetic=20}] unless entity @s[scores={4j.patreon=1..}] run function 4jbattle:clientconfig/heart/switch/tiny/fail
+#Small
+execute as @a[scores={heartcosmetic=21}] if entity @s[scores={4j.patreon=2..}] run function 4jbattle:clientconfig/heart/switch/small/run
+execute as @a[scores={heartcosmetic=21}] unless entity @s[scores={4j.patreon=2..}] run function 4jbattle:clientconfig/heart/switch/small/fail
+#Standard
+execute as @a[scores={heartcosmetic=22}] if entity @s[scores={4j.patreon=3..}] run function 4jbattle:clientconfig/heart/switch/standard/run
+execute as @a[scores={heartcosmetic=22}] unless entity @s[scores={4j.patreon=3..}] run function 4jbattle:clientconfig/heart/switch/standard/fail
+#Large
+execute as @a[scores={heartcosmetic=23}] if entity @s[scores={4j.patreon=4..}] run function 4jbattle:clientconfig/heart/switch/large/run
+execute as @a[scores={heartcosmetic=23}] unless entity @s[scores={4j.patreon=4..}] run function 4jbattle:clientconfig/heart/switch/large/fail
+#Large+
+execute as @a[scores={heartcosmetic=24}] if entity @s[scores={4j.patreon=5..}] run function 4jbattle:clientconfig/heart/switch/largeplus/run
+execute as @a[scores={heartcosmetic=24}] unless entity @s[scores={4j.patreon=5..}] run function 4jbattle:clientconfig/heart/switch/largeplus/fail
 
 ##Enable toggle
 scoreboard players enable @a heartcosmetic

@@ -42,3 +42,15 @@ execute if entity @s[advancements={4jbattle:config/heart/panles=true}] run setSu
 execute if entity @s[advancements={4jbattle:config/heart/biles=true}] run setSuffixFont alive "4jbattle:tablist/heart/pride/biles" @s
 #Load Lesboy heart
 execute if entity @s[advancements={4jbattle:config/heart/lesboy=true}] run setSuffixFont alive "4jbattle:tablist/heart/pride/lesboy" @s
+
+##Patreon
+#Tiny
+execute if entity @s[advancements={4jbattle:config/heart/tiny=true}] run setSuffixFont alive "4jbattle:tablist/heart/patreon/tiny" @s
+#Small
+execute if entity @s[advancements={4jbattle:config/heart/small=true}] run setSuffixFont alive "4jbattle:tablist/heart/patreon/small" @s
+#Standard
+execute if entity @s[advancements={4jbattle:config/heart/standard=true}] run setSuffixFont alive "4jbattle:tablist/heart/patreon/standard" @s
+#Large
+execute if entity @s[advancements={4jbattle:config/heart/large=true}] run setSuffixFont alive "4jbattle:tablist/heart/patreon/large" @s
+#Large+
+execute if entity @s[advancements={4jbattle:config/heart/largeplus=true}] run setSuffixFont alive "4jbattle:tablist/heart/patreon/largeplus" @s

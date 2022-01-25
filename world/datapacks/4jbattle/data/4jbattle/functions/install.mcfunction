@@ -315,6 +315,9 @@ scoreboard objectives add 4j.packtimerani dummy
 ##PID calculation in squashing
 scoreboard objectives add 4j.pidcalc dummy
 
+##Patreon integration
+scoreboard objectives add 4j.patreon dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

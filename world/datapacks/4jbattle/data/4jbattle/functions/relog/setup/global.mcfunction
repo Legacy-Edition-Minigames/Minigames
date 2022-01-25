@@ -23,6 +23,9 @@ tag @s remove relogtimer
 scoreboard players reset @s
 function 4jbattle:game/player/setpid
 
+##Detect if Patreon
+function 4jbattle:relog/setup/patreon
+
 ##Clear title
 title @s title ""
 title @s subtitle ""

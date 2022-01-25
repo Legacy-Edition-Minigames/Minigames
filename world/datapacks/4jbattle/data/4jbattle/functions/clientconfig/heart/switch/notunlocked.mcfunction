@@ -1,0 +1,1 @@
+tellraw @s {"text":"You have not unlocked this heart cosmetic!","color":"red"}
