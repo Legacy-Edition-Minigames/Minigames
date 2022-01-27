@@ -120,3 +120,9 @@ execute if score #Libertalia 4j.enablemap matches 1 as @s[scores={4j.gamecfg=103
 
 ##Enable Libertalia if set to 1040
 execute unless score #Libertalia 4j.enablemap matches 1 as @s[scores={4j.gamecfg=1040}] run function 4jbattle:menu/load/host/map/libertalia/enable
+
+##Disable Capitol if set to 1041
+execute if score #Capitol 4j.enablemap matches 1 as @s[scores={4j.gamecfg=1041}] run function 4jbattle:menu/load/host/map/capitol/disable
+
+##Enable Capitol if set to 1042
+execute unless score #Capitol 4j.enablemap matches 1 as @s[scores={4j.gamecfg=1042}] run function 4jbattle:menu/load/host/map/capitol/enable
