@@ -30,3 +30,9 @@ execute if score #Store 4j.map matches 44..45 run function 4jbattle:game/resourc
 execute if score #Store 4j.map matches 47..48 run function 4jbattle:game/resource/load/fallout/run
 #Default
 execute if entity @s[tag=relogtimer,tag=!custompack] run function 4jbattle:game/resource/load/vanilla/run
+
+##Give resourceloaded tag to custom pack users
+tag @s[advancements={4jbattle:config/custompack=true}] add resourceloaded
+
+##Give tag if using custom pack
+tag @s[advancements={4jbattle:config/custompack=true}] add nopackreload

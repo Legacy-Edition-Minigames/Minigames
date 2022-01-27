@@ -1,0 +1,8 @@
+##Enable config option
+advancement revoke @s only 4jbattle:config/custompack
+
+##Reset score
+scoreboard players reset @s custompack
+
+##Display message
+tellraw @s ["",{"text":"Custom Pack disabled!","color":"red"},"\n",{"text":"Please either relog or type ","color":"gold"},{"text":"/trigger reloadresources","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger reloadresources"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click to reload resources","italic":true,"color":"yellow"}]}},{"text":" for changes to apply.","color":"gold"}]

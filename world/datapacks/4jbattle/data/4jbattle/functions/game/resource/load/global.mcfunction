@@ -17,4 +17,4 @@ function 4jbattle:game/resource/load/timer/run
 #Reset loading animation
 scoreboard players set #Store 4j.packtimerani 1
 #Start
-function 4jbattle:game/resource/load/timer/tablist/run
+execute if entity @a[tag=!relogtimer,tag=!nopackreload] run function 4jbattle:game/resource/load/timer/tablist/run

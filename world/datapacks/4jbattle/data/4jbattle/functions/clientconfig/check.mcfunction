@@ -16,5 +16,8 @@ function 4jbattle:clientconfig/swaptipped/check
 ##VT Dark small inventory
 function 4jbattle:clientconfig/vtdarkinv/check
 
+##Custom Pack
+function 4jbattle:clientconfig/custompack/check
+
 ##Loop
 schedule function 4jbattle:clientconfig/check 1s

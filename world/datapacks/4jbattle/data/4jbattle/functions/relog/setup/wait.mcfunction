@@ -23,7 +23,7 @@ tag @s remove respawndelay
 tag @s remove headstore
 tag @s remove resourceloaded
 tag @s remove custompack
-tag @s remove allmusic1
+tag @s remove nopackreload
 tag @s remove keeprltimer
 tag @s remove delfix
 
@@ -69,5 +69,8 @@ setSuffixFont alive "4jbattle:tablist/heart/empty" @s
 ##Set resource load delay (In ticks!!)
 scoreboard players set @s 4j.timer 100
 
-##Run timer
-function 4jbattle:relog/timer/check
+##Run timer if custom pack is not enabled
+execute if entity @s[advancements={4jbattle:config/custompack=false}] run function 4jbattle:relog/timer/check
+
+##Join if custom pack is enabled
+execute if entity @s[advancements={4jbattle:config/custompack=true}] run function 4jbattle:relog/setup/global
