@@ -12,7 +12,7 @@ This should only be used if you have issues downloading the pack or want to use 
 
 2. Download the `all-music-1.zip` file for your respective release type
 
-3. Install `all-music-1.zip` to your Minecraft Resource Packs (*(?)[https://www.planetminecraft.com/blog/how-to-install-a-resource-pack/]*)
+3. Install `all-music-1.zip` to your Minecraft Resource Packs [(?)](https://www.planetminecraft.com/blog/how-to-install-a-resource-pack/)
 
 4. Join LEB, and type `/trigger custompack`, then relog
 
