@@ -60,6 +60,8 @@ scoreboard players set #Festive 4j.enablemap 1
 scoreboard players set #Atomics 4j.enablemap 1
 #Libertalia
 scoreboard players set #Libertalia 4j.enablemap 1
+#Capitol
+scoreboard players set #Capitol 4j.enablemap 1
 
 ##Enable item sets
 #Normal
@@ -79,7 +81,7 @@ scoreboard players set #Remastered 4j.enableset 1
 scoreboard players set #Store 4j.setmaptype 1
 
 ##Set mapcount
-scoreboard players set #Store 4j.mapcount 20
+scoreboard players set #Store 4j.mapcount 21
 
 ##Set item set count
 scoreboard players set #Store 4j.setcount 6

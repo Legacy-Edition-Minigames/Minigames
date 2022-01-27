@@ -58,3 +58,6 @@ tag @s remove voteatomics
 
 ##Libertalia
 tag @s remove votelibertalia
+
+##Capitol
+tag @s remove votecapitol

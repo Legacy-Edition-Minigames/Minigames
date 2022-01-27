@@ -150,6 +150,12 @@ execute if score #Store 4j.map matches 45 in 4jbattle:libertalia_small run funct
 ##Load Remastered Frontier
 execute if score #Store 4j.map matches 46 in 4jbattle:frontier_remastered run function 4jbattle:game/setup/teleport/check
 
+##Load Large Capitol
+execute if score #Store 4j.map matches 47 in 4jbattle:capitol run function 4jbattle:game/setup/teleport/check
+
+##Load Small Capitol
+execute if score #Store 4j.map matches 48 in 4jbattle:capitol_small run function 4jbattle:game/setup/teleport/check
+
 ##Join player team
 tag @a[tag=!relogtimer] remove spectator
 tag @a[tag=!relogtimer] add player

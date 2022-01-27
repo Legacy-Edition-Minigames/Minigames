@@ -92,6 +92,10 @@ execute if score #Store 4j.maptype matches 2.. if score #Libertalia 4j.enablemap
 execute if score #Store 4j.maptype matches 1 if score #Libertalia 4j.enablemap matches 1 if score §a8-2:Libertalia 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 45
 #Remastered Frontier
 execute if score #Store 4j.maptype matches 3 if score #Frontier 4j.enablemap matches 1 if score §a4-1:Frontier 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 46
+#Large Capitol
+execute if score #Store 4j.maptype matches 2.. if score #Capitol 4j.enablemap matches 1 if score §a8-3:Capitol 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 47
+#Small Capitol
+execute if score #Store 4j.maptype matches 1 if score #Capitol 4j.enablemap matches 1 if score §a8-3:Capitol 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 48
 
 ##Load map
 function 4jbattle:mapdecider/check

@@ -121,6 +121,12 @@ execute if score #Libertalia 4j.enablemap matches 1 run tellraw @s ["",{"text":"
 #Disabled
 execute if score #Libertalia 4j.enablemap matches 0 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1040"}},{"text":"❌","color":"red","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1040"}},{"text":"] Libertalia","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1040"}}]
 
+##Capitol
+#Enabled
+execute if score #Capitol 4j.enablemap matches 1 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1041"}},{"text":"✔","color":"green","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1041"}},{"text":"] Capitol","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1041"}}]
+#Disabled
+execute if score #Capitol 4j.enablemap matches 0 run tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1042"}},{"text":"❌","color":"red","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1042"}},{"text":"] Capitol","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 1042"}}]
+
 ##Go back button
 tellraw @s {"text":"[Go Back]","color":"gray","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click to go back to the normal configuration page","color":"dark_aqua"}]}}
 

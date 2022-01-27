@@ -57,3 +57,6 @@ execute if entity @s[tag=voteatomics] run scoreboard players remove §a8-1:Atomi
 
 ##Remove Libertalia map vote
 execute if entity @s[tag=votelibertalia] run scoreboard players remove §a8-2:Libertalia 4j.mapvote 1
+
+##Remove Capitol map vote
+execute if entity @s[tag=votecapitol] run scoreboard players remove §a8-3:Capitol 4j.mapvote 1

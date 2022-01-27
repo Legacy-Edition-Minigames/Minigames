@@ -42,8 +42,10 @@ execute if score #Store 4j.map matches 39..40 run function 4jbattle:game/music/f
 execute if score #Store 4j.map matches 41..42 run function 4jbattle:game/music/fallout/pick
 #Libertalia
 execute if score #Store 4j.map matches 44..45 run function 4jbattle:game/music/fallout/pick
+#Capitol
+execute if score #Store 4j.map matches 47..48 run function 4jbattle:game/music/fallout/pick
 #Default to vanilla if not set
-execute if score #Store 4j.map matches 47.. run function 4jbattle:game/music/vanilla/pick
+execute if score #Store 4j.map matches 49.. run function 4jbattle:game/music/vanilla/pick
 
 ##Debug Info
 tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Picking song for ","color":"gold"},{"selector":"@s","color":"yellow"}]

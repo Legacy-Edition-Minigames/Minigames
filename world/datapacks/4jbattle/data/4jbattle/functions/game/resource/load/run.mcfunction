@@ -26,5 +26,7 @@ execute if score #Store 4j.map matches 39..40 run function 4jbattle:game/resourc
 execute if score #Store 4j.map matches 41..42 run function 4jbattle:game/resource/load/fallout/run
 #Libertalia
 execute if score #Store 4j.map matches 44..45 run function 4jbattle:game/resource/load/fallout/run
+#Capitol
+execute if score #Store 4j.map matches 47..48 run function 4jbattle:game/resource/load/fallout/run
 #Default
 execute if entity @s[tag=relogtimer,tag=!custompack] run function 4jbattle:game/resource/load/vanilla/run
