@@ -5,7 +5,7 @@
 function 4jbattle:game/mapreset/global
 
 ##Set Structure block
-setblock -10 101 215 minecraft:structure_block[mode=load]{author:"DBTDerpbox",ignoreEntities:0b,integrity:1.0f,metadata:"",mirror:"NONE",mode:"LOAD",name:"4jbattle:cove",posX:0,posY:-47,posZ:0,powered:0b,rotation:"NONE",seed:0L,showair:0b,showboundingbox:1b,sizeX:118,sizeY:48,sizeZ:80}
+setblock -10 101 211 minecraft:structure_block[mode=load]{author:"DBTDerpbox",id:"minecraft:structure_block",ignoreEntities:0b,integrity:1.0f,metadata:"",mirror:"NONE",mode:"LOAD",name:"4jbattle:cove",posX:0,posY:-47,posZ:0,powered:0b,rotation:"NONE",seed:0L,showair:0b,showboundingbox:1b,sizeX:118,sizeY:48,sizeZ:84,x:-10,y:101,z:211}
 
 ##Activate structure block
-setblock -9 101 215 minecraft:redstone_block
+setblock -9 101 211 minecraft:redstone_block
