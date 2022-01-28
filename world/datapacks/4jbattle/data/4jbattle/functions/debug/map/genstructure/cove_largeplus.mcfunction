@@ -1,0 +1,2 @@
+execute in 4jbattle:cove_largeplus run setblock -11 102 210 air
+execute in 4jbattle:cove_largeplus run setblock -11 102 210 minecraft:structure_block[mode=save]{author:"DBTDerpbox",id:"minecraft:structure_block",ignoreEntities:0b,integrity:1.0f,metadata:"",mirror:"NONE",mode:"SAVE",name:"4jbattle:cove_largeplus",posX:1,posY:-48,posZ:1,powered:0b,rotation:"NONE",seed:0L,showair:0b,showboundingbox:1b,sizeX:118,sizeY:48,sizeZ:84,x:-11,y:102,z:210}
