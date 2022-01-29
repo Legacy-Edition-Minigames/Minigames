@@ -52,6 +52,8 @@ advancement revoke @s only 4jbattle:menu/host/presets/6/map/enabled/valley
 advancement revoke @s only 4jbattle:menu/host/presets/6/map/enabled/halloween
 advancement revoke @s only 4jbattle:menu/host/presets/6/map/enabled/festive
 advancement revoke @s only 4jbattle:menu/host/presets/6/map/enabled/atomics
+advancement revoke @s only 4jbattle:menu/host/presets/6/map/enabled/libertalia
+advancement revoke @s only 4jbattle:menu/host/presets/6/map/enabled/capitol
 advancement revoke @s only 4jbattle:menu/host/presets/6/regen/enabled
 advancement revoke @s only 4jbattle:menu/host/presets/6/rounds/1
 advancement revoke @s only 4jbattle:menu/host/presets/6/rounds/2
@@ -100,9 +102,9 @@ execute if score #Remastered 4j.enableset matches 1 run advancement grant @s onl
 #Normal
 execute if score #Store 4j.hungertype matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/hunger/normal
 #Fast Healing
-execute if score #Store 4j.hungertype matches 2 run advancement grant @s only 4jbattle:menu/host/presets/6/hunger/fasthealing
+execute if score #Store 4j.hungertype matches 3 run advancement grant @s only 4jbattle:menu/host/presets/6/hunger/fasthealing
 #Beta
-execute if score #Store 4j.hungertype matches 3 run advancement grant @s only 4jbattle:menu/host/presets/6/hunger/beta
+execute if score #Store 4j.hungertype matches 2 run advancement grant @s only 4jbattle:menu/host/presets/6/hunger/beta
 
 ##Inventory settings
 #Small inv
@@ -153,6 +155,8 @@ execute if score #Valley 4j.enablemap matches 1 run advancement grant @s only 4j
 execute if score #Halloween 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/map/enabled/halloween
 execute if score #Festive 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/map/enabled/festive
 execute if score #Atomics 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/map/enabled/atomics
+execute if score #Libertalia 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/map/enabled/libertalia
+execute if score #Capitol 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/map/enabled/capitol
 
 ##Regeneration settings
 #Enabled

@@ -1,5 +1,5 @@
 ##Enable map
-scoreboard players set #Captiol 4j.enablemap 1
+scoreboard players set #Capitol 4j.enablemap 1
 
 ##Increase mapcount
 scoreboard players add #Store 4j.mapcount 1

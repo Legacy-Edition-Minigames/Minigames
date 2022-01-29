@@ -28,10 +28,13 @@ execute if entity @s[advancements={4jbattle:menu/host/presets/4/chest/randomconf
 ##Hunger settings
 #Normal
 execute if entity @s[advancements={4jbattle:menu/host/presets/4/hunger/normal=true}] run scoreboard players set #Store 4j.hungertype 1
+execute if entity @s[advancements={4jbattle:menu/host/presets/4/hunger/normal=true}] run scoreboard players set #Store 4j.healtimer 37
 #Fast Healing
-execute if entity @s[advancements={4jbattle:menu/host/presets/4/hunger/fasthealing=true}] run scoreboard players set #Store 4j.hungertype 2
+execute if entity @s[advancements={4jbattle:menu/host/presets/4/hunger/fasthealing=true}] run scoreboard players set #Store 4j.hungertype 3
+execute if entity @s[advancements={4jbattle:menu/host/presets/4/hunger/fasthealing=true}] run scoreboard players set #Store 4j.healtimer 20
 #Beta
-execute if entity @s[advancements={4jbattle:menu/host/presets/4/hunger/beta=true}] run scoreboard players set #Store 4j.hungertype 3
+execute if entity @s[advancements={4jbattle:menu/host/presets/4/hunger/beta=true}] run scoreboard players set #Store 4j.hungertype 2
+execute if entity @s[advancements={4jbattle:menu/host/presets/4/hunger/beta=true}] run scoreboard players set #Store 4j.healtimer 160
 
 ##Inventory settings
 #Small inv

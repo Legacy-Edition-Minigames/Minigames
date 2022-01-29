@@ -55,3 +55,9 @@ execute if entity @s[advancements={4jbattle:menu/host/presets/1/map/enabled/fest
 execute if entity @s[advancements={4jbattle:menu/host/presets/1/map/enabled/atomics=true}] run scoreboard players set #Atomics 4j.enablemap 1
 execute if entity @s[advancements={4jbattle:menu/host/presets/1/map/enabled/atomics=false}] run scoreboard players set #Atomics 4j.enablemap 0
 execute if entity @s[advancements={4jbattle:menu/host/presets/1/map/enabled/atomics=false}] run scoreboard players remove #Store 4j.mapcount 1
+execute if entity @s[advancements={4jbattle:menu/host/presets/1/map/enabled/libertalia=true}] run scoreboard players set #Libertalia 4j.enablemap 1
+execute if entity @s[advancements={4jbattle:menu/host/presets/1/map/enabled/libertalia=false}] run scoreboard players set #Libertalia 4j.enablemap 0
+execute if entity @s[advancements={4jbattle:menu/host/presets/1/map/enabled/libertalia=false}] run scoreboard players remove #Store 4j.mapcount 1
+execute if entity @s[advancements={4jbattle:menu/host/presets/1/map/enabled/capitol=true}] run scoreboard players set #Capitol 4j.enablemap 1
+execute if entity @s[advancements={4jbattle:menu/host/presets/1/map/enabled/capitol=false}] run scoreboard players set #Capitol 4j.enablemap 0
+execute if entity @s[advancements={4jbattle:menu/host/presets/1/map/enabled/capitol=false}] run scoreboard players remove #Store 4j.mapcount 1
