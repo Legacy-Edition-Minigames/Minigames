@@ -115,7 +115,7 @@
                 },
                 {
                   "function": "minecraft:set_nbt",
-                  "tag": "{display:{Name:'{\"translate\":\"item.minecraft.iron_axe\",\"italic\":false}',Lore:['[{\"text\":\"+6.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2,CustomModelData:1,Enchantments:[{id:\"minecraft:knockback\",lvl:1s}]}"
+                  "tag": "{display:{Name:'{\"translate\":\"item.minecraft.diamond_axe\",\"italic\":false}',Lore:['[{\"text\":\"+6.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2,CustomModelData:1,Enchantments:[{id:\"minecraft:knockback\",lvl:1s}]}"
                 }
               ]
           },
