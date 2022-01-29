@@ -1,5 +1,5 @@
 ##Hunger Pain
-execute as @a[scores={4j.kill=1..,4j.hungerbar=..0}] run advancement grant @s only 4jbattle:hunger
+execute unless score #Store 4j.hungertype matches 2 as @a[scores={4j.kill=1..,4j.hungerbar=..0}] run advancement grant @s only 4jbattle:hunger
 
 ##Cupid
 #Add count
