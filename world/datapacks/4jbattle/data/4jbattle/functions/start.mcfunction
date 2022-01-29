@@ -5,7 +5,7 @@ function 4jbattle:relog/check
 function 4jbattle:disconnect/check
 
 ##Check for missing host
-function 4jbattle:host/check
+function 4jbattle:host/check/run
 
 ##Load PlayerBar
 function 4jbattle:game/gui/display

@@ -17,14 +17,6 @@ execute in minecraft:overworld run tp @s 7 97 -149
 #kill @e[type=armor_stand,tag=guitest]
 #summon armor_stand -426.504 51.35 -352.1 {NoGravity:1b,Invisible:1b,Tags:["guitest"],DisabledSlots:1052688,Rotation:[180F,0F],ArmorItems:[{},{},{},{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:2}}]}
 
-##Reset all PID
-#Reset stored PID
-scoreboard players reset #Store 4j.pid
-#Reset everyone's PID
-scoreboard players reset @a 4j.pid
-#Player
-execute as @a[tag=!relogtimer] run function 4jbattle:game/player/setpid
-
 ##Load defaults
 function 4jbattle:menu/load/host/defaults
 

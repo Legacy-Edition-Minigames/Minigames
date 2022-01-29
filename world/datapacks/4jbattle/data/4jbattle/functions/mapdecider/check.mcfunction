@@ -1,5 +1,5 @@
 ##Stop checking for host
-schedule clear 4jbattle:host/check
+schedule clear 4jbattle:host/check/run
 
 ##Stop checking for gamecfg
 schedule clear 4jbattle:menu/configure/runner

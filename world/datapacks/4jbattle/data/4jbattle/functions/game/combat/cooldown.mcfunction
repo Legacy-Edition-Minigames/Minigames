@@ -8,4 +8,4 @@ execute as @a run attribute @s minecraft:generic.attack_speed base set 100
 schedule function 4jbattle:game/combat/cooldown 10s
 
 ##Stop if nobody is online
-execute unless entity @r run schedule clear 4jbattle:game/combat/cooldown
+execute unless entity @a run schedule clear 4jbattle:game/combat/cooldown
