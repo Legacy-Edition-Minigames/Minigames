@@ -4,6 +4,9 @@ execute as @a[tag=player] run scoreboard players operation @s 4j.drawscore = @s 
 ##Remove damage taken
 execute as @a[tag=player] run scoreboard players operation @s 4j.drawscore -= @s 4j.damagetaken
 
+##Add a bunch of score
+scoreboard players add @a 4j.drawscore 9999999
+
 ##Disable victor check
 scoreboard players set #Store 4j.novictorcheck 1
 
@@ -24,4 +27,7 @@ execute if score #Store 4j.victorcount matches 2.. run tag @a remove Victor
 execute if score #Store 4j.victorcount matches 1 as @a[tag=player,tag=!Victor] run function 4jbattle:game/death/run
 
 ##Debug message
+#Remove artificial score
+scoreboard players remove @a 4j.drawscore 9999999
+#Display
 execute as @a run tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"selector":"@s ","color":"yellow"},{"text":" - Kills: ","color":"gold"},{"score":{"name":"@s","objective":"4j.killcount"},"color":"yellow"},{"text":" Dealt: ","color":"gold"},{"score":{"name":"@s","objective":"4j.damagedealt"},"color":"yellow"},{"text":" Taken: ","color":"gold"},{"score":{"name":"@s","objective":"4j.damagetaken"},"color":"yellow"},{"text":" Score: ","color":"gold"},{"score":{"name":"@s","objective":"4j.drawscore"},"color":"yellow"}]
