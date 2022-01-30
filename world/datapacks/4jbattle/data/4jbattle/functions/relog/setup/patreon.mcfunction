@@ -2,7 +2,7 @@
 #Derpbox
 scoreboard players set DBTDerpbox 4j.patreon 5
 #sjk210/40400943/Robux Generator
-scoreboard players set 8411f30e-2ba5-431f-bbcd-e3fac5597649 4j.patreon 3
+scoreboard players set Robux_Generator 4j.patreon 3
 
 ##Reset heart if no longer subscribed
 #Tiny
