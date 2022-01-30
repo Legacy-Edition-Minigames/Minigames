@@ -1,6 +1,6 @@
 ### Preperation
 
-* You need Java 16 or higher to be installed before you can proceed, you can find it at [Oracle.com](https://www.oracle.com/java/technologies/javase-jdk16-downloads.html)
+* You need Java 17 or higher to be installed before you can proceed, you can find it at [Oracle.com](https://www.oracle.com/java/technologies/javase-jdk16-downloads.html)
 
 ### Installation
 
