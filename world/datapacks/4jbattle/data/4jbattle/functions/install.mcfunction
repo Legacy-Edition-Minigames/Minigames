@@ -241,8 +241,14 @@ scoreboard objectives add 4j.fullreset dummy
 ##Potion visual fix
 scoreboard objectives add 4j.visfix dummy
 
+##X Position
+scoreboard objectives add 4j.xvalue dummy
+
 ##Y Position
 scoreboard objectives add 4j.yvalue dummy
+
+##Z Position
+scoreboard objectives add 4j.zvalue dummy
 
 ##Round time limit
 scoreboard objectives add 4j.timelimit dummy

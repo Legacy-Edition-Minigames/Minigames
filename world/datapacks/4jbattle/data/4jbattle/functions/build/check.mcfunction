@@ -16,6 +16,12 @@ execute as @e[type=bat,tag=spawncentertp] at @s run function 4jbattle:build/spaw
 #Old Lobby
 #execute as @e[type=bat,tag=spawncentertp] at @s run function 4jbattle:build/spawn/spawnpoint/lobby/old
 
+##Borders
+#Positive
+execute as @e[type=bat,tag=spawnborder+] at @s run function 4jbattle:build/spawn/border/positive
+#Negative
+execute as @e[type=bat,tag=spawnborder-] at @s run function 4jbattle:build/spawn/border/negative
+
 ##Center
 execute as @e[type=bat,tag=spawncenter] at @s run function 4jbattle:build/spawn/center
 

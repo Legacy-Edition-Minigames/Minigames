@@ -16,3 +16,6 @@ execute if score #Store 4j.map matches 34 run function 4jbattle:game/custom/shru
 
 ##Halloween
 execute if score #Store 4j.map matches 35..36 run function 4jbattle:game/custom/halloween/stop
+
+##Libertalia
+execute if score #Store 4j.map matches 44..45 run function 4jbattle:game/custom/libertalia/stop
