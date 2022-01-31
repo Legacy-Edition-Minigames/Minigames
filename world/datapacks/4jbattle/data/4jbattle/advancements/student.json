@@ -5,7 +5,7 @@
       },
       "title": "The student...",
       "description": "Win a battle mini game.",
-      "frame": "task"
+      "frame": "goal"
     },
     "parent": "4jbattle:root",
     "criteria": {

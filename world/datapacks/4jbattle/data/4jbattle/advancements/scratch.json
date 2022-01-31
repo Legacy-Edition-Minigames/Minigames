@@ -5,7 +5,7 @@
       },
       "title": "'Tis but a scratch",
       "description": "Take 100 damage in a round of a battle mini game.",
-      "frame": "task"
+      "frame": "goal"
     },
     "parent": "4jbattle:root",
     "criteria": {
