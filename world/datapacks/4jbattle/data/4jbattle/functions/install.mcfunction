@@ -327,6 +327,9 @@ scoreboard objectives add 4j.patreon dummy
 ##Custom Pack
 scoreboard objectives add custompack trigger
 
+##Respawning delay
+scoreboard objectives add 4j.respawndelay dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
