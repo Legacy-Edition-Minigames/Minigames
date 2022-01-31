@@ -26,6 +26,10 @@ tag @s remove custompack
 tag @s remove nopackreload
 tag @s remove keeprltimer
 tag @s remove delfix
+tag @s remove inbounds-x+
+tag @s remove inbounds-z+
+tag @s remove inbounds-x-
+tag @s remove inbounds-z-
 
 ##Add notready tag
 tag @s add notready

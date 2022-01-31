@@ -2,6 +2,9 @@
 execute if entity @s[tag=relogtimer] run tag @s add keeprltimer
 tag @s[tag=!keeprltimer] add relogtimer
 
+##Remove custompack to allow it to work in relogtimer menu
+tag @s remove custompack
+
 ##Reload resources
 function 4jbattle:game/resource/load/run
 
