@@ -1,9 +1,6 @@
 ##Change gamemode to spectator
 gamemode spectator @s
 
-##Display Death message
-#tellraw @s "You died"
-
 ##Switch to spectator tag
 tag @s remove player
 tag @s add spectator

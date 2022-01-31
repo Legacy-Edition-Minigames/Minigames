@@ -32,7 +32,7 @@ tag @s remove inbounds-x-
 tag @s remove inbounds-z-
 
 ##Add notready tag
-tag @s add notready
+execute if score #Store 4j.gamestatus matches 2 if score #Store 4j.lives matches -1 run tag @s add notready
 
 ##Reset kill counter
 #Per-Round
