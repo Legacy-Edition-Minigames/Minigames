@@ -30,6 +30,9 @@ function 4jbattle:relog/setup/patreon
 title @s title ""
 title @s subtitle ""
 
+##Set title times
+title @a times 0 10 1
+
 ##Display some game settings
 execute if score #Store 4j.gamestatus matches 2 run function 4jbattle:game/timer/start/displaysettings
 
@@ -55,7 +58,7 @@ function 4jbattle:relog/gamecheck
 function 4jbattle:game/combat/cooldown
 
 ##Disable FriendlyFire
-attribute @s minecraft:generic.attack_damage base set -100
+execute unless score #Store 4j.gamestatus matches 2 run attribute @s minecraft:generic.attack_damage base set -100
 
 ##Load MapDecider
 execute if score #Store 4j.gamestatus matches 1 run function 4jbattle:mapdecider/vote/join

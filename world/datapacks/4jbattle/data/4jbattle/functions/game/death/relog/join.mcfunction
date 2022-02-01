@@ -2,7 +2,10 @@
 tag @s add player
 
 ##Respawn
+#Run
 function 4jbattle:game/respawn/run
+#Respawn instantly
+scoreboard players set @s 4j.respawndelay 0
 
 ##Refresh playerbar
 #Set ready

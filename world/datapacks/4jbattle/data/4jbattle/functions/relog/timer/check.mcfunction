@@ -10,9 +10,6 @@ execute as @a[tag=relogtimer,scores={4j.timer=0},advancements={4jbattle:resource
 ##Send to game once timer ends
 execute as @a[tag=relogtimer,advancements={4jbattle:resource/finished=true}] run function 4jbattle:relog/setup/global
 
-##Set title times
-title @a times 0 50 1
-
 ##Display text
 title @a[tag=relogtimer] title "Installing resources..."
 title @a[tag=relogtimer] subtitle "Type /trigger reloadresources to try again."
