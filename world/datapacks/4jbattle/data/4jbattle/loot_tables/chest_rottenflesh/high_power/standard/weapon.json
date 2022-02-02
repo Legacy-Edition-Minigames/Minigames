@@ -47,7 +47,7 @@
           },
           {
             "type": "minecraft:loot_table",
-            "name": "4jbattle:chest/normal/regular/bow_and_arrows"
+            "name": "4jbattle:chest/normal/standard/bow_and_arrows"
           },
           {
             "type": "minecraft:item",

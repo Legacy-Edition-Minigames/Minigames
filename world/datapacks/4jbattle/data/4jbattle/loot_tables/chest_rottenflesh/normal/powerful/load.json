@@ -5,7 +5,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "4jbattle:chest/normal/special/weapon"
+            "name": "4jbattle:chest/normal/powerful/weapon"
           }
         ]
       },
@@ -14,7 +14,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "4jbattle:chest/normal/special/armor"
+            "name": "4jbattle:chest/normal/powerful/armor"
           }
         ]
       },
@@ -24,7 +24,7 @@
             {
                 "type": "minecraft:loot_table",
                 "weight": 1,
-                "name": "4jbattle:chest/normal/special/armor"
+                "name": "4jbattle:chest/normal/powerful/armor"
               },
           {
             "type": "minecraft:item",

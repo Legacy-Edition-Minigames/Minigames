@@ -117,7 +117,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "4jbattle:chest/food_central/regular/weapon"
+            "name": "4jbattle:chest/food_central/standard/weapon"
           }
         ]
       }

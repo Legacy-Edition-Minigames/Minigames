@@ -188,7 +188,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "4jbattle:chest/no_armor/regular/weapon"
+            "name": "4jbattle:chest/no_armor/standard/weapon"
           }
         ]
       }

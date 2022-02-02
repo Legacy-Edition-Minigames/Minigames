@@ -259,7 +259,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "4jbattle:chest/remastered/regular/weapon"
+            "name": "4jbattle:chest/remastered/standard/weapon"
           }
         ]
       }

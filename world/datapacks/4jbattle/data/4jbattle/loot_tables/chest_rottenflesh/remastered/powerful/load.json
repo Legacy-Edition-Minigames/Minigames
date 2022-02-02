@@ -5,7 +5,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "4jbattle:chest/remastered/special/weapon"
+            "name": "4jbattle:chest/remastered/powerful/weapon"
           }
         ]
       },
@@ -14,7 +14,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "4jbattle:chest/remastered/special/armor"
+            "name": "4jbattle:chest/remastered/powerful/armor"
           }
         ]
       },
@@ -24,7 +24,7 @@
             {
                 "type": "minecraft:loot_table",
                 "weight": 1,
-                "name": "4jbattle:chest/remastered/special/armor"
+                "name": "4jbattle:chest/remastered/powerful/armor"
               },
           {
             "type": "minecraft:item",
