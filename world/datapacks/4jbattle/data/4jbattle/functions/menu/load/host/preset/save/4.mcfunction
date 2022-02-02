@@ -80,6 +80,7 @@ advancement revoke @s only 4jbattle:menu/host/presets/4/timelimit/short
 advancement revoke @s only 4jbattle:menu/host/presets/4/timelimit/normal
 advancement revoke @s only 4jbattle:menu/host/presets/4/timelimit/long
 advancement revoke @s only 4jbattle:menu/host/presets/4/tp/surround
+advancement revoke @s only 4jbattle:menu/host/presets/4/takeeverything/disabled
 
 ##Chest settings
 #Item set
@@ -109,6 +110,9 @@ execute if score #Store 4j.hungertype matches 2 run advancement grant @s only 4j
 ##Inventory settings
 #Small inv
 execute if score #Store 4j.smallinv matches 1 run advancement grant @s only 4jbattle:menu/host/presets/4/inventory/small
+
+##Take Everything
+execute if score #Store 4j.takeall matches 0 run advancement grant @s only 4jbattle:menu/host/presets/4/takeeverything/disabled
 
 ##Lives
 #Infinite

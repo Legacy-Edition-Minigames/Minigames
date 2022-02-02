@@ -41,6 +41,10 @@ execute if entity @s[advancements={4jbattle:menu/host/presets/10/hunger/beta=tru
 execute if entity @s[advancements={4jbattle:menu/host/presets/10/inventory/small=true}] run scoreboard players set #Store 4j.smallinv 1
 execute if entity @s[advancements={4jbattle:menu/host/presets/10/inventory/small=false}] run scoreboard players set #Store 4j.smallinv 0
 
+##Take Everything
+execute if entity @s[advancements={4jbattle:menu/host/presets/10/takeeverything/disabled=false}] run scoreboard players set #Store 4j.takeall 1
+execute if entity @s[advancements={4jbattle:menu/host/presets/10/takeeverything/disabled=true}] run scoreboard players set #Store 4j.takeall 0
+
 ##Lives
 #Infinite
 execute if entity @s[advancements={4jbattle:menu/host/presets/10/lives/-1=true}] run scoreboard players set #Store 4j.lives -1

@@ -87,6 +87,10 @@ execute if entity @s[advancements={4jbattle:menu/host/presets/9/regen/enabled=fa
 execute if entity @s[advancements={4jbattle:menu/host/presets/9/inventory/small=true}] run tellraw @s ["",{"text":"Small Inventory: ","italic":true,"color":"dark_aqua"},{"text":"Enabled","color":"green"}]
 execute if entity @s[advancements={4jbattle:menu/host/presets/9/inventory/small=false}] run tellraw @s ["",{"text":"Small Inventory: ","italic":true,"color":"dark_aqua"},{"text":"Disabled","color":"red"}]
 
+##Take Everything
+execute if entity @s[advancements={4jbattle:menu/host/presets/9/takeeverything/disabled=false}] run tellraw @s ["",{"text":"Take Everything: ","italic":true,"color":"dark_aqua"},{"text":"Enabled","color":"green"}]
+execute if entity @s[advancements={4jbattle:menu/host/presets/9/takeeverything/disabled=true}] run tellraw @s ["",{"text":"Take Everything: ","italic":true,"color":"dark_aqua"},{"text":"Disabled","color":"red"}]
+
 ##Central spawn
 execute if entity @s[advancements={4jbattle:menu/host/presets/9/tp/surround=true}] run tellraw @s ["",{"text":"Central Spawn: ","italic":true,"color":"dark_aqua"},{"text":"Enabled","color":"green"}]
 execute if entity @s[advancements={4jbattle:menu/host/presets/9/tp/surround=false}] run tellraw @s ["",{"text":"Central Spawn: ","italic":true,"color":"dark_aqua"},{"text":"Disabled","color":"red"}]
