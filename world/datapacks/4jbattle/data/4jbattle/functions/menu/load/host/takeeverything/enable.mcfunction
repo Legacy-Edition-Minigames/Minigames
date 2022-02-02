@@ -1,9 +1,6 @@
 ##Enable
 scoreboard players set #Store 4j.takeall 1
 
-##Enable
-takeeverything true
-
 ##Display message
 tellraw @a "The host has enabled Take Everything."
 

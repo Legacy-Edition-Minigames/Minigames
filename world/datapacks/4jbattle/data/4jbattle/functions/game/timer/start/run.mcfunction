@@ -92,3 +92,9 @@ function 4jbattle:game/chests/unlock
 
 ##Start the tipped arrow fixer
 function 4jbattle:game/inventory/arrowfix/check
+
+##Load take everything
+#Enabled
+execute if score #Store 4j.takeall matches 1 run takeeverything true
+#Disabled
+execute if score #Store 4j.takeall matches 0 run takeeverything false

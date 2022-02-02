@@ -22,6 +22,9 @@ function 4jbattle:game/custom/stop
 ##Run mapinit end functions
 function 4jbattle:game/mapinit/stop
 
+##Disable take everything
+takeeverything false
+
 ##Reset map id
 scoreboard players set #Store 4j.map 0
 
