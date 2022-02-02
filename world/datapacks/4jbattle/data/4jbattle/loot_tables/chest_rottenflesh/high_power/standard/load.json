@@ -195,7 +195,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "4jbattle:chest/high_power/standard/weapon"
+            "name": "4jbattle:chest/high_power/regular/weapon"
           }
         ]
       }

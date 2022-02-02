@@ -6,31 +6,31 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "4jbattle:chest/remastered/center_init/food/7"
+          "name": "4jbattle:chest/remastered/middle_init/food/7"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "4jbattle:chest/remastered/center_init/food/6"
+          "name": "4jbattle:chest/remastered/middle_init/food/6"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "4jbattle:chest/remastered/center_init/food/5"
+          "name": "4jbattle:chest/remastered/middle_init/food/5"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "4jbattle:chest/remastered/center_init/food/4"
+          "name": "4jbattle:chest/remastered/middle_init/food/4"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "4jbattle:chest/remastered/center_init/food/3"
+          "name": "4jbattle:chest/remastered/middle_init/food/3"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "4jbattle:chest/remastered/center_init/food/2"
+          "name": "4jbattle:chest/remastered/middle_init/food/2"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "4jbattle:chest/remastered/center_init/food/1"
+          "name": "4jbattle:chest/remastered/middle_init/food/1"
         }
       ]
     }

@@ -47,7 +47,7 @@
           },
           {
             "type": "minecraft:loot_table",
-            "name": "4jbattle:chest/remastered/standard/bow_or_crossbow_and_arrows"
+            "name": "4jbattle:chest/remastered/regular/bow_or_crossbow_and_arrows"
           },
           {
             "type": "minecraft:item",

@@ -5,7 +5,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "4jbattle:chest/decayed/powerful/weapon"
+            "name": "4jbattle:chest/decayed/special/weapon"
           }
         ]
       },
@@ -14,7 +14,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "4jbattle:chest/decayed/powerful/armor"
+            "name": "4jbattle:chest/decayed/special/armor"
           }
         ]
       },
@@ -24,7 +24,7 @@
             {
                 "type": "minecraft:loot_table",
                 "weight": 1,
-                "name": "4jbattle:chest/decayed/powerful/armor"
+                "name": "4jbattle:chest/decayed/special/armor"
               },
           {
             "type": "minecraft:item",

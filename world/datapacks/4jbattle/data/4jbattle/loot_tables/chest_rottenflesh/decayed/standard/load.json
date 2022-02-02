@@ -296,7 +296,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "4jbattle:chest/decayed/standard/weapon"
+            "name": "4jbattle:chest/decayed/regular/weapon"
           }
         ]
       }
