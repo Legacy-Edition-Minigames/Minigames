@@ -237,5 +237,11 @@ execute if entity @s[advancements={4jbattle:menu/host/presets/10/saved=false}] a
 ##Transfer host
 execute as @s[scores={4j.gamecfg=103..119}] run function 4jbattle:menu/configure/swaphost/check
 
+##Take everything
+#Enable
+execute as @s[scores={4j.gamecfg=120}] run function 4jbattle:menu/load/host/takeeverything/enable
+#Disable
+execute as @s[scores={4j.gamecfg=121}] run function 4jbattle:menu/load/host/takeeverything/disable
+
 ##Reset score
 scoreboard players reset @s 4j.gamecfg

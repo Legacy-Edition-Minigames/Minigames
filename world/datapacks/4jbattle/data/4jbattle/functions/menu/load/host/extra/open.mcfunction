@@ -19,6 +19,9 @@ function 4jbattle:menu/load/host/regen/run
 ##Inventory
 function 4jbattle:menu/load/host/inventory/run
 
+##Take Everything
+function 4jbattle:menu/load/host/takeeverything/run
+
 ##Central Spawn
 function 4jbattle:menu/load/host/tp/run
 

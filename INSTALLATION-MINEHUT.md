@@ -28,6 +28,8 @@
 
 * [Extended Structures](https://github.com/kyrptonaught/Extended-Structures) ([GitHub Releases](https://github.com/kyrptonaught/Extended-Structures/releases))
 
+* [Take Everything](https://github.com/kyrptonaught/Take-Everything) ([GitHub Releases](https://github.com/kyrptonaught/Take-Everything/releases))
+
 * [Snowball and Egg Knockback](https://github.com/capitalistspz/SnowballKB) ([GitHub](https://github.com/capitalistspz/SnowballKB/releases/tag/1.1) [CurseForge](https://www.curseforge.com/minecraft/mc-mods/snowball-and-egg-knockback-fabric/files/3399693))
 
 ### Connecting

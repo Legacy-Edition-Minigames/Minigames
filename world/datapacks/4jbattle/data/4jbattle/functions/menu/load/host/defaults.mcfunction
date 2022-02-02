@@ -95,6 +95,10 @@ time set noon
 ##Set small inventory
 scoreboard players set #Store 4j.smallinv 1
 
+##Set take everything
+scoreboard players set #Store 4j.takeall 1
+takeeverything true
+
 ##Set healtimer
 scoreboard players set #Store 4j.healtimer 37
 
