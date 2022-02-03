@@ -1,56 +1,65 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "minecraft:wooden_pickaxe",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_nbt",
-                "tag": "{display:{Name:'{\"translate\":\"item.minecraft.wooden_axe\",\"italic\":false}',Lore:['[{\"text\":\"+3.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2,CustomModelData:1}"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "minecraft:bow",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "minecraft:arrow",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 5
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:['[{\"text\":\"+3.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "",
+                  "amount": 3,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

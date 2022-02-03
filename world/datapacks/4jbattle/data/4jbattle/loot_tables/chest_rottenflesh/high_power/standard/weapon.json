@@ -1,12 +1,12 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:diamond_shovel",
-            "functions": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_shovel",
+          "functions": [
             {
               "function": "minecraft:set_attributes",
               "modifiers": [
@@ -24,43 +24,54 @@
               "tag": "{display:{Lore:['[{\"text\":\"+7.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:sharpness\",lvl:2s}]}"
             }
           ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:diamond_pickaxe",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Lore:['[{\"text\":\"+6.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:sharpness\",lvl:1s}]}"
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:diamond_pickaxe",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"translate\":\"item.minecraft.diamond_axe\",\"italic\":false}',Lore:['[{\"text\":\"+6.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2,CustomModelData:1}"
-              }
-            ]
-          },
-          {
-            "type": "minecraft:loot_table",
-            "name": "4jbattle:chest/normal/standard/bow_and_arrows"
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:diamond_sword",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Lore:['[{\"text\":\"+7.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2}"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:['[{\"text\":\"+6.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:sharpness\",lvl:1s}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:['[{\"text\":\"+6.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "",
+                  "amount": 6,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "4jbattle:chest/normal/standard/bow_and_arrows"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:['[{\"text\":\"+7.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
