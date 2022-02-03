@@ -16,6 +16,9 @@ title @a[tag=relogtimer] subtitle "Type /trigger reloadresources to try again."
 
 ##Give Effects
 effect give @a[tag=relogtimer] invisibility 2 0 true
+effect give @a[tag=relogtimer] resistance 2 255 true
+effect give @a[tag=relogtimer] instant_health 2 2 true
+effect give @a[tag=relogtimer] weakness 2 255 true
 
 ##Loop
 schedule function 4jbattle:relog/timer/check 1t
