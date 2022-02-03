@@ -19,5 +19,8 @@ function 4jbattle:clientconfig/vtdarkinv/check
 ##Custom Pack
 function 4jbattle:clientconfig/custompack/check
 
+##Skip song
+function 4jbattle:clientconfig/skipsong/check
+
 ##Loop
 schedule function 4jbattle:clientconfig/check 1s

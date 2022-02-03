@@ -333,6 +333,9 @@ scoreboard objectives add 4j.respawndelay dummy
 ##Take Everything
 scoreboard objectives add 4j.takeall dummy
 
+##Skip song trigger
+scoreboard objectives add skipsong trigger
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
