@@ -31,3 +31,6 @@ execute as @a[scores={4j.pid=14}] run function 4jbattle:game/inventory/small/del
 execute as @a[scores={4j.pid=15}] run function 4jbattle:game/inventory/small/delfix/15/run
 #P16
 execute as @a[scores={4j.pid=16}] run function 4jbattle:game/inventory/small/delfix/16/run
+
+##
+execute as @e[type=item,tag=smallinvdelfix] at @s unless score @a[distance=..2,limit=1,sort=nearest] 4j.pid = @s 4j.pid run function 4jbattle:game/inventory/small/delfix/rmowner
