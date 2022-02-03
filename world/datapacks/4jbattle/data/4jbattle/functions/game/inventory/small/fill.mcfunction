@@ -1,5 +1,4 @@
 ##Detect click
-#Run
 execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:9b}]}] run function 4jbattle:game/inventory/small/click
 execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:10b}]}] run function 4jbattle:game/inventory/small/click
 execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:11b}]}] run function 4jbattle:game/inventory/small/click
@@ -27,8 +26,6 @@ execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Sl
 execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:33b}]}] run function 4jbattle:game/inventory/small/click
 execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:34b}]}] run function 4jbattle:game/inventory/small/click
 execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:35b}]}] run function 4jbattle:game/inventory/small/click
-#Remove tag
-tag @s remove smallinvclick
 
 ##Fill inventory
 #Vanilla inv
@@ -87,3 +84,9 @@ execute if entity @s[advancements={4jbattle:config/vtdarkmode=true}] unless enti
 execute if entity @s[advancements={4jbattle:config/vtdarkmode=true}] unless entity @s[nbt={Inventory:[{Slot:33b}]}] run item replace entity @s inventory.24 with knowledge_book{display:{Name:'{"text":" "}'},SmallInv:1,CustomModelData:2}
 execute if entity @s[advancements={4jbattle:config/vtdarkmode=true}] unless entity @s[nbt={Inventory:[{Slot:34b}]}] run item replace entity @s inventory.25 with knowledge_book{display:{Name:'{"text":" "}'},SmallInv:1,CustomModelData:2}
 execute if entity @s[advancements={4jbattle:config/vtdarkmode=true}] unless entity @s[nbt={Inventory:[{Slot:26b}]}] run item replace entity @s inventory.26 with knowledge_book{display:{Name:'{"text":" "}'},SmallInv:1,CustomModelData:2}
+
+##Take everything
+execute as @s[tag=smallinvclick] run takeeverything
+
+##Remove click tag
+tag @s remove smallinvclick
