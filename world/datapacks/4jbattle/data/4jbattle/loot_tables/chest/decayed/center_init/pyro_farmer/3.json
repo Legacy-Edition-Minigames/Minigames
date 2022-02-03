@@ -22,7 +22,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Lore:['[{\"text\":\"+2.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:fire_aspect\",lvl:1s}],Damage:119}"
+                "tag": "{display:{Lore:['[{\"text\":\"§9+2.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:fire_aspect\",lvl:1s}],Damage:119}"
               }
             ]
           }

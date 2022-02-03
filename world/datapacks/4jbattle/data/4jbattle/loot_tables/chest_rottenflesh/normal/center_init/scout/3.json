@@ -14,7 +14,7 @@
               },
               {
                 "function": "set_nbt",
-                "tag": "{display:{Lore:['[{\"text\":\"+7.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2,Damage:1559}"
+                "tag": "{display:{Lore:['[{\"text\":\"§9+7.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2,Damage:1559}"
               }
             ]
           }

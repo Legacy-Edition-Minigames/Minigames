@@ -81,7 +81,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"+4.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:knockback\",lvl:2s}],Damage:1556}"
+              "tag": "{display:{Lore:['[{\"text\":\"§9+4.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:knockback\",lvl:2s}],Damage:1556}"
             }
           ]
         },
@@ -92,7 +92,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2,Damage:1556}"
+              "tag": "{display:{Lore:['[{\"text\":\"§9+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2,Damage:1556}"
             }
           ]
         },
@@ -115,7 +115,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2,Damage:239,Enchantments:[{id:\"minecraft:knockback\",lvl:1s}]}"
+              "tag": "{display:{Lore:['[{\"text\":\"§9+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2,Damage:239,Enchantments:[{id:\"minecraft:knockback\",lvl:1s}]}"
             }
           ]
         },
@@ -126,7 +126,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:fire_aspect\",lvl:1s}],Damage:126}"
+              "tag": "{display:{Lore:['[{\"text\":\"§9+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:fire_aspect\",lvl:1s}],Damage:126}"
             }
           ]
         }

@@ -47,7 +47,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"+4.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2}"
+              "tag": "{display:{Lore:['[{\"text\":\"§9+4.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2}"
             },
             {
               "function": "minecraft:set_attributes",
