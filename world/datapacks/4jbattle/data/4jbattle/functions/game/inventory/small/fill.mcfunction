@@ -1,3 +1,35 @@
+##Detect click
+#Run
+execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:9b}]}] run function 4jbattle:game/inventory/small/click
+execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:10b}]}] run function 4jbattle:game/inventory/small/click
+execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:11b}]}] run function 4jbattle:game/inventory/small/click
+execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:12b}]}] run function 4jbattle:game/inventory/small/click
+execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:13b}]}] run function 4jbattle:game/inventory/small/click
+execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:14b}]}] run function 4jbattle:game/inventory/small/click
+execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:15b}]}] run function 4jbattle:game/inventory/small/click
+execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:16b}]}] run function 4jbattle:game/inventory/small/click
+execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:17b}]}] run function 4jbattle:game/inventory/small/click
+execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:18b}]}] run function 4jbattle:game/inventory/small/click
+execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:19b}]}] run function 4jbattle:game/inventory/small/click
+execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:20b}]}] run function 4jbattle:game/inventory/small/click
+execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:21b}]}] run function 4jbattle:game/inventory/small/click
+execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:22b}]}] run function 4jbattle:game/inventory/small/click
+execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:23b}]}] run function 4jbattle:game/inventory/small/click
+execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:24b}]}] run function 4jbattle:game/inventory/small/click
+execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:25b}]}] run function 4jbattle:game/inventory/small/click
+execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:26b}]}] run function 4jbattle:game/inventory/small/click
+execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:27b}]}] run function 4jbattle:game/inventory/small/click
+execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:28b}]}] run function 4jbattle:game/inventory/small/click
+execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:29b}]}] run function 4jbattle:game/inventory/small/click
+execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:30b}]}] run function 4jbattle:game/inventory/small/click
+execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:31b}]}] run function 4jbattle:game/inventory/small/click
+execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:32b}]}] run function 4jbattle:game/inventory/small/click
+execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:33b}]}] run function 4jbattle:game/inventory/small/click
+execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:34b}]}] run function 4jbattle:game/inventory/small/click
+execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Slot:35b}]}] run function 4jbattle:game/inventory/small/click
+#Remove tag
+tag @s remove smallinvclick
+
 ##Fill inventory
 #Vanilla inv
 execute unless entity @s[advancements={4jbattle:config/vtdarkmode=true}] unless entity @s[nbt={Inventory:[{Slot:9b}]}] run item replace entity @s inventory.0 with knowledge_book{display:{Name:'{"text":" "}'},SmallInv:1,CustomModelData:1}
