@@ -1,7 +1,8 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:diamond_sword"
+        "item": "minecraft:ghast_spawn_egg",
+        "nbt": "{CustomModelData:10}"
       },
       "title": "...has become the master",
       "description": "Win 3 battle games in a row.",

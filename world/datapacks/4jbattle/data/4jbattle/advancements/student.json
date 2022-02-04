@@ -1,7 +1,8 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:wooden_sword"
+        "item": "minecraft:ghast_spawn_egg",
+        "nbt": "{CustomModelData:9}"
       },
       "title": "The student...",
       "description": "Win a battle mini game.",

@@ -48,3 +48,5 @@ Map Packs 1-4 - [MinecraftDigger](https://www.youtube.com/c/MinecraftDigger/)
 Texture Pack ports - [Ultmate_Mario](https://ultmatemario.wixsite.com/ultmatemario)
 
 Significant Modding Help - [Kyrptonaught](https://github.com/kyrptonaught)
+
+Achievement Icons - [Lion8cake](https://github.com/Lion8cake)
