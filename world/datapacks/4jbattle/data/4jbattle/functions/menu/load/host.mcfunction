@@ -13,10 +13,6 @@ function 4jbattle:menu/check
 ##Teleport
 execute in minecraft:overworld run tp @s 7 97 -149
 
-##Summon menu (unused)
-#kill @e[type=armor_stand,tag=guitest]
-#summon armor_stand -426.504 51.35 -352.1 {NoGravity:1b,Invisible:1b,Tags:["guitest"],DisabledSlots:1052688,Rotation:[180F,0F],ArmorItems:[{},{},{},{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:2}}]}
-
 ##Load defaults
 function 4jbattle:menu/load/host/defaults
 
