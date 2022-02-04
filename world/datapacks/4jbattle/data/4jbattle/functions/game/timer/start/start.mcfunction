@@ -58,3 +58,6 @@ function 4jbattle:game/globalinfo/clear/check
 
 ##Reset eliminated score
 scoreboard players reset @a 4j.eliminated
+
+##Display particles
+function 4jbattle:game/particle/pregame/run
