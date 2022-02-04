@@ -56,3 +56,6 @@ effect give @a invisibility 1 0 true
 
 ##Loop
 schedule function 4jbattle:menu/check 1t
+
+##Stop if nobody is online
+execute unless entity @a[tag=!relogtimer] run schedule clear 4jbattle:menu/check
