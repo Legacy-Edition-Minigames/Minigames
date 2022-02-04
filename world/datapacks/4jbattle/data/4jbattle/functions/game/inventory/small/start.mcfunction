@@ -1,5 +1,5 @@
 ##Fill inventory
-function 4jbattle:game/inventory/small/fill
+function 4jbattle:game/inventory/small/fill/run
 
 ##Start check
 function 4jbattle:game/inventory/small/check

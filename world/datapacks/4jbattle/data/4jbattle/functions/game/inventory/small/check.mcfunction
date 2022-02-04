@@ -5,7 +5,7 @@ execute as @a[tag=player] run function 4jbattle:game/inventory/small/clear
 function 4jbattle:game/inventory/small/delfix/run
 
 ##Fill inventory
-execute as @a[tag=player] run function 4jbattle:game/inventory/small/fill
+execute as @a[tag=player] run function 4jbattle:game/inventory/small/fill/run
 
 ##Delete dropped books
 kill @e[type=item,nbt={Item:{tag:{SmallInv:1}}}]
