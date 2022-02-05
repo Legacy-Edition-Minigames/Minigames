@@ -22,5 +22,11 @@ function 4jbattle:clientconfig/custompack/check
 ##Skip song
 function 4jbattle:clientconfig/skipsong/check
 
+##Gui scale
+function 4jbattle:clientconfig/guiscale/check
+
+##Armor Bar toggle
+function 4jbattle:clientconfig/armorbar/check
+
 ##Loop
 schedule function 4jbattle:clientconfig/check 1s

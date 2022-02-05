@@ -49,6 +49,9 @@ scoreboard players set @s 4j.cleargi 4
 title @s title ""
 title @s subtitle ""
 
+##Allow titles
+tag @s remove notitle
+
 ##Remove cooldown
 function 4jbattle:game/combat/cooldown
 

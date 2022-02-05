@@ -21,6 +21,9 @@ execute if score @s 4j.lives matches 1.. run scoreboard players set @s 4j.respaw
 execute if score @s 4j.lives matches -1 run scoreboard players set @s 4j.respawndelay 40
 execute if score @s 4j.lives matches 0 run scoreboard players set @s 4j.respawndelay 0
 
+##Prevent titles
+tag @s add notitle
+
 ##Run delayrun
 function 4jbattle:game/respawn/delayrun/check
 

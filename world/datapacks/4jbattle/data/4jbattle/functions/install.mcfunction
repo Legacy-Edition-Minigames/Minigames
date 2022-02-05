@@ -336,6 +336,22 @@ scoreboard objectives add 4j.takeall dummy
 ##Skip song trigger
 scoreboard objectives add skipsong trigger
 
+##GUI Scale trigger
+scoreboard objectives add guiscale trigger
+
+##Armorbar stuff
+#Head
+scoreboard objectives add 4j.armorbar.head dummy
+#Body
+scoreboard objectives add 4j.armorbar.body dummy
+#Legs
+scoreboard objectives add 4j.armorbar.legs dummy
+#Feet
+scoreboard objectives add 4j.armorbar.feet dummy
+
+##Armorbar toggle trigger
+scoreboard objectives add armorbar trigger
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
