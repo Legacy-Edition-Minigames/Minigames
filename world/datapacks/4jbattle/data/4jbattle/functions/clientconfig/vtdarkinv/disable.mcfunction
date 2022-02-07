@@ -5,4 +5,4 @@ advancement revoke @s only 4jbattle:config/vtdarkmode
 scoreboard players reset @s vtdarkinv
 
 ##Display message
-tellraw @s {"text":"Disabled VT Dark Inventory support!","color":"red"}
+tellraw @s {"translate":"4j.config.vtdarkinv.disable","color":"red"}

@@ -15,7 +15,7 @@ tag @s add ready
 function 4jbattle:game/gui/playerbar/load
 
 ##Display message
-tellraw @a ["",{"selector":"@s"},{"text":" has joined the game as a player!","color":"yellow"}]
+tellraw @a {"translate":"4j.game.specjoin","with":[{"selector":"@s"}],"color":"yellow"}
 
 ##Debug message
 tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Spawning new player ","color":"gold"},{"selector":"@s","color":"yellow"},{"text":" as a normal player","color":"gold"}]

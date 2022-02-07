@@ -25,9 +25,9 @@ execute unless entity @a[tag=Victor] run scoreboard players set #Store 4j.banner
 #Temporarily hide playericons
 function 4jbattle:game/gui/playerlist/playericon/disable
 #Show Victor
-execute if entity @a[tag=Victor] run bossbar set minecraft:bannerinfo name ["",{"selector":"@a[tag=Victor]","color":"black","font":"4jbattle:banner/text/default"},{"text":" won!","color":"black","font":"4jbattle:banner/text/default"}]
+execute if entity @a[tag=Victor] run bossbar set minecraft:bannerinfo name ["",{"selector":"@a[tag=Victor]","color":"black","font":"4jbattle:banner/text/default"},{"text":" ","font":"4jbattle:banner/text/default"},{"translate":"4j.game.win","color":"black","font":"4jbattle:banner/text/default"}]
 #Show draw if nobody won
-execute unless entity @a[tag=Victor] run bossbar set minecraft:bannerinfo name {"text":"DRAW!","color":"black","font":"4jbattle:banner/text/default"}
+execute unless entity @a[tag=Victor] run bossbar set minecraft:bannerinfo name {"translate":"4j.game.draw","color":"black","font":"4jbattle:banner/text/default"}
 #Re-enable playericons
 function 4jbattle:game/gui/playerlist/playericon/enable
 
@@ -45,22 +45,22 @@ function 4jbattle:game/namevisibility/enable
 schedule function 4jbattle:game/end/spectate/timer/start 1s
 
 ##Display message
-bossbar set globalinfo1 name "Round end!"
-bossbar set globalinfo2 name "Round end!"
-bossbar set globalinfo3 name "Round end!"
-bossbar set globalinfo4 name "Round end!"
-bossbar set globalinfo5 name "Round end!"
-bossbar set globalinfo6 name "Round end!"
-bossbar set globalinfo7 name "Round end!"
-bossbar set globalinfo8 name "Round end!"
-bossbar set globalinfo9 name "Round end!"
-bossbar set globalinfo10 name "Round end!"
-bossbar set globalinfo11 name "Round end!"
-bossbar set globalinfo12 name "Round end!"
-bossbar set globalinfo13 name "Round end!"
-bossbar set globalinfo14 name "Round end!"
-bossbar set globalinfo15 name "Round end!"
-bossbar set globalinfo16 name "Round end!"
+bossbar set globalinfo1 name {"translate":"4j.game.roundend"}
+bossbar set globalinfo2 name {"translate":"4j.game.roundend"}
+bossbar set globalinfo3 name {"translate":"4j.game.roundend"}
+bossbar set globalinfo4 name {"translate":"4j.game.roundend"}
+bossbar set globalinfo5 name {"translate":"4j.game.roundend"}
+bossbar set globalinfo6 name {"translate":"4j.game.roundend"}
+bossbar set globalinfo7 name {"translate":"4j.game.roundend"}
+bossbar set globalinfo8 name {"translate":"4j.game.roundend"}
+bossbar set globalinfo9 name {"translate":"4j.game.roundend"}
+bossbar set globalinfo10 name {"translate":"4j.game.roundend"}
+bossbar set globalinfo11 name {"translate":"4j.game.roundend"}
+bossbar set globalinfo12 name {"translate":"4j.game.roundend"}
+bossbar set globalinfo13 name {"translate":"4j.game.roundend"}
+bossbar set globalinfo14 name {"translate":"4j.game.roundend"}
+bossbar set globalinfo15 name {"translate":"4j.game.roundend"}
+bossbar set globalinfo16 name {"translate":"4j.game.roundend"}
 
 ##Clear all schedules
 schedule function 4jbattle:game/end/clear 2t

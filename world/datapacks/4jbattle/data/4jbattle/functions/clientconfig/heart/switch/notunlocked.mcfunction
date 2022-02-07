@@ -1,1 +1,1 @@
-tellraw @s {"text":"You have not unlocked this heart cosmetic!","color":"red"}
+tellraw @s {"translate":"4j.config.heart.menu.text.locked","color":"red"}

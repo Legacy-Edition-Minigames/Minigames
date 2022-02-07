@@ -8,4 +8,4 @@ function 4jbattle:game/inventory/swap/scorereset
 scoreboard players reset @s swaptipped
 
 ##Display message
-tellraw @s {"text":"Tipped Arrow hotbar swapping enabled!","color":"green"}
+tellraw @s {"translate":"4j.config.swaptipped.enable","color":"green"}

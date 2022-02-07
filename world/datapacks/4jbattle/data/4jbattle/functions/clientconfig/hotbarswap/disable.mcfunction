@@ -5,4 +5,4 @@ advancement grant @s only 4jbattle:config/nohotbarswap
 scoreboard players reset @s hotbarswap
 
 ##Display message
-tellraw @s {"text":"Disabled Hotbar Item Swaping!","color":"red"}
+tellraw @s {"translate":"4j.config.hotbarswap.disable","color":"red"}

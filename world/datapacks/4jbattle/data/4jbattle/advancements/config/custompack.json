@@ -3,8 +3,8 @@
       "icon": {
         "item": "minecraft:diamond_pickaxe"
       },
-      "title": "Custom Resources",
-      "description": ["","Allow the usage of a Custom Resource Pack.","\n","\n",{"text":"Can be toggled with /trigger custompack","color":"gold"}],
+      "title": {"translate":"4j.advancement.config.custompack.name"},
+      "description": {"translate":"4j.advancement.config.custompack.desc"},
       "frame": "task",
       "announce_to_chat": false
     },

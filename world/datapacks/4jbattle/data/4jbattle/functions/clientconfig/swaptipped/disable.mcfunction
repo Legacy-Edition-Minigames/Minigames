@@ -5,4 +5,4 @@ advancement grant @s only 4jbattle:config/swaptipped
 scoreboard players reset @s swaptipped
 
 ##Display message
-tellraw @s {"text":"Tipped Arrow hotbar swapping disabled!","color":"red"}
+tellraw @s {"translate":"4j.config.swaptipped.disable","color":"red"}

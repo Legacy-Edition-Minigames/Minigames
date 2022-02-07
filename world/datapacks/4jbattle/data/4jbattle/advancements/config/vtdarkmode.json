@@ -4,8 +4,8 @@
         "item": "minecraft:knowledge_book",
         "nbt": "{CustomModelData:2}"
       },
-      "title": "VT Dark Small Inventory",
-      "description": ["","Use the dark mode inventory texture from VanillaTweaks for small inventory.","\n","\n",{"text":"Can be toggled with /trigger vtdarkinv","color":"gold"}],
+      "title": {"translate":"4j.advancement.config.vtdarkmode.name"},
+      "description": {"translate":"4j.advancement.config.vtdarkmode.desc"},
       "frame": "task",
       "announce_to_chat": false
     },

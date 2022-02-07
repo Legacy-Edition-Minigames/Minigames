@@ -8,4 +8,4 @@ stopsound @s music
 scoreboard players reset @s skipsong
 
 ##Display message
-tellraw @s ["",{"text":"Skipping song!","color":"green"},"\n",{"text":"It may take a moment to load your next song","color":"gold"}]
+tellraw @s ["",{"translate":"4j.config.skipsong.success","color":"green"},"\n",{"translate":"4j.config.skipsong.note","color":"gold"}]

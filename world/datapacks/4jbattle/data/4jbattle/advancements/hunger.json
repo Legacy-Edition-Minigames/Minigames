@@ -4,8 +4,8 @@
       "item": "minecraft:ghast_spawn_egg",
       "nbt": "{CustomModelData:7}"
     },
-    "title": "Hunger Pain",
-    "description": "Kill a player while you are starving in a Battle mini game.",
+    "title": {"translate":"4j.advancement.hunger.name"},
+    "description": {"translate":"4j.advancement.hunger.desc"},
     "frame": "task"
   },
   "parent": "4jbattle:root",

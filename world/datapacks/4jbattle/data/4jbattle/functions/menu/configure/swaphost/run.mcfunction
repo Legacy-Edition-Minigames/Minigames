@@ -11,9 +11,9 @@ function 4jbattle:game/gui/playerbar/load
 
 ##Display message
 #Transfer
-tellraw @a ["",{"selector":"@a[tag=host]","color":"dark_aqua"},{"text":" has transfered host to ","color":"blue"},{"selector":"@s","color":"dark_aqua"},{"text":"!","color":"blue"}]
+tellraw @a {"translate":"4j.menu.host.transfer.success","with":[{"selector":"@a[tag=host]","color":"dark_aqua"},{"selector":"@s","color":"dark_aqua"}],"color":"blue"}
 #Recieve
-tellraw @s {"text":"You now have host permissions!","italic":true,"color":"dark_aqua"}
+tellraw @s {"translate":"4j.menu.host.transfer.receive","italic":true,"color":"dark_aqua"}
 
 ##Swap tags
 #Remove original

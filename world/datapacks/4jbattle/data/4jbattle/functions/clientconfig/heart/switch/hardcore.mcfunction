@@ -11,7 +11,7 @@ advancement grant @s only 4jbattle:config/heart/hardcore
 setSuffixFont alive "4jbattle:tablist/heart/minecraft/hardcore" @s
 
 ##Display message
-tellraw @s {"text":"Heart set successfully!","color":"green"}
+tellraw @s {"translate":"4j.config.heart.menu.text.success","color":"green"}
 
 ##Reset score
 scoreboard players reset @s heartcosmetic

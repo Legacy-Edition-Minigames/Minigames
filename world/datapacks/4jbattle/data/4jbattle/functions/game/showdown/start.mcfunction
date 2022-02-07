@@ -10,7 +10,7 @@ function 4jbattle:game/gui/banner/stopwatch/run
 #Set banner textbox
 scoreboard players set #Store 4j.bannermode 2
 #Show banner text
-bossbar set minecraft:bannerinfo name {"text":"SHOWDOWN!","color":"black","font":"4jbattle:banner/text/default"}
+bossbar set minecraft:bannerinfo name {"translate":"4j.game.showdown","color":"black","font":"4jbattle:banner/text/default"}
 #Hide in 5 seconds
 schedule function 4jbattle:game/globalinfo/hide 5s
 

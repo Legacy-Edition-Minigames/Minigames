@@ -3,9 +3,10 @@
       "icon": {
         "item": "minecraft:chest"
       },
-      "title": "Mine! (Broken)",
-      "description": "Open every chest in a Battle mini game arena in one round.",
-      "frame": "task"
+      "title": {"translate":"4j.advancement.mine.name"},
+      "description": {"translate":"4j.advancement.mine.desc"},
+      "frame": "task",
+      "hidden": true
     },
     "parent": "4jbattle:root",
     "criteria": {

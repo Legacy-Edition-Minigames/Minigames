@@ -1,7 +1,6 @@
 [
-    {
-      "function": "minecraft:set_nbt",
-      "tag": "{display:{Name:'[{\"text\":\"Not Ready\",\"color\":\"red\",\"bold\":true,\"italic\":false},{\"text\":\" (Right Click)\",\"color\":\"gray\",\"bold\":false,\"italic\":false}]'},CustomModelData:5,ReadyCOAS:1}"
-    }
-  ]
-  
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{Name:'[{\"translate\":\"4j.mapdecider.item.notready\",\"color\":\"red\",\"bold\":true,\"italic\":false},{\"text\":\" (\",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"keybind\":\"key.use\",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\")\",\"color\":\"gray\",\"bold\":false,\"italic\":false}]'},CustomModelData:5,ReadyCOAS:1}"
+  }
+]

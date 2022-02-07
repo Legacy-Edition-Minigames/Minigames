@@ -1,5 +1,5 @@
 ##Header
-tellraw @s {"text":"- Item Set Options -","color":"blue"}
+tellraw @s ["",{"text":"- ","color":"blue"},{"translate":"4j.menu.host.config.item.header","color":"blue"},{"text":" -","color":"blue"}]
 
 ##Options
 #Normal

@@ -36,7 +36,7 @@ execute as @s[scores={4j.gamecfg=9}] run function 4jbattle:menu/load/host/start/
 
 ##Map settings
 execute as @s[scores={4j.gamecfg=1000..}] if score #Store 4j.gamestatus matches 0 run function 4jbattle:menu/configure/map
-execute as @s[scores={4j.gamecfg=1000..}] if score #Store 4j.gamestatus matches 1.. run tellraw @s {"text":"You cannot change enabled maps when the game is already started!","color":"red"}
+execute as @s[scores={4j.gamecfg=1000..}] if score #Store 4j.gamestatus matches 1.. run tellraw @s {"translate":"4j.menu.host.config.cantchangemaps","color":"red"}
 
 ##Map Type
 #Auto

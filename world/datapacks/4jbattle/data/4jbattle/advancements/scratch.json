@@ -4,8 +4,8 @@
         "item": "minecraft:ghast_spawn_egg",
         "nbt": "{CustomModelData:8}"
       },
-      "title": "'Tis but a scratch",
-      "description": "Take 100 damage in a round of a battle mini game.",
+      "title": {"translate":"4j.advancement.scratch.name"},
+      "description": {"translate":"4j.advancement.scratch.desc"},
       "frame": "goal"
     },
     "parent": "4jbattle:root",

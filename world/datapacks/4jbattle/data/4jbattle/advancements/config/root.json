@@ -3,7 +3,7 @@
       "icon": {
         "item": "minecraft:command_block"
       },
-      "title": "Client Options",
+      "title": {"translate":"4j.advancement.config.root.name"},
       "description": "",
       "background": "minecraft:textures/block/quartz_block_bottom.png",
       "frame": "task",

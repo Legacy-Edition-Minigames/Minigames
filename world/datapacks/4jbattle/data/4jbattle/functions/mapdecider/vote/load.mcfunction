@@ -5,7 +5,7 @@ execute as @a run function 4jbattle:mapdecider/vote/join
 #Remove score to reset it
 scoreboard objectives remove 4j.mapvote
 #Add score back
-scoreboard objectives add 4j.mapvote dummy {"text":"Map Voting","bold":true,"color":"blue"}
+scoreboard objectives add 4j.mapvote dummy {"translate":"4j.mapdecider.menu.mapvoting","bold":true,"color":"blue"}
 #Set display
 scoreboard objectives setdisplay sidebar 4j.mapvote
 

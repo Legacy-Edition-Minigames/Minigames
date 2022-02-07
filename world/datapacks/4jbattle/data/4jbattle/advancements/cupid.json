@@ -4,8 +4,8 @@
         "item": "minecraft:ghast_spawn_egg",
         "nbt": "{CustomModelData:6}"
       },
-      "title": "Cupid",
-      "description": "Kill 2 players in a round of a battle mini game using a bow and arrow.",
+      "title": {"translate":"4j.advancement.cupid.name"},
+      "description": {"translate":"4j.advancement.cupid.desc"},
       "frame": "task"
     },
     "parent": "4jbattle:root",

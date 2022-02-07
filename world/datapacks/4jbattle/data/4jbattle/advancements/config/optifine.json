@@ -3,8 +3,8 @@
       "icon": {
         "item": "minecraft:crimson_fungus"
       },
-      "title": "Optifine Resources",
-      "description": ["","Use the optifine-compatible resource pack.","\n","\n",{"text":"Can be toggled with /trigger optifinepack","color":"gold"}],
+      "title": {"translate":"4j.advancement.config.optifine.name"},
+      "description": {"translate":"4j.advancement.config.optifine.desc"},
       "frame": "task",
       "announce_to_chat": false
     },

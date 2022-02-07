@@ -10,43 +10,43 @@ schedule clear 4jbattle:lobby/timer/check
 
 ##Display text
 #Non-hosts
-title @a[tag=!host,tag=!relogtimer] title "Waiting on host to configure game..."
+title @a[tag=!host,tag=!relogtimer] title {"translate":"4j.menu.player.waiting"}
 #Hosts
-title @a[tag=host] title ["","Please press ",{"text":"[","color":"gold"},{"keybind":"key.chat","color":"yellow"},{"text":"] ","color":"gold"}]
-title @a[tag=host] subtitle "And use the menu to configure your game."
+title @a[tag=host] title ["",{"translate":"4j.menu.host.title"},{"text":" [","color":"gold"},{"keybind":"key.chat","color":"yellow"},{"text":"]","color":"gold"}]
+title @a[tag=host] subtitle {"translate":"4j.menu.host.subtitle"}
 #Set GlobalInfo
 #P1
-bossbar set minecraft:globalinfo1 name ["","Please wait for ",{"selector":"@a[tag=host]"}]
+bossbar set minecraft:globalinfo1 name {"translate":"4j.menu.waiting","with":[{"selector":"@a[tag=host]"}]}
 #P2
-bossbar set minecraft:globalinfo2 name ["","Please wait for ",{"selector":"@a[tag=host]"}]
+bossbar set minecraft:globalinfo2 name {"translate":"4j.menu.waiting","with":[{"selector":"@a[tag=host]"}]}
 #P3
-bossbar set minecraft:globalinfo3 name ["","Please wait for ",{"selector":"@a[tag=host]"}]
+bossbar set minecraft:globalinfo3 name {"translate":"4j.menu.waiting","with":[{"selector":"@a[tag=host]"}]}
 #P4
-bossbar set minecraft:globalinfo4 name ["","Please wait for ",{"selector":"@a[tag=host]"}]
+bossbar set minecraft:globalinfo4 name {"translate":"4j.menu.waiting","with":[{"selector":"@a[tag=host]"}]}
 #P5
-bossbar set minecraft:globalinfo5 name ["","Please wait for ",{"selector":"@a[tag=host]"}]
+bossbar set minecraft:globalinfo5 name {"translate":"4j.menu.waiting","with":[{"selector":"@a[tag=host]"}]}
 #P6
-bossbar set minecraft:globalinfo6 name ["","Please wait for ",{"selector":"@a[tag=host]"}]
+bossbar set minecraft:globalinfo6 name {"translate":"4j.menu.waiting","with":[{"selector":"@a[tag=host]"}]}
 #P7
-bossbar set minecraft:globalinfo7 name ["","Please wait for ",{"selector":"@a[tag=host]"}]
+bossbar set minecraft:globalinfo7 name {"translate":"4j.menu.waiting","with":[{"selector":"@a[tag=host]"}]}
 #P8
-bossbar set minecraft:globalinfo8 name ["","Please wait for ",{"selector":"@a[tag=host]"}]
+bossbar set minecraft:globalinfo8 name {"translate":"4j.menu.waiting","with":[{"selector":"@a[tag=host]"}]}
 #P9
-bossbar set minecraft:globalinfo9 name ["","Please wait for ",{"selector":"@a[tag=host]"}]
+bossbar set minecraft:globalinfo9 name {"translate":"4j.menu.waiting","with":[{"selector":"@a[tag=host]"}]}
 #P10
-bossbar set minecraft:globalinfo10 name ["","Please wait for ",{"selector":"@a[tag=host]"}]
+bossbar set minecraft:globalinfo10 name {"translate":"4j.menu.waiting","with":[{"selector":"@a[tag=host]"}]}
 #P11
-bossbar set minecraft:globalinfo11 name ["","Please wait for ",{"selector":"@a[tag=host]"}]
+bossbar set minecraft:globalinfo11 name {"translate":"4j.menu.waiting","with":[{"selector":"@a[tag=host]"}]}
 #P12
-bossbar set minecraft:globalinfo12 name ["","Please wait for ",{"selector":"@a[tag=host]"}]
+bossbar set minecraft:globalinfo12 name {"translate":"4j.menu.waiting","with":[{"selector":"@a[tag=host]"}]}
 #P13
-bossbar set minecraft:globalinfo13 name ["","Please wait for ",{"selector":"@a[tag=host]"}]
+bossbar set minecraft:globalinfo13 name {"translate":"4j.menu.waiting","with":[{"selector":"@a[tag=host]"}]}
 #P14
-bossbar set minecraft:globalinfo14 name ["","Please wait for ",{"selector":"@a[tag=host]"}]
+bossbar set minecraft:globalinfo14 name {"translate":"4j.menu.waiting","with":[{"selector":"@a[tag=host]"}]}
 #P15
-bossbar set minecraft:globalinfo15 name ["","Please wait for ",{"selector":"@a[tag=host]"}]
+bossbar set minecraft:globalinfo15 name {"translate":"4j.menu.waiting","with":[{"selector":"@a[tag=host]"}]}
 #P16
-bossbar set minecraft:globalinfo16 name ["","Please wait for ",{"selector":"@a[tag=host]"}]
+bossbar set minecraft:globalinfo16 name {"translate":"4j.menu.waiting","with":[{"selector":"@a[tag=host]"}]}
 
 ##Give effects
 #Lobby

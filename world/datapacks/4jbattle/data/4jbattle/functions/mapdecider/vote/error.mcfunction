@@ -1,2 +1,2 @@
 ##Display error message
-tellraw @s {"text":"You have already voted for this map!","color":"red"}
+tellraw @s {"translate":"4j.mapdecider.vote.alreadyvoted","color":"red"}

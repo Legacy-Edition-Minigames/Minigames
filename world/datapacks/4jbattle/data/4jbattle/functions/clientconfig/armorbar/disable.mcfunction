@@ -5,4 +5,4 @@ advancement grant @s only 4jbattle:config/armorbar
 scoreboard players reset @s armorbar
 
 ##Display message
-tellraw @s {"text":"Disabled Armor Bar!","color":"red"}
+tellraw @s {"translate":"4j.config.armorbar.disable"}

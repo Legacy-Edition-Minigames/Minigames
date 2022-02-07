@@ -5,4 +5,4 @@ advancement grant @s only 4jbattle:config/optifine
 scoreboard players reset @s optifinepack
 
 ##Display message
-tellraw @s ["",{"text":"Optifine pack enabled!","color":"green"},"\n",{"text":"Please either relog or type ","color":"gold"},{"text":"/trigger reloadresources","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger reloadresources"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click to reload resources","italic":true,"color":"yellow"}]}},{"text":" for changes to apply.","color":"gold"}]
+tellraw @s ["",{"translate":"4j.config.optifine.enable","color":"green"},"\n",{"translate":"4j.hints.reloadresources.text","with":[{"text":"/trigger reloadresources","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger reloadresources"},"hoverEvent":{"action":"show_text","contents":[{"translate":"4j.hints.reloadresources.hover"}]}}],"clickEvent":{"action":"run_command","value":""}}]

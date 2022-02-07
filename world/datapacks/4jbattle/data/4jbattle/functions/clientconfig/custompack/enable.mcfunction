@@ -5,4 +5,4 @@ advancement grant @s only 4jbattle:config/custompack
 scoreboard players reset @s custompack
 
 ##Display message
-tellraw @s ["",{"text":"Custom Pack enabled!","color":"green"},"\n",{"text":"Please relog for changes to apply.","color":"gold"}]
+tellraw @s {"translate":"4j.config.custompack.enable"}

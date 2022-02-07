@@ -5,4 +5,4 @@ advancement grant @s only 4jbattle:config/vtdarkmode
 scoreboard players reset @s vtdarkinv
 
 ##Display message
-tellraw @s {"text":"Enabled VT Dark Inventory support!","color":"green"}
+tellraw @s {"translate":"4j.config.vtdarkinv.enable","color":"green"}

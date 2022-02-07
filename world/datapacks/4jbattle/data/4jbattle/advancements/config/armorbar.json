@@ -3,8 +3,8 @@
       "icon": {
         "item": "minecraft:chainmail_chestplate"
       },
-      "title": "Disable ArmorBar",
-      "description": ["","Don't show armor you are wearing","\n","\n",{"text":"Can be toggled with /trigger armorbar","color":"gold"}],
+      "title": {"translate":"4j.advancement.config.armorbar.name"},
+      "description": {"translate":"4j.advancement.config.armorbar.desc"},
       "frame": "task",
       "announce_to_chat": false
     },

@@ -1,5 +1,5 @@
 ##Header
-tellraw @s {"text":"Enabled maps:","color":"dark_aqua"}
+tellraw @s ["",{"translate":"4j.menu.host.config.maps.enabled.header","color":"dark_aqua"},{"text":":","color":"dark_aqua"}]
 
 ##Crucible
 #Enabled

@@ -4,8 +4,8 @@
         "item": "minecraft:splash_potion",
         "nbt": "{Potion:\"minecraft:harming\"}"
       },
-      "title": "Disabled Hotbar Item Swapping",
-      "description": ["","Disable hotbar item swapping. (When using a throwable or dropping an item, that slot will be refilled)","\n","\n",{"text":"Can be toggled with /trigger hotbarswap","color":"gold"}],
+      "title": {"translate":"4j.advancement.config.nohotbarswap.name"},
+      "description": {"translate":"4j.advancement.config.nohotbarswap.desc"},
       "frame": "task",
       "announce_to_chat": false
     },

@@ -8,4 +8,4 @@ function 4jbattle:game/inventory/swap/scorereset
 scoreboard players reset @s hotbarswap
 
 ##Display message
-tellraw @s {"text":"Enabled Hotbar Item Swaping!","color":"green"}
+tellraw @s {"translate":"4j.config.hotbarswap.enable","color":"green"}

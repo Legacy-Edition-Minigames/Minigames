@@ -25,37 +25,37 @@ kill @e[tag=boatWall]
 
 ##Inform users the game has started
 #P1
-bossbar set minecraft:globalinfo1 name "The game has started!"
+bossbar set minecraft:globalinfo1 name {"translate":"4j.game.start.start"}
 #P2
-bossbar set minecraft:globalinfo2 name "The game has started!"
+bossbar set minecraft:globalinfo2 name {"translate":"4j.game.start.start"}
 #P3
-bossbar set minecraft:globalinfo3 name "The game has started!"
+bossbar set minecraft:globalinfo3 name {"translate":"4j.game.start.start"}
 #P4
-bossbar set minecraft:globalinfo4 name "The game has started!"
+bossbar set minecraft:globalinfo4 name {"translate":"4j.game.start.start"}
 #P5
-bossbar set minecraft:globalinfo5 name "The game has started!"
+bossbar set minecraft:globalinfo5 name {"translate":"4j.game.start.start"}
 #P6
-bossbar set minecraft:globalinfo6 name "The game has started!"
+bossbar set minecraft:globalinfo6 name {"translate":"4j.game.start.start"}
 #P7
-bossbar set minecraft:globalinfo7 name "The game has started!"
+bossbar set minecraft:globalinfo7 name {"translate":"4j.game.start.start"}
 #P8
-bossbar set minecraft:globalinfo8 name "The game has started!"
+bossbar set minecraft:globalinfo8 name {"translate":"4j.game.start.start"}
 #P9
-bossbar set minecraft:globalinfo9 name "The game has started!"
+bossbar set minecraft:globalinfo9 name {"translate":"4j.game.start.start"}
 #P10
-bossbar set minecraft:globalinfo10 name "The game has started!"
+bossbar set minecraft:globalinfo10 name {"translate":"4j.game.start.start"}
 #P11
-bossbar set minecraft:globalinfo11 name "The game has started!"
+bossbar set minecraft:globalinfo11 name {"translate":"4j.game.start.start"}
 #P12
-bossbar set minecraft:globalinfo12 name "The game has started!"
+bossbar set minecraft:globalinfo12 name {"translate":"4j.game.start.start"}
 #P13
-bossbar set minecraft:globalinfo13 name "The game has started!"
+bossbar set minecraft:globalinfo13 name {"translate":"4j.game.start.start"}
 #P14
-bossbar set minecraft:globalinfo14 name "The game has started!"
+bossbar set minecraft:globalinfo14 name {"translate":"4j.game.start.start"}
 #P15
-bossbar set minecraft:globalinfo15 name "The game has started!"
+bossbar set minecraft:globalinfo15 name {"translate":"4j.game.start.start"}
 #P16
-bossbar set minecraft:globalinfo16 name "The game has started!"
+bossbar set minecraft:globalinfo16 name {"translate":"4j.game.start.start"}
 
 ##Play sound
 execute as @a at @s run playsound 4jbattle:sound.game.count2 master @s ~ ~ ~ 9999999

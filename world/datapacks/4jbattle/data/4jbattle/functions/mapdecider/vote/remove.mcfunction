@@ -8,4 +8,4 @@ function 4jbattle:mapdecider/vote/tagreset
 execute at @s run playsound ui.button.click master @s ~ ~ ~ 0.25
 
 ##Display message
-tellraw @s {"text":"Removed vote.","color":"red"}
+tellraw @s {"translate":"4j.mapdecider.vote.removevote","color":"red"}

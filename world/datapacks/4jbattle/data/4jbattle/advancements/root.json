@@ -4,7 +4,7 @@
         "item": "minecraft:ghast_spawn_egg",
         "nbt": "{CustomModelData:2}"
       },
-      "title": "Battle Achievements",
+      "title": {"translate":"4j.advancement.root.name"},
       "description": "",
       "background": "minecraft:textures/block/quartz_block_bottom.png",
       "frame": "task",

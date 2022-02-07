@@ -4,8 +4,8 @@
         "item": "minecraft:ghast_spawn_egg",
         "nbt": "{CustomModelData:9}"
       },
-      "title": "The student...",
-      "description": "Win a battle mini game.",
+      "title": {"translate":"4j.advancement.student.name"},
+      "description": {"translate":"4j.advancement.student.desc"},
       "frame": "goal"
     },
     "parent": "4jbattle:root",

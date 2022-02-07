@@ -1,5 +1,5 @@
 ##Display Death message
-tellraw @s "A game is in progress"
+tellraw @s {"translate":"4j.game.nowspectating"}
 
 ##Send to spectator
 function 4jbattle:game/death/run
