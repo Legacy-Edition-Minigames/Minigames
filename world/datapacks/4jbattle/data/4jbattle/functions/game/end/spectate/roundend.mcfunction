@@ -25,7 +25,7 @@ execute unless entity @a[tag=Victor] run scoreboard players set #Store 4j.banner
 #Temporarily hide playericons
 function 4jbattle:game/gui/playerlist/playericon/disable
 #Show Victor
-execute if entity @a[tag=Victor] run bossbar set minecraft:bannerinfo name ["",{"selector":"@a[tag=Victor]","color":"black","font":"4jbattle:banner/text/default"},{"text":" ","font":"4jbattle:banner/text/default"},{"translate":"4j.game.win","color":"black","font":"4jbattle:banner/text/default"}]
+execute if entity @a[tag=Victor] run bossbar set minecraft:bannerinfo name {"translate":"4j.game.win","with":[{"selector":"@a[tag=Victor]","color":"black"}],"color":"black","font":"4jbattle:banner/text/default"}
 #Show draw if nobody won
 execute unless entity @a[tag=Victor] run bossbar set minecraft:bannerinfo name {"translate":"4j.game.draw","color":"black","font":"4jbattle:banner/text/default"}
 #Re-enable playericons
