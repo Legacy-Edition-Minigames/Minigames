@@ -22,8 +22,14 @@ function 4jbattle:clientconfig/custompack/check
 ##Skip song
 function 4jbattle:clientconfig/skipsong/check
 
-##Gui scale
+##GUI scale
 function 4jbattle:clientconfig/guiscale/check
+
+##Panorama scale
+function 4jbattle:clientconfig/panscale/check
+
+##Panorama config
+function 4jbattle:clientconfig/panorama/check
 
 ##Armor Bar toggle
 function 4jbattle:clientconfig/armorbar/check

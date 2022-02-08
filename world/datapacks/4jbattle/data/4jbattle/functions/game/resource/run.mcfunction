@@ -36,6 +36,9 @@ schedule function 4jbattle:game/resource/load/check 10t
 ##Start timer
 schedule function 4jbattle:game/resource/timer 2s
 
+##Start panorama
+function 4jbattle:game/gui/panorama/start
+
 ##Set globalinfo
 #P1
 bossbar set minecraft:globalinfo1 name {"text":"1\uF8022\uF8023\uF8024","font":"4jbattle:loading/title"}

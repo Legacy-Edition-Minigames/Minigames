@@ -9,6 +9,9 @@ gamemode adventure @a[tag=!relogtimer]
 #Enable message
 gamerule sendCommandFeedback true
 
+##Start panorama
+function 4jbattle:game/gui/panorama/start
+
 ##Teleport players to map center
 tp @a @e[limit=1,type=area_effect_cloud,tag=MapCenter]
 

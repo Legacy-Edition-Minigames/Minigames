@@ -2,7 +2,7 @@
 tp @a @e[type=armor_stand,tag=panorama,limit=1,sort=nearest]
 
 ##Move Panorama
-execute as @e[type=armor_stand,tag=panorama] at @s run tp @s ~ ~ ~ ~0.1 ~
+#execute as @e[type=armor_stand,tag=panorama] at @s run tp @s ~ ~ ~ ~0.1 ~
 
 ##Clear check
 schedule clear 4jbattle:lobby/timer/run/check

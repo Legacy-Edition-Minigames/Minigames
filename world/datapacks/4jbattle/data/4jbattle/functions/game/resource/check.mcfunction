@@ -1,5 +1,5 @@
 ##Move panorama
-execute as @e[type=minecraft:area_effect_cloud,tag=MapCenter] at @s run tp @s ~ ~ ~ ~0.1 ~
+#execute as @e[type=minecraft:area_effect_cloud,tag=MapCenter] at @s run tp @s ~ ~ ~ ~0.1 ~
 
 ##Lock at Panorama
 tp @a[tag=!relogtimer] @e[type=area_effect_cloud,sort=nearest,limit=1,tag=MapCenter]

@@ -56,8 +56,8 @@ bossbar set minecraft:globalinfo15 name ["","Please wait for ",{"selector":"@a[t
 #P16
 bossbar set minecraft:globalinfo16 name ["","Please wait for ",{"selector":"@a[tag=host]"}]
 
-##Reset panorama position
-execute as @e[type=armor_stand,tag=panorama] at @s run tp @s ~ ~ ~ 180 ~
+##Start panorama
+function 4jbattle:game/gui/panorama/start
 
 ##Start menu music
 function 4jbattle:menu/music/start

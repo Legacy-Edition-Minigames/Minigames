@@ -352,6 +352,15 @@ scoreboard objectives add 4j.armorbar.feet dummy
 ##Armorbar toggle trigger
 scoreboard objectives add armorbar trigger
 
+##Panorama score
+scoreboard objectives add 4j.panorama dummy
+
+##Panscale trigger
+scoreboard objectives add panscale trigger
+
+##Panorama config trigger
+scoreboard objectives add panorama trigger
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
@@ -553,6 +562,25 @@ bossbar add globalinfo16 ""
 
 ##ChestAnim GlobalInfo
 bossbar add chestanim ""
+
+##Panoramas
+#TU69
+bossbar add panorama/day/69/1 ""
+bossbar set minecraft:panorama/day/69/1 visible true
+bossbar add panorama/day/69/2 ""
+bossbar set minecraft:panorama/day/69/2 visible true
+bossbar add panorama/day/69/3 ""
+bossbar set minecraft:panorama/day/69/3 visible true
+bossbar add panorama/day/69/4 ""
+bossbar set minecraft:panorama/day/69/4 visible true
+bossbar add panorama/night/69/1 ""
+bossbar set minecraft:panorama/night/69/1 visible true
+bossbar add panorama/night/69/2 ""
+bossbar set minecraft:panorama/night/69/2 visible true
+bossbar add panorama/night/69/3 ""
+bossbar set minecraft:panorama/night/69/3 visible true
+bossbar add panorama/night/69/4 ""
+bossbar set minecraft:panorama/night/69/4 visible true
 
 ##Simulate relog
 tag @s remove relog
