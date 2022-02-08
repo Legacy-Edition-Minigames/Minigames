@@ -12,7 +12,7 @@ schedule clear 4jbattle:lobby/timer/check
 #Non-hosts
 title @a[tag=!host,tag=!relogtimer] title {"translate":"4j.menu.player.waiting"}
 #Hosts
-title @a[tag=host] title ["",{"translate":"4j.menu.host.title"},{"text":" [","color":"gold"},{"keybind":"key.chat","color":"yellow"},{"text":"]","color":"gold"}]
+title @a[tag=host] title {"translate":"4j.menu.host.title","with":[{"keybind":"key.chat","color":"yellow"}]}
 title @a[tag=host] subtitle {"translate":"4j.menu.host.subtitle"}
 #Set GlobalInfo
 #P1
