@@ -1,17 +1,17 @@
 ##Display timer
-bossbar set globalinfo1 name ["","Round end in ",{"score":{"name":"#Store","objective":"4j.gametimer"}}," second(s)..."]
-bossbar set globalinfo2 name ["","Round end in ",{"score":{"name":"#Store","objective":"4j.gametimer"}}," second(s)..."]
-bossbar set globalinfo3 name ["","Round end in ",{"score":{"name":"#Store","objective":"4j.gametimer"}}," second(s)..."]
-bossbar set globalinfo4 name ["","Round end in ",{"score":{"name":"#Store","objective":"4j.gametimer"}}," second(s)..."]
-bossbar set globalinfo5 name ["","Round end in ",{"score":{"name":"#Store","objective":"4j.gametimer"}}," second(s)..."]
-bossbar set globalinfo6 name ["","Round end in ",{"score":{"name":"#Store","objective":"4j.gametimer"}}," second(s)..."]
-bossbar set globalinfo7 name ["","Round end in ",{"score":{"name":"#Store","objective":"4j.gametimer"}}," second(s)..."]
-bossbar set globalinfo8 name ["","Round end in ",{"score":{"name":"#Store","objective":"4j.gametimer"}}," second(s)..."]
-bossbar set globalinfo9 name ["","Round end in ",{"score":{"name":"#Store","objective":"4j.gametimer"}}," second(s)..."]
-bossbar set globalinfo10 name ["","Round end in ",{"score":{"name":"#Store","objective":"4j.gametimer"}}," second(s)..."]
-bossbar set globalinfo11 name ["","Round end in ",{"score":{"name":"#Store","objective":"4j.gametimer"}}," second(s)..."]
-bossbar set globalinfo12 name ["","Round end in ",{"score":{"name":"#Store","objective":"4j.gametimer"}}," second(s)..."]
-bossbar set globalinfo13 name ["","Round end in ",{"score":{"name":"#Store","objective":"4j.gametimer"}}," second(s)..."]
-bossbar set globalinfo14 name ["","Round end in ",{"score":{"name":"#Store","objective":"4j.gametimer"}}," second(s)..."]
-bossbar set globalinfo15 name ["","Round end in ",{"score":{"name":"#Store","objective":"4j.gametimer"}}," second(s)..."]
-bossbar set globalinfo16 name ["","Round end in ",{"score":{"name":"#Store","objective":"4j.gametimer"}}," second(s)..."]
+bossbar set globalinfo1 name {"translate":"4j.game.roundend.timer","with":[{"score":{"name":"#Store","objective":"4j.gametimer"}}]}
+bossbar set globalinfo2 name {"translate":"4j.game.roundend.timer","with":[{"score":{"name":"#Store","objective":"4j.gametimer"}}]}
+bossbar set globalinfo3 name {"translate":"4j.game.roundend.timer","with":[{"score":{"name":"#Store","objective":"4j.gametimer"}}]}
+bossbar set globalinfo4 name {"translate":"4j.game.roundend.timer","with":[{"score":{"name":"#Store","objective":"4j.gametimer"}}]}
+bossbar set globalinfo5 name {"translate":"4j.game.roundend.timer","with":[{"score":{"name":"#Store","objective":"4j.gametimer"}}]}
+bossbar set globalinfo6 name {"translate":"4j.game.roundend.timer","with":[{"score":{"name":"#Store","objective":"4j.gametimer"}}]}
+bossbar set globalinfo7 name {"translate":"4j.game.roundend.timer","with":[{"score":{"name":"#Store","objective":"4j.gametimer"}}]}
+bossbar set globalinfo8 name {"translate":"4j.game.roundend.timer","with":[{"score":{"name":"#Store","objective":"4j.gametimer"}}]}
+bossbar set globalinfo9 name {"translate":"4j.game.roundend.timer","with":[{"score":{"name":"#Store","objective":"4j.gametimer"}}]}
+bossbar set globalinfo10 name {"translate":"4j.game.roundend.timer","with":[{"score":{"name":"#Store","objective":"4j.gametimer"}}]}
+bossbar set globalinfo11 name {"translate":"4j.game.roundend.timer","with":[{"score":{"name":"#Store","objective":"4j.gametimer"}}]}
+bossbar set globalinfo12 name {"translate":"4j.game.roundend.timer","with":[{"score":{"name":"#Store","objective":"4j.gametimer"}}]}
+bossbar set globalinfo13 name {"translate":"4j.game.roundend.timer","with":[{"score":{"name":"#Store","objective":"4j.gametimer"}}]}
+bossbar set globalinfo14 name {"translate":"4j.game.roundend.timer","with":[{"score":{"name":"#Store","objective":"4j.gametimer"}}]}
+bossbar set globalinfo15 name {"translate":"4j.game.roundend.timer","with":[{"score":{"name":"#Store","objective":"4j.gametimer"}}]}
+bossbar set globalinfo16 name {"translate":"4j.game.roundend.timer","with":[{"score":{"name":"#Store","objective":"4j.gametimer"}}]}

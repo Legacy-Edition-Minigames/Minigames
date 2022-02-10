@@ -8,7 +8,7 @@ scoreboard players set #Store 4j.vistime 1
 function 4jbattle:game/gui/globalinfo/load
 
 ##Display message
-tellraw @a "The host has set the time to Day."
+tellraw @a {"translate":"4j.menu.host.config.update.time.day"}
 
 ##Open menu
 function 4jbattle:menu/load/host/extra/open
