@@ -5,7 +5,7 @@ scoreboard players set #FoodCentral 4j.enableset 1
 scoreboard players add #Store 4j.setcount 1
 
 ##Display message
-tellraw @a "The host has set added Food Central Item Set to Random Item Set."
+tellraw @a {"translate":"4j.menu.host.config.update.item.random.enable","with":[{"translate":"4j.game.start.displaysettings.itemset.foodcentral"}]}
 
 ##Open menu
 function 4jbattle:menu/load/host/chest/randomconfig/open
