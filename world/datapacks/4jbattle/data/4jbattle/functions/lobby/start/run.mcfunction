@@ -69,6 +69,3 @@ function 4jbattle:lobby/reset/run
 
 ##Set tablist display
 function 4jbattle:game/gui/playerlist/scores/check/lobby
-
-##Clear panorama
-function 4jbattle:game/gui/panorama/stop

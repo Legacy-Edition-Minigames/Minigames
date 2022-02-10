@@ -361,6 +361,9 @@ scoreboard objectives add panscale trigger
 ##Panorama config trigger
 scoreboard objectives add panorama trigger
 
+##ToolTip refresh timer
+scoreboard objectives add 4j.tiprefresh dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

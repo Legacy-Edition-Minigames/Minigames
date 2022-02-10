@@ -10,6 +10,9 @@ gamemode adventure @a[tag=!relogtimer]
 gamerule sendCommandFeedback true
 
 ##Start panorama
+#Set displaymode
+scoreboard players set #Store 4j.displaymode 2
+#Start
 function 4jbattle:game/gui/panorama/start
 
 ##Teleport players to map center
