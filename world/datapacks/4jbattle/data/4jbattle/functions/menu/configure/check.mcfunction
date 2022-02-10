@@ -1,6 +1,3 @@
-##Load GUI if score is 1
-execute as @s[scores={4j.gamecfg=1}] run function 4jbattle:menu/load/host/gui
-
 ##Remove Round if score is set to 2
 execute as @s[scores={4j.gamecfg=2}] run function 4jbattle:menu/load/host/round/remove
 
@@ -21,15 +18,6 @@ execute as @s[scores={4j.gamecfg=7}] run function 4jbattle:menu/load/host/lives/
 
 ##Set Chest type to standard if score is set to 8
 execute as @s[scores={4j.gamecfg=8}] run function 4jbattle:menu/load/host/chest/setstandard
-
-##Set Map to Crucible if score is set to 9
-#execute as @s[scores={4j.gamecfg=9}] run function 4jbattle:menu/load/host/map/setcrucible
-
-##Set Map to Cove if score is set to 10
-#execute as @s[scores={4j.gamecfg=10}] run function 4jbattle:menu/load/host/map/setcove
-
-##Set Map to Cavern if score is set to 11
-#execute as @s[scores={4j.gamecfg=11}] run function 4jbattle:menu/load/host/map/setcavern
 
 ##Start game is score is set to 9
 execute as @s[scores={4j.gamecfg=9}] run function 4jbattle:menu/load/host/start/check
@@ -138,29 +126,11 @@ execute as @s[scores={4j.gamecfg=42}] run function 4jbattle:menu/load/host/timel
 ##Set time limit to long
 execute as @s[scores={4j.gamecfg=43}] run function 4jbattle:menu/load/host/timelimit/setlong
 
-##Open extra options menu
-execute as @s[scores={4j.gamecfg=44}] run function 4jbattle:menu/load/host/extra/open
-
-##Open Item Set options menu
-execute as @s[scores={4j.gamecfg=45}] run function 4jbattle:menu/load/host/chest/open
-
-##Open Map options menu
-execute as @s[scores={4j.gamecfg=46}] run function 4jbattle:menu/load/host/map/open
-
-##Open Random Item Set config menu
-execute as @s[scores={4j.gamecfg=47}] run function 4jbattle:menu/load/host/chest/randomconfig/open
-
 ##Item set customization
 execute as @s[scores={4j.gamecfg=48..59}] run function 4jbattle:menu/load/host/chest/randomconfig/run
 
-##Open Preset menu
-execute as @s[scores={4j.gamecfg=60}] run function 4jbattle:menu/load/host/preset/open
-
 ##Open Preset save menu
 execute as @s[scores={4j.gamecfg=61}] run function 4jbattle:menu/load/host/preset/save/run
-
-##Open Preset load menu
-execute as @s[scores={4j.gamecfg=62}] run function 4jbattle:menu/load/host/preset/load/run
 
 ##Preset save warning
 execute as @s[scores={4j.gamecfg=63..72}] run function 4jbattle:menu/load/host/preset/save/confirm
@@ -186,9 +156,6 @@ execute as @s[scores={4j.gamecfg=80}] run function 4jbattle:menu/load/host/prese
 execute as @s[scores={4j.gamecfg=81}] run function 4jbattle:menu/load/host/preset/save/9
 #Preset 10
 execute as @s[scores={4j.gamecfg=82}] run function 4jbattle:menu/load/host/preset/save/10
-
-##Preset load display
-execute as @s[scores={4j.gamecfg=83..92}] run function 4jbattle:menu/load/host/preset/load/confirm
 
 ##Load Presets if saved
 #Preset 1
