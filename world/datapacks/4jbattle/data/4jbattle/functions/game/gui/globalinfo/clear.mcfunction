@@ -35,3 +35,11 @@ bossbar set minecraft:panorama/night/69/1 players
 bossbar set minecraft:panorama/night/69/2 players
 bossbar set minecraft:panorama/night/69/3 players
 bossbar set minecraft:panorama/night/69/4 players
+bossbar set minecraft:panorama/day/custom/1 players
+bossbar set minecraft:panorama/day/custom/2 players
+bossbar set minecraft:panorama/day/custom/3 players
+bossbar set minecraft:panorama/day/custom/4 players
+bossbar set minecraft:panorama/night/custom/1 players
+bossbar set minecraft:panorama/night/custom/2 players
+bossbar set minecraft:panorama/night/custom/3 players
+bossbar set minecraft:panorama/night/custom/4 players
