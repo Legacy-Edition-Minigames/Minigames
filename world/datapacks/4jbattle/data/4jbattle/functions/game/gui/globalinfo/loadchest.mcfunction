@@ -9,7 +9,7 @@ bossbar set minecraft:pushdown players @a
 bossbar set minecraft:chestanim players @a
 
 ##Banner pushdowns
-bossbar set minecraft:bannerpushdown1 players @a
+#bossbar set minecraft:bannerpushdown1 players @a
 bossbar set minecraft:bannerpushdown2 players @a
 #bossbar set minecraft:bannerpushdown3 players @a
 

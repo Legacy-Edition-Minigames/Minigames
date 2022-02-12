@@ -64,7 +64,7 @@ bossbar set minecraft:globalinfo15 players @a[scores={4j.pid=15}]
 bossbar set minecraft:globalinfo16 players @a[scores={4j.pid=16}]
 
 ##Banner pushdowns
-bossbar set minecraft:bannerpushdown1 players @a
+#bossbar set minecraft:bannerpushdown1 players @a
 bossbar set minecraft:bannerpushdown2 players @a
 #bossbar set minecraft:bannerpushdown3 players @a
 
