@@ -364,6 +364,9 @@ scoreboard objectives add panorama trigger
 ##ToolTip refresh timer
 scoreboard objectives add 4j.tiprefresh dummy
 
+##Clear small inv texture
+scoreboard objectives add clearsmallinv trigger
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

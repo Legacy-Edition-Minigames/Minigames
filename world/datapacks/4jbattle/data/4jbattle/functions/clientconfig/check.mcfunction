@@ -34,5 +34,8 @@ function 4jbattle:clientconfig/panorama/check
 ##Armor Bar toggle
 function 4jbattle:clientconfig/armorbar/check
 
+##Clear small inv texture
+function 4jbattle:clientconfig/clearsmall/check
+
 ##Loop
 schedule function 4jbattle:clientconfig/check 1s
