@@ -1,5 +1,6 @@
 ##Teleport
-tp @a @e[type=armor_stand,tag=panorama,limit=1,sort=nearest]
+#tp @a @e[type=armor_stand,tag=panorama,limit=1,sort=nearest]
+tp @a -285 77 -292
 
 ##Move Panorama
 #execute as @e[type=armor_stand,tag=panorama] at @s run tp @s ~ ~ ~ ~0.1 ~
