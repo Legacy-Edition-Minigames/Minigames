@@ -439,7 +439,7 @@ team modify P08 collisionRule pushOwnTeam
 team modify P08 seeFriendlyInvisibles false
 #9
 team add P09
-team modify P09 color dark_aqua
+team modify P09 color dark_blue
 team modify P09 prefix ["",{"text":"\uF809","color":"white","font":"4jbattle:playericon"},{"text":"\uF821","font":"4jbattle:default"}]
 team modify P09 collisionRule pushOwnTeam
 team modify P09 seeFriendlyInvisibles false
