@@ -46,3 +46,6 @@ bossbar set minecraft:bannerpushdown2 players @a
 
 ##Banner info
 bossbar set minecraft:bannerinfo players @a
+
+##ChestAnim globalinfo
+bossbar set minecraft:chestanim players @a
