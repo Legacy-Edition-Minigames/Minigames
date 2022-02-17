@@ -19,7 +19,10 @@ bossbar set minecraft:globalinfo14 players
 bossbar set minecraft:globalinfo15 players
 bossbar set minecraft:globalinfo16 players
 #ChestAnim globalinfo
-bossbar set minecraft:chestanim players
+bossbar set minecraft:chestanim/1 players
+bossbar set minecraft:chestanim/2 players
+bossbar set minecraft:chestanim/3 players
+bossbar set minecraft:chestanim/4 players
 #Banner pushdowns
 bossbar set minecraft:bannerpushdown1 players
 bossbar set minecraft:bannerpushdown2 players

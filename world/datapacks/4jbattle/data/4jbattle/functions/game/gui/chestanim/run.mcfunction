@@ -1,14 +1,20 @@
 ##Display
 #1
-execute if score #Store 4j.chestanim matches 1 run bossbar set minecraft:chestanim name {"text":"                                                                                                        1","font":"4jbattle:chestrefill"}
+execute if score #Store 4j.chestanim matches 1 run scoreboard players set #Store 4j.chestaniframe 1
 #2
-execute if score #Store 4j.chestanim matches 5 run bossbar set minecraft:chestanim name {"text":"                                                                                                        2","font":"4jbattle:chestrefill"}
+execute if score #Store 4j.chestanim matches 5 run scoreboard players set #Store 4j.chestaniframe 2
 #3
-execute if score #Store 4j.chestanim matches 6 run bossbar set minecraft:chestanim name {"text":"                                                                                                        3","font":"4jbattle:chestrefill"}
+execute if score #Store 4j.chestanim matches 6 run scoreboard players set #Store 4j.chestaniframe 3
 #4
-execute if score #Store 4j.chestanim matches 22 run bossbar set minecraft:chestanim name {"text":"                                                                                                        2","font":"4jbattle:chestrefill"}
+execute if score #Store 4j.chestanim matches 22 run scoreboard players set #Store 4j.chestaniframe 2
 #5
-execute if score #Store 4j.chestanim matches 23 run bossbar set minecraft:chestanim name {"text":"                                                                                                        1","font":"4jbattle:chestrefill"}
+execute if score #Store 4j.chestanim matches 23 run scoreboard players set #Store 4j.chestaniframe 1
+
+##Display
+execute if entity @a[advancements={4jbattle:config/guiscale/1=true}] run function 4jbattle:game/gui/chestanim/display/1
+execute if entity @a[advancements={4jbattle:config/guiscale/2=true}] run function 4jbattle:game/gui/chestanim/display/2
+execute if entity @a[advancements={4jbattle:config/guiscale/3=true}] run function 4jbattle:game/gui/chestanim/display/3
+execute if entity @a[advancements={4jbattle:config/guiscale/4=true}] run function 4jbattle:game/gui/chestanim/display/4
 
 ##Increase score
 scoreboard players add #Store 4j.chestanim 1

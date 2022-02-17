@@ -367,6 +367,9 @@ scoreboard objectives add 4j.tiprefresh dummy
 ##Clear small inv texture
 scoreboard objectives add clearsmallinv trigger
 
+##Chest animation frame
+scoreboard objectives add 4j.chestaniframe dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
@@ -567,7 +570,14 @@ bossbar add globalinfo15 ""
 bossbar add globalinfo16 ""
 
 ##ChestAnim GlobalInfo
-bossbar add chestanim ""
+#GUI scale 1
+bossbar add chestanim/1 ""
+#GUI scale 2
+bossbar add chestanim/2 ""
+#GUI scale 3
+bossbar add chestanim/3 ""
+#GUI scale 4
+bossbar add chestanim/4 ""
 
 ##Panoramas
 #TU69
