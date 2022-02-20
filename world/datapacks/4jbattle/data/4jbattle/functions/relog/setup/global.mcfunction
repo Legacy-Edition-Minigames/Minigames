@@ -26,6 +26,9 @@ function 4jbattle:game/player/setpid
 ##Detect if Patreon
 function 4jbattle:relog/setup/patreon
 
+##Detect per-user data
+function 4jbattle:relog/setp/usercheck
+
 ##Clear title
 title @s title ""
 title @s subtitle ""

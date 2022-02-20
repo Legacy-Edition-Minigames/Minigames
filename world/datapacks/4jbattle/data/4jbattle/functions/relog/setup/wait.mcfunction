@@ -30,6 +30,7 @@ tag @s remove inbounds-x+
 tag @s remove inbounds-z+
 tag @s remove inbounds-x-
 tag @s remove inbounds-z-
+tag @s remove heart-architect
 
 ##Set title times
 title @s times 0 50 1

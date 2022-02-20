@@ -9,6 +9,8 @@ execute as @a[scores={heartcosmetic=-2}] run function 4jbattle:clientconfig/hear
 execute as @a[scores={heartcosmetic=-3}] run function 4jbattle:clientconfig/heart/menu/pride
 #Patreon
 execute as @a[scores={heartcosmetic=-4}] run function 4jbattle:clientconfig/heart/menu/patreon
+#Secret
+execute as @a[scores={heartcosmetic=-5}] run function 4jbattle:clientconfig/heart/menu/secret
 
 ##Switch hearts
 #Minecraft
@@ -66,6 +68,10 @@ execute as @a[scores={heartcosmetic=23}] unless entity @s[scores={4j.patreon=4..
 #Large+
 execute as @a[scores={heartcosmetic=24}] if entity @s[scores={4j.patreon=5..}] run function 4jbattle:clientconfig/heart/switch/largeplus/run
 execute as @a[scores={heartcosmetic=24}] unless entity @s[scores={4j.patreon=5..}] run function 4jbattle:clientconfig/heart/switch/largeplus/fail
+#Secrets
+#TheMinecraftArchitect
+execute as @a[scores={heartcosmetic=25},tag=heart-architect] run function 4jbattle:clientconfig/heart/switch/architect
+execute as @a[scores={heartcosmetic=25},tag=!heart-architect] run function 4jbattle:clientconfig/heart/switch/notunlocked
 
 ##Enable toggle
 scoreboard players enable @a heartcosmetic
