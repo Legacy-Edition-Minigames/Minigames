@@ -37,6 +37,8 @@ schedule clear 4jbattle:game/globalinfo/clear/check
 schedule clear 4jbattle:game/globalinfo/hide
 #Tipped Arrow fixer
 schedule clear 4jbattle:game/inventory/arrowfix/check
+#Start particles
+schedule clear 4jbattle:game/particle/pregame/run
 
 ##Clear Scores
 #Cupid
@@ -45,10 +47,6 @@ scoreboard players reset @a 4j.cupid
 scoreboard players reset @a 4j.scratch
 #GlobalInfo clear timer
 scoreboard players reset @a 4j.cleargi
-
-##Map specific schedules
-#Cove
-#execute if score #Store 4j.map matches 2 run function 4jbattle:cove/clearschedule
 
 ##Debug Info
 tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Cleared schedules","color":"gold"}]
