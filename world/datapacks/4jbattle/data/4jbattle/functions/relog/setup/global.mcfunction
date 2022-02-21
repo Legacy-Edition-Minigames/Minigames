@@ -27,7 +27,7 @@ function 4jbattle:game/player/setpid
 function 4jbattle:relog/setup/patreon
 
 ##Detect per-user data
-function 4jbattle:relog/setp/usercheck
+function 4jbattle:relog/setup/usercheck
 
 ##Clear title
 title @s title ""
