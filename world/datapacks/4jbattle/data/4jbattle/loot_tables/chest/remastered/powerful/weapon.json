@@ -110,12 +110,23 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 40,
+          "weight": 20,
           "name": "minecraft:crossbow",
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:quick_charge\",lvl:3s},{id:\"minecraft:multishot\",lvl:1s}]}"
+              "tag": "{Enchantments:[{id:\"minecraft:quick_charge\",lvl:3s},{id:\"minecraft:piercing\",lvl:1s}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:multishot\",lvl:1s}]}"
             }
           ]
         },
