@@ -95,6 +95,6 @@ function 4jbattle:game/inventory/arrowfix/check
 
 ##Load take everything
 #Enabled
-execute if score #Store 4j.takeall matches 1 run takeeverything true
+execute if score #Store 4j.takeall matches 1 run takeeverything enabled true
 #Disabled
-execute if score #Store 4j.takeall matches 0 run takeeverything false
+execute if score #Store 4j.takeall matches 0 run takeeverything enabled false
