@@ -1,6 +1,9 @@
 ##Enable config option
 advancement revoke @s only 4jbattle:config/custompack
 
+##Enable per-map textures
+advancement revoke @s only 4jbattle:config/globalpack
+
 ##Reset score
 scoreboard players reset @s custompack
 

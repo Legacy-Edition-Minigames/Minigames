@@ -32,7 +32,7 @@ execute if score #Store 4j.map matches 47..48 run function 4jbattle:game/resourc
 execute if entity @s[tag=relogtimer,tag=!custompack] run function 4jbattle:game/resource/load/vanilla/run
 
 ##Give resourceloaded tag to custom pack users
-tag @s[advancements={4jbattle:config/custompack=true}] add resourceloaded
+tag @s[advancements={4jbattle:config/custompack=true,4jbattle:config/globalpack=true}] add resourceloaded
 
 ##Give tag if using custom pack
-tag @s[advancements={4jbattle:config/custompack=true}] add nopackreload
+tag @s[advancements={4jbattle:config/custompack=true,4jbattle:config/globalpack=true}] add nopackreload
