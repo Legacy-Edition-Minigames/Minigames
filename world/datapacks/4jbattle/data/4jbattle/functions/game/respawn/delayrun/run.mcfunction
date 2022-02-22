@@ -45,6 +45,9 @@ execute if score @s 4j.lives matches 1 if score @s 4j.pid matches 16 run bossbar
 #Set globalinfo clear timer
 scoreboard players set @s 4j.cleargi 4
 
+##Clear globalinfo if inf lives
+execute if score @s 4j.lives matches ..1 run function 4jbattle:game/globalinfo/clear/clear
+
 ##Remove death screen
 title @s title ""
 title @s subtitle ""
