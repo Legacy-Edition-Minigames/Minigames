@@ -179,4 +179,4 @@ scoreboard players operation @a 4j.lives = #Store 4j.lives
 function 4jbattle:game/chests/clear
 
 ##Load timer
-function 4jbattle:game/timer/start/start
+function 4jbattle:game/timer/start/prep

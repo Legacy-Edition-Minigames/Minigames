@@ -17,7 +17,7 @@ execute at @e[tag=Chest] run data merge block ~ ~ ~ {LootTable:"",Items:[{}]}
 function 4jbattle:game/mapreset/run
 
 ##Start game
-schedule function 4jbattle:game/timer/start/start 5t
+schedule function 4jbattle:game/timer/start/prep 5t
 
 ##Start Music in 10 seconds
 schedule function 4jbattle:game/music/start 10s

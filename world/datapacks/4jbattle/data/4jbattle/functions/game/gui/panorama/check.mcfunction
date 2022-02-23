@@ -32,5 +32,8 @@ execute if predicate 4jbattle:is_nighttime if entity @a[advancements={4jbattle:c
 execute if predicate 4jbattle:is_nighttime if entity @a[advancements={4jbattle:config/panorama/custom=true,4jbattle:config/panscale/3=true}] run function 4jbattle:game/gui/panorama/render/night/custom/3
 execute if predicate 4jbattle:is_nighttime if entity @a[advancements={4jbattle:config/panorama/custom=true,4jbattle:config/panscale/4=true}] run function 4jbattle:game/gui/panorama/render/night/custom/4
 
+##Clear items
+kill @e[type=item]
+
 ##Loop
 schedule function 4jbattle:game/gui/panorama/check 1t

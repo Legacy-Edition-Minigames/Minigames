@@ -22,5 +22,5 @@ execute if score #Store 4j.maptype matches 4 if score #Store 4j.tp matches 2 run
 ##Face camera towards center
 schedule function 4jbattle:game/setup/teleport/facecenter 25t
 
-##Stop panorama
-schedule function 4jbattle:game/gui/panorama/stop 25t
+##Start properly
+schedule function 4jbattle:game/timer/start/start 25t

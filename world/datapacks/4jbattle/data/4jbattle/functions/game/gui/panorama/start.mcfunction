@@ -14,5 +14,13 @@ scoreboard players set #Store 4j.gimode 3
 ##Load globalinfo
 function 4jbattle:game/gui/globalinfo/load
 
+##Enter creative
+#Disable output
+gamerule sendCommandFeedback false
+#Set gamemode
+gamemode creative @a[tag=!relogtimer]
+#Enable output
+gamerule sendCommandFeedback true
+
 ##Start
 function 4jbattle:game/gui/panorama/check
