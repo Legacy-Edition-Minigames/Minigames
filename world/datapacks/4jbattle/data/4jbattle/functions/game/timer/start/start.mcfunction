@@ -32,6 +32,9 @@ tag @a remove Winner
 ##Copy mob head
 execute as @a[tag=headstore] run function 4jbattle:lobby/mobhead/copy
 
+##Render game tablist
+execute if score #Store 4j.initialgame matches 1 run function 4jbattle:game/gui/playerlist/scores/check/game
+
 ##Lock chests
 schedule function 4jbattle:game/chests/lock 1s
 
@@ -55,3 +58,6 @@ scoreboard players reset @a 4j.eliminated
 
 ##Display particles
 function 4jbattle:game/particle/pregame/run
+
+##Load custom behavior
+execute if score #Store 4j.initialgame matches 1 run function 4jbattle:game/custom/load

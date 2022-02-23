@@ -19,6 +19,9 @@ execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:carved_pumpkin"}]}] run f
 ##Set gamestatus
 scoreboard players set #Store 4j.gamestatus 2
 
+##Set initialgame status
+scoreboard players set #Store 4j.initialgame 1
+
 ##Reset players
 function 4jbattle:game/playerreset
 
@@ -30,12 +33,6 @@ function 4jbattle:game/resource/run
 
 ##Load Init functions
 function 4jbattle:game/mapinit/run
-
-##Load custom behavior
-function 4jbattle:game/custom/load
-
-##Render game tablist
-function 4jbattle:game/gui/playerlist/scores/check/game
 
 ##Reset kill counter
 #Per-Round

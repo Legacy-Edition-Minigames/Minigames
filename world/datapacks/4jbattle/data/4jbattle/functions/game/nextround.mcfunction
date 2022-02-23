@@ -169,6 +169,9 @@ tag @a[tag=!relogtimer] add player
 ##Remove Victor tag
 tag @a remove Victor
 
+##Set initialgame status
+scoreboard players set #Store 4j.initialgame 0
+
 ##Reset player
 function 4jbattle:game/playerreset
 
