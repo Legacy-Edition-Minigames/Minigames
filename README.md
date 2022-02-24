@@ -50,3 +50,7 @@ Texture Pack ports - [Ultmate_Mario](https://ultmatemario.wixsite.com/ultmatemar
 Significant Modding Help - [Kyrptonaught](https://github.com/kyrptonaught)
 
 Achievement Icons - [Lion8cake](https://github.com/Lion8cake)
+
+Greek Translations - [Ethelous](https://github.com/Ethelous)
+
+Spanish Translations - [PiporGames](https://github.com/PiporGames)
