@@ -10,17 +10,17 @@ execute as @a[tag=!relogtimer] run function 4jbattle:game/end/leave
 ##Set game status to Lobby
 scoreboard players set #Store 4j.gamestatus 1
 
-##Load Lobby
-function 4jbattle:lobby/start/load
-
-##Stop Music
-function 4jbattle:game/music/stop
-
 ##Stop custom checks
 function 4jbattle:game/custom/stop
 
 ##Run mapinit end functions
 function 4jbattle:game/mapinit/stop
+
+##Load Lobby
+function 4jbattle:lobby/start/load
+
+##Stop Music
+function 4jbattle:game/music/stop
 
 ##Disable take everything
 takeeverything enabled false

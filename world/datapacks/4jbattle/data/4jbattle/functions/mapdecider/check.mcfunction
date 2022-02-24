@@ -28,11 +28,11 @@ function 4jbattle:game/playerreset
 ##Load players into the map
 execute as @a[tag=!relogtimer] run function 4jbattle:game/join
 
-##Load resources
-function 4jbattle:game/resource/run
-
 ##Load Init functions
 function 4jbattle:game/mapinit/run
+
+##Load resources
+function 4jbattle:game/resource/run
 
 ##Reset kill counter
 #Per-Round
