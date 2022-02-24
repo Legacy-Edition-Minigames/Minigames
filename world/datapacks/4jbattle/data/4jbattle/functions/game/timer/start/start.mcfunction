@@ -61,3 +61,9 @@ function 4jbattle:game/particle/pregame/run
 
 ##Load custom behavior
 execute if score #Store 4j.initialgame matches 1 run function 4jbattle:game/custom/load
+
+##TNT Check
+function 4jbattle:game/tnt/check
+
+##Fire check
+function 4jbattle:game/fire/check

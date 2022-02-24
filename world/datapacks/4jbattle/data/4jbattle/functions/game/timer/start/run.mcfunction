@@ -72,12 +72,6 @@ execute as @a run function 4jbattle:game/combat/cooldown
 ##Start spectator check
 execute positioned -343 4 -342 run function 4jbattle:game/spectator/start
 
-##TNT Check
-function 4jbattle:game/tnt/check
-
-##Fire check
-function 4jbattle:game/fire/check
-
 ##Set spawnpoints
 execute as @a at @s run spawnpoint @s ~ ~ ~
 
