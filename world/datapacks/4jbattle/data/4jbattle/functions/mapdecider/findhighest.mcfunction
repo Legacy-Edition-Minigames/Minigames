@@ -47,7 +47,7 @@ execute if score #Store 4j.maptype matches 2.. if score #Atlantis 4j.enablemap m
 #Small Atlantis
 execute if score #Store 4j.maptype matches 1 if score #Atlantis 4j.enablemap matches 1 if score §a2-1:Atlantis 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 23
 #Large Ruin
-execute if score #Store 4j.maptype matches 2.. if score #Ruin 4j.enablemap matches 1 if score §a2-2:Ruin 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 24
+execute if score #Store 4j.maptype matches 2 if score #Ruin 4j.enablemap matches 1 if score §a2-2:Ruin 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 24
 #Small Ruin
 execute if score #Store 4j.maptype matches 1 if score #Ruin 4j.enablemap matches 1 if score §a2-2:Ruin 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 25
 #Large Siege
@@ -96,6 +96,8 @@ execute if score #Store 4j.maptype matches 3 if score #Frontier 4j.enablemap mat
 execute if score #Store 4j.maptype matches 2.. if score #Capitol 4j.enablemap matches 1 if score §a8-3:Capitol 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 47
 #Small Capitol
 execute if score #Store 4j.maptype matches 1 if score #Capitol 4j.enablemap matches 1 if score §a8-3:Capitol 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 48
+#Remastered Ruin
+execute if score #Store 4j.maptype matches 3 if score #Ruin 4j.enablemap matches 1 if score §a2-2:Ruin 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 49
 
 ##Load map
 function 4jbattle:mapdecider/check

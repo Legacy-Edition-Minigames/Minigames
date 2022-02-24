@@ -10,6 +10,7 @@ execute if score #Store 4j.map matches 18..19 run function 4jbattle:game/resourc
 execute if score #Store 4j.map matches 22..23 run function 4jbattle:game/resource/load/greek/run
 #Ruin
 execute if score #Store 4j.map matches 24..25 run function 4jbattle:game/resource/load/city/run
+execute if score #Store 4j.map matches 49 run function 4jbattle:game/resource/load/city/run
 #Siege
 execute if score #Store 4j.map matches 26..27 run function 4jbattle:game/resource/load/fantasy/run
 #Invasion
