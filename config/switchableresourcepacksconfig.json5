@@ -4,8 +4,16 @@
 	// List of all the resourcepacks configurations to use
 	"packs": [
 		{
+			"packname": "blank",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/blank.zip?raw=true",
+			"hash": "",
+			"required": true,
+			"hasPrompt": true,
+			"message": "Legacy Edition Battle requires a resource pack to function properly!"
+		},
+		{
 			"packname": "vanilla",
-			"url": "http://23.185.17.134:80/lem/resources/battle/R25P/vanilla/vanilla.zip",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26/vanilla.zip?raw=true",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -13,7 +21,7 @@
 		},
 		{
 			"packname": "vanilla-optifine",
-			"url": "http://23.185.17.134:80/lem/resources/battle/R25P/opticringe/vanilla.zip",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26/vanilla.zip?raw=true",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -21,7 +29,7 @@
 		},
 		{
 			"packname": "all-music-1",
-			"url": "http://23.185.17.134:80/lem/resources/battle/R25P/vanilla/all-music-1.zip",
+			"url": "https://www.dropbox.com/s/c05pdw52g05x3o7/all-music-1.zip?dl=1",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -29,7 +37,7 @@
 		},
 		{
 			"packname": "all-music-2",
-			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R25/all-music-2.zip?raw=true",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26/all-music-2.zip?raw=true",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -37,7 +45,7 @@
 		},
 		{
 			"packname": "all-music-1-optifine",
-			"url": "http://23.185.17.134:80/lem/resources/battle/R25P/opticringe/all-music-1.zip",
+			"url": "https://www.dropbox.com/s/n8r9j8suqfnauqk/all-music-1.zip?dl=1",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -45,7 +53,7 @@
 		},
 		{
 			"packname": "all-music-2-optifine",
-			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R25/all-music-2.zip?raw=true",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26/all-music-2.zip?raw=true",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -53,7 +61,7 @@
 		},
 		{
 			"packname": "plastic",
-			"url": "http://23.185.17.134:80/lem/resources/battle/R25P/vanilla/plastic.zip",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26/plastic.zip?raw=true",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -61,7 +69,7 @@
 		},
 		{
 			"packname": "plastic-optifine",
-			"url": "http://23.185.17.134:80/lem/resources/battle/R25P/opticringe/plastic.zip",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26/plastic.zip?raw=true",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -69,7 +77,7 @@
 		},
 		{
 			"packname": "fantasy",
-			"url": "http://23.185.17.134:80/lem/resources/battle/R25P/vanilla/fantasy.zip",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26/fantasy.zip?raw=true",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -77,7 +85,7 @@
 		},
 		{
 			"packname": "fantasy-optifine",
-			"url": "http://23.185.17.134:80/lem/resources/battle/R25P/opticringe/fantasy.zip",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26/fantasy.zip?raw=true",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -85,7 +93,7 @@
 		},
 		{
 			"packname": "city",
-			"url": "http://23.185.17.134:80/lem/resources/battle/R25P/vanilla/city.zip",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26/city.zip?raw=true",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -93,7 +101,7 @@
 		},
 		{
 			"packname": "city-optifine",
-			"url": "http://23.185.17.134:80/lem/resources/battle/R25P/opticringe/city.zip",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26/city.zip?raw=true",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -101,7 +109,7 @@
 		},
 		{
 			"packname": "greek",
-			"url": "http://23.185.17.134:80/lem/resources/battle/R25P/vanilla/greek-mythology.zip",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26/greek-mythology.zip?raw=true",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -109,7 +117,7 @@
 		},
 		{
 			"packname": "greek-optifine",
-			"url": "http://23.185.17.134:80/lem/resources/battle/R25P/opticringe/greek-mythology.zip",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26/greek-mythology.zip?raw=true",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -117,7 +125,7 @@
 		},
 		{
 			"packname": "steampunk",
-			"url": "http://23.185.17.134:80/lem/resources/battle/R25P/vanilla/steampunk.zip",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26/steampunk.zip?raw=true",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -125,7 +133,7 @@
 		},
 		{
 			"packname": "steampunk-optifine",
-			"url": "http://23.185.17.134:80/lem/resources/battle/R25P/opticringe/steampunk.zip",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26/steampunk.zip?raw=true",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -133,7 +141,7 @@
 		},
 		{
 			"packname": "chinese",
-			"url": "http://23.185.17.134:80/lem/resources/battle/R25P/vanilla/chinese-mythology.zip",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26/chinese-mythology.zip?raw=true",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -141,7 +149,7 @@
 		},
 		{
 			"packname": "chinese-optifine",
-			"url": "http://23.185.17.134:80/lem/resources/battle/R25P/opticringe/chinese-mythology.zip",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26/chinese-mythology.zip?raw=true",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -149,7 +157,7 @@
 		},
 		{
 			"packname": "halloween",
-			"url": "http://23.185.17.134:80/lem/resources/battle/R25P/vanilla/halloween.zip",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26/halloween.zip?raw=true",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -157,7 +165,7 @@
 		},
 		{
 			"packname": "halloween-optifine",
-			"url": "http://23.185.17.134:80/lem/resources/battle/R25P/opticringe/halloween.zip",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26/halloween.zip?raw=true",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -165,7 +173,7 @@
 		},
 		{
 			"packname": "festive",
-			"url": "http://23.185.17.134:80/lem/resources/battle/R25P/vanilla/festive.zip",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26/festive.zip?raw=true",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -173,7 +181,7 @@
 		},
 		{
 			"packname": "festive-optifine",
-			"url": "http://23.185.17.134:80/lem/resources/battle/R25P/opticringe/festive.zip",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26/festive-fix.zip?raw=true",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -181,7 +189,7 @@
 		},
 		{
 			"packname": "fallout",
-			"url": "http://23.185.17.134:80/lem/resources/battle/R25P/vanilla/fallout.zip",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26/fallout.zip?raw=true",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
@@ -189,7 +197,7 @@
 		},
 		{
 			"packname": "fallout-optifine",
-			"url": "http://23.185.17.134:80/lem/resources/battle/R25P/opticringe/fallout.zip",
+			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26/fallout.zip?raw=true",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
