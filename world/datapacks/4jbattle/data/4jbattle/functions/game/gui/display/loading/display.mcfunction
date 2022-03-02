@@ -2,7 +2,7 @@
 execute if score #Store 4j.loadinganim matches 1.. run scoreboard players add #Store 4j.loadinganim 1
 
 ##Display icon
-title @a[tag=!relogimter] title {"text":"1","font":"4jbattle:loading/battle/icon"}
+title @a[tag=!relogtimer] title {"text":"1","font":"4jbattle:loading/battle/icon"}
 
 ##Display animation
 execute as @a[tag=!relogtimer] run function 4jbattle:game/gui/display/loading/battle
