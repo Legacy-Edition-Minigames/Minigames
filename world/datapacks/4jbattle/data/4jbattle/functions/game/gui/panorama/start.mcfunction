@@ -18,7 +18,7 @@ function 4jbattle:game/gui/globalinfo/load
 #Disable output
 gamerule sendCommandFeedback false
 #Set gamemode
-gamemode creative @a[tag=!relogtimer]
+gamemode creative @a[tag=!relogtimer,gamemode=adventure]
 #Enable output
 gamerule sendCommandFeedback true
 

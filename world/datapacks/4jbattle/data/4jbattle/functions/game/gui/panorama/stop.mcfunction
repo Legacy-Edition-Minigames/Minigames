@@ -15,7 +15,7 @@ title @a[tag=!relogtimer] subtitle ""
 #Disable output
 gamerule sendCommandFeedback false
 #Set gamemode
-gamemode adventure @a[tag=!relogtimer]
+gamemode adventure @a[tag=!relogtimer,gamemode=creative]
 #Enable output
 gamerule sendCommandFeedback true
 
