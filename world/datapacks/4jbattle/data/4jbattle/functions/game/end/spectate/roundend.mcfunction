@@ -63,4 +63,4 @@ bossbar set globalinfo15 name {"translate":"4j.game.roundend"}
 bossbar set globalinfo16 name {"translate":"4j.game.roundend"}
 
 ##Clear all schedules
-schedule function 4jbattle:game/end/clear 2t
+schedule function 4jbattle:game/end/clear/round/run 2t

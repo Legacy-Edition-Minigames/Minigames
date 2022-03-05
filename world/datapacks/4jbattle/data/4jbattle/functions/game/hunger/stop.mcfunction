@@ -15,6 +15,3 @@ tag @a remove fullhungerinit
 tag @a remove midhealth
 tag @a remove fullhealth
 tag @a remove fullhealthinit
-
-##Clear display
-execute as @a run function 4jbattle:game/hunger/cleardisplay

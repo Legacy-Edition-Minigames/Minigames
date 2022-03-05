@@ -14,8 +14,14 @@ kill @e[type=tnt]
 ##Remove all fire
 execute as @e[type=marker,tag=fire] at @s run function 4jbattle:game/fire/remove
 
+##Clear schedules
+function 4jbattle:game/end/clear/end
+
 ##Clear specator schedule
 schedule clear 4jbattle:game/end/spectate/spectate
+
+##Clear hunger display
+execute as @a run function 4jbattle:game/hunger/cleardisplay
 
 ##Stop particles
 schedule clear 4jbattle:game/particle/victory
