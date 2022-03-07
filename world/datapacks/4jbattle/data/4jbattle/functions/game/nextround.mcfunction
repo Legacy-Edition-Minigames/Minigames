@@ -165,6 +165,9 @@ execute if score #Store 4j.map matches 48 in 4jbattle:capitol_small run function
 ##Load Remastered Ruin
 execute if score #Store 4j.map matches 49 in 4jbattle:ruin_remastered run function 4jbattle:game/setup/teleport/check
 
+##Load Remastered Temple
+execute if score #Store 4j.map matches 50 in 4jbattle:temple_remastered run function 4jbattle:game/setup/teleport/check
+
 ##Join player team
 tag @a[tag=!relogtimer] remove spectator
 tag @a[tag=!relogtimer] add player

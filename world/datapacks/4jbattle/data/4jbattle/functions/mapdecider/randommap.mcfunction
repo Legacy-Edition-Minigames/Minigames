@@ -44,7 +44,7 @@ execute if score #Store 4j.maptype matches 2.. if score #Medusa 4j.enablemap mat
 #Small Medusa
 execute if score #Store 4j.maptype matches 1 if score #Medusa 4j.enablemap matches 1 if score #Store 4j.maprandom matches 8 run scoreboard players set #Store 4j.map 19
 #Large Temple
-execute if score #Store 4j.maptype matches 2.. if score #Temple 4j.enablemap matches 1 if score #Store 4j.maprandom matches 9 run scoreboard players set #Store 4j.map 20
+execute if score #Store 4j.maptype matches 2 if score #Temple 4j.enablemap matches 1 if score #Store 4j.maprandom matches 9 run scoreboard players set #Store 4j.map 20
 #Small Temple
 execute if score #Store 4j.maptype matches 1 if score #Temple 4j.enablemap matches 1 if score #Store 4j.maprandom matches 9 run scoreboard players set #Store 4j.map 21
 #Large Atlantis
@@ -103,6 +103,8 @@ execute if score #Store 4j.maptype matches 2.. if score #Capitol 4j.enablemap ma
 execute if score #Store 4j.maptype matches 1 if score #Capitol 4j.enablemap matches 1 if score #Store 4j.maprandom matches 21 run scoreboard players set #Store 4j.map 48
 #Remastered Ruin
 execute if score #Store 4j.maptype matches 3 if score #Ruin 4j.enablemap matches 1 if score #Store 4j.maprandom matches 11 run scoreboard players set #Store 4j.map 49
+#Remastered Temple
+execute if score #Store 4j.maptype matches 3 if score #Temple 4j.enablemap matches 1 if score #Store 4j.maprandom matches 9 run scoreboard players set #Store 4j.map 50
 
 ##Roll again if map not found
 execute if score #Store 4j.map matches ..0 run function 4jbattle:mapdecider/randommap

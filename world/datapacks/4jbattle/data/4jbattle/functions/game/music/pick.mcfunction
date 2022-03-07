@@ -11,6 +11,7 @@ execute if score #Store 4j.map matches 16..17 run function 4jbattle:game/music/f
 execute if score #Store 4j.map matches 18..19 run function 4jbattle:game/music/greek/pick
 #Temple
 execute if score #Store 4j.map matches 20..21 run function 4jbattle:game/music/vanilla/pick
+execute if score #Store 4j.map matches 50 run function 4jbattle:game/music/vanilla/pick
 #Atlantis
 execute if score #Store 4j.map matches 22..23 run function 4jbattle:game/music/greek/pick
 #Ruin
@@ -46,7 +47,7 @@ execute if score #Store 4j.map matches 44..45 run function 4jbattle:game/music/f
 #Capitol
 execute if score #Store 4j.map matches 47..48 run function 4jbattle:game/music/fallout/pick
 #Default to vanilla if not set
-execute if score #Store 4j.map matches 50.. run function 4jbattle:game/music/vanilla/pick
+execute if score #Store 4j.map matches 51.. run function 4jbattle:game/music/vanilla/pick
 
 ##Debug Info
 tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Picking song for ","color":"gold"},{"selector":"@s","color":"yellow"}]

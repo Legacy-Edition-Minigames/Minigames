@@ -97,3 +97,5 @@ execute if score #Store 4j.map matches 47 in 4jbattle:capitol run tp @s -2 55 -9
 execute if score #Store 4j.map matches 48 in 4jbattle:capitol_small run tp @s 155 51 153
 #Remastered Ruin
 execute if score #Store 4j.map matches 49 in 4jbattle:ruin_remastered run tp @s -51 12 50
+#Remastered Temple
+execute if score #Store 4j.map matches 50 in 4jbattle:temple_remastered run tp @s -118 18 -149

@@ -39,7 +39,7 @@ execute if score #Store 4j.maptype matches 2.. if score #Medusa 4j.enablemap mat
 #Small Medusa
 execute if score #Store 4j.maptype matches 1 if score #Medusa 4j.enablemap matches 1 if score §a1-2:Medusa 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 19
 #Large Temple
-execute if score #Store 4j.maptype matches 2.. if score #Temple 4j.enablemap matches 1 if score §a1-3:Temple 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 20
+execute if score #Store 4j.maptype matches 2 if score #Temple 4j.enablemap matches 1 if score §a1-3:Temple 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 20
 #Small Temple
 execute if score #Store 4j.maptype matches 1 if score #Temple 4j.enablemap matches 1 if score §a1-3:Temple 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 21
 #Large Atlantis
@@ -98,6 +98,8 @@ execute if score #Store 4j.maptype matches 2.. if score #Capitol 4j.enablemap ma
 execute if score #Store 4j.maptype matches 1 if score #Capitol 4j.enablemap matches 1 if score §a8-3:Capitol 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 48
 #Remastered Ruin
 execute if score #Store 4j.maptype matches 3 if score #Ruin 4j.enablemap matches 1 if score §a2-2:Ruin 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 49
+#Remastered Temple
+execute if score #Store 4j.maptype matches 3 if score #Temple 4j.enablemap matches 1 if score §a1-3:Temple 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 50
 
 ##Load map
 function 4jbattle:mapdecider/check
