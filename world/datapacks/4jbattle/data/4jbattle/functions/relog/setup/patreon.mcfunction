@@ -2,7 +2,7 @@
 #Derpbox
 execute as a20181ca-a75d-401e-ac58-36ab8f040cf5 run scoreboard players set @s 4j.patreon 5
 #sjk210/40400943/Robux Generator
-execute as 8411f30e-2ba5-431f-bbcd-e3fac5597649 run scoreboard players set @s 4j.patreon 3
+execute as 8411f30e-2ba5-431f-bbcd-e3fac5597649 run scoreboard players set @s 4j.patreon 5
 #Jake Knisely/40826980/themcarchitect1/TheMinecraftArchitect
 execute as d034b241-5f0b-4607-ad8d-704f1dbced6f run scoreboard players set @s 4j.patreon 5
 
