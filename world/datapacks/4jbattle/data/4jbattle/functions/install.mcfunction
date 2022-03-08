@@ -373,6 +373,9 @@ scoreboard objectives add 4j.chestaniframe dummy
 ##Score for marking if game is reloading for multiround or not
 scoreboard objectives add 4j.initialgame dummy
 
+##Resource Pack ID
+scoreboard objectives add 4j.pack dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
