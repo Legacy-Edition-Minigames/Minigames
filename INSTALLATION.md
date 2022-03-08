@@ -10,13 +10,15 @@
 
 * Download LEB-ToolBox from its [Releases Page](https://github.com/DBTDerpbox/LEB-ToolBox/releases)
 
-* Put the installer executable in LEB's folder and run LEB-Installer
+* Put LEB-ToolBox into its own folder, and run it.
 
-* If for whatever reason, you can't download the resources properly with the current SRP config, you can edit the config inside of the `config` folder and the files can be found [here.](https://github.com/DBTDerpbox/LEB-Resources/tree/zip/zip)
+* Select `Install LEB`
+
+* If for whatever reason, you can't download the resources properly with the current SRP config, you can edit the config inside of the `config` folder and the files can be found [here.](https://github.com/DBTDerpbox/LEB-Resources/releases)
 
 #### Dependencies
 
-The installer will try to install FabricMC and the required mods for you, but if it fails you can manually install them:
+LEB-ToolBox will try to install FabricMC and the required mods for you, but if it fails you can manually install them:
 
 * [FabricMC](https://fabricmc.net/use/)
 
@@ -33,6 +35,8 @@ The installer will try to install FabricMC and the required mods for you, but if
 * [Snowball and Egg Knockback](https://github.com/capitalistspz/SnowballKB) ([GitHub](https://github.com/capitalistspz/SnowballKB/releases/tag/1.1) [CurseForge](https://www.curseforge.com/minecraft/mc-mods/snowball-and-egg-knockback-fabric/files/3399693))
 
 ### Executing
+
+You may tell LEB-ToolBox to launch the server, but if that fails or is not an option, you can do the following:
 
 * For Windows users, run `windows.cmd`.
 
