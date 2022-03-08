@@ -8,7 +8,7 @@
 
 * Extract the zip folder
 
-* Download LEB-Installer from its [Releases Page](https://github.com/DBTDerpbox/LEB-Installer/releases)
+* Download LEB-ToolBox from its [Releases Page](https://github.com/DBTDerpbox/LEB-ToolBox/releases)
 
 * Put the installer executable in LEB's folder and run LEB-Installer
 
