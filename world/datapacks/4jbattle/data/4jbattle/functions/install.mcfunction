@@ -376,6 +376,9 @@ scoreboard objectives add 4j.initialgame dummy
 ##Resource Pack ID
 scoreboard objectives add 4j.pack dummy
 
+##Host Timer
+scoreboard objectives add 4j.hosttimer dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

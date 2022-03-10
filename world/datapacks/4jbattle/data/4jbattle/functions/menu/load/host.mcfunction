@@ -7,6 +7,9 @@ scoreboard players set #Store 4j.displaymode 0
 ##Stop Lobby check
 schedule function 4jbattle:lobby/timer/run/clearcheck 1s
 
+##Set host timer
+scoreboard players set #Store 4j.hosttimer 2400
+
 ##Start menu check
 function 4jbattle:menu/check
 

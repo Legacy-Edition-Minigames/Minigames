@@ -51,8 +51,14 @@ function 4jbattle:lobby/timer/effects
 #Invis
 effect give @a invisibility 1 0 true
 
+##Count host timer down
+scoreboard players remove #Store 4j.hosttimer 1
+
 ##Loop
 schedule function 4jbattle:menu/check 1t
+
+##Start if host timer reaches 0
+execute if score #Store 4j.hosttimer matches 0 as @a[tag=host] run function 4jbattle:menu/load/host/start/hosttimer
 
 ##Stop if nobody is online
 execute unless entity @a[tag=!relogtimer] run schedule clear 4jbattle:menu/check
