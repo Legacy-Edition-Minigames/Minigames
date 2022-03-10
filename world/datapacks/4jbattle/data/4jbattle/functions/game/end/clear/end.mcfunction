@@ -13,3 +13,5 @@ function 4jbattle:game/combat/block/stop
 schedule clear 4jbattle:game/inventory/swap/check/run
 #Tipped Arrow fixer
 schedule clear 4jbattle:game/inventory/arrowfix/check
+#Worldborder check
+schedule clear 4jbattle:game/worldborder/check

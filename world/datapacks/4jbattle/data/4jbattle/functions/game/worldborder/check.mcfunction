@@ -9,7 +9,7 @@ execute as @e[tag=BorderEntity] at @s store result score @s 4j.yvalue run data g
 execute as @e[tag=BorderEntity] at @s store result score @s 4j.zvalue run data get entity @s Pos[2]
 
 ##Check for OOB
-execute as @a run function 4jbattle:game/custom/libertalia/oobcheck
+execute as @a run function 4jbattle:game/worldborder/oobcheck
 
 ##Loop
-schedule function 4jbattle:game/custom/libertalia/check 1t
+schedule function 4jbattle:game/worldborder/check 1t
