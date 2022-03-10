@@ -4,10 +4,6 @@
 
 ### Installation
 
-* Click on [`⤓ Code`](https://github.com/DBTDerpbox/Legacy-Edition-Battle/archive/refs/heads/main.zip) at the top and download as zip.
-
-* Extract the zip folder
-
 * Download LEB-ToolBox from its [Releases Page](https://github.com/DBTDerpbox/LEB-ToolBox/releases)
 
 * Put LEB-ToolBox into its own folder, and run it.
