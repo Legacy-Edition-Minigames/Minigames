@@ -379,6 +379,9 @@ scoreboard objectives add 4j.pack dummy
 ##Host Timer
 scoreboard objectives add 4j.hosttimer dummy
 
+##Lobby timer option
+scoreboard objectives add 4j.lobbytimerset dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
@@ -386,6 +389,9 @@ time set noon
 
 ##Set gamestatus
 scoreboard players set #Store 4j.gamestatus 0
+
+##Set lobby timer
+scoreboard players set #Store 4j.lobbytimerset 60
 
 ##Set PID (Temporary!)
 #Reset stored PID
