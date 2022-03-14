@@ -33,7 +33,7 @@ Legacy Edition Battle is currently designed for [Minecraft Java Edition 1.17.1](
 
 ### Credits
 
-Minecraft - [Mojang Studios](www.mojang.com)
+Minecraft - [Mojang Studios](https://www.mojang.com)
 
 Legacy Editions - [4J Studios](https://www.4jstudios.com/)
 
