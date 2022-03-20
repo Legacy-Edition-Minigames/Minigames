@@ -70,6 +70,7 @@ execute if entity @s[advancements={4jbattle:menu/host/presets/5/lobby/new=false}
 execute if entity @s[advancements={4jbattle:menu/host/presets/5/map/type/auto=true}] run scoreboard players set #Store 4j.setmaptype 1
 execute if entity @s[advancements={4jbattle:menu/host/presets/5/map/type/small=true}] run scoreboard players set #Store 4j.setmaptype 2
 execute if entity @s[advancements={4jbattle:menu/host/presets/5/map/type/large=true}] run scoreboard players set #Store 4j.setmaptype 3
+execute if entity @s[advancements={4jbattle:menu/host/presets/5/map/type/largeplus=true}] run scoreboard players set #Store 4j.setmaptype 5
 execute if entity @s[advancements={4jbattle:menu/host/presets/5/map/type/remastered=true}] run scoreboard players set #Store 4j.setmaptype 4
 #Enabled maps
 execute if score #Store 4j.gamestatus matches 0 run function 4jbattle:menu/load/host/preset/load/5/maps

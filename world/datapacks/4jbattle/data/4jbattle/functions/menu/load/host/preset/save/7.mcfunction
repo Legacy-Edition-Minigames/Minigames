@@ -32,6 +32,7 @@ advancement revoke @s only 4jbattle:menu/host/presets/7/lobby/new
 advancement revoke @s only 4jbattle:menu/host/presets/7/map/type/auto
 advancement revoke @s only 4jbattle:menu/host/presets/7/map/type/small
 advancement revoke @s only 4jbattle:menu/host/presets/7/map/type/large
+advancement revoke @s only 4jbattle:menu/host/presets/7/map/type/largeplus
 advancement revoke @s only 4jbattle:menu/host/presets/7/map/type/remastered
 advancement revoke @s only 4jbattle:menu/host/presets/7/map/enabled/crucible
 advancement revoke @s only 4jbattle:menu/host/presets/7/map/enabled/cove
@@ -138,6 +139,7 @@ execute if score #Store 4j.lobbytype matches 1 run advancement grant @s only 4jb
 execute if score #Store 4j.setmaptype matches 1 run advancement grant @s only 4jbattle:menu/host/presets/7/map/type/auto
 execute if score #Store 4j.setmaptype matches 2 run advancement grant @s only 4jbattle:menu/host/presets/7/map/type/small
 execute if score #Store 4j.setmaptype matches 3 run advancement grant @s only 4jbattle:menu/host/presets/7/map/type/large
+execute if score #Store 4j.setmaptype matches 5 run advancement grant @s only 4jbattle:menu/host/presets/7/map/type/largeplus
 execute if score #Store 4j.setmaptype matches 4 run advancement grant @s only 4jbattle:menu/host/presets/7/map/type/remastered
 #Enabled maps
 execute if score #Crucible 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/7/map/enabled/crucible

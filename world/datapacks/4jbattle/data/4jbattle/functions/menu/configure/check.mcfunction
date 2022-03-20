@@ -33,6 +33,8 @@ execute as @s[scores={4j.gamecfg=10}] run function 4jbattle:menu/load/host/map/s
 execute as @s[scores={4j.gamecfg=11}] run function 4jbattle:menu/load/host/map/setsmall
 #Large
 execute as @s[scores={4j.gamecfg=12}] run function 4jbattle:menu/load/host/map/setlarge
+#Large+
+execute as @s[scores={4j.gamecfg=122}] run function 4jbattle:menu/load/host/map/setlargeplus
 #Remastered
 execute as @s[scores={4j.gamecfg=26}] run function 4jbattle:menu/load/host/map/setremastered
 

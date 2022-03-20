@@ -99,3 +99,45 @@ execute if score #Store 4j.map matches 48 in 4jbattle:capitol_small run tp @s 15
 execute if score #Store 4j.map matches 49 in 4jbattle:ruin_remastered run tp @s -51 12 50
 #Remastered Temple
 execute if score #Store 4j.map matches 50 in 4jbattle:temple_remastered run tp @s -118 18 -149
+#Large+ Crucible
+execute if score #Store 4j.map matches 51 in 4jbattle:crucible_largeplus run tp @s 347 36 331
+#Large+ Cove
+execute if score #Store 4j.map matches 52 in 4jbattle:cove_largeplus run tp @s 45 64 251
+#Large+ Cavern
+execute if score #Store 4j.map matches 53 in 4jbattle:cavern_largeplus run tp @s 268 28 12
+#Large+ Lair
+execute if score #Store 4j.map matches 54 in 4jbattle:lair_largeplus run tp @s 70 49 70
+#Large+ Medusa
+execute if score #Store 4j.map matches 55 in 4jbattle:medusa_largeplus run tp @s 244 67 100
+#Large+ Temple
+execute if score #Store 4j.map matches 56 in 4jbattle:temple_largeplus run tp @s -118 18 -149
+#Large+ Atlantis
+execute if score #Store 4j.map matches 57 in 4jbattle:atlantis_largeplus run tp @s 151 47 175
+#Large+ Ruin
+execute if score #Store 4j.map matches 58 in 4jbattle:ruin_largeplus run tp @s -51 3 50
+#Large+ Siege
+execute if score #Store 4j.map matches 59 in 4jbattle:siege_largeplus run tp @s 52 68 208
+#Large+ Castle
+execute if score #Store 4j.map matches 60 in 4jbattle:castle_largeplus run tp @s -169 64 134
+#Large+ Invasion!
+execute if score #Store 4j.map matches 61 in 4jbattle:invasion_largeplus run tp @s 313 37 -229
+#Large+ Shipyard
+execute if score #Store 4j.map matches 62 in 4jbattle:shipyard_largeplus run tp @s 20 154 -18
+#Large+ Frontier
+execute if score #Store 4j.map matches 63 in 4jbattle:frontier_largeplus run tp @s 288 52 211
+#Large+ Dig
+execute if score #Store 4j.map matches 64 in 4jbattle:dig_largeplus run tp @s 59 48 136
+#Large+ Shrunk
+execute if score #Store 4j.map matches 65 in 4jbattle:shrunk_largeplus run tp @s 47 31 127
+#Large+ Valley
+execute if score #Store 4j.map matches 66 in 4jbattle:valley_largeplus run tp @s 213 72 239
+#Large+ Halloween
+execute if score #Store 4j.map matches 67 in 4jbattle:halloween_largeplus run tp @s 56 25 141
+#Large+ Festive
+execute if score #Store 4j.map matches 68 in 4jbattle:festive_largeplus run tp @s 10 37 6
+#Large+ Atomics
+execute if score #Store 4j.map matches 69 in 4jbattle:atomics_largeplus run tp @s 144 17 222
+#Large+ Libertalia
+execute if score #Store 4j.map matches 70 in 4jbattle:libertalia_largeplus run tp @s -12 14 197
+#Large+ Capitol
+execute if score #Store 4j.map matches 71 in 4jbattle:capitol_largeplus run tp @s -2 55 -9

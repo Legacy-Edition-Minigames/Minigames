@@ -168,6 +168,69 @@ execute if score #Store 4j.map matches 49 in 4jbattle:ruin_remastered run functi
 ##Load Remastered Temple
 execute if score #Store 4j.map matches 50 in 4jbattle:temple_remastered run function 4jbattle:game/setup/teleport/check
 
+##Load Large+ Crucible
+execute if score #Store 4j.map matches 51 in 4jbattle:crucible_largeplus run function 4jbattle:game/setup/teleport/check
+
+##Load Large+ Cove
+execute if score #Store 4j.map matches 52 in 4jbattle:cove_largeplus run function 4jbattle:game/setup/teleport/check
+
+##Load Large+ Cavern
+execute if score #Store 4j.map matches 53 in 4jbattle:cavern_largeplus run function 4jbattle:game/setup/teleport/check
+
+##Load Large+ Lair
+execute if score #Store 4j.map matches 54 in 4jbattle:lair_largeplus run function 4jbattle:game/setup/teleport/check
+
+##Load Large+ Medusa
+execute if score #Store 4j.map matches 55 in 4jbattle:medusa_largeplus run function 4jbattle:game/setup/teleport/check
+
+##Load Large+ Temple
+execute if score #Store 4j.map matches 56 in 4jbattle:temple_largeplus run function 4jbattle:game/setup/teleport/check
+
+##Load Large+ Atlantis
+execute if score #Store 4j.map matches 57 in 4jbattle:atlantis_largeplus run function 4jbattle:game/setup/teleport/check
+
+##Load Large+ Ruin
+execute if score #Store 4j.map matches 58 in 4jbattle:ruin_largeplus run function 4jbattle:game/setup/teleport/check
+
+##Load Large+ Siege
+execute if score #Store 4j.map matches 59 in 4jbattle:siege_largeplus run function 4jbattle:game/setup/teleport/check
+
+##Load Large+ Castle
+execute if score #Store 4j.map matches 60 in 4jbattle:castle_largeplus run function 4jbattle:game/setup/teleport/check
+
+##Load Large+ Invasion!
+execute if score #Store 4j.map matches 61 in 4jbattle:invasion_largeplus run function 4jbattle:game/setup/teleport/check
+
+##Load Large+ Shipyard
+execute if score #Store 4j.map matches 62 in 4jbattle:shipyard_largeplus run function 4jbattle:game/setup/teleport/check
+
+##Load Large+ Frontier
+execute if score #Store 4j.map matches 63 in 4jbattle:frontier_largeplus run function 4jbattle:game/setup/teleport/check
+
+##Load Large+ Dig
+execute if score #Store 4j.map matches 64 in 4jbattle:dig_largeplus run function 4jbattle:game/setup/teleport/check
+
+##Load Large+ Shrunk
+execute if score #Store 4j.map matches 65 in 4jbattle:shrunk_largeplus run function 4jbattle:game/setup/teleport/check
+
+##Load Large+ Valley
+execute if score #Store 4j.map matches 66 in 4jbattle:valley_largeplus run function 4jbattle:game/setup/teleport/check
+
+##Load Large+ Halloween
+execute if score #Store 4j.map matches 67 in 4jbattle:halloween_largeplus run function 4jbattle:game/setup/teleport/check
+
+##Load Large+ Festive
+execute if score #Store 4j.map matches 68 in 4jbattle:festive_largeplus run function 4jbattle:game/setup/teleport/check
+
+##Load Large+ Atomics
+execute if score #Store 4j.map matches 69 in 4jbattle:atomics_largeplus run function 4jbattle:game/setup/teleport/check
+
+##Load Large+ Libertalia
+execute if score #Store 4j.map matches 70 in 4jbattle:libertalia_largeplus run function 4jbattle:game/setup/teleport/check
+
+##Load Large+ Capitol
+execute if score #Store 4j.map matches 71 in 4jbattle:capitol_largeplus run function 4jbattle:game/setup/teleport/check
+
 ##Join player team
 tag @a[tag=!relogtimer] remove spectator
 tag @a[tag=!relogtimer] add player

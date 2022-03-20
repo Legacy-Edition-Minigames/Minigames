@@ -40,6 +40,7 @@ execute if entity @s[advancements={4jbattle:menu/host/presets/2/chest/random=tru
 execute if entity @s[advancements={4jbattle:menu/host/presets/2/map/type/auto=true}] run tellraw @s ["",{"text":"Map Type: ","italic":true,"color":"dark_aqua"},{"text":"Auto","color":"green"}]
 execute if entity @s[advancements={4jbattle:menu/host/presets/2/map/type/small=true}] run tellraw @s ["",{"text":"Map Type: ","italic":true,"color":"dark_aqua"},{"text":"Small","color":"green"}]
 execute if entity @s[advancements={4jbattle:menu/host/presets/2/map/type/large=true}] run tellraw @s ["",{"text":"Map Type: ","italic":true,"color":"dark_aqua"},{"text":"Large","color":"green"}]
+execute if entity @s[advancements={4jbattle:menu/host/presets/2/map/type/largeplus=true}] run tellraw @s ["",{"text":"Map Type: ","italic":true,"color":"dark_aqua"},{"text":"Large+","color":"green"}]
 execute if entity @s[advancements={4jbattle:menu/host/presets/2/map/type/remastered=true}] run tellraw @s ["",{"text":"Map Type: ","italic":true,"color":"dark_aqua"},{"text":"Remastered","color":"green"}]
 
 ##Time of day
