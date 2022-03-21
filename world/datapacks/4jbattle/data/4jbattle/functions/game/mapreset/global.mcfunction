@@ -1,9 +1,9 @@
 ##Remove entities that the structure already has
 #Spawnpoints
-kill @e[tag=MixedTP]
+kill @e[tag=!NoMapReset,tag=MixedTP]
 #Chests
-kill @e[tag=Chest]
+kill @e[tag=!NoMapReset,tag=Chest]
 #Center
-kill @e[tag=MapCenter]
+kill @e[tag=!NoMapReset,tag=MapCenter]
 #Other
-kill @e[tag=MapEntity]
+kill @e[tag=!NoMapReset,tag=MapEntity]
