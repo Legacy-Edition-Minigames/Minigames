@@ -132,6 +132,9 @@ execute if entity @s[advancements={4jbattle:menu/host/presets/9/timelimit/long=t
 execute if entity @s[advancements={4jbattle:menu/host/presets/9/tp/surround=true}] run scoreboard players set #Store 4j.tp 1
 execute if entity @s[advancements={4jbattle:menu/host/presets/9/tp/surround=false}] run scoreboard players set #Store 4j.tp 2
 
+##Global functions
+function 4jbattle:menu/load/host/preset/load/global
+
 ##Display as loaded
 tellraw @s {"text":"Loaded Preset 9!","color":"green"}
 
