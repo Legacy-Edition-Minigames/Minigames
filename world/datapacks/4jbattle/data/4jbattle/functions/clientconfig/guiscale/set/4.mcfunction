@@ -2,7 +2,7 @@
 function 4jbattle:clientconfig/guiscale/set/clear
 
 ##Set scale
-advancement grant @s only 4jbattle:config/guiscale/4
+advancement grant @s only 4jmenu:config/guiscale/4
 
 ##Reload globalinfo
 function 4jbattle:game/gui/globalinfo/load

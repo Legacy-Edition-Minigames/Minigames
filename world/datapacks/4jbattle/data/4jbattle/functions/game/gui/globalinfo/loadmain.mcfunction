@@ -48,7 +48,7 @@ bossbar set minecraft:bannerpushdown2 players @a
 bossbar set minecraft:bannerinfo players @a
 
 ##ChestAnim globalinfo
-bossbar set minecraft:chestanim/1 players @a[advancements={4jbattle:config/guiscale/1=true}]
-bossbar set minecraft:chestanim/2 players @a[advancements={4jbattle:config/guiscale/2=true}]
-bossbar set minecraft:chestanim/3 players @a[advancements={4jbattle:config/guiscale/3=true}]
-bossbar set minecraft:chestanim/4 players @a[advancements={4jbattle:config/guiscale/4=true}]
+bossbar set minecraft:chestanim/1 players @a[advancements={4jmenu:config/guiscale/1=true}]
+bossbar set minecraft:chestanim/2 players @a[advancements={4jmenu:config/guiscale/2=true}]
+bossbar set minecraft:chestanim/3 players @a[advancements={4jmenu:config/guiscale/3=true}]
+bossbar set minecraft:chestanim/4 players @a[advancements={4jmenu:config/guiscale/4=true}]

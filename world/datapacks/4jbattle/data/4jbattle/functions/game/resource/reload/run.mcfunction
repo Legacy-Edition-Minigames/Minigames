@@ -10,9 +10,9 @@ execute unless entity @s[advancements={4jbattle:config/globalpack=true}] run fun
 
 ##Load All Music pack
 #Non-Optifine
-execute as @s[advancements={4jbattle:config/optifine=false,4jbattle:config/globalpack=true,4jbattle:config/custompack=false}] run loadresource all-music-1
+execute as @s[advancements={4jmenu:config/optifine=false,4jbattle:config/globalpack=true,4jbattle:config/custompack=false}] run loadresource all-music-1
 #Optifine
-execute as @s[advancements={4jbattle:config/optifine=true,4jbattle:config/globalpack=true,4jbattle:config/custompack=false}] run loadresource all-music-1-optifine
+execute as @s[advancements={4jmenu:config/optifine=true,4jbattle:config/globalpack=true,4jbattle:config/custompack=false}] run loadresource all-music-1-optifine
 
 ##Remove relogtimer
 tag @s[tag=!keeprltimer] remove relogtimer

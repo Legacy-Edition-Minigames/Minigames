@@ -1,5 +1,5 @@
 ##Set default if not set
-execute as @a[advancements={4jbattle:config/panscale/defaultset=false}] run function 4jbattle:clientconfig/panscale/default
+execute as @a[advancements={4jmenu:config/panscale/default_set=false}] run function 4jbattle:clientconfig/panscale/default
 
 ##Open Menu
 execute as @a[scores={panscale=1}] run function 4jbattle:clientconfig/panscale/menu

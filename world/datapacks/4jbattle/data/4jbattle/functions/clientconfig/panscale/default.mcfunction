@@ -1,5 +1,5 @@
 ##Set scale
-advancement grant @s only 4jbattle:config/panscale/1
+advancement grant @s only 4jmenu:config/panscale/1
 
 ##Mark as set
-advancement grant @s only 4jbattle:config/panscale/defaultset
+advancement grant @s only 4jmenu:config/panscale/default_set

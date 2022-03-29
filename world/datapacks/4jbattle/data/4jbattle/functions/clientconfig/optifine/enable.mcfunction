@@ -1,5 +1,5 @@
 ##Enable config option
-advancement grant @s only 4jbattle:config/optifine
+advancement grant @s only 4jmenu:config/optifine
 
 ##Reset score
 scoreboard players reset @s optifinepack

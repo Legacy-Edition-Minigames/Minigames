@@ -66,10 +66,10 @@ scoreboard players set @s[nbt={Inventory:[{Slot:100b,id:"minecraft:netherite_boo
 
 ##Display
 #Scale 1
-execute unless score #Store 4j.gimode matches 3 as @s[advancements={4jbattle:config/guiscale/1=true}] run function 4jbattle:game/gui/display/game/armorbar/1
+execute unless score #Store 4j.gimode matches 3 as @s[advancements={4jmenu:config/guiscale/1=true}] run function 4jbattle:game/gui/display/game/armorbar/1
 #Scale 2
-execute unless score #Store 4j.gimode matches 3 as @s[advancements={4jbattle:config/guiscale/2=true}] run function 4jbattle:game/gui/display/game/armorbar/2
+execute unless score #Store 4j.gimode matches 3 as @s[advancements={4jmenu:config/guiscale/2=true}] run function 4jbattle:game/gui/display/game/armorbar/2
 #Scale 3
-execute unless score #Store 4j.gimode matches 3 as @s[advancements={4jbattle:config/guiscale/3=true}] run function 4jbattle:game/gui/display/game/armorbar/3
+execute unless score #Store 4j.gimode matches 3 as @s[advancements={4jmenu:config/guiscale/3=true}] run function 4jbattle:game/gui/display/game/armorbar/3
 #Scale 4
-execute unless score #Store 4j.gimode matches 3 as @s[advancements={4jbattle:config/guiscale/4=true}] run function 4jbattle:game/gui/display/game/armorbar/4
+execute unless score #Store 4j.gimode matches 3 as @s[advancements={4jmenu:config/guiscale/4=true}] run function 4jbattle:game/gui/display/game/armorbar/4

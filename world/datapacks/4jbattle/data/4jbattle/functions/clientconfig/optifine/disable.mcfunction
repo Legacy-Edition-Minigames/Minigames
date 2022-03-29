@@ -1,5 +1,5 @@
 ##Enable config option
-advancement revoke @s only 4jbattle:config/optifine
+advancement revoke @s only 4jmenu:config/optifine
 
 ##Reset score
 scoreboard players reset @s optifinepack

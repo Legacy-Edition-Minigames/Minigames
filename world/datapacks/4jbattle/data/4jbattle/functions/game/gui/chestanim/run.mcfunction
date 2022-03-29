@@ -11,10 +11,10 @@ execute if score #Store 4j.chestanim matches 22 run scoreboard players set #Stor
 execute if score #Store 4j.chestanim matches 23 run scoreboard players set #Store 4j.chestaniframe 1
 
 ##Display
-execute if entity @a[advancements={4jbattle:config/guiscale/1=true}] run function 4jbattle:game/gui/chestanim/display/1
-execute if entity @a[advancements={4jbattle:config/guiscale/2=true}] run function 4jbattle:game/gui/chestanim/display/2
-execute if entity @a[advancements={4jbattle:config/guiscale/3=true}] run function 4jbattle:game/gui/chestanim/display/3
-execute if entity @a[advancements={4jbattle:config/guiscale/4=true}] run function 4jbattle:game/gui/chestanim/display/4
+execute if entity @a[advancements={4jmenu:config/guiscale/1=true}] run function 4jbattle:game/gui/chestanim/display/1
+execute if entity @a[advancements={4jmenu:config/guiscale/2=true}] run function 4jbattle:game/gui/chestanim/display/2
+execute if entity @a[advancements={4jmenu:config/guiscale/3=true}] run function 4jbattle:game/gui/chestanim/display/3
+execute if entity @a[advancements={4jmenu:config/guiscale/4=true}] run function 4jbattle:game/gui/chestanim/display/4
 
 ##Increase score
 scoreboard players add #Store 4j.chestanim 1

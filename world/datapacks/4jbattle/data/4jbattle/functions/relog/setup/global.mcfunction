@@ -1,8 +1,11 @@
 ##Display message
 #Discord
-tellraw @s ["",{"translate":"4j.relog.join.discord","color":"#7289DA"},"\n",{"text":"https://discord.gg/5PNpv9AXAQ","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://discord.gg/5PNpv9AXAQ"},"hoverEvent":{"action":"show_text","contents":[{"translate":"4j.relog.join.discord.hover","color":"blue"},": https://discord.gg/5PNpv9AXAQ"]}}]
+tellraw @s ["",{"translate":"4j.relog.join.discord","color":"#7289DA"},"\n",{"text":"https://discord.gg/qAF2457gXb","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://discord.gg/qAF2457gXb"},"hoverEvent":{"action":"show_text","contents":[{"translate":"4j.relog.join.discord.hover","color":"blue"},": https://discord.gg/qAF2457gXb"]}}]
 #Patreon
 tellraw @s ["",{"translate":"4j.relog.join.patreon","color":"gold","with":[{"text":"Patreon","bold":true,"color":"#FF424D"}]},"\n",{"text":"https://www.patreon.com/DBTDerpbox","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://www.patreon.com/DBTDerpbox"},"hoverEvent":{"action":"show_text","contents":[{"text":"https://www.patreon.com/DBTDerpbox","color":"blue"}]}}]
+
+##Migrate configs from 4jbattle to 4jmenu namespace
+function 4jbattle:relog/setup/migrateadvancements
 
 ##Add resoureloaded tag
 tag @s add resourceloaded

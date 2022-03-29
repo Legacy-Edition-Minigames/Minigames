@@ -1,5 +1,5 @@
 ##Set default if not set
-execute as @a[advancements={4jbattle:config/guiscale/defaultset=false}] run function 4jbattle:clientconfig/guiscale/default
+execute as @a[advancements={4jmenu:config/guiscale/default_set=false}] run function 4jbattle:clientconfig/guiscale/default
 
 ##Open Menu
 execute as @a[scores={guiscale=1}] run function 4jbattle:clientconfig/guiscale/menu
