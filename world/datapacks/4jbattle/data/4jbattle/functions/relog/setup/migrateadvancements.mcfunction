@@ -2,13 +2,6 @@
 ##Optifine
 execute if entity @s[advancements={4jbattle:config/optifine=true}] run advancement grant @s only 4jmenu:config/optifine
 
-##Panorama scale
-execute if entity @s[advancements={4jbattle:config/panscale/1=true}] run advancement grant @s only 4jmenu:config/panscale/1
-execute if entity @s[advancements={4jbattle:config/panscale/2=true}] run advancement grant @s only 4jmenu:config/panscale/2
-execute if entity @s[advancements={4jbattle:config/panscale/3=true}] run advancement grant @s only 4jmenu:config/panscale/3
-execute if entity @s[advancements={4jbattle:config/panscale/4=true}] run advancement grant @s only 4jmenu:config/panscale/4
-execute if entity @s[advancements={4jbattle:config/panscale/defaultset=true}] run advancement grant @s only 4jmenu:config/panscale/default_set
-
 ##Panorama settings
 #Custom panorama
 execute if entity @s[advancements={4jbattle:config/panorama/custom=true}] run advancement grant @s only 4jmenu:config/panorama/game/custom
