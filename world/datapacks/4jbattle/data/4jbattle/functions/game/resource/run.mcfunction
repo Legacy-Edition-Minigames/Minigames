@@ -12,13 +12,13 @@ scoreboard players set #Store 4j.barmode 1
 #Reset bar
 scoreboard players set #Store 4j.loadingbar 0
 #Set timer max
-scoreboard players set #Store 4j.timermax 5
+scoreboard players set #Store 4j.timermax 3
 #Reset tooltip
 scoreboard players set #Store 4j.tooltiptimer 0
 #Set display
 scoreboard players set #Store 4j.displaymode 2
 
-##Start game in 0 seconds if not overwridden by pack
+##Start game in 0 seconds if not overridden by pack
 scoreboard players set #Store 4j.timer 0
 
 ##Revoke advancement

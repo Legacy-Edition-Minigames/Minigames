@@ -382,6 +382,12 @@ scoreboard objectives add 4j.hosttimer dummy
 ##Lobby timer option
 scoreboard objectives add 4j.lobbytimerset dummy
 
+##Map corner positive loaded
+scoreboard objectives add 4j.maploadpos dummy
+
+##Map corner negative loaded
+scoreboard objectives add 4j.maploadneg dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

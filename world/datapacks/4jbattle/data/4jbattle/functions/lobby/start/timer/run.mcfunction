@@ -1,5 +1,8 @@
+##Detect if map is loaded
+execute as @e[type=area_effect_cloud,tag=LobbyCenter] at @s run function 4jbattle:game/resource/mapload/check
+
 ##Count down
-scoreboard players remove #Store 4j.timer 1
+execute if score #Store 4j.maploadpos matches 1.. if score #Store 4j.maploadneg matches 1.. run scoreboard players remove #Store 4j.timer 1
 
 ##Give invis
 effect give @a[tag=!relogtimer] invisibility 2 0 true

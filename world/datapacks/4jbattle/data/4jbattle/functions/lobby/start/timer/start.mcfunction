@@ -45,6 +45,6 @@ bossbar set minecraft:globalinfo16 name {"text":"1\uF8012\uF8013\uF8014","font":
 
 ##Start timer
 #Set timer
-scoreboard players set #Store 4j.timer 6
+scoreboard players set #Store 4j.timer 4
 #Start
 function 4jbattle:lobby/start/timer/run
