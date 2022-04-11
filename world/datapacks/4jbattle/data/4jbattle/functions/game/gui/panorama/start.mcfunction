@@ -15,6 +15,8 @@ scoreboard players set #Store 4j.gimode 3
 function 4jbattle:game/gui/globalinfo/load
 
 ##Enter creative
+#Enable lockdown
+lockdown true
 #Disable output
 gamerule sendCommandFeedback false
 #Set gamemode
