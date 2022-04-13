@@ -212,5 +212,11 @@ execute as @s[scores={4j.gamecfg=120}] run function 4jbattle:menu/load/host/take
 #Disable
 execute as @s[scores={4j.gamecfg=121}] run function 4jbattle:menu/load/host/takeeverything/disable
 
+##Armor Item Swap Deletion bugfix
+#Enable
+execute as @s[scores={4j.gamecfg=124}] run function 4jbattle:menu/load/host/bug/armorswapdrop/enable
+#Disable
+execute as @s[scores={4j.gamecfg=125}] run function 4jbattle:menu/load/host/bug/armorswapdrop/disable
+
 ##Reset score
 scoreboard players reset @s 4j.gamecfg

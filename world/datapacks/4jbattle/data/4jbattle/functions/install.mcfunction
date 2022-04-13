@@ -388,6 +388,9 @@ scoreboard objectives add 4j.maploadpos dummy
 ##Map corner negative loaded
 scoreboard objectives add 4j.maploadneg dummy
 
+##Armor Item Swap Deletion bugfix toggle
+scoreboard objectives add 4j.armorswapdrop dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

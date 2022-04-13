@@ -21,3 +21,6 @@ execute as @s[scores={4j.gamecfg=62}] run function 4jbattle:menu/load/host/prese
 
 ##Preset load display
 execute as @s[scores={4j.gamecfg=83..92}] run function 4jbattle:menu/load/host/preset/load/confirm
+
+##Open Bug Fixes menu
+execute as @s[scores={4j.gamecfg=123}] run function 4jbattle:menu/load/host/bug/open
