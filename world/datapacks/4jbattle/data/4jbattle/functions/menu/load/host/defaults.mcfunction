@@ -114,3 +114,6 @@ scoreboard players set #Store 4j.timelimit 2
 ##Set Armor Item Swap Deletion bugfix
 scoreboard players set #Store 4j.armorswapdrop 1
 takeeverything deleteItemNotDrop false
+
+##Chest Refill
+scoreboard players set #Store 4j.chestrefill 1

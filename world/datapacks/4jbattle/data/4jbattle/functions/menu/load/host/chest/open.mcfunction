@@ -20,6 +20,12 @@ execute if score #Store 4j.setchest matches 7 run tellraw @s ["",{"text":" Item 
 ##Random set customization
 execute if score #Store 4j.setchest matches 7 run tellraw @s {"text":" [Random Set Customization]","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 47"},"hoverEvent":{"action":"show_text","contents":[{"text":"Customize the Random Item Set.","color":"dark_aqua"}]}}
 
+##Chest Refill
+#Disabled
+execute if score #Store 4j.chestrefill matches 0 run tellraw @s ["",{"text":" [","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 126"},"hoverEvent":{"action":"show_text","contents":[{"text":"Chests will refill with new items during the game.","color":"dark_aqua"}]}},{"text":"❌","color":"red","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 126"},"hoverEvent":{"action":"show_text","contents":[{"text":"Chests will refill with new items during the game.","color":"dark_aqua"}]}},{"text":"] Chest Refill","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 126"},"hoverEvent":{"action":"show_text","contents":[{"text":"Chests will refill with new items during the game.","color":"dark_aqua"}]}}]
+#Enabled
+execute if score #Store 4j.chestrefill matches 1 run tellraw @s ["",{"text":" [","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 127"},"hoverEvent":{"action":"show_text","contents":[{"text":"Chests will refill with new items during the game.","color":"dark_aqua"}]}},{"text":"✔","color":"green","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 127"},"hoverEvent":{"action":"show_text","contents":[{"text":"Chests will refill with new items during the game.","color":"dark_aqua"}]}},{"text":"] Chest Refill","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 127"},"hoverEvent":{"action":"show_text","contents":[{"text":"Chests will refill with new items during the game.","color":"dark_aqua"}]}}]
+
 ##Go back button
 tellraw @s {"text":"[Go Back]","color":"gray","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click to go back to the normal configuration page","color":"dark_aqua"}]}}
 

@@ -218,5 +218,11 @@ execute as @s[scores={4j.gamecfg=124}] run function 4jbattle:menu/load/host/bug/
 #Disable
 execute as @s[scores={4j.gamecfg=125}] run function 4jbattle:menu/load/host/bug/armorswapdrop/disable
 
+##Chest Refill
+#Enable
+execute as @s[scores={4j.gamecfg=126}] run function 4jbattle:menu/load/host/chest/refill/enable
+#Disable
+execute as @s[scores={4j.gamecfg=127}] run function 4jbattle:menu/load/host/chest/refill/disable
+
 ##Reset score
 scoreboard players reset @s 4j.gamecfg

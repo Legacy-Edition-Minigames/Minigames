@@ -391,6 +391,9 @@ scoreboard objectives add 4j.maploadneg dummy
 ##Armor Item Swap Deletion bugfix toggle
 scoreboard objectives add 4j.armorswapdrop dummy
 
+##Chest Refill toggle
+scoreboard objectives add 4j.chestrefill dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

@@ -12,4 +12,4 @@ execute if score #Store 4j.chest matches 5 run function 4jbattle:game/chests/foo
 execute if score #Store 4j.chest matches 6 run function 4jbattle:game/chests/remastered/firstgen
 
 ##Refill chests in 30 seconds
-schedule function 4jbattle:game/chests/regen 30s
+execute if score #Store 4j.chestrefill matches 1 run schedule function 4jbattle:game/chests/regen 30s
