@@ -224,5 +224,11 @@ execute as @s[scores={4j.gamecfg=126}] run function 4jbattle:menu/load/host/ches
 #Disable
 execute as @s[scores={4j.gamecfg=127}] run function 4jbattle:menu/load/host/chest/refill/disable
 
+##Food Central diamond sword
+#Enable
+execute as @s[scores={4j.gamecfg=128}] run function 4jbattle:menu/load/host/bug/foodcentral/enable
+#Disable
+execute as @s[scores={4j.gamecfg=129}] run function 4jbattle:menu/load/host/bug/foodcentral/disable
+
 ##Reset score
 scoreboard players reset @s 4j.gamecfg

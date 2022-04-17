@@ -117,3 +117,6 @@ takeeverything deleteItemNotDrop false
 
 ##Chest Refill
 scoreboard players set #Store 4j.chestrefill 1
+
+##Food Central diamond sword fix
+scoreboard players set #Store 4j.foodcentfix 1

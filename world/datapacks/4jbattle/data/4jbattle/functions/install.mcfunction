@@ -394,6 +394,9 @@ scoreboard objectives add 4j.armorswapdrop dummy
 ##Chest Refill toggle
 scoreboard objectives add 4j.chestrefill dummy
 
+##Food Central diamond sword fix
+scoreboard objectives add 4j.foodcentfix dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
