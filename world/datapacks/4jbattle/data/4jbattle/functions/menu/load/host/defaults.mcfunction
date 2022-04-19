@@ -120,3 +120,6 @@ scoreboard players set #Store 4j.chestrefill 1
 
 ##Food Central diamond sword fix
 scoreboard players set #Store 4j.foodcentfix 1
+
+##No Armor leaping potion fix
+scoreboard players set #Store 4j.leapfix 1

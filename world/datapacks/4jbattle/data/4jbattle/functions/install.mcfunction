@@ -397,6 +397,9 @@ scoreboard objectives add 4j.chestrefill dummy
 ##Food Central diamond sword fix
 scoreboard objectives add 4j.foodcentfix dummy
 
+##No Armor Leaping potion fix
+scoreboard objectives add 4j.leapfix dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

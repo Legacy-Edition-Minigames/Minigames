@@ -230,5 +230,11 @@ execute as @s[scores={4j.gamecfg=128}] run function 4jbattle:menu/load/host/bug/
 #Disable
 execute as @s[scores={4j.gamecfg=129}] run function 4jbattle:menu/load/host/bug/foodcentral/disable
 
+##No Armor leaping potion
+#Enable
+execute as @s[scores={4j.gamecfg=130}] run function 4jbattle:menu/load/host/bug/leapfix/enable
+#Disable
+execute as @s[scores={4j.gamecfg=131}] run function 4jbattle:menu/load/host/bug/leapfix/disable
+
 ##Reset score
 scoreboard players reset @s 4j.gamecfg
