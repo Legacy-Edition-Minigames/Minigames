@@ -400,6 +400,9 @@ scoreboard objectives add 4j.foodcentfix dummy
 ##No Armor Leaping potion fix
 scoreboard objectives add 4j.leapfix dummy
 
+##Large+ cove chest fix
+scoreboard objectives add 4j.lpluscovefix dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

@@ -123,3 +123,6 @@ scoreboard players set #Store 4j.foodcentfix 1
 
 ##No Armor leaping potion fix
 scoreboard players set #Store 4j.leapfix 1
+
+##Large+ Cove Chests fix
+scoreboard players set #Store 4j.lpluscovefix 1
