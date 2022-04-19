@@ -1,4 +1,4 @@
-##Summon vexes for each player
+##Summon armor stands for each player
 #1
 summon armor_stand ~ ~ ~ {Marker:1,Invulnerable:1b,Invisible:1,Tags:["spectatormob","specmobp1"],Pose:{Head:[0f,1f,0f]},DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:"MHF_Question"}}]}
 #2
