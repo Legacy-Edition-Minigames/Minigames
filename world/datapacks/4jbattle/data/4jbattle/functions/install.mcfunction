@@ -403,6 +403,9 @@ scoreboard objectives add 4j.leapfix dummy
 ##Large+ cove chest fix
 scoreboard objectives add 4j.lpluscovefix dummy
 
+##Auto Equip ignore enchants toggle
+scoreboard objectives add swapenchanted trigger
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

@@ -1,6 +1,6 @@
 ##Display message
 #Discord
-tellraw @s ["",{"translate":"4j.relog.join.discord","color":"#7289DA"},"\n",{"text":"https://discord.gg/qAF2457gXb","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://discord.gg/qAF2457gXb"},"hoverEvent":{"action":"show_text","contents":[{"translate":"4j.relog.join.discord.hover","color":"blue"},": https://discord.gg/qAF2457gXb"]}}]
+tellraw @s ["",{"translate":"4j.relog.join.discord","color":"#7289DA"},"\n",{"text":"https://discord.gg/hFZ9UnsgCz","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://discord.gg/hFZ9UnsgCz"},"hoverEvent":{"action":"show_text","contents":[{"translate":"4j.relog.join.discord.hover","color":"blue"},": https://discord.gg/hFZ9UnsgCz"]}}]
 #Patreon
 tellraw @s ["",{"translate":"4j.relog.join.patreon","color":"gold","with":[{"text":"Patreon","bold":true,"color":"#FF424D"}]},"\n",{"text":"https://www.patreon.com/DBTDerpbox","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://www.patreon.com/DBTDerpbox"},"hoverEvent":{"action":"show_text","contents":[{"text":"https://www.patreon.com/DBTDerpbox","color":"blue"}]}}]
 
@@ -83,3 +83,6 @@ execute if score #Store 4j.gamestatus matches 2 run tp @s @r[tag=!relogtimer]
 
 ##Load spectator head if set to heads
 execute if score #Store 4j.spectype matches 5 run function 4jbattle:game/spectator/spawn/head/gethead
+
+##Load swapenchanted config
+execute if entity @s[advancements={4jbattle:conig/swapenchanted=true}] run takeeverything ignoreEnchants true @s
