@@ -37,6 +37,9 @@ schedule clear 4jbattle:lobby/ready/check
 ##Stop nodrop check
 schedule clear 4jbattle:lobby/nodrop/check
 
+##Stop Inventory hotbar swap check
+schedule clear 4jbattle:game/inventory/swap/check/run
+
 ##Debug info
 tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Running MapDecider...","color":"gold"}]
 tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Current Map ID: ","color":"gold"},{"score":{"name":"#Store","objective":"4j.map"},"color":"yellow"}]
