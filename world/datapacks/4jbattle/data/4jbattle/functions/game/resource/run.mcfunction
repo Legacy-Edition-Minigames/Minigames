@@ -17,6 +17,8 @@ scoreboard players set #Store 4j.timermax 3
 scoreboard players set #Store 4j.tooltiptimer 0
 #Set display
 scoreboard players set #Store 4j.displaymode 2
+#Load map name
+function 4jbattle:game/gui/display/loadingmap/loadname
 
 ##Start game in 0 seconds if not overridden by pack
 scoreboard players set #Store 4j.timer 0

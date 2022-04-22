@@ -406,6 +406,9 @@ scoreboard objectives add 4j.lpluscovefix dummy
 ##Auto Equip ignore enchants toggle
 scoreboard objectives add swapenchanted trigger
 
+##Map Name for loadingmap renderer
+scoreboard objectives add 4j.mapname dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
