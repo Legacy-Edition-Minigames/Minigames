@@ -1,7 +1,10 @@
 {
 	// Should all criteria be automatically revoked next time the command is executed.
 	"autoRevoke": false,
-	// List of all the resourcepacks configurations to use
+	/* 
+	   List of all the resourcepacks configurations to use
+	   packCompatibility is used to define if this is a pack for VANILLA, OPTIFINE, or BOTH
+	*/
 	"packs": [
 		{
 			"packname": "blank",
@@ -9,7 +12,8 @@
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!"
+			"message": "Legacy Edition Battle requires a resource pack to function properly!",
+			"packCompatibility": "BOTH"
 		},
 		{
 			"packname": "vanilla",
@@ -17,7 +21,8 @@
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!"
+			"message": "Legacy Edition Battle requires a resource pack to function properly!",
+			"packCompatibility": "VANILLA"
 		},
 		{
 			"packname": "vanilla-optifine",
@@ -25,7 +30,8 @@
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!"
+			"message": "Legacy Edition Battle requires a resource pack to function properly!",
+			"packCompatibility": "OPTIFINE"
 		},
 		{
 			"packname": "all-music-1",
@@ -33,7 +39,8 @@
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!"
+			"message": "Legacy Edition Battle requires a resource pack to function properly!",
+			"packCompatibility": "VANILLA"
 		},
 		{
 			"packname": "all-music-2",
@@ -41,7 +48,8 @@
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!"
+			"message": "Legacy Edition Battle requires a resource pack to function properly!",
+			"packCompatibility": "VANILLA"
 		},
 		{
 			"packname": "all-music-1-optifine",
@@ -49,7 +57,8 @@
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!"
+			"message": "Legacy Edition Battle requires a resource pack to function properly!",
+			"packCompatibility": "OPTIFINE"
 		},
 		{
 			"packname": "all-music-2-optifine",
@@ -57,7 +66,8 @@
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!"
+			"message": "Legacy Edition Battle requires a resource pack to function properly!",
+			"packCompatibility": "OPTIFINE"
 		},
 		{
 			"packname": "plastic",
@@ -65,7 +75,8 @@
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
-			"message": "This map requires a custom texture pack!"
+			"message": "This map requires a custom texture pack!",
+			"packCompatibility": "VANILLA"
 		},
 		{
 			"packname": "plastic-optifine",
@@ -73,7 +84,8 @@
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
-			"message": "This map requires a custom texture pack!"
+			"message": "This map requires a custom texture pack!",
+			"packCompatibility": "OPTIFINE"
 		},
 		{
 			"packname": "fantasy",
@@ -81,7 +93,8 @@
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
-			"message": "This map requires a custom texture pack!"
+			"message": "This map requires a custom texture pack!",
+			"packCompatibility": "VANILLA"
 		},
 		{
 			"packname": "fantasy-optifine",
@@ -89,7 +102,8 @@
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
-			"message": "This map requires a custom texture pack!"
+			"message": "This map requires a custom texture pack!",
+			"packCompatibility": "OPTIFINE"
 		},
 		{
 			"packname": "city",
@@ -97,7 +111,8 @@
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
-			"message": "This map requires a custom texture pack!"
+			"message": "This map requires a custom texture pack!",
+			"packCompatibility": "VANILLA"
 		},
 		{
 			"packname": "city-optifine",
@@ -105,7 +120,8 @@
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
-			"message": "This map requires a custom texture pack!"
+			"message": "This map requires a custom texture pack!",
+			"packCompatibility": "OPTIFINE"
 		},
 		{
 			"packname": "greek",
@@ -113,7 +129,8 @@
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
-			"message": "This map requires a custom texture pack!"
+			"message": "This map requires a custom texture pack!",
+			"packCompatibility": "VANILLA"
 		},
 		{
 			"packname": "greek-optifine",
@@ -121,7 +138,8 @@
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
-			"message": "This map requires a custom texture pack!"
+			"message": "This map requires a custom texture pack!",
+			"packCompatibility": "OPTIFINE"
 		},
 		{
 			"packname": "steampunk",
@@ -129,7 +147,8 @@
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
-			"message": "This map requires a custom texture pack!"
+			"message": "This map requires a custom texture pack!",
+			"packCompatibility": "VANILLA"
 		},
 		{
 			"packname": "steampunk-optifine",
@@ -137,7 +156,8 @@
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
-			"message": "This map requires a custom texture pack!"
+			"message": "This map requires a custom texture pack!",
+			"packCompatibility": "OPTIFINE"
 		},
 		{
 			"packname": "chinese",
@@ -145,7 +165,8 @@
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
-			"message": "This map requires a custom texture pack!"
+			"message": "This map requires a custom texture pack!",
+			"packCompatibility": "VANILLA"
 		},
 		{
 			"packname": "chinese-optifine",
@@ -153,7 +174,8 @@
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
-			"message": "This map requires a custom texture pack!"
+			"message": "This map requires a custom texture pack!",
+			"packCompatibility": "OPTIFINE"
 		},
 		{
 			"packname": "halloween",
@@ -161,7 +183,8 @@
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
-			"message": "This map requires a custom texture pack!"
+			"message": "This map requires a custom texture pack!",
+			"packCompatibility": "VANILLA"
 		},
 		{
 			"packname": "halloween-optifine",
@@ -169,7 +192,8 @@
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
-			"message": "This map requires a custom texture pack!"
+			"message": "This map requires a custom texture pack!",
+			"packCompatibility": "OPTIFINE"
 		},
 		{
 			"packname": "festive",
@@ -177,7 +201,8 @@
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
-			"message": "This map requires a custom texture pack!"
+			"message": "This map requires a custom texture pack!",
+			"packCompatibility": "VANILLA"
 		},
 		{
 			"packname": "festive-optifine",
@@ -185,7 +210,8 @@
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
-			"message": "This map requires a custom texture pack!"
+			"message": "This map requires a custom texture pack!",
+			"packCompatibility": "OPTIFINE"
 		},
 		{
 			"packname": "fallout",
@@ -193,7 +219,8 @@
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
-			"message": "This map requires a custom texture pack!"
+			"message": "This map requires a custom texture pack!",
+			"packCompatibility": "VANILLA"
 		},
 		{
 			"packname": "fallout-optifine",
@@ -201,7 +228,8 @@
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
-			"message": "This map requires a custom texture pack!"
+			"message": "This map requires a custom texture pack!",
+			"packCompatibility": "OPTIFINE"
 		}
 	]
 }
