@@ -12,3 +12,6 @@ function 4jbattle:lobby/ready/check
 
 ##Start nodrop check
 function 4jbattle:lobby/nodrop/check
+
+##Disable chesttracker
+chesttracker enabled false
