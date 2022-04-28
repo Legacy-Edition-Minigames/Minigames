@@ -18,3 +18,6 @@ function 4jbattle:game/resource/reload/check
 
 ##Set GlobalInfo mode
 scoreboard players set #Store 4j.globalinfo 1
+
+##Set chesttracker score
+chesttracker scoreboardObjective 4j.chestcount

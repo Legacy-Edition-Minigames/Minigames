@@ -409,6 +409,9 @@ scoreboard objectives add swapenchanted trigger
 ##Map Name for loadingmap renderer
 scoreboard objectives add 4j.mapname dummy
 
+##Chest count
+scoreboard objectives add 4j.chestcount dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

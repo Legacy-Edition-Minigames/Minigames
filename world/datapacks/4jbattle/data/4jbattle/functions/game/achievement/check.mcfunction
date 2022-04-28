@@ -7,6 +7,9 @@ execute as @a[scores={4j.kill=1..},nbt={SelectedItem:{id:"minecraft:bow"}}] run 
 #Give achivement
 advancement grant @a[scores={4j.cupid=2..}] only 4jbattle:cupid
 
+##Mine!
+execute as @a[advancements={4jbattle:mine=false}] if score @s 4j.chestcount >= #Store 4j.chestcount run advancement grant @s only 4jbattle:mine
+
 ##Tis but a scratch
 advancement grant @a[scores={4j.scratch=2000..}] only 4jbattle:scratch
 
