@@ -1,5 +1,5 @@
 ##Spawn
-execute as @a[tag=!relogtimer] at @s run function 4jbattle:lobby/spawn
+execute as @a[tag=!relogtimer] at @s run function 4jbattle:lobby/spawn/run
 
 ##Set gamestatus
 scoreboard players set #Store 4j.gamestatus 1

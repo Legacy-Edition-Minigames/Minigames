@@ -1,5 +1,5 @@
 ##Teleport players
-function 4jbattle:lobby/start/timer/teleport/start
+function 4jbattle:lobby/spawn/preload/run
 
 ##Set displaymode
 #Reset timer
