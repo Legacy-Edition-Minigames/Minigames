@@ -12,7 +12,7 @@ scoreboard players set #Store 4j.barmode 1
 #Reset bar
 scoreboard players set #Store 4j.loadingbar 0
 #Set timer max
-scoreboard players set #Store 4j.timermax 3
+scoreboard players set #Store 4j.timermax 60
 #Reset tooltip
 scoreboard players set #Store 4j.tooltiptimer 0
 #Set display

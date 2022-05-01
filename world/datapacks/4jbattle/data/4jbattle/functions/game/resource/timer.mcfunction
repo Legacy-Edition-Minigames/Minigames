@@ -14,8 +14,11 @@ scoreboard players operation .temp 4j.timer /= #Store 4j.timermax
 #Copy output to loading bar
 scoreboard players operation #Store 4j.loadingbar = .temp 4j.timer
 
+##Move panorama
+execute as @e[type=minecraft:area_effect_cloud,tag=MapCenter] at @s run tp @s ~ ~ ~ ~9 ~
+
 ##Loop
-schedule function 4jbattle:game/resource/timer 1s
+schedule function 4jbattle:game/resource/timer 1t
 
 ##Stop if timer reaches max
 execute if score #Store 4j.timer > #Store 4j.timermax run function 4jbattle:game/resource/stop
