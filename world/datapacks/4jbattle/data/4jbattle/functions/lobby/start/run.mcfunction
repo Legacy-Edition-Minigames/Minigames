@@ -61,7 +61,10 @@ function 4jbattle:menu/configure/runner
 ##Reset players
 function 4jbattle:game/playerreset
 
-##Loadmap voting
+##Load enabled maps
+function 4jbattle:mapdecider/loadenabled
+
+##Load map voting
 function 4jbattle:mapdecider/vote/load
 
 ##Reset world back

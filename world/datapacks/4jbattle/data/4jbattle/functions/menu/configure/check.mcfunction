@@ -23,8 +23,7 @@ execute as @s[scores={4j.gamecfg=8}] run function 4jbattle:menu/load/host/chest/
 execute as @s[scores={4j.gamecfg=9}] run function 4jbattle:menu/load/host/start/check
 
 ##Map settings
-execute as @s[scores={4j.gamecfg=1000..}] if score #Store 4j.gamestatus matches 0 run function 4jbattle:menu/configure/map
-execute as @s[scores={4j.gamecfg=1000..}] if score #Store 4j.gamestatus matches 1.. run tellraw @s {"translate":"4j.menu.host.config.cantchangemaps","color":"red"}
+execute as @s[scores={4j.gamecfg=1000..}] run function 4jbattle:menu/configure/map
 
 ##Map Type
 #Auto

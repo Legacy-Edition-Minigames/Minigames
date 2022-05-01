@@ -142,27 +142,27 @@ execute if score #Store 4j.setmaptype matches 3 run advancement grant @s only 4j
 execute if score #Store 4j.setmaptype matches 5 run advancement grant @s only 4jbattle:menu/host/presets/1/map/type/largeplus
 execute if score #Store 4j.setmaptype matches 4 run advancement grant @s only 4jbattle:menu/host/presets/1/map/type/remastered
 #Enabled maps
-execute if score #Crucible 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/crucible
-execute if score #Cove 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/cove
-execute if score #Cavern 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/cavern
-execute if score #Lair 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/lair
-execute if score #Medusa 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/medusa
-execute if score #Temple 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/temple
-execute if score #Atlantis 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/atlantis
-execute if score #Ruin 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/ruin
-execute if score #Siege 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/siege
-execute if score #Castle 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/castle
-execute if score #Invasion 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/invasion
-execute if score #Shipyard 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/shipyard
-execute if score #Frontier 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/frontier
-execute if score #Shrunk 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/shrunk
-execute if score #Dig 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/dig
-execute if score #Valley 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/valley
-execute if score #Halloween 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/halloween
-execute if score #Festive 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/festive
-execute if score #Atomics 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/atomics
-execute if score #Libertalia 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/libertalia
-execute if score #Capitol 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/capitol
+execute if score #Crucible 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/crucible
+execute if score #Cove 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/cove
+execute if score #Cavern 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/cavern
+execute if score #Lair 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/lair
+execute if score #Medusa 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/medusa
+execute if score #Temple 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/temple
+execute if score #Atlantis 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/atlantis
+execute if score #Ruin 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/ruin
+execute if score #Siege 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/siege
+execute if score #Castle 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/castle
+execute if score #Invasion 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/invasion
+execute if score #Shipyard 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/shipyard
+execute if score #Frontier 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/frontier
+execute if score #Shrunk 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/shrunk
+execute if score #Dig 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/dig
+execute if score #Valley 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/valley
+execute if score #Halloween 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/halloween
+execute if score #Festive 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/festive
+execute if score #Atomics 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/atomics
+execute if score #Libertalia 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/libertalia
+execute if score #Capitol 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/1/map/enabled/capitol
 
 ##Regeneration settings
 #Enabled

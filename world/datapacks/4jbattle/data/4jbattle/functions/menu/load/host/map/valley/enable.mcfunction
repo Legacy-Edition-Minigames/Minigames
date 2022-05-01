@@ -1,5 +1,5 @@
 ##Enable map
-scoreboard players set #Valley 4j.enablemap 1
+scoreboard players set #Valley 4j.setenablemap 1
 
 ##Increase mapcount
 scoreboard players add #Store 4j.mapcount 1
