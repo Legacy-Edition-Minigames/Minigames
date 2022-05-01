@@ -57,4 +57,6 @@ Spanish Translations - [PiporGames](https://github.com/PiporGames)
 
 Italian Translations - [ItzLightyHD](https://github.com/ItzLightyHD)
 
+Russian Translations - [Silvert](https://steamcommunity.com/profiles/76561198877040901) and [Bensy_15](https://steamcommunity.com/profiles/76561198289263301/)
+
 Major LEB-ToolBox Improvements - [PiporGames](https://github.com/PiporGames) 
