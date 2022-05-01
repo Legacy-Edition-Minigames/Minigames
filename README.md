@@ -55,4 +55,6 @@ Greek Translations - [Ethelous](https://github.com/Ethelous)
 
 Spanish Translations - [PiporGames](https://github.com/PiporGames)
 
+Italian Translations - [ItzLightyHD](https://github.com/ItzLightyHD)
+
 Major LEB-ToolBox Improvements - [PiporGames](https://github.com/PiporGames) 
