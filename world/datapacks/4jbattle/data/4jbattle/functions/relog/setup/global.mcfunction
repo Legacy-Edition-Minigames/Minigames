@@ -7,6 +7,9 @@ tellraw @s ["",{"translate":"4j.relog.join.patreon","color":"gold","with":[{"tex
 ##Migrate configs from 4jbattle to 4jmenu namespace
 function 4jbattle:relog/setup/migrateadvancements
 
+##Update presets
+function 4jbattle:menu/load/host/preset/update/check/run
+
 ##Add resoureloaded tag
 tag @s add resourceloaded
 

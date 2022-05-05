@@ -27,6 +27,7 @@ execute if entity @s[advancements={4jbattle:menu/host/presets/9/lives/9=true}] r
 execute if entity @s[advancements={4jbattle:menu/host/presets/9/lives/10=true}] run tellraw @s ["",{"text":"Number Of Lives: ","italic":true,"color":"dark_aqua"},{"text":"10","color":"green"}]
 
 ##Chests
+#Item set
 execute if entity @s[advancements={4jbattle:menu/host/presets/9/chest/normal=true}] run tellraw @s ["",{"text":"Item Set: ","italic":true,"color":"dark_aqua"},{"text":"Normal","color":"green"}]
 execute if entity @s[advancements={4jbattle:menu/host/presets/9/chest/noarmor=true}] run tellraw @s ["",{"text":"Item Set: ","italic":true,"color":"dark_aqua"},{"text":"No Armor","color":"green"}]
 execute if entity @s[advancements={4jbattle:menu/host/presets/9/chest/highpower=true}] run tellraw @s ["",{"text":"Item Set: ","italic":true,"color":"dark_aqua"},{"text":"High Power","color":"green"}]
@@ -34,6 +35,9 @@ execute if entity @s[advancements={4jbattle:menu/host/presets/9/chest/decayed=tr
 execute if entity @s[advancements={4jbattle:menu/host/presets/9/chest/foodcentral=true}] run tellraw @s ["",{"text":"Item Set: ","italic":true,"color":"dark_aqua"},{"text":"Food Central","color":"green"}]
 execute if entity @s[advancements={4jbattle:menu/host/presets/9/chest/remastered=true}] run tellraw @s ["",{"text":"Item Set: ","italic":true,"color":"dark_aqua"},{"text":"Remastered","color":"green"}]
 execute if entity @s[advancements={4jbattle:menu/host/presets/9/chest/random=true}] run tellraw @s ["",{"text":"Item Set: ","italic":true,"color":"dark_aqua"},{"text":"Random","color":"green"}]
+#Chest refill
+execute if entity @s[advancements={4jbattle:menu/host/presets/9/chest/refill=true}] run tellraw @s ["",{"text":"Chest Refill: ","italic":true,"color":"dark_aqua"},{"text":"Enabled","color":"green"}]
+execute if entity @s[advancements={4jbattle:menu/host/presets/9/chest/refill=false}] run tellraw @s ["",{"text":"Chest Refill: ","italic":true,"color":"dark_aqua"},{"text":"Disabled","color":"red"}]
 
 ##Map settings
 #Type
@@ -102,6 +106,7 @@ execute if entity @s[advancements={4jbattle:menu/host/presets/9/showdown/glow=tr
 execute if entity @s[advancements={4jbattle:menu/host/presets/9/showdown/glow=false}] run tellraw @s ["",{"text":"Showdown Glow: ","italic":true,"color":"dark_aqua"},{"text":"Disabled","color":"red"}]
 
 ##Lobby settings
-#New lobby
-execute if entity @s[advancements={4jbattle:menu/host/presets/9/lobby/new=true}] run tellraw @s ["",{"text":"Old Lobby: ","italic":true,"color":"dark_aqua"},{"text":"Disabled","color":"red"}]
-execute if entity @s[advancements={4jbattle:menu/host/presets/9/lobby/new=false}] run tellraw @s ["",{"text":"Old Lobby: ","italic":true,"color":"dark_aqua"},{"text":"Enabled","color":"green"}]
+#Lobby Type
+execute if entity @s[advancements={4jbattle:menu/host/presets/9/lobby/old=true}] run tellraw @s ["",{"text":"Lobby: ","italic":true,"color":"dark_aqua"},{"text":"Old","color":"green"}]
+execute if entity @s[advancements={4jbattle:menu/host/presets/9/lobby/new=true}] run tellraw @s ["",{"text":"Lobby: ","italic":true,"color":"dark_aqua"},{"text":"New","color":"green"}]
+execute if entity @s[advancements={4jbattle:menu/host/presets/9/lobby/anniversary=true}] run tellraw @s ["",{"text":"Lobby: ","italic":true,"color":"dark_aqua"},{"text":"Anniversary","color":"green"}]

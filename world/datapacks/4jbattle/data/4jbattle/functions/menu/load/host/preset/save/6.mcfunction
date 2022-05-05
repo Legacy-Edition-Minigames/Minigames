@@ -1,5 +1,9 @@
 ###Save config to advancements
 ##Clear old config
+advancement revoke @s only 4jbattle:menu/host/presets/6/bug/armorswapdrop
+advancement revoke @s only 4jbattle:menu/host/presets/6/bug/foodcentral
+advancement revoke @s only 4jbattle:menu/host/presets/6/bug/largepluscove
+advancement revoke @s only 4jbattle:menu/host/presets/6/bug/leapfix
 advancement revoke @s only 4jbattle:menu/host/presets/6/chest/normal
 advancement revoke @s only 4jbattle:menu/host/presets/6/chest/noarmor
 advancement revoke @s only 4jbattle:menu/host/presets/6/chest/highpower
@@ -7,6 +11,7 @@ advancement revoke @s only 4jbattle:menu/host/presets/6/chest/decayed
 advancement revoke @s only 4jbattle:menu/host/presets/6/chest/foodcentral
 advancement revoke @s only 4jbattle:menu/host/presets/6/chest/remastered
 advancement revoke @s only 4jbattle:menu/host/presets/6/chest/random
+advancement revoke @s only 4jbattle:menu/host/presets/6/chest/refill
 advancement revoke @s only 4jbattle:menu/host/presets/6/chest/randomconfig/normal
 advancement revoke @s only 4jbattle:menu/host/presets/6/chest/randomconfig/noarmor
 advancement revoke @s only 4jbattle:menu/host/presets/6/chest/randomconfig/highpower
@@ -29,6 +34,8 @@ advancement revoke @s only 4jbattle:menu/host/presets/6/lives/8
 advancement revoke @s only 4jbattle:menu/host/presets/6/lives/9
 advancement revoke @s only 4jbattle:menu/host/presets/6/lives/10
 advancement revoke @s only 4jbattle:menu/host/presets/6/lobby/new
+advancement revoke @s only 4jbattle:menu/host/presets/6/lobby/old
+advancement revoke @s only 4jbattle:menu/host/presets/6/lobby/anniversary
 advancement revoke @s only 4jbattle:menu/host/presets/6/map/type/auto
 advancement revoke @s only 4jbattle:menu/host/presets/6/map/type/small
 advancement revoke @s only 4jbattle:menu/host/presets/6/map/type/large
@@ -82,6 +89,20 @@ advancement revoke @s only 4jbattle:menu/host/presets/6/timelimit/normal
 advancement revoke @s only 4jbattle:menu/host/presets/6/timelimit/long
 advancement revoke @s only 4jbattle:menu/host/presets/6/tp/surround
 advancement revoke @s only 4jbattle:menu/host/presets/6/takeeverything/disabled
+advancement revoke @s only 4jbattle:menu/host/presets/6/version/1
+
+##Set preset version
+advancement grant @s only 4jbattle:menu/host/presets/6/version/1
+
+##Bug Fixes
+#Armor Item Swap Deletion
+execute if score #Store 4j.armorswapdrop matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/bug/armorswapdrop
+#Food Central diamond sword
+execute if score #Store 4j.foodcentfix matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/bug/foodcentral
+#No Armor leaping potion
+execute if score #Store 4j.leapfix matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/bug/leapfix
+#Large+ Cove Chests
+execute if score #Store 4j.lpluscovefix matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/bug/largepluscove
 
 ##Chest settings
 #Item set
@@ -92,6 +113,8 @@ execute if score #Store 4j.setchest matches 4 run advancement grant @s only 4jba
 execute if score #Store 4j.setchest matches 5 run advancement grant @s only 4jbattle:menu/host/presets/6/chest/foodcentral
 execute if score #Store 4j.setchest matches 6 run advancement grant @s only 4jbattle:menu/host/presets/6/chest/remastered
 execute if score #Store 4j.setchest matches 7 run advancement grant @s only 4jbattle:menu/host/presets/6/chest/random
+#Chest Refill
+execute if score #Store 4j.chestrefill matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/chest/refill
 #Random config
 execute if score #Normal 4j.enableset matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/chest/randomconfig/normal
 execute if score #NoArmor 4j.enableset matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/chest/randomconfig/noarmor
@@ -131,8 +154,12 @@ execute if score #Store 4j.lives matches 9 run advancement grant @s only 4jbattl
 execute if score #Store 4j.lives matches 10 run advancement grant @s only 4jbattle:menu/host/presets/6/lives/10
 
 ##Lobby settings
+#Old lobby
+execute if score #Store 4j.lobbytype matches 0 run advancement grant @s only 4jbattle:menu/host/presets/6/lobby/old
 #New lobby
 execute if score #Store 4j.lobbytype matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/lobby/new
+#Anniversary lobby
+execute if score #Store 4j.lobbytype matches 2 run advancement grant @s only 4jbattle:menu/host/presets/6/lobby/anniversary
 
 ##Map settings
 #Type
@@ -218,7 +245,7 @@ execute if score #Store 4j.tp matches 1 run advancement grant @s only 4jbattle:m
 advancement grant @s only 4jbattle:menu/host/presets/6/saved
 
 ##Display as saved
-tellraw @s {"text":"Saved Preset 6!","color":"green"}
+tellraw @s {"text":"Saved Preset!","color":"green"}
 
 ##Open menu
 function 4jbattle:menu/load/host/preset/open
