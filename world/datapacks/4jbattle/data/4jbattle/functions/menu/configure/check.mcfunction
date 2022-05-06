@@ -130,34 +130,6 @@ execute as @s[scores={4j.gamecfg=43}] run function 4jbattle:menu/load/host/timel
 ##Item set customization
 execute as @s[scores={4j.gamecfg=48..59}] run function 4jbattle:menu/load/host/chest/randomconfig/run
 
-##Open Preset save menu
-execute as @s[scores={4j.gamecfg=61}] run function 4jbattle:menu/load/host/preset/save/run
-
-##Preset save warning
-execute as @s[scores={4j.gamecfg=63..72}] run function 4jbattle:menu/load/host/preset/save/confirm
-
-##Save Presets
-#Preset 1
-execute as @s[scores={4j.gamecfg=73}] run function 4jbattle:menu/load/host/preset/save/1
-#Preset 2
-execute as @s[scores={4j.gamecfg=74}] run function 4jbattle:menu/load/host/preset/save/2
-#Preset 3
-execute as @s[scores={4j.gamecfg=75}] run function 4jbattle:menu/load/host/preset/save/3
-#Preset 4
-execute as @s[scores={4j.gamecfg=76}] run function 4jbattle:menu/load/host/preset/save/4
-#Preset 5
-execute as @s[scores={4j.gamecfg=77}] run function 4jbattle:menu/load/host/preset/save/5
-#Preset 6
-execute as @s[scores={4j.gamecfg=78}] run function 4jbattle:menu/load/host/preset/save/6
-#Preset 7
-execute as @s[scores={4j.gamecfg=79}] run function 4jbattle:menu/load/host/preset/save/7
-#Preset 8
-execute as @s[scores={4j.gamecfg=80}] run function 4jbattle:menu/load/host/preset/save/8
-#Preset 9
-execute as @s[scores={4j.gamecfg=81}] run function 4jbattle:menu/load/host/preset/save/9
-#Preset 10
-execute as @s[scores={4j.gamecfg=82}] run function 4jbattle:menu/load/host/preset/save/10
-
 ##Load Presets if saved
 #Preset 1
 execute if entity @s[advancements={4jbattle:menu/host/presets/1/saved=true}] as @s[scores={4j.gamecfg=93}] run function 4jbattle:menu/load/host/preset/load/1
@@ -180,7 +152,7 @@ execute if entity @s[advancements={4jbattle:menu/host/presets/9/saved=true}] as 
 #Preset 10
 execute if entity @s[advancements={4jbattle:menu/host/presets/10/saved=true}] as @s[scores={4j.gamecfg=102}] run function 4jbattle:menu/load/host/preset/load/10
 
-##Don't Presets if not saved
+##Don't Load Presets if not saved
 #Preset 1
 execute if entity @s[advancements={4jbattle:menu/host/presets/1/saved=false}] as @s[scores={4j.gamecfg=93}] run function 4jbattle:menu/load/host/preset/load/notsaved
 #Preset 2
