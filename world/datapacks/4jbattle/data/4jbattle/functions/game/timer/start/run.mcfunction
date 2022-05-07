@@ -78,9 +78,6 @@ execute as @a at @s run spawnpoint @s ~ ~ ~
 ##Remove items
 kill @e[type=item]
 
-##Load AutoEquip
-function 4jbattle:game/autoequip/check
-
 ##Unlock chests
 function 4jbattle:game/chests/unlock
 

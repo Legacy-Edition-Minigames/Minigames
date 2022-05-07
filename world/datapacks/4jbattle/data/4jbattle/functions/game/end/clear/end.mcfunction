@@ -5,8 +5,6 @@ schedule clear 4jbattle:game/potion/runner
 schedule clear 4jbattle:game/achievement/check
 #Small Inventory
 schedule clear 4jbattle:game/inventory/small/check
-#Auto Equip
-schedule clear 4jbattle:game/autoequip/check
 #Combat Check
 function 4jbattle:game/combat/block/stop
 #Inventory swapper
