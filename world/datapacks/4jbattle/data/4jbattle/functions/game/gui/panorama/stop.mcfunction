@@ -12,6 +12,8 @@ title @a[tag=!relogtimer] title ""
 title @a[tag=!relogtimer] subtitle ""
 
 ##Exit Creative
+#Disable lockdown
+lockdown false
 #Disable output
 gamerule sendCommandFeedback false
 #Set gamemode

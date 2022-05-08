@@ -1,5 +1,5 @@
 ##Disable map
-scoreboard players set #Halloween 4j.enablemap 0
+scoreboard players set #Halloween 4j.setenablemap 0
 
 ##Decrease mapcount
 scoreboard players remove #Store 4j.mapcount 1

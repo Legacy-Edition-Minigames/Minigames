@@ -1,5 +1,5 @@
 ##Spawn
-execute as @a[tag=!relogtimer] run function 4jbattle:lobby/spawn
+execute as @a[tag=!relogtimer] at @s run function 4jbattle:lobby/spawn/run
 
 ##Set gamestatus
 scoreboard players set #Store 4j.gamestatus 1
@@ -61,7 +61,10 @@ function 4jbattle:menu/configure/runner
 ##Reset players
 function 4jbattle:game/playerreset
 
-##Loadmap voting
+##Load enabled maps
+function 4jbattle:mapdecider/loadenabled
+
+##Load map voting
 function 4jbattle:mapdecider/vote/load
 
 ##Reset world back
@@ -69,3 +72,6 @@ function 4jbattle:lobby/reset/run
 
 ##Set tablist display
 function 4jbattle:game/gui/playerlist/scores/check/lobby
+
+##Inventory hotbar swap
+function 4jbattle:game/inventory/swap/start

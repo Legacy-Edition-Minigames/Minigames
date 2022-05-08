@@ -9,3 +9,6 @@ setblock -10 101 211 minecraft:structure_block[mode=load]{author:"DBTDerpbox",id
 
 ##Activate structure block
 setblock -9 101 211 minecraft:redstone_block
+
+##Remove broken chests if bugfix is disabled
+execute if score #Store 4j.lpluscovefix matches 0 run kill @e[type=area_effect_cloud,tag=largepluscovefix]

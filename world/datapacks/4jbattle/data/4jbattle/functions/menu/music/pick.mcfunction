@@ -11,5 +11,8 @@ execute if score @s 4j.musrandom matches 3 run function 4jbattle:menu/music/menu
 #Menu4
 execute if score @s 4j.musrandom matches 4 run function 4jbattle:menu/music/menu4
 
+##Add a second of delay between songs
+scoreboard players add @s 4j.mustimer 1
+
 ##Debug Info
 tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Picking menu song for ","color":"gold"},{"selector":"@s","color":"yellow"}]

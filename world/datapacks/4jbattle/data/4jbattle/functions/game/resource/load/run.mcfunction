@@ -22,6 +22,8 @@ execute if score #Store 4j.pack matches 9 run function 4jbattle:game/resource/lo
 execute if score #Store 4j.pack matches 10 run function 4jbattle:game/resource/load/fallout/run
 #Default
 execute if entity @s[tag=relogtimer,tag=!custompack] run function 4jbattle:game/resource/load/vanilla/run
+#All-Music
+execute as @s[tag=relogtimer,advancements={4jbattle:config/globalpack=true,4jbattle:config/custompack=false}] run function 4jbattle:game/resource/load/all-music/run
 
 ##Give resourceloaded tag to custom pack users
 tag @s[advancements={4jbattle:config/custompack=true,4jbattle:config/globalpack=true}] add resourceloaded

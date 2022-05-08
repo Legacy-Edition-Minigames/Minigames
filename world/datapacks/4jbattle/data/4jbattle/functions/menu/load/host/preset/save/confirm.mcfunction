@@ -23,4 +23,7 @@ execute if score @s 4j.gamecfg matches 71 run tellraw @s ["",{"text":"[Save]","c
 #Preset 10
 execute if score @s 4j.gamecfg matches 72 run tellraw @s ["",{"text":"[Save]","color":"blue","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 82"}}," ",{"text":"[Cancel]","color":"red","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 61"}}]
 
+##Reset gamecfg score
+scoreboard players reset @s 4j.gamecfg
+
 #{"jformat":7,"jobject":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"font":null,"color":"blue","insertion":"","click_event_type":"2","click_event_value":"/trigger 4j.gamecfg set 73","hover_event_type":0,"hover_event_value":"","hover_event_object":{},"hover_event_children":[],"text":"[Save]"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"font":null,"color":"none","insertion":"","click_event_type":0,"click_event_value":"","hover_event_type":0,"hover_event_value":"","hover_event_object":{},"hover_event_children":[],"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"font":null,"color":"red","insertion":"","click_event_type":"2","click_event_value":"/trigger 4j.gamecfg set 61","hover_event_type":0,"hover_event_value":"","hover_event_object":{},"hover_event_children":[],"text":"[Cancel]"}],"command":"tellraw @s %s","jtemplate":"tellraw"}

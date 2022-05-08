@@ -8,7 +8,7 @@ function 4jbattle:game/end/check
 function 4jbattle:game/potion/runner
 
 ##Check for Achievements
-function 4jbattle:game/achievement/check
+function 4jbattle:game/achievement/start
 
 ##Start game timer
 function 4jbattle:game/timer/end/start
@@ -77,9 +77,6 @@ execute as @a at @s run spawnpoint @s ~ ~ ~
 
 ##Remove items
 kill @e[type=item]
-
-##Load AutoEquip
-function 4jbattle:game/autoequip/check
 
 ##Unlock chests
 function 4jbattle:game/chests/unlock

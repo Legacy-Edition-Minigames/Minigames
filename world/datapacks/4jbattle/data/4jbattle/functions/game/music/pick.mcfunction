@@ -22,5 +22,8 @@ execute if score #Store 4j.pack matches 9 run function 4jbattle:game/music/festi
 #Fallout
 execute if score #Store 4j.pack matches 10 run function 4jbattle:game/music/fallout/pick
 
+##Add a second of delay between songs
+scoreboard players add @s 4j.mustimer 1
+
 ##Debug Info
 tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Picking song for ","color":"gold"},{"selector":"@s","color":"yellow"}]

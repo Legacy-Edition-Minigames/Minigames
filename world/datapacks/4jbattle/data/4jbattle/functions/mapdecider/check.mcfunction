@@ -45,6 +45,3 @@ function 4jbattle:relog/timer/forceupdate
 
 ##Reset win counter
 scoreboard players reset @a 4j.roundwins
-
-##Stop timer check
-schedule clear 4jbattle:lobby/timer/run/check

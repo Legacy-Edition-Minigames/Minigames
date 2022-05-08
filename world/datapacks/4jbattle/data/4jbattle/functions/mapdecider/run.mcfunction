@@ -28,6 +28,9 @@ execute if score #highestScore 4j.mapvote matches 0 run function 4jbattle:mapdec
 ##Find highest vote if votes were made
 execute if score #highestScore 4j.mapvote matches 1.. run function 4jbattle:mapdecider/findhighest
 
+##Stop lobby timer check
+schedule clear 4jbattle:lobby/timer/run/check
+
 ##Stop vote check
 schedule clear 4jbattle:mapdecider/vote/check
 
@@ -36,6 +39,12 @@ schedule clear 4jbattle:lobby/ready/check
 
 ##Stop nodrop check
 schedule clear 4jbattle:lobby/nodrop/check
+
+##Stop Inventory hotbar swap check
+schedule clear 4jbattle:game/inventory/swap/check/run
+
+##Enable chesttracker
+chesttracker enabled true
 
 ##Debug info
 tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Running MapDecider...","color":"gold"}]

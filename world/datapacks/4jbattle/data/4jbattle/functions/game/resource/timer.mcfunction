@@ -1,5 +1,8 @@
+##Detect if map is loaded
+execute as @e[type=area_effect_cloud,tag=MapCenter] at @s run function 4jbattle:game/resource/mapload/check
+
 ##Count down
-scoreboard players add #Store 4j.timer 1
+execute if score #Store 4j.maploadpos matches 1.. if score #Store 4j.maploadneg matches 1.. run scoreboard players add #Store 4j.timer 1
 
 ##Display
 #Copy loaded pack users to temp
@@ -11,8 +14,11 @@ scoreboard players operation .temp 4j.timer /= #Store 4j.timermax
 #Copy output to loading bar
 scoreboard players operation #Store 4j.loadingbar = .temp 4j.timer
 
+##Move panorama
+execute as @e[type=minecraft:area_effect_cloud,tag=MapCenter] at @s run tp @s ~ ~ ~ ~9 ~
+
 ##Loop
-schedule function 4jbattle:game/resource/timer 1s
+schedule function 4jbattle:game/resource/timer 1t
 
 ##Stop if timer reaches max
-execute if score #Store 4j.timer matches 6.. run function 4jbattle:game/resource/stop
+execute if score #Store 4j.timer > #Store 4j.timermax run function 4jbattle:game/resource/stop

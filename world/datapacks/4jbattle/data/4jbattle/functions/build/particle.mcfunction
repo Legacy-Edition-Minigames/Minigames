@@ -15,6 +15,8 @@ execute at @e[type=area_effect_cloud,tag=CenterTP] run particle end_rod ~ ~0.3 ~
 execute at @e[type=area_effect_cloud,tag=NewLobbyTP] run particle scrape ~ ~0.3 ~ 0.125 0.125 0.125 0 4 normal @a
 #Old Lobby
 execute at @e[type=area_effect_cloud,tag=OldLobbyTP] run particle end_rod ~ ~0.3 ~ 0.125 0.125 0.125 0 4 normal @a
+#Anniversary Lobby
+execute at @e[type=area_effect_cloud,tag=AnniversaryLobbyTP] run particle end_rod ~ ~0.3 ~ 0.125 0.125 0.125 0 4 normal @a
 
 ##Border
 #Positive

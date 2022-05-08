@@ -70,3 +70,6 @@ function 4jbattle:game/fire/check
 
 ##Worldborder check
 function 4jbattle:game/worldborder/check
+
+##Reset chest particles
+chesttracker reset

@@ -5,7 +5,7 @@ scoreboard players set #Store 4j.lobbytype 0
 scoreboard players set #Store 4j.fullreset 1
 
 ##Display message
-tellraw @a {"translate":"4j.menu.host.config.update.oldlobby.enable"}
+tellraw @a "The host has set the Lobby to Old."
 
 ##Open menu
 function 4jbattle:menu/load/host/extra/open

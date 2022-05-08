@@ -37,5 +37,8 @@ function 4jbattle:clientconfig/armorbar/check
 ##Clear small inv texture
 function 4jbattle:clientconfig/clearsmall/check
 
+##Auto Equip ignore enchants
+function 4jbattle:clientconfig/swapenchanted/check
+
 ##Loop
 schedule function 4jbattle:clientconfig/check 1s

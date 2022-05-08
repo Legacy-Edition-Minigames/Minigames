@@ -1,5 +1,5 @@
 ##Disable map
-scoreboard players set #Temple 4j.enablemap 0
+scoreboard players set #Temple 4j.setenablemap 0
 
 ##Decrease mapcount
 scoreboard players remove #Store 4j.mapcount 1

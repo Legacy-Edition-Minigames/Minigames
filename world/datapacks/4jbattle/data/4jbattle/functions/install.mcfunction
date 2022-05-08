@@ -382,6 +382,39 @@ scoreboard objectives add 4j.hosttimer dummy
 ##Lobby timer option
 scoreboard objectives add 4j.lobbytimerset dummy
 
+##Map corner positive loaded
+scoreboard objectives add 4j.maploadpos dummy
+
+##Map corner negative loaded
+scoreboard objectives add 4j.maploadneg dummy
+
+##Armor Item Swap Deletion bugfix toggle
+scoreboard objectives add 4j.armorswapdrop dummy
+
+##Chest Refill toggle
+scoreboard objectives add 4j.chestrefill dummy
+
+##Food Central diamond sword fix
+scoreboard objectives add 4j.foodcentfix dummy
+
+##No Armor Leaping potion fix
+scoreboard objectives add 4j.leapfix dummy
+
+##Large+ cove chest fix
+scoreboard objectives add 4j.lpluscovefix dummy
+
+##Auto Equip ignore enchants toggle
+scoreboard objectives add swapenchanted trigger
+
+##Map Name for loadingmap renderer
+scoreboard objectives add 4j.mapname dummy
+
+##Chest count
+scoreboard objectives add 4j.chestcount dummy
+
+##Enabled maps set to load/unload next round
+scoreboard objectives add 4j.setenablemap dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

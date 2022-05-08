@@ -1,5 +1,9 @@
 ###Save config to advancements
 ##Clear old config
+advancement revoke @s only 4jbattle:menu/host/presets/10/bug/armorswapdrop
+advancement revoke @s only 4jbattle:menu/host/presets/10/bug/foodcentral
+advancement revoke @s only 4jbattle:menu/host/presets/10/bug/largepluscove
+advancement revoke @s only 4jbattle:menu/host/presets/10/bug/leapfix
 advancement revoke @s only 4jbattle:menu/host/presets/10/chest/normal
 advancement revoke @s only 4jbattle:menu/host/presets/10/chest/noarmor
 advancement revoke @s only 4jbattle:menu/host/presets/10/chest/highpower
@@ -7,6 +11,7 @@ advancement revoke @s only 4jbattle:menu/host/presets/10/chest/decayed
 advancement revoke @s only 4jbattle:menu/host/presets/10/chest/foodcentral
 advancement revoke @s only 4jbattle:menu/host/presets/10/chest/remastered
 advancement revoke @s only 4jbattle:menu/host/presets/10/chest/random
+advancement revoke @s only 4jbattle:menu/host/presets/10/chest/refill
 advancement revoke @s only 4jbattle:menu/host/presets/10/chest/randomconfig/normal
 advancement revoke @s only 4jbattle:menu/host/presets/10/chest/randomconfig/noarmor
 advancement revoke @s only 4jbattle:menu/host/presets/10/chest/randomconfig/highpower
@@ -29,6 +34,8 @@ advancement revoke @s only 4jbattle:menu/host/presets/10/lives/8
 advancement revoke @s only 4jbattle:menu/host/presets/10/lives/9
 advancement revoke @s only 4jbattle:menu/host/presets/10/lives/10
 advancement revoke @s only 4jbattle:menu/host/presets/10/lobby/new
+advancement revoke @s only 4jbattle:menu/host/presets/10/lobby/old
+advancement revoke @s only 4jbattle:menu/host/presets/10/lobby/anniversary
 advancement revoke @s only 4jbattle:menu/host/presets/10/map/type/auto
 advancement revoke @s only 4jbattle:menu/host/presets/10/map/type/small
 advancement revoke @s only 4jbattle:menu/host/presets/10/map/type/large
@@ -82,6 +89,20 @@ advancement revoke @s only 4jbattle:menu/host/presets/10/timelimit/normal
 advancement revoke @s only 4jbattle:menu/host/presets/10/timelimit/long
 advancement revoke @s only 4jbattle:menu/host/presets/10/tp/surround
 advancement revoke @s only 4jbattle:menu/host/presets/10/takeeverything/disabled
+advancement revoke @s only 4jbattle:menu/host/presets/10/version/1
+
+##Set preset version
+advancement grant @s only 4jbattle:menu/host/presets/10/version/1
+
+##Bug Fixes
+#Armor Item Swap Deletion
+execute if score #Store 4j.armorswapdrop matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/bug/armorswapdrop
+#Food Central diamond sword
+execute if score #Store 4j.foodcentfix matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/bug/foodcentral
+#No Armor leaping potion
+execute if score #Store 4j.leapfix matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/bug/leapfix
+#Large+ Cove Chests
+execute if score #Store 4j.lpluscovefix matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/bug/largepluscove
 
 ##Chest settings
 #Item set
@@ -92,6 +113,8 @@ execute if score #Store 4j.setchest matches 4 run advancement grant @s only 4jba
 execute if score #Store 4j.setchest matches 5 run advancement grant @s only 4jbattle:menu/host/presets/10/chest/foodcentral
 execute if score #Store 4j.setchest matches 6 run advancement grant @s only 4jbattle:menu/host/presets/10/chest/remastered
 execute if score #Store 4j.setchest matches 7 run advancement grant @s only 4jbattle:menu/host/presets/10/chest/random
+#Chest Refill
+execute if score #Store 4j.chestrefill matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/chest/refill
 #Random config
 execute if score #Normal 4j.enableset matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/chest/randomconfig/normal
 execute if score #NoArmor 4j.enableset matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/chest/randomconfig/noarmor
@@ -131,8 +154,12 @@ execute if score #Store 4j.lives matches 9 run advancement grant @s only 4jbattl
 execute if score #Store 4j.lives matches 10 run advancement grant @s only 4jbattle:menu/host/presets/10/lives/10
 
 ##Lobby settings
+#Old lobby
+execute if score #Store 4j.lobbytype matches 0 run advancement grant @s only 4jbattle:menu/host/presets/10/lobby/old
 #New lobby
 execute if score #Store 4j.lobbytype matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/lobby/new
+#Anniversary lobby
+execute if score #Store 4j.lobbytype matches 2 run advancement grant @s only 4jbattle:menu/host/presets/10/lobby/anniversary
 
 ##Map settings
 #Type
@@ -142,27 +169,27 @@ execute if score #Store 4j.setmaptype matches 3 run advancement grant @s only 4j
 execute if score #Store 4j.setmaptype matches 5 run advancement grant @s only 4jbattle:menu/host/presets/10/map/type/largeplus
 execute if score #Store 4j.setmaptype matches 4 run advancement grant @s only 4jbattle:menu/host/presets/10/map/type/remastered
 #Enabled maps
-execute if score #Crucible 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/crucible
-execute if score #Cove 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/cove
-execute if score #Cavern 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/cavern
-execute if score #Lair 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/lair
-execute if score #Medusa 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/medusa
-execute if score #Temple 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/temple
-execute if score #Atlantis 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/atlantis
-execute if score #Ruin 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/ruin
-execute if score #Siege 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/siege
-execute if score #Castle 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/castle
-execute if score #Invasion 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/invasion
-execute if score #Shipyard 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/shipyard
-execute if score #Frontier 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/frontier
-execute if score #Shrunk 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/shrunk
-execute if score #Dig 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/dig
-execute if score #Valley 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/valley
-execute if score #Halloween 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/halloween
-execute if score #Festive 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/festive
-execute if score #Atomics 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/atomics
-execute if score #Libertalia 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/libertalia
-execute if score #Capitol 4j.enablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/capitol
+execute if score #Crucible 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/crucible
+execute if score #Cove 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/cove
+execute if score #Cavern 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/cavern
+execute if score #Lair 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/lair
+execute if score #Medusa 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/medusa
+execute if score #Temple 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/temple
+execute if score #Atlantis 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/atlantis
+execute if score #Ruin 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/ruin
+execute if score #Siege 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/siege
+execute if score #Castle 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/castle
+execute if score #Invasion 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/invasion
+execute if score #Shipyard 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/shipyard
+execute if score #Frontier 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/frontier
+execute if score #Shrunk 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/shrunk
+execute if score #Dig 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/dig
+execute if score #Valley 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/valley
+execute if score #Halloween 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/halloween
+execute if score #Festive 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/festive
+execute if score #Atomics 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/atomics
+execute if score #Libertalia 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/libertalia
+execute if score #Capitol 4j.setenablemap matches 1 run advancement grant @s only 4jbattle:menu/host/presets/10/map/enabled/capitol
 
 ##Regeneration settings
 #Enabled
@@ -218,7 +245,7 @@ execute if score #Store 4j.tp matches 1 run advancement grant @s only 4jbattle:m
 advancement grant @s only 4jbattle:menu/host/presets/10/saved
 
 ##Display as saved
-tellraw @s {"text":"Saved Preset 10!","color":"green"}
+tellraw @s {"text":"Saved Preset!","color":"green"}
 
 ##Open menu
 function 4jbattle:menu/load/host/preset/open

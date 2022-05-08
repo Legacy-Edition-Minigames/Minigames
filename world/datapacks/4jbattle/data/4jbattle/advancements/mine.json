@@ -6,7 +6,7 @@
       "title": {"translate":"4j.advancement.mine.name"},
       "description": {"translate":"4j.advancement.mine.desc"},
       "frame": "task",
-      "hidden": true
+      "hidden": false
     },
     "parent": "4jbattle:root",
     "criteria": {

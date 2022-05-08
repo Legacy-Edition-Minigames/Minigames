@@ -1,0 +1,4 @@
+{
+	// Command to be ran when the player attempts to drop with nothing in their hand
+	"runCommand": "/function 4jbattle:game/inventory/swap/dropevent/check"
+}

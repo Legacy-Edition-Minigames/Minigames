@@ -23,8 +23,7 @@ execute as @s[scores={4j.gamecfg=8}] run function 4jbattle:menu/load/host/chest/
 execute as @s[scores={4j.gamecfg=9}] run function 4jbattle:menu/load/host/start/check
 
 ##Map settings
-execute as @s[scores={4j.gamecfg=1000..}] if score #Store 4j.gamestatus matches 0 run function 4jbattle:menu/configure/map
-execute as @s[scores={4j.gamecfg=1000..}] if score #Store 4j.gamestatus matches 1.. run tellraw @s {"translate":"4j.menu.host.config.cantchangemaps","color":"red"}
+execute as @s[scores={4j.gamecfg=1000..}] run function 4jbattle:menu/configure/map
 
 ##Map Type
 #Auto
@@ -131,57 +130,29 @@ execute as @s[scores={4j.gamecfg=43}] run function 4jbattle:menu/load/host/timel
 ##Item set customization
 execute as @s[scores={4j.gamecfg=48..59}] run function 4jbattle:menu/load/host/chest/randomconfig/run
 
-##Open Preset save menu
-execute as @s[scores={4j.gamecfg=61}] run function 4jbattle:menu/load/host/preset/save/run
-
-##Preset save warning
-execute as @s[scores={4j.gamecfg=63..72}] run function 4jbattle:menu/load/host/preset/save/confirm
-
-##Save Presets
-#Preset 1
-execute as @s[scores={4j.gamecfg=73}] run function 4jbattle:menu/load/host/preset/save/1
-#Preset 2
-execute as @s[scores={4j.gamecfg=74}] run function 4jbattle:menu/load/host/preset/save/2
-#Preset 3
-execute as @s[scores={4j.gamecfg=75}] run function 4jbattle:menu/load/host/preset/save/3
-#Preset 4
-execute as @s[scores={4j.gamecfg=76}] run function 4jbattle:menu/load/host/preset/save/4
-#Preset 5
-execute as @s[scores={4j.gamecfg=77}] run function 4jbattle:menu/load/host/preset/save/5
-#Preset 6
-execute as @s[scores={4j.gamecfg=78}] run function 4jbattle:menu/load/host/preset/save/6
-#Preset 7
-execute as @s[scores={4j.gamecfg=79}] run function 4jbattle:menu/load/host/preset/save/7
-#Preset 8
-execute as @s[scores={4j.gamecfg=80}] run function 4jbattle:menu/load/host/preset/save/8
-#Preset 9
-execute as @s[scores={4j.gamecfg=81}] run function 4jbattle:menu/load/host/preset/save/9
-#Preset 10
-execute as @s[scores={4j.gamecfg=82}] run function 4jbattle:menu/load/host/preset/save/10
-
 ##Load Presets if saved
 #Preset 1
-execute if entity @s[advancements={4jbattle:menu/host/presets/1/saved=true}] as @s[scores={4j.gamecfg=93}] run function 4jbattle:menu/load/host/preset/load/1/run
+execute if entity @s[advancements={4jbattle:menu/host/presets/1/saved=true}] as @s[scores={4j.gamecfg=93}] run function 4jbattle:menu/load/host/preset/load/1
 #Preset 2
-execute if entity @s[advancements={4jbattle:menu/host/presets/2/saved=true}] as @s[scores={4j.gamecfg=94}] run function 4jbattle:menu/load/host/preset/load/2/run
+execute if entity @s[advancements={4jbattle:menu/host/presets/2/saved=true}] as @s[scores={4j.gamecfg=94}] run function 4jbattle:menu/load/host/preset/load/2
 #Preset 3
-execute if entity @s[advancements={4jbattle:menu/host/presets/3/saved=true}] as @s[scores={4j.gamecfg=95}] run function 4jbattle:menu/load/host/preset/load/3/run
+execute if entity @s[advancements={4jbattle:menu/host/presets/3/saved=true}] as @s[scores={4j.gamecfg=95}] run function 4jbattle:menu/load/host/preset/load/3
 #Preset 4
-execute if entity @s[advancements={4jbattle:menu/host/presets/4/saved=true}] as @s[scores={4j.gamecfg=96}] run function 4jbattle:menu/load/host/preset/load/4/run
+execute if entity @s[advancements={4jbattle:menu/host/presets/4/saved=true}] as @s[scores={4j.gamecfg=96}] run function 4jbattle:menu/load/host/preset/load/4
 #Preset 5
-execute if entity @s[advancements={4jbattle:menu/host/presets/5/saved=true}] as @s[scores={4j.gamecfg=97}] run function 4jbattle:menu/load/host/preset/load/5/run
+execute if entity @s[advancements={4jbattle:menu/host/presets/5/saved=true}] as @s[scores={4j.gamecfg=97}] run function 4jbattle:menu/load/host/preset/load/5
 #Preset 6
-execute if entity @s[advancements={4jbattle:menu/host/presets/6/saved=true}] as @s[scores={4j.gamecfg=98}] run function 4jbattle:menu/load/host/preset/load/6/run
+execute if entity @s[advancements={4jbattle:menu/host/presets/6/saved=true}] as @s[scores={4j.gamecfg=98}] run function 4jbattle:menu/load/host/preset/load/6
 #Preset 7
-execute if entity @s[advancements={4jbattle:menu/host/presets/7/saved=true}] as @s[scores={4j.gamecfg=99}] run function 4jbattle:menu/load/host/preset/load/7/run
+execute if entity @s[advancements={4jbattle:menu/host/presets/7/saved=true}] as @s[scores={4j.gamecfg=99}] run function 4jbattle:menu/load/host/preset/load/7
 #Preset 8
-execute if entity @s[advancements={4jbattle:menu/host/presets/8/saved=true}] as @s[scores={4j.gamecfg=100}] run function 4jbattle:menu/load/host/preset/load/8/run
+execute if entity @s[advancements={4jbattle:menu/host/presets/8/saved=true}] as @s[scores={4j.gamecfg=100}] run function 4jbattle:menu/load/host/preset/load/8
 #Preset 9
-execute if entity @s[advancements={4jbattle:menu/host/presets/9/saved=true}] as @s[scores={4j.gamecfg=101}] run function 4jbattle:menu/load/host/preset/load/9/run
+execute if entity @s[advancements={4jbattle:menu/host/presets/9/saved=true}] as @s[scores={4j.gamecfg=101}] run function 4jbattle:menu/load/host/preset/load/9
 #Preset 10
-execute if entity @s[advancements={4jbattle:menu/host/presets/10/saved=true}] as @s[scores={4j.gamecfg=102}] run function 4jbattle:menu/load/host/preset/load/10/run
+execute if entity @s[advancements={4jbattle:menu/host/presets/10/saved=true}] as @s[scores={4j.gamecfg=102}] run function 4jbattle:menu/load/host/preset/load/10
 
-##Don't Presets if not saved
+##Don't Load Presets if not saved
 #Preset 1
 execute if entity @s[advancements={4jbattle:menu/host/presets/1/saved=false}] as @s[scores={4j.gamecfg=93}] run function 4jbattle:menu/load/host/preset/load/notsaved
 #Preset 2
@@ -211,6 +182,39 @@ execute as @s[scores={4j.gamecfg=103..119}] run function 4jbattle:menu/configure
 execute as @s[scores={4j.gamecfg=120}] run function 4jbattle:menu/load/host/takeeverything/enable
 #Disable
 execute as @s[scores={4j.gamecfg=121}] run function 4jbattle:menu/load/host/takeeverything/disable
+
+##Armor Item Swap Deletion bugfix
+#Enable
+execute as @s[scores={4j.gamecfg=124}] run function 4jbattle:menu/load/host/bug/armorswapdrop/enable
+#Disable
+execute as @s[scores={4j.gamecfg=125}] run function 4jbattle:menu/load/host/bug/armorswapdrop/disable
+
+##Chest Refill
+#Enable
+execute as @s[scores={4j.gamecfg=126}] run function 4jbattle:menu/load/host/chest/refill/enable
+#Disable
+execute as @s[scores={4j.gamecfg=127}] run function 4jbattle:menu/load/host/chest/refill/disable
+
+##Food Central diamond sword
+#Enable
+execute as @s[scores={4j.gamecfg=128}] run function 4jbattle:menu/load/host/bug/foodcentral/enable
+#Disable
+execute as @s[scores={4j.gamecfg=129}] run function 4jbattle:menu/load/host/bug/foodcentral/disable
+
+##No Armor leaping potion
+#Enable
+execute as @s[scores={4j.gamecfg=130}] run function 4jbattle:menu/load/host/bug/leapfix/enable
+#Disable
+execute as @s[scores={4j.gamecfg=131}] run function 4jbattle:menu/load/host/bug/leapfix/disable
+
+##Large+ Cove Chests
+#Enable
+execute as @s[scores={4j.gamecfg=132}] run function 4jbattle:menu/load/host/bug/largepluscove/enable
+#Disable
+execute as @s[scores={4j.gamecfg=133}] run function 4jbattle:menu/load/host/bug/largepluscove/disable
+
+##Set lobby to anniversary
+#execute as @s[scores={4j.gamecfg=134}] run function 4jbattle:menu/load/host/lobby/setanniversary
 
 ##Reset score
 scoreboard players reset @s 4j.gamecfg

@@ -15,9 +15,6 @@ execute if score #Store 4j.chest matches 6 as @e[type=area_effect_cloud,tag=Ches
 ##Display animation
 function 4jbattle:game/gui/chestanim/start
 
-##Hide GlobalInfo
-#schedule function 4jbattle:game/globalinfo/hide 3s
-
 ##Play sound
 execute as @a[tag=!relogtimer] at @s run playsound 4jbattle:sound.game.refill master @s ~ ~ ~ 99999999
 

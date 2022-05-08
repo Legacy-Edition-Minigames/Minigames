@@ -4,6 +4,9 @@ gamemode adventure @s
 ##Set heart to alive
 scoreboard players set @s 4j.alive 1
 
+##Set playerbar to full
+scoreboard players set @s 4j.playerbar 3
+
 ##Teleport
 function 4jbattle:game/setup/teleport/random
 
