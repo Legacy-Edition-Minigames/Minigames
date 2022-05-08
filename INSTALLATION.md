@@ -20,13 +20,9 @@ LEB-ToolBox will try to install FabricMC and the required mods for you, but if i
 
 * [Fabric API](https://github.com/FabricMC/fabric) ([GitHub](https://github.com/FabricMC/fabric/releases) [Modrinth](https://modrinth.com/mod/fabric-api) [CurseForge](https://www.curseforge.com/minecraft/mc-mods/fabric-api))
 
-* [SwitchableResourcePacks](https://github.com/kyrptonaught/SwitchableResourcepacks) ([GitHub](https://github.com/kyrptonaught/SwitchableResourcepacks/releases) [Modrinth](https://modrinth.com/mod/switchableresourcepacks) [CurseForge](https://www.curseforge.com/minecraft/mc-mods/switchableresourcepacks))
+* [ServerUtils](https://github.com/kyrptonaught/Server-Utils) ([GitHub Releases](https://github.com/kyrptonaught/Server-Utils/releases))
 
-* [scoreboardsuffix](https://github.com/kyrptonaught/scoreboardsuffix) ([GitHub Releases](https://github.com/kyrptonaught/scoreboardsuffix/releases))
-
-* [Extended Structures](https://github.com/kyrptonaught/Extended-Structures) ([GitHub Releases](https://github.com/kyrptonaught/Extended-Structures/releases))
-
-* [Take Everything](https://github.com/kyrptonaught/Take-Everything) ([GitHub Releases](https://github.com/kyrptonaught/Take-Everything/releases))
+* [Editable Player NBT Hack](https://modrinth.com/mod/editableplayernbthack) ([Modrinth](https://modrinth.com/mod/editableplayernbthack/versions))
 
 * [Snowball and Egg Knockback](https://github.com/capitalistspz/SnowballKB) ([GitHub](https://github.com/capitalistspz/SnowballKB/releases/tag/1.1) [CurseForge](https://www.curseforge.com/minecraft/mc-mods/snowball-and-egg-knockback-fabric/files/3399693))
 
