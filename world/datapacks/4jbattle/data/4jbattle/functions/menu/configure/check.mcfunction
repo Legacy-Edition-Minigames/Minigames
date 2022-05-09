@@ -214,7 +214,7 @@ execute as @s[scores={4j.gamecfg=132}] run function 4jbattle:menu/load/host/bug/
 execute as @s[scores={4j.gamecfg=133}] run function 4jbattle:menu/load/host/bug/largepluscove/disable
 
 ##Set lobby to anniversary
-#execute as @s[scores={4j.gamecfg=134}] run function 4jbattle:menu/load/host/lobby/setanniversary
+execute as @s[scores={4j.gamecfg=134}] run function 4jbattle:menu/load/host/lobby/setanniversary
 
 ##Reset score
 scoreboard players reset @s 4j.gamecfg
