@@ -1,6 +1,3 @@
-##Open GUI if set to 1000
-execute as @s[scores={4j.gamecfg=1000}] run function 4jbattle:menu/load/host/mapgui
-
 ##Disable Crucible if set to 1001
 execute if score #Store 4j.mapcount matches 2.. if score #Crucible 4j.setenablemap matches 1 as @s[scores={4j.gamecfg=1001}] run function 4jbattle:menu/load/host/map/crucible/disable
 

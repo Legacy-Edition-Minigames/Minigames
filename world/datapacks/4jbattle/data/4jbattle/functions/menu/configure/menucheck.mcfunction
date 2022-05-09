@@ -1,6 +1,9 @@
 ##Load GUI if score is 1
 execute as @s[scores={4j.gamecfg=1}] run function 4jbattle:menu/load/host/gui
 
+##Open GUI if set to 1000
+execute as @s[scores={4j.gamecfg=1000}] run function 4jbattle:menu/load/host/mapgui
+
 ##Open extra options menu
 execute as @s[scores={4j.gamecfg=44}] run function 4jbattle:menu/load/host/extra/open
 
