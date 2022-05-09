@@ -36,7 +36,7 @@ scoreboard players reset @a 4j.killcount
 function 4jbattle:game/player/fixpid/check
 
 ##End the game if there are no more rounds
-execute unless score #Store 4j.round matches 2.. run function 4jbattle:game/end/run
+execute if score #Store 4j.plist matches 2.. unless score #Store 4j.round matches 2.. run function 4jbattle:game/end/run
 execute unless score #Store 4j.plist matches 2.. run function 4jbattle:game/end/run
 
 ##Start the next round if there are still rounds left

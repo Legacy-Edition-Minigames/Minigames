@@ -17,7 +17,10 @@ function 4jbattle:game/custom/stop
 function 4jbattle:game/mapinit/stop
 
 ##Load Lobby
-function 4jbattle:lobby/start/load
+execute if entity @a[tag=host] run function 4jbattle:lobby/start/load
+
+##Check for Host
+execute unless entity @a[tag=host] run function 4jbattle:host/check/run
 
 ##Stop Music
 function 4jbattle:game/music/stop
