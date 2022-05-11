@@ -68,8 +68,8 @@ function 4jbattle:game/tnt/check
 ##Fire check
 function 4jbattle:game/fire/check
 
-##Worldborder check
-function 4jbattle:game/worldborder/check
+##Start Worldborder
+function 4jbattle:game/worldborder/start
 
 ##Reset chest particles
 chesttracker reset
