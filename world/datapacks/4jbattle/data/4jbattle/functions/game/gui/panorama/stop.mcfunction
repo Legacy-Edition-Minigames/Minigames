@@ -27,5 +27,8 @@ clear @a
 #Ground
 kill @e[type=item]
 
+##Clear effects
+effect clear @a
+
 ##Clear schedule
 schedule clear 4jbattle:game/gui/panorama/check
