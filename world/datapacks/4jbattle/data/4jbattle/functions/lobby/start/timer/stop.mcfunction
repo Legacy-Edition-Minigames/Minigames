@@ -21,7 +21,10 @@ title @a[tag=!relogtimer] title ""
 title @a[tag=!relogtimer] subtitle ""
 
 ##Load lobby
-function 4jbattle:lobby/start/run
+execute if entity @a[tag=host] run function 4jbattle:lobby/start/run
+
+##Check for Host
+execute unless entity @a[tag=host] run function 4jbattle:host/check/run
 
 ##Clear effects
 effect clear @a
