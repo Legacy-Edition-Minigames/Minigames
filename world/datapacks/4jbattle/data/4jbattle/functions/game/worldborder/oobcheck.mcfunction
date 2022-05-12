@@ -20,7 +20,7 @@ execute as @s if score @s 4j.yvalue < @e[tag=Border-,limit=1] 4j.yvalue run tag 
 #Positive
 execute as @s[tag=!relogtimer,tag=player,tag=!inbounds-x+] at @s run tp ~0.5 ~ ~
 execute as @s[tag=!relogtimer,tag=player,tag=!inbounds-z+] at @s run tp ~ ~ ~0.5
-execute as @s[tag=!relogtimer,tag=player,tag=!Victor,tag=!inbounds-y+] unless score @s 4j.respawndelay matches 0.. at @s run kill @s
+execute as @s[tag=!relogtimer,tag=player,tag=!Victor,tag=!inbounds-y+] unless score @s 4j.respawndelay matches 0.. at @s run health @s remove 4 outOfWorld
 #Negative
 execute as @s[tag=!relogtimer,tag=player,tag=!inbounds-x-] at @s run tp ~-0.5 ~ ~
 execute as @s[tag=!relogtimer,tag=player,tag=!inbounds-z-] at @s run tp ~ ~ ~-0.5
