@@ -84,3 +84,6 @@ execute unless entity @s[advancements={4jbattle:config/custompack=true,4jbattle:
 
 ##Join if custom pack is enabled
 execute if entity @s[advancements={4jbattle:config/custompack=true,4jbattle:config/globalpack=true}] run function 4jbattle:relog/setup/global
+
+##Add nopackreload tag to custompack users
+tag @s[advancements={4jbattle:config/custompack=true,4jbattle:config/globalpack=true}] add nopackreload
