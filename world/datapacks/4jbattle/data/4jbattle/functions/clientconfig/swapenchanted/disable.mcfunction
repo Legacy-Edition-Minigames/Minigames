@@ -8,4 +8,4 @@ takeeverything ignoreEnchants false @s
 scoreboard players reset @s swapenchanted
 
 ##Display message
-tellraw @s {"text":"Disabled Enchanted Armor Swapping!","color":"red"}
+tellraw @s {"translate":"4j.config.swapenchanted.disable","color":"red"}
