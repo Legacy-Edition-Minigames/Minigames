@@ -2,7 +2,7 @@
 #Vanilla
 execute if score #Store 4j.pack matches 0 run function 4jbattle:game/music/vanilla/pick
 #Western
-execute if score #Store 4j.pack matches 1 run function 4jbattle:game/music/frontier/pick
+execute if score #Store 4j.pack matches 1 run function 4jbattle:game/music/western/pick
 #Plastic
 execute if score #Store 4j.pack matches 2 run function 4jbattle:game/music/plastic/pick
 #Fantasy
