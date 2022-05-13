@@ -415,6 +415,9 @@ scoreboard objectives add 4j.chestcount dummy
 ##Enabled maps set to load/unload next round
 scoreboard objectives add 4j.setenablemap dummy
 
+##Set lobby for host configs and such
+scoreboard objectives add 4j.setlobbytype dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

@@ -155,11 +155,11 @@ execute if score #Store 4j.lives matches 10 run advancement grant @s only 4jbatt
 
 ##Lobby settings
 #Old lobby
-execute if score #Store 4j.lobbytype matches 0 run advancement grant @s only 4jbattle:menu/host/presets/6/lobby/old
+execute if score #Store 4j.setlobbytype matches 0 run advancement grant @s only 4jbattle:menu/host/presets/6/lobby/old
 #New lobby
-execute if score #Store 4j.lobbytype matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/lobby/new
+execute if score #Store 4j.setlobbytype matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/lobby/new
 #Anniversary lobby
-execute if score #Store 4j.lobbytype matches 2 run advancement grant @s only 4jbattle:menu/host/presets/6/lobby/anniversary
+execute if score #Store 4j.setlobbytype matches 2 run advancement grant @s only 4jbattle:menu/host/presets/6/lobby/anniversary
 
 ##Map settings
 #Type

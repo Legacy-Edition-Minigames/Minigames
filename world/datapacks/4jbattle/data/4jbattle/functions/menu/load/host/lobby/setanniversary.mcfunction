@@ -1,5 +1,5 @@
 ##Set lobby
-scoreboard players set #Store 4j.lobbytype 2
+scoreboard players set #Store 4j.setlobbytype 2
 
 ##Enable first-time map reset
 scoreboard players set #Store 4j.fullreset 1

@@ -1,6 +1,9 @@
 ##Clear menu check
 schedule clear 4jbattle:menu/check
 
+##Load lobby type from config
+scoreboard players operation #Store 4j.lobbytype = #Store 4j.setlobbytype
+
 ##Start timer
 function 4jbattle:lobby/start/timer/start
 

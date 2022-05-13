@@ -74,11 +74,11 @@ execute if entity @s[advancements={4jbattle:menu/host/presets/2/lives/10=true}] 
 
 ##Lobby settings
 #Old lobby
-execute if entity @s[advancements={4jbattle:menu/host/presets/2/lobby/old=true}] run scoreboard players set #Store 4j.lobbytype 0
+execute if entity @s[advancements={4jbattle:menu/host/presets/2/lobby/old=true}] run scoreboard players set #Store 4j.setlobbytype 0
 #New lobby
-execute if entity @s[advancements={4jbattle:menu/host/presets/2/lobby/new=true}] run scoreboard players set #Store 4j.lobbytype 1
+execute if entity @s[advancements={4jbattle:menu/host/presets/2/lobby/new=true}] run scoreboard players set #Store 4j.setlobbytype 1
 #Anniversary lobby
-execute if entity @s[advancements={4jbattle:menu/host/presets/2/lobby/anniversary=true}] run scoreboard players set #Store 4j.lobbytype 2
+execute if entity @s[advancements={4jbattle:menu/host/presets/2/lobby/anniversary=true}] run scoreboard players set #Store 4j.setlobbytype 2
 
 ##Map settings
 #Type
