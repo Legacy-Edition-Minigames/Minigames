@@ -3,6 +3,8 @@
 tellraw @s ["",{"translate":"4j.config.heart.menu.secret.title","color":"gold"},"\n"]
 #TheMinecraftArchitect
 execute if entity @s[tag=heart-architect] run tellraw @s ["",{"text":"[ ","color":"blue","clickEvent":{"action":"run_command","value":"/trigger heartcosmetic set 25"}},{"text":"1","color":"white","font":"4jbattle:tablist/heart/secret/architect","clickEvent":{"action":"run_command","value":"/trigger heartcosmetic set 25"}},{"text":" Architect","color":"blue","clickEvent":{"action":"run_command","value":"/trigger heartcosmetic set 25"}},{"text":"]","color":"blue","clickEvent":{"action":"run_command","value":"/trigger heartcosmetic set 25"}}]
+#Mario
+execute if entity @s[tag=heart-mario] run tellraw @s ["",{"text":"[ ","color":"blue","clickEvent":{"action":"run_command","value":"/trigger heartcosmetic set 26"}},{"text":"1","color":"white","font":"4jbattle:tablist/heart/secret/mario","clickEvent":{"action":"run_command","value":"/trigger heartcosmetic set 26"}},{"text":" Mario","color":"blue","clickEvent":{"action":"run_command","value":"/trigger heartcosmetic set 26"}},{"text":"]","color":"blue","clickEvent":{"action":"run_command","value":"/trigger heartcosmetic set 26"}}]
 
 ##Go Back
 function 4jbattle:clientconfig/heart/menu/back

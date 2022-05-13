@@ -32,6 +32,7 @@ tag @s remove inbounds-x-
 tag @s remove inbounds-z-
 tag @s remove notitle
 tag @s remove heart-architect
+tag @s remove heart-mario
 
 ##Set title times
 title @s times 0 50 1

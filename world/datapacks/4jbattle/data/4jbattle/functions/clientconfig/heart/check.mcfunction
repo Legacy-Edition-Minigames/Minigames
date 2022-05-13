@@ -72,6 +72,9 @@ execute as @a[scores={heartcosmetic=24}] unless entity @s[scores={4j.patreon=5..
 #TheMinecraftArchitect
 execute as @a[scores={heartcosmetic=25},tag=heart-architect] run function 4jbattle:clientconfig/heart/switch/architect
 execute as @a[scores={heartcosmetic=25},tag=!heart-architect] run function 4jbattle:clientconfig/heart/switch/notunlocked
+#Mario (Requested by Robux_Generator)
+execute as @a[scores={heartcosmetic=26},tag=heart-mario] run function 4jbattle:clientconfig/heart/switch/mario
+execute as @a[scores={heartcosmetic=26},tag=!heart-mario] run function 4jbattle:clientconfig/heart/switch/notunlocked
 
 ##Enable toggle
 scoreboard players enable @a heartcosmetic
