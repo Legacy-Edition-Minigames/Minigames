@@ -43,26 +43,8 @@
 			"packCompatibility": "VANILLA"
 		},
 		{
-			"packname": "all-music-2",
-			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26.1/all-music-2.zip?raw=true",
-			"hash": "",
-			"required": true,
-			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!",
-			"packCompatibility": "VANILLA"
-		},
-		{
 			"packname": "all-music-1-optifine",
 			"url": "https://www.dropbox.com/s/q8ua0sd8vzltkz7/all-music-1.zip?dl=1",
-			"hash": "",
-			"required": true,
-			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!",
-			"packCompatibility": "OPTIFINE"
-		},
-		{
-			"packname": "all-music-2-optifine",
-			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26.1/all-music-2.zip?raw=true",
 			"hash": "",
 			"required": true,
 			"hasPrompt": true,
