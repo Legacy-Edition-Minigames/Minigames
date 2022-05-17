@@ -1,2 +1,2 @@
-execute in 4jbattle:capitol run setblock -55 64 -59 air
-execute in 4jbattle:capitol run setblock -55 64 -59 minecraft:structure_block[mode=save]{author:"DBTDerpbox",ignoreEntities:0b,integrity:1.0f,metadata:"",mirror:"NONE",mode:"SAVE",name:"4jbattle:capitol",posX:1,posY:-29,posZ:1,powered:0b,rotation:"NONE",seed:0L,showair:0b,showboundingbox:1b,sizeX:125,sizeY:29,sizeZ:100}
+execute in 4jbattle:capitol run setblock -55 65 -59 air
+execute in 4jbattle:capitol run setblock -55 65 -59 minecraft:structure_block[mode=save]{author:"DBTDerpbox",id:"minecraft:structure_block",ignoreEntities:0b,integrity:1.0f,metadata:"",mirror:"NONE",mode:"SAVE",name:"4jbattle:capitol",posX:1,posY:-30,posZ:1,powered:0b,rotation:"NONE",seed:0L,showair:0b,showboundingbox:1b,sizeX:125,sizeY:30,sizeZ:100,x:-55,y:65,z:-59}
