@@ -10,5 +10,8 @@ effect give @a[tag=!relogtimer] levitation 1 255 true
 ##Prevent drowning
 effect give @a[tag=!relogtimer] water_breathing 1 0 true
 
+##Prevent sounds
+stopsound @a
+
 ##Loop
 schedule function 4jbattle:game/resource/check 1t
