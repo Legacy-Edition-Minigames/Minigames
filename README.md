@@ -51,6 +51,10 @@ Significant Modding Help - [Kyrptonaught](https://github.com/kyrptonaught)
 
 Achievement Icons - [Lion8cake](https://github.com/Lion8cake)
 
+Major LEB-ToolBox Improvements - [PiporGames](https://github.com/PiporGames) 
+
+Help with lemclienthelper's small inv textures - [SUPERN00Bthefirst](https://github.com/SUPERN00Bthefirst)
+
 Greek Translations - [Ethelous](https://github.com/Ethelous)
 
 Spanish Translations - [PiporGames](https://github.com/PiporGames)
@@ -60,5 +64,3 @@ Italian Translations - [ItzLightyHD](https://github.com/ItzLightyHD)
 Russian Translations - [Silvert](https://steamcommunity.com/profiles/76561198877040901) and [Bensy_15](https://steamcommunity.com/profiles/76561198289263301/)
 
 Portuguese Translations - [CavaleiroDev](https://twitter.com/CavaleiroDev)
-
-Major LEB-ToolBox Improvements - [PiporGames](https://github.com/PiporGames) 
