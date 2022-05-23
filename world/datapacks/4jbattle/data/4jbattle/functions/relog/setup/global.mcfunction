@@ -88,4 +88,4 @@ execute if score #Store 4j.gamestatus matches 2 run tp @s @r[tag=!relogtimer]
 execute if score #Store 4j.spectype matches 5 run function 4jbattle:game/spectator/spawn/head/gethead
 
 ##Load swapenchanted config
-execute if entity @s[advancements={4jbattle:conig/swapenchanted=true}] run takeeverything ignoreEnchants true @s
+execute if entity @s[advancements={4jbattle:config/swapenchanted=true}] run takeeverything ignoreEnchants true @s
