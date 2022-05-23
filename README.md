@@ -29,7 +29,7 @@ Optifine has issues with the default pack, please [read this](https://github.com
 
 If your server is crashing on loading maps, [read this](https://github.com/DBTDerpbox/Legacy-Edition-Battle/issues/7) about what to do.
 
-Legacy Edition Battle is currently designed for [Minecraft Java Edition 1.18.2](https://www.minecraft.net/en-us/article/minecraft-java-edition-1-18-2), if you'd like 1.16-1.18.1 support, you can use [ViaBackwards](https://www.curseforge.com/minecraft/mc-mods/viabackwards) in the mods folder
+Legacy Edition Battle is currently designed for [Minecraft Java Edition 1.18.2](https://www.minecraft.net/en-us/article/minecraft-java-edition-1-18-2)
 
 ### Credits
 
