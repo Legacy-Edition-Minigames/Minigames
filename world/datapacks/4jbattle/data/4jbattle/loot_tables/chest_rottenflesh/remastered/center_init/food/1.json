@@ -1,21 +1,20 @@
 {
-    "type": "minecraft:chest",
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:cooked_porkchop",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": 3
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_porkchop",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,48 +1,47 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:loot_table",
-            "name": "4jbattle:chest/food_central/powerful/weapon"
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:loot_table",
-            "name": "4jbattle:chest/food_central/powerful/armor"
-          }
-        ]
-      },
-      {
-        "rolls": 3,
-        "entries": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "4jbattle:chest/food_central/powerful/weapon"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "4jbattle:chest/food_central/powerful/armor"
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "4jbattle:chest/food_central/powerful/armor"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:tipped_arrow",
+          "functions": [
             {
-                "type": "minecraft:loot_table",
-                "weight": 1,
-                "name": "4jbattle:chest/food_central/powerful/armor"
-              },
-          {
-            "type": "minecraft:item",
-            "weight": 3,
-            "name": "minecraft:tipped_arrow",
-            "functions": [
-                {
-                  "function": "minecraft:set_count",
-                  "count": 5
-                },
-                {
-                  "function": "minecraft:set_nbt",
-                  "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.tipped_arrow.effect.poison\",\"italic\":false},{\"text\":\" (0:03)\",\"color\":\"gray\",\"italic\":false}]'},CustomPotionEffects:[{Id:19b,Amplifier:0b,Duration:60}],Potion:\"minecraft:water\"}"
-                }
-              ]
-          }
-        ]
-      }
-    ]
-  }
-  
+              "function": "minecraft:set_count",
+              "count": 5
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.tipped_arrow.effect.poison\",\"italic\":false},{\"text\":\" (0:03)\",\"color\":\"gray\",\"italic\":false}]'},CustomPotionEffects:[{Id:19b,Amplifier:0b,Duration:60}],Potion:\"minecraft:water\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

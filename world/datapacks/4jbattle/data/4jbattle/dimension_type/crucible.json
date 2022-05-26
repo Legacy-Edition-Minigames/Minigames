@@ -12,7 +12,7 @@
   "fixed_time": 18000,
   "logical_height": 256,
   "effects": "minecraft:the_nether",
-  "infiniburn": "minecraft:infiniburn_nether",
+  "infiniburn": "#minecraft:infiniburn_nether",
   "min_y": 0,
   "height": 256
 }

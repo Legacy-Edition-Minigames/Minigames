@@ -4,8 +4,12 @@
       "item": "minecraft:ghast_spawn_egg",
       "nbt": "{CustomModelData:7}"
     },
-    "title": {"translate":"4j.advancement.hunger.name"},
-    "description": {"translate":"4j.advancement.hunger.desc"},
+    "title": {
+      "translate": "4j.advancement.hunger.name"
+    },
+    "description": {
+      "translate": "4j.advancement.hunger.desc"
+    },
     "frame": "task"
   },
   "parent": "4jbattle:root",

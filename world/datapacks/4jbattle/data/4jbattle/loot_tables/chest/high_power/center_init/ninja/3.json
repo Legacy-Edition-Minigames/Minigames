@@ -1,60 +1,60 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "minecraft:potion",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_nbt",
-                "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.invisibility\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:14b,Amplifier:0b,Duration:400}],Potion:\"minecraft:water\"}"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "minecraft:bow",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "weight": 3,
-            "name": "minecraft:tipped_arrow",
-            "functions": [
-                {
-                  "function": "minecraft:set_count",
-                  "count": 3
-                },
-                {
-                  "function": "minecraft:set_nbt",
-                  "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.tipped_arrow.effect.poison\",\"italic\":false},{\"text\":\" (0:03)\",\"color\":\"gray\",\"italic\":false}]'},CustomPotionEffects:[{Id:19b,Amplifier:0b,Duration:60}],Potion:\"minecraft:water\"}"
-                }
-              ]
-          }
-        ]
-      }
-    ]
-  }
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.invisibility\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:14b,Amplifier:0b,Duration:400}],Potion:\"minecraft:water\"}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.tipped_arrow.effect.poison\",\"italic\":false},{\"text\":\" (0:03)\",\"color\":\"gray\",\"italic\":false}]'},CustomPotionEffects:[{Id:19b,Amplifier:0b,Duration:60}],Potion:\"minecraft:water\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

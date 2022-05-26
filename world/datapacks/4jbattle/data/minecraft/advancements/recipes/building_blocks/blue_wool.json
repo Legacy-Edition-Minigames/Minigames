@@ -1,3 +1,7 @@
 {
-  "criteria":  {"example": {"trigger": "minecraft:impossible"}}
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:impossible"
+    }
+  }
 }

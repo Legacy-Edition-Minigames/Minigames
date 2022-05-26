@@ -1,19 +1,22 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:iron_chestplate",
-        "nbt": "{Enchantments:[{}]}"
-      },
-      "title": {"translate":"4j.advancement.config.spawnenchanted.name"},
-      "description": {"translate":"4j.advancement.config.spawnenchanted.desc"},
-      "frame": "task",
-      "announce_to_chat": false
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_chestplate",
+      "nbt": "{Enchantments:[{}]}"
     },
-    "parent": "4jbattle:config/root",
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible"
-      }
+    "title": {
+      "translate": "4j.advancement.config.spawnenchanted.name"
+    },
+    "description": {
+      "translate": "4j.advancement.config.spawnenchanted.desc"
+    },
+    "frame": "task",
+    "announce_to_chat": false
+  },
+  "parent": "4jbattle:config/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
     }
   }
-  
+}

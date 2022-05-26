@@ -1,9 +1,8 @@
 {
-    "parent": "4jbattle:config/root",
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible"
-      }
+  "parent": "4jbattle:config/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
     }
   }
-  
+}

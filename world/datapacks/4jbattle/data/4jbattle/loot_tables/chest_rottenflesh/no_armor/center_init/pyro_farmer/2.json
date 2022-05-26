@@ -1,44 +1,44 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "minecraft:ghast_spawn_egg",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 10
-              },
-              {
-                "function": "set_nbt",
-                "tag": "{CanPlaceOn:[\"#4jbattle:fire_charge_placeable\"],display:{Name:'{\"translate\":\"item.minecraft.fire_charge\",\"italic\":false}'},HideFlags:16,CustomModelData:5,EntityTag:{id:\"minecraft:marker\",Tags:[\"spawnfire\"]}}"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "minecraft:lingering_potion",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_nbt",
-                "tag": "{Potion:\"minecraft:harming\"}"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:ghast_spawn_egg",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 10
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CanPlaceOn:[\"#4jbattle:fire_charge_placeable\"],display:{Name:'{\"translate\":\"item.minecraft.fire_charge\",\"italic\":false}'},HideFlags:16,CustomModelData:5,EntityTag:{id:\"minecraft:marker\",Tags:[\"spawnfire\"]}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:lingering_potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:harming\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

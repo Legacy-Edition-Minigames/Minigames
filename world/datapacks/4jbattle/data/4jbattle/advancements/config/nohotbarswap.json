@@ -1,19 +1,22 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:splash_potion",
-        "nbt": "{Potion:\"minecraft:harming\"}"
-      },
-      "title": {"translate":"4j.advancement.config.nohotbarswap.name"},
-      "description": {"translate":"4j.advancement.config.nohotbarswap.desc"},
-      "frame": "task",
-      "announce_to_chat": false
+  "display": {
+    "icon": {
+      "item": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:harming\"}"
     },
-    "parent": "4jbattle:config/root",
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible"
-      }
+    "title": {
+      "translate": "4j.advancement.config.nohotbarswap.name"
+    },
+    "description": {
+      "translate": "4j.advancement.config.nohotbarswap.desc"
+    },
+    "frame": "task",
+    "announce_to_chat": false
+  },
+  "parent": "4jbattle:config/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
     }
   }
-  
+}
