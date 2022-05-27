@@ -55,7 +55,7 @@ Major LEB-ToolBox Improvements - [PiporGames](https://github.com/PiporGames)
 
 Help with lemclienthelper's small inv textures - [SUPERN00Bthefirst](https://github.com/SUPERN00Bthefirst)
 
-Greek Translations - [Ethelous](https://github.com/Ethelous)
+Greek Translations - Ethel#5691
 
 Spanish Translations - [PiporGames](https://github.com/PiporGames)
 
