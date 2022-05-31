@@ -1,17 +1,18 @@
 {
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:entity_hurt_player",
-      "conditions": {
-        "damage": {
-          "type": {
-            "bypasses_armor": false
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "type": {
+              "bypasses_armor": false
+            }
           }
         }
       }
+    },
+    "rewards": {
+      "function": "4jbattle:game/combat/block/defend/sound"
     }
-  },
-  "rewards": {
-    "function": "4jbattle:game/combat/block/defend/sound"
   }
-}
+  

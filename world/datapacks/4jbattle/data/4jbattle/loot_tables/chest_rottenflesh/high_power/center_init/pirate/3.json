@@ -1,60 +1,60 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:iron_helmet",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:respiration\",lvl:1s}]}"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:bow",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:tipped_arrow",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.tipped_arrow.effect.weakness\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\",\"italic\":false}]'},CustomPotionEffects:[{Id:18b,Amplifier:0b,Duration:140}],Potion:\"minecraft:water\"}"
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": 3
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:iron_helmet",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{Enchantments:[{id:\"minecraft:respiration\",lvl:1s}]}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:bow",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:tipped_arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.tipped_arrow.effect.weakness\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\",\"italic\":false}]'},CustomPotionEffects:[{Id:18b,Amplifier:0b,Duration:140}],Potion:\"minecraft:water\"}"
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": 3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

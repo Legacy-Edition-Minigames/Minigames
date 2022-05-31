@@ -1,18 +1,19 @@
 {
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:using_item",
-      "conditions": {
-        "item": {
-          "items": [
-            "minecraft:ender_eye"
-          ],
-          "nbt": "{SwordBlock:1}"
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:ender_eye"
+            ],
+            "nbt": "{SwordBlock:1}"
+          }
         }
       }
+    },
+    "rewards": {
+      "function": "4jbattle:game/combat/block/detect"
     }
-  },
-  "rewards": {
-    "function": "4jbattle:game/combat/block/detect"
   }
-}
+  

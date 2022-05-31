@@ -1,11 +1,12 @@
 {
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "equipment": {
-      "mainhand": {
-        "nbt": "{ToolTip:1}"
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "nbt": "{ToolTip:1}"
+        }
       }
     }
   }
-}
+  

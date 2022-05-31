@@ -1,56 +1,56 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:bow",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{Damage:376}"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:arrow",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 5
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:leather_boots",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:depth_strider\",lvl:2s}],Damage:54}"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:bow",
+            "functions": [
+              {
+                "function": "set_nbt",
+                "tag": "{Damage:376}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:arrow",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:leather_boots",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{Enchantments:[{id:\"minecraft:depth_strider\",lvl:2s}],Damage:54}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

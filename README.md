@@ -2,7 +2,7 @@
 
 This is an attempt to port the Battle minigame from the Legacy Editions of minecraft
 
-![Minecraft Version](https://img.shields.io/badge/Minecraft-1.18.2-80ba42?style=for-the-badge) ![License](https://img.shields.io/github/license/DBTDerpbox/legacy-edition-battle?style=for-the-badge) ![Last Commit](https://img.shields.io/github/last-commit/dbtderpbox/legacy-edition-battle?style=for-the-badge)
+![Minecraft Version](https://img.shields.io/badge/Minecraft-1.17.1-80ba42?style=for-the-badge) ![License](https://img.shields.io/github/license/DBTDerpbox/legacy-edition-battle?style=for-the-badge) ![Last Commit](https://img.shields.io/github/last-commit/dbtderpbox/legacy-edition-battle?style=for-the-badge)
 
 [![forthebadge](https://forthebadge.com/images/badges/contains-tasty-spaghetti-code.svg)](https://forthebadge.com) ![Powered By Nostalgia](https://img.shields.io/badge/Powered_by-Nostalgia-e49454?style=for-the-badge)
 
@@ -29,7 +29,7 @@ Optifine has issues with the default pack, please [read this](https://github.com
 
 If your server is crashing on loading maps, [read this](https://github.com/DBTDerpbox/Legacy-Edition-Battle/issues/7) about what to do.
 
-Legacy Edition Battle is currently designed for [Minecraft Java Edition 1.18.2](https://www.minecraft.net/en-us/article/minecraft-java-edition-1-18-2)
+Legacy Edition Battle is currently designed for [Minecraft Java Edition 1.17.1](https://www.minecraft.net/en-us/article/minecraft-java-edition-1-17-1), if you'd like 1.18 support, you can use [ViaFabric](https://www.curseforge.com/minecraft/mc-mods/viafabric) in the mods folder
 
 ### Credits
 

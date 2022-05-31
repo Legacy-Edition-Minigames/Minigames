@@ -7,7 +7,9 @@
       "lakes": false,
       "features": false,
       "layers": [],
-      "structure_overrides": []
+      "structures": {
+        "structures": {}
+      }
     }
   }
 }

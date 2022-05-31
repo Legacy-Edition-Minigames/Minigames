@@ -1,21 +1,18 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:ghast_spawn_egg",
-      "nbt": "{CustomModelData:10}"
+    "display": {
+      "icon": {
+        "item": "minecraft:ghast_spawn_egg",
+        "nbt": "{CustomModelData:10}"
+      },
+      "title": {"translate":"4j.advancement.master.name"},
+      "description": {"translate":"4j.advancement.master.desc"},
+      "frame": "challenge"
     },
-    "title": {
-      "translate": "4j.advancement.master.name"
-    },
-    "description": {
-      "translate": "4j.advancement.master.desc"
-    },
-    "frame": "challenge"
-  },
-  "parent": "4jbattle:student",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
+    "parent": "4jbattle:student",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
     }
   }
-}
+  

@@ -2,7 +2,7 @@
 
 * Shut down your server
 
-* Switch your server jar to Fabric 1.18.2
+* Switch your server jar to Fabric 1.17.1
 
 * Inside MineHut's File Manager, remove the `world` folder or rename it and remove `server.properties`
 
@@ -35,5 +35,3 @@
 ### Notices
 
 * Due to MineHut servers not having much RAM, it is **highly** encouraged that you [use the legacy map resetter](https://github.com/DBTDerpbox/Legacy-Edition-Battle/issues/7)
-
-* Legacy Edition Battle is currently designed for [Minecraft Java Edition 1.18.2](https://www.minecraft.net/en-us/article/minecraft-java-edition-1-18-2), if you'd like 1.16-1.18.1 support, you can use [ViaBackwards](https://www.curseforge.com/minecraft/mc-mods/viabackwards) & [ViaVersion](https://www.curseforge.com/minecraft/mc-mods/viaversion) in the mods folder

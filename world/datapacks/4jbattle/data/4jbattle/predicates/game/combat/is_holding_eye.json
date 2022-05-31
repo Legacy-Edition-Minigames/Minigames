@@ -1,14 +1,15 @@
 {
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "equipment": {
-      "offhand": {
-        "items": [
-          "minecraft:ender_eye"
-        ],
-        "nbt": "{SwordBlock:1}"
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "offhand": {
+          "items": [
+            "minecraft:ender_eye"
+          ],
+          "nbt": "{SwordBlock:1}"
+        }
       }
     }
   }
-}
+  

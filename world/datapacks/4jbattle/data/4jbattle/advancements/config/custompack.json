@@ -1,21 +1,18 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:diamond_pickaxe"
+    "display": {
+      "icon": {
+        "item": "minecraft:diamond_pickaxe"
+      },
+      "title": {"translate":"4j.advancement.config.custompack.name"},
+      "description": {"translate":"4j.advancement.config.custompack.desc"},
+      "frame": "task",
+      "announce_to_chat": false
     },
-    "title": {
-      "translate": "4j.advancement.config.custompack.name"
-    },
-    "description": {
-      "translate": "4j.advancement.config.custompack.desc"
-    },
-    "frame": "task",
-    "announce_to_chat": false
-  },
-  "parent": "4jbattle:config/root",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
+    "parent": "4jbattle:config/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
     }
   }
-}
+  

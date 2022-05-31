@@ -1,24 +1,24 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:1s}]}"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:stick",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:1s}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
