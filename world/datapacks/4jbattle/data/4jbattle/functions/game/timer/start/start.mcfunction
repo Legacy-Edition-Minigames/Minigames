@@ -45,7 +45,7 @@ function 4jbattle:game/chests/load/run
 execute as @a[tag=!relogtimer] run function 4jbattle:game/timer/start/displaysettings
 
 ##Start combat check
-function 4jbattle:game/combat/block/check
+function 4jbattle:game/combat/start
 
 ##Inventory hotbar swap
 execute if score #Store 4j.smallinv matches 0 run function 4jbattle:game/inventory/swap/start

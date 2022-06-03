@@ -55,3 +55,6 @@ execute as @s[scores={4j.gamecfg=83..92}] run function 4jbattle:menu/load/host/p
 
 ##Open Bug Fixes menu
 execute as @s[scores={4j.gamecfg=123}] run function 4jbattle:menu/load/host/bug/open
+
+##Open Combat Options page
+execute as @s[scores={4j.gamecfg=135}] run function 4jbattle:menu/load/host/combat/open

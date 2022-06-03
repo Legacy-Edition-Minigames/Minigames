@@ -58,8 +58,8 @@ title @s subtitle ""
 ##Allow titles
 tag @s remove notitle
 
-##Remove cooldown
-function 4jbattle:game/combat/cooldown
+##Combat mechanics check
+function 4jbattle:game/combat/check
 
 ##Reset respawndelay
 scoreboard players reset @s 4j.respawndelay

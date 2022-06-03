@@ -75,3 +75,6 @@ function 4jbattle:game/gui/playerlist/scores/check/lobby
 
 ##Inventory hotbar swap
 function 4jbattle:game/inventory/swap/start
+
+##Enable combat cooldown check
+function 4jbattle:game/combat/check

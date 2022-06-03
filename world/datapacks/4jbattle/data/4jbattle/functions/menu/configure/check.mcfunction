@@ -216,5 +216,13 @@ execute as @s[scores={4j.gamecfg=133}] run function 4jbattle:menu/load/host/bug/
 ##Set lobby to anniversary
 execute as @s[scores={4j.gamecfg=134}] run function 4jbattle:menu/load/host/lobby/setanniversary
 
+##Change combat style
+#Classic
+execute as @s[scores={4j.gamecfg=136}] run function 4jbattle:menu/load/host/combat/style/setclassic
+#Modern
+execute as @s[scores={4j.gamecfg=137}] run function 4jbattle:menu/load/host/combat/style/setmodern
+#Custom
+execute as @s[scores={4j.gamecfg=138}] run function 4jbattle:menu/load/host/combat/style/setcustom
+
 ##Reset score
 scoreboard players reset @s 4j.gamecfg

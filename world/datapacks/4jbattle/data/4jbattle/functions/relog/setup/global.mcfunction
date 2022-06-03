@@ -63,8 +63,8 @@ function 4jbattle:disconnect/add
 ##Check the Game Status
 function 4jbattle:relog/gamecheck
 
-##Remove cooldown
-function 4jbattle:game/combat/cooldown
+##Load combat settings
+function 4jbattle:game/combat/check
 
 ##Disable FriendlyFire
 execute unless score #Store 4j.gamestatus matches 2 run attribute @s minecraft:generic.attack_damage base set -100

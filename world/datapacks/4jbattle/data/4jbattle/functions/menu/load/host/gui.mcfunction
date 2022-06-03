@@ -8,6 +8,8 @@ function 4jbattle:menu/load/host/chest/run
 function 4jbattle:menu/load/host/map/run
 #Extras
 function 4jbattle:menu/load/host/extra/run
+#Combat Options
+function 4jbattle:menu/load/host/combat/run
 #Bug Fixes
 function 4jbattle:menu/load/host/bug/run
 #Presets

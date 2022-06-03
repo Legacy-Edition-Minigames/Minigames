@@ -418,6 +418,18 @@ scoreboard objectives add 4j.setenablemap dummy
 ##Set lobby for host configs and such
 scoreboard objectives add 4j.setlobbytype dummy
 
+##Combat style
+scoreboard objectives add 4j.combatstyle dummy
+
+##Attack cooldown toggle
+scoreboard objectives add 4j.attackcooldown dummy
+
+##1.9 damage values toggle
+scoreboard objectives add 4j.moderndamage dummy
+
+##Swordblocking toggle
+scoreboard objectives add 4j.swordblock dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

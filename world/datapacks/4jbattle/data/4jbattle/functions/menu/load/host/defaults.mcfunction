@@ -126,3 +126,13 @@ scoreboard players set #Store 4j.leapfix 1
 
 ##Large+ Cove Chests fix
 scoreboard players set #Store 4j.lpluscovefix 1
+
+##Combat settings
+#Combat style
+scoreboard players set #Store 4j.combatstyle 1
+#Attack Cooldown
+scoreboard players set #Store 4j.attackcooldown 0
+#Damage values
+scoreboard players set #Store 4j.moderndamage 0
+#Sword blocking
+scoreboard players set #Store 4j.swordblock 1
