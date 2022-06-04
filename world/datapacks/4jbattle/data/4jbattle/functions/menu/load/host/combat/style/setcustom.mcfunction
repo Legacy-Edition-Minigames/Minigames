@@ -8,4 +8,4 @@ function 4jbattle:menu/load/host/combat/style/global
 tellraw @a "The host has set the Combat Style to Custom."
 
 ##Open menu
-function 4jbattle:menu/load/host/combat/open
+function 4jbattle:menu/load/host/combat/open/main

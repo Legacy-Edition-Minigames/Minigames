@@ -422,13 +422,22 @@ scoreboard objectives add 4j.setlobbytype dummy
 scoreboard objectives add 4j.combatstyle dummy
 
 ##Attack cooldown toggle
+#Backend
 scoreboard objectives add 4j.attackcooldown dummy
+#Custom mode toggle
+scoreboard objectives add 4j.setattackcooldown dummy
 
 ##1.9 damage values toggle
+#Backend
 scoreboard objectives add 4j.moderndamage dummy
+#Custom mode toggle
+scoreboard objectives add 4j.setmoderndamage dummy
 
 ##Swordblocking toggle
+#Backend
 scoreboard objectives add 4j.swordblock dummy
+#Custom mode toggle
+scoreboard objectives add 4j.setswordblock dummy
 
 ##Set Gamerules
 #Lock Time

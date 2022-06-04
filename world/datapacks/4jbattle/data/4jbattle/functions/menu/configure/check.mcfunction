@@ -224,5 +224,23 @@ execute as @s[scores={4j.gamecfg=137}] run function 4jbattle:menu/load/host/comb
 #Custom
 execute as @s[scores={4j.gamecfg=138}] run function 4jbattle:menu/load/host/combat/style/setcustom
 
+##Attack cooldown
+#Enable
+execute as @s[scores={4j.gamecfg=139}] run function 4jbattle:menu/load/host/combat/style/custom/cooldown/enable
+#Disable
+execute as @s[scores={4j.gamecfg=140}] run function 4jbattle:menu/load/host/combat/style/custom/cooldown/disable
+
+##Sword blocking
+#Enable
+execute as @s[scores={4j.gamecfg=141}] run function 4jbattle:menu/load/host/combat/style/custom/swordblock/enable
+#Disable
+execute as @s[scores={4j.gamecfg=142}] run function 4jbattle:menu/load/host/combat/style/custom/swordblock/disable
+
+##1.9 Damage Values
+#Enable
+execute as @s[scores={4j.gamecfg=143}] run function 4jbattle:menu/load/host/combat/style/custom/moderndamage/enable
+#Disable
+execute as @s[scores={4j.gamecfg=144}] run function 4jbattle:menu/load/host/combat/style/custom/moderndamage/disable
+
 ##Reset score
 scoreboard players reset @s 4j.gamecfg

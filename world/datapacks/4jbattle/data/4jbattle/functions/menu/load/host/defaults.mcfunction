@@ -132,7 +132,10 @@ scoreboard players set #Store 4j.lpluscovefix 1
 scoreboard players set #Store 4j.combatstyle 1
 #Attack Cooldown
 scoreboard players set #Store 4j.attackcooldown 0
+scoreboard players set #Store 4j.setattackcooldown 0
 #Damage values
 scoreboard players set #Store 4j.moderndamage 0
+scoreboard players set #Store 4j.setmoderndamage 0
 #Sword blocking
 scoreboard players set #Store 4j.swordblock 1
+scoreboard players set #Store 4j.setswordblock 1
