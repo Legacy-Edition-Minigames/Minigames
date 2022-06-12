@@ -1,5 +1,5 @@
 ##Detect if map is loaded
-execute as @e[type=area_effect_cloud,tag=MapCenter] at @s run function 4jbattle:game/resource/mapload/check
+execute if entity @a[tag=!relogtimer] as @e[type=area_effect_cloud,tag=MapCenter] at @s run function 4jbattle:game/resource/mapload/check
 
 ##Count down
 execute if score #Store 4j.maploadpos matches 1.. if score #Store 4j.maploadneg matches 1.. run scoreboard players add #Store 4j.timer 1
@@ -22,3 +22,6 @@ schedule function 4jbattle:game/resource/timer 1t
 
 ##Stop if timer reaches max
 execute if score #Store 4j.timer > #Store 4j.timermax run function 4jbattle:game/resource/stop
+
+##Stop if nobody is online
+execute unless entity @a[tag=!relogtimer] run function 4jbattle:game/resource/stop
