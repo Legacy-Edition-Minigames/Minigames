@@ -242,5 +242,15 @@ execute as @s[scores={4j.gamecfg=143}] run function 4jbattle:menu/load/host/comb
 #Disable
 execute as @s[scores={4j.gamecfg=144}] run function 4jbattle:menu/load/host/combat/style/custom/moderndamage/disable
 
+##Attack Speed
+#Slow
+execute as @s[scores={4j.gamecfg=145}] run function 4jbattle:menu/load/host/combat/style/custom/attackspeed/setslow
+#Normal
+execute as @s[scores={4j.gamecfg=146}] run function 4jbattle:menu/load/host/combat/style/custom/attackspeed/setnormal
+#Fast
+execute as @s[scores={4j.gamecfg=147}] run function 4jbattle:menu/load/host/combat/style/custom/attackspeed/setfast
+#Fastest
+execute as @s[scores={4j.gamecfg=148}] run function 4jbattle:menu/load/host/combat/style/custom/attackspeed/setfastest
+
 ##Reset score
 scoreboard players reset @s 4j.gamecfg

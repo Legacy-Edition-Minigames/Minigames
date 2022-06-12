@@ -5,6 +5,8 @@ execute if score #Store 4j.combatstyle matches 3 run scoreboard players operatio
 execute if score #Store 4j.combatstyle matches 3 run scoreboard players operation #Store 4j.moderndamage = #Store 4j.setmoderndamage
 #Sword Blocking
 execute if score #Store 4j.combatstyle matches 3 run scoreboard players operation #Store 4j.swordblock = #Store 4j.setswordblock
+#Attack speed
+execute if score #Store 4j.combatstyle matches 3 run scoreboard players operation #Store 4j.attackspeed = #Store 4j.setattackspeed
 
 ##Run combat check
 function 4jbattle:game/combat/check

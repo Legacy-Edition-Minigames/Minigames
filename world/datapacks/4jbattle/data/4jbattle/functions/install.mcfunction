@@ -439,6 +439,12 @@ scoreboard objectives add 4j.swordblock dummy
 #Custom mode toggle
 scoreboard objectives add 4j.setswordblock dummy
 
+##Combat attack speed
+#Backend
+scoreboard objectives add 4j.attackspeed dummy
+#Custom mode toggle
+scoreboard objectives add 4j.setattackspeed dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

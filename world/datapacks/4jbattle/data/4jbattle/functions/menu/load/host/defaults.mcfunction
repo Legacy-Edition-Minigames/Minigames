@@ -139,3 +139,6 @@ scoreboard players set #Store 4j.setmoderndamage 0
 #Sword blocking
 scoreboard players set #Store 4j.swordblock 1
 scoreboard players set #Store 4j.setswordblock 1
+#Attack speed
+scoreboard players set #Store 4j.attackspeed 1
+scoreboard players set #Store 4j.setattackspeed 1
