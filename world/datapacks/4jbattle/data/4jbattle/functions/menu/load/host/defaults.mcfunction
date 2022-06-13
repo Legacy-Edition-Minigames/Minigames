@@ -127,7 +127,7 @@ scoreboard players set #Store 4j.leapfix 1
 ##Large+ Cove Chests fix
 scoreboard players set #Store 4j.lpluscovefix 1
 
-##Combat settings
+##Combat style settings
 #Combat style
 scoreboard players set #Store 4j.combatstyle 1
 #Attack Cooldown
@@ -142,3 +142,6 @@ scoreboard players set #Store 4j.setswordblock 1
 #Attack speed
 scoreboard players set #Store 4j.attackspeed 1
 scoreboard players set #Store 4j.setattackspeed 1
+
+##Extended Potion Range
+scoreboard players set #Store 4j.extendedpotionrange 1

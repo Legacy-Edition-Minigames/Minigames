@@ -4,9 +4,6 @@ function 4jbattle:game/death/check
 ##Check for if the game should end
 function 4jbattle:game/end/check
 
-##Handle Potion checks
-function 4jbattle:game/potion/runner
-
 ##Check for Achievements
 function 4jbattle:game/achievement/start
 

@@ -3,3 +3,6 @@ execute if score #Store 4j.swordblock matches 1 run function 4jbattle:game/comba
 
 ##Stop combat check
 schedule clear 4jbattle:game/combat/check
+
+##Stop Potion check
+schedule clear 4jbattle:game/combat/potion/check

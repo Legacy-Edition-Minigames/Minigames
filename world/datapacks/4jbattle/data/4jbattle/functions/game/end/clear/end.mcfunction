@@ -1,6 +1,4 @@
 ##Clear schedules
-#Potion checks
-schedule clear 4jbattle:game/potion/runner
 #Achievements
 schedule clear 4jbattle:game/achievement/check
 #Small Inventory

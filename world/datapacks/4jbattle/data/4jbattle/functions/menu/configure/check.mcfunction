@@ -252,5 +252,11 @@ execute as @s[scores={4j.gamecfg=147}] run function 4jbattle:menu/load/host/comb
 #Fastest
 execute as @s[scores={4j.gamecfg=148}] run function 4jbattle:menu/load/host/combat/style/custom/attackspeed/setfastest
 
+##Extended Potion Range
+#Enable
+execute as @s[scores={4j.gamecfg=149}] run function 4jbattle:menu/load/host/combat/extendedpotionrange/enable
+#Disable
+execute as @s[scores={4j.gamecfg=150}] run function 4jbattle:menu/load/host/combat/extendedpotionrange/disable
+
 ##Reset score
 scoreboard players reset @s 4j.gamecfg

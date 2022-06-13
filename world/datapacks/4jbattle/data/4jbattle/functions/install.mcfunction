@@ -445,6 +445,9 @@ scoreboard objectives add 4j.attackspeed dummy
 #Custom mode toggle
 scoreboard objectives add 4j.setattackspeed dummy
 
+##Extended Potion Range
+scoreboard objectives add 4j.extendedpotionrange dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
