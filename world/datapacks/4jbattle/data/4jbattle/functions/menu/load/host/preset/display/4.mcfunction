@@ -110,3 +110,8 @@ execute if entity @s[advancements={4jbattle:menu/host/presets/4/showdown/glow=fa
 execute if entity @s[advancements={4jbattle:menu/host/presets/4/lobby/old=true}] run tellraw @s ["",{"text":"Lobby: ","italic":true,"color":"dark_aqua"},{"text":"Old","color":"green"}]
 execute if entity @s[advancements={4jbattle:menu/host/presets/4/lobby/new=true}] run tellraw @s ["",{"text":"Lobby: ","italic":true,"color":"dark_aqua"},{"text":"New","color":"green"}]
 execute if entity @s[advancements={4jbattle:menu/host/presets/4/lobby/anniversary=true}] run tellraw @s ["",{"text":"Lobby: ","italic":true,"color":"dark_aqua"},{"text":"Anniversary","color":"green"}]
+
+##Combat Style
+execute if entity @s[advancements={4jbattle:menu/host/presets/4/combat/style/classic=true}] run tellraw @s ["",{"text":"Combat Style: ","italic":true,"color":"dark_aqua"},{"text":"Classic","color":"green"}]
+execute if entity @s[advancements={4jbattle:menu/host/presets/4/combat/style/modern=true}] run tellraw @s ["",{"text":"Combat Style: ","italic":true,"color":"dark_aqua"},{"text":"Modern","color":"green"}]
+execute if entity @s[advancements={4jbattle:menu/host/presets/4/combat/style/custom=true}] run tellraw @s ["",{"text":"Combat Style: ","italic":true,"color":"dark_aqua"},{"text":"Custom","color":"green"}]

@@ -209,6 +209,51 @@ execute if entity @s[advancements={4jbattle:menu/host/presets/6/timelimit/long=t
 execute if entity @s[advancements={4jbattle:menu/host/presets/6/tp/surround=true}] run scoreboard players set #Store 4j.tp 1
 execute if entity @s[advancements={4jbattle:menu/host/presets/6/tp/surround=false}] run scoreboard players set #Store 4j.tp 2
 
+##Combat style
+#Classic
+execute if entity @s[advancements={4jbattle:menu/host/presets/6/combat/style/classic=true}] run scoreboard players set #Store 4j.combatstyle 1
+#Modern
+execute if entity @s[advancements={4jbattle:menu/host/presets/6/combat/style/modern=true}] run scoreboard players set #Store 4j.combatstyle 2
+#Custom
+execute if entity @s[advancements={4jbattle:menu/host/presets/6/combat/style/custom=true}] run scoreboard players set #Store 4j.combatstyle 3
+
+##Sword Blocking
+#Enabled
+execute if entity @s[advancements={4jbattle:menu/host/presets/6/combat/style/custom/swordblock=true}] run scoreboard players set #Store 4j.setswordblock 1
+#Disabled
+execute if entity @s[advancements={4jbattle:menu/host/presets/6/combat/style/custom/swordblock=false}] run scoreboard players set #Store 4j.setswordblock 0
+
+##1.9 Weapon Damage
+#Enabled
+execute if entity @s[advancements={4jbattle:menu/host/presets/6/combat/style/custom/moderndamage=true}] run scoreboard players set #Store 4j.setmoderndamage 1
+#Disabled
+execute if entity @s[advancements={4jbattle:menu/host/presets/6/combat/style/custom/moderndamage=false}] run scoreboard players set #Store 4j.setmoderndamage 0
+
+##Attack Cooldown
+#Enabled
+execute if entity @s[advancements={4jbattle:menu/host/presets/6/combat/style/custom/cooldown=true}] run scoreboard players set #Store 4j.setattackcooldown 1
+#Disabled
+execute if entity @s[advancements={4jbattle:menu/host/presets/6/combat/style/custom/cooldown=false}] run scoreboard players set #Store 4j.setattackcooldown 0
+
+##Attack Speed
+#Slow
+execute if entity @s[advancements={4jbattle:menu/host/presets/6/combat/style/custom/attackspeed/slow=true}] run scoreboard players set #Store 4j.setattackspeed 0
+#Normal
+execute if entity @s[advancements={4jbattle:menu/host/presets/6/combat/style/custom/attackspeed/normal=true}] run scoreboard players set #Store 4j.setattackspeed 1
+#Fast
+execute if entity @s[advancements={4jbattle:menu/host/presets/6/combat/style/custom/attackspeed/fast=true}] run scoreboard players set #Store 4j.setattackspeed 2
+#Fastest
+execute if entity @s[advancements={4jbattle:menu/host/presets/6/combat/style/custom/attackspeed/fastest=true}] run scoreboard players set #Store 4j.setattackspeed 3
+
+##Refresh combat settings
+function 4jbattle:game/combat/refresh
+
+##Extended potion range
+#Enabled
+execute if entity @s[advancements={4jbattle:menu/host/presets/6/combat/extendedpotionrange=true}] run scoreboard players set #Store 4j.extendedpotionrange 1
+#Disabled
+execute if entity @s[advancements={4jbattle:menu/host/presets/6/combat/extendedpotionrange=false}] run scoreboard players set #Store 4j.extendedpotionrange 0
+
 ##Global functions
 function 4jbattle:menu/load/host/preset/load/global
 

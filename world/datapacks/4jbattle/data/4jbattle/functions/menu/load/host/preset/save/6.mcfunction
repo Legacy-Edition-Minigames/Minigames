@@ -89,10 +89,23 @@ advancement revoke @s only 4jbattle:menu/host/presets/6/timelimit/normal
 advancement revoke @s only 4jbattle:menu/host/presets/6/timelimit/long
 advancement revoke @s only 4jbattle:menu/host/presets/6/tp/surround
 advancement revoke @s only 4jbattle:menu/host/presets/6/takeeverything/disabled
+advancement revoke @s only 4jbattle:menu/host/presets/6/combat/extendedpotionrange
+advancement revoke @s only 4jbattle:menu/host/presets/6/combat/style/classic
+advancement revoke @s only 4jbattle:menu/host/presets/6/combat/style/modern
+advancement revoke @s only 4jbattle:menu/host/presets/6/combat/style/custom
+advancement revoke @s only 4jbattle:menu/host/presets/6/combat/style/custom/cooldown
+advancement revoke @s only 4jbattle:menu/host/presets/6/combat/style/custom/moderndamage
+advancement revoke @s only 4jbattle:menu/host/presets/6/combat/style/custom/swordblock
+advancement revoke @s only 4jbattle:menu/host/presets/6/combat/style/custom/attackspeed/slow
+advancement revoke @s only 4jbattle:menu/host/presets/6/combat/style/custom/attackspeed/normal
+advancement revoke @s only 4jbattle:menu/host/presets/6/combat/style/custom/attackspeed/fast
+advancement revoke @s only 4jbattle:menu/host/presets/6/combat/style/custom/attackspeed/fastest
 advancement revoke @s only 4jbattle:menu/host/presets/6/version/1
+advancement revoke @s only 4jbattle:menu/host/presets/6/version/2
 
 ##Set preset version
 advancement grant @s only 4jbattle:menu/host/presets/6/version/1
+advancement grant @s only 4jbattle:menu/host/presets/6/version/2
 
 ##Bug Fixes
 #Armor Item Swap Deletion
@@ -240,6 +253,36 @@ execute if score #Store 4j.timelimit matches 3 run advancement grant @s only 4jb
 
 ##Central spawn
 execute if score #Store 4j.tp matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/tp/surround
+
+##Combat style
+#Classic
+execute if score #Store 4j.combatstyle matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/combat/style/classic
+#Modern
+execute if score #Store 4j.combatstyle matches 2 run advancement grant @s only 4jbattle:menu/host/presets/6/combat/style/modern
+#Custom
+execute if score #Store 4j.combatstyle matches 3 run advancement grant @s only 4jbattle:menu/host/presets/6/combat/style/custom
+
+##Sword Blocking
+execute if score #Store 4j.setswordblock matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/combat/style/custom/swordblock
+
+##1.9 Weapon Damage
+execute if score #Store 4j.setmoderndamage matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/combat/style/custom/moderndamage
+
+##Attack Cooldown
+execute if score #Store 4j.setattackcooldown matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/combat/style/custom/cooldown
+
+##Attack Speed
+#Slow
+execute if score #Store 4j.setattackspeed matches 0 run advancement grant @s only 4jbattle:menu/host/presets/6/combat/style/custom/attackspeed/slow
+#Normal
+execute if score #Store 4j.setattackspeed matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/combat/style/custom/attackspeed/normal
+#Fast
+execute if score #Store 4j.setattackspeed matches 2 run advancement grant @s only 4jbattle:menu/host/presets/6/combat/style/custom/attackspeed/fast
+#Fastest
+execute if score #Store 4j.setattackspeed matches 3 run advancement grant @s only 4jbattle:menu/host/presets/6/combat/style/custom/attackspeed/fastest
+
+##Extended potion range
+execute if score #Store 4j.extendedpotionrange matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/combat/extendedpotionrange
 
 ##Mark as saved
 advancement grant @s only 4jbattle:menu/host/presets/6/saved
