@@ -5,7 +5,7 @@ scoreboard players set #Store 4j.setswordblock 0
 function 4jbattle:menu/load/host/combat/style/custom/global
 
 ##Display message
-tellraw @a "The host has disabled Sword Blocking."
+tellraw @a {"translate":"4j.menu.host.config.update.generic","with":[{"translate":"4j.menu.host.config.update.disable","with":[{"translate":"4j.menu.host.config.update.combat.style.custom.swordblock"}]}]}
 
 ##Open menu
 function 4jbattle:menu/load/host/combat/open/main
