@@ -6,9 +6,9 @@ execute if score #Store 4j.lives matches 1..9 run scoreboard players add #Store 
 
 ##Display Message
 #Normal
-execute if score #Store 4j.lives matches 1.. run tellraw @a {"translate":"4j.menu.host.config.update.lives","with":[{"score":{"name":"#Store","objective":"4j.lives"}}]}
+execute if score #Store 4j.lives matches 1.. run tellraw @a {"translate":"4j.menu.host.config.update.generic","with":[{"translate":"4j.menu.host.config.update.set","with":[{"translate":"4j.menu.host.config.update.lives"},{"score":{"name":"#Store","objective":"4j.lives"}}]}]}
 #Infinite
-execute if score #Store 4j.lives matches -1 run tellraw @a {"translate":"4j.menu.host.config.update.lives.infinite"}
+execute if score #Store 4j.lives matches -1 run tellraw @a {"translate":"4j.menu.host.config.update.generic","with":[{"translate":"4j.menu.host.config.update.set","with":[{"translate":"4j.menu.host.config.update.lives"},{"translate":"4j.menu.host.config.update.lives.infinite"}]}]}
 
 ##Open menu
 function 4jbattle:menu/load/host/gui

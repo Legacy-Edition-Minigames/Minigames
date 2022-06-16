@@ -257,8 +257,5 @@ execute if entity @s[advancements={4jbattle:menu/host/presets/6/combat/extendedp
 ##Global functions
 function 4jbattle:menu/load/host/preset/load/global
 
-##Display as loaded
-tellraw @s {"text":"Loaded Preset!","color":"green"}
-
 ##Open menu
 function 4jbattle:menu/load/host/preset/open
