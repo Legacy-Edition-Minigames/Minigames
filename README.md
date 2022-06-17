@@ -55,6 +55,12 @@ Major LEB-ToolBox Improvements - [PiporGames](https://github.com/PiporGames)
 
 Help with lemclienthelper's small inv textures - [SUPERN00Bthefirst](https://github.com/SUPERN00Bthefirst)
 
+Hotbar Swapping code - bugsbugsbugs#0528
+
+Fixing Small Inv's item deletion bug - bugsbugsbugs#0528
+
+German Translations - bugsbugsbugs#0528
+
 Greek Translations - Ethel#5691
 
 Spanish Translations - [PiporGames](https://github.com/PiporGames)
