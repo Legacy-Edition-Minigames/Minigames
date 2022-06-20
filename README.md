@@ -55,6 +55,14 @@ Major LEB-ToolBox Improvements - [PiporGames](https://github.com/PiporGames)
 
 Help with lemclienthelper's small inv textures - [SUPERN00Bthefirst](https://github.com/SUPERN00Bthefirst)
 
+Discovering how to fix visual potion motion [?](https://www.youtube.com/watch?v=yM7aQKAbFmY&t=373s) - [Cloud Wolf](https://www.youtube.com/cloudwolfminecraft)
+
+Ported loot tables from Wii U Edition - bugsbugsbugs#0528
+
+Hotbar Swapping code - bugsbugsbugs#0528
+
+German Translations - bugsbugsbugs#0528
+
 Greek Translations - Ethel#5691
 
 Spanish Translations - [PiporGames](https://github.com/PiporGames)

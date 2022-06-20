@@ -47,7 +47,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:2s}]}"
+              "tag": "{HideFlags:2,Enchantments:[{id:\"minecraft:sharpness\",lvl:2s}]}"
             },
             {
               "function": "minecraft:set_attributes",
