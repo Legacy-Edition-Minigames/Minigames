@@ -42,6 +42,3 @@ execute if score #Atomics 4j.enablemap matches 1 if score §a8-1:Atomics 4j.mapv
 execute if score #Libertalia 4j.enablemap matches 1 if score §a8-2:Libertalia 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 20
 #Capitol
 execute if score #Capitol 4j.enablemap matches 1 if score §a8-3:Capitol 4j.mapvote = #highestScore 4j.mapvote run scoreboard players set #Store 4j.map 21
-
-##Load map
-function 4jbattle:mapdecider/check

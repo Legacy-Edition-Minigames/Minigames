@@ -50,6 +50,3 @@ execute if score #Capitol 4j.enablemap matches 1 if score #Store 4j.maprandom ma
 
 ##Roll again if map not found
 execute if score #Store 4j.map matches ..0 run function 4jbattle:mapdecider/randommap
-
-##Load map
-execute if score #Store 4j.map matches 1.. run function 4jbattle:mapdecider/check
