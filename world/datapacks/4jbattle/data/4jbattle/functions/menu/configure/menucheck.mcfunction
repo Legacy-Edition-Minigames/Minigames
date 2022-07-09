@@ -58,3 +58,6 @@ execute as @s[scores={4j.gamecfg=123}] run function 4jbattle:menu/load/host/bug/
 
 ##Open Combat Options page
 execute as @s[scores={4j.gamecfg=135}] run function 4jbattle:menu/load/host/combat/open/main
+
+##Weapon damage customization
+execute as @s[scores={4j.gamecfg=143}] run function 4jbattle:menu/load/host/combat/open/weapondamage

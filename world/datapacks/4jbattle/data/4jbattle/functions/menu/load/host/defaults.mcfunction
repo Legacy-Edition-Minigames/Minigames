@@ -134,8 +134,18 @@ scoreboard players set #Store 4j.combatstyle 1
 scoreboard players set #Store 4j.attackcooldown 0
 scoreboard players set #Store 4j.setattackcooldown 0
 #Damage values
-scoreboard players set #Store 4j.moderndamage 0
-scoreboard players set #Store 4j.setmoderndamage 0
+scoreboard players set #Store 4j.moderndamage.sword 0
+scoreboard players set #Store 4j.moderndamage.trident 0
+scoreboard players set #Store 4j.moderndamage.axe 0
+scoreboard players set #Store 4j.moderndamage.pickaxe 0
+scoreboard players set #Store 4j.moderndamage.shovel 0
+scoreboard players set #Store 4j.moderndamage.hoe 0
+scoreboard players set #Store 4j.setmoderndamage.sword 0
+scoreboard players set #Store 4j.setmoderndamage.trident 0
+scoreboard players set #Store 4j.setmoderndamage.axe 0
+scoreboard players set #Store 4j.setmoderndamage.pickaxe 0
+scoreboard players set #Store 4j.setmoderndamage.shovel 0
+scoreboard players set #Store 4j.setmoderndamage.hoe 0
 #Sword blocking
 scoreboard players set #Store 4j.swordblock 1
 scoreboard players set #Store 4j.setswordblock 1

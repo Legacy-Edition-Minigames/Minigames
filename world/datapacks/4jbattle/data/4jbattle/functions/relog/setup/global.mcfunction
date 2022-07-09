@@ -1,6 +1,6 @@
 ##Display message
 #Discord
-tellraw @s ["",{"translate":"4j.relog.join.discord","color":"#7289DA"},"\n",{"text":"https://discord.gg/hFZ9UnsgCz","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://discord.gg/hFZ9UnsgCz"},"hoverEvent":{"action":"show_text","contents":[{"translate":"4j.relog.join.discord.hover","color":"blue"},": https://discord.gg/hFZ9UnsgCz"]}}]
+tellraw @s ["",{"translate":"4j.relog.join.discord","color":"#7289DA"},"\n",{"text":"https://discord.gg/qwcugpyuqn","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://discord.gg/qwcugpyuqn"},"hoverEvent":{"action":"show_text","contents":[{"translate":"4j.relog.join.discord.hover","color":"blue"},": https://discord.gg/qwcugpyuqn"]}}]
 #Patreon
 tellraw @s ["",{"translate":"4j.relog.join.patreon","color":"gold","with":[{"text":"Patreon","bold":true,"color":"#FF424D"}]},"\n",{"text":"https://www.patreon.com/DBTDerpbox","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://www.patreon.com/DBTDerpbox"},"hoverEvent":{"action":"show_text","contents":[{"text":"https://www.patreon.com/DBTDerpbox","color":"blue"}]}}]
 

@@ -429,9 +429,19 @@ scoreboard objectives add 4j.setattackcooldown dummy
 
 ##1.9 damage values toggle
 #Backend
-scoreboard objectives add 4j.moderndamage dummy
+scoreboard objectives add 4j.moderndamage.axe dummy
+scoreboard objectives add 4j.moderndamage.hoe dummy
+scoreboard objectives add 4j.moderndamage.pickaxe dummy
+scoreboard objectives add 4j.moderndamage.shovel dummy
+scoreboard objectives add 4j.moderndamage.sword dummy
+scoreboard objectives add 4j.moderndamage.trident dummy
 #Custom mode toggle
-scoreboard objectives add 4j.setmoderndamage dummy
+scoreboard objectives add 4j.setmoderndamage.axe dummy
+scoreboard objectives add 4j.setmoderndamage.hoe dummy
+scoreboard objectives add 4j.setmoderndamage.pickaxe dummy
+scoreboard objectives add 4j.setmoderndamage.shovel dummy
+scoreboard objectives add 4j.setmoderndamage.sword dummy
+scoreboard objectives add 4j.setmoderndamage.trident dummy
 
 ##Swordblocking toggle
 #Backend

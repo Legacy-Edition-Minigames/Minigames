@@ -236,12 +236,6 @@ execute as @s[scores={4j.gamecfg=141}] run function 4jbattle:menu/load/host/comb
 #Disable
 execute as @s[scores={4j.gamecfg=142}] run function 4jbattle:menu/load/host/combat/style/custom/swordblock/disable
 
-##1.9 Damage Values
-#Enable
-execute as @s[scores={4j.gamecfg=143}] run function 4jbattle:menu/load/host/combat/style/custom/moderndamage/enable
-#Disable
-execute as @s[scores={4j.gamecfg=144}] run function 4jbattle:menu/load/host/combat/style/custom/moderndamage/disable
-
 ##Attack Speed
 #Slow
 execute as @s[scores={4j.gamecfg=145}] run function 4jbattle:menu/load/host/combat/style/custom/attackspeed/setslow
@@ -257,6 +251,34 @@ execute as @s[scores={4j.gamecfg=148}] run function 4jbattle:menu/load/host/comb
 execute as @s[scores={4j.gamecfg=149}] run function 4jbattle:menu/load/host/combat/extendedpotionrange/enable
 #Disable
 execute as @s[scores={4j.gamecfg=150}] run function 4jbattle:menu/load/host/combat/extendedpotionrange/disable
+
+##1.8/LCE damage
+#Swords
+execute as @s[scores={4j.gamecfg=144}] run function 4jbattle:menu/load/host/combat/style/custom/moderndamage/disable/sword
+#Trident
+execute as @s[scores={4j.gamecfg=160}] run function 4jbattle:menu/load/host/combat/style/custom/moderndamage/disable/trident
+#Axes
+execute as @s[scores={4j.gamecfg=151}] run function 4jbattle:menu/load/host/combat/style/custom/moderndamage/disable/axe
+#Pickaxes
+execute as @s[scores={4j.gamecfg=152}] run function 4jbattle:menu/load/host/combat/style/custom/moderndamage/disable/pickaxe
+#Shovels
+execute as @s[scores={4j.gamecfg=153}] run function 4jbattle:menu/load/host/combat/style/custom/moderndamage/disable/shovel
+#Hoes
+execute as @s[scores={4j.gamecfg=154}] run function 4jbattle:menu/load/host/combat/style/custom/moderndamage/disable/hoe
+
+##1.9 damage
+#Swords
+execute as @s[scores={4j.gamecfg=155}] run function 4jbattle:menu/load/host/combat/style/custom/moderndamage/enable/sword
+#Trident
+execute as @s[scores={4j.gamecfg=161}] run function 4jbattle:menu/load/host/combat/style/custom/moderndamage/enable/trident
+#Axes
+execute as @s[scores={4j.gamecfg=156}] run function 4jbattle:menu/load/host/combat/style/custom/moderndamage/enable/axe
+#Pickaxes
+execute as @s[scores={4j.gamecfg=157}] run function 4jbattle:menu/load/host/combat/style/custom/moderndamage/enable/pickaxe
+#Shovels
+execute as @s[scores={4j.gamecfg=158}] run function 4jbattle:menu/load/host/combat/style/custom/moderndamage/enable/shovel
+#Hoes
+execute as @s[scores={4j.gamecfg=159}] run function 4jbattle:menu/load/host/combat/style/custom/moderndamage/enable/hoe
 
 ##Reset score
 scoreboard players reset @s 4j.gamecfg

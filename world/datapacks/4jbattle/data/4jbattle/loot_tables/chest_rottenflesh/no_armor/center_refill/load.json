@@ -73,7 +73,7 @@
                       "type": "minecraft:fixed",
                       "name": "#Store"
                     },
-                    "score": "4j.moderndamage",
+                    "score": "4j.moderndamage.shovel",
                     "scale": 1
                   },
                   "range": 1
@@ -92,7 +92,7 @@
                       "type": "minecraft:fixed",
                       "name": "#Store"
                     },
-                    "score": "4j.moderndamage",
+                    "score": "4j.moderndamage.shovel",
                     "scale": 1
                   },
                   "range": 0
@@ -130,7 +130,7 @@
                       "type": "minecraft:fixed",
                       "name": "#Store"
                     },
-                    "score": "4j.moderndamage",
+                    "score": "4j.moderndamage.shovel",
                     "scale": 1
                   },
                   "range": 0
@@ -167,7 +167,7 @@
                       "type": "minecraft:fixed",
                       "name": "#Store"
                     },
-                    "score": "4j.moderndamage",
+                    "score": "4j.moderndamage.axe",
                     "scale": 1
                   },
                   "range": 1
@@ -186,7 +186,7 @@
                       "type": "minecraft:fixed",
                       "name": "#Store"
                     },
-                    "score": "4j.moderndamage",
+                    "score": "4j.moderndamage.axe",
                     "scale": 1
                   },
                   "range": 0
@@ -224,7 +224,7 @@
                       "type": "minecraft:fixed",
                       "name": "#Store"
                     },
-                    "score": "4j.moderndamage",
+                    "score": "4j.moderndamage.axe",
                     "scale": 1
                   },
                   "range": 0
@@ -266,7 +266,7 @@
                       "type": "minecraft:fixed",
                       "name": "#Store"
                     },
-                    "score": "4j.moderndamage",
+                    "score": "4j.moderndamage.axe",
                     "scale": 1
                   },
                   "range": 1
@@ -285,7 +285,7 @@
                       "type": "minecraft:fixed",
                       "name": "#Store"
                     },
-                    "score": "4j.moderndamage",
+                    "score": "4j.moderndamage.axe",
                     "scale": 1
                   },
                   "range": 0
@@ -323,7 +323,7 @@
                       "type": "minecraft:fixed",
                       "name": "#Store"
                     },
-                    "score": "4j.moderndamage",
+                    "score": "4j.moderndamage.axe",
                     "scale": 1
                   },
                   "range": 0
@@ -494,7 +494,7 @@
                       "type": "minecraft:fixed",
                       "name": "#Store"
                     },
-                    "score": "4j.moderndamage",
+                    "score": "4j.moderndamage.shovel",
                     "scale": 1
                   },
                   "range": 1
@@ -513,7 +513,7 @@
                       "type": "minecraft:fixed",
                       "name": "#Store"
                     },
-                    "score": "4j.moderndamage",
+                    "score": "4j.moderndamage.shovel",
                     "scale": 1
                   },
                   "range": 0
@@ -551,7 +551,7 @@
                       "type": "minecraft:fixed",
                       "name": "#Store"
                     },
-                    "score": "4j.moderndamage",
+                    "score": "4j.moderndamage.shovel",
                     "scale": 1
                   },
                   "range": 0
