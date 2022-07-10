@@ -95,6 +95,12 @@ advancement revoke @s only 4jbattle:menu/host/presets/6/combat/style/modern
 advancement revoke @s only 4jbattle:menu/host/presets/6/combat/style/custom
 advancement revoke @s only 4jbattle:menu/host/presets/6/combat/style/custom/cooldown
 advancement revoke @s only 4jbattle:menu/host/presets/6/combat/style/custom/moderndamage
+advancement revoke @s only 4jbattle:menu/host/presets/6/combat/style/custom/moderndamage/axe
+advancement revoke @s only 4jbattle:menu/host/presets/6/combat/style/custom/moderndamage/hoe
+advancement revoke @s only 4jbattle:menu/host/presets/6/combat/style/custom/moderndamage/pickaxe
+advancement revoke @s only 4jbattle:menu/host/presets/6/combat/style/custom/moderndamage/shovel
+advancement revoke @s only 4jbattle:menu/host/presets/6/combat/style/custom/moderndamage/sword
+advancement revoke @s only 4jbattle:menu/host/presets/6/combat/style/custom/moderndamage/trident
 advancement revoke @s only 4jbattle:menu/host/presets/6/combat/style/custom/swordblock
 advancement revoke @s only 4jbattle:menu/host/presets/6/combat/style/custom/attackspeed/slow
 advancement revoke @s only 4jbattle:menu/host/presets/6/combat/style/custom/attackspeed/normal
@@ -102,10 +108,12 @@ advancement revoke @s only 4jbattle:menu/host/presets/6/combat/style/custom/atta
 advancement revoke @s only 4jbattle:menu/host/presets/6/combat/style/custom/attackspeed/fastest
 advancement revoke @s only 4jbattle:menu/host/presets/6/version/1
 advancement revoke @s only 4jbattle:menu/host/presets/6/version/2
+advancement revoke @s only 4jbattle:menu/host/presets/6/version/3
 
 ##Set preset version
 advancement grant @s only 4jbattle:menu/host/presets/6/version/1
 advancement grant @s only 4jbattle:menu/host/presets/6/version/2
+advancement grant @s only 4jbattle:menu/host/presets/6/version/3
 
 ##Bug Fixes
 #Armor Item Swap Deletion
@@ -266,7 +274,18 @@ execute if score #Store 4j.combatstyle matches 3 run advancement grant @s only 4
 execute if score #Store 4j.setswordblock matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/combat/style/custom/swordblock
 
 ##1.9 Weapon Damage
-execute if score #Store 4j.setmoderndamage matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/combat/style/custom/moderndamage
+#Swords
+execute if score #Store 4j.setmoderndamage.sword matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/combat/style/custom/moderndamage/sword
+#Trident
+execute if score #Store 4j.moderndamage.trident matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/combat/style/custom/moderndamage/trident
+#Axes
+execute if score #Store 4j.moderndamage.axe matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/combat/style/custom/moderndamage/axe
+#Pickaxes
+execute if score #Store 4j.moderndamage.pickaxe matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/combat/style/custom/moderndamage/pickaxe
+#Shovels
+execute if score #Store 4j.moderndamage.shovel matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/combat/style/custom/moderndamage/shovel
+#Hoes
+execute if score #Store 4j.moderndamage.hoe matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/combat/style/custom/moderndamage/hoe
 
 ##Attack Cooldown
 execute if score #Store 4j.setattackcooldown matches 1 run advancement grant @s only 4jbattle:menu/host/presets/6/combat/style/custom/cooldown

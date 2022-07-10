@@ -225,9 +225,19 @@ execute if entity @s[advancements={4jbattle:menu/host/presets/2/combat/style/cus
 
 ##1.9 Weapon Damage
 #Enabled
-execute if entity @s[advancements={4jbattle:menu/host/presets/2/combat/style/custom/moderndamage=true}] run scoreboard players set #Store 4j.setmoderndamage 1
+execute if entity @s[advancements={4jbattle:menu/host/presets/2/combat/style/custom/moderndamage/sword=true}] run scoreboard players set #Store 4j.setmoderndamage.sword 1
+execute if entity @s[advancements={4jbattle:menu/host/presets/2/combat/style/custom/moderndamage/trident=true}] run scoreboard players set #Store 4j.setmoderndamage.trident 1
+execute if entity @s[advancements={4jbattle:menu/host/presets/2/combat/style/custom/moderndamage/axe=true}] run scoreboard players set #Store 4j.setmoderndamage.axe 1
+execute if entity @s[advancements={4jbattle:menu/host/presets/2/combat/style/custom/moderndamage/pickaxe=true}] run scoreboard players set #Store 4j.setmoderndamage.pickaxe 1
+execute if entity @s[advancements={4jbattle:menu/host/presets/2/combat/style/custom/moderndamage/shovel=true}] run scoreboard players set #Store 4j.setmoderndamage.shovel 1
+execute if entity @s[advancements={4jbattle:menu/host/presets/2/combat/style/custom/moderndamage/hoe=true}] run scoreboard players set #Store 4j.setmoderndamage.hoe 1
 #Disabled
-execute if entity @s[advancements={4jbattle:menu/host/presets/2/combat/style/custom/moderndamage=false}] run scoreboard players set #Store 4j.setmoderndamage 0
+execute if entity @s[advancements={4jbattle:menu/host/presets/2/combat/style/custom/moderndamage/sword=false}] run scoreboard players set #Store 4j.setmoderndamage.sword 0
+execute if entity @s[advancements={4jbattle:menu/host/presets/2/combat/style/custom/moderndamage/trident=false}] run scoreboard players set #Store 4j.setmoderndamage.trident 0
+execute if entity @s[advancements={4jbattle:menu/host/presets/2/combat/style/custom/moderndamage/axe=false}] run scoreboard players set #Store 4j.setmoderndamage.axe 0
+execute if entity @s[advancements={4jbattle:menu/host/presets/2/combat/style/custom/moderndamage/pickaxe=false}] run scoreboard players set #Store 4j.setmoderndamage.pickaxe 0
+execute if entity @s[advancements={4jbattle:menu/host/presets/2/combat/style/custom/moderndamage/shovel=false}] run scoreboard players set #Store 4j.setmoderndamage.shovel 0
+execute if entity @s[advancements={4jbattle:menu/host/presets/2/combat/style/custom/moderndamage/hoe=false}] run scoreboard players set #Store 4j.setmoderndamage.hoe 0
 
 ##Attack Cooldown
 #Enabled
