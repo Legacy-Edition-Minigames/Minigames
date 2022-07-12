@@ -33,6 +33,8 @@ Legacy Edition Battle is currently designed for [Minecraft Java Edition 1.18.2](
 
 ### Credits
 
+Legacy Edition Battle Project - [DBTDerpbox](https://github.com/DBTDerpbox)
+
 Minecraft - [Mojang Studios](https://www.mojang.com)
 
 Legacy Editions - [4J Studios](https://www.4jstudios.com/)
@@ -72,3 +74,7 @@ Italian Translations - [ItzLightyHD](https://github.com/ItzLightyHD)
 Russian Translations - [Silvert](https://steamcommunity.com/profiles/76561198877040901) and [Bensy_15](https://steamcommunity.com/profiles/76561198289263301/)
 
 Portuguese Translations - [CavaleiroDev](https://twitter.com/CavaleiroDev)
+
+Polish Translations - Steve_Poland#0070
+
+Japanese Translations - [3UP](https://twitter.com/loserdog8519)
