@@ -70,7 +70,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.leaping\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:8b,Amplifier:0b,Duration:400}],Potion:\"minecraft:water\"}",
+              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.leaping\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:8b,Amplifier:1b,Duration:400}],Potion:\"minecraft:water\"}",
               "conditions": [
                 {
                   "condition": "minecraft:value_check",
