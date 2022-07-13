@@ -10,8 +10,8 @@ scoreboard players operation #highestScore 4j.mapvote > * 4j.mapvote
 
 ##Find map type
 #Auto
-execute if score #Store 4j.setmaptype matches 1 if score #Store 4j.plist matches ..4 run scoreboard players set #Store 4j.maptype 1
-execute if score #Store 4j.setmaptype matches 1 if score #Store 4j.plist matches 5..8 run scoreboard players set #Store 4j.maptype 2
+execute if score #Store 4j.setmaptype matches 1 if score #Store 4j.plist matches ..6 run scoreboard players set #Store 4j.maptype 1
+execute if score #Store 4j.setmaptype matches 1 if score #Store 4j.plist matches 7..8 run scoreboard players set #Store 4j.maptype 2
 execute if score #Store 4j.setmaptype matches 1 if score #Store 4j.plist matches 9.. run scoreboard players set #Store 4j.maptype 4
 #Small
 execute if score #Store 4j.setmaptype matches 2 run scoreboard players set #Store 4j.maptype 1
