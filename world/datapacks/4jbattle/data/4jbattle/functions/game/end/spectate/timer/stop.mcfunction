@@ -10,8 +10,8 @@ function 4jbattle:game/end/roundcheck
 ##Reset playerbar
 function 4jbattle:game/gui/playerbar/load
 
-##Stop TNT Check
-function 4jbattle:game/tnt/stop
+##Stop TNT igniting when placed
+tntlighter enable false
 
 ##Stop Fire Check
 function 4jbattle:game/fire/stop
