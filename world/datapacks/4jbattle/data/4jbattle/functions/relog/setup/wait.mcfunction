@@ -33,6 +33,7 @@ tag @s remove inbounds-z-
 tag @s remove notitle
 tag @s remove heart-architect
 tag @s remove heart-mario
+tag @s remove heart-tris1357
 
 ##Set title times
 title @s times 0 50 1

@@ -75,6 +75,9 @@ execute as @a[scores={heartcosmetic=25},tag=!heart-architect] run function 4jbat
 #Mario (Requested by Robux_Generator)
 execute as @a[scores={heartcosmetic=26},tag=heart-mario] run function 4jbattle:clientconfig/heart/switch/mario
 execute as @a[scores={heartcosmetic=26},tag=!heart-mario] run function 4jbattle:clientconfig/heart/switch/notunlocked
+#Tris1357
+execute as @a[scores={heartcosmetic=27},tag=heart-tris1357] run function 4jbattle:clientconfig/heart/switch/tris1357
+execute as @a[scores={heartcosmetic=27},tag=!heart-tris1357] run function 4jbattle:clientconfig/heart/switch/notunlocked
 
 ##Enable toggle
 scoreboard players enable @a heartcosmetic

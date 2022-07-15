@@ -60,3 +60,5 @@ execute if entity @s[advancements={4jbattle:config/heart/largeplus=true}] run se
 execute if entity @s[advancements={4jbattle:config/heart/architect=true}] run setSuffixFont alive "4jbattle:tablist/heart/secret/architect" @s
 #Mario
 execute if entity @s[advancements={4jbattle:config/heart/mario=true}] run setSuffixFont alive "4jbattle:tablist/heart/secret/mario" @s
+#Tris1357
+execute if entity @s[advancements={4jbattle:config/heart/tris1357=true}] run setSuffixFont alive "4jbattle:tablist/heart/secret/tris1357" @s
