@@ -73,7 +73,7 @@ Italian Translations - [ItzLightyHD](https://github.com/ItzLightyHD)
 
 Russian Translations - [Silvert](https://steamcommunity.com/profiles/76561198877040901) and [Bensy_15](https://steamcommunity.com/profiles/76561198289263301/)
 
-Portuguese Translations - [CavaleiroDev](https://twitter.com/CavaleiroDev)
+Portuguese Translations - [CavaleiroDev](https://twitter.com/CavaleiroDev) and Pedro270707(AndroidDr#5127)
 
 Polish Translations - Steve_Poland#0070
 
