@@ -11,9 +11,6 @@ kill @e[type=trident]
 ##Remove all TNT
 kill @e[type=tnt]
 
-##Remove all fire
-execute as @e[type=marker,tag=fire] at @s run function 4jbattle:game/fire/remove
-
 ##Clear schedules
 function 4jbattle:game/end/clear/end
 

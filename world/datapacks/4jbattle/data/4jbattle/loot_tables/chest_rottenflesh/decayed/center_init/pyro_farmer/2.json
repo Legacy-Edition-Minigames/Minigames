@@ -6,7 +6,7 @@
         {
           "type": "item",
           "weight": 1,
-          "name": "minecraft:ghast_spawn_egg",
+          "name": "minecraft:fire_charge",
           "functions": [
             {
               "function": "set_count",
@@ -14,7 +14,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{CanPlaceOn:[\"#4jbattle:fire_charge_placeable\"],display:{Name:'{\"translate\":\"item.minecraft.fire_charge\",\"italic\":false}'},HideFlags:16,CustomModelData:5,EntityTag:{id:\"minecraft:marker\",Tags:[\"spawnfire\"]}}"
+              "tag": "{CanPlaceOn:[\"#4jbattle:all_blocks\"],HideFlags:16}"
             }
           ]
         }

@@ -154,18 +154,6 @@ scoreboard objectives add 4j.hungertype dummy
 ##Heal timer
 scoreboard objectives add 4j.healtimer dummy
 
-##Zombie Head combination
-scoreboard objectives add 4j.zhiron dummy
-scoreboard objectives add 4j.zhgold dummy
-scoreboard objectives add 4j.zhemerald dummy
-scoreboard objectives add 4j.zhdiamond dummy
-
-##Fire age
-scoreboard objectives add 4j.fireage dummy
-
-##Fire RNG
-scoreboard objectives add 4j.firerandom dummy
-
 ##Lobby type
 scoreboard objectives add 4j.lobbytype dummy
 

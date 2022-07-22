@@ -65,8 +65,6 @@ execute if score #Store 4j.initialgame matches 1 run function 4jbattle:game/cust
 ##Set TNT to ignite on place
 tntlighter enable true
 
-##Fire check
-function 4jbattle:game/fire/check
 
 ##Start Worldborder
 function 4jbattle:game/worldborder/start
