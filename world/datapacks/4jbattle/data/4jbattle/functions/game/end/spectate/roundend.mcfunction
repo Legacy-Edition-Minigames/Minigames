@@ -5,6 +5,7 @@ execute unless score #Store 4j.novictorcheck matches 1 run tag @a[tag=player] ad
 effect give @a[tag=Victor] saturation 10 255 true
 
 ##Add score
+scoreboard players reset * 4j.score
 scoreboard players add @a[tag=Victor] 4j.score 1
 
 ##Add to win count
