@@ -54,7 +54,7 @@ execute if score #Libertalia 4j.enablemap matches 1 run scoreboard players set ย
 execute if score #Capitol 4j.enablemap matches 1 run scoreboard players set ยงa8-3:Capitol 4j.mapvote 0
 
 ##Start runner
-function 4jbattle:mapdecider/vote/check
+function 4jbattle:mapdecider/vote/check/main
 
 ##Debug info
 tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Map Voting loaded","color":"gold"}]

@@ -130,6 +130,9 @@ execute if score #Capitol 4j.enablemap matches 1 as @a[scores={4j.playermapvote=
 #If user hasnt voted for this map yet
 execute if score #Capitol 4j.enablemap matches 1 as @a[scores={4j.playermapvote=21}] run function 4jbattle:mapdecider/vote/add/capitol
 
+##Mods
+function 4jbattle:mapdecider/vote/check/mods
+
 ##Play sound
 execute as @a[scores={4j.playermapvote=1..}] at @s run playsound ui.button.click master @s ~ ~ ~ 0.25
 
@@ -137,4 +140,4 @@ execute as @a[scores={4j.playermapvote=1..}] at @s run playsound ui.button.click
 execute as @a unless score @s 4j.playermapvote matches 0 run scoreboard players set @s 4j.playermapvote 0
 
 ##Loop
-schedule function 4jbattle:mapdecider/vote/check 3t
+schedule function 4jbattle:mapdecider/vote/check/main 3t
