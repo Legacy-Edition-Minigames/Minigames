@@ -4,6 +4,12 @@ scoreboard players enable @a 4j.playermapvote
 ##Remove vote
 execute as @a[scores={4j.playermapvote=-1}] run function 4jbattle:mapdecider/vote/remove
 
+##Open mod menu
+#Main
+execute as @a[scores={4j.playermapvote=-2}] run function 4jbattle:mapdecider/vote/modmenu/main
+#Map specific voting menu
+execute as @a[scores={4j.playermapvote=-2999..-2000}] run function 4jbattle:mapdecider/vote/modmenu/map
+
 ##add 1 to Crucible's vote count if voted for
 #If user has voted for this map
 execute if score #Crucible 4j.enablemap matches 1 as @a[scores={4j.playermapvote=1},tag=votecrucible] run function 4jbattle:mapdecider/vote/error
