@@ -340,8 +340,8 @@ scoreboard objectives add 4j.armorbar.feet dummy
 ##Armorbar toggle trigger
 scoreboard objectives add armorbar trigger
 
-##Panorama score
-scoreboard objectives add 4j.panorama dummy
+##Panorama scale
+scoreboard objectives add 4j.panscale dummy
 
 ##Panscale trigger
 scoreboard objectives add panscale trigger
@@ -657,42 +657,6 @@ bossbar add chestanim/2 ""
 bossbar add chestanim/3 ""
 #GUI scale 4
 bossbar add chestanim/4 ""
-
-##Panoramas
-#TU69
-bossbar add panorama/day/69/1 ""
-bossbar set minecraft:panorama/day/69/1 visible true
-bossbar add panorama/day/69/2 ""
-bossbar set minecraft:panorama/day/69/2 visible true
-bossbar add panorama/day/69/3 ""
-bossbar set minecraft:panorama/day/69/3 visible true
-bossbar add panorama/day/69/4 ""
-bossbar set minecraft:panorama/day/69/4 visible true
-bossbar add panorama/night/69/1 ""
-bossbar set minecraft:panorama/night/69/1 visible true
-bossbar add panorama/night/69/2 ""
-bossbar set minecraft:panorama/night/69/2 visible true
-bossbar add panorama/night/69/3 ""
-bossbar set minecraft:panorama/night/69/3 visible true
-bossbar add panorama/night/69/4 ""
-bossbar set minecraft:panorama/night/69/4 visible true
-#Custom
-bossbar add panorama/day/custom/1 ""
-bossbar set minecraft:panorama/day/custom/1 visible true
-bossbar add panorama/day/custom/2 ""
-bossbar set minecraft:panorama/day/custom/2 visible true
-bossbar add panorama/day/custom/3 ""
-bossbar set minecraft:panorama/day/custom/3 visible true
-bossbar add panorama/day/custom/4 ""
-bossbar set minecraft:panorama/day/custom/4 visible true
-bossbar add panorama/night/custom/1 ""
-bossbar set minecraft:panorama/night/custom/1 visible true
-bossbar add panorama/night/custom/2 ""
-bossbar set minecraft:panorama/night/custom/2 visible true
-bossbar add panorama/night/custom/3 ""
-bossbar set minecraft:panorama/night/custom/3 visible true
-bossbar add panorama/night/custom/4 ""
-bossbar set minecraft:panorama/night/custom/4 visible true
 
 ##Simulate relog
 tag @s remove relog

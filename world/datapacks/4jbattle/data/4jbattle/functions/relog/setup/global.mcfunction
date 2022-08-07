@@ -92,3 +92,6 @@ execute if score #Store 4j.spectype matches 5 run function 4jbattle:game/spectat
 
 ##Load swapenchanted config
 execute if entity @s[advancements={4jbattle:config/swapenchanted=true}] run takeeverything ignoreEnchants true @s
+
+##Load panorama
+#execute if score #Store 4j.gimode matches 3 run function 4jbattle:game/gui/panorama/load

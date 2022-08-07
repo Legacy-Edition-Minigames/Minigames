@@ -11,6 +11,9 @@ scoreboard players set #Store 4j.displaymode 1
 title @a[tag=!relogtimer] title ""
 title @a[tag=!relogtimer] subtitle ""
 
+##Disable panorama
+panorama clear all
+
 ##Exit Creative
 #Disable lockdown
 lockdown false
@@ -29,6 +32,9 @@ kill @e[type=item]
 
 ##Clear effects
 effect clear @a
+
+##Set panorama status to inactive
+scoreboard players set #Store 4j.panorama 0
 
 ##Clear schedule
 schedule clear 4jbattle:game/gui/panorama/check

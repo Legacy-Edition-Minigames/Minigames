@@ -1,33 +1,8 @@
 ##Hide banners
 function 4jbattle:game/gui/globalinfo/clear
 
-##Set bossbars
-#TU69
-execute if predicate 4jbattle:is_daytime run bossbar set minecraft:panorama/day/69/1 players @a[tag=!relogtimer,advancements={4jmenu:config/panorama/game/custom=false,4jmenu:config/panorama/game/night=false,4jmenu:config/panscale/1=true}]
-execute if predicate 4jbattle:is_daytime run bossbar set minecraft:panorama/day/69/2 players @a[tag=!relogtimer,advancements={4jmenu:config/panorama/game/custom=false,4jmenu:config/panorama/game/night=false,4jmenu:config/panscale/2=true}]
-execute if predicate 4jbattle:is_daytime run bossbar set minecraft:panorama/day/69/3 players @a[tag=!relogtimer,advancements={4jmenu:config/panorama/game/custom=false,4jmenu:config/panorama/game/night=false,4jmenu:config/panscale/3=true}]
-execute if predicate 4jbattle:is_daytime run bossbar set minecraft:panorama/day/69/4 players @a[tag=!relogtimer,advancements={4jmenu:config/panorama/game/custom=false,4jmenu:config/panorama/game/night=false,4jmenu:config/panscale/4=true}]
-execute if predicate 4jbattle:is_daytime run bossbar set minecraft:panorama/night/69/1 players @a[tag=!relogtimer,advancements={4jmenu:config/panorama/game/custom=false,4jmenu:config/panorama/game/night=true,4jmenu:config/panscale/1=true}]
-execute if predicate 4jbattle:is_daytime run bossbar set minecraft:panorama/night/69/2 players @a[tag=!relogtimer,advancements={4jmenu:config/panorama/game/custom=false,4jmenu:config/panorama/game/night=true,4jmenu:config/panscale/2=true}]
-execute if predicate 4jbattle:is_daytime run bossbar set minecraft:panorama/night/69/3 players @a[tag=!relogtimer,advancements={4jmenu:config/panorama/game/custom=false,4jmenu:config/panorama/game/night=true,4jmenu:config/panscale/3=true}]
-execute if predicate 4jbattle:is_daytime run bossbar set minecraft:panorama/night/69/4 players @a[tag=!relogtimer,advancements={4jmenu:config/panorama/game/custom=false,4jmenu:config/panorama/game/night=true,4jmenu:config/panscale/4=true}]
-execute if predicate 4jbattle:is_nighttime run bossbar set minecraft:panorama/night/69/1 players @a[tag=!relogtimer,advancements={4jmenu:config/panorama/game/custom=false,4jmenu:config/panscale/1=true}]
-execute if predicate 4jbattle:is_nighttime run bossbar set minecraft:panorama/night/69/2 players @a[tag=!relogtimer,advancements={4jmenu:config/panorama/game/custom=false,4jmenu:config/panscale/2=true}]
-execute if predicate 4jbattle:is_nighttime run bossbar set minecraft:panorama/night/69/3 players @a[tag=!relogtimer,advancements={4jmenu:config/panorama/game/custom=false,4jmenu:config/panscale/3=true}]
-execute if predicate 4jbattle:is_nighttime run bossbar set minecraft:panorama/night/69/4 players @a[tag=!relogtimer,advancements={4jmenu:config/panorama/game/custom=false,4jmenu:config/panscale/4=true}]
-#Custom
-execute if predicate 4jbattle:is_daytime run bossbar set minecraft:panorama/day/custom/1 players @a[tag=!relogtimer,advancements={4jmenu:config/panorama/game/custom=true,4jmenu:config/panorama/game/night=false,4jmenu:config/panscale/1=true}]
-execute if predicate 4jbattle:is_daytime run bossbar set minecraft:panorama/day/custom/2 players @a[tag=!relogtimer,advancements={4jmenu:config/panorama/game/custom=true,4jmenu:config/panorama/game/night=false,4jmenu:config/panscale/2=true}]
-execute if predicate 4jbattle:is_daytime run bossbar set minecraft:panorama/day/custom/3 players @a[tag=!relogtimer,advancements={4jmenu:config/panorama/game/custom=true,4jmenu:config/panorama/game/night=false,4jmenu:config/panscale/3=true}]
-execute if predicate 4jbattle:is_daytime run bossbar set minecraft:panorama/day/custom/4 players @a[tag=!relogtimer,advancements={4jmenu:config/panorama/game/custom=true,4jmenu:config/panorama/game/night=false,4jmenu:config/panscale/4=true}]
-execute if predicate 4jbattle:is_daytime run bossbar set minecraft:panorama/night/custom/1 players @a[tag=!relogtimer,advancements={4jmenu:config/panorama/game/custom=true,4jmenu:config/panorama/game/night=true,4jmenu:config/panscale/1=true}]
-execute if predicate 4jbattle:is_daytime run bossbar set minecraft:panorama/night/custom/2 players @a[tag=!relogtimer,advancements={4jmenu:config/panorama/game/custom=true,4jmenu:config/panorama/game/night=true,4jmenu:config/panscale/2=true}]
-execute if predicate 4jbattle:is_daytime run bossbar set minecraft:panorama/night/custom/3 players @a[tag=!relogtimer,advancements={4jmenu:config/panorama/game/custom=true,4jmenu:config/panorama/game/night=true,4jmenu:config/panscale/3=true}]
-execute if predicate 4jbattle:is_daytime run bossbar set minecraft:panorama/night/custom/4 players @a[tag=!relogtimer,advancements={4jmenu:config/panorama/game/custom=true,4jmenu:config/panorama/game/night=true,4jmenu:config/panscale/4=true}]
-execute if predicate 4jbattle:is_nighttime run bossbar set minecraft:panorama/night/custom/1 players @a[tag=!relogtimer,advancements={4jmenu:config/panorama/game/custom=true,4jmenu:config/panscale/1=true}]
-execute if predicate 4jbattle:is_nighttime run bossbar set minecraft:panorama/night/custom/2 players @a[tag=!relogtimer,advancements={4jmenu:config/panorama/game/custom=true,4jmenu:config/panscale/2=true}]
-execute if predicate 4jbattle:is_nighttime run bossbar set minecraft:panorama/night/custom/3 players @a[tag=!relogtimer,advancements={4jmenu:config/panorama/game/custom=true,4jmenu:config/panscale/3=true}]
-execute if predicate 4jbattle:is_nighttime run bossbar set minecraft:panorama/night/custom/4 players @a[tag=!relogtimer,advancements={4jmenu:config/panorama/game/custom=true,4jmenu:config/panscale/4=true}]
+##Load panoramas
+execute as @a[tag=!relogtimer] run function 4jbattle:game/gui/panorama/load
 
 ##GlobalInfo
 #P1
