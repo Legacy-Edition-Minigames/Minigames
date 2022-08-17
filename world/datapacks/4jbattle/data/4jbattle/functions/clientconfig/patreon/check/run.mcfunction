@@ -5,7 +5,7 @@ execute as @a[scores={4j.patreon=1..}] run function 4jbattle:clientconfig/patreo
 execute as @a[scores={patreon=1..}] if score @s 4j.patreon matches 1.. run function 4jbattle:clientconfig/patreon/check/patron
 
 ##Display message if no patreon subscription
-execute as @a[scores={patreon=1..}] unless score @s 4j.patreon matches 1.. run tellraw @s "Please patreon =("
+execute as @a[scores={patreon=1..}] unless score @s 4j.patreon matches 1.. run function 4jbattle:clientconfig/patreon/menu/needpatreon
 
 ##Reset score
 scoreboard players reset @a patreon
