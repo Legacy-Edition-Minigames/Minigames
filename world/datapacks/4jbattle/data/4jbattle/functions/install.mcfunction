@@ -449,6 +449,9 @@ scoreboard objectives add 4j.extendedpotionrange dummy
 ##Patreon menu
 scoreboard objectives add patreon trigger
 
+##Variable for checking if the game has started
+scoreboard objectives add 4j.gamestarted dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

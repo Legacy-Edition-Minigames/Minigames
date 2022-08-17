@@ -88,7 +88,7 @@ execute if score #Store 4j.gamestatus matches 2 run function 4jbattle:game/setup
 execute if score #Store 4j.gamestatus matches 2 run tp @s @e[type=area_effect_cloud,tag=RandomTP,limit=1,sort=random]
 
 ##Load spectator mob
-execute if score #Store 4j.gamestatus matches 2 run function 4jbattle:game/spectator/start
+execute if score #Store 4j.gamestarted matches 1.. run function 4jbattle:game/spectator/start
 
 ##Load swapenchanted config
 execute if entity @s[advancements={4jbattle:config/swapenchanted=true}] run takeeverything ignoreEnchants true @s

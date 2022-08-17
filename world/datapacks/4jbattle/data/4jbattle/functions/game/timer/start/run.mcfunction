@@ -89,3 +89,6 @@ execute if score #Store 4j.takeall matches 0 run takeeverything enabled false
 
 ##Start Music
 execute if score #Store 4j.initialgame matches 1 run function 4jbattle:game/music/start
+
+##Mark game as started
+scoreboard players set #Store 4j.gamestarted 1

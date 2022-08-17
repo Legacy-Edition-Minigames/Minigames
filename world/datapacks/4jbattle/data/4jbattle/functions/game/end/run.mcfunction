@@ -33,3 +33,6 @@ scoreboard players set #Store 4j.map 0
 
 ##Load resources
 function 4jbattle:game/end/resources/check
+
+##Mark game as no longer started
+scoreboard players set #Store 4j.gamestarted 0
