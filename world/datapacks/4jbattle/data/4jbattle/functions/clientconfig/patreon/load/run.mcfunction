@@ -1,5 +1,5 @@
 ##Load patreon data
-#Derpbox
+#Emmie
 execute as a20181ca-a75d-401e-ac58-36ab8f040cf5 run scoreboard players set @s 4j.patreon 5
 #sjk210/40400943/Robux Generator
 execute as 8411f30e-2ba5-431f-bbcd-e3fac5597649 run scoreboard players set @s 4j.patreon 5
@@ -9,6 +9,8 @@ execute as d034b241-5f0b-4607-ad8d-704f1dbced6f run scoreboard players set @s 4j
 execute as ae26f95c-314f-4cf8-9af3-16fa5da78085 run scoreboard players set @s 4j.patreon 4
 #Tokyo Emi/65330754/TokyoEmi
 execute as 40bb5e3a-63b2-47e4-aae9-6f04f3faa3f7 run scoreboard players set @s 4j.patreon 5
+#SnowxSnow/78447492
+execute as ec670669-3f48-49d4-9d49-26dd2d30ee6e run scoreboard players set @s 4j.patreon 5
 
 ##Reset heart if no longer subscribed
 #Tiny
@@ -21,3 +23,6 @@ execute if entity @s[advancements={4jbattle:config/heart/standard=true}] unless 
 execute if entity @s[advancements={4jbattle:config/heart/large=true}] unless score @s 4j.patreon matches 4.. run function 4jbattle:clientconfig/heart/load/reset
 #Large+
 execute if entity @s[advancements={4jbattle:config/heart/largeplus=true}] unless score @s 4j.patreon matches 5.. run function 4jbattle:clientconfig/heart/load/reset
+
+##Load mob override
+function 4jbattle:clientconfig/patreon/load/mob
