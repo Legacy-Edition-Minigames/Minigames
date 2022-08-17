@@ -40,5 +40,8 @@ function 4jbattle:clientconfig/clearsmall/check
 ##Auto Equip ignore enchants
 function 4jbattle:clientconfig/swapenchanted/check
 
+##Patreon menu
+function 4jbattle:clientconfig/patreon/check/run
+
 ##Loop
 schedule function 4jbattle:clientconfig/check 1s

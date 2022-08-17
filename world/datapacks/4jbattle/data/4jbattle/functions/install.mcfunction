@@ -446,6 +446,9 @@ scoreboard objectives add 4j.setattackspeed dummy
 ##Extended Potion Range
 scoreboard objectives add 4j.extendedpotionrange dummy
 
+##Patreon menu
+scoreboard objectives add patreon trigger
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

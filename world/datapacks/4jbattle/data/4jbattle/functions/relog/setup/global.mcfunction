@@ -1,6 +1,6 @@
 ##Display message
 #Discord
-tellraw @s ["",{"translate":"4j.relog.join.discord","color":"#7289DA"},"\n",{"text":"https://discord.gg/c42WftbXqT","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://discord.gg/c42WftbXqT"},"hoverEvent":{"action":"show_text","contents":[{"translate":"4j.relog.join.discord.hover","color":"blue"},": https://discord.gg/c42WftbXqT"]}}]
+tellraw @s ["",{"translate":"4j.relog.join.discord","color":"#7289DA"},"\n",{"text":"https://discord.gg/aYVxTAxU2n","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://discord.gg/aYVxTAxU2n"},"hoverEvent":{"action":"show_text","contents":[{"translate":"4j.relog.join.discord.hover","color":"blue"},": https://discord.gg/aYVxTAxU2n"]}}]
 #Patreon
 tellraw @s ["",{"translate":"4j.relog.join.patreon","color":"gold","with":[{"text":"Patreon","bold":true,"color":"#FF424D"}]},"\n",{"text":"https://www.patreon.com/DBTDerpbox","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://www.patreon.com/DBTDerpbox"},"hoverEvent":{"action":"show_text","contents":[{"text":"https://www.patreon.com/DBTDerpbox","color":"blue"}]}}]
 
@@ -30,7 +30,7 @@ scoreboard players reset @s
 function 4jbattle:game/player/setpid
 
 ##Detect if Patreon
-function 4jbattle:relog/setup/patreon
+function 4jbattle:clientconfig/patreon/load/run
 
 ##Detect per-user data
 function 4jbattle:relog/setup/usercheck
@@ -87,8 +87,8 @@ execute if score #Store 4j.gamestatus matches 2 run function 4jbattle:game/setup
 #Teleport to a spawnpoint
 execute if score #Store 4j.gamestatus matches 2 run tp @s @e[type=area_effect_cloud,tag=RandomTP,limit=1,sort=random]
 
-##Load spectator head if set to heads
-execute if score #Store 4j.spectype matches 5 run function 4jbattle:game/spectator/spawn/head/gethead
+##Load spectator mob
+execute if score #Store 4j.gamestatus matches 2 run function 4jbattle:game/spectator/start
 
 ##Load swapenchanted config
 execute if entity @s[advancements={4jbattle:config/swapenchanted=true}] run takeeverything ignoreEnchants true @s
