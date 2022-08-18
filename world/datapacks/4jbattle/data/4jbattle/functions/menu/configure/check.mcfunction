@@ -218,9 +218,9 @@ execute as @s[scores={4j.gamecfg=134}] run function 4jbattle:menu/load/host/lobb
 
 ##Change combat style
 #Classic
-execute as @s[scores={4j.gamecfg=136}] run function 4jbattle:menu/load/host/combat/style/setclassic
+execute as @s[scores={4j.gamecfg=136}] run function 4jbattle:menu/load/host/combat/style/setclassic/run
 #Modern
-execute as @s[scores={4j.gamecfg=137}] run function 4jbattle:menu/load/host/combat/style/setmodern
+execute as @s[scores={4j.gamecfg=137}] run function 4jbattle:menu/load/host/combat/style/setmodern/run
 #Custom
 execute as @s[scores={4j.gamecfg=138}] run function 4jbattle:menu/load/host/combat/style/setcustom
 
