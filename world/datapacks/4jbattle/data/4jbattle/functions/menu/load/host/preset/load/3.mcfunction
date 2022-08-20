@@ -211,9 +211,9 @@ execute if entity @s[advancements={4jbattle:menu/host/presets/3/tp/surround=fals
 
 ##Combat style
 #Classic
-execute if entity @s[advancements={4jbattle:menu/host/presets/3/combat/style/classic=true}] run scoreboard players set #Store 4j.combatstyle 1
+execute if entity @s[advancements={4jbattle:menu/host/presets/3/combat/style/classic=true}] run function 4jbattle:menu/load/host/combat/style/setclassic/scores
 #Modern
-execute if entity @s[advancements={4jbattle:menu/host/presets/3/combat/style/modern=true}] run scoreboard players set #Store 4j.combatstyle 2
+execute if entity @s[advancements={4jbattle:menu/host/presets/3/combat/style/modern=true}] run function 4jbattle:menu/load/host/combat/style/setmodern/scores
 #Custom
 execute if entity @s[advancements={4jbattle:menu/host/presets/3/combat/style/custom=true}] run scoreboard players set #Store 4j.combatstyle 3
 

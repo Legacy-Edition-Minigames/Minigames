@@ -10,7 +10,8 @@
       "translate": "4j.advancement.config.custompack.desc"
     },
     "frame": "task",
-    "announce_to_chat": false
+    "announce_to_chat": false,
+    "hidden": true
   },
   "parent": "4jbattle:config/root",
   "criteria": {

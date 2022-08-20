@@ -67,7 +67,7 @@ function 4jbattle:game/chests/start
 execute as @a run function 4jbattle:game/combat/check
 
 ##Start spectator check
-execute positioned -343 4 -342 run function 4jbattle:game/spectator/start
+execute positioned -343 4 -342 run function 4jbattle:game/spectator/start/check
 
 ##Set spawnpoints
 execute as @a at @s run spawnpoint @s ~ ~ ~

@@ -277,15 +277,15 @@ execute if score #Store 4j.setswordblock matches 1 run advancement grant @s only
 #Swords
 execute if score #Store 4j.setmoderndamage.sword matches 1 run advancement grant @s only 4jbattle:menu/host/presets/3/combat/style/custom/moderndamage/sword
 #Trident
-execute if score #Store 4j.moderndamage.trident matches 1 run advancement grant @s only 4jbattle:menu/host/presets/3/combat/style/custom/moderndamage/trident
+execute if score #Store 4j.setmoderndamage.trident matches 1 run advancement grant @s only 4jbattle:menu/host/presets/3/combat/style/custom/moderndamage/trident
 #Axes
-execute if score #Store 4j.moderndamage.axe matches 1 run advancement grant @s only 4jbattle:menu/host/presets/3/combat/style/custom/moderndamage/axe
+execute if score #Store 4j.setmoderndamage.axe matches 1 run advancement grant @s only 4jbattle:menu/host/presets/3/combat/style/custom/moderndamage/axe
 #Pickaxes
-execute if score #Store 4j.moderndamage.pickaxe matches 1 run advancement grant @s only 4jbattle:menu/host/presets/3/combat/style/custom/moderndamage/pickaxe
+execute if score #Store 4j.setmoderndamage.pickaxe matches 1 run advancement grant @s only 4jbattle:menu/host/presets/3/combat/style/custom/moderndamage/pickaxe
 #Shovels
-execute if score #Store 4j.moderndamage.shovel matches 1 run advancement grant @s only 4jbattle:menu/host/presets/3/combat/style/custom/moderndamage/shovel
+execute if score #Store 4j.setmoderndamage.shovel matches 1 run advancement grant @s only 4jbattle:menu/host/presets/3/combat/style/custom/moderndamage/shovel
 #Hoes
-execute if score #Store 4j.moderndamage.hoe matches 1 run advancement grant @s only 4jbattle:menu/host/presets/3/combat/style/custom/moderndamage/hoe
+execute if score #Store 4j.setmoderndamage.hoe matches 1 run advancement grant @s only 4jbattle:menu/host/presets/3/combat/style/custom/moderndamage/hoe
 
 ##Attack Cooldown
 execute if score #Store 4j.setattackcooldown matches 1 run advancement grant @s only 4jbattle:menu/host/presets/3/combat/style/custom/cooldown

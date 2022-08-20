@@ -1,3 +1,6 @@
+##Set relog score to 1 if there are no players online
+execute unless entity @a run scoreboard players set * 4j.relog 1
+
 ##Check for relog
 function 4jbattle:relog/check
 
