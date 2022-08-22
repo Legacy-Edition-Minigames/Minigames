@@ -1,3 +1,6 @@
+##Unload previous lobby if needed
+execute if score #Store 4j.fullreset matches 1 run dimensionloader unload 4jbattle:the_lobby
+
 ##Check for eliminated players
 function 4jbattle:game/death/check
 
