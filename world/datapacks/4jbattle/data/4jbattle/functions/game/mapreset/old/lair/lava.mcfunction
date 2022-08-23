@@ -1,1 +1,0 @@
-execute in 4jbattle:lair run fill 77 44 34 67 44 24 lava replace lava
