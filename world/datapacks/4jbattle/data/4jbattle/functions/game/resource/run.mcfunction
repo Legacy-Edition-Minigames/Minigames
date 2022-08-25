@@ -1,9 +1,6 @@
 ##Load the arena dimension
 function 4jbattle:game/setup/load
 
-##Temp thing until kyptonaught adds the thingy
-schedule function 4jbattle:serverutils/dimensionloaded 2s
-
 ##Lock players to map center
 function 4jbattle:game/resource/check
 
