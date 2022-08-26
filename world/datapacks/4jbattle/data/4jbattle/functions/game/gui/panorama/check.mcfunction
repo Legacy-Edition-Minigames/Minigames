@@ -45,5 +45,8 @@ execute if entity @a[advancements={4jmenu:config/panscale/4=true}] run function 
 ##Clear items
 kill @e[type=item]
 
+##Give absorption (janky ghost absorption hearts fix)
+effect give @a[tag=!relogtimer] absorption 1 1 true
+
 ##Loop
 schedule function 4jbattle:game/gui/panorama/check 1t
