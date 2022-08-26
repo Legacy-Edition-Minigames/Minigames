@@ -1,4 +1,4 @@
-##Lock at Panorama
+##Lock at map center
 tp @a[tag=!relogtimer] @e[type=area_effect_cloud,sort=nearest,limit=1,tag=MapCenter]
 
 ##Give invis
