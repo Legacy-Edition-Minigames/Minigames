@@ -1,3 +1,8 @@
+##Remove other banners
+schedule clear 4jbattle:game/gui/banner/stopwatch/check
+schedule clear 4jbattle:game/gui/banner/text/showdown/check
+bossbar set minecraft:bannerpushdown2 name ""
+
 ##Set score
 scoreboard players set #Store 4j.banneranim 0
 
