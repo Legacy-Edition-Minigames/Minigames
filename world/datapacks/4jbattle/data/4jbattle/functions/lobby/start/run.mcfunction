@@ -68,7 +68,7 @@ function 4jbattle:mapdecider/loadenabled
 function 4jbattle:mapdecider/vote/load
 
 ##Reset world back
-function 4jbattle:lobby/reset/run
+execute if score #Store 4j.fullreset matches 0 run function 4jbattle:lobby/reset/run
 
 ##Set tablist display
 function 4jbattle:game/gui/playerlist/scores/check/lobby

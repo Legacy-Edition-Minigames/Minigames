@@ -220,9 +220,6 @@ scoreboard objectives add 4j.chestanim dummy
 ##GlobalInfo mode
 scoreboard objectives add 4j.gimode dummy
 
-##Legacy map resetter toggle
-scoreboard objectives add 4j.legacyreset dummy
-
 ##Lobby Full Reset number
 scoreboard objectives add 4j.fullreset dummy
 

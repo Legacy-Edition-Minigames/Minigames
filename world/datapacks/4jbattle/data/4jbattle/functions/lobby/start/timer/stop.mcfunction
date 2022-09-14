@@ -1,3 +1,6 @@
+##Unload the previous map
+dimensionloader unload 4jbattle:arena
+
 ##Stop teleport
 function 4jbattle:lobby/start/timer/teleport/stop
 

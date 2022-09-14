@@ -1,6 +1,12 @@
 ##Add Tag
 tag @s add host
 
+##Unload previous lobby
+dimensionloader unload 4jbattle:the_lobby
+
+##Unload the previous map
+dimensionloader unload 4jbattle:arena
+
 ##Load menu
 function 4jbattle:menu/load/host
 

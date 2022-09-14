@@ -19,8 +19,5 @@ tag @a remove custompack
 ##Clear chests
 execute at @e[tag=Chest] run data merge block ~ ~ ~ {LootTable:"",Items:[{}]}
 
-##Reset maps
-function 4jbattle:game/mapreset/run
-
 ##Start game
 schedule function 4jbattle:game/timer/start/prep 5t
