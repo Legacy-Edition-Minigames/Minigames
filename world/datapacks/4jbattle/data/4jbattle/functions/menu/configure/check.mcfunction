@@ -23,7 +23,8 @@ execute as @s[scores={4j.gamecfg=8}] run function 4jbattle:menu/load/host/chest/
 execute as @s[scores={4j.gamecfg=9}] run function 4jbattle:menu/load/host/start/check
 
 ##Map settings
-execute as @s[scores={4j.gamecfg=1000..}] run function 4jbattle:menu/configure/map
+execute as @s[scores={4j.gamecfg=1000..1999}] run function 4jbattle:menu/configure/map
+execute as @s[scores={4j.gamecfg=3000..4999}] run function 4jbattle:menu/configure/map
 
 ##Map Type
 #Auto
@@ -279,6 +280,12 @@ execute as @s[scores={4j.gamecfg=157}] run function 4jbattle:menu/load/host/comb
 execute as @s[scores={4j.gamecfg=158}] run function 4jbattle:menu/load/host/combat/style/custom/moderndamage/enable/shovel
 #Hoes
 execute as @s[scores={4j.gamecfg=159}] run function 4jbattle:menu/load/host/combat/style/custom/moderndamage/enable/hoe
+
+##Modded content toggle
+#Enable
+execute as @s[scores={4j.gamecfg=162}] run function 4jbattle:menu/load/host/mods/enable
+#Disable
+execute as @s[scores={4j.gamecfg=163}] run function 4jbattle:menu/load/host/mods/disable
 
 ##Reset score
 scoreboard players reset @s 4j.gamecfg

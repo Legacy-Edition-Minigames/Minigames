@@ -155,3 +155,6 @@ scoreboard players set #Store 4j.setattackspeed 1
 
 ##Extended Potion Range
 scoreboard players set #Store 4j.extendedpotionrange 1
+
+##Enable mods
+scoreboard players set #Store 4j.enablemods 1

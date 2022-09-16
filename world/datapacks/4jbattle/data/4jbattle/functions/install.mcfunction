@@ -446,6 +446,9 @@ scoreboard objectives add patreon trigger
 ##Variable for checking if the game has started
 scoreboard objectives add 4j.gamestarted dummy
 
+##Mods enable/disable toggle
+scoreboard objectives add 4j.enablemods dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
