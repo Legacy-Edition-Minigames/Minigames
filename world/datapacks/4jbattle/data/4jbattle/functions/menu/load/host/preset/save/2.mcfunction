@@ -106,6 +106,7 @@ advancement revoke @s only 4jbattle:menu/host/presets/2/combat/style/custom/atta
 advancement revoke @s only 4jbattle:menu/host/presets/2/combat/style/custom/attackspeed/normal
 advancement revoke @s only 4jbattle:menu/host/presets/2/combat/style/custom/attackspeed/fast
 advancement revoke @s only 4jbattle:menu/host/presets/2/combat/style/custom/attackspeed/fastest
+advancement revoke @s only 4jbattle:menu/host/presets/2/mods/enabled
 advancement revoke @s only 4jbattle:menu/host/presets/2/version/1
 advancement revoke @s only 4jbattle:menu/host/presets/2/version/2
 advancement revoke @s only 4jbattle:menu/host/presets/2/version/3
@@ -302,6 +303,9 @@ execute if score #Store 4j.setattackspeed matches 3 run advancement grant @s onl
 
 ##Extended potion range
 execute if score #Store 4j.extendedpotionrange matches 1 run advancement grant @s only 4jbattle:menu/host/presets/2/combat/extendedpotionrange
+
+##Mods enable/disable toggle
+execute if score #Store 4j.enablemods matches 1 run advancement grant @s only 4jbattle:menu/host/presets/2/mods/enabled
 
 ##Mark as saved
 advancement grant @s only 4jbattle:menu/host/presets/2/saved

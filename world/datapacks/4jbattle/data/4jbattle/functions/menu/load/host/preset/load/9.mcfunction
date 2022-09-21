@@ -264,6 +264,12 @@ execute if entity @s[advancements={4jbattle:menu/host/presets/9/combat/extendedp
 #Disabled
 execute if entity @s[advancements={4jbattle:menu/host/presets/9/combat/extendedpotionrange=false}] run scoreboard players set #Store 4j.extendedpotionrange 0
 
+##Mods enable/disable toggle
+#Enabled
+execute if entity @s[advancements={4jbattle:menu/host/presets/9/mods/enabled=true}] run scoreboard players set #Store 4j.enablemods 1
+#Disabled
+execute if entity @s[advancements={4jbattle:menu/host/presets/9/mods/enabled=false}] run scoreboard players set #Store 4j.enablemods 0
+
 ##Global functions
 function 4jbattle:menu/load/host/preset/load/global
 
