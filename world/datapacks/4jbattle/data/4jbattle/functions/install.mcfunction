@@ -449,6 +449,16 @@ scoreboard objectives add 4j.gamestarted dummy
 ##Mods enable/disable toggle
 scoreboard objectives add 4j.enablemods dummy
 
+##Map type disable variables
+#Small
+scoreboard objectives add 4j.maptypeavailable.small dummy
+#Large
+scoreboard objectives add 4j.maptypeavailable.large dummy
+#Large+
+scoreboard objectives add 4j.maptypeavailable.largeplus dummy
+#Remastered
+scoreboard objectives add 4j.maptypeavailable.remastered dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
