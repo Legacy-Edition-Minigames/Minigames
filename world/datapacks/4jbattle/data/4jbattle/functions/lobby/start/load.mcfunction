@@ -18,3 +18,6 @@ function 4jbattle:lobby/nodrop/check
 
 ##Disable chesttracker
 chesttracker enabled false
+
+##Refresh time
+function 4jbattle:game/time/refresh

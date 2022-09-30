@@ -16,6 +16,9 @@ function 4jbattle:game/custom/stop
 ##Run mapinit end functions
 function 4jbattle:game/mapinit/stop
 
+##Reset map id
+scoreboard players set #Store 4j.map 0
+
 ##Load Lobby
 execute if entity @a[tag=host] run function 4jbattle:lobby/start/load
 
@@ -27,9 +30,6 @@ function 4jbattle:game/music/stop
 
 ##Disable take everything
 takeeverything enabled false
-
-##Reset map id
-scoreboard players set #Store 4j.map 0
 
 ##Mark game as no longer started
 scoreboard players set #Store 4j.gamestarted 0
