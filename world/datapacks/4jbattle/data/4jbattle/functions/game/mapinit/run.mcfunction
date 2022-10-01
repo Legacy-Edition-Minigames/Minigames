@@ -1,8 +1,2 @@
-##Invasion
-execute if score #Store 4j.map matches 14 run function 4jbattle:game/mapinit/invasion/start
-
-##Festive
-execute if score #Store 4j.map matches 18 run function 4jbattle:game/mapinit/festive/start
-
-##Atomics
-execute if score #Store 4j.map matches 19 run function 4jbattle:game/mapinit/atomics/start
+###Used to be for loading per-map time, moved to 4jbattle:game/time
+###Will likely be used by mods for scripting reasons later

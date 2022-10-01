@@ -31,6 +31,9 @@ execute as @a[tag=!relogtimer] run function 4jbattle:game/join
 ##Load Init functions
 function 4jbattle:game/mapinit/run
 
+##Refresh time
+function 4jbattle:game/time/refresh
+
 ##Load resources
 function 4jbattle:game/resource/run
 

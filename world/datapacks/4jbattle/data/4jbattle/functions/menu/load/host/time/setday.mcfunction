@@ -1,8 +1,8 @@
-##Set time
-time set day
-
 ##Set score
 scoreboard players set #Store 4j.vistime 1
+
+##Refresh time
+function 4jbattle:game/time/refresh
 
 ##Load globalinfo
 function 4jbattle:game/gui/globalinfo/load
