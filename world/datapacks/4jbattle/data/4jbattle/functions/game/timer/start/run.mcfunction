@@ -1,6 +1,12 @@
 ##Unload previous lobby if needed
 execute if score #Store 4j.fullreset matches 1 run dimensionloader unload 4jbattle:the_lobby
 
+##Load Init functions
+#First round
+execute if score #Store 4j.initialgame matches 1 run function 4jbattle:game/mapinit/gamestart
+#Every other round
+execute if score #Store 4j.initialgame matches 0 run function 4jbattle:game/mapinit/newround
+
 ##Check for eliminated players
 function 4jbattle:game/death/check
 

@@ -29,7 +29,7 @@ function 4jbattle:game/playerreset
 execute as @a[tag=!relogtimer] run function 4jbattle:game/join
 
 ##Load Init functions
-function 4jbattle:game/mapinit/run
+function 4jbattle:game/mapinit/preload
 
 ##Refresh time
 function 4jbattle:game/time/refresh
