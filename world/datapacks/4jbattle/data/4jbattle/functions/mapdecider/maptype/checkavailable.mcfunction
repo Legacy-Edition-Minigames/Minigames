@@ -24,6 +24,10 @@ execute if score #Store 4j.map matches 8 run scoreboard players set #Store 4j.ma
 #Remastered
 execute if score #Store 4j.map matches 10 run scoreboard players set #Store 4j.maptypeavailable.remastered 0
 
+##Ruin
+#Remastered
+execute if score #Store 4j.map matches 11 run scoreboard players set #Store 4j.maptypeavailable.remastered 0
+
 ##Siege
 #Remastered
 execute if score #Store 4j.map matches 12 run scoreboard players set #Store 4j.maptypeavailable.remastered 0

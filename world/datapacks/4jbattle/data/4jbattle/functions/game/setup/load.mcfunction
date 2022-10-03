@@ -98,8 +98,6 @@ execute if score #Store 4j.map matches 11 if score #Store 4j.maptype matches 1 r
 execute if score #Store 4j.map matches 11 if score #Store 4j.maptype matches 2 run dimensionloader prepareDimension 4jbattle:arena 4jbattle:ruin 4jbattle:game/resource/dimensionloaded
 #Large+
 execute if score #Store 4j.map matches 11 if score #Store 4j.maptype matches 4 run dimensionloader prepareDimension 4jbattle:arena 4jbattle:ruin_largeplus 4jbattle:game/resource/dimensionloaded
-#Remastered
-execute if score #Store 4j.map matches 11 if score #Store 4j.maptype matches 3 run dimensionloader prepareDimension 4jbattle:arena 4jbattle:ruin_remastered 4jbattle:game/resource/dimensionloaded
 
 ##Siege
 #Small

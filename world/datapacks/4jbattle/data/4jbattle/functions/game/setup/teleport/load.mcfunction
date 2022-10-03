@@ -98,8 +98,6 @@ execute if score #Store 4j.map matches 11 if score #Store 4j.maptype matches 1 i
 execute if score #Store 4j.map matches 11 if score #Store 4j.maptype matches 2 in 4jbattle:arena run tp @s -51 3 50
 #Large+
 execute if score #Store 4j.map matches 11 if score #Store 4j.maptype matches 4 in 4jbattle:arena run tp @s -51 3 50
-#Remastered
-execute if score #Store 4j.map matches 11 if score #Store 4j.maptype matches 3 in 4jbattle:arena run tp @s -51 12 50
 
 ##Siege
 #Small
