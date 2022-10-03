@@ -1,6 +1,9 @@
 ##Remove 1 round
 scoreboard players remove #Store 4j.round 1
 
+##Load Init functions
+function 4jbattle:game/mapinit/roundend
+
 ##Set gamemode
 #Hide message (i have no clue why just this instance of the gamemode command causes this please help)
 gamerule sendCommandFeedback false

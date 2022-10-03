@@ -14,7 +14,7 @@ scoreboard players set #Store 4j.gamestatus 1
 function 4jbattle:game/custom/stop
 
 ##Run mapinit end functions
-function 4jbattle:game/mapinit/stop
+function 4jbattle:game/mapinit/end
 
 ##Reset map id
 scoreboard players set #Store 4j.map 0

@@ -446,6 +446,9 @@ scoreboard objectives add patreon trigger
 ##Variable for checking if the game has started
 scoreboard objectives add 4j.gamestarted dummy
 
+##Variable for checking if mapload init functions have been run already
+scoreboard objectives add 4j.mapinit.mapload dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
