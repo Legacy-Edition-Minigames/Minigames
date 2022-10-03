@@ -459,6 +459,9 @@ scoreboard objectives add 4j.maptypeavailable.largeplus dummy
 #Remastered
 scoreboard objectives add 4j.maptypeavailable.remastered dummy
 
+##Variable for checking if mapload init functions have been run already
+scoreboard objectives add 4j.mapinit.mapload dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
