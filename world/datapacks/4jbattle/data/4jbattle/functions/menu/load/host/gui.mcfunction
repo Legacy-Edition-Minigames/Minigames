@@ -14,6 +14,8 @@ function 4jbattle:menu/load/host/combat/run
 function 4jbattle:menu/load/host/bug/run
 #Presets
 function 4jbattle:menu/load/host/preset/run
+#Mods button
+function 4jbattle:menu/load/host/mods/run
 #Start Button
 execute if score #Store 4j.gamestatus matches 0 run tellraw @s {"text":"[Start]","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger 4j.gamecfg set 9"}}
 

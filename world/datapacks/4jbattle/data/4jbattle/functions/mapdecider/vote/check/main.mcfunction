@@ -6,9 +6,9 @@ execute as @a[scores={4j.playermapvote=-1}] run function 4jbattle:mapdecider/vot
 
 ##Open mod menu
 #Main
-execute as @a[scores={4j.playermapvote=-2}] run function 4jbattle:mapdecider/vote/modmenu/main
+execute as @a[scores={4j.playermapvote=-2999..-2000}] run function 4jbattle:mapdecider/vote/modmenu/main
 #Map specific voting menu
-execute as @a[scores={4j.playermapvote=-2999..-2000}] run function 4jbattle:mapdecider/vote/modmenu/map
+execute as @a[scores={4j.playermapvote=-3999..-3000}] run function 4jbattle:mapdecider/vote/modmenu/map
 
 ##add 1 to Crucible's vote count if voted for
 #If user has voted for this map
