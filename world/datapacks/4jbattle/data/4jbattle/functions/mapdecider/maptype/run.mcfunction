@@ -1,11 +1,11 @@
 ##Check for if map is missing a map type
 function 4jbattle:mapdecider/maptype/checkavailable
 
-##Get auto map type if set
-execute if score #Store 4j.setmaptype matches 1 run function 4jbattle:mapdecider/maptype/auto
-
 ##Set map type to 0 for checking if map type changes
 scoreboard players set #Store 4j.maptype 0
+
+##Get auto map type if set
+execute if score #Store 4j.setmaptype matches 1 run function 4jbattle:mapdecider/maptype/auto
 
 ##Get map type if manually set by host
 #Small
