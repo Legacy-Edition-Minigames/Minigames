@@ -1,3 +1,6 @@
+##Mark lobby as loaded
+scoreboard players set #Store 4j.lobbyready 0
+
 ##Teleport players to lobby
 execute as @a[tag=!relogtimer] run function 4jbattle:lobby/spawn/preload/run
 
