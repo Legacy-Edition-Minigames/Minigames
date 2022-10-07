@@ -1,3 +1,6 @@
+##Clear check for waiting on dimension to be ready
+schedule clear 4jbattle:menu/load/host/start/timer/run
+
 ##Clear menu check
 schedule clear 4jbattle:menu/check
 

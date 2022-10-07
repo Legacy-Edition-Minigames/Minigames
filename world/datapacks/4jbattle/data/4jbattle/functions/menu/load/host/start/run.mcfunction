@@ -18,4 +18,7 @@ scoreboard players reset @a 4j.globalkills
 scoreboard players set #Store 4j.fullreset 1
 
 ##Start
-function 4jbattle:lobby/start/load
+execute if score #Store 4j.lobbyready matches 1 run function 4jbattle:lobby/start/load
+
+##Start timer to wait for lobby if its not ready
+execute if score #Store 4j.lobbyready matches 0 run function 4jbattle:menu/load/host/start/timer/run
