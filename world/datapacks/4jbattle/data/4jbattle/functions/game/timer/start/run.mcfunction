@@ -1,5 +1,5 @@
 ##Unload previous lobby if needed
-execute if score #Store 4j.fullreset matches 1 run dimensionloader unload 4jbattle:the_lobby
+execute if score #Store 4j.fullreset matches 1 run dimensionloader unload 4jbattle:the_lobby 4jbattle:menu/load/host/start/timer/lobbyunloaded
 
 ##Load Init functions
 #First round

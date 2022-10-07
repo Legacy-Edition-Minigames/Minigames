@@ -462,6 +462,9 @@ scoreboard objectives add 4j.maptypeavailable.remastered dummy
 ##Variable for checking if mapload init functions have been run already
 scoreboard objectives add 4j.mapinit.mapload dummy
 
+##Variable for checking if lobby dimension is ready to be loaded or not in a very specific scenario
+scoreboard objectives add 4j.lobbyready dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
@@ -472,6 +475,9 @@ scoreboard players set #Store 4j.gamestatus 0
 
 ##Set lobby timer
 scoreboard players set #Store 4j.lobbytimerset 60
+
+##Mark lobby as ready to load
+scoreboard players set #Store 4j.lobbyready 1
 
 ##Set PID (Temporary!)
 #Reset stored PID
