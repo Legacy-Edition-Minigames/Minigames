@@ -27,6 +27,8 @@ This project is far from completion! Do not expect too much in its current state
 
 Optifine has issues with the default pack, please [read this](https://github.com/DBTDerpbox/Legacy-Edition-Battle/issues/4) for info on a fix.
 
+Lunar Client is currently not supported, see [this page](http://minigames.derpbox.xyz/lunar/) for more information about this.
+
 Legacy Edition Battle is currently designed for [Minecraft Java Edition 1.18.2](https://www.minecraft.net/en-us/article/minecraft-java-edition-1-18-2)
 
 ### Credits
