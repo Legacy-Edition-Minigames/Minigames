@@ -1,5 +1,5 @@
 ##Display message
-tellraw @s ["",{"translate":"4j.resource.reloadresource.customenabled.warning","color":"red"},"\n",{"translate":"4j.resource.reloadresource.customenabled.hint","with":[{"text":"/trigger maptextures set -2","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger maptextures set -2"},"hoverEvent":{"action":"show_text","contents":[{"translate":"4j.resource.reloadresource.customenabled.hover","italic":true,"color":"yellow"}]}}],"color":"gold"}]
+#tellraw @s ["",{"translate":"4j.resource.reloadresource.customenabled.warning","color":"red"},"\n",{"translate":"4j.resource.reloadresource.customenabled.hint","with":[{"text":"/trigger maptextures set -2","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger maptextures set -2"},"hoverEvent":{"action":"show_text","contents":[{"translate":"4j.resource.reloadresource.customenabled.hover","italic":true,"color":"yellow"}]}}],"color":"gold"}]
 
 ##Load blank resource pack
 function 4jbattle:resource/load/pack/blank
