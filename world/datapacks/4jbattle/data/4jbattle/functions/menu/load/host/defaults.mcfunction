@@ -105,8 +105,8 @@ scoreboard players set #Store 4j.healtimer 37
 ##Set natral regen
 scoreboard players set #Store 4j.naturalregen 1
 
-##Set new lobby
-scoreboard players set #Store 4j.setlobbytype 1
+##Get default lobby
+function 4jbattle:menu/load/host/lobby/getdefault
 
 ##Set time limit
 scoreboard players set #Store 4j.timelimit 2

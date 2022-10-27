@@ -31,8 +31,8 @@ execute as @a[tag=!relogtimer] run function 4jbattle:game/join
 ##Load Init functions
 function 4jbattle:game/mapinit/run
 
-##Load resources
-function 4jbattle:game/resource/run
+##Load players into the map
+function 4jbattle:game/loading/run
 
 ##Reset kill counter
 #Per-Round

@@ -172,9 +172,6 @@ scoreboard objectives add 4j.naturalregen dummy
 ##SetChest score
 scoreboard objectives add 4j.setchest dummy
 
-##Custom resource pack
-scoreboard objectives add 4j.custompack dummy
-
 ##Optifine resources toggle
 scoreboard objectives add optifinepack trigger
 
@@ -448,6 +445,9 @@ scoreboard objectives add patreon trigger
 
 ##Variable for checking if the game has started
 scoreboard objectives add 4j.gamestarted dummy
+
+##Music Pack ID
+scoreboard objectives add 4j.muspack dummy
 
 ##Set Gamerules
 #Lock Time

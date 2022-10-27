@@ -13,11 +13,8 @@ function 4jbattle:menu/load/host/preset/update/check/run
 ##Add resoureloaded tag
 tag @s add resourceloaded
 
-##Remove custompack tag
-tag @s remove custompack
-
 ##Revoke resourcepack loading advancements
-function 4jbattle:game/resource/advancementreset
+function 4jbattle:resource/advancementreset
 
 ##Reset resourcepack timer score
 #scoreboard players reset @s 4j.relogtimer
@@ -26,7 +23,7 @@ function 4jbattle:game/resource/advancementreset
 tag @s remove relogtimer
 
 ##Set PID
-scoreboard players reset @s
+scoreboard players reset @s 4j.pid
 function 4jbattle:game/player/setpid
 
 ##Detect if Patreon
