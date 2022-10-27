@@ -1,3 +1,6 @@
+##Load pack to use
+function 4jbattle:game/music/id
+
 ##Start Music
 #Set MusTimer
 scoreboard players set @a 4j.mustimer 0

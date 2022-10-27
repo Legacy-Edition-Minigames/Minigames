@@ -21,7 +21,7 @@ function 4jbattle:game/gui/display
 function 4jbattle:clientconfig/check
 
 ##Check for resource reloads
-function 4jbattle:game/resource/reload/check
+function 4jbattle:resource/reload/check
 
 ##Set GlobalInfo mode
 scoreboard players set #Store 4j.globalinfo 1

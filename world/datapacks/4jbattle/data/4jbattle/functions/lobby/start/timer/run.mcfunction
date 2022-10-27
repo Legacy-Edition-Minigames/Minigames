@@ -1,5 +1,5 @@
 ##Detect if map is loaded
-execute if entity @a[tag=!relogtimer] as @e[type=area_effect_cloud,tag=LobbyCenter] at @s run function 4jbattle:game/resource/mapload/check
+execute if entity @a[tag=!relogtimer] as @e[type=area_effect_cloud,tag=LobbyCenter] at @s run function 4jbattle:game/loading/mapload/checkcorner
 
 ##Teleport to center
 execute as @a[tag=!relogtimer] at @s run tp @s @e[type=area_effect_cloud,tag=LobbyCenter,limit=1,sort=nearest]
