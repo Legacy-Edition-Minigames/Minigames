@@ -1,0 +1,6 @@
+{
+	// Smoothing bias toward current avg -> prev avg
+	"smoothing": 0.699999988079071,
+	// Max allowed Clicks Per Second
+	"CPSLimit": 14.0
+}
