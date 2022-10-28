@@ -2,7 +2,6 @@
   "temperature": 2,
   "downfall": 0,
   "precipitation": "none",
-  "category": "desert",
   "effects": {
     "sky_color": 7254527,
     "fog_color": 12638463,
