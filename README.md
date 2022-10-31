@@ -49,6 +49,8 @@ Map Packs 1-4 - [MinecraftDigger](https://www.youtube.com/c/MinecraftDigger/)
 
 Texture Pack ports - [Ultmate_Mario](https://ultmatemario.wixsite.com/ultmatemario)
 
+Updating the Halloween textures to 1.19 - PastelBranches/Rasriel
+
 Significant Modding Help - [Kyrptonaught](https://github.com/kyrptonaught)
 
 Achievement Icons - [Lion8cake](https://github.com/Lion8cake)

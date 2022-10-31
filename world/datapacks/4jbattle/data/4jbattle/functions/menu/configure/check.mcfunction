@@ -287,5 +287,8 @@ execute as @s[scores={4j.gamecfg=162}] run function 4jbattle:menu/load/host/mods
 #Disable
 execute as @s[scores={4j.gamecfg=163}] run function 4jbattle:menu/load/host/mods/disable
 
+##Set lobby to halloween
+execute as @s[scores={4j.gamecfg=164}] run function 4jbattle:menu/load/host/lobby/sethalloween
+
 ##Reset score
 scoreboard players reset @s 4j.gamecfg

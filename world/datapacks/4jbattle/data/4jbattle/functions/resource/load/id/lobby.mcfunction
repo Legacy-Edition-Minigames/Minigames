@@ -7,5 +7,5 @@ execute unless entity @a[tag=!relogtimer] run scoreboard players operation #Stor
 ##Load pack ID
 #Vanilla
 scoreboard players set #Store 4j.pack 0
-#Example
-#execute if score #Store 4j.lobbytype matches 2 run scoreboard players set #Store 4j.pack 1
+#Halloween
+execute if score #Store 4j.lobbytype matches 3 run scoreboard players set #Store 4j.pack 7

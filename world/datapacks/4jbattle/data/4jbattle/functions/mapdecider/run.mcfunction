@@ -23,6 +23,9 @@ function 4jbattle:mapdecider/check
 ##Stop lobby timer check
 schedule clear 4jbattle:lobby/timer/run/check
 
+##Stop lobby custom scripts
+function 4jbattle:lobby/custom/stop
+
 ##Stop vote check
 schedule clear 4jbattle:mapdecider/vote/check
 

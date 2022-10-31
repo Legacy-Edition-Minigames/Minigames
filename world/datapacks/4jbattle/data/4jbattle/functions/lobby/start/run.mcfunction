@@ -78,3 +78,6 @@ function 4jbattle:game/inventory/swap/start
 
 ##Enable combat cooldown check
 function 4jbattle:game/combat/refresh
+
+##Run custom scripts
+function 4jbattle:lobby/custom/start

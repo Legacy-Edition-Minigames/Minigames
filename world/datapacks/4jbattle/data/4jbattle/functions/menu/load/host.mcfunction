@@ -40,6 +40,9 @@ setScoreboardSuffix []
 ##Clear inventory
 clear @a
 
+##Stop lobby custom scripts
+function 4jbattle:lobby/custom/stop
+
 ##Start game if picking new host from existing game
 execute if score #Store 4j.plist matches 2.. run scoreboard players set @s 4j.gamecfg 9
 

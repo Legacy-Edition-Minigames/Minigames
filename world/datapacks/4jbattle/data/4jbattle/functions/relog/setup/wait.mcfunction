@@ -32,6 +32,7 @@ tag @s remove inbounds-z-
 tag @s remove notitle
 tag @s remove MobOverride
 tag @s remove spechead
+tag @s remove backrooms
 tag @s remove heart-architect
 tag @s remove heart-mario
 tag @s remove heart-tris1357
