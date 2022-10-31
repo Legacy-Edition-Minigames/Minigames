@@ -30,7 +30,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.strength\",\"italic\":false},{\"text\":\" (0:10)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:5b,Amplifier:0b,Duration:200}],Potion:\"minecraft:water\"}"
+              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.strength\",\"italic\":false},{\"text\":\" (0:10)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:5,Amplifier:0b,Duration:200}],Potion:\"minecraft:water\"}"
             }
           ]
         }
