@@ -1,5 +1,5 @@
 ##Play music when timer runs out
-execute as @a[scores={4j.mustimer=..0}] at @s run function 4jbattle:menu/music/pick
+execute as @a[tag=!relogtimer,scores={4j.mustimer=..0}] at @s run function 4jbattle:menu/music/pick
 
 ##Decrease timer
 scoreboard players remove @a 4j.mustimer 1
