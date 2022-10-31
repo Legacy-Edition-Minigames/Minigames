@@ -6,3 +6,6 @@ execute if entity @s[advancements={4jbattle:config/optifine=true}] run loadresou
 
 ##Run global functions
 function 4jbattle:resource/load/pack/global
+
+##Set pack id
+scoreboard players set @s 4j.pack 0
