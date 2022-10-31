@@ -6,6 +6,10 @@ kill @e[type=item]
 
 ##I'm not even going to try to comment this
 ##Its a bunch of data merge commands to refill the containers in the lobby
+data merge block -332 68 -310 {Items:[{Count:1b,Slot:4b,id:"minecraft:leather_chestplate",tag:{Damage:0}}],Lock:"lock"}
+data merge block -333 69 -310 {Items:[{Count:1b,Slot:4b,id:"minecraft:leather_helmet",tag:{Damage:0}}],Lock:"lock"}
+data merge block -334 68 -310 {Items:[{Count:1b,Slot:4b,id:"minecraft:leather_leggings",tag:{Damage:0}}],Lock:"lock"}
+data merge block -333 66 -310 {Items:[{Count:1b,Slot:4b,id:"minecraft:leather_boots",tag:{Damage:0}}],Lock:"lock"}
 data merge block -371 69 -340 {Items:[{Count:1b,Slot:4b,id:"minecraft:diamond_chestplate",tag:{Damage:0}}],Lock:"lock"}
 data merge block -372 69 -341 {Items:[{Count:1b,Slot:4b,id:"minecraft:diamond_helmet",tag:{Damage:0}}],Lock:"lock"}
 data merge block -371 69 -342 {Items:[{Count:1b,Slot:4b,id:"minecraft:diamond_leggings",tag:{Damage:0}}],Lock:"lock"}
