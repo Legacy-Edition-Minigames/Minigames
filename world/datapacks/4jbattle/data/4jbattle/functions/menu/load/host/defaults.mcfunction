@@ -108,6 +108,9 @@ scoreboard players set #Store 4j.naturalregen 1
 ##Get default lobby
 function 4jbattle:menu/load/host/lobby/getdefault
 
+##Enable first-time map reset
+scoreboard players set #Store 4j.fullreset 1
+
 ##Set time limit
 scoreboard players set #Store 4j.timelimit 2
 
