@@ -52,6 +52,9 @@ execute as @a[scores={heartcosmetic=15}] run function 4jbattle:clientconfig/hear
 execute as @a[scores={heartcosmetic=16}] run function 4jbattle:clientconfig/heart/switch/biles
 #Lesboy
 execute as @a[scores={heartcosmetic=17}] run function 4jbattle:clientconfig/heart/switch/lesboy
+#Xof
+#Xof
+execute as @a[scores={heartcosmetic=27}] run function 4jbattle:clientconfig/heart/switch/xof
 #Patreon
 #Tiny
 execute as @a[scores={heartcosmetic=20}] if entity @s[scores={4j.patreon=1..}] run function 4jbattle:clientconfig/heart/switch/tiny/run

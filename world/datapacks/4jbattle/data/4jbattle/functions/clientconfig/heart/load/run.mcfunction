@@ -43,6 +43,10 @@ execute if entity @s[advancements={4jbattle:config/heart/biles=true}] run setSuf
 #Load Lesboy heart
 execute if entity @s[advancements={4jbattle:config/heart/lesboy=true}] run setSuffixFont alive "4jbattle:tablist/heart/pride/lesboy" @s
 
+##Xof Set
+#Load Xof heart
+execute if entity @s[advancements={4jbattle:config/heart/xof=true}] run setSuffixFont alive "4jbattle:tablist/heart/xof/xof" @s
+
 ##Patreon
 #Tiny
 execute if entity @s[advancements={4jbattle:config/heart/tiny=true}] run setSuffixFont alive "4jbattle:tablist/heart/patreon/tiny" @s
