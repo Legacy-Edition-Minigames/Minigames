@@ -9,6 +9,8 @@ execute if score #Store 4j.spectype matches 2 as @s[tag=!relogtimer,tag=!MobOver
 execute if score #Store 4j.spectype matches 3 as @s[tag=!relogtimer,tag=!MobOverride] run function 4jbattle:game/spectator/spawn/vex
 #Bee
 execute if score #Store 4j.spectype matches 4 as @s[tag=!relogtimer,tag=!MobOverride] run function 4jbattle:game/spectator/spawn/bee
+#Allay
+execute if score #Store 4j.spectype matches 6 as @s[tag=!relogtimer,tag=!MobOverride] run function 4jbattle:game/spectator/spawn/allay
 #Player Head
 execute if score #Store 4j.spectype matches 5 as @s[tag=!relogtimer,tag=!MobOverride] run function 4jbattle:game/spectator/spawn/head/run
 
@@ -21,5 +23,7 @@ execute as @s[tag=!relogtimer,tag=MobOverride,advancements={4jbattle:config/patr
 execute as @s[tag=!relogtimer,tag=MobOverride,advancements={4jbattle:config/patreon/mob/vex=true}] run function 4jbattle:game/spectator/spawn/vex
 #Bee
 execute as @s[tag=!relogtimer,tag=MobOverride,advancements={4jbattle:config/patreon/mob/bee=true}] run function 4jbattle:game/spectator/spawn/bee
+#Allay
+execute as @s[tag=!relogtimer,tag=MobOverride,advancements={4jbattle:config/patreon/mob/allay=true}] run function 4jbattle:game/spectator/spawn/allay
 #Player Head
 execute as @s[tag=!relogtimer,tag=MobOverride,advancements={4jbattle:config/patreon/mob/head=true}] run function 4jbattle:game/spectator/spawn/head/run

@@ -72,6 +72,7 @@ execute if entity @s[advancements={4jbattle:menu/host/presets/9/spectator/bat=tr
 execute if entity @s[advancements={4jbattle:menu/host/presets/9/spectator/parrot=true}] run tellraw @s ["",{"text":"Spectator Type: ","italic":true,"color":"dark_aqua"},{"text":"Parrot","color":"green"}]
 execute if entity @s[advancements={4jbattle:menu/host/presets/9/spectator/vex=true}] run tellraw @s ["",{"text":"Spectator Type: ","italic":true,"color":"dark_aqua"},{"text":"Vex","color":"green"}]
 execute if entity @s[advancements={4jbattle:menu/host/presets/9/spectator/bee=true}] run tellraw @s ["",{"text":"Spectator Type: ","italic":true,"color":"dark_aqua"},{"text":"Bee","color":"green"}]
+execute if entity @s[advancements={4jbattle:menu/host/presets/9/spectator/allay=true}] run tellraw @s ["",{"text":"Spectator Type: ","italic":true,"color":"dark_aqua"},{"text":"Allay","color":"green"}]
 execute if entity @s[advancements={4jbattle:menu/host/presets/9/spectator/head=true}] run tellraw @s ["",{"text":"Spectator Type: ","italic":true,"color":"dark_aqua"},{"text":"Head","color":"green"}]
 
 ##Time limit
