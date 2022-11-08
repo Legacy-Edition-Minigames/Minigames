@@ -14,5 +14,7 @@ execute if entity @s[scores={patreon=5}] run function 4jbattle:clientconfig/patr
 execute if entity @s[scores={patreon=6}] run function 4jbattle:clientconfig/patreon/set/mob/vex
 #Bee
 execute if entity @s[scores={patreon=7}] run function 4jbattle:clientconfig/patreon/set/mob/bee
+#Allay
+execute if entity @s[scores={patreon=9}] run function 4jbattle:clientconfig/patreon/set/mob/allay
 #Head
 execute if entity @s[scores={patreon=8}] run function 4jbattle:clientconfig/patreon/set/mob/head

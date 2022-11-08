@@ -11,5 +11,7 @@ advancement revoke @s only 4jbattle:config/patreon/mob/parrot
 advancement revoke @s only 4jbattle:config/patreon/mob/vex
 #Bee
 advancement revoke @s only 4jbattle:config/patreon/mob/bee
+#Allay
+advancement revoke @s only 4jbattle:config/patreon/mob/allay
 #Head
 advancement revoke @s only 4jbattle:config/patreon/mob/head

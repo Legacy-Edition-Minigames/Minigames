@@ -11,5 +11,7 @@ execute if entity @s[advancements={4jbattle:config/patreon/mob/parrot=true},scor
 execute if entity @s[advancements={4jbattle:config/patreon/mob/vex=true},scores={4j.patreon=2..}] run tag @s add MobOverride
 #Bee
 execute if entity @s[advancements={4jbattle:config/patreon/mob/bee=true},scores={4j.patreon=2..}] run tag @s add MobOverride
+#Allay
+execute if entity @s[advancements={4jbattle:config/patreon/mob/allay=true},scores={4j.patreon=2..}] run tag @s add MobOverride
 #Head
 execute if entity @s[advancements={4jbattle:config/patreon/mob/head=true},scores={4j.patreon=2..}] run tag @s add MobOverride

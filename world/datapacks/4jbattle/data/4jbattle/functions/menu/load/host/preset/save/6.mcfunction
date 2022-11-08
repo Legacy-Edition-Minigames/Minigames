@@ -80,6 +80,7 @@ advancement revoke @s only 4jbattle:menu/host/presets/6/spectator/bat
 advancement revoke @s only 4jbattle:menu/host/presets/6/spectator/parrot
 advancement revoke @s only 4jbattle:menu/host/presets/6/spectator/vex
 advancement revoke @s only 4jbattle:menu/host/presets/6/spectator/bee
+advancement revoke @s only 4jbattle:menu/host/presets/6/spectator/allay
 advancement revoke @s only 4jbattle:menu/host/presets/6/spectator/head
 advancement revoke @s only 4jbattle:menu/host/presets/6/time/day
 advancement revoke @s only 4jbattle:menu/host/presets/6/time/noon
@@ -243,6 +244,7 @@ execute if score #Store 4j.spectype matches 1 run advancement grant @s only 4jba
 execute if score #Store 4j.spectype matches 2 run advancement grant @s only 4jbattle:menu/host/presets/6/spectator/parrot
 execute if score #Store 4j.spectype matches 3 run advancement grant @s only 4jbattle:menu/host/presets/6/spectator/vex
 execute if score #Store 4j.spectype matches 4 run advancement grant @s only 4jbattle:menu/host/presets/6/spectator/bee
+execute if score #Store 4j.spectype matches 6 run advancement grant @s only 4jbattle:menu/host/presets/6/spectator/allay
 execute if score #Store 4j.spectype matches 5 run advancement grant @s only 4jbattle:menu/host/presets/6/spectator/head
 
 ##Time of day

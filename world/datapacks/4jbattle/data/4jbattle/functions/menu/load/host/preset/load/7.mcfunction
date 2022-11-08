@@ -184,6 +184,7 @@ execute if entity @s[advancements={4jbattle:menu/host/presets/7/spectator/bat=tr
 execute if entity @s[advancements={4jbattle:menu/host/presets/7/spectator/parrot=true}] run scoreboard players set #Store 4j.spectype 2
 execute if entity @s[advancements={4jbattle:menu/host/presets/7/spectator/vex=true}] run scoreboard players set #Store 4j.spectype 3
 execute if entity @s[advancements={4jbattle:menu/host/presets/7/spectator/bee=true}] run scoreboard players set #Store 4j.spectype 4
+execute if entity @s[advancements={4jbattle:menu/host/presets/7/spectator/allay=true}] run scoreboard players set #Store 4j.spectype 6
 execute if entity @s[advancements={4jbattle:menu/host/presets/7/spectator/head=true}] run scoreboard players set #Store 4j.spectype 5
 
 ##Time of day
