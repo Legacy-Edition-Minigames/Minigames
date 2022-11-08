@@ -51,3 +51,6 @@ bossbar set minecraft:globalinfo16 name {"text":"1\uF8012\uF8013\uF8014","font":
 scoreboard players set #Store 4j.timer 80
 #Start
 function 4jbattle:lobby/start/timer/run
+
+##Load resource packs
+schedule function 4jbattle:game/loading/resourceschedule 10t

@@ -34,8 +34,8 @@ function 4jbattle:game/mapinit/preload
 ##Refresh time
 function 4jbattle:game/time/refresh
 
-##Load resources
-function 4jbattle:game/resource/run
+##Load players into the map
+function 4jbattle:game/loading/run
 
 ##Reset kill counter
 #Per-Round

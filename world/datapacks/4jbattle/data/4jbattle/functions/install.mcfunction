@@ -172,9 +172,6 @@ scoreboard objectives add 4j.naturalregen dummy
 ##SetChest score
 scoreboard objectives add 4j.setchest dummy
 
-##Custom resource pack
-scoreboard objectives add 4j.custompack dummy
-
 ##Optifine resources toggle
 scoreboard objectives add optifinepack trigger
 
@@ -464,6 +461,9 @@ scoreboard objectives add 4j.mapinit.mapload dummy
 
 ##Variable for checking if lobby dimension is ready to be loaded or not in a very specific scenario
 scoreboard objectives add 4j.lobbyready dummy
+
+##Music Pack ID
+scoreboard objectives add 4j.muspack dummy
 
 ##Set Gamerules
 #Lock Time

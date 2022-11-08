@@ -1,217 +1,212 @@
 {
-	// Should all criteria be automatically revoked next time the command is executed.
-	"autoRevoke": false,
-	/* 
-	   List of all the resourcepacks configurations to use
-	   packCompatibility is used to define if this is a pack for VANILLA, OPTIFINE, or BOTH
-	*/
-	"packs": [
-		{
-			"packname": "blank",
-			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/blank.zip?raw=true",
-			"hash": "",
-			"required": true,
-			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!",
-			"packCompatibility": "BOTH"
-		},
-		{
-			"packname": "vanilla",
-			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26.3/vanilla.zip?raw=true",
-			"hash": "",
-			"required": true,
-			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!",
-			"packCompatibility": "VANILLA"
-		},
-		{
-			"packname": "vanilla-optifine",
-			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26.3/vanilla.zip?raw=true",
-			"hash": "",
-			"required": true,
-			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!",
-			"packCompatibility": "OPTIFINE"
-		},
-		{
-			"packname": "all-music-1",
-			"url": "https://www.dropbox.com/s/wap4i1ggstqlutw/all-music-1.zip?dl=1",
-			"hash": "",
-			"required": true,
-			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!",
-			"packCompatibility": "VANILLA"
-		},
-		{
-			"packname": "all-music-1-optifine",
-			"url": "https://www.dropbox.com/s/5cva5rez494tpji/all-music-1.zip?dl=1",
-			"hash": "",
-			"required": true,
-			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!",
-			"packCompatibility": "OPTIFINE"
-		},
-		{
-			"packname": "plastic",
-			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26.3/plastic.zip?raw=true",
-			"hash": "",
-			"required": true,
-			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!",
-			"packCompatibility": "VANILLA"
-		},
-		{
-			"packname": "plastic-optifine",
-			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26.3/plastic.zip?raw=true",
-			"hash": "",
-			"required": true,
-			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!",
-			"packCompatibility": "OPTIFINE"
-		},
-		{
-			"packname": "fantasy",
-			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26.3/fantasy.zip?raw=true",
-			"hash": "",
-			"required": true,
-			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!",
-			"packCompatibility": "VANILLA"
-		},
-		{
-			"packname": "fantasy-optifine",
-			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26.3/fantasy.zip?raw=true",
-			"hash": "",
-			"required": true,
-			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!",
-			"packCompatibility": "OPTIFINE"
-		},
-		{
-			"packname": "city",
-			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26.3/city.zip?raw=true",
-			"hash": "",
-			"required": true,
-			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!",
-			"packCompatibility": "VANILLA"
-		},
-		{
-			"packname": "city-optifine",
-			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26.3/city.zip?raw=true",
-			"hash": "",
-			"required": true,
-			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!",
-			"packCompatibility": "OPTIFINE"
-		},
-		{
-			"packname": "greek",
-			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26.3/greek-mythology.zip?raw=true",
-			"hash": "",
-			"required": true,
-			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!",
-			"packCompatibility": "VANILLA"
-		},
-		{
-			"packname": "greek-optifine",
-			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26.3/greek-mythology.zip?raw=true",
-			"hash": "",
-			"required": true,
-			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!",
-			"packCompatibility": "OPTIFINE"
-		},
-		{
-			"packname": "steampunk",
-			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26.3/steampunk.zip?raw=true",
-			"hash": "",
-			"required": true,
-			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!",
-			"packCompatibility": "VANILLA"
-		},
-		{
-			"packname": "steampunk-optifine",
-			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26.3/steampunk.zip?raw=true",
-			"hash": "",
-			"required": true,
-			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!",
-			"packCompatibility": "OPTIFINE"
-		},
-		{
-			"packname": "chinese",
-			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26.3/chinese-mythology.zip?raw=true",
-			"hash": "",
-			"required": true,
-			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!",
-			"packCompatibility": "VANILLA"
-		},
-		{
-			"packname": "chinese-optifine",
-			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26.3/chinese-mythology.zip?raw=true",
-			"hash": "",
-			"required": true,
-			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!",
-			"packCompatibility": "OPTIFINE"
-		},
-		{
-			"packname": "halloween",
-			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26.3/halloween.zip?raw=true",
-			"hash": "",
-			"required": true,
-			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!",
-			"packCompatibility": "VANILLA"
-		},
-		{
-			"packname": "halloween-optifine",
-			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26.3/halloween.zip?raw=true",
-			"hash": "",
-			"required": true,
-			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!",
-			"packCompatibility": "OPTIFINE"
-		},
-		{
-			"packname": "festive",
-			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26.3/festive.zip?raw=true",
-			"hash": "",
-			"required": true,
-			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!",
-			"packCompatibility": "VANILLA"
-		},
-		{
-			"packname": "festive-optifine",
-			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26.3/festive.zip?raw=true",
-			"hash": "",
-			"required": true,
-			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!",
-			"packCompatibility": "OPTIFINE"
-		},
-		{
-			"packname": "fallout",
-			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26.3/fallout.zip?raw=true",
-			"hash": "",
-			"required": true,
-			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!",
-			"packCompatibility": "VANILLA"
-		},
-		{
-			"packname": "fallout-optifine",
-			"url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26.3/fallout.zip?raw=true",
-			"hash": "",
-			"required": true,
-			"hasPrompt": true,
-			"message": "Legacy Edition Battle requires a resource pack to function properly!",
-			"packCompatibility": "OPTIFINE"
-		}
-	]
+  "autoRevoke": false,
+  "packs": [
+    {
+      "packname": "blank",
+      "url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/blank.zip?raw\u003dtrue",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "packCompatibility": "BOTH"
+    },
+    {
+      "packname": "vanilla",
+      "url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26.3/vanilla.zip?raw\u003dtrue",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "packCompatibility": "VANILLA"
+    },
+    {
+      "packname": "vanilla-optifine",
+      "url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26.3/vanilla.zip?raw\u003dtrue",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "packCompatibility": "OPTIFINE"
+    },
+    {
+      "packname": "all-music-1",
+      "url": "https://www.dropbox.com/s/zvbmzme0ym5uxkn/all-music-1-xof.zip?dl=1",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "packCompatibility": "VANILLA"
+    },
+    {
+      "packname": "all-music-1-optifine",
+      "url": "https://www.dropbox.com/s/dzzdl7sd5nhznep/all-music-1-xof.zip?dl=1",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "packCompatibility": "OPTIFINE"
+    },
+    {
+      "packname": "plastic",
+      "url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26.3/plastic.zip?raw\u003dtrue",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "packCompatibility": "VANILLA"
+    },
+    {
+      "packname": "plastic-optifine",
+      "url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26.3/plastic.zip?raw\u003dtrue",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "packCompatibility": "OPTIFINE"
+    },
+    {
+      "packname": "fantasy",
+      "url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26.3/fantasy.zip?raw\u003dtrue",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "packCompatibility": "VANILLA"
+    },
+    {
+      "packname": "fantasy-optifine",
+      "url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26.3/fantasy.zip?raw\u003dtrue",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "packCompatibility": "OPTIFINE"
+    },
+    {
+      "packname": "city",
+      "url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26.3/city.zip?raw\u003dtrue",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "packCompatibility": "VANILLA"
+    },
+    {
+      "packname": "city-optifine",
+      "url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26.3/city.zip?raw\u003dtrue",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "packCompatibility": "OPTIFINE"
+    },
+    {
+      "packname": "greek",
+      "url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26.3/greek-mythology.zip?raw\u003dtrue",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "packCompatibility": "VANILLA"
+    },
+    {
+      "packname": "greek-optifine",
+      "url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26.3/greek-mythology.zip?raw\u003dtrue",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "packCompatibility": "OPTIFINE"
+    },
+    {
+      "packname": "steampunk",
+      "url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26.3/steampunk.zip?raw\u003dtrue",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "packCompatibility": "VANILLA"
+    },
+    {
+      "packname": "steampunk-optifine",
+      "url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26.3/steampunk.zip?raw\u003dtrue",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "packCompatibility": "OPTIFINE"
+    },
+    {
+      "packname": "chinese",
+      "url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26.3/chinese-mythology.zip?raw\u003dtrue",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "packCompatibility": "VANILLA"
+    },
+    {
+      "packname": "chinese-optifine",
+      "url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26.3/chinese-mythology.zip?raw\u003dtrue",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "packCompatibility": "OPTIFINE"
+    },
+    {
+      "packname": "halloween",
+      "url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26.3/halloween-1.19-xof.zip?raw\u003dtrue",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "packCompatibility": "VANILLA"
+    },
+    {
+      "packname": "halloween-optifine",
+      "url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26.3/halloween-1.19-xof.zip?raw\u003dtrue",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "packCompatibility": "OPTIFINE"
+    },
+    {
+      "packname": "festive",
+      "url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26.3/festive.zip?raw\u003dtrue",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "packCompatibility": "VANILLA"
+    },
+    {
+      "packname": "festive-optifine",
+      "url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26.3/festive.zip?raw\u003dtrue",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "packCompatibility": "OPTIFINE"
+    },
+    {
+      "packname": "fallout",
+      "url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26.3/fallout.zip?raw\u003dtrue",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "packCompatibility": "VANILLA"
+    },
+    {
+      "packname": "fallout-optifine",
+      "url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26.3/fallout.zip?raw\u003dtrue",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "packCompatibility": "OPTIFINE"
+    }
+  ]
 }

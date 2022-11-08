@@ -2,7 +2,7 @@
 
 This is an attempt to port the Battle minigame from the Legacy Editions of minecraft
 
-![Minecraft Version](https://img.shields.io/badge/Minecraft-1.18.2-80ba42?style=for-the-badge) ![License](https://img.shields.io/github/license/DBTDerpbox/legacy-edition-battle?style=for-the-badge) ![Last Commit](https://img.shields.io/github/last-commit/dbtderpbox/legacy-edition-battle?style=for-the-badge)
+![Minecraft Version](https://img.shields.io/badge/Minecraft-1.19.2-80ba42?style=for-the-badge) ![License](https://img.shields.io/github/license/DBTDerpbox/legacy-edition-battle?style=for-the-badge) ![Last Commit](https://img.shields.io/github/last-commit/dbtderpbox/legacy-edition-battle?style=for-the-badge)
 
 [![forthebadge](https://forthebadge.com/images/badges/contains-tasty-spaghetti-code.svg)](https://forthebadge.com) ![Powered By Nostalgia](https://img.shields.io/badge/Powered_by-Nostalgia-e49454?style=for-the-badge)
 
@@ -48,6 +48,8 @@ Old Lobby - [Greenphx](https://www.youtube.com/watch?v=jS8_P9xmGKQ)
 Map Packs 1-4 - [MinecraftDigger](https://www.youtube.com/c/MinecraftDigger/)
 
 Texture Pack ports - [Ultmate_Mario](https://ultmatemario.wixsite.com/ultmatemario)
+
+Updating the Halloween textures to 1.19 - PastelBranches/Rasriel
 
 Significant Modding Help - [Kyrptonaught](https://github.com/kyrptonaught)
 

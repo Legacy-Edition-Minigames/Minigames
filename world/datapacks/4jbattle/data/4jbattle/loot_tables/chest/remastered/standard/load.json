@@ -32,7 +32,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.tipped_arrow.effect.slowness\",\"italic\":false},{\"text\":\" (0:05)\",\"color\":\"gray\",\"italic\":false}]'},CustomPotionEffects:[{Id:2b,Amplifier:0b,Duration:100}],Potion:\"minecraft:water\"}"
+              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.tipped_arrow.effect.slowness\",\"italic\":false},{\"text\":\" (0:05)\",\"color\":\"gray\",\"italic\":false}]'},CustomPotionEffects:[{Id:2,Amplifier:0b,Duration:100}],Potion:\"minecraft:water\"}"
             },
             {
               "function": "minecraft:set_count",
@@ -47,7 +47,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.tipped_arrow.effect.weakness\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\",\"italic\":false}]'},CustomPotionEffects:[{Id:18b,Amplifier:0b,Duration:140}],Potion:\"minecraft:water\"}"
+              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.tipped_arrow.effect.weakness\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\",\"italic\":false}]'},CustomPotionEffects:[{Id:18,Amplifier:0b,Duration:140}],Potion:\"minecraft:water\"}"
             },
             {
               "function": "minecraft:set_count",
@@ -66,7 +66,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.tipped_arrow.effect.poison\",\"italic\":false},{\"text\":\" (0:03)\",\"color\":\"gray\",\"italic\":false}]'},CustomPotionEffects:[{Id:19b,Amplifier:0b,Duration:60}],Potion:\"minecraft:water\"}"
+              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.tipped_arrow.effect.poison\",\"italic\":false},{\"text\":\" (0:03)\",\"color\":\"gray\",\"italic\":false}]'},CustomPotionEffects:[{Id:19,Amplifier:0b,Duration:60}],Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -150,7 +150,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.splash_potion.effect.slowness\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:2b,Amplifier:0b,Duration:140}],Potion:\"minecraft:water\"}"
+              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.splash_potion.effect.slowness\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:2,Amplifier:0b,Duration:140}],Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -161,7 +161,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.splash_potion.effect.weakness\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:18b,Amplifier:0b,Duration:140}],Potion:\"minecraft:water\"}"
+              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.splash_potion.effect.weakness\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:18,Amplifier:0b,Duration:140}],Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -172,7 +172,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.splash_potion.effect.poison\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:19b,Amplifier:1b,Duration:140}],Potion:\"minecraft:water\"}"
+              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.splash_potion.effect.poison\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:19,Amplifier:1b,Duration:140}],Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -183,7 +183,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.slow_falling\",\"italic\":false},{\"text\":\" (0:10)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:28b,Amplifier:0b,Duration:200}],Potion:\"minecraft:water\"}"
+              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.slow_falling\",\"italic\":false},{\"text\":\" (0:10)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:28,Amplifier:0b,Duration:200}],Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -194,7 +194,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.invisibility\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:14b,Amplifier:0b,Duration:400}],Potion:\"minecraft:water\"}"
+              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.invisibility\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:14,Amplifier:0b,Duration:400}],Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -205,7 +205,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.fire_resistance\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:12b,Amplifier:0b,Duration:400}],Potion:\"minecraft:water\"}"
+              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.fire_resistance\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:12,Amplifier:0b,Duration:400}],Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -216,7 +216,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.swiftness\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:1b,Amplifier:0b,Duration:400}],Potion:\"minecraft:water\"}"
+              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.swiftness\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:1,Amplifier:0b,Duration:400}],Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -227,7 +227,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.regeneration\",\"italic\":false},{\"text\":\" (0:15)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:10b,Amplifier:0b,Duration:300}],Potion:\"minecraft:water\"}"
+              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.regeneration\",\"italic\":false},{\"text\":\" (0:15)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:10,Amplifier:0b,Duration:300}],Potion:\"minecraft:water\"}"
             }
           ]
         },

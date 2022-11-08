@@ -79,5 +79,5 @@ function 4jbattle:game/inventory/swap/start
 ##Enable combat cooldown check
 function 4jbattle:game/combat/refresh
 
-##PolyMC warning
-tellraw @a ["",{"text":"WARNING: IF YOU HAVE POLYMC INSTALLED REMOVE IT IMMEDIATELY","bold":true,"color":"dark_red"},"\n",{"text":"The maintainer of PolyMC has gone rouge, and there is a large risk of your pc being compromised.","color":"red"},"\n",{"text":"If you have used PolyMC in the past or do use it, read ","italic":true,"color":"red"},{"text":"this post","bold":true,"italic":true,"underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"http://lemsite.derpbox.xyz/blog/polymc-compromised"},"hoverEvent":{"action":"show_text","contents":[{"text":"http://lemsite.derpbox.xyz/blog/polymc-compromised","color":"blue"}]}},"\n",{"text":"If you don't use PolyMC, you may ignore this message","color":"red"}]
+##Run custom scripts
+function 4jbattle:lobby/custom/start

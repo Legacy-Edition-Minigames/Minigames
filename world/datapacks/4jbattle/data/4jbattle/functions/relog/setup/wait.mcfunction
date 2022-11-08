@@ -22,9 +22,8 @@ tag @s remove fullhealthinit
 tag @s remove respawndelay
 tag @s remove headstore
 tag @s remove resourceloaded
-tag @s remove custompack
-tag @s remove nopackreload
-tag @s remove keeprltimer
+tag @s remove loadingresources
+tag @s remove forceresources
 tag @s remove delfix
 tag @s remove inbounds-x+
 tag @s remove inbounds-z+
@@ -33,6 +32,7 @@ tag @s remove inbounds-z-
 tag @s remove notitle
 tag @s remove MobOverride
 tag @s remove spechead
+tag @s remove backrooms
 tag @s remove heart-architect
 tag @s remove heart-mario
 tag @s remove heart-tris1357
@@ -75,7 +75,7 @@ execute unless entity @a[tag=relogtimer] run scoreboard players set #Store 4j.re
 tag @s add relogtimer
 
 ##Revoke resourcepack loading advancements
-function 4jbattle:game/resource/advancementreset
+function 4jbattle:resource/advancementreset
 
 ##Hide tablist heart
 setSuffixFont alive "4jbattle:tablist/heart/empty" @s
@@ -88,6 +88,3 @@ execute unless entity @s[advancements={4jbattle:config/custompack=true,4jbattle:
 
 ##Join if custom pack is enabled
 execute if entity @s[advancements={4jbattle:config/custompack=true,4jbattle:config/globalpack=true}] run function 4jbattle:relog/setup/global
-
-##Add nopackreload tag to custompack users
-tag @s[advancements={4jbattle:config/custompack=true,4jbattle:config/globalpack=true}] add nopackreload
