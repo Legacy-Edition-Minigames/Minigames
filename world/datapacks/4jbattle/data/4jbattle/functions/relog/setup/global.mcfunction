@@ -4,6 +4,9 @@ tellraw @s ["",{"translate":"4j.relog.join.discord","color":"#7289DA"},"\n",{"te
 #Patreon
 tellraw @s ["",{"translate":"4j.relog.join.patreon","color":"gold","with":[{"text":"Patreon","bold":true,"color":"#FF424D"}]},"\n",{"text":"https://www.patreon.com/DBTDerpbox","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://www.patreon.com/DBTDerpbox"},"hoverEvent":{"action":"show_text","contents":[{"text":"https://www.patreon.com/DBTDerpbox","color":"blue"}]}}]
 
+##Refresh Plist
+execute store result score #Store 4j.plist if entity @a[tag=!relogtimer]
+
 ##Migrate configs from 4jbattle to 4jmenu namespace
 function 4jbattle:relog/setup/migrateadvancements
 

@@ -4,10 +4,7 @@ scoreboard players remove #Store 4j.timer 1
 ##Mark players as loaded when pack loads
 execute as @a[tag=!relogtimer,tag=!resourceloaded,advancements={4jbattle:resource/finished=true}] run function 4jbattle:game/loading/resource/loaded
 
-##Refresh plist
-#Total
-execute store result score #Store 4j.plist if entity @a[tag=!relogtimer]
-#Loaded
+##Get count of loaded players
 execute store result score #Store 4j.loadedpacks if entity @a[tag=!relogtimer,tag=resourceloaded]
 
 ##Display (Loaded)

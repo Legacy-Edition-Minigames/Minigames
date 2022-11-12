@@ -5,3 +5,9 @@ execute if score #Store 4j.gamestatus matches 0 run function 4jbattle:disconnect
 execute if score #Store 4j.gamestatus matches 1 run function 4jbattle:disconnect/remove/lobby
 #Game
 execute if score #Store 4j.gamestatus matches 2 run function 4jbattle:disconnect/remove/game
+
+##Refresh Plist
+execute store result score #Store 4j.plist if entity @a[tag=!relogtimer]
+
+##Stop lobby custom scripts if nobody is online
+execute unless entity @a[tag=!relogtimer] run function 4jbattle:lobby/custom/stop

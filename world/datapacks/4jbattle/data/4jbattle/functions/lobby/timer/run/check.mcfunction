@@ -1,9 +1,6 @@
 ##Stop timer check
 schedule clear 4jbattle:lobby/timer/check
 
-##Refresh plist
-execute store result score #Store 4j.plist if entity @a[tag=!relogtimer]
-
 ##Stop timer if there are not enough players
 execute unless score #Store 4j.plist matches 2.. run function 4jbattle:lobby/timer/stop
 
