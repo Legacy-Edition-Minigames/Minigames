@@ -1,9 +1,6 @@
 ##Move all PIDs down
 function 4jbattle:game/player/fixpid/run
 
-##Refresh Plist
-execute store result score #Store 4j.plist if entity @a[tag=!relogtimer]
-
 ##"Temporary" fix for fixpid breaking everything
 #Loop
 execute if score #Store 4j.plist matches 1 if entity @a[scores={4j.pid=2..}] run schedule function 4jbattle:game/player/fixpid/check 1t
