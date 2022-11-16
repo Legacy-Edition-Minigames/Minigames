@@ -42,6 +42,9 @@ title @s subtitle ""
 ##Set title times
 title @a times 0 10 1
 
+##Remove invincibility
+execute as @a[tag=!relogtimer] run data merge entity @s {Invulnerable:0}
+
 ##Display some game settings
 execute if score #Store 4j.gamestatus matches 2 run function 4jbattle:game/timer/start/displaysettings
 

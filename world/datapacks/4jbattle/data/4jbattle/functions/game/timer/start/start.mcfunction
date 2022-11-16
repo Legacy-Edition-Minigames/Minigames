@@ -10,6 +10,9 @@ function 4jbattle:game/timer/start/count
 ##Disable Damage
 function 4jbattle:game/damage/disable/run
 
+##Make Invincible
+execute as @a[tag=!relogtimer] run data merge entity @s {Invulnerable:1}
+
 ##Hide usernames
 function 4jbattle:game/namevisibility/disable
 
