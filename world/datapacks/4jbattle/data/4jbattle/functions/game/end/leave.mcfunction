@@ -13,7 +13,7 @@ tag @s remove spectator
 tag @s add lobby
 
 ##Disable FriendlyFire
-function 4jbattle:game/damage/disable
+function 4jbattle:game/damage/disable/run
 
 ##Enable knockback
 execute as @a run attribute @s minecraft:generic.knockback_resistance base set 0
