@@ -16,3 +16,6 @@ execute as @a run attribute @s minecraft:generic.attack_damage base set 1
 
 ##Enable knockback
 execute as @a run attribute @s minecraft:generic.knockback_resistance base set 0
+
+##Stop checking for things that need to be checked every tick
+schedule clear 4jbattle:game/damage/disable/check

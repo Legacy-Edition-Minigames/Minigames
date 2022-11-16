@@ -17,7 +17,7 @@ clear @a carrot_on_a_stick{BuilderMode:1}
 execute as @a[tag=!relogtimer] run function 4jbattle:lobby/spawn/run
 
 ##Disable damange
-function 4jbattle:game/damage/disable
+function 4jbattle:game/damage/disable/run
 
 ##Display message
 tellraw @a ["",{"text":"Exiting Builder mode!","color":"blue"},"\n",{"text":"Builder mode stopped by ","color":"blue"},{"selector":"@s ","color":"dark_aqua"}]
