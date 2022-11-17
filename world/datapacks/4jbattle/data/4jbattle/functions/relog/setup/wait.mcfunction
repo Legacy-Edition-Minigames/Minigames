@@ -34,6 +34,7 @@ tag @s remove MobOverride
 tag @s remove spechead
 tag @s remove backrooms
 tag @s remove forge
+tag @s remove optifine
 tag @s remove heart-architect
 tag @s remove heart-mario
 tag @s remove heart-tris1357
@@ -63,7 +64,10 @@ scoreboard players reset @s
 #Get serverutils scores
 scoreboardplayerinfo setAllScores
 
-##Detect if on forge
+##Load serverutils/lemclienthelper settings
+#Detect optifine
+function 4jbattle:relog/setup/loadofconfig
+#Detect if on forge
 execute if score @s serverutils.forgeclient matches 2 run tag @s add forge
 
 ##Send to menu
