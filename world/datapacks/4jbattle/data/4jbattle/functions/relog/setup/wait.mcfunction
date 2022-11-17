@@ -33,6 +33,7 @@ tag @s remove notitle
 tag @s remove MobOverride
 tag @s remove spechead
 tag @s remove backrooms
+tag @s remove forge
 tag @s remove heart-architect
 tag @s remove heart-mario
 tag @s remove heart-tris1357
@@ -57,7 +58,13 @@ scoreboard players reset @s 4j.roundwins
 team join loading @s
 
 ##Reset scores
+#Reset scores
 scoreboard players reset @s
+#Get serverutils scores
+scoreboardplayerinfo setAllScores
+
+##Detect if on forge
+execute if score @s serverutils.forgeclient matches 2 run tag @s add forge
 
 ##Send to menu
 function 4jbattle:menu/load/user
