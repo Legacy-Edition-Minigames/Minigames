@@ -1,0 +1,5 @@
+{
+  "apiUrl": "http://localhost:7070",
+  "secretKey": "changeme",
+  "syncOnJoin": false
+}
