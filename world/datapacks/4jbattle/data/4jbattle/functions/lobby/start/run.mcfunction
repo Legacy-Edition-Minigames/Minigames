@@ -61,6 +61,9 @@ function 4jbattle:menu/configure/runner
 ##Reset players
 function 4jbattle:game/playerreset
 
+##If there are 0 maps enabled, reset enabled maps
+execute if score #Store 4j.mapcount matches 0 run function 4jbattle:menu/load/host/defaults/map
+
 ##Load enabled maps
 function 4jbattle:mapdecider/loadenabled
 

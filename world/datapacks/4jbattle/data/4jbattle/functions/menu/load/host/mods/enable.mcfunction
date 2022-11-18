@@ -1,6 +1,9 @@
 ##Enable
 scoreboard players set #Store 4j.enablemods 1
 
+##Set mapcount
+scoreboard players add #Store 4j.mapcount 0
+
 ##Display message
 tellraw @a "The host has enabled Modded Content."
 
