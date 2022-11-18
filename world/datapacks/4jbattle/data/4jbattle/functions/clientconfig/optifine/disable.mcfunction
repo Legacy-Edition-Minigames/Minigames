@@ -1,6 +1,9 @@
 ##Enable config option
 advancement revoke @s only 4jmenu:config/optifine
 
+##Refresh config
+function 4jbattle:relog/setup/loadofconfig
+
 ##Reset score
 scoreboard players reset @s optifinepack
 

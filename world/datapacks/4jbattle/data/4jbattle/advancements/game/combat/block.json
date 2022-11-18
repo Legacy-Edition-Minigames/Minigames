@@ -11,8 +11,5 @@
         }
       }
     }
-  },
-  "rewards": {
-    "function": "4jbattle:game/combat/block/detect"
   }
 }
