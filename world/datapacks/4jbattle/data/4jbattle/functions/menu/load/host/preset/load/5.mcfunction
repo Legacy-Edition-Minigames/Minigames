@@ -1,6 +1,6 @@
 ###Load config from advancements
 ##Load default config
-function 4jbattle:menu/load/host/defaults
+function 4jbattle:menu/load/host/defaults/run
 
 ##Bug Fixes
 #Armor Item Swap Deletion
