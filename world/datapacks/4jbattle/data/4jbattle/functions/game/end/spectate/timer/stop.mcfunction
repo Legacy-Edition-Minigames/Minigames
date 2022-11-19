@@ -1,6 +1,9 @@
 ##Clear schedule
 schedule clear 4jbattle:game/end/spectate/timer/count
 
+##Remove invincibility
+execute as @a[tag=!relogtimer] run data merge entity @s {Invulnerable:0}
+
 ##Hide GlobalInfo
 function 4jbattle:game/globalinfo/hide
 

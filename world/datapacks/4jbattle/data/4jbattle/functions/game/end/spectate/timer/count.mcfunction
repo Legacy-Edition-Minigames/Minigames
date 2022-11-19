@@ -19,9 +19,6 @@ bossbar set globalinfo14 name {"translate":"4j.game.end.timer","with":[{"score":
 bossbar set globalinfo15 name {"translate":"4j.game.end.timer","with":[{"score":{"name":"#Store","objective":"4j.timer"}}]}
 bossbar set globalinfo16 name {"translate":"4j.game.end.timer","with":[{"score":{"name":"#Store","objective":"4j.timer"}}]}
 
-##Apply Resistance
-effect give @a resistance 2 255 true
-
 ##Loop
 schedule function 4jbattle:game/end/spectate/timer/count 1s
 
