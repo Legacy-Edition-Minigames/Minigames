@@ -71,7 +71,7 @@ function 4jbattle:relog/setup/loadofconfig
 execute if score @s serverutils.forgeclient matches 2 run tag @s add forge
 
 ##Make Invincible
-execute as @a[tag=!relogtimer] run data merge entity @s {Invulnerable:1}
+data merge entity @s {Invulnerable:1}
 
 ##Send to menu
 function 4jbattle:menu/load/user
