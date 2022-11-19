@@ -7,6 +7,8 @@ execute as 8411f30e-2ba5-431f-bbcd-e3fac5597649 run scoreboard players set @s 4j
 execute as d034b241-5f0b-4607-ad8d-704f1dbced6f run scoreboard players set @s 4j.patreon 5
 #Tokyo Emi/65330754/TokyoEmi
 execute as 40bb5e3a-63b2-47e4-aae9-6f04f3faa3f7 run scoreboard players set @s 4j.patreon 5
+#Jamonster123/19239312
+execute as 56acefcd-7ef6-44a5-9268-0517556a6133 run scoreboard players set @s 4j.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
