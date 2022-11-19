@@ -70,6 +70,9 @@ function 4jbattle:relog/setup/loadofconfig
 #Detect if on forge
 execute if score @s serverutils.forgeclient matches 2 run tag @s add forge
 
+##Reset spectator sound
+registerSpectateSqueak clear @s
+
 ##Make Invincible
 data merge entity @s {Invulnerable:1}
 
