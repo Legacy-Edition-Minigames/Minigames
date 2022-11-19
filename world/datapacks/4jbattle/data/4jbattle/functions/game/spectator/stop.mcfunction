@@ -13,5 +13,8 @@ schedule clear 4jbattle:game/spectator/voidcheck
 ##Remove spechead tag
 tag @s remove spechead
 
+##Reset spectator sound
+registerSpectateSqueak clear @a
+
 ##Debug info
 tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Stopping spectator check","color":"gold"}]
