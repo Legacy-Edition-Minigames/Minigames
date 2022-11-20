@@ -1,5 +1,5 @@
 ##Load players
-execute as @a run function 4jbattle:mapdecider/vote/join
+execute as @a[tag=ingame] run function 4jbattle:mapdecider/vote/join
 
 ##Load MapVote
 #Remove score to reset it

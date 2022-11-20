@@ -2,10 +2,10 @@
 scoreboard players remove #Store 4j.timer 1
 
 ##Mark players as loaded when pack loads
-execute as @a[tag=!relogtimer,tag=!resourceloaded,advancements={4jbattle:resource/finished=true}] run function 4jbattle:game/loading/resource/loaded
+execute as @a[tag=ingame,tag=!resourceloaded,advancements={4jbattle:resource/finished=true}] run function 4jbattle:game/loading/resource/loaded
 
 ##Get count of loaded players
-execute store result score #Store 4j.loadedpacks if entity @a[tag=!relogtimer,tag=resourceloaded]
+execute store result score #Store 4j.loadedpacks if entity @a[tag=ingame,tag=resourceloaded]
 
 ##Display (Loaded)
 #Copy loaded pack users to temp
@@ -19,17 +19,17 @@ scoreboard players operation #Store 4j.loadingbar = .temp 4j.loadedpacks
 
 ##Display (Unloaded)
 #Title times
-title @a[tag=!relogtimer,tag=!resourceloaded] times 0 30 0
+title @a[tag=ingame,tag=!resourceloaded] times 0 30 0
 #Message
-title @a[tag=!relogtimer,tag=!resourceloaded] title "Loading resources..."
+title @a[tag=ingame,tag=!resourceloaded] title "Loading resources..."
 #Timer
-title @a[tag=!relogtimer,tag=!resourceloaded] subtitle ["",{"score":{"name":"#Store","objective":"4j.loadedpacks"}},"/",{"score":{"name":"#Store","objective":"4j.plist"}}]
+title @a[tag=ingame,tag=!resourceloaded] subtitle ["",{"score":{"name":"#Store","objective":"4j.loadedpacks"}},"/",{"score":{"name":"#Store","objective":"4j.plist"}}]
 
 ##Loop
 schedule function 4jbattle:game/loading/resource/run 1s
 
 ##Stop when everyone is loaded
-execute unless entity @a[tag=!relogtimer,tag=!resourceloaded] run function 4jbattle:game/loading/resource/stop
+execute unless entity @a[tag=ingame,tag=!resourceloaded] run function 4jbattle:game/loading/resource/stop
 
 ##Stop if timer runs out
 execute if score #Store 4j.timer matches ..0 run function 4jbattle:game/loading/resource/stop

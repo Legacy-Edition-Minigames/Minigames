@@ -7,11 +7,11 @@ execute if score #Store 4j.hungertype matches 3 run schedule clear 4jbattle:game
 execute if score #Store 4j.hungertype matches 2 run schedule clear 4jbattle:game/hunger/beta/check
 
 #Tags
-tag @a remove healthtemp
-tag @a remove hungertemp
-tag @a remove fullhunger
-tag @a remove midhunger
-tag @a remove fullhungerinit
-tag @a remove midhealth
-tag @a remove fullhealth
-tag @a remove fullhealthinit
+tag @a[tag=ingame] remove healthtemp
+tag @a[tag=ingame] remove hungertemp
+tag @a[tag=ingame] remove fullhunger
+tag @a[tag=ingame] remove midhunger
+tag @a[tag=ingame] remove fullhungerinit
+tag @a[tag=ingame] remove midhealth
+tag @a[tag=ingame] remove fullhealth
+tag @a[tag=ingame] remove fullhealthinit

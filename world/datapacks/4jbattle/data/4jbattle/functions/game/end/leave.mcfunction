@@ -16,7 +16,7 @@ tag @s add lobby
 function 4jbattle:game/damage/disable/run
 
 ##Enable knockback
-execute as @a run attribute @s minecraft:generic.knockback_resistance base set 0
+execute as @a[tag=ingame] run attribute @s minecraft:generic.knockback_resistance base set 0
 
 ##Remove Victor tag
 tag @s remove Victor

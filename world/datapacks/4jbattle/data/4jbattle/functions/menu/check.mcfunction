@@ -7,7 +7,7 @@ schedule clear 4jbattle:lobby/timer/check
 
 ##Display text
 #Non-hosts
-title @a[tag=!host,tag=!relogtimer] title {"translate":"4j.menu.player.waiting"}
+title @a[tag=!host,tag=ingame] title {"translate":"4j.menu.player.waiting"}
 #Hosts
 title @a[tag=host] title {"translate":"4j.menu.host.title","with":[{"keybind":"key.chat","color":"yellow"}]}
 title @a[tag=host] subtitle {"translate":"4j.menu.host.subtitle"}
@@ -61,4 +61,4 @@ schedule function 4jbattle:menu/check 1t
 execute if score #Store 4j.hosttimer matches 0 as @a[tag=host] run function 4jbattle:menu/load/host/start/hosttimer
 
 ##Stop if nobody is online
-execute unless entity @a[tag=!relogtimer] run schedule clear 4jbattle:menu/check
+execute unless entity @a[tag=ingame] run schedule clear 4jbattle:menu/check

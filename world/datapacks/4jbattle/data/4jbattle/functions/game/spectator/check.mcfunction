@@ -1,8 +1,8 @@
 ##Teleport mobs
 #Normal
-execute as @a[tag=!spechead] run function 4jbattle:game/spectator/tp
+execute as @a[tag=ingame,tag=!spechead] run function 4jbattle:game/spectator/tp
 #Head
-execute as @a[tag=spechead] run function 4jbattle:game/spectator/tphead
+execute as @a[tag=ingame,tag=spechead] run function 4jbattle:game/spectator/tphead
 
 ##Run NBT Check
 execute as @e[tag=spectatormob] run function 4jbattle:game/spectator/nbtcheck

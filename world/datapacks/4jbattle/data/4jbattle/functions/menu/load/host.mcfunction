@@ -38,7 +38,7 @@ function 4jbattle:menu/music/start
 setScoreboardSuffix []
 
 ##Clear inventory
-clear @a
+clear @a[tag=ingame]
 
 ##Start game if picking new host from existing game
 execute if score #Store 4j.plist matches 2.. run scoreboard players set @s 4j.gamecfg 9

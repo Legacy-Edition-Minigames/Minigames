@@ -10,7 +10,7 @@ scoreboard players remove #Store 4j.tiprefresh 1
 kill @e[type=item,nbt={Item:{tag:{ToolTip:1}}}]
 
 ##Give items
-execute as @a[tag=!relogtimer,predicate=!4jbattle:loading/tips/holding] run function 4jbattle:game/gui/display/loadingmap/tooltip/give
+execute as @a[tag=ingame,predicate=!4jbattle:loading/tips/holding] run function 4jbattle:game/gui/display/loadingmap/tooltip/give
 
 ##Count down timer
 scoreboard players remove #Store 4j.tooltiptimer 1

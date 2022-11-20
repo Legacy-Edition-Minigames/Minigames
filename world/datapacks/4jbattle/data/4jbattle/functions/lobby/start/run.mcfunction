@@ -1,5 +1,5 @@
 ##Spawn
-execute as @a[tag=!relogtimer] at @s run function 4jbattle:lobby/spawn/run
+execute as @a[tag=ingame] at @s run function 4jbattle:lobby/spawn/run
 
 ##Set gamestatus
 scoreboard players set #Store 4j.gamestatus 1
@@ -40,9 +40,9 @@ bossbar set minecraft:globalinfo16 name {"translate":"4j.lobby.start.waiting"}
 
 ##Mark everyone as not ready
 #Remove ready tag
-tag @a remove ready
+tag @a[tag=ingame] remove ready
 #Add notready tag
-tag @a add notready
+tag @a[tag=ingame] add notready
 #playerbar score
 scoreboard players set @s 4j.playerbar 2
 
@@ -84,3 +84,6 @@ function 4jbattle:game/combat/refresh
 
 ##Run custom scripts
 function 4jbattle:lobby/custom/start
+
+##Start timer for patreon reminder
+function 4jbattle:patreonreminder/start

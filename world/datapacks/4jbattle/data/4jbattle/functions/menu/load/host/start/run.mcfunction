@@ -1,6 +1,6 @@
 ##Clear display
-title @a[tag=!relogtimer] title ""
-title @a[tag=!relogtimer] subtitle ""
+title @a[tag=ingame] title ""
+title @a[tag=ingame] subtitle ""
 
 ##Set displaymode
 scoreboard players set #Store 4j.displaymode 1

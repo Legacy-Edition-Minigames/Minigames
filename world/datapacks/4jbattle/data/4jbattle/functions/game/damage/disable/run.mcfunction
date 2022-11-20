@@ -9,10 +9,10 @@ gamerule drowningDamage false
 gamerule freezeDamage false
 
 ##Disable FriendlyFire
-execute as @a run attribute @s minecraft:generic.attack_damage base set -100
+execute as @a[tag=ingame] run attribute @s minecraft:generic.attack_damage base set -100
 
 ##Disable knockback
-execute as @a run attribute @s minecraft:generic.knockback_resistance base set 1
+execute as @a[tag=ingame] run attribute @s minecraft:generic.knockback_resistance base set 1
 
 ##Check for things that need to be checked every tick
 function 4jbattle:game/damage/disable/check

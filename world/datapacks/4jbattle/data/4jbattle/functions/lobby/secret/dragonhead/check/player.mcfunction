@@ -1,1 +1,0 @@
-execute if block -343 35 -341 redstone_block in 4jbattle:lobby run function 4jbattle:lobby/secret/dragonhead/check/skeleton

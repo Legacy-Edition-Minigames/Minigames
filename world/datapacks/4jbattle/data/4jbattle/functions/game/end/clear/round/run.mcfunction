@@ -28,11 +28,11 @@ schedule clear 4jbattle:game/particle/pregame/run
 
 ##Clear Scores
 #Cupid
-scoreboard players reset @a 4j.cupid
+scoreboard players reset @a[tag=ingame] 4j.cupid
 #Scratch
-scoreboard players reset @a 4j.scratch
+scoreboard players reset @a[tag=ingame] 4j.scratch
 #GlobalInfo clear timer
-scoreboard players reset @a 4j.cleargi
+scoreboard players reset @a[tag=ingame] 4j.cleargi
 
 ##Debug Info
 tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Cleared schedules","color":"gold"}]

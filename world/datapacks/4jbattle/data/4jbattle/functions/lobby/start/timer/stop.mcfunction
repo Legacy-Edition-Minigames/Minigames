@@ -20,14 +20,14 @@ scoreboard players reset #Store 4j.maploadneg
 scoreboard players set #Store 4j.displaymode 1
 
 ##Clear display
-title @a[tag=!relogtimer] title ""
-title @a[tag=!relogtimer] subtitle ""
+title @a[tag=ingame] title ""
+title @a[tag=ingame] subtitle ""
 
 ##Load lobby
-execute if entity @a[tag=host] run function 4jbattle:lobby/start/run
+execute if entity @a[tag=ingame,tag=host] run function 4jbattle:lobby/start/run
 
 ##Check for Host
-execute unless entity @a[tag=host] run function 4jbattle:host/check/run
+execute unless entity @a[tag=ingame,tag=host] run function 4jbattle:host/check/run
 
 ##Clear effects
-effect clear @a
+effect clear @a[tag=ingame]

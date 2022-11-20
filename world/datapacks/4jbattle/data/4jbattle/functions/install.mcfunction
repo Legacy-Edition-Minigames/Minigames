@@ -465,6 +465,9 @@ scoreboard objectives add 4j.lobbyready dummy
 ##Music Pack ID
 scoreboard objectives add 4j.muspack dummy
 
+##Timer to remind people that we need donations to actually survive
+scoreboard objectives add 4j.patreontimer dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

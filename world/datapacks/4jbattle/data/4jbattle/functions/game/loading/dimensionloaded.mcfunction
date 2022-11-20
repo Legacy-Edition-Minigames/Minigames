@@ -2,7 +2,7 @@
 function 4jbattle:game/mapinit/dimensionloaded
 
 ##Teleport to map
-execute as @a[tag=!relogtimer] run function 4jbattle:game/setup/teleport/load
+execute as @a[tag=ingame] run function 4jbattle:game/setup/teleport/load
 
 ##Refresh time
 function 4jbattle:game/time/refresh
