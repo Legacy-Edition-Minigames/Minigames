@@ -55,7 +55,7 @@ bossbar set minecraft:globalinfo15 name {"translate":"4j.game.start.start"}
 bossbar set minecraft:globalinfo16 name {"translate":"4j.game.start.start"}
 
 ##Play sound
-execute as @a at @s run playsound 4jbattle:sound.game.count2 master @s ~ ~ ~ 9999999
+execute as @a[tag=ingame] at @s run playsound 4jbattle:sound.game.count2 master @s ~ ~ ~ 9999999
 
 ##Run invulnerability timer
 schedule function 4jbattle:game/timer/invulnerability/start 1s
@@ -64,13 +64,13 @@ schedule function 4jbattle:game/timer/invulnerability/start 1s
 function 4jbattle:game/chests/start
 
 ##Combat mechanics check
-execute as @a run function 4jbattle:game/combat/check
+execute as @a[tag=ingame] run function 4jbattle:game/combat/check
 
 ##Start spectator check
 execute positioned -343 4 -342 run function 4jbattle:game/spectator/start/check
 
 ##Set spawnpoints
-execute as @a at @s run spawnpoint @s ~ ~ ~
+execute as @a[tag=ingame] at @s run spawnpoint @s ~ ~ ~
 
 ##Remove items
 kill @e[type=item]

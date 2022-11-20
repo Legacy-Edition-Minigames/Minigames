@@ -8,8 +8,8 @@ function 4jbattle:game/gui/globalinfo/load
 scoreboard players set #Store 4j.displaymode 1
 
 ##Clear display
-title @a[tag=!relogtimer] title ""
-title @a[tag=!relogtimer] subtitle ""
+title @a[tag=ingame] title ""
+title @a[tag=ingame] subtitle ""
 
 ##Disable panorama
 panorama clear all
@@ -20,18 +20,18 @@ lockdown false
 #Disable output
 gamerule sendCommandFeedback false
 #Set gamemode
-gamemode adventure @a[tag=!relogtimer,gamemode=creative]
+gamemode adventure @a[tag=ingame,gamemode=creative]
 #Enable output
 gamerule sendCommandFeedback true
 
 ##Clear items
 #Inventory
-clear @a
+clear @a[tag=ingame]
 #Ground
 kill @e[type=item]
 
 ##Clear effects
-effect clear @a
+effect clear @a[tag=ingame]
 
 ##Set panorama status to inactive
 scoreboard players set #Store 4j.panorama 0

@@ -1,1 +1,0 @@
-execute if score #Store 4j.zhgold matches 1 run function 4jbattle:lobby/secret/zombiehead/check/run/emerald

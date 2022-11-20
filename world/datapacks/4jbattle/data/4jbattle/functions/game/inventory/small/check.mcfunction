@@ -1,11 +1,11 @@
 ##Clear hotbar of books
-execute as @a[tag=player] run function 4jbattle:game/inventory/small/clear
+execute as @a[tag=ingame,tag=player] run function 4jbattle:game/inventory/small/clear
 
 ##Move items back to hotbar
 function 4jbattle:game/inventory/small/delfix/run
 
 ##Fill inventory
-execute as @a[tag=player] run function 4jbattle:game/inventory/small/fill/run
+execute as @a[tag=ingame,tag=player] run function 4jbattle:game/inventory/small/fill/run
 
 ##Delete dropped books
 kill @e[type=item,nbt={Item:{tag:{SmallInv:1}}}]

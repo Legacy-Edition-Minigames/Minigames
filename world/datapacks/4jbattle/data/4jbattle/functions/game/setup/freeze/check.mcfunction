@@ -1,6 +1,3 @@
-##Refresh player number
-execute store result score #Store 4j.plist if entity @a[tag=!relogtimer]
-
 ##Check for surround setting, if so, run
 #8 Players, not L+
 execute if score #Store 4j.maptype matches 1..3 if score #Store 4j.plist matches ..8 if score #Store 4j.tp matches 1 run schedule function 4jbattle:game/setup/freeze/surround/setup 3t

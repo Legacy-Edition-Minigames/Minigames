@@ -6,13 +6,13 @@ execute as @e[tag=circle,type=minecraft:armor_stand] at @s run tp @s ~ ~ ~ ~1.5 
 
 ##Teleport to backrooms
 #Get Y position
-execute as @a at @s store result score @s 4j.yvalue run data get entity @s Pos[1]
+execute as @a[tag=ingame] at @s store result score @s 4j.yvalue run data get entity @s Pos[1]
 #TP out to backrooms
-execute at @e[type=area_effect_cloud,tag=LobbyCenter] as @a[distance=1..,tag=!backrooms,scores={4j.yvalue=..26}] run function 4jbattle:lobby/custom/halloween/backrooms
+execute at @e[type=area_effect_cloud,tag=LobbyCenter] as @a[tag=ingame,distance=1..,tag=!backrooms,scores={4j.yvalue=..26}] run function 4jbattle:lobby/custom/halloween/backrooms
 
 ##Backrooms effects
 #Give darkness effect
-effect give @a[tag=backrooms,tag=!relogtimer] darkness 1 0 true
+effect give @a[tag=backrooms,tag=ingame] darkness 1 0 true
 #Stop music
 stopsound @s music
 

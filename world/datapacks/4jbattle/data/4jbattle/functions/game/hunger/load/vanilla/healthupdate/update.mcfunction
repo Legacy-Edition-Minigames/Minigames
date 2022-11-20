@@ -1,2 +1,2 @@
 ##Update health
-effect give @a instant_health 1
+effect give @a[tag=ingame] instant_health 1

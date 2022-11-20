@@ -42,7 +42,7 @@ bossbar set minecraft:globalinfo16 name {"translate":"4j.lobby.start.timer","wit
 execute if score #Store 4j.timer matches 0 run function 4jbattle:mapdecider/run
 
 ##Start game if everyone is ready
-execute unless entity @a[tag=!relogtimer,tag=notready] if score #Store 4j.plist matches 2.. run function 4jbattle:mapdecider/run
+execute unless entity @a[tag=ingame,tag=notready] if score #Store 4j.plist matches 2.. run function 4jbattle:mapdecider/run
 
 ##Play Sound
 function 4jbattle:lobby/timer/run/sound

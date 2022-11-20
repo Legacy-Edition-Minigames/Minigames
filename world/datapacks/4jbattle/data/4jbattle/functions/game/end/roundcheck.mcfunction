@@ -18,16 +18,16 @@ function 4jbattle:game/end/clear/end
 schedule clear 4jbattle:game/end/spectate/spectate
 
 ##Clear hunger display
-execute as @a run function 4jbattle:game/hunger/cleardisplay
+execute as @a[tag=ingame] run function 4jbattle:game/hunger/cleardisplay
 
 ##Stop particles
 schedule clear 4jbattle:game/particle/victory
 
 ##Set hearts to full
-scoreboard players set @a 4j.alive 1
+scoreboard players set @a[tag=ingame] 4j.alive 1
 
 ##Reset kill counter
-scoreboard players reset @a 4j.killcount
+scoreboard players reset @a[tag=ingame] 4j.killcount
 
 ##Squash Player IDs down
 function 4jbattle:game/player/fixpid/check

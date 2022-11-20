@@ -1,5 +1,5 @@
 ##Clear Resistance
-effect clear @a resistance
+effect clear @a[tag=ingame] resistance
 
 ##Gamerules
 #Enable Fall damage
@@ -12,10 +12,10 @@ gamerule drowningDamage true
 gamerule freezeDamage true
 
 ##Enable FriendlyFire
-execute as @a run attribute @s minecraft:generic.attack_damage base set 1
+execute as @a[tag=ingame] run attribute @s minecraft:generic.attack_damage base set 1
 
 ##Enable knockback
-execute as @a run attribute @s minecraft:generic.knockback_resistance base set 0
+execute as @a[tag=ingame] run attribute @s minecraft:generic.knockback_resistance base set 0
 
 ##Stop checking for things that need to be checked every tick
 schedule clear 4jbattle:game/damage/disable/check

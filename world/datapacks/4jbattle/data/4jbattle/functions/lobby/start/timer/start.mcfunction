@@ -1,5 +1,5 @@
 ##Teleport players
-execute as @a[tag=!relogtimer] run function 4jbattle:lobby/spawn/preload/run
+execute as @a[tag=ingame] run function 4jbattle:lobby/spawn/preload/run
 
 ##Set displaymode
 #Reset timer

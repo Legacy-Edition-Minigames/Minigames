@@ -2,7 +2,7 @@
 schedule clear 4jbattle:game/player/fixpid/check
 
 ##Set Team
-execute as @a run function 4jbattle:game/player/team/run
+execute as @a[tag=ingame] run function 4jbattle:game/player/team/run
 
 ##Update display
 function 4jbattle:relog/timer/forceupdate

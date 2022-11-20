@@ -2,7 +2,7 @@
 schedule clear 4jbattle:game/loading/resource/run
 
 ##Remove resourceloaded tag
-tag @a remove resourceloaded
+tag @a[tag=ingame] remove resourceloaded
 
 ##Set loadingbar text
 scoreboard players set #Store 4j.barmode 1

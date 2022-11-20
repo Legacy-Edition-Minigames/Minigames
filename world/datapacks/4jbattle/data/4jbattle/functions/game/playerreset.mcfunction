@@ -1,18 +1,18 @@
 ###Reset all players to default state
 ##Clear
-clear @a
+clear @a[tag=ingame]
 
 ##Remove effects
-effect clear @a
+effect clear @a[tag=ingame]
 
 ##Heal
-effect give @a instant_health 10 0 true
+effect give @a[tag=ingame] instant_health 10 0 true
 
 ##Reset hunger
-scoreboard players set @a 4j.hungerbar 20
+scoreboard players set @a[tag=ingame] 4j.hungerbar 20
 
 ##Reset XP level
 #Levels
-xp set @a 0 levels
+xp set @a[tag=ingame] 0 levels
 #Points
-xp set @a 0 points
+xp set @a[tag=ingame] 0 points

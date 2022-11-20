@@ -1,8 +1,8 @@
 ##Set lobby type id if first player to join
 #Get default lobby
-execute unless entity @a[tag=!relogtimer] run function 4jbattle:menu/load/host/lobby/getdefault
+execute unless entity @a[tag=ingame] run function 4jbattle:menu/load/host/lobby/getdefault
 #Copy to lobbytype
-execute unless entity @a[tag=!relogtimer] run scoreboard players operation #Store 4j.lobbytype = #Store 4j.setlobbytype
+execute unless entity @a[tag=ingame] run scoreboard players operation #Store 4j.lobbytype = #Store 4j.setlobbytype
 
 ##Load pack ID
 #Vanilla

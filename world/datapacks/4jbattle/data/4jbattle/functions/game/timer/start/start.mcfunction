@@ -11,7 +11,7 @@ function 4jbattle:game/timer/start/count
 function 4jbattle:game/damage/disable/run
 
 ##Make Invincible
-execute as @a[tag=!relogtimer] run data merge entity @s {Invulnerable:1}
+execute as @a[tag=ingame] run data merge entity @s {Invulnerable:1}
 
 ##Hide usernames
 function 4jbattle:game/namevisibility/disable
@@ -20,20 +20,20 @@ function 4jbattle:game/namevisibility/disable
 execute if score #Store 4j.smallinv matches 1 run function 4jbattle:game/inventory/small/start
 
 ##Set everyone as ready
-tag @a add ready
-tag @a remove notready
+tag @a[tag=ingame] add ready
+tag @a[tag=ingame] remove notready
 
 ##Set all playerbars to full
-scoreboard players set @a[tag=!relogtimer] 4j.playerbar 3
+scoreboard players set @a[tag=ingame] 4j.playerbar 3
 
 ##Reload playerbar
 function 4jbattle:game/gui/playerbar/load
 
 ##Remove Winner tag
-tag @a remove Winner
+tag @a[tag=ingame] remove Winner
 
 ##Copy mob head
-execute as @a[tag=headstore] run function 4jbattle:lobby/mobhead/copy
+execute as @a[tag=ingame,tag=headstore] run function 4jbattle:lobby/mobhead/copy
 
 ##Render game tablist
 execute if score #Store 4j.initialgame matches 1 run function 4jbattle:game/gui/playerlist/scores/check/game
@@ -45,7 +45,7 @@ schedule function 4jbattle:game/chests/lock 1s
 function 4jbattle:game/chests/load/run
 
 ##Display some game settings
-execute as @a[tag=!relogtimer] run function 4jbattle:game/timer/start/displaysettings
+execute as @a[tag=ingame] run function 4jbattle:game/timer/start/displaysettings
 
 ##Start combat check
 function 4jbattle:game/combat/start
@@ -57,7 +57,7 @@ execute if score #Store 4j.smallinv matches 0 run function 4jbattle:game/invento
 function 4jbattle:game/globalinfo/clear/check
 
 ##Reset eliminated score
-scoreboard players reset @a 4j.eliminated
+scoreboard players reset @a[tag=ingame] 4j.eliminated
 
 ##Display particles
 function 4jbattle:game/particle/pregame/run

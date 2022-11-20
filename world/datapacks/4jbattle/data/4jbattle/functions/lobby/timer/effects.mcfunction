@@ -1,2 +1,2 @@
 ##Saturation
-effect give @a saturation 2 255 true
+effect give @a[tag=ingame] saturation 2 255 true

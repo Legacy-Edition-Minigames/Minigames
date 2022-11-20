@@ -42,4 +42,4 @@ bossbar set minecraft:globalinfo15 name {"translate":"4j.game.start.timer","with
 bossbar set minecraft:globalinfo16 name {"translate":"4j.game.start.timer","with":[{"score":{"name":"#Store","objective":"4j.timer"}}]}
 
 ##Play Sound
-execute if score #Store 4j.timer matches 1..5 as @a at @s run playsound 4jbattle:sound.game.count1 master @s ~ ~ ~ 999999
+execute if score #Store 4j.timer matches 1..5 as @a[tag=ingame] at @s run playsound 4jbattle:sound.game.count1 master @s ~ ~ ~ 999999

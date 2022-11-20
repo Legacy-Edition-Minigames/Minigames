@@ -8,4 +8,4 @@ execute as @s[scores={4j.lives=0}] run function 4jbattle:game/death/run
 execute as @s[scores={4j.lives=-1}] run function 4jbattle:game/respawn/run
 
 ##Play sound
-execute as @a at @s run playsound 4jbattle:sound.game.die master @s ~ ~ ~ 99999999
+execute as @a[tag=ingame] at @s run playsound 4jbattle:sound.game.die master @s ~ ~ ~ 99999999

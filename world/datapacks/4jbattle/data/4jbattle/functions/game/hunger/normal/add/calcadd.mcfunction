@@ -1,32 +1,32 @@
 ##Add to hungerbar based on food eaten
 #Apple
-execute as @a[scores={4j.eat.apple=1..}] run function 4jbattle:game/hunger/normal/add/foodlist/apple
+execute as @a[tag=ingame,scores={4j.eat.apple=1..}] run function 4jbattle:game/hunger/normal/add/foodlist/apple
 #Golden Apple
-execute as @a[scores={4j.eat.goldapple=1..}] run function 4jbattle:game/hunger/normal/add/foodlist/golden_apple
+execute as @a[tag=ingame,scores={4j.eat.goldapple=1..}] run function 4jbattle:game/hunger/normal/add/foodlist/golden_apple
 #Cooked Porkchop
-execute as @a[scores={4j.eat.cookpork=1..}] run function 4jbattle:game/hunger/normal/add/foodlist/cooked_porkchop
+execute as @a[tag=ingame,scores={4j.eat.cookpork=1..}] run function 4jbattle:game/hunger/normal/add/foodlist/cooked_porkchop
 #Rabbit Stew
-execute as @a[scores={4j.eat.rabstew=1..}] run function 4jbattle:game/hunger/normal/add/foodlist/rabbit_stew
+execute as @a[tag=ingame,scores={4j.eat.rabstew=1..}] run function 4jbattle:game/hunger/normal/add/foodlist/rabbit_stew
 #Cooked Mutton
-execute as @a[scores={4j.eat.cookmutto=1..}] run function 4jbattle:game/hunger/normal/add/foodlist/cooked_mutton
+execute as @a[tag=ingame,scores={4j.eat.cookmutto=1..}] run function 4jbattle:game/hunger/normal/add/foodlist/cooked_mutton
 #Baked Potato
-execute as @a[scores={4j.eat.cookpotat=1..}] run function 4jbattle:game/hunger/normal/add/foodlist/baked_potato
+execute as @a[tag=ingame,scores={4j.eat.cookpotat=1..}] run function 4jbattle:game/hunger/normal/add/foodlist/baked_potato
 #Beetroot Soup
-execute as @a[scores={4j.eat.beetsoup=1..}] run function 4jbattle:game/hunger/normal/add/foodlist/beetroot_soup
+execute as @a[tag=ingame,scores={4j.eat.beetsoup=1..}] run function 4jbattle:game/hunger/normal/add/foodlist/beetroot_soup
 #Beetroot
-execute as @a[scores={4j.eat.beetroot=1..}] run function 4jbattle:game/hunger/normal/add/foodlist/beetroot
+execute as @a[tag=ingame,scores={4j.eat.beetroot=1..}] run function 4jbattle:game/hunger/normal/add/foodlist/beetroot
 #Cooked Beef
-execute as @a[scores={4j.eat.cookbeef=1..}] run function 4jbattle:game/hunger/normal/add/foodlist/cooked_beef
+execute as @a[tag=ingame,scores={4j.eat.cookbeef=1..}] run function 4jbattle:game/hunger/normal/add/foodlist/cooked_beef
 #Cooked Chicken
-execute as @a[scores={4j.eat.cookchick=1..}] run function 4jbattle:game/hunger/normal/add/foodlist/cooked_chicken
+execute as @a[tag=ingame,scores={4j.eat.cookchick=1..}] run function 4jbattle:game/hunger/normal/add/foodlist/cooked_chicken
 #Cooked Rabbit
-execute as @a[scores={4j.eat.cookrabbi=1..}] run function 4jbattle:game/hunger/normal/add/foodlist/cooked_rabbit
+execute as @a[tag=ingame,scores={4j.eat.cookrabbi=1..}] run function 4jbattle:game/hunger/normal/add/foodlist/cooked_rabbit
 #Cookie
-execute as @a[scores={4j.eat.cookie=1..}] run function 4jbattle:game/hunger/normal/add/foodlist/cookie
+execute as @a[tag=ingame,scores={4j.eat.cookie=1..}] run function 4jbattle:game/hunger/normal/add/foodlist/cookie
 #Golden Carrot
-execute as @a[scores={4j.eat.goldcarro=1..}] run function 4jbattle:game/hunger/normal/add/foodlist/golden_carrot
+execute as @a[tag=ingame,scores={4j.eat.goldcarro=1..}] run function 4jbattle:game/hunger/normal/add/foodlist/golden_carrot
 #Mushroom Stew
-execute as @a[scores={4j.eat.mushstew=1..}] run function 4jbattle:game/hunger/normal/add/foodlist/mushroom_stew
+execute as @a[tag=ingame,scores={4j.eat.mushstew=1..}] run function 4jbattle:game/hunger/normal/add/foodlist/mushroom_stew
 
 ##Add to saturation
 scoreboard players set @s 4j.hungersat 5
