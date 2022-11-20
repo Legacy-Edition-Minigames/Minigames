@@ -15,7 +15,7 @@ bossbar set minecraft:bannerinfo name {"translate":"4j.game.showdown","color":"b
 schedule function 4jbattle:game/globalinfo/hide 5s
 
 ##Play sound
-execute as @a at @s run playsound 4jbattle:sound.game.showdown master @s ~ ~ ~ 99999999
+execute as @a[tag=ingame] at @s run playsound 4jbattle:sound.game.showdown master @s ~ ~ ~ 99999999
 
 ##Enable nametags
 function 4jbattle:game/namevisibility/enable

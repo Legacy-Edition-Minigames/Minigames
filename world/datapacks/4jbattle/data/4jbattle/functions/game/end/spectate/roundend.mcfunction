@@ -18,26 +18,26 @@ function 4jbattle:game/end/spectate/spectate
 function 4jbattle:game/damage/disable/run
 
 ##Make Invincible
-execute as @a[tag=!relogtimer] run data merge entity @s {Invulnerable:1}
+execute as @a[tag=ingame] run data merge entity @s {Invulnerable:1}
 
 ##Show Victor
 #Show banner
 function 4jbattle:game/gui/banner/battle/run
 #Show banner textbox
-execute if entity @a[tag=Victor] run scoreboard players set #Store 4j.bannermode 1
-execute unless entity @a[tag=Victor] run scoreboard players set #Store 4j.bannermode 2
+execute if entity @a[tag=ingame,tag=Victor] run scoreboard players set #Store 4j.bannermode 1
+execute unless entity @a[tag=ingame,tag=Victor] run scoreboard players set #Store 4j.bannermode 2
 #Temporarily hide playericons
 function 4jbattle:game/gui/playerlist/playericon/disable
 #Show Victor
-execute if entity @a[tag=Victor] run bossbar set minecraft:bannerinfo name {"translate":"4j.game.win","with":[{"selector":"@a[tag=Victor]","color":"black"}],"color":"black","font":"4jbattle:banner/text/default"}
+execute if entity @a[tag=ingame,tag=Victor] run bossbar set minecraft:bannerinfo name {"translate":"4j.game.win","with":[{"selector":"@a[tag=ingame,tag=Victor]","color":"black"}],"color":"black","font":"4jbattle:banner/text/default"}
 #Show draw if nobody won
-execute unless entity @a[tag=Victor] run bossbar set minecraft:bannerinfo name {"translate":"4j.game.draw","color":"black","font":"4jbattle:banner/text/default"}
+execute unless entity @a[tag=ingame,tag=Victor] run bossbar set minecraft:bannerinfo name {"translate":"4j.game.draw","color":"black","font":"4jbattle:banner/text/default"}
 #Re-enable playericons
 function 4jbattle:game/gui/playerlist/playericon/enable
 
 ##Play sound
-execute as @a[tag=!Victor] at @s run playsound 4jbattle:sound.game.end master @s ~ ~ ~ 99999999
-execute as @a[tag=Victor] at @s run playsound 4jbattle:sound.game.win master @s ~ ~ ~ 99999999
+execute as @a[tag=ingame,tag=!Victor] at @s run playsound 4jbattle:sound.game.end master @s ~ ~ ~ 99999999
+execute as @a[tag=ingame,tag=Victor] at @s run playsound 4jbattle:sound.game.win master @s ~ ~ ~ 99999999
 
 ##Display particles
 function 4jbattle:game/particle/victory

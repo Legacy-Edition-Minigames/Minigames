@@ -1,5 +1,5 @@
 ##Detect if map is loaded
-execute if entity @a[tag=!relogtimer] as @e[type=area_effect_cloud,tag=MapCenter] at @s run function 4jbattle:game/loading/mapload/checkcorner
+execute if entity @a[tag=ingame] as @e[type=area_effect_cloud,tag=MapCenter] at @s run function 4jbattle:game/loading/mapload/checkcorner
 
 ##Load Init functions
 execute unless score #Store 4j.mapinit.mapload matches 1 if score #Store 4j.maploadpos matches 1.. if score #Store 4j.maploadneg matches 1.. run function 4jbattle:game/mapinit/mapload
@@ -27,4 +27,4 @@ schedule function 4jbattle:game/loading/mapload/timer 1t
 execute if score #Store 4j.timer > #Store 4j.timermax run function 4jbattle:game/loading/stop
 
 ##Stop if nobody is online
-execute unless entity @a[tag=!relogtimer] run function 4jbattle:game/loading/stop
+execute unless entity @a[tag=ingame] run function 4jbattle:game/loading/stop

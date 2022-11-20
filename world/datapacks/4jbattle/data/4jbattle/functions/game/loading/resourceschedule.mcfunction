@@ -1,1 +1,1 @@
-execute as @a[tag=!relogtimer] run function 4jbattle:resource/run
+execute as @a[tag=ingame] run function 4jbattle:resource/run

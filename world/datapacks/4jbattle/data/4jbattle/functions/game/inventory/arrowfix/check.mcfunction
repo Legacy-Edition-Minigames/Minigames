@@ -8,11 +8,11 @@ execute as @e[type=minecraft:arrow,nbt={CustomPotionEffects:[{Id:19}]}] run data
 
 ##Replace broken tipped arrows with fixed ones
 #Slowness
-execute as @a[nbt={Inventory:[{id:"minecraft:tipped_arrow",tag:{CustomPotionEffects:[{Duration:1,Id:2}]}}]}] run function 4jbattle:game/inventory/arrowfix/fix/slowness_arrow
+execute as @a[tag=ingame,nbt={Inventory:[{id:"minecraft:tipped_arrow",tag:{CustomPotionEffects:[{Duration:1,Id:2}]}}]}] run function 4jbattle:game/inventory/arrowfix/fix/slowness_arrow
 #Weakness
-execute as @a[nbt={Inventory:[{id:"minecraft:tipped_arrow",tag:{CustomPotionEffects:[{Duration:1,Id:18}]}}]}] run function 4jbattle:game/inventory/arrowfix/fix/weakness_arrow
+execute as @a[tag=ingame,nbt={Inventory:[{id:"minecraft:tipped_arrow",tag:{CustomPotionEffects:[{Duration:1,Id:18}]}}]}] run function 4jbattle:game/inventory/arrowfix/fix/weakness_arrow
 #Poison
-execute as @a[nbt={Inventory:[{id:"minecraft:tipped_arrow",tag:{CustomPotionEffects:[{Duration:1,Id:19}]}}]}] run function 4jbattle:game/inventory/arrowfix/fix/poison_arrow
+execute as @a[tag=ingame,nbt={Inventory:[{id:"minecraft:tipped_arrow",tag:{CustomPotionEffects:[{Duration:1,Id:19}]}}]}] run function 4jbattle:game/inventory/arrowfix/fix/poison_arrow
 
 ##Loop
 schedule function 4jbattle:game/inventory/arrowfix/check 1t

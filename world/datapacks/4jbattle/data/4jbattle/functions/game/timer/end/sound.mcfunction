@@ -4,6 +4,6 @@ scoreboard players operation .temp 4j.gametimer %= .2 4j.gametimer
 
 ##Play sound
 #Even
-execute if score .temp 4j.gametimer matches 1 as @a at @s run playsound 4jbattle:sound.lobby.count1 master @s
+execute if score .temp 4j.gametimer matches 1 as @a[tag=ingame] at @s run playsound 4jbattle:sound.lobby.count1 master @s
 #Odd
-execute if score .temp 4j.gametimer matches 0 as @a at @s run playsound 4jbattle:sound.lobby.count2 master @s
+execute if score .temp 4j.gametimer matches 0 as @a[tag=ingame] at @s run playsound 4jbattle:sound.lobby.count2 master @s

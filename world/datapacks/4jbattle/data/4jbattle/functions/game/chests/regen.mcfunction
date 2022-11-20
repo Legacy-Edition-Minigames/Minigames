@@ -16,7 +16,7 @@ execute if score #Store 4j.chest matches 6 as @e[type=area_effect_cloud,tag=Ches
 function 4jbattle:game/gui/chestanim/start
 
 ##Play sound
-execute as @a[tag=!relogtimer] at @s run playsound 4jbattle:sound.game.refill master @s ~ ~ ~ 99999999
+execute as @a[tag=ingame] at @s run playsound 4jbattle:sound.game.refill master @s ~ ~ ~ 99999999
 
 ##Refill chests in 30 seconds
 schedule function 4jbattle:game/chests/regen 30s

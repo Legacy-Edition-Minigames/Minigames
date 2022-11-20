@@ -7,13 +7,13 @@ execute if score #Store 4j.timelimit matches 2 run scoreboard players set #Store
 execute if score #Store 4j.timelimit matches 3 run scoreboard players set #Store 4j.gametimer 600
 
 ##Reset damage taken
-scoreboard players reset @a 4j.damagetaken
+scoreboard players reset @a[tag=ingame] 4j.damagetaken
 
 ##Reset damage dealt
-scoreboard players reset @a 4j.damagedealt
+scoreboard players reset @a[tag=ingame] 4j.damagedealt
 
 ##Reset draw score
-scoreboard players reset @a 4j.drawscore
+scoreboard players reset @a[tag=ingame] 4j.drawscore
 
 ##Enable victor check
 scoreboard players set #Store 4j.novictorcheck 0

@@ -1,5 +1,5 @@
 ##Give item
-item replace entity @a[tag=!relogtimer,predicate=!4jbattle:loading/tips/holding] weapon.mainhand with ender_eye{display:{Name:'{"text":" "}'},CustomModelData:1,ToolTip:1}
+item replace entity @a[tag=ingame,predicate=!4jbattle:loading/tips/holding] weapon.mainhand with ender_eye{display:{Name:'{"text":" "}'},CustomModelData:1,ToolTip:1}
 
 ##Reset timer
 scoreboard players set #Store 4j.tiprefresh 1

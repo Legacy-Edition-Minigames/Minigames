@@ -8,4 +8,4 @@ execute if entity @s[scores={4j.rawhunger=..0}] run effect clear @s hunger
 execute if entity @s[scores={4j.rawhunger=..0}] run tag @s add lowhunger
 
 ##Loop
-execute if entity @a[scores={4j.hungerbar=..19,4j.rawhunger=10..}] run schedule function 4jbattle:game/hunger/normal/loadlow 2t
+execute if entity @a[tag=ingame,scores={4j.hungerbar=..19,4j.rawhunger=10..}] run schedule function 4jbattle:game/hunger/normal/loadlow 2t

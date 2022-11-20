@@ -8,7 +8,7 @@ scoreboard players set #Store 4j.timer 60
 schedule clear 4jbattle:game/loading/mapload/timer
 
 ##Mark users that dont need to reload as loaded
-tag @a[tag=!relogtimer,tag=!loadingresources] add resourceloaded
+tag @a[tag=ingame,tag=!loadingresources] add resourceloaded
 
 ##Start resource loader check
 function 4jbattle:game/loading/resource/run

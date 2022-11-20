@@ -8,7 +8,7 @@ function 4jbattle:game/mapinit/roundend
 #Hide message (i have no clue why just this instance of the gamemode command causes this please help)
 gamerule sendCommandFeedback false
 #Set gamemode
-gamemode adventure @a[tag=!relogtimer]
+gamemode adventure @a[tag=ingame]
 #Enable message
 gamerule sendCommandFeedback true
 
@@ -19,17 +19,17 @@ scoreboard players set #Store 4j.displaymode 2
 function 4jbattle:game/gui/panorama/start
 
 ##Teleport players to map center
-execute as @a[tag=!relogtimer] run function 4jbattle:game/setup/teleport/load
+execute as @a[tag=ingame] run function 4jbattle:game/setup/teleport/load
 
 ##Join player team
-tag @a[tag=!relogtimer] remove spectator
-tag @a[tag=!relogtimer] add player
+tag @a[tag=ingame] remove spectator
+tag @a[tag=ingame] add player
 
 ##Remove Victor tag
-tag @a remove Victor
+tag @a[tag=ingame] remove Victor
 
 ##Remove spechead tag
-tag @a remove spechead
+tag @a[tag=ingame] remove spechead
 
 ##Set initialgame status
 scoreboard players set #Store 4j.initialgame 0
@@ -38,7 +38,7 @@ scoreboard players set #Store 4j.initialgame 0
 function 4jbattle:game/playerreset
 
 ##Set lives
-scoreboard players operation @a 4j.lives = #Store 4j.lives
+scoreboard players operation @a[tag=ingame] 4j.lives = #Store 4j.lives
 
 ##Disable chest timer
 function 4jbattle:game/chests/clear

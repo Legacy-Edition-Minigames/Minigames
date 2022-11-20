@@ -24,13 +24,13 @@ function 4jbattle:game/gui/display/loadingmap/loadname
 scoreboard players set #Store 4j.timer 0
 
 ##Revoke advancement
-execute as @a[tag=!relogtimer] run function 4jbattle:resource/advancementreset
+execute as @a[tag=ingame] run function 4jbattle:resource/advancementreset
 
 ##Remove resourceloaded tag
-tag @a remove resourceloaded
+tag @a[tag=ingame] remove resourceloaded
 
 ##Remove loadingresources tag
-tag @a remove loadingresources
+tag @a[tag=ingame] remove loadingresources
 
 ##Check which timer to start
 schedule function 4jbattle:game/loading/check 2s
