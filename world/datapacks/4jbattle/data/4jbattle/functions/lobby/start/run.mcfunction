@@ -81,3 +81,6 @@ function 4jbattle:game/combat/refresh
 
 ##Run custom scripts
 function 4jbattle:lobby/custom/start
+
+##Start timer for patreon reminder
+function 4jbattle:patreonreminder/start
