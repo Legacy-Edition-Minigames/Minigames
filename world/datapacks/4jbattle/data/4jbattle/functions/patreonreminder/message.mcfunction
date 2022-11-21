@@ -1,5 +1,5 @@
 ##Display message
-tellraw @a[tag=!relogtimer] ["",{"text":"Notice: ","bold":true,"color":"dark_red"},{"text":"We are currently running the server at a loss. Please consider donating to our ","color":"gold"},{"text":"Patreon: ","color":"#FF424D"},{"text":"https://www.patreon.com/DBTDerpbox","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://www.patreon.com/DBTDerpbox"},"hoverEvent":{"action":"show_text","contents":[{"text":"https://www.patreon.com/DBTDerpbox","italic":true,"color":"dark_aqua"}]}}]
+execute as @a[tag=!relogtimer] unless score @s 4j.patreon matches 1.. run tellraw @s ["",{"text":"Notice: ","bold":true,"color":"dark_red"},{"text":"We are currently running the server at a loss. Please consider donating to our ","color":"gold"},{"text":"Patreon: ","color":"#FF424D"},{"text":"https://www.patreon.com/DBTDerpbox","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://www.patreon.com/DBTDerpbox"},"hoverEvent":{"action":"show_text","contents":[{"text":"https://www.patreon.com/DBTDerpbox","italic":true,"color":"dark_aqua"}]}}]
 
 ##Reset timer
 function 4jbattle:patreonreminder/settimer
