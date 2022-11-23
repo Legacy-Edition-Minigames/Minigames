@@ -33,7 +33,7 @@ execute if entity @s[scores={4j.pid=15}] run summon bat ~ ~ ~ {Team:"nocollision
 execute if entity @s[scores={4j.pid=16}] run summon bat ~ ~ ~ {Team:"nocollision",Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Silent:1b,Tags:["spectatormob","specmobp16"]}
 
 ##Set Sound
-registerSpectateSqueak set @s minecraft:entity.bat.ambient
+registerSpectateSqueak set @s minecraft:entity.bat.ambient 440
 
 ##Start check
 function 4jbattle:game/spectator/check
