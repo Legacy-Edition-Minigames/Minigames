@@ -9,6 +9,8 @@ execute as d034b241-5f0b-4607-ad8d-704f1dbced6f run scoreboard players set @s 4j
 execute as 40bb5e3a-63b2-47e4-aae9-6f04f3faa3f7 run scoreboard players set @s 4j.patreon 5
 #Jamonster123/19239312
 execute as 56acefcd-7ef6-44a5-9268-0517556a6133 run scoreboard players set @s 4j.patreon 1
+#Drahna/83137800
+execute as b74c08fb-fd24-4a6c-ad9a-0543a71920de run scoreboard players set @s 4j.patreon 5
 
 ##Reset heart if no longer subscribed
 #Tiny
