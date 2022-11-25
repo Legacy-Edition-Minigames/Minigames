@@ -1,7 +1,7 @@
 [
     {
       "function": "minecraft:set_nbt",
-      "tag": "{display:{Name:'{\"text\":\"\\\\uF8221\\\\uF8012\\\\uF8013\\\\uF8014\",\"font\":\"4jbattle:loading/tips/2\",\"italic\":false}'}}"
+      "tag": "{display:{Name:'{\"text\":\"\\\\uF8221\\\\uF8012\\\\uF8013\\\\uF8014\",\"font\":\"4jbattle:loading/tips/2\",\"italic\":false,\"color\":\"#4e5c24\"}'}}"
     }
   ]
   
