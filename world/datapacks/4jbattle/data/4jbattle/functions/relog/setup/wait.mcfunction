@@ -105,4 +105,4 @@ scoreboard players set @s 4j.timer 100
 execute unless entity @s[advancements={4jbattle:config/custompack=true,4jbattle:config/globalpack=true}] run function 4jbattle:relog/timer/check
 
 ##Join if custom pack is enabled
-execute if entity @s[advancements={4jbattle:config/custompack=true,4jbattle:config/globalpack=true}] run function 4jbattle:relog/setup/global
+execute if entity @s[advancements={4jbattle:config/custompack=true,4jbattle:config/globalpack=true}] run function 4jbattle:relog/setup/custompack
