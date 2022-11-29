@@ -33,7 +33,7 @@ execute if entity @s[scores={4j.pid=15}] run summon vex ~ ~ ~ {Team:"nocollision
 execute if entity @s[scores={4j.pid=16}] run summon vex ~ ~ ~ {Team:"nocollision",Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Silent:1b,Tags:["spectatormob","specmobp16"]}
 
 ##Set Sound
-registerSpectateSqueak set @s minecraft:entity.vex.ambient
+registerSpectateSqueak set @s minecraft:entity.vex.ambient 800
 
 ##Start check
 function 4jbattle:game/spectator/check

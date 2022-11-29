@@ -33,7 +33,7 @@ execute if entity @s[scores={4j.pid=15}] run summon parrot ~ ~ ~ {OnGround:0b,Te
 execute if entity @s[scores={4j.pid=16}] run summon parrot ~ ~ ~ {OnGround:0b,Team:"nocollision",Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Silent:1b,Tags:["spectatormob","specmobp16"]}
 
 ##Set Sound
-registerSpectateSqueak set @s minecraft:entity.parrot.ambient
+registerSpectateSqueak set @s minecraft:entity.parrot.ambient 400
 
 ##Start check
 function 4jbattle:game/spectator/check

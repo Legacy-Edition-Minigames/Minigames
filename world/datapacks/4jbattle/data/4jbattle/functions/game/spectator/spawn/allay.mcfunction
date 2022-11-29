@@ -33,7 +33,7 @@ execute if entity @s[scores={4j.pid=15}] run summon allay ~ ~ ~ {Team:"nocollisi
 execute if entity @s[scores={4j.pid=16}] run summon allay ~ ~ ~ {Team:"nocollision",Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Silent:1b,Tags:["spectatormob","specmobp16"]}
 
 ##Set sound
-registerSpectateSqueak set @s minecraft:entity.allay.ambient_with_item
+registerSpectateSqueak set @s minecraft:entity.allay.ambient_with_item 500
 
 ##Start check
 function 4jbattle:game/spectator/check
