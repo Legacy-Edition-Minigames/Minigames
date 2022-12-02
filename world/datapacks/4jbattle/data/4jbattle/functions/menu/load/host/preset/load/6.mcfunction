@@ -4,13 +4,13 @@ function 4jbattle:menu/load/host/defaults/run
 
 ##Bug Fixes
 #Armor Item Swap Deletion
-execute if entity @s[advancements={4jbattle:menu/host/presets/6/bug/armorswapdrop=true}] run scoreboard players set #Store 4j.armorswapdrop 1
+execute if entity @s[advancements={4jbattle:menu/host/presets/6/bug/armorswapdrop=false}] run scoreboard players set #Store 4j.armorswapdrop 0
 #Food Central diamond sword
-execute if entity @s[advancements={4jbattle:menu/host/presets/6/bug/foodcentral=true}] run scoreboard players set #Store 4j.foodcentfix 1
+execute if entity @s[advancements={4jbattle:menu/host/presets/6/bug/foodcentral=false}] run scoreboard players set #Store 4j.foodcentfix 0
 #No Armor leaping potion
-execute if entity @s[advancements={4jbattle:menu/host/presets/6/bug/leapfix=true}] run scoreboard players set #Store 4j.leapfix 1
+execute if entity @s[advancements={4jbattle:menu/host/presets/6/bug/leapfix=false}] run scoreboard players set #Store 4j.leapfix 0
 #Large+ Cove Chests
-execute if entity @s[advancements={4jbattle:menu/host/presets/6/bug/largepluscove=true}] run scoreboard players set #Store 4j.lpluscovefix 1
+execute if entity @s[advancements={4jbattle:menu/host/presets/6/bug/largepluscove=false}] run scoreboard players set #Store 4j.lpluscovefix 0
 
 ##Chests
 #Item set
