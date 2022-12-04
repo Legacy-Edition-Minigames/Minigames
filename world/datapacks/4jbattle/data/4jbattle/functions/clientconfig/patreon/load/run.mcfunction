@@ -13,6 +13,10 @@ execute as 56acefcd-7ef6-44a5-9268-0517556a6133 run scoreboard players set @s 4j
 execute as b74c08fb-fd24-4a6c-ad9a-0543a71920de run scoreboard players set @s 4j.patreon 5
 #VilFire/81079582
 execute as 03bcb87b-5995-4378-8af3-3f8d181f2d47 run scoreboard players set @s 4j.patreon 5
+#Lion8Cake/83649865
+execute as e9e4b393-29d1-4004-b469-125d8b87c124 run scoreboard players set @s 4j.patreon 3
+#Aldo_28/15967147
+execute as 007da748-4c6b-42e8-9626-e394282598d2 run scoreboard players set @s 4j.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny

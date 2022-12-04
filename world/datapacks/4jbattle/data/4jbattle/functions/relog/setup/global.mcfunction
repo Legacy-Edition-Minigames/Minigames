@@ -1,3 +1,9 @@
+##Load serverutils/lemclienthelper settings
+#Detect if on forge
+execute if score @s serverutils.forgeclient matches 2 run tag @s add forge
+#GUIScale/PanScale
+function 4jbattle:relog/setup/lemclienthelper/optionsync/run
+
 ##Display message
 #Discord
 tellraw @s ["",{"translate":"4j.relog.join.discord","color":"#7289DA"},"\n",{"text":"https://discord.gg/5q2zz3EdYf","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://discord.gg/5q2zz3EdYf"},"hoverEvent":{"action":"show_text","contents":[{"translate":"4j.relog.join.discord.hover","color":"blue"},": https://discord.gg/5q2zz3EdYf"]}}]
