@@ -48,7 +48,7 @@ bossbar set minecraft:bannerpushdown2 players @a[tag=ingame]
 bossbar set minecraft:bannerinfo players @a[tag=ingame]
 
 ##ChestAnim globalinfo
-bossbar set minecraft:chestanim/1 players @a[tag=ingame,advancements={4jmenu:config/guiscale/1=true}]
-bossbar set minecraft:chestanim/2 players @a[tag=ingame,advancements={4jmenu:config/guiscale/2=true}]
-bossbar set minecraft:chestanim/3 players @a[tag=ingame,advancements={4jmenu:config/guiscale/3=true}]
-bossbar set minecraft:chestanim/4 players @a[tag=ingame,advancements={4jmenu:config/guiscale/4=true}]
+bossbar set minecraft:chestanim/1 players @a[tag=ingame,scores={4j.guiscale=1}]
+bossbar set minecraft:chestanim/2 players @a[tag=ingame,scores={4j.guiscale=2}]
+bossbar set minecraft:chestanim/3 players @a[tag=ingame,scores={4j.guiscale=3}]
+bossbar set minecraft:chestanim/4 players @a[tag=ingame,scores={4j.guiscale=4}]

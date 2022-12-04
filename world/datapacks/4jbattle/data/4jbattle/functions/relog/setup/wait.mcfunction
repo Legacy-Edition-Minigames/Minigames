@@ -67,9 +67,7 @@ scoreboardplayerinfo setAllScores
 
 ##Load serverutils/lemclienthelper settings
 #Detect optifine
-function 4jbattle:relog/setup/loadofconfig
-#Detect if on forge
-execute if score @s serverutils.forgeclient matches 2 run tag @s add forge
+function 4jbattle:relog/setup/lemclienthelper/loadofconfig
 
 ##Reset spectator sound
 registerSpectateSqueak clear @s
