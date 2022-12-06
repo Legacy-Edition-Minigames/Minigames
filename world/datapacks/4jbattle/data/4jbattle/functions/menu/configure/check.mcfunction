@@ -293,5 +293,11 @@ execute as @s[scores={4j.gamecfg=164}] run function 4jbattle:menu/load/host/lobb
 ##Set spectator mob as Allay
 execute as @s[scores={4j.gamecfg=165}] run function 4jbattle:menu/load/host/spectator/setallay
 
+##Modded content toggle
+#Enable
+execute as @s[scores={4j.gamecfg=167}] run function 4jbattle:menu/load/host/chest/randompower/enable
+#Disable
+execute as @s[scores={4j.gamecfg=168}] run function 4jbattle:menu/load/host/chest/randompower/disable
+
 ##Reset score
 scoreboard players reset @s 4j.gamecfg
