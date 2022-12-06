@@ -12,6 +12,7 @@ advancement revoke @s only 4jbattle:menu/host/presets/3/chest/foodcentral
 advancement revoke @s only 4jbattle:menu/host/presets/3/chest/remastered
 advancement revoke @s only 4jbattle:menu/host/presets/3/chest/random
 advancement revoke @s only 4jbattle:menu/host/presets/3/chest/refill
+advancement revoke @s only 4jbattle:menu/host/presets/3/chest/randompower
 advancement revoke @s only 4jbattle:menu/host/presets/3/chest/randomconfig/normal
 advancement revoke @s only 4jbattle:menu/host/presets/3/chest/randomconfig/noarmor
 advancement revoke @s only 4jbattle:menu/host/presets/3/chest/randomconfig/highpower
@@ -139,6 +140,8 @@ execute if score #Store 4j.setchest matches 6 run advancement grant @s only 4jba
 execute if score #Store 4j.setchest matches 7 run advancement grant @s only 4jbattle:menu/host/presets/3/chest/random
 #Chest Refill
 execute if score #Store 4j.chestrefill matches 1 run advancement grant @s only 4jbattle:menu/host/presets/3/chest/refill
+#Random Power Chests
+execute if score #Store 4j.randompowerchest matches 1 run advancement grant @s only 4jbattle:menu/host/presets/3/chest/randompower
 #Random config
 execute if score #Normal 4j.enableset matches 1 run advancement grant @s only 4jbattle:menu/host/presets/3/chest/randomconfig/normal
 execute if score #NoArmor 4j.enableset matches 1 run advancement grant @s only 4jbattle:menu/host/presets/3/chest/randomconfig/noarmor

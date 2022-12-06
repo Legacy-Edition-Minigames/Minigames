@@ -477,6 +477,12 @@ scoreboard objectives add 4j.guiscale dummy
 ##PanScale config value
 scoreboard objectives add 4j.panscale dummy
 
+##Host option for randomizing power chests
+scoreboard objectives add 4j.randompowerchest dummy
+
+##Amount of chests to randomize when random powerful chests is enabled
+scoreboard objectives add 4j.randompowerchestcount dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

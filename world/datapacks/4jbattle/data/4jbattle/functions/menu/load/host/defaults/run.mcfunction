@@ -117,3 +117,6 @@ scoreboard players set #Store 4j.extendedpotionrange 1
 
 ##Disable mods
 scoreboard players set #Store 4j.enablemods 0
+
+##Random Powerful Chests
+scoreboard players set #Store 4j.randompowerchest 0
