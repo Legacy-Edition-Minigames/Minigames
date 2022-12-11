@@ -2,7 +2,7 @@
 advancement grant @s only 4jmenu:config/optifine
 
 ##Refresh config
-function 4jbattle:relog/setup/loadofconfig
+function 4jbattle:relog/setup/lemclienthelper/loadofconfig
 
 ##Reset score
 scoreboard players reset @s optifinepack
