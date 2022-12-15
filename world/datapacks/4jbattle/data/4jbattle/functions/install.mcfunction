@@ -452,6 +452,15 @@ scoreboard objectives add 4j.muspack dummy
 ##Timer to remind people that we need donations to actually survive
 scoreboard objectives add 4j.patreontimer dummy
 
+##Boolean for marking if the server is in a dangerous spot for funding
+scoreboard objectives add 4j.patreonurgent dummy
+
+##GUIScale config value
+scoreboard objectives add 4j.guiscale dummy
+
+##PanScale config value
+scoreboard objectives add 4j.panscale dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

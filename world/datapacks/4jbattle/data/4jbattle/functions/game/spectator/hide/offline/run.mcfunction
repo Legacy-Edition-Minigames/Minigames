@@ -1,5 +1,8 @@
 ##Teleport out of the map
-execute in minecraft:overworld run tp @s -343 4 -342
+tp @s ~ -80 ~
 
 ##Kill the entity
-kill @s
+#Give tag
+tag @s add speckill
+#Kill after a tick
+schedule function 4jbattle:game/spectator/hide/offline/kill 2t

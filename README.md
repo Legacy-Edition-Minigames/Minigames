@@ -51,7 +51,7 @@ Map Packs 1-4 - [MinecraftDigger](https://www.youtube.com/c/MinecraftDigger/)
 
 Texture Pack ports - [Ultmate_Mario](https://ultmatemario.wixsite.com/ultmatemario)
 
-Updating the Halloween textures to 1.19 - PastelBranches/Rasriel
+Updating the Halloween and Festive textures to 1.19 - PastelBranches/Rasriel
 
 Significant Modding Help - [Kyrptonaught](https://github.com/kyrptonaught)
 
@@ -59,7 +59,9 @@ Achievement Icons - [Lion8cake](https://github.com/Lion8cake)
 
 Major LEB-ToolBox Improvements - [PiporGames](https://github.com/PiporGames) 
 
-Help with lemclienthelper's small inv textures - [SUPERN00Bthefirst](https://github.com/SUPERN00Bthefirst)
+Help with lemclienthelper's small inv textures - [N00B](https://github.com/S-N00B-1)
+
+Adding more accurate tooltip window - [N00B](https://github.com/S-N00B-1)
 
 Discovering how to fix visual potion motion [?](https://www.youtube.com/watch?v=yM7aQKAbFmY&t=373s) - [Cloud Wolf](https://www.youtube.com/cloudwolfminecraft)
 
