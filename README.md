@@ -63,6 +63,8 @@ Help with lemclienthelper's small inv textures - [N00B](https://github.com/S-N00
 
 Adding more accurate tooltip window - [N00B](https://github.com/S-N00B-1)
 
+[Fixing transparent paintings](https://www.planetminecraft.com/texture-pack/mc-164001-transparent-textures-bug-fix-see-through-paintings-beds-amp-shields/) - [Echonix](https://www.planetminecraft.com/member/echonix/)
+
 Discovering how to fix visual potion motion [?](https://www.youtube.com/watch?v=yM7aQKAbFmY&t=373s) - [Cloud Wolf](https://www.youtube.com/cloudwolfminecraft)
 
 Ported loot tables from Wii U Edition - bugsbugsbugs#0528
