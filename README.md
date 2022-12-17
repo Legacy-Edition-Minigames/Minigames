@@ -86,3 +86,5 @@ Portuguese Translations - [CavaleiroDev](https://twitter.com/CavaleiroDev) and P
 Polish Translations - Steve_Poland#0070
 
 Japanese Translations - [3UP](https://twitter.com/loserdog8519)
+
+French Translations - [Frizou](https://www.youtube.com/channel/UCghp5JdfRaf3dNDeNucD_Yg)
