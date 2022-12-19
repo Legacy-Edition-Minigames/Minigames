@@ -19,5 +19,8 @@ execute if score #Store 4j.barmode matches 1 as @a[tag=ingame] run function 4jba
 #Loading Resources
 execute if score #Store 4j.barmode matches 2 as @a[tag=ingame,tag=resourceloaded] run function 4jbattle:game/gui/display/loadingmap/bar/resource
 
+##Clear actionbar
+title @a[tag=ingame] actionbar ""
+
 #title @a subtitle {"text":"\uF901","font":"4jbattle:loading/bar/progress"}
 #title @a subtitle ["",{"text":"\uF80A\uF808\uF802\uF901","font":"4jbattle:loading/bar/progress"},{"text":"\uF80C\uF801\uF901","font":"4jbattle:loading/bar/text"}]
