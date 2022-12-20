@@ -1,4 +1,4 @@
-##Toggle optifine pack
+##Toggle enchanted armor swapping
 #Enable
 execute as @a[scores={swapenchanted=1..},advancements={4jbattle:config/swapenchanted=false}] run function 4jbattle:clientconfig/swapenchanted/enable
 #Disable

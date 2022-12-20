@@ -461,6 +461,9 @@ scoreboard objectives add 4j.guiscale dummy
 ##PanScale config value
 scoreboard objectives add 4j.panscale dummy
 
+##Option to prevent playing music that is unsafe for streaming
+scoreboard objectives add safemusic trigger
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
