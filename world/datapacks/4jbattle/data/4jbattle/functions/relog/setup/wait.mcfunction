@@ -39,6 +39,7 @@ tag @s remove ingame
 tag @s remove heart-architect
 tag @s remove heart-mario
 tag @s remove heart-tris1357
+tag @s remove heart-pixeogames
 
 ##Set title times
 title @s times 0 50 1

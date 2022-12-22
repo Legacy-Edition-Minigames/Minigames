@@ -68,7 +68,7 @@ execute as @a[scores={heartcosmetic=23}] unless entity @s[scores={4j.patreon=4..
 #Large+
 execute as @a[scores={heartcosmetic=24}] if entity @s[scores={4j.patreon=5..}] run function 4jbattle:clientconfig/heart/switch/largeplus/run
 execute as @a[scores={heartcosmetic=24}] unless entity @s[scores={4j.patreon=5..}] run function 4jbattle:clientconfig/heart/switch/largeplus/fail
-#Secrets
+#Custom
 #TheMinecraftArchitect
 execute as @a[scores={heartcosmetic=25},tag=heart-architect] run function 4jbattle:clientconfig/heart/switch/architect
 execute as @a[scores={heartcosmetic=25},tag=!heart-architect] run function 4jbattle:clientconfig/heart/switch/notunlocked
@@ -78,6 +78,9 @@ execute as @a[scores={heartcosmetic=26},tag=!heart-mario] run function 4jbattle:
 #Tris1357
 execute as @a[scores={heartcosmetic=27},tag=heart-tris1357] run function 4jbattle:clientconfig/heart/switch/tris1357
 execute as @a[scores={heartcosmetic=27},tag=!heart-tris1357] run function 4jbattle:clientconfig/heart/switch/notunlocked
+#PixeoGames
+execute as @a[scores={heartcosmetic=28},tag=heart-pixeogames] run function 4jbattle:clientconfig/heart/switch/pixeogames
+execute as @a[scores={heartcosmetic=28},tag=!heart-pixeogames] run function 4jbattle:clientconfig/heart/switch/notunlocked
 
 ##Enable toggle
 scoreboard players enable @a heartcosmetic
