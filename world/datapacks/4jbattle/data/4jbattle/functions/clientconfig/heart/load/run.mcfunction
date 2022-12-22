@@ -64,3 +64,5 @@ execute if entity @s[advancements={4jbattle:config/heart/mario=true}] run setSuf
 execute if entity @s[advancements={4jbattle:config/heart/tris1357=true}] run setSuffixFont alive "4jbattle:tablist/heart/secret/tris1357" @s
 #PixeoGames
 execute if entity @s[advancements={4jbattle:config/heart/pixeogames=true}] run setSuffixFont alive "4jbattle:tablist/heart/secret/pixeogames" @s
+#Lion8Cake
+execute if entity @s[advancements={4jbattle:config/heart/lion8cake=true}] run setSuffixFont alive "4jbattle:tablist/heart/secret/lion8cake" @s

@@ -81,6 +81,9 @@ execute as @a[scores={heartcosmetic=27},tag=!heart-tris1357] run function 4jbatt
 #PixeoGames
 execute as @a[scores={heartcosmetic=28},tag=heart-pixeogames] run function 4jbattle:clientconfig/heart/switch/pixeogames
 execute as @a[scores={heartcosmetic=28},tag=!heart-pixeogames] run function 4jbattle:clientconfig/heart/switch/notunlocked
+#Lion8Cake
+execute as @a[scores={heartcosmetic=29},tag=heart-lion8cake] run function 4jbattle:clientconfig/heart/switch/lion8cake
+execute as @a[scores={heartcosmetic=29},tag=!heart-lion8cake] run function 4jbattle:clientconfig/heart/switch/notunlocked
 
 ##Enable toggle
 scoreboard players enable @a heartcosmetic
