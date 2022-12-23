@@ -483,6 +483,9 @@ scoreboard objectives add 4j.randompowerchest dummy
 ##Amount of chests to randomize when random powerful chests is enabled
 scoreboard objectives add 4j.randompowerchestcount dummy
 
+##Option to prevent playing music that is unsafe for streaming
+scoreboard objectives add safemusic trigger
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false

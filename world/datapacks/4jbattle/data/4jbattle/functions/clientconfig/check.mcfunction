@@ -43,5 +43,8 @@ function 4jbattle:clientconfig/swapenchanted/check
 ##Patreon menu
 function 4jbattle:clientconfig/patreon/check/run
 
+##Streaming safe music
+function 4jbattle:clientconfig/safemusic/check
+
 ##Loop
 schedule function 4jbattle:clientconfig/check 1s

@@ -55,10 +55,14 @@ execute if entity @s[advancements={4jbattle:config/heart/large=true}] run setSuf
 #Large+
 execute if entity @s[advancements={4jbattle:config/heart/largeplus=true}] run setSuffixFont alive "4jbattle:tablist/heart/patreon/largeplus" @s
 
-##Secrets
+##Custom
 #TheMinecraftArchitect
 execute if entity @s[advancements={4jbattle:config/heart/architect=true}] run setSuffixFont alive "4jbattle:tablist/heart/secret/architect" @s
 #Mario
 execute if entity @s[advancements={4jbattle:config/heart/mario=true}] run setSuffixFont alive "4jbattle:tablist/heart/secret/mario" @s
 #Tris1357
 execute if entity @s[advancements={4jbattle:config/heart/tris1357=true}] run setSuffixFont alive "4jbattle:tablist/heart/secret/tris1357" @s
+#PixeoGames
+execute if entity @s[advancements={4jbattle:config/heart/pixeogames=true}] run setSuffixFont alive "4jbattle:tablist/heart/secret/pixeogames" @s
+#Lion8Cake
+execute if entity @s[advancements={4jbattle:config/heart/lion8cake=true}] run setSuffixFont alive "4jbattle:tablist/heart/secret/lion8cake" @s

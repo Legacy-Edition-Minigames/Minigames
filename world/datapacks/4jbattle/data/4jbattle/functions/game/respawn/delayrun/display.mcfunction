@@ -21,6 +21,6 @@ title @s title {"text":"1","font":"4jbattle:death/youdied"}
 
 ##Display lives
 #Above 1
-execute if score @s 4j.lives matches 2.. run title @s subtitle ["","You have ",{"score":{"name":"@s ","objective":"4j.lives"}}," lives remaining!"]
+execute if score @s 4j.lives matches 2.. run title @s subtitle {"translate":"4j.game.lives.remaining.plural","with":[{"score":{"name":"@s","objective":"4j.lives"}}]}
 #Below 1
-execute if score @s 4j.lives matches 1 run title @s subtitle ["","You have ",{"score":{"name":"@s ","objective":"4j.lives"}}," life remaining!"]
+execute if score @s 4j.lives matches 1 run title @s subtitle {"translate":"4j.game.lives.remaining.singular","with":[{"score":{"name":"@s","objective":"4j.lives"}}]}
