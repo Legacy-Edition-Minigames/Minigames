@@ -2,7 +2,7 @@
   "id": "default",
   "name": "Default",
   "header": [
-    "<gradient:#e2ded9:#ada4a1><bold>Legacy Edition</bold></gradient> <gradient:#f0c319:#e6a01b><bold>Battle</bold></gradient>",
+    "<font:title><color:#fafafa>1\uF8012\uF8013\uF8014<font:default>\n\n\n\n",
     "<color:#1cf89e>%server:online%<color:#2f4049>/</color>%server:max_players%",
     ""
   ],
