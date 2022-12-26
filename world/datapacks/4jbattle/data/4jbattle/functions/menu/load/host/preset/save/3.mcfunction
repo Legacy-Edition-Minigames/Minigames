@@ -110,6 +110,7 @@ advancement revoke @s only 4jbattle:menu/host/presets/3/combat/style/custom/atta
 advancement revoke @s only 4jbattle:menu/host/presets/3/combat/style/custom/attackspeed/fast
 advancement revoke @s only 4jbattle:menu/host/presets/3/combat/style/custom/attackspeed/fastest
 advancement revoke @s only 4jbattle:menu/host/presets/3/mods/enabled
+advancement revoke @s only 4jbattle:menu/host/presets/3/combat/style/custom/criticals
 advancement revoke @s only 4jbattle:menu/host/presets/3/version/1
 advancement revoke @s only 4jbattle:menu/host/presets/3/version/2
 advancement revoke @s only 4jbattle:menu/host/presets/3/version/3
@@ -118,6 +119,7 @@ advancement revoke @s only 4jbattle:menu/host/presets/3/version/3
 advancement grant @s only 4jbattle:menu/host/presets/3/version/1
 advancement grant @s only 4jbattle:menu/host/presets/3/version/2
 advancement grant @s only 4jbattle:menu/host/presets/3/version/3
+advancement grant @s only 4jbattle:menu/host/presets/3/version/4
 
 ##Bug Fixes
 #Armor Item Swap Deletion
@@ -298,6 +300,9 @@ execute if score #Store 4j.setmoderndamage.hoe matches 1 run advancement grant @
 
 ##Attack Cooldown
 execute if score #Store 4j.setattackcooldown matches 1 run advancement grant @s only 4jbattle:menu/host/presets/3/combat/style/custom/cooldown
+
+##Critical Attacks
+execute if score #Store 4j.setcriticalhits matches 1 run advancement grant @s only 4jbattle:menu/host/presets/3/combat/style/custom/criticals
 
 ##Attack Speed
 #Slow

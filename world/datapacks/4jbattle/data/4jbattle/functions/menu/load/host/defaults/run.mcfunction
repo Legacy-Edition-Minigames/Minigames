@@ -111,6 +111,9 @@ scoreboard players set #Store 4j.setswordblock 1
 #Attack speed
 scoreboard players set #Store 4j.attackspeed 1
 scoreboard players set #Store 4j.setattackspeed 1
+#Critical attacks
+scoreboard players set #Store 4j.criticalhits 1
+scoreboard players set #Store 4j.setcriticalhits 1
 
 ##Extended Potion Range
 scoreboard players set #Store 4j.extendedpotionrange 1

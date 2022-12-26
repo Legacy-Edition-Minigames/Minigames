@@ -4,6 +4,12 @@ execute if score #Store 4j.attackcooldown matches 0 as @a[tag=ingame] run attrib
 #Enabled
 execute if score #Store 4j.attackcooldown matches 1 as @a[tag=ingame] run function 4jbattle:game/combat/attackspeed
 
+##Criticals
+#Disabled
+execute if score #Store 4j.criticalhits matches 0 run critblocker enablecrits false
+#Enabled
+execute if score #Store 4j.criticalhits matches 1 run critblocker enablecrits true
+
 ##Loop
 schedule function 4jbattle:game/combat/check 10s
 

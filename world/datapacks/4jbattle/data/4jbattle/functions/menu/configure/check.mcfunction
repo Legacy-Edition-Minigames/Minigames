@@ -299,5 +299,11 @@ execute as @s[scores={4j.gamecfg=167}] run function 4jbattle:menu/load/host/ches
 #Disable
 execute as @s[scores={4j.gamecfg=168}] run function 4jbattle:menu/load/host/chest/randompower/disable
 
+##Critical Attacks option
+#Enable
+execute as @s[scores={4j.gamecfg=169}] run function 4jbattle:menu/load/host/combat/style/custom/criticals/enable
+#Disable
+execute as @s[scores={4j.gamecfg=170}] run function 4jbattle:menu/load/host/combat/style/custom/criticals/disable
+
 ##Reset score
 scoreboard players reset @s 4j.gamecfg
