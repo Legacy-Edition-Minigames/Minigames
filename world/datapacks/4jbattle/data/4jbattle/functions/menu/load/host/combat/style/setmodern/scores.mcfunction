@@ -14,3 +14,6 @@ scoreboard players set #Store 4j.moderndamage.hoe 1
 
 ##Disable sword blocking
 scoreboard players set #Store 4j.swordblock 0
+
+##Enable Critical Attacks
+scoreboard players set #Store 4j.criticalhits 1

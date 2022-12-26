@@ -249,6 +249,12 @@ execute if entity @s[advancements={4jbattle:menu/host/presets/10/combat/style/cu
 #Disabled
 execute if entity @s[advancements={4jbattle:menu/host/presets/10/combat/style/custom/cooldown=false}] run scoreboard players set #Store 4j.setattackcooldown 0
 
+##Critical Attacks
+#Enabled
+execute if entity @s[advancements={4jbattle:menu/host/presets/10/combat/style/custom/criticals=true}] run scoreboard players set #Store 4j.setcriticalhits 1
+#Disabled
+execute if entity @s[advancements={4jbattle:menu/host/presets/10/combat/style/custom/criticals=false}] run scoreboard players set #Store 4j.setcriticalhits 0
+
 ##Attack Speed
 #Slow
 execute if entity @s[advancements={4jbattle:menu/host/presets/10/combat/style/custom/attackspeed/slow=true}] run scoreboard players set #Store 4j.setattackspeed 0

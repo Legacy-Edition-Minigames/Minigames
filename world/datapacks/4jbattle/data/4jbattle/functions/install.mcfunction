@@ -464,6 +464,12 @@ scoreboard objectives add 4j.panscale dummy
 ##Option to prevent playing music that is unsafe for streaming
 scoreboard objectives add safemusic trigger
 
+##Critical Attacks toggle
+#Backend
+scoreboard objectives add 4j.criticalhits dummy
+#Custom mode toggle
+scoreboard objectives add 4j.setcriticalhits dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
