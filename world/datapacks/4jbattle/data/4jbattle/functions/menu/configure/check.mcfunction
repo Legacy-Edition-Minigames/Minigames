@@ -305,5 +305,8 @@ execute as @s[scores={4j.gamecfg=169}] run function 4jbattle:menu/load/host/comb
 #Disable
 execute as @s[scores={4j.gamecfg=170}] run function 4jbattle:menu/load/host/combat/style/custom/criticals/disable
 
+##Set lobby to festive
+execute as @s[scores={4j.gamecfg=171}] run function 4jbattle:menu/load/host/lobby/setfestive
+
 ##Reset score
 scoreboard players reset @s 4j.gamecfg

@@ -38,6 +38,7 @@ advancement revoke @s only 4jbattle:menu/host/presets/6/lobby/new
 advancement revoke @s only 4jbattle:menu/host/presets/6/lobby/old
 advancement revoke @s only 4jbattle:menu/host/presets/6/lobby/anniversary
 advancement revoke @s only 4jbattle:menu/host/presets/6/lobby/halloween
+advancement revoke @s only 4jbattle:menu/host/presets/6/lobby/festive
 advancement revoke @s only 4jbattle:menu/host/presets/6/map/type/auto
 advancement revoke @s only 4jbattle:menu/host/presets/6/map/type/small
 advancement revoke @s only 4jbattle:menu/host/presets/6/map/type/large
@@ -191,6 +192,8 @@ execute if score #Store 4j.setlobbytype matches 1 run advancement grant @s only 
 execute if score #Store 4j.setlobbytype matches 2 run advancement grant @s only 4jbattle:menu/host/presets/6/lobby/anniversary
 #Halloween lobby
 execute if score #Store 4j.setlobbytype matches 3 run advancement grant @s only 4jbattle:menu/host/presets/6/lobby/halloween
+#Festive lobby
+execute if score #Store 4j.setlobbytype matches 4 run advancement grant @s only 4jbattle:menu/host/presets/6/lobby/festive
 
 ##Map settings
 #Type
