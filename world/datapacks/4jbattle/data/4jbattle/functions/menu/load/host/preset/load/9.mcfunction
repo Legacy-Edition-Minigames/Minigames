@@ -89,7 +89,8 @@ execute if entity @s[advancements={4jbattle:menu/host/presets/9/lobby/new=true}]
 execute if entity @s[advancements={4jbattle:menu/host/presets/9/lobby/anniversary=true}] run scoreboard players set #Store 4j.setlobbytype 2
 #Halloween lobby
 execute if entity @s[advancements={4jbattle:menu/host/presets/9/lobby/halloween=true}] run scoreboard players set #Store 4j.setlobbytype 3
-
+#Festive lobby
+execute if entity @s[advancements={4jbattle:menu/host/presets/9/lobby/festive=true}] run scoreboard players set #Store 4j.setlobbytype 4
 
 ##Map settings
 #Type
@@ -256,6 +257,12 @@ execute if entity @s[advancements={4jbattle:menu/host/presets/9/combat/style/cus
 execute if entity @s[advancements={4jbattle:menu/host/presets/9/combat/style/custom/cooldown=true}] run scoreboard players set #Store 4j.setattackcooldown 1
 #Disabled
 execute if entity @s[advancements={4jbattle:menu/host/presets/9/combat/style/custom/cooldown=false}] run scoreboard players set #Store 4j.setattackcooldown 0
+
+##Critical Attacks
+#Enabled
+execute if entity @s[advancements={4jbattle:menu/host/presets/9/combat/style/custom/criticals=true}] run scoreboard players set #Store 4j.setcriticalhits 1
+#Disabled
+execute if entity @s[advancements={4jbattle:menu/host/presets/9/combat/style/custom/criticals=false}] run scoreboard players set #Store 4j.setcriticalhits 0
 
 ##Attack Speed
 #Slow

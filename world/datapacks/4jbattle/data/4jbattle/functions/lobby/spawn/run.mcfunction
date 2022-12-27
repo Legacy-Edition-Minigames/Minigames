@@ -13,5 +13,8 @@ execute if score #Store 4j.lobbytype matches 2 in 4jbattle:the_lobby run functio
 ##Halloween lobby
 execute if score #Store 4j.lobbytype matches 3 in 4jbattle:lobby_halloween run function 4jbattle:lobby/spawn/teleport/halloween
 
+##Festive lobby
+execute if score #Store 4j.lobbytype matches 4 in 4jbattle:lobby_festive run function 4jbattle:lobby/spawn/teleport/festive
+
 ##Set spawnpoint
 spawnpoint @s ~ ~ ~

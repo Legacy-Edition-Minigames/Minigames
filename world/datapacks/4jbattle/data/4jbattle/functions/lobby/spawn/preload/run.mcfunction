@@ -9,3 +9,6 @@ execute if score #Store 4j.lobbytype matches 2 in 4jbattle:the_lobby run functio
 
 ##Halloween lobby
 execute if score #Store 4j.lobbytype matches 3 in 4jbattle:the_lobby run function 4jbattle:lobby/spawn/preload/halloween
+
+##Festive lobby
+execute if score #Store 4j.lobbytype matches 4 in 4jbattle:the_lobby run function 4jbattle:lobby/spawn/preload/festive
