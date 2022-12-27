@@ -4,6 +4,9 @@ kill @e[type=arrow]
 ##Remove items
 kill @e[type=item]
 
+##Remove minecarts
+kill @e[type=minecart]
+
 ##I'm not even going to try to comment this
 ##Its a bunch of data merge commands to refill the containers in the lobby
 data merge block -328 56 -362 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_disc_stal",tag:{CanPlaceOn:["minecraft:jukebox"]}}]}
