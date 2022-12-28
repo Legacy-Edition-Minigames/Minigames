@@ -1,3 +1,6 @@
+##Clear check for waiting on dimension to be ready
+schedule clear 4jbattle:menu/load/host/start/timer/run
+
 ##Clear menu check
 schedule clear 4jbattle:menu/check
 
@@ -18,3 +21,6 @@ function 4jbattle:lobby/nodrop/check
 
 ##Disable chesttracker
 chesttracker enabled false
+
+##Refresh time
+function 4jbattle:game/time/refresh

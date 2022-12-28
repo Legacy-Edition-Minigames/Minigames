@@ -1,5 +1,15 @@
-##Containers only
-execute if score #Store 4j.fullreset matches ..0 run function 4jbattle:lobby/reset/containers
+###This is for resetting containers, for resetting the map see 4jbattle:lobby/load/run
+##Old lobby
+execute if score #Store 4j.lobbytype matches 0 in 4jbattle:the_lobby run function 4jbattle:lobby/reset/old
 
-##Full reset
-execute if score #Store 4j.fullreset matches 1 run function 4jbattle:lobby/reset/full
+##New lobby
+execute if score #Store 4j.lobbytype matches 1 in 4jbattle:the_lobby run function 4jbattle:lobby/reset/new
+
+##Anniversary lobby
+execute if score #Store 4j.lobbytype matches 2 in 4jbattle:the_lobby run function 4jbattle:lobby/reset/anniversary
+
+##Halloween lobby
+execute if score #Store 4j.lobbytype matches 3 in 4jbattle:the_lobby run function 4jbattle:lobby/reset/halloween
+
+##Festive lobby
+execute if score #Store 4j.lobbytype matches 4 in 4jbattle:the_lobby run function 4jbattle:lobby/reset/festive

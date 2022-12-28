@@ -1,3 +1,6 @@
+##Randomize power chests if enabled
+execute if score #Store 4j.randompowerchest matches 1 run function 4jbattle:game/chests/load/randompower/run
+
 ##Normal
 execute if score #Store 4j.chest matches 1 run function 4jbattle:game/chests/normal/firstgen
 ##No Armor

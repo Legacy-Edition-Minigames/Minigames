@@ -20,7 +20,7 @@ function 4jbattle:menu/check
 function 4jbattle:menu/tp
 
 ##Load defaults
-function 4jbattle:menu/load/host/defaults
+function 4jbattle:menu/load/host/defaults/run
 
 ##Temporary GUI
 function 4jbattle:menu/load/host/gui

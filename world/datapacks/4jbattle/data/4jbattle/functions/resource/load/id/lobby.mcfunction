@@ -9,3 +9,5 @@ execute unless entity @a[tag=ingame] run scoreboard players operation #Store 4j.
 scoreboard players set #Store 4j.pack 0
 #Halloween
 execute if score #Store 4j.lobbytype matches 3 run scoreboard players set #Store 4j.pack 7
+#Festive
+execute if score #Store 4j.lobbytype matches 4 run scoreboard players set #Store 4j.pack 8

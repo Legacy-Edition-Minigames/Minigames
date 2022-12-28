@@ -16,8 +16,5 @@ execute as @e[type=area_effect_cloud,tag=MapCenter] at @s run tp @s ~ ~ ~ 0 ~
 ##Clear chests
 execute at @e[tag=Chest] run data merge block ~ ~ ~ {LootTable:"",Items:[{}]}
 
-##Reset maps
-function 4jbattle:game/mapreset/run
-
 ##Start game
 schedule function 4jbattle:game/timer/start/prep 5t

@@ -2,7 +2,7 @@
 execute as @s[scores={4j.gamecfg=1}] run function 4jbattle:menu/load/host/gui
 
 ##Open GUI if set to 1000
-execute as @s[scores={4j.gamecfg=1000}] run function 4jbattle:menu/load/host/mapgui
+execute as @s[scores={4j.gamecfg=1000}] run function 4jbattle:menu/load/host/mapgui/main
 
 ##Open extra options menu
 execute as @s[scores={4j.gamecfg=44}] run function 4jbattle:menu/load/host/extra/open
@@ -61,3 +61,9 @@ execute as @s[scores={4j.gamecfg=135}] run function 4jbattle:menu/load/host/comb
 
 ##Weapon damage customization
 execute as @s[scores={4j.gamecfg=143}] run function 4jbattle:menu/load/host/combat/open/weapondamage
+
+##Mods menu
+execute as @s[scores={4j.gamecfg=160}] run function 4jbattle:menu/load/host/mods/open/main
+
+##Mods menu: Maps
+execute as @s[scores={4j.gamecfg=2000..2999}] run function 4jbattle:menu/load/host/mods/open/maps

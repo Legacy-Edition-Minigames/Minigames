@@ -47,6 +47,8 @@ execute if score #Atomics 4j.enablemap matches 1 if score #Store 4j.maprandom ma
 execute if score #Libertalia 4j.enablemap matches 1 if score #Store 4j.maprandom matches 20 run scoreboard players set #Store 4j.map 20
 #Capitol
 execute if score #Capitol 4j.enablemap matches 1 if score #Store 4j.maprandom matches 21 run scoreboard players set #Store 4j.map 21
+#Modded maps
+function 4jbattle:mapdecider/randommod
 
 ##Roll again if map not found
 execute if score #Store 4j.map matches ..0 run function 4jbattle:mapdecider/randommap

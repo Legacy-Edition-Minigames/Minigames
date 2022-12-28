@@ -29,7 +29,10 @@ function 4jbattle:game/playerreset
 execute as @a[tag=ingame] run function 4jbattle:game/join
 
 ##Load Init functions
-function 4jbattle:game/mapinit/run
+function 4jbattle:game/mapinit/preload
+
+##Refresh time
+function 4jbattle:game/time/refresh
 
 ##Load players into the map
 function 4jbattle:game/loading/run

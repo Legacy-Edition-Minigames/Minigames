@@ -12,6 +12,7 @@ advancement revoke @s only 4jbattle:menu/host/presets/2/chest/foodcentral
 advancement revoke @s only 4jbattle:menu/host/presets/2/chest/remastered
 advancement revoke @s only 4jbattle:menu/host/presets/2/chest/random
 advancement revoke @s only 4jbattle:menu/host/presets/2/chest/refill
+advancement revoke @s only 4jbattle:menu/host/presets/2/chest/randompower
 advancement revoke @s only 4jbattle:menu/host/presets/2/chest/randomconfig/normal
 advancement revoke @s only 4jbattle:menu/host/presets/2/chest/randomconfig/noarmor
 advancement revoke @s only 4jbattle:menu/host/presets/2/chest/randomconfig/highpower
@@ -37,6 +38,7 @@ advancement revoke @s only 4jbattle:menu/host/presets/2/lobby/new
 advancement revoke @s only 4jbattle:menu/host/presets/2/lobby/old
 advancement revoke @s only 4jbattle:menu/host/presets/2/lobby/anniversary
 advancement revoke @s only 4jbattle:menu/host/presets/2/lobby/halloween
+advancement revoke @s only 4jbattle:menu/host/presets/2/lobby/festive
 advancement revoke @s only 4jbattle:menu/host/presets/2/map/type/auto
 advancement revoke @s only 4jbattle:menu/host/presets/2/map/type/small
 advancement revoke @s only 4jbattle:menu/host/presets/2/map/type/large
@@ -108,6 +110,7 @@ advancement revoke @s only 4jbattle:menu/host/presets/2/combat/style/custom/atta
 advancement revoke @s only 4jbattle:menu/host/presets/2/combat/style/custom/attackspeed/normal
 advancement revoke @s only 4jbattle:menu/host/presets/2/combat/style/custom/attackspeed/fast
 advancement revoke @s only 4jbattle:menu/host/presets/2/combat/style/custom/attackspeed/fastest
+advancement revoke @s only 4jbattle:menu/host/presets/2/mods/enabled
 advancement revoke @s only 4jbattle:menu/host/presets/2/combat/style/custom/criticals
 advancement revoke @s only 4jbattle:menu/host/presets/2/version/1
 advancement revoke @s only 4jbattle:menu/host/presets/2/version/2
@@ -140,6 +143,8 @@ execute if score #Store 4j.setchest matches 6 run advancement grant @s only 4jba
 execute if score #Store 4j.setchest matches 7 run advancement grant @s only 4jbattle:menu/host/presets/2/chest/random
 #Chest Refill
 execute if score #Store 4j.chestrefill matches 1 run advancement grant @s only 4jbattle:menu/host/presets/2/chest/refill
+#Random Power Chests
+execute if score #Store 4j.randompowerchest matches 1 run advancement grant @s only 4jbattle:menu/host/presets/2/chest/randompower
 #Random config
 execute if score #Normal 4j.enableset matches 1 run advancement grant @s only 4jbattle:menu/host/presets/2/chest/randomconfig/normal
 execute if score #NoArmor 4j.enableset matches 1 run advancement grant @s only 4jbattle:menu/host/presets/2/chest/randomconfig/noarmor
@@ -187,6 +192,8 @@ execute if score #Store 4j.setlobbytype matches 1 run advancement grant @s only 
 execute if score #Store 4j.setlobbytype matches 2 run advancement grant @s only 4jbattle:menu/host/presets/2/lobby/anniversary
 #Halloween lobby
 execute if score #Store 4j.setlobbytype matches 3 run advancement grant @s only 4jbattle:menu/host/presets/2/lobby/halloween
+#Festive lobby
+execute if score #Store 4j.setlobbytype matches 4 run advancement grant @s only 4jbattle:menu/host/presets/2/lobby/festive
 
 ##Map settings
 #Type
@@ -312,6 +319,9 @@ execute if score #Store 4j.setattackspeed matches 3 run advancement grant @s onl
 
 ##Extended potion range
 execute if score #Store 4j.extendedpotionrange matches 1 run advancement grant @s only 4jbattle:menu/host/presets/2/combat/extendedpotionrange
+
+##Mods enable/disable toggle
+execute if score #Store 4j.enablemods matches 1 run advancement grant @s only 4jbattle:menu/host/presets/2/mods/enabled
 
 ##Mark as saved
 advancement grant @s only 4jbattle:menu/host/presets/2/saved

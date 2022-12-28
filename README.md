@@ -29,8 +29,6 @@ Optifine has issues with the default pack, please [read this](https://github.com
 
 Lunar Client is currently not supported, see [this page](http://minigames.derpbox.xyz/lunar/) for more information about this.
 
-If your server is crashing on loading maps, [read this](https://github.com/DBTDerpbox/Legacy-Edition-Battle/issues/7) about what to do.
-
 Legacy Edition Battle is currently designed for [Minecraft Java Edition 1.18.2](https://www.minecraft.net/en-us/article/minecraft-java-edition-1-18-2)
 
 ### Credits
@@ -53,6 +51,8 @@ Texture Pack ports - [Ultmate_Mario](https://ultmatemario.wixsite.com/ultmatemar
 
 Updating the Halloween and Festive textures to 1.19 - PastelBranches/Rasriel
 
+Halloween Lobby - PastelBranches/Rasriel
+
 Significant Modding Help - [Kyrptonaught](https://github.com/kyrptonaught)
 
 Achievement Icons - [Lion8cake](https://github.com/Lion8cake)
@@ -62,6 +62,8 @@ Major LEB-ToolBox Improvements - [PiporGames](https://github.com/PiporGames)
 Help with lemclienthelper's small inv textures - [N00B](https://github.com/S-N00B-1)
 
 Adding more accurate tooltip window - [N00B](https://github.com/S-N00B-1)
+
+Festive Lobby - [N00B](https://github.com/S-N00B-1)
 
 [Fixing transparent paintings](https://www.planetminecraft.com/texture-pack/mc-164001-transparent-textures-bug-fix-see-through-paintings-beds-amp-shields/) - [Echonix](https://www.planetminecraft.com/member/echonix/)
 

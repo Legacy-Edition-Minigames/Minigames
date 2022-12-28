@@ -7,6 +7,10 @@ function 4jbattle:relog/check
 ##Check for disconnect
 function 4jbattle:disconnect/check
 
+
+##Mark lobby as ready to load
+function 4jbattle:menu/load/host/start/timer/lobbyunloaded
+
 ##Check for missing host
 function 4jbattle:host/check/run
 

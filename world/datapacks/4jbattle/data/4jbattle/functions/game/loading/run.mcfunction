@@ -1,5 +1,5 @@
-##Load maps in
-execute as @a[tag=ingame] run function 4jbattle:game/setup/teleport/load
+##Load the arena dimension
+function 4jbattle:game/setup/load
 
 ##Lock players to map center
 function 4jbattle:game/loading/mapload/check
@@ -31,9 +31,6 @@ tag @a[tag=ingame] remove resourceloaded
 
 ##Remove loadingresources tag
 tag @a[tag=ingame] remove loadingresources
-
-##Load resource packs
-schedule function 4jbattle:game/loading/resourceschedule 10t
 
 ##Check which timer to start
 schedule function 4jbattle:game/loading/check 2s

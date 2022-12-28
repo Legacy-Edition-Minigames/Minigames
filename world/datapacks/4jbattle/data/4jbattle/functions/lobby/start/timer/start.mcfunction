@@ -1,5 +1,8 @@
-##Teleport players
-execute as @a[tag=ingame] run function 4jbattle:lobby/spawn/preload/run
+##Teleport to lobby if its already loaded
+execute if score #Store 4j.fullreset matches 0 run function 4jbattle:lobby/start/timer/dimensionloaded
+
+##Load the lobby dimension
+execute if score #Store 4j.fullreset matches 1 run function 4jbattle:lobby/load/run
 
 ##Set displaymode
 #Reset timer

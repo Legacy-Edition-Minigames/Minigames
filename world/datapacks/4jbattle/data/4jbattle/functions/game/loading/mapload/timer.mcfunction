@@ -1,6 +1,9 @@
 ##Detect if map is loaded
 execute if entity @a[tag=ingame] as @e[type=area_effect_cloud,tag=MapCenter] at @s run function 4jbattle:game/loading/mapload/checkcorner
 
+##Load Init functions
+execute unless score #Store 4j.mapinit.mapload matches 1 if score #Store 4j.maploadpos matches 1.. if score #Store 4j.maploadneg matches 1.. run function 4jbattle:game/mapinit/mapload
+
 ##Count down
 execute if score #Store 4j.maploadpos matches 1.. if score #Store 4j.maploadneg matches 1.. run scoreboard players add #Store 4j.timer 1
 

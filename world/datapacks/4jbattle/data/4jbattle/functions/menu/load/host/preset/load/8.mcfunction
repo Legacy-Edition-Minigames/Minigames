@@ -1,15 +1,19 @@
 ###Load config from advancements
 ##Load default config
-function 4jbattle:menu/load/host/defaults
+function 4jbattle:menu/load/host/defaults/run
 
 ##Bug Fixes
 #Armor Item Swap Deletion
+execute if entity @s[advancements={4jbattle:menu/host/presets/8/bug/armorswapdrop=true}] run scoreboard players set #Store 4j.armorswapdrop 1
 execute if entity @s[advancements={4jbattle:menu/host/presets/8/bug/armorswapdrop=false}] run scoreboard players set #Store 4j.armorswapdrop 0
 #Food Central diamond sword
+execute if entity @s[advancements={4jbattle:menu/host/presets/8/bug/foodcentral=true}] run scoreboard players set #Store 4j.foodcentfix 1
 execute if entity @s[advancements={4jbattle:menu/host/presets/8/bug/foodcentral=false}] run scoreboard players set #Store 4j.foodcentfix 0
 #No Armor leaping potion
+execute if entity @s[advancements={4jbattle:menu/host/presets/8/bug/leapfix=true}] run scoreboard players set #Store 4j.leapfix 1
 execute if entity @s[advancements={4jbattle:menu/host/presets/8/bug/leapfix=false}] run scoreboard players set #Store 4j.leapfix 0
 #Large+ Cove Chests
+execute if entity @s[advancements={4jbattle:menu/host/presets/8/bug/largepluscove=true}] run scoreboard players set #Store 4j.lpluscovefix 1
 execute if entity @s[advancements={4jbattle:menu/host/presets/8/bug/largepluscove=false}] run scoreboard players set #Store 4j.lpluscovefix 0
 
 ##Chests
@@ -23,6 +27,10 @@ execute if entity @s[advancements={4jbattle:menu/host/presets/8/chest/remastered
 execute if entity @s[advancements={4jbattle:menu/host/presets/8/chest/random=true}] run scoreboard players set #Store 4j.setchest 7
 #Chest Refill
 execute if entity @s[advancements={4jbattle:menu/host/presets/8/chest/refill=true}] run scoreboard players set #Store 4j.chestrefill 1
+execute if entity @s[advancements={4jbattle:menu/host/presets/8/chest/refill=false}] run scoreboard players set #Store 4j.chestrefill 0
+#Random Power Chests
+execute if entity @s[advancements={4jbattle:menu/host/presets/8/chest/randompower=true}] run scoreboard players set #Store 4j.randompowerchest 1
+execute if entity @s[advancements={4jbattle:menu/host/presets/8/chest/randompower=false}] run scoreboard players set #Store 4j.randompowerchest 0
 #Random config
 execute if entity @s[advancements={4jbattle:menu/host/presets/8/chest/randomconfig/normal=true}] run scoreboard players set #Normal 4j.enableset 1
 execute if entity @s[advancements={4jbattle:menu/host/presets/8/chest/randomconfig/noarmor=true}] run scoreboard players set #NoArmor 4j.enableset 1
@@ -81,7 +89,8 @@ execute if entity @s[advancements={4jbattle:menu/host/presets/8/lobby/new=true}]
 execute if entity @s[advancements={4jbattle:menu/host/presets/8/lobby/anniversary=true}] run scoreboard players set #Store 4j.setlobbytype 2
 #Halloween lobby
 execute if entity @s[advancements={4jbattle:menu/host/presets/8/lobby/halloween=true}] run scoreboard players set #Store 4j.setlobbytype 3
-
+#Festive lobby
+execute if entity @s[advancements={4jbattle:menu/host/presets/8/lobby/festive=true}] run scoreboard players set #Store 4j.setlobbytype 4
 
 ##Map settings
 #Type
@@ -273,6 +282,12 @@ function 4jbattle:game/combat/refresh
 execute if entity @s[advancements={4jbattle:menu/host/presets/8/combat/extendedpotionrange=true}] run scoreboard players set #Store 4j.extendedpotionrange 1
 #Disabled
 execute if entity @s[advancements={4jbattle:menu/host/presets/8/combat/extendedpotionrange=false}] run scoreboard players set #Store 4j.extendedpotionrange 0
+
+##Mods enable/disable toggle
+#Enabled
+execute if entity @s[advancements={4jbattle:menu/host/presets/8/mods/enabled=true}] run scoreboard players set #Store 4j.enablemods 1
+#Disabled
+execute if entity @s[advancements={4jbattle:menu/host/presets/8/mods/enabled=false}] run scoreboard players set #Store 4j.enablemods 0
 
 ##Global functions
 function 4jbattle:menu/load/host/preset/load/global

@@ -1,4 +1,4 @@
-##Enable
+##Disable
 scoreboard players set #Store 4j.chestrefill 0
 
 ##Display message

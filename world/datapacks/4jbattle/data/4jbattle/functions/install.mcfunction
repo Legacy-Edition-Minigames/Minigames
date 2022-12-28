@@ -217,9 +217,6 @@ scoreboard objectives add 4j.chestanim dummy
 ##GlobalInfo mode
 scoreboard objectives add 4j.gimode dummy
 
-##Legacy map resetter toggle
-scoreboard objectives add 4j.legacyreset dummy
-
 ##Lobby Full Reset number
 scoreboard objectives add 4j.fullreset dummy
 
@@ -446,6 +443,25 @@ scoreboard objectives add patreon trigger
 ##Variable for checking if the game has started
 scoreboard objectives add 4j.gamestarted dummy
 
+##Mods enable/disable toggle
+scoreboard objectives add 4j.enablemods dummy
+
+##Map type disable variables
+#Small
+scoreboard objectives add 4j.maptypeavailable.small dummy
+#Large
+scoreboard objectives add 4j.maptypeavailable.large dummy
+#Large+
+scoreboard objectives add 4j.maptypeavailable.largeplus dummy
+#Remastered
+scoreboard objectives add 4j.maptypeavailable.remastered dummy
+
+##Variable for checking if mapload init functions have been run already
+scoreboard objectives add 4j.mapinit.mapload dummy
+
+##Variable for checking if lobby dimension is ready to be loaded or not in a very specific scenario
+scoreboard objectives add 4j.lobbyready dummy
+
 ##Music Pack ID
 scoreboard objectives add 4j.muspack dummy
 
@@ -460,6 +476,12 @@ scoreboard objectives add 4j.guiscale dummy
 
 ##PanScale config value
 scoreboard objectives add 4j.panscale dummy
+
+##Host option for randomizing power chests
+scoreboard objectives add 4j.randompowerchest dummy
+
+##Amount of chests to randomize when random powerful chests is enabled
+scoreboard objectives add 4j.randompowerchestcount dummy
 
 ##Option to prevent playing music that is unsafe for streaming
 scoreboard objectives add safemusic trigger
@@ -480,6 +502,9 @@ scoreboard players set #Store 4j.gamestatus 0
 
 ##Set lobby timer
 scoreboard players set #Store 4j.lobbytimerset 60
+
+##Mark lobby as ready to load
+scoreboard players set #Store 4j.lobbyready 1
 
 ##Set PID (Temporary!)
 #Reset stored PID
