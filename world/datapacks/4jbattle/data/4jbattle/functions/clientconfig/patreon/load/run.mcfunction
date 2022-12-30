@@ -19,6 +19,8 @@ execute as e9e4b393-29d1-4004-b469-125d8b87c124 run scoreboard players set @s 4j
 execute as 007da748-4c6b-42e8-9626-e394282598d2 run scoreboard players set @s 4j.patreon 1
 #Krampy_/83729416/Krampy2
 execute as 562d46c1-7df6-4243-ab23-e158c4378e4f run scoreboard players set @s 4j.patreon 2
+#Cherrychip/41551097/Cherrychip7
+execute as 81fde0bb-4d39-4009-b0e2-c8b627eda7ce run scoreboard players set @s 4j.patreon 2
 
 ##Reset heart if no longer subscribed
 #Tiny
