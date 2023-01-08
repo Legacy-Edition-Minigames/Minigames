@@ -225,6 +225,24 @@
       "hasPrompt": true,
       "message": "Legacy Edition Battle requires a resource pack to function properly!",
       "packCompatibility": "OPTIFINE"
+    },
+    {
+      "packname": "cartoon",
+      "url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/standard/R26.4/cartoon.zip?raw\u003dtrue",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "packCompatibility": "VANILLA"
+    },
+    {
+      "packname": "cartoon-optifine",
+      "url": "https://github.com/DBTDerpbox/LEB-Resources/blob/zip/zip/optifine/R26.4/cartoon.zip?raw\u003dtrue",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "packCompatibility": "OPTIFINE"
     }
   ]
 }

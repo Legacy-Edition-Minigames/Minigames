@@ -21,6 +21,8 @@ execute if score #Store 4j.pack matches 8 run scoreboard players operation #Stor
 execute if score #Store 4j.pack matches 9 run scoreboard players operation #Store 4j.muspack = #Store 4j.pack
 #Natural
 execute if score #Store 4j.pack matches 10 run scoreboard players set #Store 4j.muspack 0
+#Cartoon
+execute if score #Store 4j.pack matches 11 run scoreboard players set #Store 4j.muspack 1
 
 ##Load any overrides
 #Frontier
