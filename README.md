@@ -51,6 +51,8 @@ Texture Pack ports - [Ultmate_Mario](https://ultmatemario.wixsite.com/ultmatemar
 
 Updating the Halloween and Festive textures to 1.19 - PastelBranches/Rasriel
 
+Porting Cartoon texture pack - [Lion8cake](https://github.com/Lion8cake)
+
 Halloween Lobby - PastelBranches/Rasriel
 
 Significant Modding Help - [Kyrptonaught](https://github.com/kyrptonaught)
