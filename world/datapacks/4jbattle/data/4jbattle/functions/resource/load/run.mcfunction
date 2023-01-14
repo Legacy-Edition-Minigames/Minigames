@@ -24,6 +24,8 @@ execute if score #Store 4j.pack matches 8 run function 4jbattle:resource/load/pa
 execute if score #Store 4j.pack matches 9 run function 4jbattle:resource/load/pack/fallout
 #Natural
 execute if score #Store 4j.pack matches 10 run function 4jbattle:resource/load/pack/natural
+#Cartoon
+execute if score #Store 4j.pack matches 11 run function 4jbattle:resource/load/pack/cartoon
 
 ##Set current pack ID to server's
 scoreboard players operation @s 4j.pack = #Store 4j.pack

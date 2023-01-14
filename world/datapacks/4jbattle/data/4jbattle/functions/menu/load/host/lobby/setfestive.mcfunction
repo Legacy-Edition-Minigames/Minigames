@@ -5,7 +5,7 @@ scoreboard players set #Store 4j.setlobbytype 4
 scoreboard players set #Store 4j.fullreset 1
 
 ##Display message
-tellraw @a {"translate":"4j.menu.host.config.update.generic","with":[{"translate":"4j.menu.host.config.update.set","with":[{"translate":"4j.menu.host.config.update.lobby"},{"text":"Festive"}]}]}
+tellraw @a {"translate":"4j.menu.host.config.update.generic","with":[{"translate":"4j.menu.host.config.update.set","with":[{"translate":"4j.menu.host.config.update.lobby"},{"translate":"4j.menu.host.config.update.lobby.festive"}]}]}
 
 ##Open menu
 function 4jbattle:menu/load/host/extra/open
