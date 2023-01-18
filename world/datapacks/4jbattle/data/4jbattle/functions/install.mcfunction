@@ -492,6 +492,9 @@ scoreboard objectives add 4j.criticalhits dummy
 #Custom mode toggle
 scoreboard objectives add 4j.setcriticalhits dummy
 
+##Variable for if the server is experimental or not
+scoreboard objectives add 4j.experimentalserver dummy
+
 ##Set Gamerules
 #Lock Time
 gamerule doDaylightCycle false
