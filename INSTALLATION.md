@@ -4,13 +4,13 @@
 
 ### Installation
 
-* Download LEB-ToolBox from its [Releases Page](https://github.com/DBTDerpbox/LEB-ToolBox/releases)
+* Download LEM-ToolBox from its [Releases Page](https://github.com/Legacy-Edition-Minigames/ToolBox/releases)
 
 * Put LEB-ToolBox into its own folder, and run it.
 
 * Select `Install LEB`
 
-* If for whatever reason, you can't download the resources properly with the current SRP config, you can edit the config inside of the `config` folder and the files can be found [here.](https://github.com/DBTDerpbox/LEB-Resources/releases)
+* If for whatever reason, you can't download the resources properly with the current SRP config, you can edit the config inside of the `config` folder and the files can be found [here.](https://github.com/Legacy-Edition-Minigames/Minigame-Resources/releases)
 
 #### Dependencies
 
