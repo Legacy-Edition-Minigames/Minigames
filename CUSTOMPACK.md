@@ -4,7 +4,7 @@ This should only be used if you have issues downloading the pack or want to use 
 
 ### Installation
 
-1. Go to [LEB-Resources Releases](https://github.com/DBTDerpbox/LEB-Resources/releases)
+1. Go to [Minigame-Resources Releases](https://github.com/Legacy-Edition-Minigames/Minigame-Resources/releases)
 
 * For OptiFine users, select the latest `RO` release
 
