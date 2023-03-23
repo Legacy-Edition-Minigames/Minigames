@@ -1,0 +1,125 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:respiration\",lvl:1s}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:['[{\"text\":\"§9+9.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#Store"
+                    },
+                    "score": "lem.battle.moderndamage.axe",
+                    "scale": 1
+                  },
+                  "range": 1
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:['[{\"text\":\"§9+4.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#Store"
+                    },
+                    "score": "lem.battle.moderndamage.axe",
+                    "scale": 1
+                  },
+                  "range": 0
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "name": "",
+                  "amount": -3.2,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "",
+                  "amount": 4,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#Store"
+                    },
+                    "score": "lem.battle.moderndamage.axe",
+                    "scale": 1
+                  },
+                  "range": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
