@@ -11,7 +11,7 @@ function lem.base:ui/playerbar/load
 
 ##Display message
 #Transfer
-tellraw @a {"translate":"lem.menu.host.transfer.success","with":[{"selector":"@a[tag=ingame,tag=host]","color":"dark_aqua"},{"selector":"@s","color":"dark_aqua"}],"color":"blue"}
+discordChatMSG {"translate":"lem.menu.host.transfer.success","with":[{"selector":"@a[tag=ingame,tag=host]","color":"dark_aqua"},{"selector":"@s","color":"dark_aqua"}],"color":"blue"}
 #Recieve
 tellraw @s {"translate":"lem.menu.host.transfer.receive","italic":true,"color":"dark_aqua"}
 

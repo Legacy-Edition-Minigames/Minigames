@@ -5,6 +5,8 @@ schedule clear lem.base:game/showdown/timer/run
 schedule clear lem.base:game/showdown/check
 
 ##Inform all users that showdown has begun
+#Discord message
+discordMSG "Showdown has begun!"
 #Show banner
 function lem.base:ui/banner/stopwatch/run
 #Set banner textbox

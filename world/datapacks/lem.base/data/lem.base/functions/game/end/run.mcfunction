@@ -2,7 +2,11 @@
 #schedule function lem.base:game/end/clear 2t
 
 ##Determine Winner
+#Find winner
 function lem.base:game/end/winner
+#Discord message
+execute if score #Store lem.setround matches 2.. if entity @a[tag=Winner] run discordMSG ["",{"selector":"@a[tag=Winner]"}," has won all of the rounds!"]
+execute if score #Store lem.setround matches 2.. unless entity @a[tag=Winner] run discordMSG "The game has ended with no clear winner."
 
 ##Send all players to lobby
 execute as @a[tag=ingame] run function lem.base:game/end/leave

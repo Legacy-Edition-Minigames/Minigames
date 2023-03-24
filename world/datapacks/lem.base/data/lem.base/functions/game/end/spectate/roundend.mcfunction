@@ -30,8 +30,11 @@ execute unless entity @a[tag=ingame,tag=Victor] run scoreboard players set #Stor
 function lem.base:ui/playerlist/playericon/disable
 #Show Victor
 execute if entity @a[tag=ingame,tag=Victor] run bossbar set minecraft:bannerinfo name {"translate":"lem.game.win","with":[{"selector":"@a[tag=ingame,tag=Victor]","color":"black"}],"color":"black","font":"lem.base:banner/text/default"}
+execute if score #Store lem.setround matches 2.. if entity @a[tag=ingame,tag=Victor] run discordMSG ["",{"selector":"@a[tag=ingame,tag=Victor]"}," has won this round!"]
+execute unless score #Store lem.setround matches 2.. if entity @a[tag=ingame,tag=Victor] run discordMSG ["",{"selector":"@a[tag=ingame,tag=Victor]"}," has won!"]
 #Show draw if nobody won
 execute unless entity @a[tag=ingame,tag=Victor] run bossbar set minecraft:bannerinfo name {"translate":"lem.game.draw","color":"black","font":"lem.base:banner/text/default"}
+execute unless entity @a[tag=ingame,tag=Victor] run discordMSG "The round ended in a draw!"
 #Re-enable playericons
 function lem.base:ui/playerlist/playericon/enable
 

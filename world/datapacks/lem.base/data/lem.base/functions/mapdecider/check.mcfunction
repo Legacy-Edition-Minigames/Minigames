@@ -37,6 +37,9 @@ function lem.base:game/loading/run
 ##Reset win counter
 scoreboard players reset @a[tag=ingame] lem.roundwins
 
+##Discord message for what map is being loaded
+function #lem.base:mapdecider/discordmsg
+
 ##Run functions for addons
 function #lem.base:mapdecider/check
 

@@ -5,7 +5,7 @@ scoreboard players set #Store lem.battle.setswordblock 0
 function lem.battle:menu/load/host/combat/style/custom/global
 
 ##Display message
-tellraw @a {"translate":"lem.menu.host.config.update.generic","with":[{"translate":"lem.menu.host.config.update.disable","with":[{"translate":"lem.battle.menu.host.config.update.combat.style.custom.swordblock"}]}]}
+discordChatMSG {"translate":"lem.menu.host.config.update.generic","with":[{"translate":"lem.menu.host.config.update.disable","with":[{"translate":"lem.battle.menu.host.config.update.combat.style.custom.swordblock"}]}]}
 
 ##Open menu
 function lem.battle:menu/load/host/combat/open/main

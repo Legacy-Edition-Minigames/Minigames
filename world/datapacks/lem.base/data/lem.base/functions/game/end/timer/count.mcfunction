@@ -7,6 +7,12 @@ execute if score #Store lem.gametimer matches ..60 run function lem.base:game/en
 ##Once at 30 seconds, play sound
 execute if score #Store lem.gametimer matches ..30 run function lem.base:game/end/timer/sound
 
+##Discord messages
+#60 Seconds
+execute if score #Store lem.gametimer matches 60 run discordMSG "Round end in 60 seconds..."
+#30 Seconds
+execute if score #Store lem.gametimer matches 30 run discordMSG "Round end in 30 seconds..."
+
 ##Loop
 schedule function lem.base:game/end/timer/count 1s
 

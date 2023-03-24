@@ -5,7 +5,7 @@ scoreboard players set #Store lem.battle.hungertype 2
 scoreboard players set #Store lem.battle.healtimer 160
 
 ##Display message
-tellraw @a {"translate":"lem.menu.host.config.update.generic","with":[{"translate":"lem.menu.host.config.update.set","with":[{"translate":"lem.battle.menu.host.config.update.hunger"},{"translate":"lem.battle.menu.host.config.hunger.option.beta"}]}]}
+discordChatMSG {"translate":"lem.menu.host.config.update.generic","with":[{"translate":"lem.menu.host.config.update.set","with":[{"translate":"lem.battle.menu.host.config.update.hunger"},{"translate":"lem.battle.menu.host.config.hunger.option.beta"}]}]}
 
 ##Open menu
 function lem.base:menu/load/host/extra/open
