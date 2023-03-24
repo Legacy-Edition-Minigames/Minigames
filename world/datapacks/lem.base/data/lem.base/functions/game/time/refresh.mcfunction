@@ -9,4 +9,4 @@ execute if score #Store lem.vistime matches 3 run time set night
 execute if score #Store lem.vistime matches 4 run time set midnight
 
 ##Check for custom time set by map
-function lem.base:game/time/maptime
+function #lem.base:game/time/maptime
