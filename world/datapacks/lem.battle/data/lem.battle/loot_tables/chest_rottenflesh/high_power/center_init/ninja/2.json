@@ -34,7 +34,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{CanPlaceOn:[\"#lem.battle:all_blocks\"],HideFlags:16}"
+              "tag": "{CanPlaceOn:[\"#lem.base:all_blocks\"],HideFlags:16}"
             }
           ]
         }
