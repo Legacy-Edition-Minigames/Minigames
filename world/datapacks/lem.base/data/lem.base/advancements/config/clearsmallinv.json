@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:glass_pane"
+    },
+    "title": {
+      "translate": "lem.advancement.config.clearsmall.name"
+    },
+    "description": {
+      "translate": "lem.advancement.config.clearsmall.desc"
+    },
+    "frame": "task",
+    "announce_to_chat": false
+  },
+  "parent": "lem.base:config/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

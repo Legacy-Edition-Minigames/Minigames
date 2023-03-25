@@ -1,0 +1,87 @@
+##Increase loading animation timer
+execute if score #Store lem.loadinganim matches 1.. run scoreboard players add #Store lem.loadinganim 1
+
+##Set display
+execute if score #Store lem.loadinganim matches 1 run title @s title {"text":"\uF801","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 2 run title @s title {"text":"\uF802","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 3 run title @s title {"text":"\uF803","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 4 run title @s title {"text":"\uF804","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 5 run title @s title {"text":"\uF805","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 6 run title @s title {"text":"\uF806","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 7 run title @s title {"text":"\uF807","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 8 run title @s title {"text":"\uF808","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 9 run title @s title {"text":"\uF809","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 10 run title @s title {"text":"\uF810","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 11 run title @s title {"text":"\uF811","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 12 run title @s title {"text":"\uF812","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 13 run title @s title {"text":"\uF813","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 14 run title @s title {"text":"\uF814","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 15 run title @s title {"text":"\uF815","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 16 run title @s title {"text":"\uF816","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 17 run title @s title {"text":"\uF816","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 18 run title @s title {"text":"\uF817","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 19 run title @s title {"text":"\uF818","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 20 run title @s title {"text":"\uF819","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 21 run title @s title {"text":"\uF820","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 22 run title @s title {"text":"\uF821","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 23 run title @s title {"text":"\uF823","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 24 run title @s title {"text":"\uF824","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 25 run title @s title {"text":"\uF825","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 26 run title @s title {"text":"\uF826","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 27 run title @s title {"text":"\uF827","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 28 run title @s title {"text":"\uF828","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 29 run title @s title {"text":"\uF829","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 30 run title @s title {"text":"\uF830","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 31 run title @s title {"text":"\uF831","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 32 run title @s title {"text":"\uF832","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 33 run title @s title {"text":"\uF833","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 34 run title @s title {"text":"\uF834","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 35 run title @s title {"text":"\uF835","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 36 run title @s title {"text":"\uF836","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 37 run title @s title {"text":"\uF837","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 37 run title @s title {"text":"\uF838","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 38 run title @s title {"text":"\uF839","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 39 run title @s title {"text":"\uF840","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 40 run title @s title {"text":"\uF841","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 41 run title @s title {"text":"\uF842","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 42 run title @s title {"text":"\uF843","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 43 run title @s title {"text":"\uF844","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 44 run title @s title {"text":"\uF845","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 45 run title @s title {"text":"\uF846","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 46 run title @s title {"text":"\uF847","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 47 run title @s title {"text":"\uF848","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 48 run title @s title {"text":"\uF849","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 49 run title @s title {"text":"\uF850","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 50 run title @s title {"text":"\uF851","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 51 run title @s title {"text":"\uF852","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 52 run title @s title {"text":"\uF853","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 53 run title @s title {"text":"\uF854","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 54 run title @s title {"text":"\uF855","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 55 run title @s title {"text":"\uF856","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 56 run title @s title {"text":"\uF857","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 57 run title @s title {"text":"\uF858","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 58 run title @s title {"text":"\uF859","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 59 run title @s title {"text":"\uF860","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 60 run title @s title {"text":"\uF861","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 61 run title @s title {"text":"\uF862","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 62 run title @s title {"text":"\uF863","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 63 run title @s title {"text":"\uF864","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 64 run title @s title {"text":"\uF865","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 65 run title @s title {"text":"\uF866","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 66 run title @s title {"text":"\uF867","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 68 run title @s title {"text":"\uF868","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 69 run title @s title {"text":"\uF869","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 70 run title @s title {"text":"\uF870","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 71 run title @s title {"text":"\uF871","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 72 run title @s title {"text":"\uF872","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 73 run title @s title {"text":"\uF873","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 74 run title @s title {"text":"\uF874","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 75 run title @s title {"text":"\uF875","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 76 run title @s title {"text":"\uF876","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 77 run title @s title {"text":"\uF877","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 78 run title @s title {"text":"\uF878","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 79 run title @s title {"text":"\uF879","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+execute if score #Store lem.loadinganim matches 80 run title @s title {"text":"\uF880","font":"lem.base:loading/animation_medium","color":"#fafafa"}
+
+##Reset timer if above 80
+execute if score #Store lem.loadinganim matches 81.. run scoreboard players set #Store lem.loadinganim 1

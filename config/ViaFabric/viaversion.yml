@@ -17,7 +17,7 @@ send-supported-versions: false
 # An example to block 1.16.4, everything below 1.16, as well as everything above 1.17.1 would be: ["<1.16", "1.16.4", ">1.17.1"]
 # You can use both this and the block-protocols option at the same time as well.
 block-versions:
-- <1.16
+- <1.18
 # Block specific Minecraft protocol version numbers.
 # List of all Minecraft protocol versions: http://wiki.vg/Protocol_version_numbers, or use a generator: https://via.krusic22.com
 block-protocols: []
