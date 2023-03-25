@@ -4,6 +4,9 @@ execute unless entity @a run function lem.base:install
 ##Set relog score to 1 if there are no players online
 execute unless entity @a run scoreboard players set * lem.relog 1
 
+##Mark server as experimental
+scoreboard players set #Store 4j.experimentalserver 1
+
 ##Check for relog
 function lem.base:relog/check
 
