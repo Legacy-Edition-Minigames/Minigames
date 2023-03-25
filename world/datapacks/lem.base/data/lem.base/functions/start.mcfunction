@@ -5,7 +5,7 @@ execute unless entity @a run function lem.base:install
 execute unless entity @a run scoreboard players set * lem.relog 1
 
 ##Mark server as experimental
-scoreboard players set #Store 4j.experimentalserver 1
+scoreboard players set #Store lem.experimentalserver 1
 
 ##Check for relog
 function lem.base:relog/check
