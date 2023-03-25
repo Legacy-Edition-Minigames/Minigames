@@ -7,8 +7,5 @@ function lem.battle:game/chests/load/run
 ##Start combat check
 function lem.battle:game/combat/start
 
-##Set TNT to ignite on place
-tntlighter enable true
-
 ##Reset chest particles
 chesttracker reset
