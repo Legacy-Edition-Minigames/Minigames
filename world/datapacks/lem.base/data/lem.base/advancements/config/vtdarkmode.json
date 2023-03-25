@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:knowledge_book",
+      "nbt": "{CustomModelData:2}"
+    },
+    "title": {
+      "translate": "lem.advancement.config.vtdarkmode.name"
+    },
+    "description": {
+      "translate": "lem.advancement.config.vtdarkmode.desc"
+    },
+    "frame": "task",
+    "announce_to_chat": false
+  },
+  "parent": "lem.base:config/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

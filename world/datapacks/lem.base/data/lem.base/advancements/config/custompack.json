@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    "title": {
+      "translate": "lem.advancement.config.custompack.name"
+    },
+    "description": {
+      "translate": "lem.advancement.config.custompack.desc"
+    },
+    "frame": "task",
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "lem.base:config/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

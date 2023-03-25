@@ -1,0 +1,19 @@
+[
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:1,SwordBlock:1}",
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "tag": "lem.base:swords"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
