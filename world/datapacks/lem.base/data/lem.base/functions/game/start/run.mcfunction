@@ -53,6 +53,8 @@ bossbar set minecraft:globalinfo14 name {"translate":"lem.game.start.start"}
 bossbar set minecraft:globalinfo15 name {"translate":"lem.game.start.start"}
 #P16
 bossbar set minecraft:globalinfo16 name {"translate":"lem.game.start.start"}
+#Discord
+discordMSG "The game has started!"
 
 ##Play sound
 execute as @a[tag=ingame] at @s run function lem.base:sound/game/count2
