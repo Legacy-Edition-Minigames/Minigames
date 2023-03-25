@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:chest"
+    },
+    "title": {
+      "translate": "4j.advancement.mine.name"
+    },
+    "description": {
+      "translate": "4j.advancement.mine.desc"
+    },
+    "frame": "task",
+    "hidden": false
+  },
+  "parent": "4jbattle:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

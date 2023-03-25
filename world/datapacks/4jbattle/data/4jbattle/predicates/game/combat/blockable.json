@@ -1,0 +1,16 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "tag": "4jbattle:swords"
+      },
+      "offhand": {
+        "items": [
+          "minecraft:air"
+        ]
+      }
+    }
+  }
+}

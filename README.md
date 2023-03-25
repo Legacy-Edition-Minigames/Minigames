@@ -87,7 +87,7 @@ Russian Translations - [Silvert](https://steamcommunity.com/profiles/76561198877
 
 Portuguese Translations - [CavaleiroDev](https://twitter.com/CavaleiroDev) and Pedro270707(AndroidDr#5127)
 
-Polish Translations - [Steve Poland](https://twitter.com/Steve_Poland_MC)
+Polish Translations - Steve_Poland#0070
 
 Japanese Translations - [3UP](https://twitter.com/loserdog8519)
 

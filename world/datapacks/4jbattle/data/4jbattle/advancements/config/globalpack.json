@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:filled_map"
+    },
+    "title": {
+      "translate": "4j.advancement.config.globalpack.name"
+    },
+    "description": {
+      "translate": "4j.advancement.config.globalpack.desc"
+    },
+    "frame": "task",
+    "announce_to_chat": false
+  },
+  "parent": "4jbattle:config/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
