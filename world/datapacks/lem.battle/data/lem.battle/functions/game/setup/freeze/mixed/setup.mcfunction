@@ -33,7 +33,7 @@ execute as @e[type=area_effect_cloud,tag=MixedTP,tag=!tpset,sort=random,limit=1]
 execute as @e[type=area_effect_cloud,tag=MixedTP,tag=!tpset,sort=random,limit=1] at @s run function lem.battle:game/setup/freeze/mixed/spawn/16
 
 ##Spawn boats
-execute as @e[tag=MTP] at @s run function lem.base:game/setup/wall
+execute as @e[tag=MTP] at @s run function lem.base:game/setup/freeze/wall
 
 ##Freeze
 function lem.battle:game/setup/freeze/mixed/run
