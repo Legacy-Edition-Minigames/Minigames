@@ -11,6 +11,8 @@ execute as 40bb5e3a-63b2-47e4-aae9-6f04f3faa3f7 run scoreboard players set @s le
 execute as 03bcb87b-5995-4378-8af3-3f8d181f2d47 run scoreboard players set @s lem.patreon 5
 #Lion8Cake/83649865
 execute as e9e4b393-29d1-4004-b469-125d8b87c124 run scoreboard players set @s lem.patreon 3
+#Jamonster123/19239312
+execute as 56acefcd-7ef6-44a5-9268-0517556a6133 run scoreboard players set @s 4j.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
