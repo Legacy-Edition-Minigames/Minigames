@@ -92,7 +92,6 @@
   "lem.resource.reloadresource.customenabled.warning": "You can not reload resources when you have a custom pack enabled!",
   "lem.resource.reloadresource.customenabled.hint": "To disable custom packs, type %s.",
   "lem.resource.reloadresource.customenabled.hover": "Click to disable custom pack",
-  "lem.game.specjoin": "%s has joined the game as an alive player!",
   "lem.game.nowspectating": "You are now spectating",
   "lem.game.draw": "DRAW!",
   "lem.game.win": "%s won!",
@@ -297,10 +296,13 @@
   "lem.menu.patreon.notsupporter": "You must be a Patreon Supporter to use this menu!",
   "lem.menu.mods.goback": "Click to go back to custom map selection page.",
   "lem.menu.mods.page": "Page",
-  "lem.relog.join.discord": "Come join the Community Server to talk about LEB, ask for help, find groups to play with and see development updates!",
+  "lem.relog.join.discord": "Come join the Community Server to talk about LEM, ask for help, find groups to play with and see development updates!",
   "lem.relog.join.discord.hover": "Click to open",
   "lem.relog.join.patreon": "Please consider supporting the server on %s",
   "lem.relog.join.forge": "You have logged on using Forge, due to issues with forge that are outside of our control, some features may not be available. Hover above this message to see missing features",
+  "lem.generic.join": "%s joined the game",
+  "lem.generic.join.alive": "%s joined the game as an alive player",
+  "lem.generic.join.ping": "",
   "lem.generic.goback": "Go Back",
   "lem.generic.options": "Options",
   "lem.generic.warning": "Warning",
@@ -315,5 +317,8 @@
   "lem.ui.banner.9": "\uF009",
   "menu.game": "\uE782\uF801\uE783\uF801\uE784\uF801\uE785",
   "menu.paused": "\uE782\uF801\uE783\uF801\uE784\uF801\uE785",
-  "soundCategory.music": "Mini Game Music"
+  "soundCategory.music": "Mini Game Music",
+  "multiplayer.player.joined": "%s connected to the game",
+  "multiplayer.player.joined.renamed": "%s (formerly known as %s) connected to the game",
+  "multiplayer.player.left": "%s disconnected from the game"
 }

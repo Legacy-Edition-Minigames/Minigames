@@ -22,5 +22,7 @@ scoreboard players set @s lem.cleargi 9
 ##Send to spectator
 function lem.base:game/player/death/run
 
+##Send message
+function lem.base:relog/messages/generic
 ##Debug message
 tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Sending new player ","color":"gold"},{"selector":"@s","color":"yellow"},{"text":" to spectator mode","color":"gold"}]

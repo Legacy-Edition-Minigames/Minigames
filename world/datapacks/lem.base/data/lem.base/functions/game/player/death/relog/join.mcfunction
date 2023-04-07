@@ -15,7 +15,6 @@ tag @s add ready
 function lem.base:ui/playerbar/load
 
 ##Display message
-tellraw @a {"translate":"lem.game.specjoin","with":[{"selector":"@s"}],"color":"yellow"}
-
+function lem.base:relog/messages/alive
 ##Debug message
 tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Spawning new player ","color":"gold"},{"selector":"@s","color":"yellow"},{"text":" as a normal player","color":"gold"}]
