@@ -5,10 +5,10 @@
       "nbt": "{Potion:\"minecraft:harming\"}"
     },
     "title": {
-      "translate": "lem.battle.advancement.config.swaptipped.name"
+      "translate": "lem.advancement.config.swaptipped.name"
     },
     "description": {
-      "translate": "lem.battle.advancement.config.swaptipped.desc"
+      "translate": "lem.advancement.config.swaptipped.desc"
     },
     "frame": "task",
     "announce_to_chat": false

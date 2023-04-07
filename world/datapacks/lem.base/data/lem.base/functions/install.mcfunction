@@ -191,6 +191,14 @@ scoreboard objectives add swaptipped trigger
 ##Resource loading animation timer
 scoreboard objectives add lem.packtimerani dummy
 
+##Inventory hotbar swaper
+scoreboard objectives add lem.item_in_hand dummy
+scoreboard objectives add lem.drop_item minecraft.custom:minecraft.drop
+scoreboard objectives add lem.throw_splash minecraft.used:minecraft.splash_potion
+scoreboard objectives add lem.throw_linger minecraft.used:minecraft.lingering_potion
+scoreboard objectives add lem.throw_snow minecraft.used:minecraft.snowball
+scoreboard objectives add lem.break_fishing minecraft.broken:minecraft.fishing_rod
+
 ##PID calculation in squashing
 scoreboard objectives add lem.pidcalc dummy
 

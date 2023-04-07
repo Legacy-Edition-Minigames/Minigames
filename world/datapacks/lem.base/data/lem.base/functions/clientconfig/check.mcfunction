@@ -37,6 +37,9 @@ function lem.base:clientconfig/patreon/check/run
 ##Streaming safe music
 function lem.base:clientconfig/safemusic/check
 
+##Tipped arrow hotbarswap toggle
+function lem.base:clientconfig/swaptipped/check
+
 ##Run functions for addons
 function #lem.base:clientconfig/check
 
