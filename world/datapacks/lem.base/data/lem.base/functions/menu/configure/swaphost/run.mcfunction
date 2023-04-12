@@ -10,10 +10,14 @@ function lem.base:relog/timer/forceupdate
 function lem.base:ui/playerbar/load
 
 ##Display message
+#Add tag
+tag @s add transferhostmsg
 #Transfer
-discordChatMSG {"translate":"lem.menu.host.transfer.success","with":[{"selector":"@a[tag=ingame,tag=host]","color":"dark_aqua"},{"selector":"@s","color":"dark_aqua"}],"color":"blue"}
+discordChatMSG {"translate":"lem.menu.host.transfer.success","with":[{"selector":"@a[tag=ingame,tag=host]","color":"dark_aqua"},{"selector":"@a[tag=transferhostmsg]","color":"dark_aqua"}],"color":"blue"}
 #Recieve
 tellraw @s {"translate":"lem.menu.host.transfer.receive","italic":true,"color":"dark_aqua"}
+#Remove tag
+tag @s remove transferhostmsg
 
 ##Swap tags
 #Remove original
