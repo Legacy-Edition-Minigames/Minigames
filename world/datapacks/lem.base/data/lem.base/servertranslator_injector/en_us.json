@@ -302,7 +302,6 @@
   "lem.relog.join.forge": "You have logged on using Forge, due to issues with forge that are outside of our control, some features may not be available. Hover above this message to see missing features",
   "lem.generic.join": "%s joined the game",
   "lem.generic.join.alive": "%s joined the game as an alive player",
-  "lem.generic.join.ping": "",
   "lem.generic.goback": "Go Back",
   "lem.generic.options": "Options",
   "lem.generic.warning": "Warning",
