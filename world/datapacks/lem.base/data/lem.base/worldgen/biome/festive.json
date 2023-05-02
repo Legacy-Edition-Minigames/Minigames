@@ -1,7 +1,6 @@
 {
   "temperature": -0.5,
   "downfall": 0.4,
-  "precipitation": "snow",
   "effects": {
     "sky_color": 8625919,
     "fog_color": 12638463,
@@ -11,5 +10,6 @@
   "spawners": {},
   "spawn_costs": {},
   "carvers": {},
-  "features": []
+  "features": [],
+  "has_precipitation": true
 }

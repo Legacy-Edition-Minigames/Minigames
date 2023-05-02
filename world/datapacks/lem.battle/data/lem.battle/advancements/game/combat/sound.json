@@ -5,7 +5,12 @@
       "conditions": {
         "damage": {
           "type": {
-            "bypasses_armor": false
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": true
+              }
+            ]
           }
         }
       }
