@@ -16,8 +16,8 @@ execute as @a[tag=ingame,nbt={Inventory:[{Slot:103b,id:"minecraft:creeper_head"}
 execute as @a[tag=ingame,nbt={Inventory:[{Slot:103b,id:"minecraft:dragon_head"}]}] run function lem.base:lobby/mobhead/store
 execute as @a[tag=ingame,nbt={Inventory:[{Slot:103b,id:"minecraft:carved_pumpkin"}]}] run function lem.base:lobby/mobhead/store
 
-##Set gamestatus
-scoreboard players set #Store lem.gamestatus 2
+##Set game status to Loading Game
+scoreboard players set #Store lem.gamestatus 3
 
 ##Set initialgame status
 scoreboard players set #Store lem.initialgame 1
@@ -26,7 +26,7 @@ scoreboard players set #Store lem.initialgame 1
 function lem.base:game/playerreset
 
 ##Load players into the map
-execute as @a[tag=ingame] run function lem.base:game/join
+execute as @a[tag=ingame] run function lem.base:game/join/start
 
 ##Refresh time
 function lem.base:game/time/refresh

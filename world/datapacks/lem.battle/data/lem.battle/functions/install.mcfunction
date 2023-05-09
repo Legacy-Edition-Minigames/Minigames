@@ -1,6 +1,9 @@
 ##Teleport type
 scoreboard objectives add lem.battle.tp dummy
 
+##Selected teleport type
+scoreboard objectives add lem.battle.tpselected dummy
+
 ##Chest type
 scoreboard objectives add lem.battle.chest dummy
 

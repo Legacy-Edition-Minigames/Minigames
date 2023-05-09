@@ -11,9 +11,6 @@ execute if score #Store lem.setround matches 2.. unless entity @a[tag=Winner] ru
 ##Send all players to lobby
 execute as @a[tag=ingame] run function lem.base:game/end/leave
 
-##Set game status to Lobby
-scoreboard players set #Store lem.gamestatus 1
-
 ##Stop custom checks
 function #lem.base:game/custom/stop
 

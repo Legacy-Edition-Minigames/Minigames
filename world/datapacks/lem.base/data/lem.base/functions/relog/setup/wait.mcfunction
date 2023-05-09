@@ -36,8 +36,8 @@ tag @s remove heart-lion8cake
 title @s times 0 50 1
 
 ##Add notready tag
-execute if score #Store lem.gamestatus matches 2 if score #Store lem.lives matches -1 run tag @s add notready
-execute unless score #Store lem.gamestatus matches 2 run tag @s add notready
+execute if score #Store lem.gamestatus matches 4 if score #Store lem.lives matches -1 run tag @s add notready
+execute unless score #Store lem.gamestatus matches 3..4 run tag @s add notready
 
 ##Reset win counter
 scoreboard players reset @s lem.roundwins

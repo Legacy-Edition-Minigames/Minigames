@@ -1,4 +1,4 @@
-##Set GameStatus
+##Set game status to Menu
 scoreboard players set #Store lem.gamestatus 0
 
 ##Set display mode

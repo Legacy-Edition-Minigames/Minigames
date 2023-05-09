@@ -58,7 +58,7 @@ title @a times 0 10 1
 data merge entity @s {Invulnerable:0}
 
 ##Display some game settings
-execute if score #Store lem.gamestatus matches 2 run function lem.base:game/start/displaysettings
+execute if score #Store lem.gamestatus matches 4 run function lem.base:game/start/displaysettings
 
 ##Load GlobalInfo
 function lem.base:ui/globalinfo/load
@@ -70,7 +70,7 @@ scoreboard players set @s lem.alive 1
 function lem.base:clientconfig/heart/load/run
 
 ##Set music timer
-execute if score #Store lem.gamestatus matches 2 run scoreboard players set @s lem.mustimer 15
+execute if score #Store lem.gamestatus matches 4 run scoreboard players set @s lem.mustimer 15
 
 ##Add to player count
 function lem.base:disconnect/add
@@ -79,19 +79,19 @@ function lem.base:disconnect/add
 function lem.base:relog/gamecheck
 
 ##Disable FriendlyFire
-execute unless score #Store lem.gamestatus matches 2 run attribute @s minecraft:generic.attack_damage base set -100
+execute unless score #Store lem.gamestatus matches 4 run attribute @s minecraft:generic.attack_damage base set -100
 
 ##Load MapDecider
-execute if score #Store lem.gamestatus matches 1 run function lem.base:mapdecider/vote/join
+execute if score #Store lem.gamestatus matches 2 run function lem.base:mapdecider/vote/join
 
 ##Reset score
 scoreboard players reset @s lem.score
 
 ##Teleport to a random player if spectator
 #Teleport to map
-execute if score #Store lem.gamestatus matches 2 run function lem.base:game/setup/teleport/load
+execute if score #Store lem.gamestatus matches 4 run function lem.base:game/setup/teleport/load
 #Teleport to a spawnpoint
-execute if score #Store lem.gamestatus matches 2 run tp @s @e[type=area_effect_cloud,tag=RandomTP,limit=1,sort=random]
+execute if score #Store lem.gamestatus matches 4 run tp @s @e[type=area_effect_cloud,tag=RandomTP,limit=1,sort=random]
 
 ##Load spectator mob
 execute if score #Store lem.gamestarted matches 1.. run function lem.base:game/spectator/start/run

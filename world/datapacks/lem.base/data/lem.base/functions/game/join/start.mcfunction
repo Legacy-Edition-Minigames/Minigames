@@ -10,3 +10,6 @@ tag @s add player
 
 ##Set lives
 scoreboard players operation @s lem.lives = #Store lem.lives
+
+##Run functions for addons
+function #lem.base:game/join/start

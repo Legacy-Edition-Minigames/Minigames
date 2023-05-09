@@ -24,5 +24,9 @@ function lem.base:game/player/death/run
 
 ##Send message
 function lem.base:relog/messages/generic
+
+##Run functions for addons
+function #lem.base:game/player/death/relog/spectate
+
 ##Debug message
 tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Sending new player ","color":"gold"},{"selector":"@s","color":"yellow"},{"text":" to spectator mode","color":"gold"}]
