@@ -14,6 +14,6 @@ This should only be used if you have issues downloading the pack or want to use 
 
 3. Install `all-music-1.zip` to your Minecraft Resource Packs [(?)](https://www.planetminecraft.com/blog/how-to-install-a-resource-pack/)
 
-4. Join LEB, and type `/trigger maptextures set -2`, then relog
+4. Join LEM, and type `/trigger maptextures set -2`, then relog
 
 You should now have custom resources enabled!
