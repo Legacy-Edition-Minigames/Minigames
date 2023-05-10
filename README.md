@@ -20,8 +20,6 @@ Screenshots can be viewed [here.](SCREENSHOTS.md)
 
 [Standard selfhost install](INSTALLATION.md)
 
-[MineHut](INSTALLATION-MINEHUT.md)
-
 ### Notices
 
 This project is far from completion! Do not expect too much in its current state!
