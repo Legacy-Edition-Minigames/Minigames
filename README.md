@@ -1,16 +1,17 @@
-# Legacy Edition Battle
+![Legacy Edition Minigames Logo](https://github.com/Legacy-Edition-Minigames/Minigames/assets/65347035/c9c4b7f2-8e56-4aeb-b932-2281db689910)
 
-This is an attempt to port the Battle minigame from the Legacy Editions of minecraft
+A set of open source remakes of the Mini Games from Legacy Console Edition
 
 ![Minecraft Version](https://img.shields.io/badge/Minecraft-1.19.4-80ba42?style=for-the-badge) ![License](https://img.shields.io/github/license/DBTDerpbox/legacy-edition-battle?style=for-the-badge) ![Last Commit](https://img.shields.io/github/last-commit/dbtderpbox/legacy-edition-battle?style=for-the-badge)
 
 [![forthebadge](https://forthebadge.com/images/badges/contains-tasty-spaghetti-code.svg)](https://forthebadge.com) ![Powered By Nostalgia](https://img.shields.io/badge/Powered_by-Nostalgia-e49454?style=for-the-badge)
 
-If you just want to play the game, you can connect to `leb.derpbox.xyz` in multiplayer on Java Edition.
+~~If you just want to play the game, you can connect to `leb.derpbox.xyz` in multiplayer on Java Edition.~~
+* The server is currently on hiatus, for more information see [https://lemsite.derpbox.xyz](https://lemsite.derpbox.xyz)
 
-If you want to create your own LEB server, keep reading.
+If you want to create your own Battle server, keep reading.
 
-If you do make your own LEB server, please at least credit me.
+If you do make your own Battle server, please at least credit this project.
 
 ### Screenshots
 Screenshots can be viewed [here.](SCREENSHOTS.md)
@@ -29,11 +30,11 @@ Optifine has issues with the default pack, please [read this](https://github.com
 
 Lunar Client is currently not supported, see [this page](http://minigames.derpbox.xyz/lunar/) for more information about this.
 
-Legacy Edition Battle is currently designed for [Minecraft Java Edition 1.18.2](https://www.minecraft.net/en-us/article/minecraft-java-edition-1-18-2)
+Legacy Edition Battle is currently designed for [Minecraft Java Edition 1.19.4](https://www.minecraft.net/en-us/article/minecraft-java-edition-1-19-4)
 
 ### Credits
 
-Legacy Edition Battle Project - [DBTDerpbox](https://github.com/DBTDerpbox)
+Legacy Edition Minigames Project Lead - [DBTDerpbox](https://github.com/DBTDerpbox)
 
 Minecraft - [Mojang Studios](https://www.mojang.com)
 
