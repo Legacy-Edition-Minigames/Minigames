@@ -32,7 +32,9 @@ Legacy Edition Battle is currently designed for [Minecraft Java Edition 1.19.4](
 
 ### Credits
 
-Legacy Edition Minigames Project Lead - [DBTDerpbox](https://github.com/DBTDerpbox)
+Legacy Edition Minigames Project Lead Developer - [Emmie](https://github.com/DBTDerpbox)
+
+Second developer - [Kyrptonaught](https://github.com/kyrptonaught)
 
 Minecraft - [Mojang Studios](https://www.mojang.com)
 
@@ -53,8 +55,6 @@ Updating the Halloween and Festive textures to 1.19 - PastelBranches/Rasriel
 Porting Cartoon texture pack - [Lion8cake](https://github.com/Lion8cake)
 
 Halloween Lobby - PastelBranches/Rasriel
-
-Significant Modding Help - [Kyrptonaught](https://github.com/kyrptonaught)
 
 Achievement Icons - [Lion8cake](https://github.com/Lion8cake)
 
