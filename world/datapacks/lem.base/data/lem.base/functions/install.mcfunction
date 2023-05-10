@@ -308,6 +308,8 @@ scoreboard objectives add lem.ui.loadingmap.bar.override dummy
 scoreboard objectives add lem.ui.banner.win.override dummy
 #Banner: Stopwatch
 scoreboard objectives add lem.ui.banner.stopwatch.override dummy
+#Logo
+scoreboard objectives add lem.ui.logo.override dummy
 
 ##For addons to disable built-in game elements
 #Particles: Pregame
@@ -397,6 +399,8 @@ scoreboard players set #Store lem.ui.loadingmap.bar.override 0
 scoreboard players set #Store lem.ui.banner.win.override 0
 #Banner: Stopwatch
 scoreboard players set #Store lem.ui.banner.stopwatch.override 0
+#Logo
+scoreboard players set #Store lem.ui.logo.override 0
 
 ##Enable built-in game elements
 #Particles: Pregame
