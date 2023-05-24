@@ -7,6 +7,9 @@ execute if entity @s[advancements={lem.base:config/panorama/default_set=false}] 
 ##Disable collision
 team join nocollision @s
 
+##Update tablist
+scoreboardSuffixForceUpdate
+
 ##Enable Menu
 tag @s remove nomenu
 
