@@ -23,7 +23,7 @@ function lem.base:resource/advancementreset
 tag @s remove relogtimer
 
 ##Detect if Patreon
-function lem.base:clientconfig/patreon/load/run
+function lem.base:relog/setup/patreon
 
 ##Detect per-user data
 function lem.base:relog/setup/usercheck
