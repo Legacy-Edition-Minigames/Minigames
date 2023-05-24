@@ -42,7 +42,7 @@ scoreboard players reset @s lem.pid
 function lem.base:game/player/setpid
 
 ##Detect if Patreon
-function lem.base:clientconfig/patreon/load/run
+function lem.base:relog/setup/patreon
 
 ##Detect per-user data
 function lem.base:relog/setup/usercheck
