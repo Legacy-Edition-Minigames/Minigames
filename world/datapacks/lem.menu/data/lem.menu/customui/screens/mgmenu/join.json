@@ -1,0 +1,68 @@
+{
+  "title": "[\"\",{\"text\":\"\uF808\uF8032\",\"color\":\"white\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"text\":\"\uF80C\uF80A\uF809\uF808\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"text\":\"1\",\"color\":\"white\",\"font\":\"lem.menu:menu/theme/vanilla/tab/1\"},{\"text\":\"\uF80C\uF80A\uF809\uF808\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"text\":\"2\",\"color\":\"white\",\"font\":\"lem.menu:menu/theme/vanilla/tab/2\"},{\"text\":\"\uF80C\uF80A\uF809\uF808\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"text\":\"2\",\"color\":\"white\",\"font\":\"lem.menu:menu/theme/vanilla/tab/3\"},{\"text\":\"\uF80C\uF80A\uF809\uF808\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"translate\":\"lem.menu.ui.tab.join\",\"color\":\"#2D2D2D\",\"font\":\"lem.menu:menu/text/en_us/tab/join\"},{\"text\":\"\uF80C\uF80A\uF809\uF808\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"translate\":\"lem.menu.ui.tab.host\",\"color\":\"#2D2D2D\",\"font\":\"lem.menu:menu/text/en_us/tab/host\"},{\"text\":\"\uF80C\uF80A\uF809\uF808\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"translate\":\"lem.menu.ui.tab.friends\",\"color\":\"#2D2D2D\",\"font\":\"lem.menu:menu/text/en_us/tab/friends\"}]",
+  "escToClose": true,
+  "escSound": "lem.menu:sound.menu.back",
+  "forceHotBarSlot": "1",
+  "slots": {
+      "3-5": {
+        "presetID": "lem.menu:tab:host"
+      },
+      "6-8": {
+        "presetID": "lem.menu:tab:friends"
+      },
+      "9-15": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:mgmenu/join/battle"
+      },
+      "16": {
+        "presetID": "lem.menu:button/generic:standard",
+        "itemNBT": "{CustomModelData:1003,display:{Lore:['\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"                                                                                                                                                                                                                                                                                                                                                                                                                           \"']}}",
+        "leftClickAction": "openUI/ lem.menu:mgmenu/join/battle"
+      },
+      "17": {
+      "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.battle",
+        "leftClickAction": "openUI/ lem.menu:mgmenu/join/battle"
+      },
+      "18-24": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:mgmenu/join/tumble_notice",
+        "leftClickSound": "lem.menu:sound.menu.fail"
+      },
+      "25": {
+        "presetID": "lem.menu:button/generic:standard",
+        "itemNBT": "{CustomModelData:1004,display:{Lore:['\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"                                                                                                                                                                                                                                                                                                                                                                                                                           \"']}}",
+        "leftClickAction": "openUI/ lem.menu:mgmenu/join/tumble_notice",
+        "leftClickSound": "lem.menu:sound.menu.fail"
+      },
+      "26": {
+      "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.tumble",
+        "leftClickAction": "openUI/ lem.menu:mgmenu/join/tumble_notice",
+        "leftClickSound": "lem.menu:sound.menu.fail"
+      },
+      "27-33": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:mgmenu/join/glide_notice",
+        "leftClickSound": "lem.menu:sound.menu.fail"
+      },
+      "34": {
+        "presetID": "lem.menu:button/generic:standard",
+        "itemNBT": "{CustomModelData:1005,display:{Lore:['\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"\"','\"                                                                                                                                                                                                                                                                                                                                                                                                                           \"']}}",
+        "leftClickAction": "openUI/ lem.menu:mgmenu/join/glide_notice",
+        "leftClickSound": "lem.menu:sound.menu.fail"
+      },
+      "35": {
+      "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.glide",
+        "leftClickAction": "openUI/ lem.menu:mgmenu/join/glide_notice",
+        "leftClickSound": "lem.menu:sound.menu.fail"
+      },
+      "72": {
+        "presetID": "lem.menu:button/leavegame:visual"
+      },
+      "81": {
+        "presetID": "lem.menu:button/leavegame:button"
+      }
+  }
+}

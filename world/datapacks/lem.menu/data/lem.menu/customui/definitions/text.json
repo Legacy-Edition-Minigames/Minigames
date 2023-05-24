@@ -1,0 +1,9 @@
+{
+    "presets": {
+      "standard": {
+        "itemID": "minecraft:ghast_tear",
+        "itemNBT": "{CustomModelData:1000,display:{Name:\u0027[{\"text\":\"Testing 2\",\"italic\":false,\"underlined\":true,\"color\":\"gold\"}]\u0027,Lore:[\u0027[{\"text\":\"Click this to do something\",\"italic\":false}]\u0027]}} ",
+        "leftClickAction": "openUI/ test2"
+      }
+    }
+  }

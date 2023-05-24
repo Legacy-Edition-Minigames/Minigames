@@ -11,6 +11,33 @@
       "packCompatibility": "BOTH"
     },
     {
+      "packname": "menu-setup",
+      "url": "https://github.com/Legacy-Edition-Minigames/Menu-Resources/blob/zip/zip/resources15/setup.zip?raw\u003dtrue",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
+      "packCompatibility": "BOTH"
+    },
+    {
+      "packname": "menu",
+      "url": "https://github.com/Legacy-Edition-Minigames/Menu-Resources/blob/zip/zip/resources15/vanilla/resources.zip?raw\u003dtrue",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
+      "packCompatibility": "VANILLA"
+    },
+    {
+      "packname": "menu-optifine",
+      "url": "https://github.com/Legacy-Edition-Minigames/Menu-Resources/blob/zip/zip/resources15/optifine/resources.zip?raw\u003dtrue",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
+      "packCompatibility": "OPTIFINE"
+    },
+    {
       "packname": "vanilla",
       "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.6b1/vanilla.zip?raw\u003dtrue",
       "hash": "",

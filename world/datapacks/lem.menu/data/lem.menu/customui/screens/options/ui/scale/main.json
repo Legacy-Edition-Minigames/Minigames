@@ -1,0 +1,40 @@
+{
+  "title": "",
+  "escToClose": true,
+  "escSound": "lem.menu:sound.menu.back",
+  "forceHotBarSlot": "1",
+  "slots": {
+      "0-6": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:options/ui/scale/panorama"
+      },
+      "7": {
+        "presetID": "lem.menu:button/generic:standard",
+        "leftClickAction": "openUI/ lem.menu:options/ui/scale/panorama"
+      },
+      "8": {
+        "presetID": "lem.menu:button/generic:blank",
+        "customModelData": "lem.menu.ui.text.panorama_scale",
+        "leftClickAction": "openUI/ lem.menu:options/ui/scale/panorama"
+      },
+      "9-15": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickSound": "lem.menu:sound.menu.fail"
+      },
+      "16": {
+        "presetID": "lem.menu:button/generic:standard_dark",
+        "leftClickSound": "lem.menu:sound.menu.fail"
+      },
+      "17": {
+        "presetID": "lem.menu:button/generic:blank",
+        "customModelData": "lem.menu.ui.text.ui_scale",
+        "leftClickSound": "lem.menu:sound.menu.fail"
+      },
+      "72": {
+        "presetID": "lem.menu:button/leavegame:visual"
+      },
+      "81": {
+        "presetID": "lem.menu:button/leavegame:button"
+      }
+  }
+}

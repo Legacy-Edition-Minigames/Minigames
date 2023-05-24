@@ -1,0 +1,14 @@
+{
+  "presets": {
+    "button1": {
+      "itemID": "minecraft:stick",
+      "itemNBT": "{display:{Name:\u0027[{\"text\":\"Testing \",\"italic\":false,\"bold\":true,\"color\":\"blue\"},{\"text\":\"Yeet\",\"bold\":false,\"obfuscated\":true}]\u0027,Lore:[\u0027[{\"text\":\"This is some \",\"italic\":false},{\"text\":\"super \",\"color\":\"red\"},{\"text\":\"good lore \",\"color\":\"dark_purple\"},{\"text\":\"fr\",\"color\":\"aqua\"}]\u0027]}}",
+      "leftClickAction": "command/ say hi"
+    },
+    "button2": {
+      "itemID": "minecraft:dirt",
+      "itemNBT": "{display:{Name:\u0027[{\"text\":\"Testing 2\",\"italic\":false,\"underlined\":true,\"color\":\"gold\"}]\u0027,Lore:[\u0027[{\"text\":\"Click this to do something\",\"italic\":false}]\u0027]}} ",
+      "leftClickAction": "command/ say spaghetti"
+    }
+  }
+}

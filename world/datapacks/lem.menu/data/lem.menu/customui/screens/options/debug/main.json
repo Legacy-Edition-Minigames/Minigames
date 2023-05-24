@@ -1,0 +1,84 @@
+{
+  "title": "{\"text\":\"\uF808\uF8033\",\"color\":\"white\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"}",
+  "escToClose": true,
+  "escSound": "lem.menu:sound.menu.back",
+  "forceHotBarSlot": "1",
+  "slots": {
+      "0-6": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:options/debug/force_exit_menu"
+      },
+      "7": {
+        "presetID": "lem.menu:button/generic:standard",
+        "leftClickAction": "openUI/ lem.menu:options/debug/force_exit_menu"
+      },
+      "8": {
+      "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.force_exit_menu",
+        "leftClickAction": "openUI/ lem.menu:options/debug/force_exit_menu"
+      },
+      "9-15": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "command/ function lem.menu:menu/gui/debug/reload-datapack"
+      },
+      "16": {
+        "presetID": "lem.menu:button/generic:standard",
+        "leftClickAction": "command/ function lem.menu:menu/gui/debug/reload-datapack"
+      },
+      "17": {
+      "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.reload_datapack",
+        "leftClickAction": "command/ function lem.menu:menu/gui/debug/reload-datapack"
+      },
+      "18-24": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "command/ scoreboard players set @s reloadresources 1"
+      },
+      "25": {
+        "presetID": "lem.menu:button/generic:standard",
+        "leftClickAction": "command/ scoreboard players set @s reloadresources 1"
+      },
+      "26": {
+      "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.reload_resources",
+        "leftClickAction": "command/ scoreboard players set @s reloadresources 1"
+      },
+      "27-33": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "command/ function lem.menu:menu/gui/debug/reload-music"
+      },
+      "34": {
+        "presetID": "lem.menu:button/generic:standard",
+        "leftClickAction": "command/ function lem.menu:menu/gui/debug/reload-music"
+      },
+      "35": {
+      "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.reload_music",
+        "leftClickAction": "command/ function lem.menu:menu/gui/debug/reload-music"
+      },
+      "73-78": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
+      },
+      "79": {
+        "presetID": "lem.menu:button/generic:standard",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
+      },
+      "80": {
+        "presetID": "lem.menu:button/generic:blank",
+        "customModelData": "lem.menu.ui.text.done",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
+      },
+      "72": {
+        "presetID": "lem.menu:button/leavegame:visual",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
+      },
+      "81": {
+        "presetID": "lem.menu:button/leavegame:button"
+      }
+  }
+}

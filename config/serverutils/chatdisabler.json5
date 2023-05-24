@@ -1,0 +1,8 @@
+{
+  "notifyChatDisabled": false,
+  "disabledMessage": "Chat has temporarily been disabled. Other players will not see your messages",
+  "notifyChatEnabled": false,
+  "enabledMessage": "Chat has been re-enabled. Other players can now receive your messages",
+  "informClientMSGNotSent": false,
+  "disabledResponse": "Chat is temporarily disabled, your message was not sent."
+}

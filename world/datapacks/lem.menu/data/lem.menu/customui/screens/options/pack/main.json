@@ -1,0 +1,27 @@
+{
+  "title": "",
+  "escToClose": true,
+  "escSound": "lem.menu:sound.menu.back",
+  "forceHotBarSlot": "1",
+  "slots": {
+      "0-6": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:options/pack/optifine"
+      },
+      "7": {
+        "presetID": "lem.menu:button/generic:standard",
+        "leftClickAction": "openUI/ lem.menu:options/pack/optifine"
+      },
+      "8": {
+        "presetID": "lem.menu:button/generic:blank",
+        "customModelData": "lem.menu.ui.text.optifine_pack",
+        "leftClickAction": "openUI/ lem.menu:options/pack/optifine"
+      },
+      "72": {
+        "presetID": "lem.menu:button/leavegame:visual"
+      },
+      "81": {
+        "presetID": "lem.menu:button/leavegame:button"
+      }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "title": "{\"text\":\"\uF808\uF8033\",\"color\":\"white\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"}",
+  "escToClose": true,
+  "escSound": "lem.menu:sound.menu.back",
+  "forceHotBarSlot": "1",
+  "slots": {
+      "0-6": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "command/ function lem.menu:menu/gui/options/ui/panorama/select_background/1"
+      },
+      "7": {
+        "presetID": "lem.menu:button/generic:standard",
+        "leftClickAction": "command/ function lem.menu:menu/gui/options/ui/panorama/select_background/1"
+      },
+      "8": {
+        "presetID": "lem.menu:button/generic:blank",
+        "customModelData": "lem.menu.ui.text.tu1",
+        "leftClickAction": "command/ function lem.menu:menu/gui/options/ui/panorama/select_background/1"
+      },
+      "9-15": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "command/ function lem.menu:menu/gui/options/ui/panorama/select_background/5"
+      },
+      "16": {
+        "presetID": "lem.menu:button/generic:standard",
+        "leftClickAction": "command/ function lem.menu:menu/gui/options/ui/panorama/select_background/5"
+      },
+      "17": {
+        "presetID": "lem.menu:button/generic:blank",
+        "customModelData": "lem.menu.ui.text.tu5",
+        "leftClickAction": "command/ function lem.menu:menu/gui/options/ui/panorama/select_background/5"
+      },
+      "18-24": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "command/ function lem.menu:menu/gui/options/ui/panorama/select_background/9"
+      },
+      "25": {
+        "presetID": "lem.menu:button/generic:standard",
+        "leftClickAction": "command/ function lem.menu:menu/gui/options/ui/panorama/select_background/9"
+      },
+      "26": {
+        "presetID": "lem.menu:button/generic:blank",
+        "customModelData": "lem.menu.ui.text.tu9",
+        "leftClickAction": "command/ function lem.menu:menu/gui/options/ui/panorama/select_background/9"
+      },
+      "27-33": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "command/ function lem.menu:menu/gui/options/ui/panorama/select_background/14"
+      },
+      "34": {
+        "presetID": "lem.menu:button/generic:standard",
+        "leftClickAction": "command/ function lem.menu:menu/gui/options/ui/panorama/select_background/14"
+      },
+      "35": {
+        "presetID": "lem.menu:button/generic:blank",
+        "customModelData": "lem.menu.ui.text.tu14",
+        "leftClickAction": "command/ function lem.menu:menu/gui/options/ui/panorama/select_background/14"
+      },
+      "36-42": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "command/ function lem.menu:menu/gui/options/ui/panorama/select_background/19"
+      },
+      "43": {
+        "presetID": "lem.menu:button/generic:standard",
+        "leftClickAction": "command/ function lem.menu:menu/gui/options/ui/panorama/select_background/19"
+      },
+      "44": {
+        "presetID": "lem.menu:button/generic:blank",
+        "customModelData": "lem.menu.ui.text.tu19",
+        "leftClickAction": "command/ function lem.menu:menu/gui/options/ui/panorama/select_background/19"
+      },
+      "45-51": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "command/ function lem.menu:menu/gui/options/ui/panorama/select_background/31"
+      },
+      "52": {
+        "presetID": "lem.menu:button/generic:standard",
+        "leftClickAction": "command/ function lem.menu:menu/gui/options/ui/panorama/select_background/31"
+      },
+      "53": {
+        "presetID": "lem.menu:button/generic:blank",
+        "customModelData": "lem.menu.ui.text.tu31",
+        "leftClickAction": "command/ function lem.menu:menu/gui/options/ui/panorama/select_background/31"
+      },
+      "54-60": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:options/ui/panorama/select_background/2"
+      },
+      "61": {
+        "presetID": "lem.menu:button/generic:standard",
+        "leftClickAction": "openUI/ lem.menu:options/ui/panorama/select_background/2"
+      },
+      "62": {
+        "presetID": "lem.menu:button/generic:blank",
+        "customModelData": "lem.menu.ui.text.next_page",
+        "leftClickAction": "openUI/ lem.menu:options/ui/panorama/select_background/2"
+      },
+      "73-78": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
+      },
+      "79": {
+        "presetID": "lem.menu:button/generic:standard",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
+      },
+      "80": {
+        "presetID": "lem.menu:button/generic:blank",
+        "customModelData": "lem.menu.ui.text.done",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
+      },
+      "72": {
+        "presetID": "lem.menu:button/leavegame:visual",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
+      },
+      "81": {
+        "presetID": "lem.menu:button/leavegame:button"
+      }
+  }
+}

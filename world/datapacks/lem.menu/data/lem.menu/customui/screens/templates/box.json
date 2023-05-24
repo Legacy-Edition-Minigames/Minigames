@@ -1,0 +1,14 @@
+{
+  "title": "{\"text\":\"\uF808\uF8031\",\"color\":\"white\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"}",
+  "escToClose": true,
+  "escSound": "lem.menu:sound.menu.back",
+  "forceHotBarSlot": "1",
+  "slots": {
+      "72": {
+        "presetID": "lem.menu:button/leavegame:visual"
+      },
+      "81": {
+        "presetID": "lem.menu:button/leavegame:button"
+      }
+  }
+}

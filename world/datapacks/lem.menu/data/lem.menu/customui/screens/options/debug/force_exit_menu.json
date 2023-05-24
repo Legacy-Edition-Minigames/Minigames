@@ -1,0 +1,43 @@
+{
+  "title": "[{\"text\":\"\uF809\uF808\uF8041\",\"color\":\"white\",\"font\":\"lem.menu:menu/theme/vanilla/window/popup\"},{\"text\":\"\uF80C\uF80B\uF809\uF808\uF801\",\"font\":\"lem.menu:menu/text/en_us/notice/generic_title\"},{\"translate\":\"lem.menu.ui.notice.force_exit_menu_title\",\"font\":\"lem.menu:menu/text/en_us/notice/force_exit_menu_title\",\"color\":\"#424242\"},{\"text\":\"\uF80C\uF80B\uF809\uF808\uF801\",\"font\":\"lem.menu:menu/text/en_us/notice/generic_title\"},{\"translate\":\"lem.menu.ui.notice.force_exit_menu\",\"font\":\"lem.menu:menu/text/en_us/notice/force_exit_menu\",\"color\":\"#424242\"}]",
+  "escToClose": true,
+  "escSound": "lem.menu:sound.menu.back",
+  "forceHotBarSlot": "1",
+  "slots": {
+    "36-42": {
+      "presetID": "lem.menu:button/generic:blank",
+      "leftClickSound": "lem.menu:sound.menu.back",
+      "leftClickAction": "back/"
+    },
+    "43": {
+      "presetID": "lem.menu:button/generic:standard",
+      "leftClickSound": "lem.menu:sound.menu.back",
+      "leftClickAction": "back/"
+    },
+    "44": {
+      "presetID": "lem.menu:button/generic:text",
+      "customModelData": "lem.menu.ui.text.cancel",
+      "leftClickSound": "lem.menu:sound.menu.back",
+      "leftClickAction": "back/"
+    },
+    "45-51": {
+      "presetID": "lem.menu:button/generic:blank",
+      "leftClickAction": "close/"
+    },
+    "52": {
+      "presetID": "lem.menu:button/generic:standard",
+      "leftClickAction": "close/"
+    },
+    "53": {
+      "presetID": "lem.menu:button/generic:text",
+      "customModelData": "lem.menu.ui.text.ok",
+      "leftClickAction": "close/"
+    },
+    "72": {
+      "presetID": "lem.menu:button/leavegame:visual"
+    },
+    "81": {
+      "presetID": "lem.menu:button/leavegame:button"
+    }
+  }
+}

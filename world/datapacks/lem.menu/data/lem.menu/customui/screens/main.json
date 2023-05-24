@@ -1,0 +1,45 @@
+{
+  "title": "",
+  "escToClose": false,
+  "slots": {
+      "0-6": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:mgmenu/join"
+      },
+      "7": {
+        "presetID": "lem.menu:button/generic:standard",
+        "leftClickAction": "openUI/ lem.menu:mgmenu/join"
+      },
+      "8": {
+        "presetID": "lem.menu:button/generic:blank",
+        "customModelData": "lem.menu.ui.text.play_mini_games",
+        "leftClickAction": "openUI/ lem.menu:mgmenu/join"
+      },
+      "9-15": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:options/main"
+      },
+      "16": {
+        "presetID": "lem.menu:button/generic:standard",
+        "leftClickAction": "openUI/ lem.menu:options/main"
+      },
+      "17": {
+        "presetID": "lem.menu:button/generic:blank",
+        "customModelData": "lem.menu.ui.text.help_and_options",
+        "leftClickAction": "openUI/ lem.menu:options/main"
+      },
+      "18-24": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:exit_server"
+      },
+      "25": {
+        "presetID": "lem.menu:button/generic:standard",
+        "leftClickAction": "openUI/ lem.menu:exit_server"
+      },
+      "26": {
+        "presetID": "lem.menu:button/generic:blank",
+        "customModelData": "lem.menu.ui.text.exit_server",
+        "leftClickAction": "openUI/ lem.menu:exit_server"
+      }
+  }
+}
