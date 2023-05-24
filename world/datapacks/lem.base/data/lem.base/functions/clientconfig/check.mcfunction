@@ -1,6 +1,3 @@
-##Optifine pack
-function lem.base:clientconfig/optifine/check
-
 ##Per-Map textures
 function lem.base:clientconfig/globalpack/check
 

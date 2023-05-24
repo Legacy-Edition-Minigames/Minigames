@@ -101,9 +101,6 @@ scoreboard objectives add lem.maprandom dummy
 ##Relog resourcepack timer
 scoreboard objectives add lem.relogtimer dummy
 
-##Optifine resources toggle
-scoreboard objectives add optifinepack trigger
-
 ##Loaded pack count
 scoreboard objectives add lem.loadedpacks dummy
 
