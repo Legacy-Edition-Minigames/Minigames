@@ -1,5 +1,5 @@
 ##Enable config option
-advancement grant @s only 4jmenu:config/optifine
+advancement grant @s only lem.base:config/optifine
 
 ##Refresh config
 function lem.base:relog/setup/lemclienthelper/loadofconfig

@@ -1,5 +1,5 @@
 ##Enable config option
-advancement revoke @s only 4jmenu:config/optifine
+advancement revoke @s only lem.base:config/optifine
 
 ##Refresh config
 function lem.base:relog/setup/lemclienthelper/loadofconfig

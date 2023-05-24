@@ -1,5 +1,5 @@
 ##Set default if not set
-execute as @a[advancements={4jmenu:config/panscale/default_set=false}] run function lem.base:clientconfig/panscale/default
+execute as @a[advancements={lem.base:config/panscale/default_set=false}] run function lem.base:clientconfig/panscale/default
 
 ##Open Menu
 execute as @a[scores={panscale=1}] run function lem.base:clientconfig/panscale/menu
