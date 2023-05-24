@@ -1,5 +1,5 @@
 ##Find current pack ID
-function lem.base:resource/load/id/run
+function lem.base:resource/load/id
 
 ##Load pack
 #Vanilla

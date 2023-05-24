@@ -1,9 +1,0 @@
-0 is none, this should send to the config GUI
-
-1 is Loading Lobby
-
-2 is Lobby
-
-3 is Loading Game
-
-4 is In Game

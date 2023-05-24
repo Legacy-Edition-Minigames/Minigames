@@ -61,9 +61,6 @@ registerSpectateSqueak clear @s
 ##Make Invincible
 data merge entity @s {Invulnerable:1}
 
-##Send to menu
-function lem.base:menu/load/user
-
 ##Clear inventory
 clear @s
 

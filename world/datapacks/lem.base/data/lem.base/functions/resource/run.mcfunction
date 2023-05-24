@@ -1,5 +1,5 @@
 ##Find current pack ID
-function lem.base:resource/load/id/run
+function lem.base:resource/load/id
 
 ##Mark as loaded if pack id matches server
 execute if score @s lem.pack = #Store lem.pack run advancement grant @s only lem.base:resource/finished
