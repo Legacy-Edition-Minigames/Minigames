@@ -9,8 +9,9 @@ LEM is a set of open source remakes of the Mini Games from Legacy Console Editio
 The server is currently in a Closed Alpha. If you would like to see how to join please see [this page](https://lemsite.derpbox.xyz/join)
 
 ### Screenshots
+![2023-05-27_21 58 54](https://github.com/Legacy-Edition-Minigames/Minigames/assets/65347035/f2de49e6-e50d-4a44-90f9-37bcfa9bbafb)
 
-Screenshots will be added later
+![2023-05-27_22 25 44](https://github.com/Legacy-Edition-Minigames/Minigames/assets/65347035/faecd2be-0d6e-4840-a8d7-0247136b49b4)
 
 ### Credits
 
