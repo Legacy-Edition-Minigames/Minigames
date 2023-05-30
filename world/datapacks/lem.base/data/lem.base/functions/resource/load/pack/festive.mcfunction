@@ -1,8 +1,5 @@
-##Load festive pack if user is not using optifine and not using custompack
-execute if entity @s[tag=!optifine] run loadresource festive
-
-##Load festive-optifine pack if user is using optifine and not using custompack
-execute if entity @s[tag=optifine] run loadresource festive-optifine
+##Load festive pack if user is not using custompack
+execute if entity @s run loadresource festive
 
 ##Run global functions
 function lem.base:resource/load/pack/global
