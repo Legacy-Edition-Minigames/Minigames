@@ -7,6 +7,9 @@ function lem.base:game/player/death/check
 ##Check for if the game should end
 function lem.base:game/end/check
 
+##Set game status to Game
+scoreboard players set #Store lem.gamestatus 4
+
 ##Start game timer
 function lem.base:game/end/timer/start
 

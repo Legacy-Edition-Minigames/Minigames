@@ -7,6 +7,9 @@ schedule clear lem.base:menu/check
 ##Load lobby type from config
 scoreboard players operation #Store lem.lobbytype = #Store lem.setlobbytype
 
+##Set game status to Loading Lobby
+scoreboard players set #Store lem.gamestatus 1
+
 ##Start timer
 function lem.base:lobby/start/timer/start
 

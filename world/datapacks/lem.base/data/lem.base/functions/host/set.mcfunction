@@ -11,4 +11,4 @@ dimensionloader unload lem.base:arena
 function lem.base:menu/load/host
 
 ##Load Configure trigger
-execute if score #Store lem.gamestatus matches 0..1 run function lem.base:menu/configure/runner
+execute if score #Store lem.gamestatus matches 0..2 run function lem.base:menu/configure/runner

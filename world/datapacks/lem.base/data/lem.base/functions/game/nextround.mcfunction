@@ -9,6 +9,9 @@ gamemode adventure @a[tag=ingame]
 #Enable message
 gamerule sendCommandFeedback true
 
+##Set game status to Loading Game
+scoreboard players set #Store lem.gamestatus 3
+
 ##Start panorama
 #Set displaymode
 scoreboard players set #Store lem.displaymode 2

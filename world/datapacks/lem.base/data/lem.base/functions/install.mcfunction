@@ -101,9 +101,6 @@ scoreboard objectives add lem.maprandom dummy
 ##Relog resourcepack timer
 scoreboard objectives add lem.relogtimer dummy
 
-##Optifine resources toggle
-scoreboard objectives add optifinepack trigger
-
 ##Loaded pack count
 scoreboard objectives add lem.loadedpacks dummy
 
@@ -190,6 +187,14 @@ scoreboard objectives add swaptipped trigger
 
 ##Resource loading animation timer
 scoreboard objectives add lem.packtimerani dummy
+
+##Inventory hotbar swaper
+scoreboard objectives add lem.item_in_hand dummy
+scoreboard objectives add lem.drop_item minecraft.custom:minecraft.drop
+scoreboard objectives add lem.throw_splash minecraft.used:minecraft.splash_potion
+scoreboard objectives add lem.throw_linger minecraft.used:minecraft.lingering_potion
+scoreboard objectives add lem.throw_snow minecraft.used:minecraft.snowball
+scoreboard objectives add lem.break_fishing minecraft.broken:minecraft.fishing_rod
 
 ##PID calculation in squashing
 scoreboard objectives add lem.pidcalc dummy
@@ -300,6 +305,8 @@ scoreboard objectives add lem.ui.loadingmap.bar.override dummy
 scoreboard objectives add lem.ui.banner.win.override dummy
 #Banner: Stopwatch
 scoreboard objectives add lem.ui.banner.stopwatch.override dummy
+#Logo
+scoreboard objectives add lem.ui.logo.override dummy
 
 ##For addons to disable built-in game elements
 #Particles: Pregame
@@ -389,6 +396,8 @@ scoreboard players set #Store lem.ui.loadingmap.bar.override 0
 scoreboard players set #Store lem.ui.banner.win.override 0
 #Banner: Stopwatch
 scoreboard players set #Store lem.ui.banner.stopwatch.override 0
+#Logo
+scoreboard players set #Store lem.ui.logo.override 0
 
 ##Enable built-in game elements
 #Particles: Pregame

@@ -1,5 +1,5 @@
 ##Enable config option
-advancement grant @s only 4jmenu:config/safemusic
+advancement grant @s only lem.base:config/safemusic
 
 ##Reset score
 scoreboard players reset @s safemusic

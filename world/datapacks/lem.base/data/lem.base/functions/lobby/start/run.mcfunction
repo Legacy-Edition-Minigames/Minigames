@@ -1,8 +1,8 @@
 ##Spawn
 execute as @a[tag=ingame] at @s run function lem.base:lobby/spawn/run
 
-##Set gamestatus
-scoreboard players set #Store lem.gamestatus 1
+##Set game status to Lobby
+scoreboard players set #Store lem.gamestatus 2
 
 ##Set GlobalInfo
 #P1

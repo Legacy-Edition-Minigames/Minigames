@@ -1,5 +1,5 @@
 ##Enable config option
-advancement revoke @s only 4jmenu:config/safemusic
+advancement revoke @s only lem.base:config/safemusic
 
 ##Reset score
 scoreboard players reset @s safemusic

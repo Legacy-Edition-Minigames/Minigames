@@ -3,246 +3,138 @@
   "packs": [
     {
       "packname": "blank",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/blank.zip?raw\u003dtrue",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/blank/1.19.4.zip?raw\u003dtrue",
       "hash": "",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
       "packCompatibility": "BOTH"
     },
     {
+      "packname": "menu",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/menu/M1/vanilla.zip?raw\u003dtrue",
+      "hash": "",
+      "required": true,
+      "hasPrompt": true,
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
+      "packCompatibility": "VANILLA"
+    },
+    {
       "packname": "vanilla",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.6b1/vanilla.zip?raw\u003dtrue",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.6/vanilla.zip?raw\u003dtrue",
       "hash": "",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
       "packCompatibility": "VANILLA"
     },
     {
-      "packname": "vanilla-optifine",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/optifine/R26.6b1/vanilla.zip?raw\u003dtrue",
+      "packname": "all-music",
+      "url": "https://www.dropbox.com/s/6xdoyia8g924amf/all-music.zip?dl\u003d0",
       "hash": "",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Battle requires a resource pack to function properly!",
-      "packCompatibility": "OPTIFINE"
-    },
-    {
-      "packname": "all-music-1",
-      "url": "https://www.dropbox.com/s/iqd1c0pd6zqi0g0/all-music-1.zip?dl\u003d1",
-      "hash": "",
-      "required": true,
-      "hasPrompt": true,
-      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
       "packCompatibility": "VANILLA"
-    },
-    {
-      "packname": "all-music-1-optifine",
-      "url": "https://www.dropbox.com/s/bvo5j6a8176nuo9/all-music-1.zip?dl\u003d1",
-      "hash": "",
-      "required": true,
-      "hasPrompt": true,
-      "message": "Legacy Edition Battle requires a resource pack to function properly!",
-      "packCompatibility": "OPTIFINE"
     },
     {
       "packname": "plastic",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.6b1/plastic.zip?raw\u003dtrue",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.6/plastic.zip?raw\u003dtrue",
       "hash": "",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
       "packCompatibility": "VANILLA"
-    },
-    {
-      "packname": "plastic-optifine",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/optifine/R26.6b1/plastic.zip?raw\u003dtrue",
-      "hash": "",
-      "required": true,
-      "hasPrompt": true,
-      "message": "Legacy Edition Battle requires a resource pack to function properly!",
-      "packCompatibility": "OPTIFINE"
     },
     {
       "packname": "fantasy",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.6b1/fantasy.zip?raw\u003dtrue",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.6/fantasy.zip?raw\u003dtrue",
       "hash": "",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
       "packCompatibility": "VANILLA"
-    },
-    {
-      "packname": "fantasy-optifine",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/optifine/R26.6b1/fantasy.zip?raw\u003dtrue",
-      "hash": "",
-      "required": true,
-      "hasPrompt": true,
-      "message": "Legacy Edition Battle requires a resource pack to function properly!",
-      "packCompatibility": "OPTIFINE"
     },
     {
       "packname": "city",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.6b1/city.zip?raw\u003dtrue",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.6/city.zip?raw\u003dtrue",
       "hash": "",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
       "packCompatibility": "VANILLA"
-    },
-    {
-      "packname": "city-optifine",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/optifine/R26.6b1/city.zip?raw\u003dtrue",
-      "hash": "",
-      "required": true,
-      "hasPrompt": true,
-      "message": "Legacy Edition Battle requires a resource pack to function properly!",
-      "packCompatibility": "OPTIFINE"
     },
     {
       "packname": "greek",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.6b1/greek-mythology.zip?raw\u003dtrue",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.6/greek-mythology.zip?raw\u003dtrue",
       "hash": "",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
       "packCompatibility": "VANILLA"
-    },
-    {
-      "packname": "greek-optifine",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/optifine/R26.6b1/greek-mythology.zip?raw\u003dtrue",
-      "hash": "",
-      "required": true,
-      "hasPrompt": true,
-      "message": "Legacy Edition Battle requires a resource pack to function properly!",
-      "packCompatibility": "OPTIFINE"
     },
     {
       "packname": "steampunk",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.6b1/steampunk.zip?raw\u003dtrue",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.6/steampunk.zip?raw\u003dtrue",
       "hash": "",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
       "packCompatibility": "VANILLA"
-    },
-    {
-      "packname": "steampunk-optifine",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/optifine/R26.6b1/steampunk.zip?raw\u003dtrue",
-      "hash": "",
-      "required": true,
-      "hasPrompt": true,
-      "message": "Legacy Edition Battle requires a resource pack to function properly!",
-      "packCompatibility": "OPTIFINE"
     },
     {
       "packname": "chinese",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.6b1/chinese-mythology.zip?raw\u003dtrue",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.6/chinese-mythology.zip?raw\u003dtrue",
       "hash": "",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
       "packCompatibility": "VANILLA"
-    },
-    {
-      "packname": "chinese-optifine",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/optifine/R26.6b1/chinese-mythology.zip?raw\u003dtrue",
-      "hash": "",
-      "required": true,
-      "hasPrompt": true,
-      "message": "Legacy Edition Battle requires a resource pack to function properly!",
-      "packCompatibility": "OPTIFINE"
     },
     {
       "packname": "halloween",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.6b1/halloween.zip?raw\u003dtrue",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.6/halloween.zip?raw\u003dtrue",
       "hash": "",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
       "packCompatibility": "VANILLA"
-    },
-    {
-      "packname": "halloween-optifine",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/optifine/R26.6b1/halloween.zip?raw\u003dtrue",
-      "hash": "",
-      "required": true,
-      "hasPrompt": true,
-      "message": "Legacy Edition Battle requires a resource pack to function properly!",
-      "packCompatibility": "OPTIFINE"
     },
     {
       "packname": "festive",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.6b1/festive.zip?raw\u003dtrue",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.6/festive.zip?raw\u003dtrue",
       "hash": "",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
       "packCompatibility": "VANILLA"
-    },
-    {
-      "packname": "festive-optifine",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/optifine/R26.6b1/festive.zip?raw\u003dtrue",
-      "hash": "",
-      "required": true,
-      "hasPrompt": true,
-      "message": "Legacy Edition Battle requires a resource pack to function properly!",
-      "packCompatibility": "OPTIFINE"
     },
     {
       "packname": "fallout",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.6b1/fallout.zip?raw\u003dtrue",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.6/fallout.zip?raw\u003dtrue",
       "hash": "",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
       "packCompatibility": "VANILLA"
-    },
-    {
-      "packname": "fallout-optifine",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/optifine/R26.6b1/fallout.zip?raw\u003dtrue",
-      "hash": "",
-      "required": true,
-      "hasPrompt": true,
-      "message": "Legacy Edition Battle requires a resource pack to function properly!",
-      "packCompatibility": "OPTIFINE"
     },
     {
       "packname": "natural",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.6b1/natural.zip?raw\u003dtrue",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.6/natural.zip?raw\u003dtrue",
       "hash": "",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
       "packCompatibility": "VANILLA"
-    },
-    {
-      "packname": "natural-optifine",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/optifine/R26.6b1/natural.zip?raw\u003dtrue",
-      "hash": "",
-      "required": true,
-      "hasPrompt": true,
-      "message": "Legacy Edition Battle requires a resource pack to function properly!",
-      "packCompatibility": "OPTIFINE"
     },
     {
       "packname": "cartoon",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.6b1/cartoon.zip?raw\u003dtrue",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.6/cartoon.zip?raw\u003dtrue",
       "hash": "",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Battle requires a resource pack to function properly!",
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
       "packCompatibility": "VANILLA"
-    },
-    {
-      "packname": "cartoon-optifine",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/optifine/R26.6b1/cartoon.zip?raw\u003dtrue",
-      "hash": "",
-      "required": true,
-      "hasPrompt": true,
-      "message": "Legacy Edition Battle requires a resource pack to function properly!",
-      "packCompatibility": "OPTIFINE"
     }
   ]
 }

@@ -2,7 +2,7 @@
 function lem.base:clientconfig/panscale/set/clear
 
 ##Set scale
-advancement grant @s only 4jmenu:config/panscale/2
+advancement grant @s only lem.base:config/panscale/2
 
 ##Display message
 tellraw @s {"translate":"lem.config.panscale.menu.success","with":["2"],"color":"green"}

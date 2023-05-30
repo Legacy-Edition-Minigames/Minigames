@@ -1,6 +1,9 @@
 ##Teleport type
 scoreboard objectives add lem.battle.tp dummy
 
+##Selected teleport type
+scoreboard objectives add lem.battle.tpselected dummy
+
 ##Chest type
 scoreboard objectives add lem.battle.chest dummy
 
@@ -107,14 +110,6 @@ scoreboard objectives add lem.battle.drawscore dummy
 
 ##Victor count
 scoreboard objectives add lem.battle.victorcount dummy
-
-##Inventory hotbar swaper
-scoreboard objectives add lem.battle.item_in_hand dummy
-scoreboard objectives add lem.battle.drop_item minecraft.custom:minecraft.drop
-scoreboard objectives add lem.battle.throw_splash minecraft.used:minecraft.splash_potion
-scoreboard objectives add lem.battle.throw_linger minecraft.used:minecraft.lingering_potion
-scoreboard objectives add lem.battle.throw_snow minecraft.used:minecraft.snowball
-scoreboard objectives add lem.battle.break_fishing minecraft.broken:minecraft.fishing_rod
 
 ##Random Item set toggle
 scoreboard objectives add lem.battle.enableset dummy

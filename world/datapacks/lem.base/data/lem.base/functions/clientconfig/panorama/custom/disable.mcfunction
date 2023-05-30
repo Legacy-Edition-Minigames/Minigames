@@ -1,5 +1,5 @@
 ##Set scale
-advancement revoke @s only 4jmenu:config/panorama/game/custom
+advancement revoke @s only lem.base:config/panorama/game/custom
 
 ##Reload panorama
 execute if score #Store lem.gimode matches 2 run function lem.base:ui/globalinfo/load
