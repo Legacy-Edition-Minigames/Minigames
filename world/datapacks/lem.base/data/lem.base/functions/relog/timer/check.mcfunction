@@ -2,10 +2,10 @@
 function lem.base:relog/timer/animation
 
 ##Count down
-scoreboard players remove @a[tag=relogtimer,scores={lem.timer=0..}] lem.timer 1
+scoreboard players remove @a[tag=relogtimer,scores={lem.timer=1..}] lem.timer 1
 
 ##Load resource pack
-execute as @a[tag=relogtimer,scores={lem.timer=0},advancements={lem.base:resource/started=false}] run function lem.base:relog/timer/loadresource
+execute as @a[tag=relogtimer,scores={lem.timer=0},tag=!loadingresources] run function lem.base:relog/timer/loadresource
 
 ##Send to game once timer ends
 execute as @a[tag=relogtimer,advancements={lem.base:resource/finished=true}] run function lem.base:relog/setup/global
