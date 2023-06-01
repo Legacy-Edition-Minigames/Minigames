@@ -8,6 +8,9 @@ tag @s add ready
 #Refresh
 function lem.base:ui/playerbar/load
 
+##Set lives
+scoreboard players operation @s lem.lives = #Store lem.lives
+
 ##Display message
 function lem.base:relog/messages/generic
 

@@ -13,6 +13,8 @@ execute as e9e4b393-29d1-4004-b469-125d8b87c124 run scoreboard players set @s le
 execute as 56acefcd-7ef6-44a5-9268-0517556a6133 run scoreboard players set @s lem.patreon 1
 #Swirren
 execute as 42480972-6f26-4ac8-9bc7-578d664b54c1 run scoreboard players set @s lem.patreon 4
+#PixeoGames
+execute as 1d6033d1-cad8-426e-913a-c7ccde64de54 run scoreboard players set @s lem.patreon 2
 
 ##Reset heart if no longer subscribed
 #Tiny
