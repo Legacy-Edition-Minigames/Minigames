@@ -38,9 +38,6 @@ execute as @a[tag=ingame,tag=headstore] run function lem.base:lobby/mobhead/copy
 ##Render game tablist
 execute if score #Store lem.initialgame matches 1 run function #lem.base:ui/playerlist/scores/load/game
 
-##Display some game settings
-execute as @a[tag=ingame] run function lem.base:game/start/displaysettings
-
 ##Inventory hotbar swap
 execute if score #Store lem.smallinv matches 0 run function lem.base:game/inventory/swap/start
 
@@ -61,3 +58,6 @@ function lem.base:game/worldborder/start
 
 ##Run functions for addons
 function #lem.base:game/start/start
+
+##Display some game settings
+execute as @a[tag=ingame] run function lem.base:game/start/displaysettings
