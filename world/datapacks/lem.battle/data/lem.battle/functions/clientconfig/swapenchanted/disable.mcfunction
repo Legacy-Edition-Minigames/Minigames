@@ -1,5 +1,5 @@
 ##Enable config option
-advancement revoke @s only lem.batttle:config/swapenchanted
+advancement revoke @s only lem.battle:config/swapenchanted
 
 ##Disable feature
 takeeverything ignoreEnchants false @s

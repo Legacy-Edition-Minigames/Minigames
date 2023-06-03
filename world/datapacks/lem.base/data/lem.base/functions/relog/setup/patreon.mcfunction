@@ -15,6 +15,14 @@ execute as 56acefcd-7ef6-44a5-9268-0517556a6133 run scoreboard players set @s le
 execute as 42480972-6f26-4ac8-9bc7-578d664b54c1 run scoreboard players set @s lem.patreon 4
 #PixeoGames
 execute as 1d6033d1-cad8-426e-913a-c7ccde64de54 run scoreboard players set @s lem.patreon 2
+#Phantazap
+execute as 1f7a5ac1-664b-479d-9e2d-15ed891b080c run scoreboard players set @s lem.patreon 2
+#Icement
+execute as 02e40f20-686a-4e40-8dda-84d3a2cadc3f run scoreboard players set @s lem.patreon 2
+#KristalYAY
+execute as e45239f4-2c71-4d0a-83a9-b616f91a5396 run scoreboard players set @s lem.patreon 2
+#Red_Boy547
+execute as bdcb26c5-4918-46c8-8db6-dfa4f2d12ede run scoreboard players set @s lem.patreon 2
 
 ##Reset heart if no longer subscribed
 #Tiny
