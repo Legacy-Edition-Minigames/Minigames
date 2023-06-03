@@ -21,6 +21,8 @@ execute as 1f7a5ac1-664b-479d-9e2d-15ed891b080c run scoreboard players set @s le
 execute as 02e40f20-686a-4e40-8dda-84d3a2cadc3f run scoreboard players set @s lem.patreon 2
 #KristalYAY
 execute as e45239f4-2c71-4d0a-83a9-b616f91a5396 run scoreboard players set @s lem.patreon 2
+#Red_Boy547
+execute as bdcb26c5-4918-46c8-8db6-dfa4f2d12ede run scoreboard players set @s lem.patreon 2
 
 ##Reset heart if no longer subscribed
 #Tiny
