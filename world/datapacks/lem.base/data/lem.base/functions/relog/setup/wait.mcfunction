@@ -51,6 +51,12 @@ scoreboard players reset @s
 #Get serverutils scores
 scoreboardplayerinfo setAllScores
 
+##Load default config
+function lem.base:config/defaults
+
+##Load config tags
+function lem.base:config/load
+
 ##Load serverutils/lemclienthelper settings
 #Detect optifine
 function lem.base:relog/setup/lemclienthelper/loadofconfig
@@ -86,7 +92,7 @@ setSuffixFont alive "lem.base:tablist/heart/empty" @s
 scoreboard players set @s lem.timer 100
 
 ##Run timer if custom pack is not enabled
-execute unless entity @s[advancements={lem.base:config/custompack=true,lem.base:config/globalpack=true}] run function lem.base:relog/timer/check
+execute unless entity @s[tag=custompack,tag=globalpack] run function lem.base:relog/timer/check
 
 ##Join if custom pack is enabled
-execute if entity @s[advancements={lem.base:config/custompack=true,lem.base:config/globalpack=true}] run function lem.base:relog/setup/custompack
+execute if entity @s[tag=custompack,tag=globalpack] run function lem.base:relog/setup/custompack

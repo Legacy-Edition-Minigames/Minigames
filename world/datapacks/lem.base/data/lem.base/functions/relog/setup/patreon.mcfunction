@@ -30,15 +30,15 @@ execute as b9624765-9bce-4aac-989c-e6b1e3d7c76a run scoreboard players set @s le
 
 ##Reset heart if no longer subscribed
 #Tiny
-execute if entity @s[advancements={lem.base:config/heart/tiny=true}] unless score @s lem.patreon matches 1.. run function lem.base:clientconfig/heart/load/reset
+execute unless score @s lem.patreon matches 1.. run userconfig @s test lem.base:heartcosmetic EQUAL patreon_tiny runFunction lem.base:clientconfig/heart/load/reset
 #Small
-execute if entity @s[advancements={lem.base:config/heart/small=true}] unless score @s lem.patreon matches 2.. run function lem.base:clientconfig/heart/load/reset
+execute unless score @s lem.patreon matches 2.. run userconfig @s test lem.base:heartcosmetic EQUAL patreon_small runFunction lem.base:clientconfig/heart/load/reset
 #Standard
-execute if entity @s[advancements={lem.base:config/heart/standard=true}] unless score @s lem.patreon matches 3.. run function lem.base:clientconfig/heart/load/reset
+execute unless score @s lem.patreon matches 3.. run userconfig @s test lem.base:heartcosmetic EQUAL patreon_standard runFunction lem.base:clientconfig/heart/load/reset
 #Large
-execute if entity @s[advancements={lem.base:config/heart/large=true}] unless score @s lem.patreon matches 4.. run function lem.base:clientconfig/heart/load/reset
+execute unless score @s lem.patreon matches 4.. run userconfig @s test lem.base:heartcosmetic EQUAL patreon_large runFunction lem.base:clientconfig/heart/load/reset
 #Large+
-execute if entity @s[advancements={lem.base:config/heart/largeplus=true}] unless score @s lem.patreon matches 5.. run function lem.base:clientconfig/heart/load/reset
+execute unless score @s lem.patreon matches 5.. run userconfig @s test lem.base:heartcosmetic EQUAL patreon_largeplus runFunction lem.base:clientconfig/heart/load/reset
 
 ##Load mob override
 function lem.base:clientconfig/patreon/load/mob

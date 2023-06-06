@@ -1,8 +1,8 @@
 ##Enable config option
-advancement grant @s only lem.base:config/clearsmallinv
+userconfig @s set lem.base:smallinv_theme transparent
 
 ##Reset score
 scoreboard players reset @s clearsmallinv
 
 ##Display message
-tellraw @s {"translate":"lem.config.clearsmall.disable","color":"red"}
+tellraw @s {"translate":"lem.config.clearsmall.enable","color":"green"}

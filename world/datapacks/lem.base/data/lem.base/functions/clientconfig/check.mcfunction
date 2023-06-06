@@ -8,7 +8,7 @@ function lem.base:clientconfig/heart/check
 function lem.base:clientconfig/hotbarswap/check
 
 ##VT Dark small inventory
-function lem.base:clientconfig/vtdarkinv/check
+function lem.base:clientconfig/darkinv/check
 
 ##Custom Pack
 function lem.base:clientconfig/custompack/check

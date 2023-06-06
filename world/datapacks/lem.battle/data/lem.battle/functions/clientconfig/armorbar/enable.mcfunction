@@ -1,5 +1,5 @@
 ##Enable config option
-advancement revoke @s only lem.battle:config/armorbar
+userconfig @s set lem.battle:armorbar true
 
 ##Reset score
 scoreboard players reset @s armorbar

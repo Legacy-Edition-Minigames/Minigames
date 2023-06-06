@@ -1,8 +1,0 @@
-{
-  "parent": "lem.base:config/heart/root",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
-    }
-  }
-}

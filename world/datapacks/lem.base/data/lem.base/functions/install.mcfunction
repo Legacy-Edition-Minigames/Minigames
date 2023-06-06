@@ -174,7 +174,7 @@ scoreboard objectives add lem.tip dummy
 scoreboard objectives add lem.tiptimer dummy
 
 ##VT Dark mode support toggle
-scoreboard objectives add vtdarkinv trigger
+scoreboard objectives add darkinv trigger
 
 ##Reload resources command
 scoreboard objectives add reloadresources trigger
@@ -213,9 +213,6 @@ scoreboard objectives add guiscale trigger
 
 ##Panscale trigger
 scoreboard objectives add panscale trigger
-
-##Panorama config trigger
-scoreboard objectives add panorama trigger
 
 ##Loadingv Tip refresh timer
 scoreboard objectives add lem.tiprefresh dummy

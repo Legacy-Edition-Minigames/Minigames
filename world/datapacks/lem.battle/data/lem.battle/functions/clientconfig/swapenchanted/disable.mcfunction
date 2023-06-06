@@ -1,5 +1,5 @@
-##Enable config option
-advancement revoke @s only lem.battle:config/swapenchanted
+##Disable config option
+userconfig @s set lem.battle:swapenchanted false
 
 ##Disable feature
 takeeverything ignoreEnchants false @s

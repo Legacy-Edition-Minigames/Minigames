@@ -1,6 +1,6 @@
 ##Vanilla
-execute if entity @s[advancements={lem.base:config/clearsmallinv=false,lem.base:config/vtdarkmode=false}] run function lem.base:game/inventory/small/fill/blank/vanilla
-##vtdarkinv
-execute if entity @s[advancements={lem.base:config/clearsmallinv=false,lem.base:config/vtdarkmode=true}] run function lem.base:game/inventory/small/fill/blank/vtdarkinv
+userconfig @s test lem.base:smallinv_theme EQUAL vanilla runFunction lem.base:game/inventory/small/fill/blank/vanilla
+##darkinv
+userconfig @s test lem.base:smallinv_theme EQUAL dark runFunction lem.base:game/inventory/small/fill/blank/darkinv
 ##Clear
-execute if entity @s[advancements={lem.base:config/clearsmallinv=true}] run function lem.base:game/inventory/small/fill/blank/clear
+userconfig @s test lem.base:smallinv_theme EQUAL transparent runFunction lem.base:game/inventory/small/fill/blank/clear

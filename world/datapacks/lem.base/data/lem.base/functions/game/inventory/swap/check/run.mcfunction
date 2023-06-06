@@ -1,8 +1,8 @@
 ##Move to hotbar
 #No tipped arrows
-execute as @a[tag=ingame,advancements={lem.base:config/nohotbarswap=false,lem.base:config/swaptipped=false}] run function lem.base:game/inventory/swap/check/default
+execute as @a run userconfig @s test lem.base:hotbarswap EQUAL true runCommand userconfig @s test lem.base:swaptipped EQUAL false runFunction lem.base:game/inventory/swap/check/default
 #Tipped arrows
-execute as @a[tag=ingame,advancements={lem.base:config/nohotbarswap=false,lem.base:config/swaptipped=true}] run function lem.base:game/inventory/swap/check/tipped
+execute as @a run userconfig @s test lem.base:hotbarswap EQUAL true runCommand userconfig @s test lem.base:swaptipped EQUAL true runFunction lem.base:game/inventory/swap/check/tipped
 scoreboard players reset @a[tag=ingame] lem.break_fishing
 
 ##Loop

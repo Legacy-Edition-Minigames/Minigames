@@ -1,5 +1,5 @@
 ##Enable config option
-advancement grant @s only lem.battle:config/swapenchanted
+userconfig @s set lem.battle:swapenchanted true
 
 ##Enable feature
 takeeverything ignoreEnchants true @s

@@ -1,5 +1,5 @@
-##Enable config option
-advancement grant @s only lem.battle:config/armorbar
+##Disable config option
+userconfig @s set lem.battle:armorbar false
 
 ##Reset score
 scoreboard players reset @s armorbar
