@@ -18,3 +18,6 @@ function lem.battle:game/inventory/arrowfix/check
 execute if score #Store lem.battle.takeall matches 1 run takeeverything enabled true
 #Disabled
 execute if score #Store lem.battle.takeall matches 0 run takeeverything enabled false
+
+##Display ArmorBar (in the event someone joined during the countdown)
+execute as @a[tag=ingame] if score @s serverutils.haslemclient matches 2 run userconfig @s test lem.battle:armorbar EQUAL true runCommand armorHud @s true

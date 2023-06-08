@@ -6,3 +6,6 @@ execute as @a[tag=ingame,scores={lem.eliminated=1..}] run function lem.base:game
 
 ##Loop this function
 schedule function lem.base:game/player/death/check 1t
+
+##Run functions for addons
+function #lem.base:game/player/death/check

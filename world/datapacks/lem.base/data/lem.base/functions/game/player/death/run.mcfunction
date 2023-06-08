@@ -13,3 +13,6 @@ function lem.base:game/player/death/scores
 
 ##Set heart to empty
 scoreboard players set @s lem.alive 0
+
+##Run functions for addons
+function #lem.base:game/player/death/run
