@@ -6,7 +6,7 @@ function lem.base:relog/setup/lemclienthelper/optionsync/run
 
 ##Display message
 #Discord
-tellraw @s ["",{"translate":"lem.relog.join.discord","color":"#7289DA"},"\n",{"text":"https://discord.gg/5q2zz3EdYf","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://discord.gg/5q2zz3EdYf"},"hoverEvent":{"action":"show_text","contents":[{"translate":"lem.relog.join.discord.hover","color":"blue"},": https://discord.gg/5q2zz3EdYf"]}}]
+tellraw @s ["",{"translate":"lem.relog.join.discord","color":"#7289DA"},"\n",{"text":"https://discord.gg/t52nM7X6nd","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://discord.gg/t52nM7X6nd"},"hoverEvent":{"action":"show_text","contents":[{"translate":"lem.relog.join.discord.hover","color":"blue"},": https://discord.gg/t52nM7X6nd"]}}]
 #Patreon
 tellraw @s ["",{"translate":"lem.relog.join.patreon","color":"gold","with":[{"text":"Patreon","bold":true,"color":"#FF424D"}]},"\n",{"text":"https://lemsite.derpbox.xyz/donate","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://lemsite.derpbox.xyz/donate"},"hoverEvent":{"action":"show_text","contents":[{"text":"https://lemsite.derpbox.xyz/donate","color":"blue"}]}}]
 #Experimental Server
