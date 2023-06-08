@@ -27,6 +27,12 @@ execute as bdcb26c5-4918-46c8-8db6-dfa4f2d12ede run scoreboard players set @s le
 execute as 5e95d4d2-c158-4c21-b05b-b840dbec4071 run scoreboard players set @s lem.patreon 2
 #Jariedo
 execute as b9624765-9bce-4aac-989c-e6b1e3d7c76a run scoreboard players set @s lem.patreon 2
+#PanchoMaule1
+execute as 62c8c43f-e3df-428e-a0c0-ca892ac32781 run scoreboard players set @s lem.patreon 2
+#robinhlb123
+execute as 3207799c-8585-420e-b05d-0489a6708960 run scoreboard players set @s lem.patreon 3
+#Roughshodwizard
+execute as 5aabf661-c9d4-46a6-a2a6-d2b549d65023 run scoreboard players set @s lem.patreon 2
 
 ##Reset heart if no longer subscribed
 #Tiny
