@@ -33,6 +33,8 @@ execute as 62c8c43f-e3df-428e-a0c0-ca892ac32781 run scoreboard players set @s le
 execute as 3207799c-8585-420e-b05d-0489a6708960 run scoreboard players set @s lem.patreon 3
 #Roughshodwizard
 execute as 5aabf661-c9d4-46a6-a2a6-d2b549d65023 run scoreboard players set @s lem.patreon 2
+#HomieSiDjack
+execute as 89da0d81-fc65-42d0-9668-2bd538bd3c26 run scoreboard players set @s lem.patreon 4
 
 ##Reset heart if no longer subscribed
 #Tiny
