@@ -30,6 +30,19 @@
         "customModelData": "lem.menu.ui.text.server.experimental",
         "leftClickAction": "command/ velocityserverswitch battle_experimental"
       },
+      "18-24": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:mgmenu/join/germany_notice"
+      },
+      "25": {
+        "presetID": "lem.menu:button/generic:standard",
+        "leftClickAction": "openUI/ lem.menu:mgmenu/join/germany_notice"
+      },
+      "26": {
+        "presetID": "lem.menu:button/generic:blank",
+        "customModelData": "lem.menu.ui.text.server.germany",
+        "leftClickAction": "openUI/ lem.menu:mgmenu/join/germany_notice"
+      },
       "73-78": {
         "presetID": "lem.menu:button/generic:blank",
         "leftClickSound": "lem.menu:sound.menu.back",
