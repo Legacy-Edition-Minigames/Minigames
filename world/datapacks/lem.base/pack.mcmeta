@@ -2,5 +2,15 @@
    "pack": {
       "pack_format": 12,
       "description": "Stripped down version of the Base for Legacy Edition Minigames"
+   },
+   "filter": {
+      "block": [
+         {
+            "path": "advancements"
+         },
+         {
+            "path": "recipes"
+         }
+      ]
    }
 }
