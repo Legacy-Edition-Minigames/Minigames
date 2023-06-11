@@ -268,7 +268,7 @@ scoreboard objectives add lem.lobbyready dummy
 ##Music Pack ID
 scoreboard objectives add lem.muspack dummy
 
-##Timer to remind people that we need donations to actually survive
+##Timer to remind people that we need money to actually survive
 scoreboard objectives add lem.patreontimer dummy
 
 ##Boolean for marking if the server is in a dangerous spot for funding
