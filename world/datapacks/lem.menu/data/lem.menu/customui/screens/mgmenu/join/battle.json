@@ -45,16 +45,16 @@
       },
       "27-33": {
         "presetID": "lem.menu:button/generic:blank",
-        "leftClickSound": "lem.menu:sound.menu.fail"
+        "leftClickAction": "openUI/ lem.menu:mgmenu/join/germany_notice"
       },
       "34": {
-        "presetID": "lem.menu:button/generic:standard_dark",
-        "leftClickSound": "lem.menu:sound.menu.fail"
+        "presetID": "lem.menu:button/generic:standard",
+        "leftClickAction": "openUI/ lem.menu:mgmenu/join/germany_notice"
       },
       "35": {
         "presetID": "lem.menu:button/generic:blank",
         "customModelData": "lem.menu.ui.text.server.germany",
-        "leftClickSound": "lem.menu:sound.menu.fail"
+        "leftClickAction": "openUI/ lem.menu:mgmenu/join/germany_notice"
       },
       "73-78": {
         "presetID": "lem.menu:button/generic:blank",
