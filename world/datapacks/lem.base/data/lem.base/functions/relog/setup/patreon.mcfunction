@@ -14,7 +14,7 @@ execute as 56acefcd-7ef6-44a5-9268-0517556a6133 run scoreboard players set @s le
 #Swirren
 execute as 42480972-6f26-4ac8-9bc7-578d664b54c1 run scoreboard players set @s lem.patreon 4
 #PixeoGames
-execute as 1d6033d1-cad8-426e-913a-c7ccde64de54 run scoreboard players set @s lem.patreon 2
+execute as 1d6033d1-cad8-426e-913a-c7ccde64de54 run scoreboard players set @s lem.patreon 5
 #Phantazap
 execute as 1f7a5ac1-664b-479d-9e2d-15ed891b080c run scoreboard players set @s lem.patreon 2
 #Icement
