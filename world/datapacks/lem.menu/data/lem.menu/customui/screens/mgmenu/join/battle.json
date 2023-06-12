@@ -19,26 +19,39 @@
       },
       "9-15": {
         "presetID": "lem.menu:button/generic:blank",
-        "leftClickAction": "command/ velocityserverswitch battle_experimental"
+        "leftClickAction": "command/ velocityserverswitch battle_main_alternate"
       },
       "16": {
         "presetID": "lem.menu:button/generic:standard",
-        "leftClickAction": "command/ velocityserverswitch battle_experimental"
+        "leftClickAction": "command/ velocityserverswitch battle_main_alternate"
       },
       "17": {
+        "presetID": "lem.menu:button/generic:blank",
+        "customModelData": "lem.menu.ui.text.server.main-alternate",
+        "leftClickAction": "command/ velocityserverswitch battle_main_alternate"
+      },
+      "18-24": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "command/ velocityserverswitch battle_experimental"
+      },
+      "25": {
+        "presetID": "lem.menu:button/generic:standard",
+        "leftClickAction": "command/ velocityserverswitch battle_experimental"
+      },
+      "26": {
         "presetID": "lem.menu:button/generic:blank",
         "customModelData": "lem.menu.ui.text.server.experimental",
         "leftClickAction": "command/ velocityserverswitch battle_experimental"
       },
-      "18-24": {
+      "27-33": {
         "presetID": "lem.menu:button/generic:blank",
         "leftClickAction": "openUI/ lem.menu:mgmenu/join/germany_notice"
       },
-      "25": {
+      "34": {
         "presetID": "lem.menu:button/generic:standard",
         "leftClickAction": "openUI/ lem.menu:mgmenu/join/germany_notice"
       },
-      "26": {
+      "35": {
         "presetID": "lem.menu:button/generic:blank",
         "customModelData": "lem.menu.ui.text.server.germany",
         "leftClickAction": "openUI/ lem.menu:mgmenu/join/germany_notice"
