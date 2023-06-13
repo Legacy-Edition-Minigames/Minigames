@@ -6,16 +6,16 @@
   "slots": {
       "0-6": {
         "presetID": "lem.menu:button/generic:blank",
-        "leftClickAction": "command/ velocityserverswitch battle_1"
+        "leftClickAction": "command/ velocityserverswitch battle_main"
       },
       "7": {
         "presetID": "lem.menu:button/generic:standard",
-        "leftClickAction": "command/ velocityserverswitch battle_1"
+        "leftClickAction": "command/ velocityserverswitch battle_main"
       },
       "8": {
         "presetID": "lem.menu:button/generic:blank",
         "customModelData": "lem.menu.ui.text.server.main",
-        "leftClickAction": "command/ velocityserverswitch battle_1"
+        "leftClickAction": "command/ velocityserverswitch battle_main"
       },
       "9-15": {
         "presetID": "lem.menu:button/generic:blank",
