@@ -41,6 +41,10 @@ execute as fc28025b-87cf-4919-8c30-706949ea7a26 run scoreboard players set @s le
 execute as d2a05c18-3caf-4cf0-b9d8-06abc150e7b3 run scoreboard players set @s lem.patreon 1
 #1v1I
 execute as 53867107-6136-4a5c-a772-47c84725808d run scoreboard players set @s lem.patreon 1
+#Reaper_WxD
+execute as 1e90f886-c425-4231-a4ac-1aae62f836fc run scoreboard players set @s lem.patreon 1
+#hassanwithadot
+execute as baa5af53-9b81-40ce-94e1-de2c2f5b9dae run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
