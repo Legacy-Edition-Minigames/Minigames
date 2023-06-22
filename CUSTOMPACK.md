@@ -4,7 +4,7 @@ This should only be used if you have issues downloading the pack or want to use 
 
 ### Installation
 
-1. Go to [Minigame-Resources Releases](https://github.com/Legacy-Edition-Minigames/Minigame-Resources/releases/latest/download/all-music.zip)
+1. Go to [Minigame-Resources Releases](https://github.com/Legacy-Edition-Minigames/Minigame-Resources/releases/latest)
 
 2. Download the `all-music.zip` file for your respective release type
 
