@@ -55,50 +55,6 @@ execute as @s[scores={lem.gamecfg=40}] run function lem.battle:menu/load/host/ch
 ##Item set customization
 execute as @s[scores={lem.gamecfg=48..59}] run function lem.battle:menu/load/host/chest/randomconfig/run
 
-##Load Presets if saved
-#Preset 1
-execute if entity @s[advancements={lem.battle:menu/host/presets/1/saved=true}] as @s[scores={lem.gamecfg=93}] run function lem.battle:menu/load/host/preset/load/1
-#Preset 2
-execute if entity @s[advancements={lem.battle:menu/host/presets/2/saved=true}] as @s[scores={lem.gamecfg=94}] run function lem.battle:menu/load/host/preset/load/2
-#Preset 3
-execute if entity @s[advancements={lem.battle:menu/host/presets/3/saved=true}] as @s[scores={lem.gamecfg=95}] run function lem.battle:menu/load/host/preset/load/3
-#Preset 4
-execute if entity @s[advancements={lem.battle:menu/host/presets/4/saved=true}] as @s[scores={lem.gamecfg=96}] run function lem.battle:menu/load/host/preset/load/4
-#Preset 5
-execute if entity @s[advancements={lem.battle:menu/host/presets/5/saved=true}] as @s[scores={lem.gamecfg=97}] run function lem.battle:menu/load/host/preset/load/5
-#Preset 6
-execute if entity @s[advancements={lem.battle:menu/host/presets/6/saved=true}] as @s[scores={lem.gamecfg=98}] run function lem.battle:menu/load/host/preset/load/6
-#Preset 7
-execute if entity @s[advancements={lem.battle:menu/host/presets/7/saved=true}] as @s[scores={lem.gamecfg=99}] run function lem.battle:menu/load/host/preset/load/7
-#Preset 8
-execute if entity @s[advancements={lem.battle:menu/host/presets/8/saved=true}] as @s[scores={lem.gamecfg=100}] run function lem.battle:menu/load/host/preset/load/8
-#Preset 9
-execute if entity @s[advancements={lem.battle:menu/host/presets/9/saved=true}] as @s[scores={lem.gamecfg=101}] run function lem.battle:menu/load/host/preset/load/9
-#Preset 10
-execute if entity @s[advancements={lem.battle:menu/host/presets/10/saved=true}] as @s[scores={lem.gamecfg=102}] run function lem.battle:menu/load/host/preset/load/10
-
-##Don't Load Presets if not saved
-#Preset 1
-execute if entity @s[advancements={lem.battle:menu/host/presets/1/saved=false}] as @s[scores={lem.gamecfg=93}] run function lem.base:menu/load/host/preset/load/notsaved
-#Preset 2
-execute if entity @s[advancements={lem.battle:menu/host/presets/2/saved=false}] as @s[scores={lem.gamecfg=94}] run function lem.base:menu/load/host/preset/load/notsaved
-#Preset 3
-execute if entity @s[advancements={lem.battle:menu/host/presets/3/saved=false}] as @s[scores={lem.gamecfg=95}] run function lem.base:menu/load/host/preset/load/notsaved
-#Preset 4
-execute if entity @s[advancements={lem.battle:menu/host/presets/4/saved=false}] as @s[scores={lem.gamecfg=96}] run function lem.base:menu/load/host/preset/load/notsaved
-#Preset 5
-execute if entity @s[advancements={lem.battle:menu/host/presets/5/saved=false}] as @s[scores={lem.gamecfg=97}] run function lem.base:menu/load/host/preset/load/notsaved
-#Preset 6
-execute if entity @s[advancements={lem.battle:menu/host/presets/6/saved=false}] as @s[scores={lem.gamecfg=98}] run function lem.base:menu/load/host/preset/load/notsaved
-#Preset 7
-execute if entity @s[advancements={lem.battle:menu/host/presets/7/saved=false}] as @s[scores={lem.gamecfg=99}] run function lem.base:menu/load/host/preset/load/notsaved
-#Preset 8
-execute if entity @s[advancements={lem.battle:menu/host/presets/8/saved=false}] as @s[scores={lem.gamecfg=100}] run function lem.base:menu/load/host/preset/load/notsaved
-#Preset 9
-execute if entity @s[advancements={lem.battle:menu/host/presets/9/saved=false}] as @s[scores={lem.gamecfg=101}] run function lem.base:menu/load/host/preset/load/notsaved
-#Preset 10
-execute if entity @s[advancements={lem.battle:menu/host/presets/10/saved=false}] as @s[scores={lem.gamecfg=102}] run function lem.base:menu/load/host/preset/load/notsaved
-
 ##Take everything
 #Enable
 execute as @s[scores={lem.gamecfg=120}] run function lem.battle:menu/load/host/takeeverything/enable

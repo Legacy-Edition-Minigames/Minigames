@@ -86,6 +86,28 @@ execute as @s[scores={lem.gamecfg=42}] run function lem.base:menu/load/host/time
 ##Set time limit to long
 execute as @s[scores={lem.gamecfg=43}] run function lem.base:menu/load/host/timelimit/setlong
 
+##Load Presets if saved
+#Preset 1
+execute as @s[scores={lem.gamecfg=93}] run function lem.base:menu/load/host/preset/load/1
+#Preset 2
+execute as @s[scores={lem.gamecfg=94}] run function lem.base:menu/load/host/preset/load/2
+#Preset 3
+execute as @s[scores={lem.gamecfg=95}] run function lem.base:menu/load/host/preset/load/3
+#Preset 4
+execute as @s[scores={lem.gamecfg=96}] run function lem.base:menu/load/host/preset/load/4
+#Preset 5
+execute as @s[scores={lem.gamecfg=97}] run function lem.base:menu/load/host/preset/load/5
+#Preset 6
+execute as @s[scores={lem.gamecfg=98}] run function lem.base:menu/load/host/preset/load/6
+#Preset 7
+execute as @s[scores={lem.gamecfg=99}] run function lem.base:menu/load/host/preset/load/7
+#Preset 8
+execute as @s[scores={lem.gamecfg=100}] run function lem.base:menu/load/host/preset/load/8
+#Preset 9
+execute as @s[scores={lem.gamecfg=101}] run function lem.base:menu/load/host/preset/load/9
+#Preset 10
+execute as @s[scores={lem.gamecfg=102}] run function lem.base:menu/load/host/preset/load/10
+
 ##Transfer host
 execute as @s[scores={lem.gamecfg=103..119}] run function lem.base:menu/configure/swaphost/check
 

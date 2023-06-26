@@ -283,6 +283,9 @@ scoreboard objectives add safemusic trigger
 ##Variable for if the server is experimental or not
 scoreboard objectives add lem.experimentalserver dummy
 
+##Current preset to interact with
+scoreboard objectives add lem.preset dummy
+
 ##For addons to disable the built-in UI
 #Game
 scoreboard objectives add lem.ui.game.override dummy
