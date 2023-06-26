@@ -1,8 +1,14 @@
-##Enable config option
-advancement revoke @s only lem.base:config/custompack
+##Disable CustomPack
+userconfig @s set lem.base:custompack false
 
-##Enable per-map textures
-advancement revoke @s only lem.base:config/globalpack
+##Disable per-map textures
+userconfig @s set lem.base:globalpack false
+
+##Sync with backend
+userconfig @s sync
+
+##Reload config tags
+function lem.base:config/load
 
 ##Reset score
 scoreboard players reset @s maptextures

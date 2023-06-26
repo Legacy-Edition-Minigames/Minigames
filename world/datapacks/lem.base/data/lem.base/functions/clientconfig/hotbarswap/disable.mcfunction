@@ -1,5 +1,8 @@
-##Enable config option
-advancement grant @s only lem.base:config/nohotbarswap
+##Disable config option
+userconfig @s set lem.base:hotbarswap false
+
+##Sync with backend
+userconfig @s sync
 
 ##Reset score
 scoreboard players reset @s hotbarswap

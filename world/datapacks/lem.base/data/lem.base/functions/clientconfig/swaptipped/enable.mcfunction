@@ -1,5 +1,8 @@
 ##Enable config option
-advancement revoke @s only lem.base:config/swaptipped
+userconfig @s set lem.base:swaptipped true
+
+##Sync with backend
+userconfig @s sync
 
 ##Reset scores
 function lem.base:game/inventory/swap/scorereset

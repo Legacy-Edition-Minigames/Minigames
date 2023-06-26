@@ -8,4 +8,4 @@ execute if score #Store lem.gamestatus matches 4 run function lem.battle:game/hu
 function lem.battle:game/combat/check
 
 ##Load swapenchanted config
-execute if entity @s[advancements={lem.base:config/swapenchanted=true}] run takeeverything ignoreEnchants true @s
+userconfig @s test lem.battle:swapenchanted EQUAL true runCommand takeeverything ignoreEnchants true @s

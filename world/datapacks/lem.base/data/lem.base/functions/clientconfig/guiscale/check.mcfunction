@@ -1,6 +1,3 @@
-##Set default if not set
-execute as @a[advancements={lem.base:config/guiscale/default_set=false}] run function lem.base:clientconfig/guiscale/default
-
 ##Open Menu
 execute as @a[scores={guiscale=1}] run function lem.base:clientconfig/guiscale/menu
 

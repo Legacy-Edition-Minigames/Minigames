@@ -1,5 +1,11 @@
-##Enable config option
-advancement revoke @s only lem.base:config/globalpack
+##Disable config option
+userconfig @s set lem.base:globalpack false
+
+##Sync with backend
+userconfig @s sync
+
+##Reload config tags
+function lem.base:config/load
 
 ##Reset score
 scoreboard players reset @s maptextures

@@ -1,5 +1,8 @@
 ##Enable config option
-advancement grant @s only lem.base:config/safemusic
+userconfig @s set lem.base:safemusic true
+
+##Sync with backend
+userconfig @s sync
 
 ##Reset score
 scoreboard players reset @s safemusic

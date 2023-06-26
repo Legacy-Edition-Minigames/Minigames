@@ -1,11 +1,8 @@
-##Reset config
-advancement revoke @s through lem.base:config/heart/root
-
-##Give root advancement
-advancement grant @s only lem.base:config/heart/root
-
 ##Give heart
-advancement grant @s only lem.base:config/heart/default
+userconfig @s set lem.base:heartcosmetic default
+
+##Sync with backend
+userconfig @s sync
 
 ##Load heart
 setSuffixFont alive "lem.base:tablist/heart/minecraft/default" @s

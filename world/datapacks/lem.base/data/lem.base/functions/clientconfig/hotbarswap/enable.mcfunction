@@ -1,5 +1,8 @@
 ##Enable config option
-advancement revoke @s only lem.base:config/nohotbarswap
+userconfig @s set lem.base:hotbarswap true
+
+##Sync with backend
+userconfig @s sync
 
 ##Reset scores
 function lem.base:game/inventory/swap/scorereset

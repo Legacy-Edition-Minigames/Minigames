@@ -1,5 +1,11 @@
 ##Enable config option
-advancement revoke @s only lem.battle:config/armorbar
+userconfig @s set lem.battle:armorbar true
+
+##Sync with backend
+userconfig @s sync
+
+##Display ArmorBar
+execute if score #Store lem.gamestatus matches 3..4 if score @s serverutils.haslemclient matches 2 run armorHud @s true
 
 ##Reset score
 scoreboard players reset @s armorbar

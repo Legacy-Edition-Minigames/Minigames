@@ -1,8 +1,8 @@
-##Toggle optifine pack
+##Toggle clear small inventory pack
 #Enable
-execute as @a[scores={clearsmallinv=1..},advancements={lem.base:config/clearsmallinv=false}] run function lem.base:clientconfig/clearsmall/enable
+execute as @a[scores={clearsmallinv=1..}] run userconfig @s test lem.base:smallinv_theme NOT_EQUAL transparent runFunction lem.base:clientconfig/clearsmall/enable
 #Disable
-execute as @a[scores={clearsmallinv=1..},advancements={lem.base:config/clearsmallinv=true}] run function lem.base:clientconfig/clearsmall/disable
+execute as @a[scores={clearsmallinv=1..}] run userconfig @s test lem.base:smallinv_theme EQUAL transparent runFunction lem.base:clientconfig/clearsmall/disable
 
 ##Enable toggle
 scoreboard players enable @a clearsmallinv
