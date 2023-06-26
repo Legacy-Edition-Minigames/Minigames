@@ -1,6 +1,9 @@
 ##Enable config option
 userconfig @s set lem.base:globalpack true
 
+##Sync with backend
+userconfig @s sync
+
 ##Reload config tags
 function lem.base:config/load
 

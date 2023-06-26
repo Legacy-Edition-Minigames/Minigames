@@ -1,6 +1,9 @@
 ##Disable config option
 userconfig @s set lem.battle:swapenchanted false
 
+##Sync with backend
+userconfig @s sync
+
 ##Disable feature
 takeeverything ignoreEnchants false @s
 

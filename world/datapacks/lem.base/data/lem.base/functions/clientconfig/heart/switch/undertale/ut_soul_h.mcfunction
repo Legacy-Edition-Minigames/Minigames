@@ -1,6 +1,9 @@
 ##Give heart
 userconfig @s set lem.base:heartcosmetic undertale_ut_soul_h
 
+##Sync with backend
+userconfig @s sync
+
 ##Load heart
 setSuffixFont alive "lem.base:tablist/heart/undertale/ut_soul_h" @s
 

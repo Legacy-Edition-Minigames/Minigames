@@ -40,3 +40,6 @@ userconfig @s test lem.base:heartcosmetic EQUAL _NOTHING_ runCommand userconfig 
 
 ##Run functions for addons
 function #lem.base:config/defaults
+
+##Sync with backend
+userconfig @s sync

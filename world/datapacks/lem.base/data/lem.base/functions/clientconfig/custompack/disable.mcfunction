@@ -4,6 +4,9 @@ userconfig @s set lem.base:custompack false
 ##Disable per-map textures
 userconfig @s set lem.base:globalpack false
 
+##Sync with backend
+userconfig @s sync
+
 ##Reload config tags
 function lem.base:config/load
 
