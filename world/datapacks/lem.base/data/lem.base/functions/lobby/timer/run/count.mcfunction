@@ -42,7 +42,7 @@ bossbar set minecraft:globalinfo16 name {"translate":"lem.lobby.start.timer","wi
 execute if score #Store lem.timer matches 0 run function lem.base:mapdecider/run
 
 ##Start game if everyone is ready
-execute unless entity @a[tag=ingame,tag=notready] if score #Store lem.plist matches 2.. run function lem.base:mapdecider/run
+execute unless score #Store lem.gamestatus matches 3 unless entity @a[tag=ingame,tag=notready] if score #Store lem.plist matches 2.. run function lem.base:mapdecider/run
 
 ##Play Sound
 function lem.base:lobby/timer/run/sound
