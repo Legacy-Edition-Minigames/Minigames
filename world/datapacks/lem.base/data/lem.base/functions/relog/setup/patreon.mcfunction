@@ -45,6 +45,12 @@ execute as 53867107-6136-4a5c-a772-47c84725808d run scoreboard players set @s le
 execute as 1e90f886-c425-4231-a4ac-1aae62f836fc run scoreboard players set @s lem.patreon 1
 #hassanwithadot
 execute as baa5af53-9b81-40ce-94e1-de2c2f5b9dae run scoreboard players set @s lem.patreon 1
+#AnOctoling
+execute as ed63e1a2-a11d-4802-9d5e-3e7ff9cfbdea run scoreboard players set @s lem.patreon 1
+#Cosmobro_
+execute as a478b4d5-bfe9-41ae-92a5-18dfc3fe88f5 run scoreboard players set @s lem.patreon 1
+#Henderson_GG
+execute as c5bf0460-9ae5-4648-bb18-be6a7dfba700 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
