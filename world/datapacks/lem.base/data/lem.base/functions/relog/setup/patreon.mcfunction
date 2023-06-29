@@ -51,6 +51,8 @@ execute as ed63e1a2-a11d-4802-9d5e-3e7ff9cfbdea run scoreboard players set @s le
 execute as a478b4d5-bfe9-41ae-92a5-18dfc3fe88f5 run scoreboard players set @s lem.patreon 1
 #Henderson_GG
 execute as c5bf0460-9ae5-4648-bb18-be6a7dfba700 run scoreboard players set @s lem.patreon 1
+#bemwy
+execute as 047301fb-b78b-451a-a8fb-162318e3e056 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
