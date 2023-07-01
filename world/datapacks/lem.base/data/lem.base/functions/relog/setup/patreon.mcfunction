@@ -53,6 +53,8 @@ execute as a478b4d5-bfe9-41ae-92a5-18dfc3fe88f5 run scoreboard players set @s le
 execute as c5bf0460-9ae5-4648-bb18-be6a7dfba700 run scoreboard players set @s lem.patreon 1
 #bemwy
 execute as 047301fb-b78b-451a-a8fb-162318e3e056 run scoreboard players set @s lem.patreon 1
+#Uliceau
+execute as e7d9f455-73a9-4531-9f3e-3127bdc60101 run scoreboard players set @s lem.patreon 3
 
 ##Reset heart if no longer subscribed
 #Tiny
