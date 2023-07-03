@@ -55,6 +55,14 @@ execute as c5bf0460-9ae5-4648-bb18-be6a7dfba700 run scoreboard players set @s le
 execute as 047301fb-b78b-451a-a8fb-162318e3e056 run scoreboard players set @s lem.patreon 1
 #Uliceau
 execute as e7d9f455-73a9-4531-9f3e-3127bdc60101 run scoreboard players set @s lem.patreon 3
+#twovb
+execute as 345e4f78-0cda-4619-8df5-91435836a7ff run scoreboard players set @s lem.patreon 1
+#Blitzs2465
+execute as 1b11e685-0792-4000-a667-2403cef2370c run scoreboard players set @s lem.patreon 1
+#MMMStar
+execute as e549cb35-62b7-4efd-b88e-58f2830eced8 run scoreboard players set @s lem.patreon 1
+#Zelckip
+execute as 4133ad6d-1a53-49b7-8b16-c96430dde0ca run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
