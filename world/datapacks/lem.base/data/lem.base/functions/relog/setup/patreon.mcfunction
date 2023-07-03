@@ -63,6 +63,8 @@ execute as 1b11e685-0792-4000-a667-2403cef2370c run scoreboard players set @s le
 execute as e549cb35-62b7-4efd-b88e-58f2830eced8 run scoreboard players set @s lem.patreon 1
 #Zelckip
 execute as 4133ad6d-1a53-49b7-8b16-c96430dde0ca run scoreboard players set @s lem.patreon 1
+#neocraft1293
+execute as b4213438-553d-4d7f-8b49-fa5a2543aa0d run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
