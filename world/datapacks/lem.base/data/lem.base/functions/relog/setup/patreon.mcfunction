@@ -34,7 +34,7 @@ execute as 3207799c-8585-420e-b05d-0489a6708960 run scoreboard players set @s le
 #Roughshodwizard
 execute as 5aabf661-c9d4-46a6-a2a6-d2b549d65023 run scoreboard players set @s lem.patreon 2
 #HomieSiDjack
-execute as 89da0d81-fc65-42d0-9668-2bd538bd3c26 run scoreboard players set @s lem.patreon 4
+execute as 89da0d81-fc65-42d0-9668-2bd538bd3c26 run scoreboard players set @s lem.patreon 5
 #MrCatmanjoe
 execute as fc28025b-87cf-4919-8c30-706949ea7a26 run scoreboard players set @s lem.patreon 1
 #theshortasianguy
