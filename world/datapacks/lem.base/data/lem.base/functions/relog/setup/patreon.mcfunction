@@ -69,6 +69,8 @@ execute as b4213438-553d-4d7f-8b49-fa5a2543aa0d run scoreboard players set @s le
 execute as 84d19bef-dcff-447c-975d-f34a0bf8b51f run scoreboard players set @s lem.patreon 1
 #Blizzard325
 execute as 6d892c9f-2cf4-4888-b122-3d3c94dd419c run scoreboard players set @s lem.patreon 1
+#Timboob
+execute as bc1d9d46-937d-4d53-8b26-725c91bb0141 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
