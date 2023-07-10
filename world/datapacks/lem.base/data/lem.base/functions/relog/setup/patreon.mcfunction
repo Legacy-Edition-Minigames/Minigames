@@ -19,20 +19,14 @@ execute as 1d6033d1-cad8-426e-913a-c7ccde64de54 run scoreboard players set @s le
 execute as 1f7a5ac1-664b-479d-9e2d-15ed891b080c run scoreboard players set @s lem.patreon 2
 #Icement
 execute as 02e40f20-686a-4e40-8dda-84d3a2cadc3f run scoreboard players set @s lem.patreon 2
-#KristalYAY
-execute as e45239f4-2c71-4d0a-83a9-b616f91a5396 run scoreboard players set @s lem.patreon 2
 #Red_Boy547
 execute as bdcb26c5-4918-46c8-8db6-dfa4f2d12ede run scoreboard players set @s lem.patreon 2
 #Elitegamer21937
 execute as 5e95d4d2-c158-4c21-b05b-b840dbec4071 run scoreboard players set @s lem.patreon 2
-#Jariedo
-execute as b9624765-9bce-4aac-989c-e6b1e3d7c76a run scoreboard players set @s lem.patreon 2
 #PanchoMaule1
 execute as 62c8c43f-e3df-428e-a0c0-ca892ac32781 run scoreboard players set @s lem.patreon 2
 #robinhlb123
 execute as 3207799c-8585-420e-b05d-0489a6708960 run scoreboard players set @s lem.patreon 3
-#Roughshodwizard
-execute as 5aabf661-c9d4-46a6-a2a6-d2b549d65023 run scoreboard players set @s lem.patreon 2
 #HomieSiDjack
 execute as 89da0d81-fc65-42d0-9668-2bd538bd3c26 run scoreboard players set @s lem.patreon 5
 #MrCatmanjoe
