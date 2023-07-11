@@ -69,6 +69,8 @@ execute as bc1d9d46-937d-4d53-8b26-725c91bb0141 run scoreboard players set @s le
 execute as 7f1ca084-fbf7-4f30-84f4-1102bd703706 run scoreboard players set @s lem.patreon 1
 #ThinButterToast
 execute as 8bb8bc58-30f0-4d62-bca6-b1284ecd6b49 run scoreboard players set @s lem.patreon 1
+#Nulludo
+execute as 76d21080-19c3-419c-ab6e-a99d930b6b47 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
