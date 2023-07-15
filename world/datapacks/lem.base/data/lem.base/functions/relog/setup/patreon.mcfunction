@@ -71,6 +71,8 @@ execute as 8bb8bc58-30f0-4d62-bca6-b1284ecd6b49 run scoreboard players set @s le
 execute as 76d21080-19c3-419c-ab6e-a99d930b6b47 run scoreboard players set @s lem.patreon 1
 #NotCiross
 execute as 545da113-18da-400a-9200-4a24c0eea5c9 run scoreboard players set @s lem.patreon 1
+#Watherfoxx
+execute as d39a7fcc-5039-4a66-9cc9-d0006f5af60b run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
