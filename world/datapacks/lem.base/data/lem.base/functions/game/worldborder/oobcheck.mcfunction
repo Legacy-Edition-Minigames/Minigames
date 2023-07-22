@@ -7,4 +7,4 @@ execute as @s if score @s lem.yvalue > @e[tag=Border+,limit=1] lem.yvalue run ta
 
 ##TP back in bounds
 #Positive
-execute as @s[tag=ingame,tag=player,tag=!Victor,tag=!inbounds-y-] unless score @s lem.respawndelay matches 0.. at @s run health @s remove 4 minecraft:out_of_world
+execute as @s[tag=ingame,tag=player,tag=!Victor,tag=!inbounds-y-] unless score @s lem.respawndelay matches 0.. at @s run damage @s 4 minecraft:out_of_world
