@@ -77,6 +77,10 @@ execute as d78fb946-7f86-4733-a4dd-431068e252b5 run scoreboard players set @s le
 execute as 8c574bb1-215b-47f5-8094-16e64d3ee2cb run scoreboard players set @s lem.patreon 1
 #Avsalom
 execute as 065debe1-24c0-485e-880a-393973c64b5e run scoreboard players set @s lem.patreon 1
+#ItsTakend
+execute as fc7cd6d2-18e9-44f6-b42d-9bfff92e7902 run scoreboard players set @s lem.patreon 1
+#1ArianaGhandi
+execute as a7e7e0de-4c21-473a-b236-16d4e121ee86 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
