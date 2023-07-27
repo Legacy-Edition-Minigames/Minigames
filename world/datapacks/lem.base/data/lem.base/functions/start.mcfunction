@@ -31,5 +31,8 @@ scoreboard players set #Store lem.globalinfo 1
 ##Set TNT to ignite on place and prevent blocks from being destroyed
 tntlighter enable true
 
+##Send players to the overworld on every join
+playerJoinLocation enable true
+
 ##Run functions for addons
 function #lem.base:start
