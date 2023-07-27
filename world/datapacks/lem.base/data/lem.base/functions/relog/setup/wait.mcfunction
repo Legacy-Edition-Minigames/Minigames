@@ -93,8 +93,5 @@ setSuffixFont alive "lem.base:tablist/heart/empty" @s
 ##Set resource load delay (In ticks!!)
 scoreboard players set @s lem.timer 100
 
-##Run timer if custom pack is not enabled
-execute unless entity @s[tag=custompack,tag=globalpack] run function lem.base:relog/timer/check
-
-##Join if custom pack is enabled
-execute if entity @s[tag=custompack,tag=globalpack] run function lem.base:relog/setup/custompack
+##Run client check and resource loader
+function lem.base:relog/timer/check
