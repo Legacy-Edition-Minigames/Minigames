@@ -233,7 +233,7 @@ scoreboard players set .-1 lem.battle.visfix -1
 
 ##Disable the built-in UI
 #Game
-scoreboard players set #Store lem.ui.game.override 1
+scoreboard players set #Store lem.ui.game.java.override 1
 #Banner: Win
 scoreboard players set #Store lem.ui.banner.win.override 1
 
