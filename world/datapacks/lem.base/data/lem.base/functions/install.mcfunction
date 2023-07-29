@@ -174,7 +174,7 @@ scoreboard objectives add lem.tip dummy
 scoreboard objectives add lem.tiptimer dummy
 
 ##VT Dark mode support toggle
-scoreboard objectives add vtdarkinv trigger
+scoreboard objectives add darkinv trigger
 
 ##Reload resources command
 scoreboard objectives add reloadresources trigger
@@ -213,9 +213,6 @@ scoreboard objectives add guiscale trigger
 
 ##Panscale trigger
 scoreboard objectives add panscale trigger
-
-##Panorama config trigger
-scoreboard objectives add panorama trigger
 
 ##Loadingv Tip refresh timer
 scoreboard objectives add lem.tiprefresh dummy
@@ -286,9 +283,13 @@ scoreboard objectives add safemusic trigger
 ##Variable for if the server is experimental or not
 scoreboard objectives add lem.experimentalserver dummy
 
+##Current preset to interact with
+scoreboard objectives add lem.preset dummy
+
 ##For addons to disable the built-in UI
 #Game
-scoreboard objectives add lem.ui.game.override dummy
+scoreboard objectives add lem.ui.game.java.override dummy
+scoreboard objectives add lem.ui.game.bedrock.override dummy
 #Loading: Icon
 scoreboard objectives add lem.ui.loading.icon.override dummy
 #Loading: Animation
@@ -379,7 +380,8 @@ scoreboard players set .2 lem.gametimer 2
 
 ##Enable the built-in UI
 #Game
-scoreboard players set #Store lem.ui.game.override 0
+scoreboard players set #Store lem.ui.game.java.override 0
+scoreboard players set #Store lem.ui.game.bedrock.override 0
 #Loading: Icon
 scoreboard players set #Store lem.ui.loading.icon.override 0
 #Loading: Animation

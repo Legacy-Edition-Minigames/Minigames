@@ -4,15 +4,11 @@ function lem.base:relog/timer/animation
 ##Count down
 scoreboard players remove @a[tag=relogtimer,scores={lem.timer=1..}] lem.timer 1
 
-##Load resource pack
-execute as @a[tag=relogtimer,scores={lem.timer=0},tag=!loadingresources] run function lem.base:relog/timer/loadresource
+##Wait for client to be checked
+execute as @a[tag=relogtimer,tag=!clientchecked] run function lem.base:relog/timer/client/run
 
-##Send to game once timer ends
-execute as @a[tag=relogtimer,advancements={lem.base:resource/finished=true}] run function lem.base:relog/setup/global
-
-##Display text
-title @a[tag=relogtimer] title "Installing resources..."
-title @a[tag=relogtimer] subtitle "Type /trigger reloadresources to try again."
+##Load resources once client is checked
+execute as @a[tag=relogtimer,tag=clientchecked] run function lem.base:relog/timer/resource
 
 ##Give Effects
 effect give @a[tag=relogtimer] invisibility 2 0 true

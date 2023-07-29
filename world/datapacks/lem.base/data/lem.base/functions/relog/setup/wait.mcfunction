@@ -26,6 +26,8 @@ tag @s remove backrooms
 tag @s remove forge
 tag @s remove optifine
 tag @s remove ingame
+tag @s remove bedrock
+tag @s remove clientchecked
 tag @s remove heart-architect
 tag @s remove heart-mario
 tag @s remove heart-tris1357
@@ -50,6 +52,12 @@ team join loading @s
 scoreboard players reset @s
 #Get serverutils scores
 scoreboardplayerinfo setAllScores
+
+##Load default config
+function lem.base:config/defaults
+
+##Load config tags
+function lem.base:config/load
 
 ##Load serverutils/lemclienthelper settings
 #Detect optifine
@@ -82,8 +90,5 @@ setSuffixFont alive "lem.base:tablist/heart/empty" @s
 ##Set resource load delay (In ticks!!)
 scoreboard players set @s lem.timer 100
 
-##Run timer if custom pack is not enabled
-execute unless entity @s[advancements={lem.base:config/custompack=true,lem.base:config/globalpack=true}] run function lem.base:relog/timer/check
-
-##Join if custom pack is enabled
-execute if entity @s[advancements={lem.base:config/custompack=true,lem.base:config/globalpack=true}] run function lem.base:relog/setup/custompack
+##Run client check and resource loader
+function lem.base:relog/timer/check
