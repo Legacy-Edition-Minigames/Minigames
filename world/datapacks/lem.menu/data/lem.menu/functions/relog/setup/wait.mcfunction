@@ -1,7 +1,3 @@
-##Remove tags
-tag @s remove panday
-tag @s remove pannight
-
 ##Disable menu
 tag @s add nomenu
 

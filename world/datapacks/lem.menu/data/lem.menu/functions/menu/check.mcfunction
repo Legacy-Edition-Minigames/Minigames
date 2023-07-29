@@ -1,6 +1,3 @@
-##Render panorama
-function lem.menu:menu/panorama/check
-
 ##Teleport
 execute as @a[tag=!nomenu] unless entity @s[y_rotation=0] run tp @s 0 4 0 0 0
 

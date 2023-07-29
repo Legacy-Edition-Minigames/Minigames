@@ -1,8 +1,8 @@
-##Get time
-function lem.menu:menu/config/panorama/texture/time/get
-
 ##Set time
 #Day
-execute if entity @s[tag=pannight] run function lem.menu:menu/config/panorama/texture/time/day
+userconfig @s test lem.base:panorama_night EQUAL true runFunction lem.menu:menu/config/panorama/texture/time/day
 #Night
-execute if entity @s[tag=panday] run function lem.menu:menu/config/panorama/texture/time/night
+execute unless entity @s[tag=configupdated] run userconfig @s test lem.base:panorama_night EQUAL false runFunction lem.menu:menu/config/panorama/texture/time/night
+
+##Remove tag
+tag @s remove configupdated

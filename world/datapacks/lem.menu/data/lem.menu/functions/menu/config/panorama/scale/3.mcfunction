@@ -1,8 +1,5 @@
-##Reset config
-function lem.menu:menu/config/panorama/scale/global1
+##Set config
+userconfig @s set lem.base:panscale 3
 
-##Set scale
-advancement grant @s only lem.base:config/panscale/3
-
-##Reload bossbars
-function lem.menu:menu/config/panorama/scale/global2
+##Run global functions
+function lem.menu:menu/config/panorama/scale/global
