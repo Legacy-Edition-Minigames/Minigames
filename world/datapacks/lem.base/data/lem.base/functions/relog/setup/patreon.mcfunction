@@ -81,6 +81,8 @@ execute as 065debe1-24c0-485e-880a-393973c64b5e run scoreboard players set @s le
 execute as fc7cd6d2-18e9-44f6-b42d-9bfff92e7902 run scoreboard players set @s lem.patreon 1
 #1ArianaGhandi
 execute as a7e7e0de-4c21-473a-b236-16d4e121ee86 run scoreboard players set @s lem.patreon 1
+#Saeraphinx
+execute as 558becd6-3fca-4e64-a6d6-3d6b3b65ef4a run scoreboard players set @s lem.patreon 3
 
 ##Reset heart if no longer subscribed
 #Tiny
