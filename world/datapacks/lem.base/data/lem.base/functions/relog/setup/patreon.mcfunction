@@ -83,6 +83,8 @@ execute as fc7cd6d2-18e9-44f6-b42d-9bfff92e7902 run scoreboard players set @s le
 execute as a7e7e0de-4c21-473a-b236-16d4e121ee86 run scoreboard players set @s lem.patreon 1
 #Saeraphinx
 execute as 558becd6-3fca-4e64-a6d6-3d6b3b65ef4a run scoreboard players set @s lem.patreon 3
+#M3ric_XD
+execute as e8b5d15d-32d5-4171-82eb-452cf5e7e21d run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
