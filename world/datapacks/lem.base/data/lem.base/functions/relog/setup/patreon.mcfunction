@@ -85,6 +85,12 @@ execute as a7e7e0de-4c21-473a-b236-16d4e121ee86 run scoreboard players set @s le
 execute as 558becd6-3fca-4e64-a6d6-3d6b3b65ef4a run scoreboard players set @s lem.patreon 3
 #M3ric_XD
 execute as e8b5d15d-32d5-4171-82eb-452cf5e7e21d run scoreboard players set @s lem.patreon 1
+#Galabeam
+execute as 2f279f13-32e6-4f72-b13f-fb05d641189a run scoreboard players set @s lem.patreon 3
+#Trashypandius
+execute as 29cb71f8-6677-4c3e-af5e-5c387b52b258 run scoreboard players set @s lem.patreon 1
+#Unipotatoo
+execute as 64264d94-7e54-4836-a4c3-1e9004800360 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
