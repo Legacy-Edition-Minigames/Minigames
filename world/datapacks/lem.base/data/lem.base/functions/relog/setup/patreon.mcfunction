@@ -91,6 +91,8 @@ execute as 2f279f13-32e6-4f72-b13f-fb05d641189a run scoreboard players set @s le
 execute as 29cb71f8-6677-4c3e-af5e-5c387b52b258 run scoreboard players set @s lem.patreon 1
 #Unipotatoo
 execute as 64264d94-7e54-4836-a4c3-1e9004800360 run scoreboard players set @s lem.patreon 1
+#Jonoland
+execute as 3fe75d30-2989-45af-a12f-3565de70d9c2 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
