@@ -79,6 +79,8 @@ execute as 45d15f79-fe2d-4c4b-94a9-1ee88caad7f3 run scoreboard players set @s le
 execute as d26590b7-feb4-41c9-8408-4b4724003641 run scoreboard players set @s lem.patreon 1
 #ennii_
 execute as d55a84a8-c015-4205-b648-49718e7c1bad run scoreboard players set @s lem.patreon 1
+#Cpt_Pingu_
+execute as 2ed18a32-6075-42a3-92a9-4f562e14dc9b run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
