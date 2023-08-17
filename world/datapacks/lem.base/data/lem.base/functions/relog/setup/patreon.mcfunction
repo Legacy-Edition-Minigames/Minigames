@@ -41,10 +41,6 @@ execute as bc1d9d46-937d-4d53-8b26-725c91bb0141 run scoreboard players set @s le
 execute as 7f1ca084-fbf7-4f30-84f4-1102bd703706 run scoreboard players set @s lem.patreon 1
 #Nulludo
 execute as 76d21080-19c3-419c-ab6e-a99d930b6b47 run scoreboard players set @s lem.patreon 1
-#NotCiross
-execute as 545da113-18da-400a-9200-4a24c0eea5c9 run scoreboard players set @s lem.patreon 1
-#Watherfoxx
-execute as d39a7fcc-5039-4a66-9cc9-d0006f5af60b run scoreboard players set @s lem.patreon 1
 #Shadow_King__
 execute as 644b804b-0ca6-4cd1-86fc-5a398bd6fb13 run scoreboard players set @s lem.patreon 4
 #DuskDarf1
@@ -83,6 +79,8 @@ execute as d55a84a8-c015-4205-b648-49718e7c1bad run scoreboard players set @s le
 execute as 2ed18a32-6075-42a3-92a9-4f562e14dc9b run scoreboard players set @s lem.patreon 1
 #DolphDiamond
 execute as 99724f96-50cd-4758-8e3c-1d7b0e07ee3a run scoreboard players set @s lem.patreon 1
+#ISARICH10
+execute as 960e3a4a-35cf-4511-9570-6cd2339a19e5 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
