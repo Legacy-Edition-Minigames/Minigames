@@ -81,6 +81,8 @@ execute as 2ed18a32-6075-42a3-92a9-4f562e14dc9b run scoreboard players set @s le
 execute as 99724f96-50cd-4758-8e3c-1d7b0e07ee3a run scoreboard players set @s lem.patreon 1
 #ISARICH10
 execute as 960e3a4a-35cf-4511-9570-6cd2339a19e5 run scoreboard players set @s lem.patreon 1
+#Jimmy_Jxt
+execute as 3529652e-2df3-446b-aa9f-8cb183732ed9 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
