@@ -32,17 +32,17 @@
         "leftClickAction": "command/ scoreboard players set @s lem.menu.ui.dynamic.debug.ui_test.slider 1"
       },
       "10": {
-        "presetID": "lem.menu:button/generic:blank",
+        "presetID": "lem.menu:button/generic:blank_slider",
         "leftClickAction": "command/ scoreboard players set @s lem.menu.ui.dynamic.debug.ui_test.slider 2",
         "refreshOnInteract" : true
       },
       "11": {
-        "presetID": "lem.menu:button/generic:blank",
+        "presetID": "lem.menu:button/generic:blank_slider",
         "leftClickAction": "command/ scoreboard players set @s lem.menu.ui.dynamic.debug.ui_test.slider 3",
         "refreshOnInteract" : true
       },
       "12": {
-        "presetID": "lem.menu:button/generic:blank",
+        "presetID": "lem.menu:button/generic:blank_slider",
         "leftClickAction": "command/ scoreboard players set @s lem.menu.ui.dynamic.debug.ui_test.slider 4",
         "refreshOnInteract" : true
       },
@@ -66,22 +66,22 @@
         }
       },
       "14": {
-        "presetID": "lem.menu:button/generic:blank",
+        "presetID": "lem.menu:button/generic:blank_slider",
         "leftClickAction": "command/ scoreboard players set @s lem.menu.ui.dynamic.debug.ui_test.slider 6",
         "refreshOnInteract" : true
       },
       "15": {
-        "presetID": "lem.menu:button/generic:blank",
+        "presetID": "lem.menu:button/generic:blank_slider",
         "leftClickAction": "command/ scoreboard players set @s lem.menu.ui.dynamic.debug.ui_test.slider 7",
         "refreshOnInteract" : true
       },
       "16": {
-        "presetID": "lem.menu:button/generic:blank",
+        "presetID": "lem.menu:button/generic:blank_slider",
         "leftClickAction": "command/ scoreboard players set @s lem.menu.ui.dynamic.debug.ui_test.slider 8",
         "refreshOnInteract" : true
       },
       "17": {
-        "presetID": "lem.menu:button/generic:text",
+        "presetID": "lem.menu:button/generic:text_slider",
         "leftClickAction": "command/ scoreboard players set @s lem.menu.ui.dynamic.debug.ui_test.slider 9",
         "refreshOnInteract" : true,
         "dynamicModel": {
