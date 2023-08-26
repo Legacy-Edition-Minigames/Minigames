@@ -45,18 +45,10 @@ execute as 76d21080-19c3-419c-ab6e-a99d930b6b47 run scoreboard players set @s le
 execute as 644b804b-0ca6-4cd1-86fc-5a398bd6fb13 run scoreboard players set @s lem.patreon 4
 #DuskDarf1
 execute as 714181d0-f180-4d5b-b165-098527507d74 run scoreboard players set @s lem.patreon 1
-#hg_nuk
-execute as 55546e21-04b5-46d0-bb5e-34fcdf4aa4f3 run scoreboard players set @s lem.patreon 1
 #El3ctron
 execute as d78fb946-7f86-4733-a4dd-431068e252b5 run scoreboard players set @s lem.patreon 1
 #Furryful
 execute as 8c574bb1-215b-47f5-8094-16e64d3ee2cb run scoreboard players set @s lem.patreon 1
-#Avsalom
-execute as 065debe1-24c0-485e-880a-393973c64b5e run scoreboard players set @s lem.patreon 1
-#ItsTakend
-execute as fc7cd6d2-18e9-44f6-b42d-9bfff92e7902 run scoreboard players set @s lem.patreon 1
-#1ArianaGhandi
-execute as a7e7e0de-4c21-473a-b236-16d4e121ee86 run scoreboard players set @s lem.patreon 1
 #Saeraphinx
 execute as 558becd6-3fca-4e64-a6d6-3d6b3b65ef4a run scoreboard players set @s lem.patreon 3
 #M3ric_XD
@@ -83,6 +75,8 @@ execute as 99724f96-50cd-4758-8e3c-1d7b0e07ee3a run scoreboard players set @s le
 execute as 960e3a4a-35cf-4511-9570-6cd2339a19e5 run scoreboard players set @s lem.patreon 1
 #Jimmy_Jxt
 execute as 3529652e-2df3-446b-aa9f-8cb183732ed9 run scoreboard players set @s lem.patreon 1
+#O0T
+execute as 3df94856-6011-4031-a563-9c233bdc8dbc run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
