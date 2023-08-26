@@ -1,0 +1,128 @@
+{
+  "title": "[\"\",{\"text\":\"\uF808\uF8033\",\"color\":\"white\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"text\":\"\uF80C\uF80A\uF809\uF808\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"translate\":\"lem.menu.ui.title.ui_test\",\"color\":\"#424242\",\"font\":\"lem.menu:menu/text/en_us/title/ui_test\"}]",
+  "escToClose": true,
+  "escSound": "lem.menu:sound.menu.back",
+  "forceHotBarSlot": "1",
+  "slots": {
+      "0": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "command/ function lem.menu:menu/gui/debug/ui_test/tickbox/toggle",
+        "refreshOnInteract" : true
+      },
+      "1": {
+        "presetID": "lem.menu:button/generic:tickbox",
+        "leftClickAction": "command/ function lem.menu:menu/gui/debug/ui_test/tickbox/toggle",
+        "dynamicModel": {
+          "score": "lem.menu.ui.dynamic.debug.ui_test.tick",
+          "player": "@s",
+          "models": {
+            "1": "lem.menu.ui.button.tick_disabled",
+            "2": "lem.menu.ui.button.tick_enabled"
+          }
+        }
+      },
+      "2": {
+        "presetID": "lem.menu:button/generic:text",
+        "leftClickAction": "command/ function lem.menu:menu/gui/debug/ui_test/tickbox/toggle",
+        "customModelData": "lem.menu.ui.text.tick.tickbox",
+        "refreshOnInteract" : true
+      },
+      "9": {
+        "presetID": "lem.menu:button/generic:slider_background",
+        "leftClickAction": "command/ scoreboard players set @s lem.menu.ui.dynamic.debug.ui_test.slider 1"
+      },
+      "10": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "command/ scoreboard players set @s lem.menu.ui.dynamic.debug.ui_test.slider 2",
+        "refreshOnInteract" : true
+      },
+      "11": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "command/ scoreboard players set @s lem.menu.ui.dynamic.debug.ui_test.slider 3",
+        "refreshOnInteract" : true
+      },
+      "12": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "command/ scoreboard players set @s lem.menu.ui.dynamic.debug.ui_test.slider 4",
+        "refreshOnInteract" : true
+      },
+      "13": {
+        "presetID": "lem.menu:button/generic:slider_button",
+        "leftClickAction": "command/ scoreboard players set @s lem.menu.ui.dynamic.debug.ui_test.slider 5",
+        "dynamicModel": {
+          "score": "lem.menu.ui.dynamic.debug.ui_test.slider",
+          "player": "@s",
+          "models": {
+            "1": "lem.menu.ui.slider.1",
+            "2": "lem.menu.ui.slider.2",
+            "3": "lem.menu.ui.slider.3",
+            "4": "lem.menu.ui.slider.4",
+            "5": "lem.menu.ui.slider.5",
+            "6": "lem.menu.ui.slider.6",
+            "7": "lem.menu.ui.slider.7",
+            "8": "lem.menu.ui.slider.8",
+            "9": "lem.menu.ui.slider.9"
+          }
+        }
+      },
+      "14": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "command/ scoreboard players set @s lem.menu.ui.dynamic.debug.ui_test.slider 6",
+        "refreshOnInteract" : true
+      },
+      "15": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "command/ scoreboard players set @s lem.menu.ui.dynamic.debug.ui_test.slider 7",
+        "refreshOnInteract" : true
+      },
+      "16": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "command/ scoreboard players set @s lem.menu.ui.dynamic.debug.ui_test.slider 8",
+        "refreshOnInteract" : true
+      },
+      "17": {
+        "presetID": "lem.menu:button/generic:text",
+        "leftClickAction": "command/ scoreboard players set @s lem.menu.ui.dynamic.debug.ui_test.slider 9",
+        "refreshOnInteract" : true,
+        "dynamicModel": {
+          "score": "lem.menu.ui.dynamic.debug.ui_test.slider",
+          "player": "@s",
+          "models": {
+            "1": "lem.menu.ui.text.button.slider_1",
+            "2": "lem.menu.ui.text.button.slider_2",
+            "3": "lem.menu.ui.text.button.slider_3",
+            "4": "lem.menu.ui.text.button.slider_4",
+            "5": "lem.menu.ui.text.button.slider_5",
+            "6": "lem.menu.ui.text.button.slider_6",
+            "7": "lem.menu.ui.text.button.slider_7",
+            "8": "lem.menu.ui.text.button.slider_8",
+            "9": "lem.menu.ui.text.button.slider_9"
+          }
+        }
+      },
+      "73-78": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
+      },
+      "79": {
+        "presetID": "lem.menu:button/generic:standard",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
+      },
+      "80": {
+        "presetID": "lem.menu:button/generic:blank",
+        "customModelData": "lem.menu.ui.text.button.done",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
+      },
+      "72": {
+        "presetID": "lem.menu:button/leavegame:visual",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
+      },
+      "81": {
+        "presetID": "lem.menu:button/leavegame:button"
+      }
+  }
+}

@@ -14,7 +14,7 @@
       },
       "8": {
         "presetID": "lem.menu:button/generic:blank",
-        "customModelData": "lem.menu.ui.text.tu1",
+        "customModelData": "lem.menu.ui.text.button.tu1",
         "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/1"
       },
       "9-15": {
@@ -27,7 +27,7 @@
       },
       "17": {
         "presetID": "lem.menu:button/generic:blank",
-        "customModelData": "lem.menu.ui.text.tu5",
+        "customModelData": "lem.menu.ui.text.button.tu5",
         "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/5"
       },
       "18-24": {
@@ -40,7 +40,7 @@
       },
       "26": {
         "presetID": "lem.menu:button/generic:blank",
-        "customModelData": "lem.menu.ui.text.tu9",
+        "customModelData": "lem.menu.ui.text.button.tu9",
         "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/9"
       },
       "27-33": {
@@ -53,7 +53,7 @@
       },
       "35": {
         "presetID": "lem.menu:button/generic:blank",
-        "customModelData": "lem.menu.ui.text.tu14",
+        "customModelData": "lem.menu.ui.text.button.tu14",
         "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/14"
       },
       "36-42": {
@@ -66,7 +66,7 @@
       },
       "44": {
         "presetID": "lem.menu:button/generic:blank",
-        "customModelData": "lem.menu.ui.text.tu19",
+        "customModelData": "lem.menu.ui.text.button.tu19",
         "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/19"
       },
       "45-51": {
@@ -79,7 +79,7 @@
       },
       "53": {
         "presetID": "lem.menu:button/generic:blank",
-        "customModelData": "lem.menu.ui.text.tu31",
+        "customModelData": "lem.menu.ui.text.button.tu31",
         "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/31"
       },
       "54-60": {
@@ -92,7 +92,7 @@
       },
       "62": {
         "presetID": "lem.menu:button/generic:blank",
-        "customModelData": "lem.menu.ui.text.next_page",
+        "customModelData": "lem.menu.ui.text.button.next_page",
         "leftClickAction": "openUI/ lem.menu:options/ui/panorama/select_background/2"
       },
       "73-78": {
@@ -107,7 +107,7 @@
       },
       "80": {
         "presetID": "lem.menu:button/generic:blank",
-        "customModelData": "lem.menu.ui.text.done",
+        "customModelData": "lem.menu.ui.text.button.done",
         "leftClickSound": "lem.menu:sound.menu.back",
         "leftClickAction": "back/"
       },

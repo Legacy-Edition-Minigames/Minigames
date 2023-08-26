@@ -14,7 +14,7 @@
       },
       "8": {
         "presetID": "lem.menu:button/generic:blank",
-        "customModelData": "lem.menu.ui.text.tu46",
+        "customModelData": "lem.menu.ui.text.button.tu46",
         "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/46"
       },
       "9-15": {
@@ -27,7 +27,7 @@
       },
       "17": {
         "presetID": "lem.menu:button/generic:blank",
-        "customModelData": "lem.menu.ui.text.tu69",
+        "customModelData": "lem.menu.ui.text.button.tu69",
         "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/69"
       },
       "73-78": {
@@ -42,7 +42,7 @@
       },
       "80": {
         "presetID": "lem.menu:button/generic:blank",
-        "customModelData": "lem.menu.ui.text.go_back",
+        "customModelData": "lem.menu.ui.text.button.go_back",
         "leftClickSound": "lem.menu:sound.menu.back",
         "leftClickAction": "back/"
       },

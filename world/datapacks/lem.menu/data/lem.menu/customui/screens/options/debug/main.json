@@ -1,5 +1,5 @@
 {
-  "title": "{\"text\":\"\uF808\uF8033\",\"color\":\"white\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"}",
+  "title": "[\"\",{\"text\":\"\uF808\uF8033\",\"color\":\"white\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"text\":\"\uF80C\uF80A\uF809\uF808\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"translate\":\"lem.menu.ui.title.debug\",\"color\":\"#424242\",\"font\":\"lem.menu:menu/text/en_us/title/debug\"}]",
   "escToClose": true,
   "escSound": "lem.menu:sound.menu.back",
   "forceHotBarSlot": "1",
@@ -14,7 +14,7 @@
       },
       "8": {
       "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.force_exit_menu",
+        "customModelData": "lem.menu.ui.text.button.force_exit_menu",
         "leftClickAction": "openUI/ lem.menu:options/debug/force_exit_menu"
       },
       "9-15": {
@@ -27,7 +27,7 @@
       },
       "17": {
       "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.reload_datapack",
+        "customModelData": "lem.menu.ui.text.button.reload_datapack",
         "leftClickAction": "command/ function lem.menu:menu/gui/debug/reload-datapack"
       },
       "18-24": {
@@ -40,7 +40,7 @@
       },
       "26": {
       "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.reload_resources",
+        "customModelData": "lem.menu.ui.text.button.reload_resources",
         "leftClickAction": "command/ scoreboard players set @s reloadresources 1"
       },
       "27-33": {
@@ -52,9 +52,22 @@
         "leftClickAction": "command/ function lem.menu:menu/gui/debug/reload-music"
       },
       "35": {
-      "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.reload_music",
+        "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.reload_music",
         "leftClickAction": "command/ function lem.menu:menu/gui/debug/reload-music"
+      },
+      "36-42": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:options/debug/ui_test"
+      },
+      "43": {
+        "presetID": "lem.menu:button/generic:standard",
+        "leftClickAction": "openUI/ lem.menu:options/debug/ui_test"
+      },
+      "44": {
+        "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.ui_test",
+        "leftClickAction": "openUI/ lem.menu:options/debug/ui_test"
       },
       "73-78": {
         "presetID": "lem.menu:button/generic:blank",
@@ -68,7 +81,7 @@
       },
       "80": {
         "presetID": "lem.menu:button/generic:blank",
-        "customModelData": "lem.menu.ui.text.done",
+        "customModelData": "lem.menu.ui.text.button.done",
         "leftClickSound": "lem.menu:sound.menu.back",
         "leftClickAction": "back/"
       },

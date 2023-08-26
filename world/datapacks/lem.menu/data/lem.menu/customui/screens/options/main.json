@@ -14,7 +14,7 @@
       },
       "8": {
         "presetID": "lem.menu:button/generic:blank",
-        "customModelData": "lem.menu.ui.text.how_to_play",
+        "customModelData": "lem.menu.ui.text.button.how_to_play",
         "leftClickSound": "lem.menu:sound.menu.fail"
       },
       "9-15": {
@@ -27,7 +27,7 @@
       },
       "17": {
         "presetID": "lem.menu:button/generic:blank",
-        "customModelData": "lem.menu.ui.text.controls",
+        "customModelData": "lem.menu.ui.text.button.controls",
         "leftClickSound": "lem.menu:sound.menu.fail"
       },
       "18-24": {
@@ -40,7 +40,7 @@
       },
       "26": {
         "presetID": "lem.menu:button/generic:blank",
-        "customModelData": "lem.menu.ui.text.settings",
+        "customModelData": "lem.menu.ui.text.button.settings",
         "leftClickAction": "openUI/ lem.menu:options/settings"
       },
       "27-33": {
@@ -53,7 +53,7 @@
       },
       "35": {
         "presetID": "lem.menu:button/generic:blank",
-        "customModelData": "lem.menu.ui.text.credits",
+        "customModelData": "lem.menu.ui.text.button.credits",
         "leftClickSound": "lem.menu:sound.menu.fail"
       },
       "72": {

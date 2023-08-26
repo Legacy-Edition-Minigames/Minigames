@@ -14,7 +14,7 @@
     },
     "8": {
       "presetID": "lem.menu:button/generic:blank",
-      "customModelData": "lem.menu.ui.text.select_background",
+      "customModelData": "lem.menu.ui.text.button.select_background",
       "leftClickAction": "openUI/ lem.menu:options/ui/panorama/select_background/1"
     },
     "9-15": {
@@ -27,7 +27,7 @@
     },
     "17": {
       "presetID": "lem.menu:button/generic:blank",
-      "customModelData": "lem.menu.ui.text.toggle_time",
+      "customModelData": "lem.menu.ui.text.button.toggle_time",
       "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/time/toggle"
     },
     "73-78": {
@@ -42,7 +42,7 @@
     },
     "80": {
       "presetID": "lem.menu:button/generic:blank",
-      "customModelData": "lem.menu.ui.text.done",
+      "customModelData": "lem.menu.ui.text.button.done",
       "leftClickSound": "lem.menu:sound.menu.back",
       "leftClickAction": "back/"
     },

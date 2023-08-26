@@ -14,7 +14,7 @@
       },
       "44": {
         "presetID": "lem.menu:button/generic:blank",
-        "customModelData": "lem.menu.ui.text.panorama_scale",
+        "customModelData": "lem.menu.ui.text.button.panorama_scale",
         "leftClickAction": "openUI/ lem.menu:options/ui/scale/panorama"
       },
       "45-51": {
@@ -27,7 +27,7 @@
       },
       "53": {
         "presetID": "lem.menu:button/generic:blank",
-        "customModelData": "lem.menu.ui.text.ui_scale",
+        "customModelData": "lem.menu.ui.text.button.ui_scale",
         "leftClickSound": "lem.menu:sound.menu.fail"
       },
       "54-60": {
@@ -40,7 +40,7 @@
       },
       "62": {
         "presetID": "lem.menu:button/generic:blank",
-        "customModelData": "lem.menu.ui.text.continue",
+        "customModelData": "lem.menu.ui.text.button.continue",
         "leftClickAction": "openUI/ lem.menu:setup/finish"
       },
       "72": {

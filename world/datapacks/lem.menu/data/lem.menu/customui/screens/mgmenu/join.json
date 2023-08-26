@@ -21,7 +21,7 @@
       },
       "17": {
       "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.battle",
+        "customModelData": "lem.menu.ui.text.button.battle",
         "leftClickAction": "openUI/ lem.menu:mgmenu/join/battle"
       },
       "18-24": {
@@ -37,7 +37,7 @@
       },
       "26": {
       "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.tumble",
+        "customModelData": "lem.menu.ui.text.button.tumble",
         "leftClickAction": "openUI/ lem.menu:mgmenu/join/tumble_notice",
         "leftClickSound": "lem.menu:sound.menu.fail"
       },
@@ -54,7 +54,7 @@
       },
       "35": {
       "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.glide",
+        "customModelData": "lem.menu.ui.text.button.glide",
         "leftClickAction": "openUI/ lem.menu:mgmenu/join/glide_notice",
         "leftClickSound": "lem.menu:sound.menu.fail"
       },

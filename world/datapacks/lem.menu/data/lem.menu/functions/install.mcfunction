@@ -9,3 +9,9 @@ scoreboard objectives add lem.menu.panorama dummy
 
 ##Panorama scale
 scoreboard objectives add lem.menu.panscale dummy
+
+##Dynamic UI
+#Debug UI Test: Tickbox
+scoreboard objectives add lem.menu.ui.dynamic.debug.ui_test.tick dummy
+#Debug UI Test: Slider
+scoreboard objectives add lem.menu.ui.dynamic.debug.ui_test.slider dummy
