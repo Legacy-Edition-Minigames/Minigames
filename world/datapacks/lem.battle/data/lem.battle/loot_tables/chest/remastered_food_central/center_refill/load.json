@@ -1,0 +1,206 @@
+{
+    "pools": [{
+        "rolls": 3,
+        "entries": [{
+                "type": "minecraft:item",
+                "weight": 2,
+                "name": "minecraft:lingering_potion",
+                "functions": [{
+                    "function": "minecraft:set_nbt",
+                    "tag": "{Potion:\"minecraft:harming\"}"
+                }]
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 2,
+                "name": "minecraft:lingering_potion",
+                "functions": [{
+                    "function": "minecraft:set_nbt",
+                    "tag": "{Potion:\"minecraft:strong_healing\"}"
+                }]
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 2,
+                "name": "minecraft:splash_potion",
+                "functions": [{
+                    "function": "minecraft:set_nbt",
+                    "tag": "{Potion:\"minecraft:harming\"}"
+                }]
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 2,
+                "name": "minecraft:splash_potion",
+                "functions": [{
+                    "function": "minecraft:set_nbt",
+                    "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.splash_potion.effect.weakness\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:18b,Amplifier:0b,Duration:150}],Potion:\"minecraft:water\"}"
+                }]
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 2,
+                "name": "minecraft:splash_potion",
+                "functions": [{
+                    "function": "minecraft:set_nbt",
+                    "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.splash_potion.effect.poison\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:19b,Amplifier:1b,Duration:150}],Potion:\"minecraft:water\"}"
+                }]
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 1,
+                "name": "minecraft:potion",
+                "functions": [{
+                    "function": "minecraft:set_nbt",
+                    "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.turtle_master\",\"italic\":false},{\"text\":\" (0:10)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:2b,Amplifier:3b,Duration:200},{Id:11b,Amplifier:2b,Duration:200}],Potion:\"minecraft:water\"}"
+                }]
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 2,
+                "name": "minecraft:potion",
+                "functions": [{
+                    "function": "minecraft:set_nbt",
+                    "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.slow_falling\",\"italic\":false},{\"text\":\" (0:10)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:28b,Amplifier:0b,Duration:200}],Potion:\"minecraft:water\"}"
+                }]
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 2,
+                "name": "minecraft:potion",
+                "functions": [{
+                    "function": "minecraft:set_nbt",
+                    "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.invisibility\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:14b,Amplifier:0b,Duration:400}],Potion:\"minecraft:water\"}"
+                }]
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 2,
+                "name": "minecraft:potion",
+                "functions": [{
+                    "function": "minecraft:set_nbt",
+                    "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.swiftness\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:1b,Amplifier:0b,Duration:400}],Potion:\"minecraft:water\"}"
+                }]
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 2,
+                "name": "minecraft:potion",
+                "functions": [{
+                    "function": "minecraft:set_nbt",
+                    "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.regeneration\",\"italic\":false},{\"text\":\" (0:15)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:10b,Amplifier:0b,Duration:300}],Potion:\"minecraft:water\"}"
+                }]
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 2,
+                "name": "minecraft:potion",
+                "functions": [{
+                    "function": "minecraft:set_nbt",
+                    "tag": "{Potion:\"minecraft:strong_healing\"}"
+                }]
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 5,
+                "name": "minecraft:beetroot"
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 5,
+                "name": "minecraft:mushroom_stew"
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 5,
+                "name": "minecraft:cookie"
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 5,
+                "name": "minecraft:baked_potato"
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 5,
+                "name": "minecraft:cooked_rabbit"
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 5,
+                "name": "minecraft:cooked_chicken"
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 1,
+                "name": "minecraft:golden_apple"
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 5,
+                "name": "minecraft:apple"
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 5,
+                "name": "minecraft:golden_carrot"
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 5,
+                "name": "minecraft:cooked_mutton"
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 5,
+                "name": "minecraft:beetroot_soup"
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 5,
+                "name": "minecraft:cooked_beef"
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 5,
+                "name": "minecraft:cooked_porkchop"
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 5,
+                "name": "minecraft:rabbit_stew",
+                "functions": [{
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 2
+                    }
+                }]
+            },
+            {
+                "type": "item",
+                "weight": 1,
+                "name": "minecraft:dried_kelp",
+                "functions": [{
+                    "function": "set_count",
+                    "count": 4
+                }]
+            },
+            {
+                "type": "item",
+                "weight": 1,
+                "name": "minecraft:sweet_berries"
+            },
+            {
+                "type": "item",
+                "weight": 1,
+                "name": "minecraft:honey_bottle"
+            },
+            {
+                "type": "item",
+                "weight": 1,
+                "name": "minecraft:glow_berries"
+            }
+        ]
+    }]
+}

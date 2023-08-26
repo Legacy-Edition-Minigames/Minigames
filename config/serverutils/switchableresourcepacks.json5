@@ -21,7 +21,7 @@
     },
     {
       "packname": "vanilla",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.7B1/vanilla.zip?raw\u003dtrue",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.7/vanilla.zip?raw\u003dtrue",
       "hash": "",
       "required": true,
       "hasPrompt": true,
@@ -30,7 +30,7 @@
     },
     {
       "packname": "all-music",
-      "url": "https://www.dropbox.com/scl/fi/21uh2i5uqvvy9tjjw90em/all-music.zip?rlkey\u003dbqe5hzr93wcj01qwmn7mfwnv8\u0026dl\u003d1",
+      "url": "https://www.dropbox.com/scl/fi/2ensirlx6359qb8fu960z/all-music.zip?rlkey=oapg4l9jmm8j1q68cw0dkvp3o&dl=1",
       "hash": "",
       "required": true,
       "hasPrompt": true,
@@ -39,7 +39,7 @@
     },
     {
       "packname": "plastic",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.7B1/plastic.zip?raw\u003dtrue",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.7/plastic.zip?raw\u003dtrue",
       "hash": "",
       "required": true,
       "hasPrompt": true,
@@ -48,7 +48,7 @@
     },
     {
       "packname": "fantasy",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.7B1/fantasy.zip?raw\u003dtrue",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.7/fantasy.zip?raw\u003dtrue",
       "hash": "",
       "required": true,
       "hasPrompt": true,
@@ -57,7 +57,7 @@
     },
     {
       "packname": "city",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.7B1/city.zip?raw\u003dtrue",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.7/city.zip?raw\u003dtrue",
       "hash": "",
       "required": true,
       "hasPrompt": true,
@@ -66,7 +66,7 @@
     },
     {
       "packname": "greek",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.7B1/greek-mythology.zip?raw\u003dtrue",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.7/greek-mythology.zip?raw\u003dtrue",
       "hash": "",
       "required": true,
       "hasPrompt": true,
@@ -75,7 +75,7 @@
     },
     {
       "packname": "steampunk",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.7B1/steampunk.zip?raw\u003dtrue",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.7/steampunk.zip?raw\u003dtrue",
       "hash": "",
       "required": true,
       "hasPrompt": true,
@@ -84,7 +84,7 @@
     },
     {
       "packname": "chinese",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.7B1/chinese-mythology.zip?raw\u003dtrue",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.7/chinese-mythology.zip?raw\u003dtrue",
       "hash": "",
       "required": true,
       "hasPrompt": true,
@@ -93,7 +93,7 @@
     },
     {
       "packname": "halloween",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.7B1/halloween.zip?raw\u003dtrue",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.7/halloween.zip?raw\u003dtrue",
       "hash": "",
       "required": true,
       "hasPrompt": true,
@@ -102,7 +102,7 @@
     },
     {
       "packname": "festive",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.7B1/festive.zip?raw\u003dtrue",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.7/festive.zip?raw\u003dtrue",
       "hash": "",
       "required": true,
       "hasPrompt": true,
@@ -111,7 +111,7 @@
     },
     {
       "packname": "fallout",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.7B1/fallout.zip?raw\u003dtrue",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.7/fallout.zip?raw\u003dtrue",
       "hash": "",
       "required": true,
       "hasPrompt": true,
@@ -120,7 +120,7 @@
     },
     {
       "packname": "natural",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.7B1/natural.zip?raw\u003dtrue",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.7/natural.zip?raw\u003dtrue",
       "hash": "",
       "required": true,
       "hasPrompt": true,
@@ -129,7 +129,7 @@
     },
     {
       "packname": "cartoon",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.7B1/cartoon.zip?raw\u003dtrue",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.7/cartoon.zip?raw\u003dtrue",
       "hash": "",
       "required": true,
       "hasPrompt": true,
