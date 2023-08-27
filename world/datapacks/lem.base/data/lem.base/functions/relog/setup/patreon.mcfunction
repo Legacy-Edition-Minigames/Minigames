@@ -77,6 +77,8 @@ execute as 960e3a4a-35cf-4511-9570-6cd2339a19e5 run scoreboard players set @s le
 execute as 3529652e-2df3-446b-aa9f-8cb183732ed9 run scoreboard players set @s lem.patreon 1
 #O0T
 execute as 3df94856-6011-4031-a563-9c233bdc8dbc run scoreboard players set @s lem.patreon 1
+#Avokade
+execute as 97a74711-4042-4c9c-a301-2b2407a1e254 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
