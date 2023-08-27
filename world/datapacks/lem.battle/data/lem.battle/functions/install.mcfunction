@@ -223,6 +223,12 @@ scoreboard objectives add lem.battle.criticalhits dummy
 #Custom mode toggle
 scoreboard objectives add lem.battle.setcriticalhits dummy
 
+##Old knockback toggle
+#Backend
+scoreboard objectives add lem.battle.oldknockback dummy
+#Custom mode toggle
+scoreboard objectives add lem.battle.setoldknockback dummy
+
 ##For addons to disable built-in sounds
 #Game: Chest Refill
 scoreboard objectives add lem.battle.sound.game.refill.override dummy

@@ -19,6 +19,8 @@ execute if score #Store lem.battle.combatstyle matches 3 run scoreboard players 
 execute if score #Store lem.battle.combatstyle matches 3 run scoreboard players operation #Store lem.battle.attackspeed = #Store lem.battle.setattackspeed
 #Critical Attacks
 execute if score #Store lem.battle.combatstyle matches 3 run scoreboard players operation #Store lem.battle.criticalhits = #Store lem.battle.setcriticalhits
+#Knockback
+execute if score #Store lem.battle.combatstyle matches 3 run scoreboard players operation #Store lem.battle.oldknockback = #Store lem.battle.setoldknockback
 
 ##Run combat check
 function lem.battle:game/combat/check

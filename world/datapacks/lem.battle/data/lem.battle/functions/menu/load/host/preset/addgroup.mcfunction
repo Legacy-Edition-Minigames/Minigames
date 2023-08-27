@@ -118,6 +118,9 @@ userconfiggroup ADD lem.base:host_preset lem.battle:preset_combat_style_custom_c
 ##Critical Attacks
 userconfiggroup ADD lem.base:host_preset lem.battle:preset_combat_style_custom_criticals
 
+##Old Knockback
+userconfiggroup ADD lem.base:host_preset lem.battle:preset_combat_style_old_knockback
+
 ##Attack Speed
 userconfiggroup ADD lem.base:host_preset lem.battle:preset_combat_style_custom_attackspeed
 

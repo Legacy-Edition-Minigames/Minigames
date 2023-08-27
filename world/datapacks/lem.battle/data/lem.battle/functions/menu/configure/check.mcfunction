@@ -167,3 +167,8 @@ execute as @s[scores={lem.gamecfg=169}] run function lem.battle:menu/load/host/c
 #Disable
 execute as @s[scores={lem.gamecfg=170}] run function lem.battle:menu/load/host/combat/style/custom/criticals/disable
 
+##Critical Attacks option
+#Enable
+execute as @s[scores={lem.gamecfg=172}] run function lem.battle:menu/load/host/combat/style/custom/oldknockback/enable
+#Disable
+execute as @s[scores={lem.gamecfg=173}] run function lem.battle:menu/load/host/combat/style/custom/oldknockback/disable

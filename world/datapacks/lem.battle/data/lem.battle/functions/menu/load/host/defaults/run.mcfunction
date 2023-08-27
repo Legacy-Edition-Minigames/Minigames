@@ -84,6 +84,9 @@ scoreboard players set #Store lem.battle.setattackspeed 1
 #Critical attacks
 scoreboard players set #Store lem.battle.criticalhits 1
 scoreboard players set #Store lem.battle.setcriticalhits 1
+#Old knockback
+scoreboard players set #Store lem.battle.oldknockback 1
+scoreboard players set #Store lem.battle.setoldknockback 1
 
 ##Extended Potion Range
 scoreboard players set #Store lem.battle.extendedpotionrange 1
