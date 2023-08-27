@@ -13,7 +13,7 @@
         "leftClickAction": "openUI/ lem.menu:options/pack/optifine"
       },
       "8": {
-        "presetID": "lem.menu:button/generic:blank",
+        "presetID": "lem.menu:button/generic:text",
         "customModelData": "lem.menu.ui.text.button.optifine_pack",
         "leftClickAction": "openUI/ lem.menu:options/pack/optifine"
       },

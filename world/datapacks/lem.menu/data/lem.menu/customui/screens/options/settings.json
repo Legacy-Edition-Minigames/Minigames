@@ -13,7 +13,7 @@
         "leftClickAction": "openUI/ lem.menu:options/ui/main"
       },
       "8": {
-        "presetID": "lem.menu:button/generic:blank",
+        "presetID": "lem.menu:button/generic:text",
         "customModelData": "lem.menu.ui.text.button.ui_settings",
         "leftClickAction": "openUI/ lem.menu:options/ui/main"
       },
@@ -26,7 +26,7 @@
         "leftClickSound": "lem.menu:sound.menu.fail"
       },
       "17": {
-        "presetID": "lem.menu:button/generic:blank",
+        "presetID": "lem.menu:button/generic:text",
         "customModelData": "lem.menu.ui.text.button.pack_settings",
         "leftClickSound": "lem.menu:sound.menu.fail"
       },
@@ -39,7 +39,7 @@
         "leftClickSound": "lem.menu:sound.menu.fail"
       },
       "26": {
-        "presetID": "lem.menu:button/generic:blank",
+        "presetID": "lem.menu:button/generic:text",
         "customModelData": "lem.menu.ui.text.button.user_settings",
         "leftClickSound": "lem.menu:sound.menu.fail"
       },
@@ -52,7 +52,7 @@
         "leftClickAction": "openUI/ lem.menu:options/debug/warning"
       },
       "35": {
-        "presetID": "lem.menu:button/generic:blank",
+        "presetID": "lem.menu:button/generic:text",
         "customModelData": "lem.menu.ui.text.button.debug",
         "leftClickAction": "openUI/ lem.menu:options/debug/warning"
       },

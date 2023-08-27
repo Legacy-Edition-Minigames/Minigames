@@ -13,7 +13,7 @@
         "leftClickAction": "command/ function lem.menu:menu/setup/pack/vanilla"
       },
       "8": {
-        "presetID": "lem.menu:button/generic:blank",
+        "presetID": "lem.menu:button/generic:text",
         "customModelData": "lem.menu.ui.text.button.optifine_is_not_installed",
         "leftClickAction": "command/ function lem.menu:menu/setup/pack/vanilla"
       },
@@ -26,7 +26,7 @@
         "leftClickAction": "command/ function lem.menu:menu/setup/pack/optifine"
       },
       "17": {
-        "presetID": "lem.menu:button/generic:blank",
+        "presetID": "lem.menu:button/generic:text",
         "customModelData": "lem.menu.ui.text.button.optifine_is_installed",
         "leftClickAction": "command/ function lem.menu:menu/setup/pack/optifine"
       },

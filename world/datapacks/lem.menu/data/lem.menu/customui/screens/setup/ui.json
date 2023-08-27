@@ -13,7 +13,7 @@
         "leftClickAction": "openUI/ lem.menu:options/ui/scale/panorama"
       },
       "44": {
-        "presetID": "lem.menu:button/generic:blank",
+        "presetID": "lem.menu:button/generic:text",
         "customModelData": "lem.menu.ui.text.button.panorama_scale",
         "leftClickAction": "openUI/ lem.menu:options/ui/scale/panorama"
       },
@@ -26,7 +26,7 @@
         "leftClickSound": "lem.menu:sound.menu.fail"
       },
       "53": {
-        "presetID": "lem.menu:button/generic:blank",
+        "presetID": "lem.menu:button/generic:text",
         "customModelData": "lem.menu.ui.text.button.ui_scale",
         "leftClickSound": "lem.menu:sound.menu.fail"
       },
@@ -39,7 +39,7 @@
         "leftClickAction": "openUI/ lem.menu:setup/finish"
       },
       "62": {
-        "presetID": "lem.menu:button/generic:blank",
+        "presetID": "lem.menu:button/generic:text",
         "customModelData": "lem.menu.ui.text.button.continue",
         "leftClickAction": "openUI/ lem.menu:setup/finish"
       },

@@ -13,7 +13,7 @@
         "leftClickAction": "command/ velocityserverswitch battle_main"
       },
       "8": {
-        "presetID": "lem.menu:button/generic:blank",
+        "presetID": "lem.menu:button/generic:text",
         "customModelData": "lem.menu.ui.text.button.server.main",
         "leftClickAction": "command/ velocityserverswitch battle_main"
       },
@@ -26,7 +26,7 @@
         "leftClickAction": "command/ velocityserverswitch battle_main_alternate"
       },
       "17": {
-        "presetID": "lem.menu:button/generic:blank",
+        "presetID": "lem.menu:button/generic:text",
         "customModelData": "lem.menu.ui.text.button.server.main-alternate",
         "leftClickAction": "command/ velocityserverswitch battle_main_alternate"
       },
@@ -39,7 +39,7 @@
         "leftClickAction": "command/ velocityserverswitch battle_experimental"
       },
       "26": {
-        "presetID": "lem.menu:button/generic:blank",
+        "presetID": "lem.menu:button/generic:text",
         "customModelData": "lem.menu.ui.text.button.server.experimental",
         "leftClickAction": "command/ velocityserverswitch battle_experimental"
       },
@@ -52,7 +52,7 @@
         "leftClickAction": "openUI/ lem.menu:mgmenu/join/germany_notice"
       },
       "35": {
-        "presetID": "lem.menu:button/generic:blank",
+        "presetID": "lem.menu:button/generic:text",
         "customModelData": "lem.menu.ui.text.button.server.germany",
         "leftClickAction": "openUI/ lem.menu:mgmenu/join/germany_notice"
       },
@@ -67,7 +67,7 @@
         "leftClickAction": "back/"
       },
       "80": {
-        "presetID": "lem.menu:button/generic:blank",
+        "presetID": "lem.menu:button/generic:text",
         "customModelData": "lem.menu.ui.text.button.go_back",
         "leftClickSound": "lem.menu:sound.menu.back",
         "leftClickAction": "back/"

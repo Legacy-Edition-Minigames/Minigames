@@ -13,7 +13,7 @@
         "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/46"
       },
       "8": {
-        "presetID": "lem.menu:button/generic:blank",
+        "presetID": "lem.menu:button/generic:text",
         "customModelData": "lem.menu.ui.text.button.tu46",
         "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/46"
       },
@@ -26,7 +26,7 @@
         "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/69"
       },
       "17": {
-        "presetID": "lem.menu:button/generic:blank",
+        "presetID": "lem.menu:button/generic:text",
         "customModelData": "lem.menu.ui.text.button.tu69",
         "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/69"
       },
@@ -41,7 +41,7 @@
         "leftClickAction": "back/"
       },
       "80": {
-        "presetID": "lem.menu:button/generic:blank",
+        "presetID": "lem.menu:button/generic:text",
         "customModelData": "lem.menu.ui.text.button.go_back",
         "leftClickSound": "lem.menu:sound.menu.back",
         "leftClickAction": "back/"

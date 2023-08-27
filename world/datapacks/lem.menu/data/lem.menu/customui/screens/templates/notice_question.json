@@ -15,7 +15,7 @@
       "leftClickAction": "back/"
     },
     "44": {
-      "presetID": "lem.menu:button/generic:blank",
+      "presetID": "lem.menu:button/generic:text",
       "customModelData": "lem.menu.ui.text.button.cancel",
       "leftClickSound": "lem.menu:sound.menu.back",
       "leftClickAction": "back/"
@@ -29,7 +29,7 @@
       "leftClickAction": "command/ say yes"
     },
     "53": {
-      "presetID": "lem.menu:button/generic:blank",
+      "presetID": "lem.menu:button/generic:text",
       "customModelData": "lem.menu.ui.text.button.ok",
       "leftClickAction": "command/ say yes"
     },

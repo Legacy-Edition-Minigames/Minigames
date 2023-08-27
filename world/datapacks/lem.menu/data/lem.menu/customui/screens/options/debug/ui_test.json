@@ -111,7 +111,7 @@
         "leftClickAction": "back/"
       },
       "80": {
-        "presetID": "lem.menu:button/generic:blank",
+        "presetID": "lem.menu:button/generic:text",
         "customModelData": "lem.menu.ui.text.button.done",
         "leftClickSound": "lem.menu:sound.menu.back",
         "leftClickAction": "back/"
