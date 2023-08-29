@@ -1,0 +1,54 @@
+{
+    "pools": [{
+            "rolls": 1,
+            "entries": [{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [{
+                        "function": "set_count",
+                        "count": 1
+                    }]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:crossbow",
+                    "functions": [{
+                        "function": "set_count",
+                        "count": 1
+                    }]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [{
+                "type": "item",
+                "weight": 1,
+                "name": "minecraft:arrow",
+                "functions": [{
+                    "function": "set_count",
+                    "count": 5
+                }]
+            }]
+        },
+        {
+            "rolls": 1,
+            "entries": [{
+                "type": "item",
+                "weight": 1,
+                "name": "minecraft:potion",
+                "functions": [{
+                        "function": "set_count",
+                        "count": 1
+                    },
+                    {
+                        "function": "set_nbt",
+                        "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.swiftness\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:1b,Amplifier:0b,Duration:400}],Potion:\"minecraft:water\"}"
+                    }
+                ]
+            }]
+        }
+    ]
+}
