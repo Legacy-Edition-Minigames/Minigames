@@ -22,7 +22,7 @@
         }
       },
       "2": {
-        "presetID": "lem.menu:button/generic:text",
+        "presetID": "lem.menu:button/generic:text_tickbox",
         "leftClickAction": "command/ function lem.menu:menu/gui/debug/ui_test/tickbox/toggle",
         "customModelData": "lem.menu.ui.text.tick.tickbox",
         "refreshOnInteract" : true
