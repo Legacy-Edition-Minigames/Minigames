@@ -1,0 +1,150 @@
+{
+    "type": "minecraft:chest",
+    "pools": [{
+            "rolls": 1,
+            "entries": [{
+                    "type": "minecraft:loot_table",
+                    "weight": 75,
+                    "name": "lem.battle:chest/decayed/center_init/pyro_farmer/3"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 75,
+                    "name": "lem.battle:chest/decayed/center_init/pyro_farmer/2"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 75,
+                    "name": "lem.battle:chest/decayed/center_init/pyro_farmer/1"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 75,
+                    "name": "lem.battle:chest/decayed/center_init/gardener/3"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 75,
+                    "name": "lem.battle:chest/decayed/center_init/gardener/2"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 75,
+                    "name": "lem.battle:chest/decayed/center_init/gardener/1"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 75,
+                    "name": "lem.battle:chest/decayed/center_init/pirate/3"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 75,
+                    "name": "lem.battle:chest/decayed/center_init/pirate/2"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 75,
+                    "name": "lem.battle:chest/decayed/center_init/pirate/1"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "lem.battle:chest/decayed/center_init/ninja/3"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "lem.battle:chest/decayed/center_init/ninja/2"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "lem.battle:chest/decayed/center_init/ninja/1"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "lem.battle:chest/decayed/center_init/healer/3"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "lem.battle:chest/decayed/center_init/healer/2"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "lem.battle:chest/decayed/center_init/healer/1"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "lem.battle:chest/decayed/center_init/mage/3"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "lem.battle:chest/decayed/center_init/mage/2"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "lem.battle:chest/decayed/center_init/mage/1"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 150,
+                    "name": "lem.battle:chest/decayed/center_init/scout/3"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 150,
+                    "name": "lem.battle:chest/decayed/center_init/scout/2"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 150,
+                    "name": "lem.battle:chest/decayed/center_init/scout/1"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 150,
+                    "name": "lem.battle:chest/decayed/center_init/heavy/3"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 150,
+                    "name": "lem.battle:chest/decayed/center_init/heavy/2"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 150,
+                    "name": "lem.battle:chest/decayed/center_init/heavy/1"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 150,
+                    "name": "lem.battle:chest/decayed/center_init/swordsman/3"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 150,
+                    "name": "lem.battle:chest/decayed/center_init/swordsman/2"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 150,
+                    "name": "lem.battle:chest/decayed/center_init/swordsman/1"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:loot_table",
+                "name": "lem.battle:chest/decayed/center_init/food"
+            }]
+        }
+    ]
+}

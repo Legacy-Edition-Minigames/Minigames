@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:chest",
+    "pools": [{
+        "rolls": 1,
+        "entries": [{
+                "type": "minecraft:loot_table",
+                "name": "lem.battle:chest/decayed/center_init/food/7"
+            },
+            {
+                "type": "minecraft:loot_table",
+                "name": "lem.battle:chest/decayed/center_init/food/6"
+            },
+            {
+                "type": "minecraft:loot_table",
+                "name": "lem.battle:chest/decayed/center_init/food/5"
+            },
+            {
+                "type": "minecraft:loot_table",
+                "name": "lem.battle:chest/decayed/center_init/food/4"
+            },
+            {
+                "type": "minecraft:loot_table",
+                "name": "lem.battle:chest/decayed/center_init/food/3"
+            },
+            {
+                "type": "minecraft:loot_table",
+                "name": "lem.battle:chest/decayed/center_init/food/2"
+            },
+            {
+                "type": "minecraft:loot_table",
+                "name": "lem.battle:chest/decayed/center_init/food/1"
+            }
+        ]
+    }]
+}

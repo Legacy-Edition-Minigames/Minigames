@@ -1,0 +1,146 @@
+{
+    "pools": [{
+            "rolls": {
+                "min": 3,
+                "max": 4
+            },
+            "entries": [{
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_boots",
+                    "functions": [{
+                        "function": "minecraft:set_nbt",
+                        "tag": "{display:{Lore:['[{\"text\":\"§9+1.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}"
+                    }]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_helmet",
+                    "functions": [{
+                        "function": "minecraft:set_nbt",
+                        "tag": "{display:{Lore:['[{\"text\":\"§9+2.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}"
+                    }]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [{
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"translate\":\"item.minecraft.tipped_arrow.effect.slowness\",\"italic\":false}',Lore:['[{\"translate\":\"effect.minecraft.slowness\",\"color\":\"red\",\"italic\":false},{\"text\":\" (0:05)\",\"color\":\"red\",\"italic\":false}]','{\"text\":\" \"}','{\"translate\":\"potion.whenDrank\",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"-15% \",\"color\":\"red\",\"italic\":false},{\"translate\":\"attribute.name.generic.movement_speed\"}]']},HideFlags:32,CustomPotionEffects:[{Id:2b,Amplifier:0b,Duration:100}],Potion:\"minecraft:water\"}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 3
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [{
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"translate\":\"item.minecraft.tipped_arrow.effect.weakness\",\"italic\":false}',Lore:['[{\"translate\":\"effect.minecraft.weakness\",\"color\":\"red\",\"italic\":false},{\"text\":\" (0:07)\",\"italic\":false}]','{\"text\":\" \"}','{\"translate\":\"potion.whenDrank\",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"-4 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\",\"color\":\"red\",\"italic\":false}]']},HideFlags:32,CustomPotionEffects:[{Id:18b,Amplifier:0b,Duration:140}],Potion:\"minecraft:water\"}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 3
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 2
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"translate\":\"item.minecraft.tipped_arrow.effect.poison\",\"italic\":false}',Lore:['[{\"translate\":\"effect.minecraft.poison\",\"color\":\"red\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"potion.potency.1\"},{\"text\":\" (0:03)\",\"italic\":false}]']},HideFlags:32,CustomPotionEffects:[{Id:19b,Amplifier:1b,Duration:65}],Potion:\"minecraft:water\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "minecraft:chainmail_boots",
+                    "functions": [{
+                        "function": "minecraft:set_nbt",
+                        "tag": "{display:{Lore:['[{\"text\":\"§9+1.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2}"
+                    }]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "minecraft:chainmail_leggings",
+                    "functions": [{
+                        "function": "minecraft:set_nbt",
+                        "tag": "{display:{Lore:['[{\"text\":\"§9+4.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2}"
+                    }]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "minecraft:chainmail_chestplate",
+                    "functions": [{
+                        "function": "minecraft:set_nbt",
+                        "tag": "{display:{Lore:['[{\"text\":\"§9+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2}"
+                    }]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "minecraft:chainmail_helmet",
+                    "functions": [{
+                        "function": "minecraft:set_nbt",
+                        "tag": "{display:{Lore:['[{\"text\":\"§9+2.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2}"
+                    }]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "minecraft:leather_boots",
+                    "functions": [{
+                        "function": "set_nbt",
+                        "tag": "{display:{Lore:['[{\"text\":\"§9+1.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2}"
+                    }]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "minecraft:leather_leggings",
+                    "functions": [{
+                        "function": "set_nbt",
+                        "tag": "{display:{Lore:['[{\"text\":\"§9+2.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2}"
+                    }]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [{
+                        "function": "minecraft:set_nbt",
+                        "tag": "{display:{Lore:['[{\"text\":\"§9+3.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2}"
+                    }]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "minecraft:leather_helmet",
+                    "functions": [{
+                        "function": "set_nbt",
+                        "tag": "{display:{Lore:['[{\"text\":\"§9+1.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2}"
+                    }]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:loot_table",
+                "name": "lem.battle:chest/food_central/standard/weapon"
+            }]
+        }
+    ]
+}
