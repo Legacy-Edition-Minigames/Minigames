@@ -1,0 +1,25 @@
+{
+    "isWhitelist": false,
+
+    "blockIDs": [
+        "beacon",
+        "ender_chest",
+        "dispenser",
+        "dropper",
+        "anvil",
+        "chipped_anvil",
+        "damaged_anvil",
+        "enchanting_table",
+        "grindstone",
+        "cartography_table",
+        "loom",
+        "smoker",
+        "furnace",
+        "blast_furnace",
+        "composter",
+        "smithing_table",
+        "stonecutter",
+        "crafting_table",
+        "brewing_stand"
+    ]
+}
