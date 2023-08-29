@@ -1,0 +1,55 @@
+{
+  "title": "[\"\",{\"text\":\"\uF808\uF8033\",\"color\":\"white\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"text\":\"\uF80C\uF80A\uF809\uF808\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"translate\":\"lem.menu.ui.title.config_options\",\"color\":\"#424242\",\"font\":\"lem.menu:menu/text/en_us/title/config_options\"}]",
+  "escToClose": true,
+  "escSound": "lem.menu:sound.menu.back",
+  "forceHotBarSlot": "1",
+  "slots": {
+      "0": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "command/ function lem.menu:menu/config/debug/custompack/toggle",
+        "refreshOnInteract" : true
+      },
+      "1": {
+        "presetID": "lem.menu:button/generic:tickbox",
+        "leftClickAction": "command/ function lem.menu:menu/config/debug/custompack/toggle",
+        "dynamicModel": {
+          "score": "lem.menu.ui.dynamic.debug.config.custompack",
+          "player": "@s",
+          "models": {
+            "1": "lem.menu.ui.button.tick_disabled",
+            "2": "lem.menu.ui.button.tick_enabled"
+          }
+        }
+      },
+      "2": {
+        "presetID": "lem.menu:button/generic:text_tickbox",
+        "leftClickAction": "command/ function lem.menu:menu/config/debug/custompack/toggle",
+        "customModelData": "lem.menu.ui.text.tick.custom_pack",
+        "refreshOnInteract" : true
+      },
+      "73-78": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
+      },
+      "79": {
+        "presetID": "lem.menu:button/generic:standard",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
+      },
+      "80": {
+        "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.done",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
+      },
+      "72": {
+        "presetID": "lem.menu:button/leavegame:visual",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
+      },
+      "81": {
+        "presetID": "lem.menu:button/leavegame:button"
+      }
+  }
+}

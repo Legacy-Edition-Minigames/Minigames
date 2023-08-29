@@ -69,6 +69,19 @@
         "customModelData": "lem.menu.ui.text.button.ui_test",
         "leftClickAction": "openUI/ lem.menu:options/debug/ui_test"
       },
+      "45-51": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:options/debug/config/main"
+      },
+      "52": {
+        "presetID": "lem.menu:button/generic:standard",
+        "leftClickAction": "openUI/ lem.menu:options/debug/config/main"
+      },
+      "53": {
+        "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.config_options",
+        "leftClickAction": "openUI/ lem.menu:options/debug/config/main"
+      },
       "73-78": {
         "presetID": "lem.menu:button/generic:blank",
         "leftClickSound": "lem.menu:sound.menu.back",

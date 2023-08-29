@@ -73,5 +73,7 @@
     "lem.menu.ui.text.button.slider_6": "10059",
     "lem.menu.ui.text.button.slider_7": "10060",
     "lem.menu.ui.text.button.slider_8": "10061",
-    "lem.menu.ui.text.button.slider_9": "10062"
+    "lem.menu.ui.text.button.slider_9": "10062",
+    "lem.menu.ui.text.button.config_options": "10063",
+    "lem.menu.ui.text.tick.custom_pack": "10064"
   }
