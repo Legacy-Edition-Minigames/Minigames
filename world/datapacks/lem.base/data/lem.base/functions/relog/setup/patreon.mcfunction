@@ -81,6 +81,8 @@ execute as 3df94856-6011-4031-a563-9c233bdc8dbc run scoreboard players set @s le
 execute as 97a74711-4042-4c9c-a301-2b2407a1e254 run scoreboard players set @s lem.patreon 1
 #SephPlayz
 execute as 61aac19d-295e-4a35-9db4-62e06470bf8f run scoreboard players set @s lem.patreon 4
+#AshyBear_
+execute as 4d2c4155-1843-4468-90b4-4e95ebb078a1 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
