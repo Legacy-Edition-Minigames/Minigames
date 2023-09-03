@@ -1,0 +1,33 @@
+{
+  "name": "LEM ToolBox Testing",
+  "launchCMD": "java -jar server.jar nogui",
+  "dependencies": [
+    {
+      "name": "minigamesrepo.zip",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigames/tree/toolbox-testing",
+      "location": "/",
+      "gitRepo" : true,
+      "unzip": true
+    },
+    {
+      "name": "server.jar",
+      "url": "https://meta.fabricmc.net/v2/versions/loader/1.20.1/0.14.22/0.11.2/server/jar",
+      "location": "/"
+    },
+    {
+      "name": "Fabric API.jar",
+      "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/XheZ9iGK/fabric-api-0.86.1%2B1.20.1.jar",
+      "location": "/mods/"
+    },
+    {
+      "name": "Server Utils.jar",
+      "url": "file:C:\\Users\\antho\\Desktop\\Minecraft Mod Dev\\Server-Utils\\build\\libs\\ServerUtils-1.0.6b46-1.20.1.jar",
+      "location": "/mods/"
+    },
+    {
+      "name": "Carpet.jar",
+      "url": "https://cdn.modrinth.com/data/TQTTVgYE/versions/K0Wj117C/fabric-carpet-1.20-1.4.112%2Bv230608.jar",
+      "location": "/mods/"
+    }
+  ]
+}
