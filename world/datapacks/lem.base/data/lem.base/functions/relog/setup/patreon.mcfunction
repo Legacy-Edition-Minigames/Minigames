@@ -79,6 +79,8 @@ execute as 61aac19d-295e-4a35-9db4-62e06470bf8f run scoreboard players set @s le
 execute as 4d2c4155-1843-4468-90b4-4e95ebb078a1 run scoreboard players set @s lem.patreon 1
 #XFroggyToadX
 execute as 5b8768a3-f78f-4f7b-90d4-bce715f75562 run scoreboard players set @s lem.patreon 1
+#kerisama1
+execute as 9689ebb4-8461-42c3-ab8b-4dd9a92f60eb run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
