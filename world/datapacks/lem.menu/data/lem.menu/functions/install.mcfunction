@@ -19,3 +19,5 @@ scoreboard objectives add lem.menu.ui.dynamic.debug.ui_test.slider dummy
 scoreboard objectives add lem.menu.ui.dynamic.debug.config.custompack dummy
 #Panorama Config: Always Night
 scoreboard objectives add lem.menu.ui.dynamic.panorama.config.night dummy
+#Panorama Config: Scale
+scoreboard objectives add lem.menu.ui.dynamic.panorama.config.scale dummy

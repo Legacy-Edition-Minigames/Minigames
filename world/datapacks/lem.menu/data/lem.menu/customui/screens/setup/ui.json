@@ -4,50 +4,90 @@
   "escSound": "lem.menu:sound.menu.back",
   "forceHotBarSlot": "1",
   "slots": {
-      "36-42": {
-        "presetID": "lem.menu:button/generic:blank",
-        "leftClickAction": "openUI/ lem.menu:options/ui/scale/panorama"
-      },
-      "43": {
-        "presetID": "lem.menu:button/generic:standard",
-        "leftClickAction": "openUI/ lem.menu:options/ui/scale/panorama"
-      },
-      "44": {
-        "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.button.panorama_scale",
-        "leftClickAction": "openUI/ lem.menu:options/ui/scale/panorama"
-      },
-      "45-51": {
-        "presetID": "lem.menu:button/generic:blank",
-        "leftClickSound": "lem.menu:sound.menu.fail"
-      },
-      "52": {
-        "presetID": "lem.menu:button/generic:standard_dark",
-        "leftClickSound": "lem.menu:sound.menu.fail"
-      },
-      "53": {
-        "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.button.ui_scale",
-        "leftClickSound": "lem.menu:sound.menu.fail"
-      },
-      "54-60": {
-        "presetID": "lem.menu:button/generic:blank",
-        "leftClickAction": "openUI/ lem.menu:setup/finish"
-      },
-      "61": {
-        "presetID": "lem.menu:button/generic:standard",
-        "leftClickAction": "openUI/ lem.menu:setup/finish"
-      },
-      "62": {
-        "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.button.continue",
-        "leftClickAction": "openUI/ lem.menu:setup/finish"
-      },
-      "72": {
-        "presetID": "lem.menu:button/leavegame:visual"
-      },
-      "81": {
-        "presetID": "lem.menu:button/leavegame:button"
+    "36": {
+      "presetID": "lem.menu:button/generic:slider_background",
+      "leftClickAction": "command/ function lem.menu:menu/config/panorama/scale/1"
+    },
+    "37": {
+      "presetID": "lem.menu:button/generic:blank_slider",
+      "leftClickAction": "command/ function lem.menu:menu/config/panorama/scale/1",
+      "refreshOnInteract" : true
+    },
+    "38-39": {
+      "presetID": "lem.menu:button/generic:blank_slider",
+      "leftClickAction": "command/ function lem.menu:menu/config/panorama/scale/2",
+      "refreshOnInteract" : true
+    },
+    "40": {
+      "presetID": "lem.menu:button/generic:slider_button",
+      "leftClickAction": "command/ function lem.menu:menu/config/panorama/scale/2",
+      "dynamicModel": {
+        "score": "lem.menu.ui.dynamic.panorama.config.scale",
+        "player": "@s",
+        "models": {
+          "1": "lem.menu.ui.slider.0.5",
+          "2": "lem.menu.ui.slider.3.5",
+          "3": "lem.menu.ui.slider.6.5",
+          "4": "lem.menu.ui.slider.9.5"
+        }
       }
+    },
+    "41-42": {
+      "presetID": "lem.menu:button/generic:blank_slider",
+      "leftClickAction": "command/ function lem.menu:menu/config/panorama/scale/3",
+      "refreshOnInteract" : true
+    },
+    "43": {
+      "presetID": "lem.menu:button/generic:blank_slider",
+      "leftClickAction": "command/ function lem.menu:menu/config/panorama/scale/4",
+      "refreshOnInteract" : true
+    },
+    "44": {
+      "presetID": "lem.menu:button/generic:text_slider",
+      "leftClickAction": "command/ function lem.menu:menu/config/panorama/scale/4",
+      "refreshOnInteract" : true,
+      "dynamicModel": {
+        "score": "lem.menu.ui.dynamic.panorama.config.scale",
+        "player": "@s",
+        "models": {
+          "1": "lem.menu.ui.text.button.panorama_1",
+          "2": "lem.menu.ui.text.button.panorama_2",
+          "3": "lem.menu.ui.text.button.panorama_3",
+          "4": "lem.menu.ui.text.button.panorama_4"
+        }
+      }
+    },
+    "45-51": {
+      "presetID": "lem.menu:button/generic:blank",
+      "leftClickSound": "lem.menu:sound.menu.fail"
+    },
+    "52": {
+      "presetID": "lem.menu:button/generic:standard_dark",
+      "leftClickSound": "lem.menu:sound.menu.fail"
+    },
+    "53": {
+      "presetID": "lem.menu:button/generic:text",
+      "customModelData": "lem.menu.ui.text.button.ui_scale",
+      "leftClickSound": "lem.menu:sound.menu.fail"
+    },
+    "54-60": {
+      "presetID": "lem.menu:button/generic:blank",
+      "leftClickAction": "openUI/ lem.menu:setup/finish"
+    },
+    "61": {
+      "presetID": "lem.menu:button/generic:standard",
+      "leftClickAction": "openUI/ lem.menu:setup/finish"
+    },
+    "62": {
+      "presetID": "lem.menu:button/generic:text",
+      "customModelData": "lem.menu.ui.text.button.continue",
+      "leftClickAction": "openUI/ lem.menu:setup/finish"
+    },
+    "72": {
+      "presetID": "lem.menu:button/leavegame:visual"
+    },
+    "81": {
+      "presetID": "lem.menu:button/leavegame:button"
+    }
   }
 }

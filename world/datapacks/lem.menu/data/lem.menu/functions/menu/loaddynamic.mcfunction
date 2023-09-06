@@ -14,6 +14,8 @@ scoreboard players set @s[tag=custompack] lem.menu.ui.dynamic.debug.config.custo
 #Always Night
 userconfig @s test lem.base:panorama_night EQUAL false runCommand scoreboard players set @s lem.menu.ui.dynamic.panorama.config.night 1
 userconfig @s test lem.base:panorama_night EQUAL true runCommand scoreboard players set @s lem.menu.ui.dynamic.panorama.config.night 2
+#UI Scale
+scoreboard players operation @s lem.menu.ui.dynamic.panorama.config.scale = @s lem.panscale
 
 ##Run functions for addons
 function #lem.menu:menu/loaddynamic
