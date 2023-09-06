@@ -17,18 +17,28 @@
       "customModelData": "lem.menu.ui.text.button.select_background",
       "leftClickAction": "openUI/ lem.menu:options/ui/panorama/select_background/1"
     },
-    "9-15": {
+    "9": {
       "presetID": "lem.menu:button/generic:blank",
-      "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/time/toggle"
+      "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/time/toggle",
+      "refreshOnInteract" : true
     },
-    "16": {
-      "presetID": "lem.menu:button/generic:standard",
-      "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/time/toggle"
+    "10": {
+      "presetID": "lem.menu:button/generic:tickbox",
+      "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/time/toggle",
+      "dynamicModel": {
+        "score": "lem.menu.ui.dynamic.panorama.config.night",
+        "player": "@s",
+        "models": {
+          "1": "lem.menu.ui.button.tick_disabled",
+          "2": "lem.menu.ui.button.tick_enabled"
+        }
+      }
     },
-    "17": {
-      "presetID": "lem.menu:button/generic:text",
-      "customModelData": "lem.menu.ui.text.button.toggle_time",
-      "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/time/toggle"
+    "11": {
+      "presetID": "lem.menu:button/generic:text_tickbox",
+      "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/time/toggle",
+      "customModelData": "lem.menu.ui.text.tick.always_night",
+      "refreshOnInteract" : true
     },
     "73-78": {
       "presetID": "lem.menu:button/generic:blank",

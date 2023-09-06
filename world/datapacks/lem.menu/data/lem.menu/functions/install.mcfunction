@@ -15,5 +15,7 @@ scoreboard objectives add lem.menu.panscale dummy
 scoreboard objectives add lem.menu.ui.dynamic.debug.ui_test.tick dummy
 #Debug UI Test: Slider
 scoreboard objectives add lem.menu.ui.dynamic.debug.ui_test.slider dummy
-#Dbeug Config: Custompack
+#Debug Config: Custompack
 scoreboard objectives add lem.menu.ui.dynamic.debug.config.custompack dummy
+#Panorama Config: Always Night
+scoreboard objectives add lem.menu.ui.dynamic.panorama.config.night dummy
