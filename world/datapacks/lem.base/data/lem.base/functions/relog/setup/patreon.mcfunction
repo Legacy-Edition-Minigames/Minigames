@@ -77,6 +77,8 @@ execute as 5b8768a3-f78f-4f7b-90d4-bce715f75562 run scoreboard players set @s le
 execute as 9689ebb4-8461-42c3-ab8b-4dd9a92f60eb run scoreboard players set @s lem.patreon 1
 #SilverPh3nix
 execute as 8101d47e-5992-43a4-b63a-cd019d62e392 run scoreboard players set @s lem.patreon 1
+#Hinzy
+execute as eecfa31d-c863-487e-b050-4a238ff1287c run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
