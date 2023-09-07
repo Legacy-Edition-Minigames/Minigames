@@ -5,12 +5,6 @@ execute as a20181ca-a75d-401e-ac58-36ab8f040cf5 run scoreboard players set @s le
 execute as 03bcb87b-5995-4378-8af3-3f8d181f2d47 run scoreboard players set @s lem.patreon 5
 #Lion8Cake/83649865
 execute as e9e4b393-29d1-4004-b469-125d8b87c124 run scoreboard players set @s lem.patreon 3
-#Jamonster123/19239312
-execute as 56acefcd-7ef6-44a5-9268-0517556a6133 run scoreboard players set @s lem.patreon 1
-#PixeoGames
-execute as 1d6033d1-cad8-426e-913a-c7ccde64de54 run scoreboard players set @s lem.patreon 5
-#Icement
-execute as 02e40f20-686a-4e40-8dda-84d3a2cadc3f run scoreboard players set @s lem.patreon 2
 #PanchoMaule1
 execute as 62c8c43f-e3df-428e-a0c0-ca892ac32781 run scoreboard players set @s lem.patreon 2
 #HomieSiDjack
@@ -51,18 +45,12 @@ execute as d78fb946-7f86-4733-a4dd-431068e252b5 run scoreboard players set @s le
 execute as 8c574bb1-215b-47f5-8094-16e64d3ee2cb run scoreboard players set @s lem.patreon 1
 #Saeraphinx
 execute as 558becd6-3fca-4e64-a6d6-3d6b3b65ef4a run scoreboard players set @s lem.patreon 3
-#M3ric_XD
-execute as e8b5d15d-32d5-4171-82eb-452cf5e7e21d run scoreboard players set @s lem.patreon 1
 #Galabeam
 execute as 2f279f13-32e6-4f72-b13f-fb05d641189a run scoreboard players set @s lem.patreon 3
 #Trashypandius
 execute as 29cb71f8-6677-4c3e-af5e-5c387b52b258 run scoreboard players set @s lem.patreon 1
-#Unipotatoo
-execute as 64264d94-7e54-4836-a4c3-1e9004800360 run scoreboard players set @s lem.patreon 1
 #Jonoland
 execute as 3fe75d30-2989-45af-a12f-3565de70d9c2 run scoreboard players set @s lem.patreon 1
-#Iansonicraft
-execute as 45d15f79-fe2d-4c4b-94a9-1ee88caad7f3 run scoreboard players set @s lem.patreon 1
 #keyaankingamer
 execute as d26590b7-feb4-41c9-8408-4b4724003641 run scoreboard players set @s lem.patreon 1
 #ennii_
@@ -79,6 +67,18 @@ execute as 3529652e-2df3-446b-aa9f-8cb183732ed9 run scoreboard players set @s le
 execute as 3df94856-6011-4031-a563-9c233bdc8dbc run scoreboard players set @s lem.patreon 1
 #Avokade
 execute as 97a74711-4042-4c9c-a301-2b2407a1e254 run scoreboard players set @s lem.patreon 1
+#SephPlayz
+execute as 61aac19d-295e-4a35-9db4-62e06470bf8f run scoreboard players set @s lem.patreon 4
+#AshyBear_
+execute as 4d2c4155-1843-4468-90b4-4e95ebb078a1 run scoreboard players set @s lem.patreon 1
+#XFroggyToadX
+execute as 5b8768a3-f78f-4f7b-90d4-bce715f75562 run scoreboard players set @s lem.patreon 1
+#kerisama1
+execute as 9689ebb4-8461-42c3-ab8b-4dd9a92f60eb run scoreboard players set @s lem.patreon 1
+#SilverPh3nix
+execute as 8101d47e-5992-43a4-b63a-cd019d62e392 run scoreboard players set @s lem.patreon 1
+#Hinzy
+execute as eecfa31d-c863-487e-b050-4a238ff1287c run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
