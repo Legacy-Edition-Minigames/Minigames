@@ -1,60 +1,49 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [{
+            "rolls": 1,
+            "entries": [{
+                "type": "item",
+                "weight": 1,
+                "name": "minecraft:stick",
+                "functions": [{
+                        "function": "set_count",
+                        "count": 1
+                    },
+                    {
+                        "function": "set_nbt",
+                        "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:2s}]}"
+                    }
+                ]
+            }]
+        },
         {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:2s}]}"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 4,
-      "entries": [
+            "rolls": 4,
+            "entries": [{
+                "type": "item",
+                "weight": 1,
+                "name": "minecraft:splash_potion",
+                "functions": [{
+                        "function": "set_count",
+                        "count": 1
+                    },
+                    {
+                        "function": "set_nbt",
+                        "tag": "{Potion:\"minecraft:harming\"}"
+                    }
+                ]
+            }]
+        },
         {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:splash_potion",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:harming\"}"
-            }
-          ]
+            "rolls": 1,
+            "entries": [{
+                "type": "item",
+                "weight": 1,
+                "name": "minecraft:chainmail_chestplate",
+                "functions": [{
+                    "function": "set_nbt",
+                    "tag": "{display:{Lore:['[{\"text\":\"§9+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Damage:229}"
+                }]
+            }]
         }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:chainmail_chestplate",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{Damage:229}"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+    ]
 }

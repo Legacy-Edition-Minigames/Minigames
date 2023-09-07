@@ -17,3 +17,6 @@ scoreboard players set #Store lem.battle.swordblock 1
 
 ##Enable Critical Attacks
 scoreboard players set #Store lem.battle.criticalhits 1
+
+##Enable old knockback
+scoreboard players set #Store lem.battle.oldknockback 1

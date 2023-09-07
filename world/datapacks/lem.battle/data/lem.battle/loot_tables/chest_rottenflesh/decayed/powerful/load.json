@@ -1,62 +1,55 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [{
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:loot_table",
+                "name": "lem.battle:chest/decayed/powerful/weapon"
+            }]
+        },
         {
-          "type": "minecraft:loot_table",
-          "name": "lem.battle:chest/decayed/powerful/weapon"
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:loot_table",
+                "name": "lem.battle:chest/decayed/powerful/armor"
+            }]
+        },
+        {
+            "rolls": 3,
+            "entries": [{
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "lem.battle:chest/decayed/powerful/armor"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 5
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"translate\":\"item.minecraft.tipped_arrow.effect.poison\",\"italic\":false}',Lore:['[{\"translate\":\"effect.minecraft.poison\",\"color\":\"red\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"potion.potency.1\"},{\"text\":\" (0:03)\",\"italic\":false}]']},HideFlags:32,CustomPotionEffects:[{Id:19b,Amplifier:1b,Duration:65}],Potion:\"minecraft:water\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:golden_apple"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "minecraft:cooked_porkchop"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "minecraft:apple"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "lem.battle:chest/decayed/powerful/armor"
-        }
-      ]
-    },
-    {
-      "rolls": 3,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "weight": 1,
-          "name": "lem.battle:chest/decayed/powerful/armor"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:tipped_arrow",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 5
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.tipped_arrow.effect.poison\",\"italic\":false},{\"text\":\" (0:03)\",\"color\":\"gray\",\"italic\":false}]'},CustomPotionEffects:[{Id:19,Amplifier:0b,Duration:60}],Potion:\"minecraft:water\"}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:golden_apple"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:cooked_porkchop"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:apple"
-        }
-      ]
-    }
-  ]
+    ]
 }
