@@ -7,5 +7,5 @@ function lem.menu:menu/config/global
 ##Remove tag
 tag @s remove configupdated
 
-##Reload panorama
-function lem.base:ui/panorama/load
+##Reload bossbars
+function lem.base:ui/globalinfo/load

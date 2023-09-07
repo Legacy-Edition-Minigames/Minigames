@@ -1,5 +1,5 @@
 ##Sync with backend
 userconfig @s sync
 
-##Reload panorama
-function lem.base:ui/panorama/load
+##Reload bossbars
+function lem.base:ui/globalinfo/load
