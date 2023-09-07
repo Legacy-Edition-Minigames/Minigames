@@ -233,6 +233,10 @@ execute if score #Store lem.battle.setattackcooldown matches 0 run userconfig @s
 execute if score #Store lem.battle.setcriticalhits matches 1 run userconfig @s set lem.battle:preset_combat_style_custom_criticals true
 execute if score #Store lem.battle.setcriticalhits matches 0 run userconfig @s set lem.battle:preset_combat_style_custom_criticals false
 
+##Old Knockback
+execute if score #Store lem.battle.setoldknockback matches 1 run userconfig @s set lem.battle:preset_combat_style_old_knockback true
+execute if score #Store lem.battle.setoldknockback matches 0 run userconfig @s set lem.battle:preset_combat_style_old_knockback false
+
 ##Attack Speed
 #Slow
 execute if score #Store lem.battle.setattackspeed matches 0 run userconfig @s set lem.battle:preset_combat_style_custom_attackspeed slow

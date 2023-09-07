@@ -1,0 +1,36 @@
+{
+    "pools": [{
+            "rolls": 1,
+            "entries": [{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [{
+                        "function": "set_nbt",
+                        "tag": "{Damage:376}"
+                    }]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:crossbow",
+                    "functions": [{
+                        "function": "set_nbt",
+                        "tag": "{Damage:457}"
+                    }]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:item",
+                "name": "minecraft:arrow",
+                "functions": [{
+                    "function": "minecraft:set_count",
+                    "count": 5
+                }]
+            }]
+        }
+    ]
+}

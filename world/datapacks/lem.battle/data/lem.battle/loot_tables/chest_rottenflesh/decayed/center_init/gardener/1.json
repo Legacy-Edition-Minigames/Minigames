@@ -1,60 +1,49 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [{
+            "rolls": 1,
+            "entries": [{
+                "type": "item",
+                "weight": 1,
+                "name": "minecraft:shears",
+                "functions": [{
+                        "function": "set_count",
+                        "count": 1
+                    },
+                    {
+                        "function": "set_nbt",
+                        "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:1s}],Damage:219}"
+                    }
+                ]
+            }]
+        },
         {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:shears",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:1s}],Damage:219}"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+            "rolls": 1,
+            "entries": [{
+                "type": "item",
+                "weight": 1,
+                "name": "minecraft:splash_potion",
+                "functions": [{
+                        "function": "set_count",
+                        "count": 1
+                    },
+                    {
+                        "function": "set_nbt",
+                        "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.splash_potion.effect.weakness\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:18b,Amplifier:0b,Duration:150}],Potion:\"minecraft:water\"}"
+                    }
+                ]
+            }]
+        },
         {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:splash_potion",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.splash_potion.effect.weakness\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:18,Amplifier:0b,Duration:140}],Potion:\"minecraft:water\"}"
-            }
-          ]
+            "rolls": 1,
+            "entries": [{
+                "type": "item",
+                "weight": 1,
+                "name": "minecraft:leather_boots",
+                "functions": [{
+                    "function": "set_nbt",
+                    "tag": "{display:{Lore:['[{\"text\":\"§9+1.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Damage:54}"
+                }]
+            }]
         }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:leather_boots",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{Damage:54}"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+    ]
 }

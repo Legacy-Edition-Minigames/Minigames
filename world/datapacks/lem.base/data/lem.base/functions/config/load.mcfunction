@@ -9,3 +9,6 @@ tag @s remove globalpack
 userconfig @s test lem.base:globalpack EQUAL true runCommand tag @s add globalpack
 #CustomPack
 userconfig @s test lem.base:custompack EQUAL true runCommand tag @s add custompack
+
+##Run functions for addons
+function #lem.base:config/load

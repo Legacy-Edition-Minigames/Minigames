@@ -237,6 +237,10 @@ userconfig @s test lem.battle:preset_combat_style_custom_cooldown EQUAL false ru
 userconfig @s test lem.battle:preset_combat_style_custom_criticals EQUAL true runCommand scoreboard players set #Store lem.battle.setcriticalhits 1
 userconfig @s test lem.battle:preset_combat_style_custom_criticals EQUAL false runCommand scoreboard players set #Store lem.battle.setcriticalhits 0
 
+##Old Knockback
+userconfig @s test lem.battle:preset_combat_style_old_knockback EQUAL true runCommand scoreboard players set #Store lem.battle.setoldknockback 1
+userconfig @s test lem.battle:preset_combat_style_old_knockback EQUAL false runCommand scoreboard players set #Store lem.battle.setoldknockback 0
+
 ##Attack Speed
 #Slow
 userconfig @s test lem.battle:preset_combat_style_custom_attackspeed EQUAL slow runCommand scoreboard players set #Store lem.battle.setattackspeed 0

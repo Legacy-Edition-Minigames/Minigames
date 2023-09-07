@@ -5,7 +5,7 @@ execute as @s[tag=CenterChest] at @s run loot insert ~ ~ ~ loot lem.battle:chest
 execute as @s[tag=StandardChest] at @s run loot insert ~ ~ ~ loot lem.battle:chest/decayed/standard/load
 
 ##Powerful
-execute as @s[tag=PowerfulChest] at @s run loot insert ~ ~ ~ loot lem.battle:chest/decayed/refill/load
+execute as @s[tag=PowerfulChest] at @s run loot insert ~ ~ ~ loot lem.battle:chest/decayed/powerful/load
 
 ##Mark as filled
 execute at @s run function lem.battle:game/chests/particle

@@ -118,6 +118,9 @@ userconfig @s remove lem.battle:preset_combat_style_custom_cooldown
 ##Critical Attacks
 userconfig @s remove lem.battle:preset_combat_style_custom_criticals
 
+##Old Knockback
+userconfig @s remove lem.battle:preset_combat_style_old_knockback
+
 ##Attack Speed
 userconfig @s remove lem.battle:preset_combat_style_custom_attackspeed
 
