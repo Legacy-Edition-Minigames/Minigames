@@ -19,16 +19,16 @@
       },
       "9-15": {
         "presetID": "lem.menu:button/generic:blank",
-        "leftClickAction": "openUI/ lem.menu:options/ui/scale/main"
+        "leftClickAction": "openUI/ lem.menu:options/ui/scale"
       },
       "16": {
         "presetID": "lem.menu:button/generic:standard",
-        "leftClickAction": "openUI/ lem.menu:options/ui/scale/main"
+        "leftClickAction": "openUI/ lem.menu:options/ui/scale"
       },
       "17": {
         "presetID": "lem.menu:button/generic:text",
         "customModelData": "lem.menu.ui.text.button.scale_settings",
-        "leftClickAction": "openUI/ lem.menu:options/ui/scale/main"
+        "leftClickAction": "openUI/ lem.menu:options/ui/scale"
       },
       "72": {
         "presetID": "lem.menu:button/leavegame:visual"

@@ -84,5 +84,9 @@
     "lem.menu.ui.text.button.slider_9": "10062",
     "lem.menu.ui.text.button.config_options": "10063",
     "lem.menu.ui.text.tick.custom_pack": "10064",
-    "lem.menu.ui.text.tick.always_night": "10065"
+    "lem.menu.ui.text.tick.always_night": "10065",
+    "lem.menu.ui.text.button.gui_1": "10066",
+    "lem.menu.ui.text.button.gui_2": "10067",
+    "lem.menu.ui.text.button.gui_3": "10068",
+    "lem.menu.ui.text.button.gui_4": "10069"
   }

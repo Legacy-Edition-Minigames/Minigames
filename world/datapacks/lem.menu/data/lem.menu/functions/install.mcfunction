@@ -21,6 +21,8 @@ scoreboard objectives add lem.menu.ui.dynamic.debug.config.custompack dummy
 scoreboard objectives add lem.menu.ui.dynamic.panorama.config.night dummy
 #Panorama Config: Scale
 scoreboard objectives add lem.menu.ui.dynamic.panorama.config.scale dummy
+#UI Config: Scale
+scoreboard objectives add lem.menu.ui.dynamic.ui.config.scale dummy
 
 ##Title
 scoreboard objectives add lem.menu.title dummy

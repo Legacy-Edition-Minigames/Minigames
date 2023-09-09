@@ -17,5 +17,9 @@ userconfig @s test lem.base:panorama_night EQUAL true runCommand scoreboard play
 #UI Scale
 scoreboard players operation @s lem.menu.ui.dynamic.panorama.config.scale = @s lem.panscale
 
+##UI config options
+#UI Scale
+scoreboard players operation @s lem.menu.ui.dynamic.ui.config.scale = @s lem.guiscale
+
 ##Run functions for addons
 function #lem.menu:menu/loaddynamic
