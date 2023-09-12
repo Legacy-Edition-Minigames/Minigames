@@ -16,6 +16,15 @@ userconfig @s test lem.base:panorama_night EQUAL false runCommand scoreboard pla
 userconfig @s test lem.base:panorama_night EQUAL true runCommand scoreboard players set @s lem.menu.ui.dynamic.panorama.config.night 2
 #UI Scale
 scoreboard players operation @s lem.menu.ui.dynamic.panorama.config.scale = @s lem.panscale
+#Background
+userconfig @s test lem.base:panorama_background EQUAL 69 runCommand scoreboard players set @s lem.menu.ui.dynamic.panorama.config.background 8
+userconfig @s test lem.base:panorama_background EQUAL 46 runCommand scoreboard players set @s lem.menu.ui.dynamic.panorama.config.background 7
+userconfig @s test lem.base:panorama_background EQUAL 31 runCommand scoreboard players set @s lem.menu.ui.dynamic.panorama.config.background 6
+userconfig @s test lem.base:panorama_background EQUAL 19 runCommand scoreboard players set @s lem.menu.ui.dynamic.panorama.config.background 5
+userconfig @s test lem.base:panorama_background EQUAL 14 runCommand scoreboard players set @s lem.menu.ui.dynamic.panorama.config.background 4
+userconfig @s test lem.base:panorama_background EQUAL 9 runCommand scoreboard players set @s lem.menu.ui.dynamic.panorama.config.background 3
+userconfig @s test lem.base:panorama_background EQUAL 5 runCommand scoreboard players set @s lem.menu.ui.dynamic.panorama.config.background 2
+userconfig @s test lem.base:panorama_background EQUAL 1 runCommand scoreboard players set @s lem.menu.ui.dynamic.panorama.config.background 1
 
 ##UI config options
 #UI Scale
