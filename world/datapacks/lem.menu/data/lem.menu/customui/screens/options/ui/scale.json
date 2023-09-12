@@ -25,10 +25,10 @@
         "score": "lem.menu.ui.dynamic.panorama.config.scale",
         "player": "@s",
         "models": {
-          "1": "lem.menu.ui.slider.0.5",
-          "2": "lem.menu.ui.slider.3.5",
-          "3": "lem.menu.ui.slider.6.5",
-          "4": "lem.menu.ui.slider.9.5"
+          "1": "lem.menu.ui.slider.1",
+          "2": "lem.menu.ui.slider.52",
+          "3": "lem.menu.ui.slider.104",
+          "4": "lem.menu.ui.slider.151"
         }
       }
     },
@@ -78,10 +78,10 @@
         "score": "lem.menu.ui.dynamic.ui.config.scale",
         "player": "@s",
         "models": {
-          "1": "lem.menu.ui.slider.0.5",
-          "2": "lem.menu.ui.slider.3.5",
-          "3": "lem.menu.ui.slider.6.5",
-          "4": "lem.menu.ui.slider.9.5"
+          "1": "lem.menu.ui.slider.1",
+          "2": "lem.menu.ui.slider.52",
+          "3": "lem.menu.ui.slider.104",
+          "4": "lem.menu.ui.slider.151"
         }
       }
     },
