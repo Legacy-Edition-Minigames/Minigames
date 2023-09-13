@@ -45,3 +45,6 @@ bossbar set minecraft:bannerpushdown2 players @a[tag=ingame,tag=!bedrock]
 
 ##Banner info
 bossbar set minecraft:bannerinfo players @a[tag=ingame,tag=!bedrock]
+
+##Run functions for addons
+function #lem.base:ui/globalinfo/loadpan

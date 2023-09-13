@@ -79,6 +79,8 @@ execute as 9689ebb4-8461-42c3-ab8b-4dd9a92f60eb run scoreboard players set @s le
 execute as 8101d47e-5992-43a4-b63a-cd019d62e392 run scoreboard players set @s lem.patreon 1
 #Hinzy
 execute as eecfa31d-c863-487e-b050-4a238ff1287c run scoreboard players set @s lem.patreon 1
+#KubaKaktus_
+execute as f4d9f942-53cd-41cc-ac32-fa9cc539c9aa run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
