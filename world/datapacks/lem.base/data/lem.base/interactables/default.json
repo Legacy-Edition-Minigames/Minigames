@@ -20,6 +20,7 @@
         "smithing_table",
         "stonecutter",
         "crafting_table",
-        "brewing_stand"
+        "brewing_stand",
+        "respawn_anchor"
     ]
 }
