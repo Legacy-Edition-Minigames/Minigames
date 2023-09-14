@@ -1,60 +1,44 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [{
+            "rolls": 1,
+            "entries": [{
+                "type": "item",
+                "weight": 1,
+                "name": "minecraft:bow",
+                "functions": [{
+                    "function": "set_count",
+                    "count": 1
+                }]
+            }]
+        },
         {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:bow",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:item",
+                "weight": 1,
+                "name": "minecraft:tipped_arrow",
+                "functions": [{
+                        "function": "minecraft:set_nbt",
+                        "tag": "{display:{Name:'{\"translate\":\"item.minecraft.tipped_arrow.effect.weakness\",\"italic\":false}',Lore:['[{\"translate\":\"effect.minecraft.weakness\",\"color\":\"red\",\"italic\":false},{\"text\":\" (0:07)\",\"italic\":false}]','{\"text\":\" \"}','{\"translate\":\"potion.whenDrank\",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"-4 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\",\"color\":\"red\",\"italic\":false}]']},HideFlags:32,CustomPotionEffects:[{Id:18b,Amplifier:0b,Duration:140}],Potion:\"minecraft:water\"}"
+                    },
+                    {
+                        "function": "minecraft:set_count",
+                        "count": 5
+                    }
+                ]
+            }]
+        },
         {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:tipped_arrow",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.tipped_arrow.effect.weakness\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\",\"italic\":false}]'},CustomPotionEffects:[{Id:18,Amplifier:0b,Duration:140}],Potion:\"minecraft:water\"}"
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": 5
-            }
-          ]
+            "rolls": 1,
+            "entries": [{
+                "type": "item",
+                "weight": 1,
+                "name": "minecraft:iron_boots",
+                "functions": [{
+                    "function": "set_nbt",
+                    "tag": "{display:{Lore:['[{\"text\":\"§9+2.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:depth_strider\",lvl:2s}]}"
+                }]
+            }]
         }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:iron_boots",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:depth_strider\",lvl:2s}]}"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+    ]
 }
