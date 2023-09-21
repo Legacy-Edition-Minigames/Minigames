@@ -1,33 +1,44 @@
 {
-    "pools": [{
-            "rolls": 1,
-            "entries": [{
-                "type": "item",
-                "weight": 1,
-                "name": "minecraft:diamond_sword",
-                "functions": [{
-                        "function": "set_count",
-                        "count": 1
-                    },
-                    {
-                        "function": "set_nbt",
-                        "tag": "{display:{Lore:['[{\"text\":\"§9+7.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2}"
-                    }
-                ]
-            }]
-        },
-
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [{
-                "type": "item",
-                "weight": 1,
-                "name": "minecraft:iron_boots",
-                "functions": [{
-                    "function": "set_nbt",
-                    "tag": "{display:{Lore:['[{\"text\":\"§9+2.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:feather_falling\",lvl:2s}]}"
-                }]
-            }]
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['[{\"text\":\"§9+7.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2}"
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_boots",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:feather_falling\",lvl:2s}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

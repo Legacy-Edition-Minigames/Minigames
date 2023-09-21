@@ -1,44 +1,60 @@
 {
-    "pools": [{
-            "rolls": 1,
-            "entries": [{
-                "type": "item",
-                "weight": 1,
-                "name": "minecraft:diamond_pickaxe",
-                "functions": [{
-                    "function": "minecraft:set_nbt",
-                    "tag": "{display:{Lore:['[{\"text\":\"§9+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2}"
-                }]
-            }]
-        },
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [{
-                "type": "item",
-                "weight": 1,
-                "name": "minecraft:potion",
-                "functions": [{
-                        "function": "set_count",
-                        "count": 1
-                    },
-                    {
-                        "function": "set_nbt",
-                        "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.strength\",\"italic\":false},{\"text\":\" (0:10)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:5b,Amplifier:0b,Duration:200}],Potion:\"minecraft:water\"}"
-                    }
-                ]
-            }]
-        },
-        {
-            "rolls": 1,
-            "entries": [{
-                "type": "item",
-                "weight": 1,
-                "name": "minecraft:iron_helmet",
-                "functions": [{
-                    "function": "set_nbt",
-                    "tag": "{display:{Lore:['[{\"text\":\"§9+2.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:thorns\",lvl:1s}]}"
-                }]
-            }]
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:['[{\"text\":\"§9+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2}"
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.strength\",\"italic\":false},{\"text\":\" (0:10)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:5,Amplifier:0b,Duration:200}],Potion:\"minecraft:water\"}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:thorns\",lvl:1s}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

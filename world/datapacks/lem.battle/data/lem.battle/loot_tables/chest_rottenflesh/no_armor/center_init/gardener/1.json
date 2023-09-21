@@ -1,84 +1,95 @@
 {
-    "pools": [{
-            "rolls": 1,
-            "entries": [{
-                "type": "item",
-                "weight": 1,
-                "name": "minecraft:shears",
-                "functions": [{
-                        "function": "set_count",
-                        "count": 1
-                    },
-                    {
-                        "function": "set_nbt",
-                        "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:2s}]}"
-                    }
-                ]
-            }]
-        },
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [{
-                "type": "item",
-                "weight": 1,
-                "name": "minecraft:splash_potion",
-                "functions": [{
-                        "function": "set_count",
-                        "count": 1
-                    },
-                    {
-                        "function": "set_nbt",
-                        "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.splash_potion.effect.weakness\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:18b,Amplifier:0b,Duration:150}],Potion:\"minecraft:water\"}"
-                    }
-                ]
-            }]
-        },
-        {
-            "rolls": 1,
-            "entries": [{
-                "type": "item",
-                "weight": 1,
-                "name": "minecraft:potion",
-                "functions": [{
-                        "function": "minecraft:set_count",
-                        "count": 1
-                    },
-                    {
-                        "function": "minecraft:set_nbt",
-                        "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.leaping\",\"italic\":false},{\"text\":\" (1:30)\",\"color\":\"gray\"}]'},Potion:\"minecraft:strong_leaping\"}",
-                        "conditions": [{
-                            "condition": "minecraft:value_check",
-                            "value": {
-                                "type": "minecraft:score",
-                                "target": {
-                                    "type": "minecraft:fixed",
-                                    "name": "#Store"
-                                },
-                                "score": "lem.battle.leapfix",
-                                "scale": 1
-                            },
-                            "range": 0
-                        }]
-                    },
-                    {
-                        "function": "minecraft:set_nbt",
-                        "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.leaping\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:8b,Amplifier:1b,Duration:400}],Potion:\"minecraft:water\"}",
-                        "conditions": [{
-                            "condition": "minecraft:value_check",
-                            "value": {
-                                "type": "minecraft:score",
-                                "target": {
-                                    "type": "minecraft:fixed",
-                                    "name": "#Store"
-                                },
-                                "score": "lem.battle.leapfix",
-                                "scale": 1
-                            },
-                            "range": 1
-                        }]
-                    }
-                ]
-            }]
+          "type": "minecraft:item",
+          "name": "minecraft:shears",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:2s}]}"
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.splash_potion.effect.weakness\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:18,Amplifier:0b,Duration:140}],Potion:\"minecraft:water\"}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.leaping\",\"italic\":false},{\"text\":\" (1:30)\",\"color\":\"gray\"}]'},Potion:\"minecraft:strong_leaping\"}",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#Store"
+                    },
+                    "score": "lem.battle.leapfix",
+                    "scale": 1
+                  },
+                  "range": 0
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.leaping\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:8,Amplifier:1b,Duration:400}],Potion:\"minecraft:water\"}",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#Store"
+                    },
+                    "score": "lem.battle.leapfix",
+                    "scale": 1
+                  },
+                  "range": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
