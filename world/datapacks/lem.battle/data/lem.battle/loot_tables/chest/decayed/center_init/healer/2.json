@@ -1,56 +1,72 @@
 {
-    "pools": [{
-            "rolls": 1,
-            "entries": [{
-                "type": "item",
-                "weight": 1,
-                "name": "minecraft:potion",
-                "functions": [{
-                        "function": "set_count",
-                        "count": 1
-                    },
-                    {
-                        "function": "set_nbt",
-                        "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.regeneration\",\"italic\":false},{\"text\":\" (0:15)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:10b,Amplifier:0b,Duration:300}],Potion:\"minecraft:water\"}"
-                    }
-                ]
-            }]
-        },
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [{
-                "type": "item",
-                "weight": 1,
-                "name": "minecraft:golden_chestplate",
-                "functions": [{
-                    "function": "set_nbt",
-                    "tag": "{display:{Lore:['[{\"text\":\"§9+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Damage:99}"
-                }]
-            }]
-        },
-        {
-            "rolls": 1,
-            "entries": [{
-                "type": "item",
-                "weight": 1,
-                "name": "minecraft:golden_leggings",
-                "functions": [{
-                    "function": "set_nbt",
-                    "tag": "{display:{Lore:['[{\"text\":\"§9+3.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Damage:94}"
-                }]
-            }]
-        },
-        {
-            "rolls": 1,
-            "entries": [{
-                "type": "item",
-                "weight": 1,
-                "name": "minecraft:golden_boots",
-                "functions": [{
-                    "function": "set_nbt",
-                    "tag": "{display:{Lore:['[{\"text\":\"§9+1.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Damage:79}"
-                }]
-            }]
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.regeneration\",\"italic\":false},{\"text\":\" (0:15)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:10,Amplifier:0b,Duration:300}],Potion:\"minecraft:water\"}"
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_chestplate",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Damage:99}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_leggings",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Damage:94}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_boots",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Damage:79}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
