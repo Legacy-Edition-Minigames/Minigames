@@ -34,7 +34,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:fire_protection\",lvl:2s}]}"
+              "tag": "{display:{Lore:['[{\"text\":\"§9+6.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:fire_protection\",lvl:2s}]}"
             }
           ]
         }

@@ -49,8 +49,8 @@
           "name": "minecraft:chainmail_chestplate",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['[{\"text\":\"§9+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2}"
             }
           ]
         }
