@@ -29,8 +29,6 @@ execute as 4133ad6d-1a53-49b7-8b16-c96430dde0ca run scoreboard players set @s le
 execute as 84d19bef-dcff-447c-975d-f34a0bf8b51f run scoreboard players set @s lem.patreon 1
 #Blizzard325
 execute as 6d892c9f-2cf4-4888-b122-3d3c94dd419c run scoreboard players set @s lem.patreon 1
-#Timboob
-execute as bc1d9d46-937d-4d53-8b26-725c91bb0141 run scoreboard players set @s lem.patreon 1
 #bittyrippedone
 execute as 7f1ca084-fbf7-4f30-84f4-1102bd703706 run scoreboard players set @s lem.patreon 1
 #Nulludo
@@ -53,16 +51,10 @@ execute as 29cb71f8-6677-4c3e-af5e-5c387b52b258 run scoreboard players set @s le
 execute as 3fe75d30-2989-45af-a12f-3565de70d9c2 run scoreboard players set @s lem.patreon 1
 #keyaankingamer
 execute as d26590b7-feb4-41c9-8408-4b4724003641 run scoreboard players set @s lem.patreon 1
-#ennii_
-execute as d55a84a8-c015-4205-b648-49718e7c1bad run scoreboard players set @s lem.patreon 1
 #Cpt_Pingu_
 execute as 2ed18a32-6075-42a3-92a9-4f562e14dc9b run scoreboard players set @s lem.patreon 1
-#DolphDiamond
-execute as 99724f96-50cd-4758-8e3c-1d7b0e07ee3a run scoreboard players set @s lem.patreon 1
 #ISARICH10
 execute as 960e3a4a-35cf-4511-9570-6cd2339a19e5 run scoreboard players set @s lem.patreon 1
-#Jimmy_Jxt
-execute as 3529652e-2df3-446b-aa9f-8cb183732ed9 run scoreboard players set @s lem.patreon 1
 #O0T
 execute as 3df94856-6011-4031-a563-9c233bdc8dbc run scoreboard players set @s lem.patreon 1
 #Avokade
@@ -81,6 +73,12 @@ execute as 8101d47e-5992-43a4-b63a-cd019d62e392 run scoreboard players set @s le
 execute as eecfa31d-c863-487e-b050-4a238ff1287c run scoreboard players set @s lem.patreon 1
 #KubaKaktus_
 execute as f4d9f942-53cd-41cc-ac32-fa9cc539c9aa run scoreboard players set @s lem.patreon 1
+#TheMCArchitect1
+execute as d034b241-5f0b-4607-ad8d-704f1dbced6f run scoreboard players set @s lem.patreon 3
+#Avsalom
+execute as 065debe1-24c0-485e-880a-393973c64b5e run scoreboard players set @s lem.patreon 1
+#keyaankingamer
+execute as d26590b7-feb4-41c9-8408-4b4724003641 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
