@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:thorns\",lvl:2s}]}"
+              "tag": "{display:{Lore:['[{\"text\":\"§9+2.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:thorns\",lvl:2s}]}"
             }
           ]
         },
@@ -19,7 +19,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:thorns\",lvl:2s}]}"
+              "tag": "{display:{Lore:['[{\"text\":\"§9+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:thorns\",lvl:2s}]}"
             }
           ]
         },
@@ -29,7 +29,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:thorns\",lvl:2s}]}"
+              "tag": "{display:{Lore:['[{\"text\":\"§9+6.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:thorns\",lvl:2s}]}"
             }
           ]
         },
@@ -39,7 +39,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:thorns\",lvl:2s}]}"
+              "tag": "{display:{Lore:['[{\"text\":\"§9+2.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:thorns\",lvl:2s}]}"
             }
           ]
         },
@@ -49,7 +49,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:3s}]}"
+              "tag": "{display:{Lore:['[{\"text\":\"§9+1.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:protection\",lvl:3s}]}"
             }
           ]
         },
@@ -59,7 +59,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:3s}]}"
+              "tag": "{display:{Lore:['[{\"text\":\"§9+3.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:protection\",lvl:3s}]}"
             }
           ]
         },
@@ -69,7 +69,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:3s}]}"
+              "tag": "{display:{Lore:['[{\"text\":\"§9+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:protection\",lvl:3s}]}"
             }
           ]
         },
@@ -79,7 +79,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:3s}]}"
+              "tag": "{display:{Lore:['[{\"text\":\"§9+2.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:protection\",lvl:3s}]}"
             }
           ]
         }

@@ -5,7 +5,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:leather_boots"
+          "name": "minecraft:leather_boots",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['[{\"text\":\"§9+1.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2}"
+            }
+          ]
         }
       ]
     },

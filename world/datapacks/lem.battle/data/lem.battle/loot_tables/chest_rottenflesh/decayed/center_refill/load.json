@@ -15,7 +15,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:thorns\",lvl:1s}],Damage:184}"
+              "tag": "{display:{Lore:['[{\"text\":\"§9+2.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:thorns\",lvl:1s}],Damage:184}"
             }
           ]
         },
@@ -26,7 +26,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:thorns\",lvl:1s}],Damage:214}"
+              "tag": "{display:{Lore:['[{\"text\":\"§9+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:thorns\",lvl:1s}],Damage:214}"
             }
           ]
         },
@@ -37,7 +37,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:thorns\",lvl:1s}],Damage:229}"
+              "tag": "{display:{Lore:['[{\"text\":\"§9+6.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:thorns\",lvl:1s}],Damage:229}"
             }
           ]
         },
@@ -48,7 +48,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:thorns\",lvl:1s}],Damage:154}"
+              "tag": "{display:{Lore:['[{\"text\":\"§9+2.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:thorns\",lvl:1s}],Damage:154}"
             }
           ]
         },
@@ -59,7 +59,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:2s}],Damage:79}"
+              "tag": "{display:{Lore:['[{\"text\":\"§9+1.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:protection\",lvl:2s}],Damage:79}"
             }
           ]
         },
@@ -70,7 +70,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:2s}],Damage:94}"
+              "tag": "{display:{Lore:['[{\"text\":\"§9+3.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:protection\",lvl:2s}],Damage:94}"
             }
           ]
         },
@@ -81,7 +81,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:2s}],Damage:99}"
+              "tag": "{display:{Lore:['[{\"text\":\"§9+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:protection\",lvl:2s}],Damage:99}"
             }
           ]
         },
@@ -92,7 +92,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:2s}],Damage:64}"
+              "tag": "{display:{Lore:['[{\"text\":\"§9+2.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:protection\",lvl:2s}],Damage:64}"
             }
           ]
         },

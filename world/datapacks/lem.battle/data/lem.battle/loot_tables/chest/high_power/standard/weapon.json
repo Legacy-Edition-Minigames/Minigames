@@ -179,7 +179,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "lem.battle:chest/normal/standard/bow_and_arrows"
+          "name": "lem.battle:chest/high_power/standard/bow_and_arrows"
         },
         {
           "type": "minecraft:item",
