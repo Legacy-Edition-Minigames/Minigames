@@ -14,7 +14,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:fire_protection\",lvl:4s}]}"
+              "tag": "{display:{Lore:['[{\"text\":\"§9+3.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:fire_protection\",lvl:4s}]}"
             }
           ]
         }
@@ -29,8 +29,8 @@
           "name": "minecraft:golden_apple",
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+3.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:fire_protection\",lvl:4s}]}"
+              "function": "set_count",
+              "count": 1
             }
           ]
         }
