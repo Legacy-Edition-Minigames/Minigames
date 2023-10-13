@@ -1,5 +1,5 @@
 ##Play music when timer runs out
-execute as @a[scores={lem.mustimer=..0}] at @s run function lem.menu:menu/music/pick
+execute as @a[scores={lem.mustimer=..0}] at @s run function lem.menu:menu/music/menu1
 
 ##Decrease timer
 scoreboard players remove @a lem.mustimer 1

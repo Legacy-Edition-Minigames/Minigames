@@ -7,8 +7,11 @@ scoreboardSuffixForceUpdate
 ##Enable Menu
 tag @s remove nomenu
 
-##Display background
-function lem.base:ui/panorama/load
+##Set default title
+scoreboard players set @s lem.menu.title 1
+
+##Reload bossbars (may not be nessecary?)
+function lem.base:ui/globalinfo/load
 
 ##Load Menu
 function lem.menu:menu/load

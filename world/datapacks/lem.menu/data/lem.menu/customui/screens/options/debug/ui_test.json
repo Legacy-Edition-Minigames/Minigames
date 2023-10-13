@@ -1,5 +1,5 @@
 {
-  "title": "[\"\",{\"text\":\"\uF808\uF8033\",\"color\":\"white\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"text\":\"\uF80C\uF80A\uF809\uF808\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"translate\":\"lem.menu.ui.title.ui_test\",\"color\":\"#424242\",\"font\":\"lem.menu:menu/text/en_us/title/ui_test\"}]",
+  "title": "[\"\",{\"text\":\"\uF808\uF8033\",\"color\":\"white\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"text\":\"\uF80C\uF80A\uF809\uF808\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"translate\":\"lem.menu.ui.title.ui_test\",\"color\":\"#2D2D2D\",\"font\":\"lem.menu:menu/text/en_us/title/ui_test\"}]",
   "escToClose": true,
   "escSound": "lem.menu:sound.menu.back",
   "forceHotBarSlot": "1",
@@ -54,14 +54,14 @@
           "player": "@s",
           "models": {
             "1": "lem.menu.ui.slider.1",
-            "2": "lem.menu.ui.slider.2",
-            "3": "lem.menu.ui.slider.3",
-            "4": "lem.menu.ui.slider.4",
-            "5": "lem.menu.ui.slider.5",
-            "6": "lem.menu.ui.slider.6",
-            "7": "lem.menu.ui.slider.7",
-            "8": "lem.menu.ui.slider.8",
-            "9": "lem.menu.ui.slider.9"
+            "2": "lem.menu.ui.slider.20",
+            "3": "lem.menu.ui.slider.39",
+            "4": "lem.menu.ui.slider.58",
+            "5": "lem.menu.ui.slider.76",
+            "6": "lem.menu.ui.slider.95",
+            "7": "lem.menu.ui.slider.114",
+            "8": "lem.menu.ui.slider.133",
+            "9": "lem.menu.ui.slider.151"
           }
         }
       },
