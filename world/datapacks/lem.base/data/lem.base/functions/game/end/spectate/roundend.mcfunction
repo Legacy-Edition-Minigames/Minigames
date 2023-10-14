@@ -4,8 +4,13 @@ execute unless score #Store lem.novictorcheck matches 1 run tag @a[tag=player] a
 ##Add saturation to victor
 effect give @a[tag=Victor] saturation 10 255 true
 
-##Add score
+##Clear offline players from score
+scoreboard players reset * lem.temp
+execute as @a[tag=ingame] run scoreboard players operation @s lem.temp = @s lem.score
 scoreboard players reset * lem.score
+execute as @a[tag=ingame] run scoreboard players operation @s lem.score = @s lem.temp
+
+##Add score
 scoreboard players add @a[tag=Victor] lem.score 1
 
 ##Add to win count
