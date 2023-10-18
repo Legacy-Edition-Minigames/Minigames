@@ -75,6 +75,12 @@ execute as 9aed739e-9be5-4602-beb5-3463f5dab020 run scoreboard players set @s le
 execute as 89450731-be57-4aea-8fd7-2109c35db279 run scoreboard players set @s lem.patreon 1
 #_cherri
 execute as 5308aff8-fe3a-47a2-a2b1-c10da0c0586f run scoreboard players set @s lem.patreon 5
+#maithuna
+execute as e690e9be-ef57-4272-b194-dbf7d110ecfe run scoreboard players set @s lem.patreon 1
+#SuperXg
+execute as ad01efbf-6ab4-4564-8096-43b0df2e0ffc run scoreboard players set @s lem.patreon 1
+#Keyatoro
+execute as b639a90a-c967-4a43-834b-353a0a8bd411 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny

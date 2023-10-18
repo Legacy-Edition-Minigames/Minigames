@@ -18,6 +18,9 @@ scoreboard players set #Store lem.displaymode 2
 #Start
 function lem.base:ui/panorama/start
 
+##Display logo
+function lem.base:ui/logo/load/all
+
 ##Teleport players to map center
 execute as @a[tag=ingame] run function lem.base:game/setup/teleport/load
 
