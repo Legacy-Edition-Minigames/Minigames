@@ -9,3 +9,6 @@ execute as @s[scores={lem.gamecfg=135}] run function lem.battle:menu/load/host/c
 
 ##Weapon damage customization
 execute as @s[scores={lem.gamecfg=143}] run function lem.battle:menu/load/host/combat/open/weapondamage
+
+##Death Options
+execute as @s[scores={lem.gamecfg=174}] run function lem.battle:menu/load/host/combat/open/death

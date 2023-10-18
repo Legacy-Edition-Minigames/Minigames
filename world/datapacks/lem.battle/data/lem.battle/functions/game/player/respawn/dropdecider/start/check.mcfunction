@@ -1,0 +1,8 @@
+##Copy set option
+scoreboard players operation #Store lem.battle.dropmode = #Store lem.battle.setdropmode
+
+##Set to Normal if set to Keep without MultiLives
+execute if score #Store lem.battle.dropmode matches 2 if score #Store lem.lives matches 1 run scoreboard players set #Store lem.battle.dropmode 1
+
+##Run functions for addons
+function #lem.battle:game/player/respawn/dropdecider/start/check

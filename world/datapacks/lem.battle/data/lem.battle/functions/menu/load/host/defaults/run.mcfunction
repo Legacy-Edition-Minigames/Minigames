@@ -93,3 +93,6 @@ scoreboard players set #Store lem.battle.extendedpotionrange 1
 
 ##Random Powerful Chests
 scoreboard players set #Store lem.battle.randompowerchest 0
+
+##Inventory drop behavior
+scoreboard players set #Store lem.battle.setdropmode 1
