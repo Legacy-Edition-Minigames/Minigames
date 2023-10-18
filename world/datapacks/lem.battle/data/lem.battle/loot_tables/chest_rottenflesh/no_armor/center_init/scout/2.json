@@ -1,47 +1,58 @@
 {
-    "pools": [{
-            "rolls": 1,
-            "entries": [{
-                "type": "item",
-                "weight": 1,
-                "name": "minecraft:bow",
-                "functions": [{
-                    "function": "set_count",
-                    "count": 1
-                }]
-            }]
-        },
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [{
-                "type": "minecraft:item",
-                "name": "minecraft:tipped_arrow",
-                "functions": [{
-                        "function": "minecraft:set_count",
-                        "count": 5
-                    },
-                    {
-                        "function": "minecraft:set_nbt",
-                        "tag": "{display:{Name:'{\"translate\":\"item.minecraft.tipped_arrow.effect.weakness\",\"italic\":false}',Lore:['[{\"translate\":\"effect.minecraft.weakness\",\"color\":\"red\",\"italic\":false},{\"text\":\" (0:07)\",\"italic\":false}]','{\"text\":\" \"}','{\"translate\":\"potion.whenDrank\",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"-4 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\",\"color\":\"red\",\"italic\":false}]']},HideFlags:32,CustomPotionEffects:[{Id:18b,Amplifier:0b,Duration:140}],Potion:\"minecraft:water\"}"
-                    }
-                ]
-            }]
-        },
-        {
-            "rolls": 1,
-            "entries": [{
-                "type": "minecraft:item",
-                "name": "minecraft:tipped_arrow",
-                "functions": [{
-                        "function": "minecraft:set_count",
-                        "count": 5
-                    },
-                    {
-                        "function": "minecraft:set_nbt",
-                        "tag": "{display:{Name:'{\"translate\":\"item.minecraft.tipped_arrow.effect.slowness\",\"italic\":false}',Lore:['[{\"translate\":\"effect.minecraft.slowness\",\"color\":\"red\",\"italic\":false},{\"text\":\" (0:05)\",\"color\":\"red\",\"italic\":false}]','{\"text\":\" \"}','{\"translate\":\"potion.whenDrank\",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"-15% \",\"color\":\"red\",\"italic\":false},{\"translate\":\"attribute.name.generic.movement_speed\"}]']},HideFlags:32,CustomPotionEffects:[{Id:2b,Amplifier:0b,Duration:100}],Potion:\"minecraft:water\"}"
-                    }
-                ]
-            }]
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"item.minecraft.tipped_arrow.effect.weakness\",\"italic\":false}',Lore:['[{\"translate\":\"effect.minecraft.weakness\",\"color\":\"red\",\"italic\":false},{\"text\":\" (0:07)\",\"italic\":false}]','{\"text\":\" \"}','{\"translate\":\"potion.whenDrank\",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"-4 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\",\"color\":\"red\",\"italic\":false}]']},HideFlags:32,CustomPotionEffects:[{Id:18,Amplifier:0b,Duration:140}],Potion:\"minecraft:water\"}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"item.minecraft.tipped_arrow.effect.slowness\",\"italic\":false}',Lore:['[{\"translate\":\"effect.minecraft.slowness\",\"color\":\"red\",\"italic\":false},{\"text\":\" (0:05)\",\"color\":\"red\",\"italic\":false}]','{\"text\":\" \"}','{\"translate\":\"potion.whenDrank\",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"-15% \",\"color\":\"red\",\"italic\":false},{\"translate\":\"attribute.name.generic.movement_speed\"}]']},HideFlags:32,CustomPotionEffects:[{Id:2,Amplifier:0b,Duration:100}],Potion:\"minecraft:water\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

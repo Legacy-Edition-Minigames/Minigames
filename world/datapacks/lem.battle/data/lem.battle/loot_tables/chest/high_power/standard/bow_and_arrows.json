@@ -1,26 +1,28 @@
 {
-    "pools": [{
-            "rolls": 1,
-            "entries": [{
-                "type": "minecraft:item",
-                "name": "minecraft:bow"
-            }]
-        },
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [{
-                "type": "minecraft:item",
-                "name": "minecraft:arrow",
-                "functions": [{
-                        "function": "minecraft:set_nbt",
-                        "tag": "{display:{Name:'{\"translate\":\"item.minecraft.tipped_arrow.effect.slowness\",\"italic\":false}',Lore:['[{\"translate\":\"effect.minecraft.slowness\",\"color\":\"red\",\"italic\":false},{\"text\":\" (0:05)\",\"color\":\"red\",\"italic\":false}]','{\"text\":\" \"}','{\"translate\":\"potion.whenDrank\",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"-15% \",\"color\":\"red\",\"italic\":false},{\"translate\":\"attribute.name.generic.movement_speed\"}]']},HideFlags:32,CustomPotionEffects:[{Id:2b,Amplifier:0b,Duration:100}],Potion:\"minecraft:water\"}"
-                    },
-                    {
-                        "function": "minecraft:set_count",
-                        "count": 5
-                    }
-                ]
-            }]
+          "type": "minecraft:item",
+          "name": "minecraft:bow"
         }
-    ]
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

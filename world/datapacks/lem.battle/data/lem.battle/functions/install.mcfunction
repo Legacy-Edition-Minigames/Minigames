@@ -160,6 +160,10 @@ scoreboard objectives add lem.battle.chestcount dummy
 ##Combat style
 scoreboard objectives add lem.battle.combatstyle dummy
 
+##Inventory drop mode
+scoreboard objectives add lem.battle.dropmode dummy
+scoreboard objectives add lem.battle.setdropmode dummy
+
 ##Attack cooldown toggle
 #Backend
 scoreboard objectives add lem.battle.attackcooldown dummy

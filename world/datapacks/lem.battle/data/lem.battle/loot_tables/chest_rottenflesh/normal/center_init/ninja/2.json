@@ -1,49 +1,60 @@
 {
-    "pools": [{
-            "rolls": 1,
-            "entries": [{
-                "type": "item",
-                "weight": 1,
-                "name": "minecraft:potion",
-                "functions": [{
-                        "function": "set_count",
-                        "count": 1
-                    },
-                    {
-                        "function": "set_nbt",
-                        "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.invisibility\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:14b,Amplifier:0b,Duration:400}],Potion:\"minecraft:water\"}"
-                    }
-                ]
-            }]
-        },
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [{
-                "type": "item",
-                "weight": 1,
-                "name": "minecraft:fishing_rod",
-                "functions": [{
-                        "function": "set_count",
-                        "count": 1
-                    },
-                    {
-                        "function": "set_nbt",
-                        "tag": "{Enchantments:[{id:\"minecraft:knockback\",lvl:1s}]}"
-                    }
-                ]
-            }]
-        },
-        {
-            "rolls": 1,
-            "entries": [{
-                "type": "item",
-                "weight": 1,
-                "name": "minecraft:leather_boots",
-                "functions": [{
-                    "function": "set_nbt",
-                    "tag": "{display:{Lore:['[{\"text\":\"§9+1.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2}"
-                }]
-            }]
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.invisibility\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:14,Amplifier:0b,Duration:400}],Potion:\"minecraft:water\"}"
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:knockback\",lvl:1s}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:leather_boots",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['[{\"text\":\"§9+1.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

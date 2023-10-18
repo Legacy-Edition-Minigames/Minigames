@@ -1,55 +1,62 @@
 {
-    "pools": [{
-            "rolls": 1,
-            "entries": [{
-                "type": "minecraft:loot_table",
-                "name": "lem.battle:chest/high_power/powerful/weapon"
-            }]
-        },
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [{
-                "type": "minecraft:loot_table",
-                "name": "lem.battle:chest/high_power/powerful/armor"
-            }]
-        },
-        {
-            "rolls": 3,
-            "entries": [{
-                    "type": "minecraft:loot_table",
-                    "weight": 1,
-                    "name": "lem.battle:chest/high_power/powerful/armor"
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 3,
-                    "name": "minecraft:tipped_arrow",
-                    "functions": [{
-                            "function": "minecraft:set_count",
-                            "count": 5
-                        },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{display:{Name:'{\"translate\":\"item.minecraft.tipped_arrow.effect.poison\",\"italic\":false}',Lore:['[{\"translate\":\"effect.minecraft.poison\",\"color\":\"red\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"potion.potency.1\"},{\"text\":\" (0:03)\",\"italic\":false}]']},HideFlags:32,CustomPotionEffects:[{Id:19b,Amplifier:1b,Duration:65}],Potion:\"minecraft:water\"}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1,
-                    "name": "minecraft:golden_apple"
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 3,
-                    "name": "minecraft:rabbit_stew"
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 2,
-                    "name": "minecraft:cooked_mutton"
-                }
-            ]
+          "type": "minecraft:loot_table",
+          "name": "lem.battle:chest/high_power/powerful/weapon"
         }
-    ]
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "lem.battle:chest/high_power/powerful/armor"
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "lem.battle:chest/high_power/powerful/armor"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"item.minecraft.tipped_arrow.effect.poison\",\"italic\":false}',Lore:['[{\"translate\":\"effect.minecraft.poison\",\"color\":\"red\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"potion.potency.1\"},{\"text\":\" (0:03)\",\"italic\":false}]']},HideFlags:32,CustomPotionEffects:[{Id:19,Amplifier:1b,Duration:60}],Potion:\"minecraft:water\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:rabbit_stew"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:cooked_mutton"
+        }
+      ]
+    }
+  ]
 }

@@ -258,6 +258,11 @@ function lem.battle:game/combat/refresh
 userconfig @s test lem.battle:preset_combat_extendedpotionrange EQUAL true runCommand scoreboard players set #Store lem.battle.extendedpotionrange 1
 userconfig @s test lem.battle:preset_combat_extendedpotionrange EQUAL false runCommand scoreboard players set #Store lem.battle.extendedpotionrange 0
 
+##Item Drop Behavior
+userconfig @s test lem.battle:preset_combat_death_drop EQUAL normal runCommand scoreboard players set #Store lem.battle.setdropmode 1
+userconfig @s test lem.battle:preset_combat_death_drop EQUAL keep runCommand scoreboard players set #Store lem.battle.setdropmode 2
+userconfig @s test lem.battle:preset_combat_death_drop EQUAL clear runCommand scoreboard players set #Store lem.battle.setdropmode 3
+
 ##Mods enable/disable toggle
 userconfig @s test lem.battle:preset_mods_enabled EQUAL true runCommand scoreboard players set #Store lem.enablemods 1
 userconfig @s test lem.battle:preset_mods_enabled EQUAL false runCommand scoreboard players set #Store lem.enablemods 0

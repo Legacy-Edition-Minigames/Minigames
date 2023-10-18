@@ -286,6 +286,9 @@ scoreboard objectives add lem.experimentalserver dummy
 ##Current preset to interact with
 scoreboard objectives add lem.preset dummy
 
+##Generic temproary variable
+scoreboard objectives add lem.temp dummy
+
 ##For addons to disable the built-in UI
 #Game
 scoreboard objectives add lem.ui.game.java.override dummy

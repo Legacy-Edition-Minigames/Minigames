@@ -21,3 +21,6 @@ execute as @e[tag=xof] at @s run tp @s ~ ~ ~ ~20 ~
 
 ##Loop
 schedule function lem.base:lobby/custom/halloween/run 1t
+
+##Force stop loop if lobby is not set to Halloween
+execute unless score #Store lem.lobbytype matches 3 run schedule clear lem.base:lobby/custom/halloween/run

@@ -127,5 +127,8 @@ userconfig @s remove lem.battle:preset_combat_style_custom_attackspeed
 ##Extended potion range
 userconfig @s remove lem.battle:preset_combat_extendedpotionrange
 
+##Item Drop Behavior
+userconfig @s remove lem.battle:preset_combat_death_drop
+
 ##Mods enable/disable toggle
 userconfig @s remove lem.battle:preset_mods_enabled
