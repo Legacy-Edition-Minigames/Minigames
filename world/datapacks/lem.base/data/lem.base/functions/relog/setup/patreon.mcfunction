@@ -87,6 +87,8 @@ execute as 31f5cbc3-8fc5-41f9-9470-48ab1450f823 run scoreboard players set @s le
 execute as 9e64e300-3108-4326-b44b-517a1860af23 run scoreboard players set @s lem.patreon 1
 #ripptoxic
 execute as dcaf457a-016c-4083-a1fe-501251fb793c run scoreboard players set @s lem.patreon 1
+#Arxyxs
+execute as b15123e2-213e-4a1e-85c1-00b0bc1df47d run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
