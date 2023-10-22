@@ -161,8 +161,11 @@ scoreboard objectives add lem.battle.chestcount dummy
 scoreboard objectives add lem.battle.combatstyle dummy
 
 ##Inventory drop mode
-scoreboard objectives add lem.battle.dropmode dummy
-scoreboard objectives add lem.battle.setdropmode dummy
+scoreboard objectives add lem.battle.drop.mode dummy
+scoreboard objectives add lem.battle.drop.setmode dummy
+
+##Quick item despawning
+scoreboard objectives add lem.battle.drop.quickdespawn dummy
 
 ##Attack cooldown toggle
 #Backend

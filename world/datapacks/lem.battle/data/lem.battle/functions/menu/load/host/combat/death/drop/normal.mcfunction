@@ -1,5 +1,5 @@
 ##Set score
-scoreboard players set #Store lem.battle.setdropmode 1
+scoreboard players set #Store lem.battle.drop.setmode 1
 
 ##Display message
 discordChatMSG {"translate":"lem.menu.host.config.update.generic","with":[{"translate":"lem.menu.host.config.update.set","with":[{"translate":"lem.battle.menu.host.config.update.combat.death.drop"},{"translate":"lem.battle.menu.host.config.update.combat.death.drop.normal"}]}]}

@@ -128,7 +128,10 @@ userconfiggroup ADD lem.base:host_preset lem.battle:preset_combat_style_custom_a
 userconfiggroup ADD lem.base:host_preset lem.battle:preset_combat_extendedpotionrange
 
 ##Item Drop Behavior
-userconfiggroup ADD lem.base:host_preset lem.battle:preset_combat_death_drop
+userconfiggroup ADD lem.base:host_preset lem.battle:preset_combat_death_drop_mode
+
+##Quick Item Despawningz
+userconfiggroup ADD lem.base:host_preset lem.battle:preset_combat_death_drop_quickdespawn
 
 ##Mods enable/disable toggle
 userconfiggroup ADD lem.base:host_preset lem.battle:preset_mods_enabled

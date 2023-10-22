@@ -128,7 +128,10 @@ userconfig @s remove lem.battle:preset_combat_style_custom_attackspeed
 userconfig @s remove lem.battle:preset_combat_extendedpotionrange
 
 ##Item Drop Behavior
-userconfig @s remove lem.battle:preset_combat_death_drop
+userconfig @s remove lem.battle:preset_combat_death_drop_mode
+
+##Quick Item Despawning
+userconfig @s remove lem.battle:preset_combat_death_drop_quickdespawn
 
 ##Mods enable/disable toggle
 userconfig @s remove lem.battle:preset_mods_enabled

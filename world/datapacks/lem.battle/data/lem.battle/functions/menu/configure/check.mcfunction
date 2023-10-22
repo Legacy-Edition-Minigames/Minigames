@@ -180,3 +180,9 @@ execute as @s[scores={lem.gamecfg=175}] run function lem.battle:menu/load/host/c
 execute as @s[scores={lem.gamecfg=176}] run function lem.battle:menu/load/host/combat/death/drop/keep
 #Clear
 execute as @s[scores={lem.gamecfg=177}] run function lem.battle:menu/load/host/combat/death/drop/clear
+
+##Quick item despawning
+#Enable
+execute as @s[scores={lem.gamecfg=178}] run function lem.battle:menu/load/host/combat/death/quickdespawn/enable
+#Disable
+execute as @s[scores={lem.gamecfg=179}] run function lem.battle:menu/load/host/combat/death/quickdespawn/disable
