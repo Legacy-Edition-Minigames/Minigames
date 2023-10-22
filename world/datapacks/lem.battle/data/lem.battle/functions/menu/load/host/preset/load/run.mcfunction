@@ -259,9 +259,13 @@ userconfig @s test lem.battle:preset_combat_extendedpotionrange EQUAL true runCo
 userconfig @s test lem.battle:preset_combat_extendedpotionrange EQUAL false runCommand scoreboard players set #Store lem.battle.extendedpotionrange 0
 
 ##Item Drop Behavior
-userconfig @s test lem.battle:preset_combat_death_drop EQUAL normal runCommand scoreboard players set #Store lem.battle.setdropmode 1
-userconfig @s test lem.battle:preset_combat_death_drop EQUAL keep runCommand scoreboard players set #Store lem.battle.setdropmode 2
-userconfig @s test lem.battle:preset_combat_death_drop EQUAL clear runCommand scoreboard players set #Store lem.battle.setdropmode 3
+userconfig @s test lem.battle:preset_combat_death_drop_mode EQUAL normal runCommand scoreboard players set #Store lem.battle.drop.setmode 1
+userconfig @s test lem.battle:preset_combat_death_drop_mode EQUAL keep runCommand scoreboard players set #Store lem.battle.drop.setmode 2
+userconfig @s test lem.battle:preset_combat_death_drop_mode EQUAL clear runCommand scoreboard players set #Store lem.battle.drop.setmode 3
+
+##Extended potion range
+userconfig @s test lem.battle:preset_combat_death_drop_quickdespawn EQUAL true runCommand scoreboard players set #Store lem.battle.drop.quickdespawn 1
+userconfig @s test lem.battle:preset_combat_death_drop_quickdespawn EQUAL false runCommand scoreboard players set #Store lem.battle.drop.quickdespawn 0
 
 ##Mods enable/disable toggle
 userconfig @s test lem.battle:preset_mods_enabled EQUAL true runCommand scoreboard players set #Store lem.enablemods 1

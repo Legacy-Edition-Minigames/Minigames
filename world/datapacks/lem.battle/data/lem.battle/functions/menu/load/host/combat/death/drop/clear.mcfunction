@@ -1,5 +1,5 @@
 ##Set score
-scoreboard players set #Store lem.battle.setdropmode 3
+scoreboard players set #Store lem.battle.drop.setmode 3
 
 ##Display message
 discordChatMSG {"translate":"lem.menu.host.config.update.generic","with":[{"translate":"lem.menu.host.config.update.set","with":[{"text":"Item Drop Behavior"},{"text":"Clear"}]}]}
