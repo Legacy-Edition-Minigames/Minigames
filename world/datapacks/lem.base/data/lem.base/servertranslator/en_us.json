@@ -278,6 +278,7 @@
   "lem.battle.menu.host.config.update.combat.death.drop.normal": "Normal",
   "lem.battle.menu.host.config.update.combat.death.drop.keep": "Keep",
   "lem.battle.menu.host.config.update.combat.death.drop.clear": "Clear",
+  "lem.battle.menu.host.config.update.combat.death.quickdespawn": "Quick Item Despawning",
   "lem.menu.host.config.update.mods": "Modded Content",
   "lem.battle.menu.host.config.update.randompower": "Random Powerful Chests",
   "lem.menu.host.config.needhost": "You need host permissions to do that!",
