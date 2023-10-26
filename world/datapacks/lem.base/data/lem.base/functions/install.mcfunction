@@ -289,6 +289,9 @@ scoreboard objectives add lem.preset dummy
 ##Generic temproary variable
 scoreboard objectives add lem.temp dummy
 
+##Game run time (in the sense of how long the game is)
+scoreboard objectives add lem.gameruntime dummy
+
 ##For addons to disable the built-in UI
 #Game
 scoreboard objectives add lem.ui.game.java.override dummy
