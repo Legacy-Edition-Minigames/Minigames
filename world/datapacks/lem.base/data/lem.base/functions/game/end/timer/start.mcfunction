@@ -6,6 +6,9 @@ execute if score #Store lem.timelimit matches 2 run scoreboard players set #Stor
 #Long
 execute if score #Store lem.timelimit matches 3 run scoreboard players set #Store lem.gametimer 600
 
+##Set run time
+scoreboard players set #Store lem.gameruntime 0
+
 ##Run functions for addons
 function #lem.base:game/end/timer/start
 
