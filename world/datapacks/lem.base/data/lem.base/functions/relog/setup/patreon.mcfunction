@@ -91,6 +91,8 @@ execute as b2353152-0b7c-48e9-a8c4-1bf2ce707ec3 run scoreboard players set @s le
 execute as 7bf8f7e7-e8fe-4906-9ed0-8aaa288cc576 run scoreboard players set @s lem.patreon 1
 #Sin_ender
 execute as ad80d7cf-8115-4e2a-b15d-e5cc0bf6a9a2 run scoreboard players set @s lem.patreon 5
+#Endkloon
+execute as 18b4a5df-5ec6-4033-a96a-9ad6d822efbe run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
