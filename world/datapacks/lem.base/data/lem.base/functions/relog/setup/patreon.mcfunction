@@ -93,6 +93,10 @@ execute as 7bf8f7e7-e8fe-4906-9ed0-8aaa288cc576 run scoreboard players set @s le
 execute as ad80d7cf-8115-4e2a-b15d-e5cc0bf6a9a2 run scoreboard players set @s lem.patreon 5
 #Endkloon
 execute as 18b4a5df-5ec6-4033-a96a-9ad6d822efbe run scoreboard players set @s lem.patreon 1
+#Chlebqowy
+execute as 98160b06-579d-48dc-8586-62c5033971f8 run scoreboard players set @s lem.patreon 1
+#PixeoGames
+execute as 1d6033d1-cad8-426e-913a-c7ccde64de54 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
