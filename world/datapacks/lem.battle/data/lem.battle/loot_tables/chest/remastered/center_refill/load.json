@@ -237,7 +237,7 @@
                 {
                   "attribute": "minecraft:generic.attack_damage",
                   "name": "",
-                  "amount": 6,
+                  "amount": 5,
                   "operation": "addition",
                   "slot": "mainhand"
                 }
@@ -320,7 +320,7 @@
                 {
                   "attribute": "minecraft:generic.attack_damage",
                   "name": "",
-                  "amount": 6,
+                  "amount": 5,
                   "operation": "addition",
                   "slot": "mainhand"
                 }
@@ -403,7 +403,7 @@
                 {
                   "attribute": "minecraft:generic.attack_damage",
                   "name": "",
-                  "amount": 6,
+                  "amount": 5,
                   "operation": "addition",
                   "slot": "mainhand"
                 }
@@ -486,7 +486,7 @@
                 {
                   "attribute": "minecraft:generic.attack_damage",
                   "name": "",
-                  "amount": 4,
+                  "amount": 3,
                   "operation": "addition",
                   "slot": "mainhand"
                 }
@@ -580,7 +580,7 @@
                 {
                   "attribute": "minecraft:generic.attack_damage",
                   "name": "",
-                  "amount": 5,
+                  "amount": 4,
                   "operation": "addition",
                   "slot": "mainhand"
                 }
@@ -679,7 +679,7 @@
                 {
                   "attribute": "minecraft:generic.attack_damage",
                   "name": "",
-                  "amount": 3,
+                  "amount": 2,
                   "operation": "addition",
                   "slot": "mainhand"
                 }

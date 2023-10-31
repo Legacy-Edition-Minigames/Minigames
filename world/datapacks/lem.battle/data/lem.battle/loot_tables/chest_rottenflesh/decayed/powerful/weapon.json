@@ -216,7 +216,7 @@
                 {
                   "attribute": "minecraft:generic.attack_damage",
                   "name": "",
-                  "amount": 5,
+                  "amount": 4,
                   "operation": "addition",
                   "slot": "mainhand"
                 }

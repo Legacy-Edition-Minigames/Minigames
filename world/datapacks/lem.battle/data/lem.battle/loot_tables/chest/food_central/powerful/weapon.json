@@ -122,7 +122,7 @@
                 {
                   "attribute": "minecraft:generic.attack_damage",
                   "name": "",
-                  "amount": 4,
+                  "amount": 3,
                   "operation": "addition",
                   "slot": "mainhand"
                 }
@@ -216,7 +216,7 @@
                 {
                   "attribute": "minecraft:generic.attack_damage",
                   "name": "",
-                  "amount": 5,
+                  "amount": 4,
                   "operation": "addition",
                   "slot": "mainhand"
                 }

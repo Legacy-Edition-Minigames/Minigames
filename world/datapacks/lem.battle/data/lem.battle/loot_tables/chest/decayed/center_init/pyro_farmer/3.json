@@ -63,7 +63,7 @@
                 {
                   "attribute": "minecraft:generic.attack_damage",
                   "name": "",
-                  "amount": 2,
+                  "amount": 1,
                   "operation": "addition",
                   "slot": "mainhand"
                 }
