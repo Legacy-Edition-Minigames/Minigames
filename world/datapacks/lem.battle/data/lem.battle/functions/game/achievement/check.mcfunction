@@ -4,7 +4,6 @@ execute unless score #Store lem.battle.hungertype matches 2 as @a[tag=ingame,sco
 ##Cupid
 #Add count
 execute as @a[tag=ingame,scores={lem.battle.kill=1..},nbt={SelectedItem:{id:"minecraft:bow"}}] run scoreboard players add @s lem.battle.cupid 1
-execute as @a[tag=ingame,scores={lem.battle.kill=1..},nbt={Inventory:[{Slot:-106b,id:"minecraft:bow"}]}] run scoreboard players add @s lem.battle.cupid 1
 #Give achivement
 advancement grant @a[tag=ingame,scores={lem.battle.cupid=2..}] only lem.battle:cupid
 
