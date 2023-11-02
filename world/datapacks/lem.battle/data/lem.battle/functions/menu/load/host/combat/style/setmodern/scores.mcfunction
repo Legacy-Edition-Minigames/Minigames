@@ -20,3 +20,6 @@ scoreboard players set #Store lem.battle.criticalhits 1
 
 ##Disable old knockback
 scoreboard players set #Store lem.battle.oldknockback 0
+
+##Disable console damage
+scoreboard players set #Store lem.battle.consoledamage 0

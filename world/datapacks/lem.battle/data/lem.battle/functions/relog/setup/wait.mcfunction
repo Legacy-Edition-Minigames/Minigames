@@ -8,6 +8,7 @@ tag @s remove healthtemp
 tag @s remove midhealth
 tag @s remove fullhealth
 tag @s remove fullhealthinit
+tag @s remove weaponheld
 
 ##Reset kill counter
 #Per-Round

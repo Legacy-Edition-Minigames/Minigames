@@ -160,6 +160,13 @@ scoreboard objectives add lem.battle.chestcount dummy
 ##Combat style
 scoreboard objectives add lem.battle.combatstyle dummy
 
+##Inventory drop mode
+scoreboard objectives add lem.battle.drop.mode dummy
+scoreboard objectives add lem.battle.drop.setmode dummy
+
+##Quick item despawning
+scoreboard objectives add lem.battle.drop.quickdespawn dummy
+
 ##Attack cooldown toggle
 #Backend
 scoreboard objectives add lem.battle.attackcooldown dummy
@@ -228,6 +235,12 @@ scoreboard objectives add lem.battle.setcriticalhits dummy
 scoreboard objectives add lem.battle.oldknockback dummy
 #Custom mode toggle
 scoreboard objectives add lem.battle.setoldknockback dummy
+
+##Console damage toggle
+#Backend
+scoreboard objectives add lem.battle.consoledamage dummy
+#Custom mode toggle
+scoreboard objectives add lem.battle.setconsoledamage dummy
 
 ##For addons to disable built-in sounds
 #Game: Chest Refill

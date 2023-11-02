@@ -1,3 +1,6 @@
+##Load default options
+function lem.base:menu/load/host/defaults/run
+
 ##Load scores from config
 function #lem.base:menu/load/host/preset/load/run
 

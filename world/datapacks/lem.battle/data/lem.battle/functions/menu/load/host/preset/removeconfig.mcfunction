@@ -127,5 +127,14 @@ userconfig @s remove lem.battle:preset_combat_style_custom_attackspeed
 ##Extended potion range
 userconfig @s remove lem.battle:preset_combat_extendedpotionrange
 
+##Item Drop Behavior
+userconfig @s remove lem.battle:preset_combat_death_drop_mode
+
+##Quick Item Despawning
+userconfig @s remove lem.battle:preset_combat_death_drop_quickdespawn
+
+##Console Damage
+userconfig @s remove lem.battle:preset_combat_style_custom_consoledamage
+
 ##Mods enable/disable toggle
 userconfig @s remove lem.battle:preset_mods_enabled

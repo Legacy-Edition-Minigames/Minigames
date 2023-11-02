@@ -7,9 +7,6 @@ scoreboard players reset @s lem.eliminated
 ##Remove a life
 scoreboard players remove @s[scores={lem.lives=1..}] lem.lives 1
 
-##Clear inventory
-clear @s
-
 ##Set heart to empty
 scoreboard players set @s lem.alive 0
 
