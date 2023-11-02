@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+4.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']}}",
+              "tag": "{display:{Lore:['[{\"text\":\"§9+4.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},lem.weapon:1}",
               "conditions": [
                 {
                   "condition": "minecraft:value_check",
@@ -28,7 +28,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+2.5 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']}}",
+              "tag": "{display:{Lore:['[{\"text\":\"§9+2.5 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},lem.weapon:1}",
               "conditions": [
                 {
                   "condition": "minecraft:value_check",
@@ -91,7 +91,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+2.5 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:sharpness\",lvl:1s}]}"
+              "tag": "{display:{Lore:['[{\"text\":\"§9+2.5 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},lem.weapon:1,HideFlags:2,Enchantments:[{id:\"minecraft:sharpness\",lvl:1s}]}"
             }
           ]
         },
@@ -101,7 +101,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+7.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']}}",
+              "tag": "{display:{Lore:['[{\"text\":\"§9+7.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},lem.weapon:1}",
               "conditions": [
                 {
                   "condition": "minecraft:value_check",
@@ -120,7 +120,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+3.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']}}",
+              "tag": "{display:{Lore:['[{\"text\":\"§9+3.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},lem.weapon:1}",
               "conditions": [
                 {
                   "condition": "minecraft:value_check",
@@ -187,7 +187,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+4.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2}"
+              "tag": "{display:{Lore:['[{\"text\":\"§9+4.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},lem.weapon:1,HideFlags:2}"
             }
           ]
         }

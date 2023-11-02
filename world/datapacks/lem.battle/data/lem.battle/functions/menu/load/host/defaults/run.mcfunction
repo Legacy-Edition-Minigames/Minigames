@@ -87,6 +87,9 @@ scoreboard players set #Store lem.battle.setcriticalhits 1
 #Old knockback
 scoreboard players set #Store lem.battle.oldknockback 1
 scoreboard players set #Store lem.battle.setoldknockback 1
+#Console damage
+scoreboard players set #Store lem.battle.consoledamage 1
+scoreboard players set #Store lem.battle.setconsoledamage 1
 
 ##Extended Potion Range
 scoreboard players set #Store lem.battle.extendedpotionrange 1

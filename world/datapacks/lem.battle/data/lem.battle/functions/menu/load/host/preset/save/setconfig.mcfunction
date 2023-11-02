@@ -256,9 +256,13 @@ execute if score #Store lem.battle.drop.setmode matches 1 run userconfig @s set 
 execute if score #Store lem.battle.drop.setmode matches 2 run userconfig @s set lem.battle:preset_combat_death_drop_mode keep
 execute if score #Store lem.battle.drop.setmode matches 3 run userconfig @s set lem.battle:preset_combat_death_drop_mode clear
 
-##Extended potion range
+##Quick Item Despawning
 execute if score #Store lem.battle.drop.quickdespawn matches 1 run userconfig @s set lem.battle:preset_combat_death_drop_quickdespawn true
 execute if score #Store lem.battle.drop.quickdespawn matches 0 run userconfig @s set lem.battle:preset_combat_death_drop_quickdespawn false
+
+##Console Damage
+execute if score #Store lem.battle.setconsoledamage matches 1 run userconfig @s set lem.battle:preset_combat_style_custom_consoledamage true
+execute if score #Store lem.battle.setconsoledamage matches 0 run userconfig @s set lem.battle:preset_combat_style_custom_consoledamage false
 
 ##Mods enable/disable toggle
 execute if score #Store lem.enablemods matches 1 run userconfig @s set lem.battle:preset_mods_enabled true
