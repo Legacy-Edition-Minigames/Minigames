@@ -15,8 +15,6 @@ execute as baa5af53-9b81-40ce-94e1-de2c2f5b9dae run scoreboard players set @s le
 execute as ed63e1a2-a11d-4802-9d5e-3e7ff9cfbdea run scoreboard players set @s lem.patreon 1
 #Cosmobro_
 execute as a478b4d5-bfe9-41ae-92a5-18dfc3fe88f5 run scoreboard players set @s lem.patreon 1
-#bemwy
-execute as 047301fb-b78b-451a-a8fb-162318e3e056 run scoreboard players set @s lem.patreon 1
 #Blitzs2465
 execute as 1b11e685-0792-4000-a667-2403cef2370c run scoreboard players set @s lem.patreon 1
 #Zelckip
@@ -97,6 +95,8 @@ execute as 18b4a5df-5ec6-4033-a96a-9ad6d822efbe run scoreboard players set @s le
 execute as 98160b06-579d-48dc-8586-62c5033971f8 run scoreboard players set @s lem.patreon 1
 #PixeoGames
 execute as 1d6033d1-cad8-426e-913a-c7ccde64de54 run scoreboard players set @s lem.patreon 1
+#FLUFFYDOGNEPTUNE
+execute as ad67a8c2-07f0-4698-aff0-28be9e1ced2e run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
