@@ -1,5 +1,5 @@
 ##Check for Achievements
-function lem.battle:game/achievement/start
+execute unless score #Store lem.recon matches 1 run function lem.battle:game/achievement/start
 
 ##Fill chests
 function lem.battle:game/chests/start
