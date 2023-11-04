@@ -97,6 +97,10 @@ execute as 98160b06-579d-48dc-8586-62c5033971f8 run scoreboard players set @s le
 execute as 1d6033d1-cad8-426e-913a-c7ccde64de54 run scoreboard players set @s lem.patreon 1
 #FLUFFYDOGNEPTUNE
 execute as ad67a8c2-07f0-4698-aff0-28be9e1ced2e run scoreboard players set @s lem.patreon 1
+#Sa9raW
+execute as ffbfa5b7-d481-41da-8a26-73da43b5c780 run scoreboard players set @s lem.patreon 1
+#Sa4mi
+execute as 4f4d3d01-6e0b-4533-add1-e742eeea8962 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
