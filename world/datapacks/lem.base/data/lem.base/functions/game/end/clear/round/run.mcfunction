@@ -1,6 +1,6 @@
 ##Clear Schedules
 #End check
-schedule clear lem.base:game/end/check
+function lem.base:game/end/check/end
 #Elimination check
 schedule clear lem.base:game/player/death/check
 #Extras
