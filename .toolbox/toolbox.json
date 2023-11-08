@@ -4,6 +4,7 @@
   "dependencies": [
     {
       "name": "minigamesrepo.zip",
+      "displayName" : "Legacy Edition Battle",
       "url": "https://github.com/Legacy-Edition-Minigames/Minigames/tree/toolbox-testing",
       "location": "/",
       "gitRepo" : true,
@@ -11,21 +12,25 @@
     },
     {
       "name": "server.jar",
+      "displayName" : "Minecraft Server",
       "url": "https://meta.fabricmc.net/v2/versions/loader/1.20.1/0.14.22/0.11.2/server/jar",
       "location": "/"
     },
     {
       "name": "Fabric API.jar",
+      "displayName" : "Fabric Api",
       "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/XheZ9iGK/fabric-api-0.86.1%2B1.20.1.jar",
       "location": "/mods/"
     },
     {
       "name": "Server Utils.jar",
+      "displayName" : "Server Utils",
       "url": "https://github.com/Legacy-Edition-Minigames/Minigames/raw/toolbox-testing/.toolbox/ServerUtils-1.0.6b50-1.20.1.jar",
       "location": "/mods/"
     },
     {
       "name": "Carpet.jar",
+      "displayName" : "Carpet",
       "url": "https://cdn.modrinth.com/data/TQTTVgYE/versions/K0Wj117C/fabric-carpet-1.20-1.4.112%2Bv230608.jar",
       "location": "/mods/"
     }
