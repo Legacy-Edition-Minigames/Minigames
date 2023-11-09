@@ -27,12 +27,6 @@
       "displayName" : "Server Utils",
       "url": "https://github.com/Legacy-Edition-Minigames/Minigames/raw/toolbox-testing/.toolbox/ServerUtils-1.0.6b50-1.20.1.jar",
       "location": "/mods/"
-    },
-    {
-      "name": "Carpet.jar",
-      "displayName" : "Carpet",
-      "url": "https://cdn.modrinth.com/data/TQTTVgYE/versions/K0Wj117C/fabric-carpet-1.20-1.4.112%2Bv230608.jar",
-      "location": "/mods/"
     }
   ]
 }
