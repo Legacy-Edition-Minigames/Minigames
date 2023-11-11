@@ -53,8 +53,6 @@ execute as 61aac19d-295e-4a35-9db4-62e06470bf8f run scoreboard players set @s le
 execute as 4d2c4155-1843-4468-90b4-4e95ebb078a1 run scoreboard players set @s lem.patreon 1
 #kerisama1
 execute as 9689ebb4-8461-42c3-ab8b-4dd9a92f60eb run scoreboard players set @s lem.patreon 1
-#Hinzy
-execute as eecfa31d-c863-487e-b050-4a238ff1287c run scoreboard players set @s lem.patreon 1
 #TheMCArchitect1
 execute as d034b241-5f0b-4607-ad8d-704f1dbced6f run scoreboard players set @s lem.patreon 3
 #Avsalom
@@ -99,6 +97,10 @@ execute as ffbfa5b7-d481-41da-8a26-73da43b5c780 run scoreboard players set @s le
 execute as 4f4d3d01-6e0b-4533-add1-e742eeea8962 run scoreboard players set @s lem.patreon 1
 #MrT_23
 execute as 39b6feb7-0c8e-4333-9592-1a35e0698abf run scoreboard players set @s lem.patreon 1
+#himalowcost
+execute as c1a7baec-41d4-487d-95b0-3ffb7c69f12c run scoreboard players set @s lem.patreon 4
+#yeetcraft12
+execute as 7ef0d6a3-8fb4-4707-8d5a-8db64a98ff47 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
