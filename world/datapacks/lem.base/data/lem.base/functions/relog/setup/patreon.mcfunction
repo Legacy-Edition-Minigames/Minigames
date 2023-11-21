@@ -105,6 +105,10 @@ execute as 7ef0d6a3-8fb4-4707-8d5a-8db64a98ff47 run scoreboard players set @s le
 execute as 3e50252e-f0bb-4955-bb8b-039a759556d7 run scoreboard players set @s lem.patreon 1
 #manh_e
 execute as 4c679dc2-2ba9-4327-aebc-f58647376298 run scoreboard players set @s lem.patreon 1
+#nono166
+execute as 451bc287-6358-4e88-a3f8-7f2a7db53e43 run scoreboard players set @s lem.patreon 1
+#Little_Butter66
+execute as 7dee3d58-cb9e-4544-bc6e-6f49c6693266 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
