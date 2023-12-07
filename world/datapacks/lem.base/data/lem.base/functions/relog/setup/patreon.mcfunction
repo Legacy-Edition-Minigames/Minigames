@@ -63,8 +63,6 @@ execute as dcaf457a-016c-4083-a1fe-501251fb793c run scoreboard players set @s le
 execute as ad80d7cf-8115-4e2a-b15d-e5cc0bf6a9a2 run scoreboard players set @s lem.patreon 5
 #Endkloon
 execute as 18b4a5df-5ec6-4033-a96a-9ad6d822efbe run scoreboard players set @s lem.patreon 1
-#Chlebqowy
-execute as 98160b06-579d-48dc-8586-62c5033971f8 run scoreboard players set @s lem.patreon 1
 #PixeoGames
 execute as 1d6033d1-cad8-426e-913a-c7ccde64de54 run scoreboard players set @s lem.patreon 1
 #FLUFFYDOGNEPTUNE
@@ -95,6 +93,12 @@ execute as 75f1db29-6b8d-47cf-b44f-cf1397ed1810 run scoreboard players set @s le
 execute as 2c752ec7-852b-4ff4-b9d4-d6628586e99d run scoreboard players set @s lem.patreon 1
 #Cobbl_
 execute as 0c0abe83-cd8d-47dd-a338-a3eff41455b9 run scoreboard players set @s lem.patreon 1
+#TrenchcoatCraig
+execute as 34dd3ae1-24ef-4651-acb2-b65468055c8e run scoreboard players set @s lem.patreon 2
+#CoolMan200
+execute as 016a8f42-74e9-4d11-9472-458ef331b95b run scoreboard players set @s lem.patreon 1
+#TomerTheGreat
+execute as 1273430d-94c8-43a3-9808-fda008935035 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
