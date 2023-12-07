@@ -21,10 +21,10 @@ scoreboard players set #Store lem.map 0
 execute if entity @a[tag=ingame,tag=host] run function lem.base:lobby/start/load
 
 ##Check for Host
-#Start check
-execute unless entity @a[tag=ingame,tag=host] run function lem.base:host/check/run
 #Set game status to Loading Lobby
 execute unless entity @a[tag=ingame,tag=host] run scoreboard players set #Store lem.gamestatus 1
+#Start check
+execute unless entity @a[tag=ingame,tag=host] run function lem.base:host/check/run
 
 ##Stop Music
 function lem.base:game/music/stop

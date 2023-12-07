@@ -63,18 +63,18 @@ userconfig @s test lem.battle:preset_takeeverything EQUAL false runCommand score
 
 ##Lives
 #Infinite
-userconfig @s test lem.battle:preset_lives EQUAL infinite runCommand scoreboard players set #Store lem.lives -1
+userconfig @s test lem.battle:preset_lives EQUAL infinite runCommand scoreboard players set #Store lem.setlives -1
 #Standard
-userconfig @s test lem.battle:preset_lives EQUAL 1 runCommand scoreboard players set #Store lem.lives 1
-userconfig @s test lem.battle:preset_lives EQUAL 2 runCommand scoreboard players set #Store lem.lives 2
-userconfig @s test lem.battle:preset_lives EQUAL 3 runCommand scoreboard players set #Store lem.lives 3
-userconfig @s test lem.battle:preset_lives EQUAL 4 runCommand scoreboard players set #Store lem.lives 4
-userconfig @s test lem.battle:preset_lives EQUAL 5 runCommand scoreboard players set #Store lem.lives 5
-userconfig @s test lem.battle:preset_lives EQUAL 6 runCommand scoreboard players set #Store lem.lives 6
-userconfig @s test lem.battle:preset_lives EQUAL 7 runCommand scoreboard players set #Store lem.lives 7
-userconfig @s test lem.battle:preset_lives EQUAL 8 runCommand scoreboard players set #Store lem.lives 8
-userconfig @s test lem.battle:preset_lives EQUAL 9 runCommand scoreboard players set #Store lem.lives 9
-userconfig @s test lem.battle:preset_lives EQUAL 10 runCommand scoreboard players set #Store lem.lives 10
+userconfig @s test lem.battle:preset_lives EQUAL 1 runCommand scoreboard players set #Store lem.setlives 1
+userconfig @s test lem.battle:preset_lives EQUAL 2 runCommand scoreboard players set #Store lem.setlives 2
+userconfig @s test lem.battle:preset_lives EQUAL 3 runCommand scoreboard players set #Store lem.setlives 3
+userconfig @s test lem.battle:preset_lives EQUAL 4 runCommand scoreboard players set #Store lem.setlives 4
+userconfig @s test lem.battle:preset_lives EQUAL 5 runCommand scoreboard players set #Store lem.setlives 5
+userconfig @s test lem.battle:preset_lives EQUAL 6 runCommand scoreboard players set #Store lem.setlives 6
+userconfig @s test lem.battle:preset_lives EQUAL 7 runCommand scoreboard players set #Store lem.setlives 7
+userconfig @s test lem.battle:preset_lives EQUAL 8 runCommand scoreboard players set #Store lem.setlives 8
+userconfig @s test lem.battle:preset_lives EQUAL 9 runCommand scoreboard players set #Store lem.setlives 9
+userconfig @s test lem.battle:preset_lives EQUAL 10 runCommand scoreboard players set #Store lem.setlives 10
 
 ##Lobby settings
 #Old lobby

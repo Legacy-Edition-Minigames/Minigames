@@ -4,8 +4,17 @@ schedule clear lem.base:host/check/run
 ##Stop checking for gamecfg
 schedule clear lem.base:menu/configure/runner
 
+##End lobby timer check
+schedule clear lem.base:lobby/timer/check
+
 ##Set Rounds
 scoreboard players operation #Store lem.round = #Store lem.setround
+
+##Set lives
+#Standard behavior
+execute unless score #Store lem.recon matches 1 run scoreboard players operation #Store lem.lives = #Store lem.setlives
+#Recon mode
+execute if score #Store lem.recon matches 1 run scoreboard players set #Store lem.lives -1
 
 ##Copy mob heads to container
 execute as @a[tag=ingame,nbt={Inventory:[{Slot:103b,id:"minecraft:skeleton_skull"}]}] run function lem.base:lobby/mobhead/store

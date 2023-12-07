@@ -17,6 +17,12 @@ execute if score #highestScore lem.mapvote matches 1.. run function #lem.base:ma
 ##Run functions for addons
 function #lem.base:mapdecider/run
 
+##Clear forceloaded chunks
+execute at @e[tag=LobbyTP] run forceload remove ~ ~
+
+##Stop lobby respawn Check
+function lem.base:lobby/player/respawn/stop
+
 ##Load map
 function lem.base:mapdecider/check
 
