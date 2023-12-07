@@ -286,6 +286,21 @@ scoreboard objectives add lem.experimentalserver dummy
 ##Current preset to interact with
 scoreboard objectives add lem.preset dummy
 
+##Generic temproary variable
+scoreboard objectives add lem.temp dummy
+
+##Game run time (in the sense of how long the game is)
+scoreboard objectives add lem.gameruntime dummy
+
+##Recon Mode
+scoreboard objectives add lem.recon dummy
+
+##User set lives
+scoreboard objectives add lem.setlives dummy
+
+##Recon mode timer
+scoreboard objectives add lem.recontimer dummy
+
 ##For addons to disable the built-in UI
 #Game
 scoreboard objectives add lem.ui.game.java.override dummy
