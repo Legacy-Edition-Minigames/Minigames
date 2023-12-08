@@ -17,5 +17,11 @@ execute as @a[tag=ingame] run attribute @s minecraft:generic.attack_damage base 
 ##Enable knockback
 execute as @a[tag=ingame] run attribute @s minecraft:generic.knockback_resistance base set 0
 
+##Mark damage as enabled
+scoreboard players set #Store lem.damage 1
+
+##Debug Info
+tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Enabled Damage","color":"gold"}]
+
 ##Stop checking for things that need to be checked every tick
 schedule clear lem.base:game/damage/disable/check
