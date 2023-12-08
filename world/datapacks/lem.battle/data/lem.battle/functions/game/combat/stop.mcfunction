@@ -8,4 +8,4 @@ schedule clear lem.battle:game/combat/check
 schedule clear lem.battle:game/combat/potion/check
 
 ##Stop console damage check
-schedule clear lem.battle:game/combat/consoledamage/check
+function lem.battle:game/combat/consoledamage/stop

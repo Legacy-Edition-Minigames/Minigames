@@ -1,6 +1,9 @@
 ##Add Tag
 tag @s add host
 
+##Clear forceloaded chunks
+execute at @e[tag=LobbyTP] run forceload remove ~ ~
+
 ##Unload previous lobby
 dimensionloader unload lem.base:the_lobby lem.base:menu/load/host/start/timer/lobbyunloaded
 
