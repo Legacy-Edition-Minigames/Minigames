@@ -12,12 +12,12 @@
       "leftClickAction": "command/ function lem.menu:menu/setup/check"
     },
     "52": {
-      "presetID": "lem.menu:button/generic:standard",
+      "presetID": "lem.menu:button/standard/full:default",
       "leftClickAction": "command/ function lem.menu:menu/setup/check"
     },
     "53": {
       "presetID": "lem.menu:button/generic:text",
-      "customModelData": "lem.menu.ui.text.button.ok",
+      "customModelData": "lem.menu.ui.text.button.full.ok",
       "leftClickAction": "command/ function lem.menu:menu/setup/check"
     },
     "72": {

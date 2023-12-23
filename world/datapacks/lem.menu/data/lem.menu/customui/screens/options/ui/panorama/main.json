@@ -4,18 +4,76 @@
   "escSound": "lem.menu:sound.menu.back",
   "forceHotBarSlot": "1",
   "slots": {
-    "0-6": {
-      "presetID": "lem.menu:button/generic:blank",
-      "leftClickAction": "openUI/ lem.menu:options/ui/panorama/select_background/1"
+    "0": {
+      "presetID": "lem.menu:button/generic:slider_background",
+      "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/1"
+    },
+    "1": {
+      "presetID": "lem.menu:button/generic:blank_slider",
+      "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/5",
+      "refreshOnInteract" : true
+    },
+    "2": {
+      "presetID": "lem.menu:button/generic:blank_slider",
+      "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/9",
+      "refreshOnInteract" : true
+    },
+    "3": {
+      "presetID": "lem.menu:button/generic:blank_slider",
+      "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/14",
+      "refreshOnInteract" : true
+    },
+    "4": {
+      "presetID": "lem.menu:button/generic:slider_button",
+      "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/19",
+      "dynamicModel": {
+        "score": "lem.menu.ui.dynamic.panorama.config.background",
+        "player": "@s",
+        "models": {
+          "1": "lem.menu.ui.slider.1",
+          "2": "lem.menu.ui.slider.23",
+          "3": "lem.menu.ui.slider.44",
+          "4": "lem.menu.ui.slider.66",
+          "5": "lem.menu.ui.slider.87",
+          "6": "lem.menu.ui.slider.109",
+          "7": "lem.menu.ui.slider.130",
+          "8": "lem.menu.ui.slider.151"
+        }
+      }
+    },
+    "5": {
+      "presetID": "lem.menu:button/generic:blank_slider",
+      "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/19",
+      "refreshOnInteract" : true
+    },
+    "6": {
+      "presetID": "lem.menu:button/generic:blank_slider",
+      "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/31",
+      "refreshOnInteract" : true
     },
     "7": {
-      "presetID": "lem.menu:button/generic:standard",
-      "leftClickAction": "openUI/ lem.menu:options/ui/panorama/select_background/1"
+      "presetID": "lem.menu:button/generic:blank_slider",
+      "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/46",
+      "refreshOnInteract" : true
     },
     "8": {
-      "presetID": "lem.menu:button/generic:text",
-      "customModelData": "lem.menu.ui.text.button.select_background",
-      "leftClickAction": "openUI/ lem.menu:options/ui/panorama/select_background/1"
+      "presetID": "lem.menu:button/generic:text_slider",
+      "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/69",
+      "refreshOnInteract" : true,
+      "dynamicModel": {
+        "score": "lem.menu.ui.dynamic.panorama.config.background",
+        "player": "@s",
+        "models": {
+          "1": "lem.menu.ui.text.button.full.background_tu1",
+          "2": "lem.menu.ui.text.button.full.background_tu5",
+          "3": "lem.menu.ui.text.button.full.background_tu9",
+          "4": "lem.menu.ui.text.button.full.background_tu14",
+          "5": "lem.menu.ui.text.button.full.background_tu19",
+          "6": "lem.menu.ui.text.button.full.background_tu31",
+          "7": "lem.menu.ui.text.button.full.background_tu46",
+          "8": "lem.menu.ui.text.button.full.background_tu69"
+        }
+      }
     },
     "9": {
       "presetID": "lem.menu:button/generic:blank",
@@ -46,13 +104,13 @@
       "leftClickAction": "back/"
     },
     "79": {
-      "presetID": "lem.menu:button/generic:standard",
+      "presetID": "lem.menu:button/standard/full:default",
       "leftClickSound": "lem.menu:sound.menu.back",
       "leftClickAction": "back/"
     },
     "80": {
       "presetID": "lem.menu:button/generic:text",
-      "customModelData": "lem.menu.ui.text.button.done",
+      "customModelData": "lem.menu.ui.text.button.full.done",
       "leftClickSound": "lem.menu:sound.menu.back",
       "leftClickAction": "back/"
     },

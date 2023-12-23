@@ -9,12 +9,12 @@
         "leftClickSound": "lem.menu:sound.menu.fail"
       },
       "7": {
-        "presetID": "lem.menu:button/generic:standard_dark",
+        "presetID": "lem.menu:button/standard/full:dark",
         "leftClickSound": "lem.menu:sound.menu.fail"
       },
       "8": {
         "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.button.how_to_play",
+        "customModelData": "lem.menu.ui.text.button.full.how_to_play",
         "leftClickSound": "lem.menu:sound.menu.fail"
       },
       "9-15": {
@@ -22,12 +22,12 @@
         "leftClickSound": "lem.menu:sound.menu.fail"
       },
       "16": {
-        "presetID": "lem.menu:button/generic:standard_dark",
+        "presetID": "lem.menu:button/standard/full:dark",
         "leftClickSound": "lem.menu:sound.menu.fail"
       },
       "17": {
         "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.button.controls",
+        "customModelData": "lem.menu.ui.text.button.full.controls",
         "leftClickSound": "lem.menu:sound.menu.fail"
       },
       "18-24": {
@@ -35,12 +35,12 @@
         "leftClickAction": "openUI/ lem.menu:options/settings"
       },
       "25": {
-        "presetID": "lem.menu:button/generic:standard",
+        "presetID": "lem.menu:button/standard/full:default",
         "leftClickAction": "openUI/ lem.menu:options/settings"
       },
       "26": {
         "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.button.settings",
+        "customModelData": "lem.menu.ui.text.button.full.settings",
         "leftClickAction": "openUI/ lem.menu:options/settings"
       },
       "27-33": {
@@ -48,12 +48,12 @@
         "leftClickSound": "lem.menu:sound.menu.fail"
       },
       "34": {
-        "presetID": "lem.menu:button/generic:standard_dark",
+        "presetID": "lem.menu:button/standard/full:dark",
         "leftClickSound": "lem.menu:sound.menu.fail"
       },
       "35": {
         "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.button.credits",
+        "customModelData": "lem.menu.ui.text.button.full.credits",
         "leftClickSound": "lem.menu:sound.menu.fail"
       },
       "72": {

@@ -54,14 +54,14 @@
           "player": "@s",
           "models": {
             "1": "lem.menu.ui.slider.1",
-            "2": "lem.menu.ui.slider.2",
-            "3": "lem.menu.ui.slider.3",
-            "4": "lem.menu.ui.slider.4",
-            "5": "lem.menu.ui.slider.5",
-            "6": "lem.menu.ui.slider.6",
-            "7": "lem.menu.ui.slider.7",
-            "8": "lem.menu.ui.slider.8",
-            "9": "lem.menu.ui.slider.9"
+            "2": "lem.menu.ui.slider.20",
+            "3": "lem.menu.ui.slider.39",
+            "4": "lem.menu.ui.slider.58",
+            "5": "lem.menu.ui.slider.76",
+            "6": "lem.menu.ui.slider.95",
+            "7": "lem.menu.ui.slider.114",
+            "8": "lem.menu.ui.slider.133",
+            "9": "lem.menu.ui.slider.151"
           }
         }
       },
@@ -88,17 +88,43 @@
           "score": "lem.menu.ui.dynamic.debug.ui_test.slider",
           "player": "@s",
           "models": {
-            "1": "lem.menu.ui.text.button.slider_1",
-            "2": "lem.menu.ui.text.button.slider_2",
-            "3": "lem.menu.ui.text.button.slider_3",
-            "4": "lem.menu.ui.text.button.slider_4",
-            "5": "lem.menu.ui.text.button.slider_5",
-            "6": "lem.menu.ui.text.button.slider_6",
-            "7": "lem.menu.ui.text.button.slider_7",
-            "8": "lem.menu.ui.text.button.slider_8",
-            "9": "lem.menu.ui.text.button.slider_9"
+            "1": "lem.menu.ui.text.button.full.slider_1",
+            "2": "lem.menu.ui.text.button.full.slider_2",
+            "3": "lem.menu.ui.text.button.full.slider_3",
+            "4": "lem.menu.ui.text.button.full.slider_4",
+            "5": "lem.menu.ui.text.button.full.slider_5",
+            "6": "lem.menu.ui.text.button.full.slider_6",
+            "7": "lem.menu.ui.text.button.full.slider_7",
+            "8": "lem.menu.ui.text.button.full.slider_8",
+            "9": "lem.menu.ui.text.button.full.slider_9"
           }
         }
+      },
+      "18-20": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "command/ tellraw @s [\"\",{\"text\":\"[Debug] \",\"bold\":true,\"color\":\"red\"},{\"text\":\"Pressed left button!\",\"color\":\"gold\"}]"
+      },
+      "21": {
+        "presetID": "lem.menu:button/standard/half:left_default",
+        "leftClickAction": "command/ tellraw @s [\"\",{\"text\":\"[Debug] \",\"bold\":true,\"color\":\"red\"},{\"text\":\"Pressed left button!\",\"color\":\"gold\"}]"
+      },
+      "22": {
+        "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.half.left.left",
+        "leftClickAction": "command/ tellraw @s [\"\",{\"text\":\"[Debug] \",\"bold\":true,\"color\":\"red\"},{\"text\":\"Pressed left button!\",\"color\":\"gold\"}]"
+      },
+      "23-24": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "command/ tellraw @s [\"\",{\"text\":\"[Debug] \",\"bold\":true,\"color\":\"red\"},{\"text\":\"Pressed right button!\",\"color\":\"gold\"}]"
+      },
+      "25": {
+        "presetID": "lem.menu:button/standard/half:right_default",
+        "leftClickAction": "command/ tellraw @s [\"\",{\"text\":\"[Debug] \",\"bold\":true,\"color\":\"red\"},{\"text\":\"Pressed right button!\",\"color\":\"gold\"}]"
+      },
+      "26": {
+        "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.half.right.right",
+        "leftClickAction": "command/ tellraw @s [\"\",{\"text\":\"[Debug] \",\"bold\":true,\"color\":\"red\"},{\"text\":\"Pressed right button!\",\"color\":\"gold\"}]"
       },
       "73-78": {
         "presetID": "lem.menu:button/generic:blank",
@@ -106,13 +132,13 @@
         "leftClickAction": "back/"
       },
       "79": {
-        "presetID": "lem.menu:button/generic:standard",
+        "presetID": "lem.menu:button/standard/full:default",
         "leftClickSound": "lem.menu:sound.menu.back",
         "leftClickAction": "back/"
       },
       "80": {
         "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.button.done",
+        "customModelData": "lem.menu.ui.text.button.full.done",
         "leftClickSound": "lem.menu:sound.menu.back",
         "leftClickAction": "back/"
       },
