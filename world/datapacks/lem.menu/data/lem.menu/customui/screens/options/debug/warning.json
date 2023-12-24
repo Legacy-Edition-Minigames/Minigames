@@ -1,5 +1,5 @@
 {
-  "title": "[{\"text\":\"\uF809\uF808\uF8041\",\"color\":\"white\",\"font\":\"lem.menu:menu/theme/vanilla/window/popup\"},{\"text\":\"\uF80C\uF80B\uF809\uF808\uF801\",\"font\":\"lem.menu:menu/text/en_us/notice/generic_title\"},{\"translate\":\"lem.menu.ui.notice.generic_warning\",\"font\":\"lem.menu:menu/text/en_us/notice/generic_warning\",\"color\":\"#424242\"},{\"text\":\"\uF80C\uF80B\uF809\uF808\uF801\",\"font\":\"lem.menu:menu/text/en_us/notice/generic_title\"},{\"translate\":\"lem.menu.ui.notice.debug_warning\",\"font\":\"lem.menu:menu/text/en_us/notice/debug_warning\",\"color\":\"#424242\"}]",
+  "title": "[{\"text\":\"\uF809\uF808\uF8041\",\"color\":\"white\",\"font\":\"lem.menu:menu/theme/vanilla/window/popup\"},{\"text\":\"\uF80C\uF80B\uF809\uF808\uF801\",\"font\":\"lem.menu:menu/text/en_us/notice/generic_title\"},{\"translate\":\"lem.menu.ui.notice.generic_warning\",\"font\":\"lem.menu:menu/text/en_us/notice/generic_warning\",\"color\":\"#AEC8D9\"},{\"text\":\"\uF80C\uF80B\uF809\uF808\uF801\",\"font\":\"lem.menu:menu/text/en_us/notice/generic_title\"},{\"translate\":\"lem.menu.ui.notice.debug_warning\",\"font\":\"lem.menu:menu/text/en_us/notice/debug_warning\",\"color\":\"#AEC8D9\"}]",
   "escToClose": true,
   "escSound": "lem.menu:sound.menu.back",
   "forceHotBarSlot": "1",
