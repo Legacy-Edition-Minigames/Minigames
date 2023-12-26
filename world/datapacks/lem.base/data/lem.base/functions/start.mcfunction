@@ -7,6 +7,9 @@ execute unless entity @a run scoreboard players set * lem.relog 1
 ##Mark server as experimental
 scoreboard players set #Store lem.experimentalserver 1
 
+##Enable festive Events
+scoreboard players set #Store lem.event.festive 1
+
 ##Check for relog
 function lem.base:relog/check
 

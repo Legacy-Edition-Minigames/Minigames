@@ -307,6 +307,12 @@ scoreboard objectives add lem.damage dummy
 #Set if not set
 execute unless score #Store lem.damage matches 0.. run scoreboard players set #Store lem.damage 1
 
+##Events
+#Halloween
+scoreboard objectives add lem.event.halloween dummy
+#Festive
+scoreboard objectives add lem.event.festive dummy
+
 ##For addons to disable the built-in UI
 #Game
 scoreboard objectives add lem.ui.game.java.override dummy
