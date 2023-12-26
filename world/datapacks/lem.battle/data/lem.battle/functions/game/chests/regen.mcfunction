@@ -16,7 +16,7 @@ execute if score #Store lem.battle.chest matches 6 as @e[type=area_effect_cloud,
 function lem.battle:ui/chestanim/start
 
 ##Play sound
-execute as @a[tag=ingame] at @s run function lem.battle:sound/game/refill
+execute unless score #Store lem.recon matches 1 as @a[tag=ingame] at @s run function lem.battle:sound/game/refill
 
 ##Refill chests in 30 seconds
 schedule function lem.battle:game/chests/regen 30s
