@@ -5,7 +5,10 @@ execute if score #Store lem.fullreset matches 1 run dimensionloader unload lem.b
 function lem.base:game/player/death/check
 
 ##Check for if the game should end
-function lem.base:game/end/check
+#Standard
+execute unless score #Store lem.recon matches 1 run function lem.base:game/end/check/standard
+#Recon
+execute if score #Store lem.recon matches 1 run function lem.base:game/end/check/recon/start
 
 ##Set game status to Game
 scoreboard players set #Store lem.gamestatus 4
@@ -75,7 +78,7 @@ execute as @a[tag=ingame] at @s run spawnpoint @s ~ ~ ~
 kill @e[type=item]
 
 ##Start Music
-execute if score #Store lem.initialgame matches 1 run function lem.base:game/music/start
+execute unless score #Store lem.recon matches 1 if score #Store lem.initialgame matches 1 run function lem.base:game/music/start
 
 ##Run functions for addons
 function #lem.base:game/start/run
