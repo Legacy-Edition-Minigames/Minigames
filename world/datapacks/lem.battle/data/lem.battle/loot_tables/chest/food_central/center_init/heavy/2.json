@@ -4,15 +4,16 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
+          "weight": 1,
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": 1
             },
             {
-              "function": "minecraft:set_nbt",
+              "function": "set_nbt",
               "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.fire_resistance\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:12,Amplifier:0b,Duration:400}],Potion:\"minecraft:water\"}"
             }
           ]
@@ -23,7 +24,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
+          "weight": 1,
           "name": "minecraft:golden_apple"
         }
       ]

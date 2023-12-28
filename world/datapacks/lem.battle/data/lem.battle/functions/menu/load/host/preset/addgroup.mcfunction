@@ -127,5 +127,14 @@ userconfiggroup ADD lem.base:host_preset lem.battle:preset_combat_style_custom_a
 ##Extended potion range
 userconfiggroup ADD lem.base:host_preset lem.battle:preset_combat_extendedpotionrange
 
+##Item Drop Behavior
+userconfiggroup ADD lem.base:host_preset lem.battle:preset_combat_death_drop_mode
+
+##Quick Item Despawning
+userconfiggroup ADD lem.base:host_preset lem.battle:preset_combat_death_drop_quickdespawn
+
+##Console Damage
+userconfiggroup ADD lem.base:host_preset lem.battle:preset_combat_style_custom_consoledamage
+
 ##Mods enable/disable toggle
 userconfiggroup ADD lem.base:host_preset lem.battle:preset_mods_enabled

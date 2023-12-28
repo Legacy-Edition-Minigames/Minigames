@@ -2,7 +2,7 @@
 scoreboard players set #Store lem.setround 1
 
 ##Set Lives
-scoreboard players set #Store lem.lives 1
+scoreboard players set #Store lem.setlives 1
 
 ##Set spectator type
 scoreboard players set #Store lem.spectype 1

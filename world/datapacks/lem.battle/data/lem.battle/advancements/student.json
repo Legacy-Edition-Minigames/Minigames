@@ -12,7 +12,7 @@
     },
     "frame": "goal"
   },
-  "parent": "lem.base:root",
+  "parent": "lem.battle:root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"

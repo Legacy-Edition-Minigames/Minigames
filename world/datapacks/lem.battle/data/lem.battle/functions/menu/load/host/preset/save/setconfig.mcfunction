@@ -63,18 +63,18 @@ execute if score #Store lem.battle.takeall matches 0 run userconfig @s set lem.b
 
 ##Lives
 #Infinite
-execute if score #Store lem.lives matches -1 run userconfig @s set lem.battle:preset_lives infinite
+execute if score #Store lem.setlives matches -1 run userconfig @s set lem.battle:preset_lives infinite
 #Standard
-execute if score #Store lem.lives matches 1 run userconfig @s set lem.battle:preset_lives 1
-execute if score #Store lem.lives matches 2 run userconfig @s set lem.battle:preset_lives 2
-execute if score #Store lem.lives matches 3 run userconfig @s set lem.battle:preset_lives 3
-execute if score #Store lem.lives matches 4 run userconfig @s set lem.battle:preset_lives 4
-execute if score #Store lem.lives matches 5 run userconfig @s set lem.battle:preset_lives 5
-execute if score #Store lem.lives matches 6 run userconfig @s set lem.battle:preset_lives 6
-execute if score #Store lem.lives matches 7 run userconfig @s set lem.battle:preset_lives 7
-execute if score #Store lem.lives matches 8 run userconfig @s set lem.battle:preset_lives 8
-execute if score #Store lem.lives matches 9 run userconfig @s set lem.battle:preset_lives 9
-execute if score #Store lem.lives matches 10 run userconfig @s set lem.battle:preset_lives 10
+execute if score #Store lem.setlives matches 1 run userconfig @s set lem.battle:preset_lives 1
+execute if score #Store lem.setlives matches 2 run userconfig @s set lem.battle:preset_lives 2
+execute if score #Store lem.setlives matches 3 run userconfig @s set lem.battle:preset_lives 3
+execute if score #Store lem.setlives matches 4 run userconfig @s set lem.battle:preset_lives 4
+execute if score #Store lem.setlives matches 5 run userconfig @s set lem.battle:preset_lives 5
+execute if score #Store lem.setlives matches 6 run userconfig @s set lem.battle:preset_lives 6
+execute if score #Store lem.setlives matches 7 run userconfig @s set lem.battle:preset_lives 7
+execute if score #Store lem.setlives matches 8 run userconfig @s set lem.battle:preset_lives 8
+execute if score #Store lem.setlives matches 9 run userconfig @s set lem.battle:preset_lives 9
+execute if score #Store lem.setlives matches 10 run userconfig @s set lem.battle:preset_lives 10
 
 ##Lobby settings
 #Old lobby
@@ -250,6 +250,19 @@ execute if score #Store lem.battle.setattackspeed matches 3 run userconfig @s se
 ##Extended potion range
 execute if score #Store lem.battle.extendedpotionrange matches 1 run userconfig @s set lem.battle:preset_combat_extendedpotionrange true
 execute if score #Store lem.battle.extendedpotionrange matches 0 run userconfig @s set lem.battle:preset_combat_extendedpotionrange false
+
+##Item Drop Behavior
+execute if score #Store lem.battle.drop.setmode matches 1 run userconfig @s set lem.battle:preset_combat_death_drop_mode normal
+execute if score #Store lem.battle.drop.setmode matches 2 run userconfig @s set lem.battle:preset_combat_death_drop_mode keep
+execute if score #Store lem.battle.drop.setmode matches 3 run userconfig @s set lem.battle:preset_combat_death_drop_mode clear
+
+##Quick Item Despawning
+execute if score #Store lem.battle.drop.quickdespawn matches 1 run userconfig @s set lem.battle:preset_combat_death_drop_quickdespawn true
+execute if score #Store lem.battle.drop.quickdespawn matches 0 run userconfig @s set lem.battle:preset_combat_death_drop_quickdespawn false
+
+##Console Damage
+execute if score #Store lem.battle.setconsoledamage matches 1 run userconfig @s set lem.battle:preset_combat_style_custom_consoledamage true
+execute if score #Store lem.battle.setconsoledamage matches 0 run userconfig @s set lem.battle:preset_combat_style_custom_consoledamage false
 
 ##Mods enable/disable toggle
 execute if score #Store lem.enablemods matches 1 run userconfig @s set lem.battle:preset_mods_enabled true
