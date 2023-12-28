@@ -1,6 +1,6 @@
 {
   "name": "LEM ToolBox Testing",
-  "launchCMD": "java -jar \u003cram\u003e \u003cjavaARGs\u003e server.jar nogui \u003cserverARGs\u003e",
+  "launchCMD": "java -jar <ram> <javaARGs> server.jar nogui <serverARGs>",
   "dependencies": [
     {
       "name": "minigamesrepo.zip",
