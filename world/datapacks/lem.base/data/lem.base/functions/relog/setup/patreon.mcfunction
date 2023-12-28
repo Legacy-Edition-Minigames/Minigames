@@ -88,17 +88,17 @@ execute as 016a8f42-74e9-4d11-9472-458ef331b95b run scoreboard players set @s le
 #TomerTheGreat
 execute as 1273430d-94c8-43a3-9808-fda008935035 run scoreboard players set @s lem.patreon 1
 #FoxPodZ
-execute as a35a944b-0cd3-42e4-9cdd-8c4fb7c1eb46 run scoreboard players set @s lem.patroen 1
+execute as a35a944b-0cd3-42e4-9cdd-8c4fb7c1eb46 run scoreboard players set @s lem.patreon 1
 #meta64
-execute as f0dfbb3b-db2b-4562-a453-f3eb8efc7cba run scoreboard players set @s lem.patroen 1
+execute as f0dfbb3b-db2b-4562-a453-f3eb8efc7cba run scoreboard players set @s lem.patreon 1
 #loaf0002
-execute as 0a78bcdd-d443-4ff0-9ed8-bbd0d4e6252d run scoreboard players set @s lem.patroen 1
+execute as 0a78bcdd-d443-4ff0-9ed8-bbd0d4e6252d run scoreboard players set @s lem.patreon 1
 #AzureAres
-execute as 95f50037-a134-4069-8e93-08e5a69a9b71 run scoreboard players set @s lem.patroen 1
+execute as 95f50037-a134-4069-8e93-08e5a69a9b71 run scoreboard players set @s lem.patreon 1
 #Exopico
-execute as 19b5be2b-6d9b-49a5-8437-d206a12506bf run scoreboard players set @s lem.patroen 1
+execute as 19b5be2b-6d9b-49a5-8437-d206a12506bf run scoreboard players set @s lem.patreon 1
 #MiMiCursed
-execute as 957e7c81-79b5-44fb-a44f-771780c41ef4 run scoreboard players set @s lem.patroen 1
+execute as 957e7c81-79b5-44fb-a44f-771780c41ef4 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
