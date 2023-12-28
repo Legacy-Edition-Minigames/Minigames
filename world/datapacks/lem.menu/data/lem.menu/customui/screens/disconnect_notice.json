@@ -9,16 +9,16 @@
     },
     "45-51": {
       "presetID": "lem.menu:button/generic:blank",
-      "leftClickAction": "command/ function lem.menu:menu/setup/check"
+      "leftClickAction": "command/ function lem.menu:menu/gui/public_notice"
     },
     "52": {
       "presetID": "lem.menu:button/standard/full:default",
-      "leftClickAction": "command/ function lem.menu:menu/setup/check"
+      "leftClickAction": "command/ function lem.menu:menu/gui/public_notice"
     },
     "53": {
       "presetID": "lem.menu:button/generic:text",
       "customModelData": "lem.menu.ui.text.button.full.ok",
-      "leftClickAction": "command/ function lem.menu:menu/setup/check"
+      "leftClickAction": "command/ function lem.menu:menu/gui/public_notice"
     },
     "72": {
       "presetID": "lem.menu:button/leavegame:visual"
