@@ -30,26 +30,13 @@
       },
       "18-24": {
         "presetID": "lem.menu:button/generic:blank",
-        "leftClickAction": "openUI/ lem.menu:public_info"
+        "leftClickAction": "openUI/ lem.menu:exit_server"
       },
       "25": {
         "presetID": "lem.menu:button/standard/full:default",
-        "leftClickAction": "openUI/ lem.menu:public_info"
+        "leftClickAction": "openUI/ lem.menu:exit_server"
       },
       "26": {
-        "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.button.full.late_christmas_event",
-        "leftClickAction": "openUI/ lem.menu:public_info"
-      },
-      "27-33": {
-        "presetID": "lem.menu:button/generic:blank",
-        "leftClickAction": "openUI/ lem.menu:exit_server"
-      },
-      "34": {
-        "presetID": "lem.menu:button/standard/full:default",
-        "leftClickAction": "openUI/ lem.menu:exit_server"
-      },
-      "35": {
         "presetID": "lem.menu:button/generic:text",
         "customModelData": "lem.menu.ui.text.button.full.exit_server",
         "leftClickAction": "openUI/ lem.menu:exit_server"
