@@ -97,6 +97,8 @@ execute as 19b5be2b-6d9b-49a5-8437-d206a12506bf run scoreboard players set @s le
 execute as 957e7c81-79b5-44fb-a44f-771780c41ef4 run scoreboard players set @s lem.patreon 1
 #TheCaptainMiner
 execute as 8c57d5b2-bab7-4500-be85-14ff4acbef74 run scoreboard players set @s lem.patreon 1
+#LightFusionYT
+execute as dc9c6733-ffdc-4e6a-8fed-10b5cf4fa149 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
