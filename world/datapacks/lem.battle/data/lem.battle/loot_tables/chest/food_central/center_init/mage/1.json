@@ -44,7 +44,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.splash_potion.effect.slowness\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:2,Amplifier:0b,Duration:140}],Potion:\"minecraft:water\"}"
+              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.splash_potion.effect.slowness\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\"}]'},custom_potion_effects:[{id:\"minecraft:slowness\",amplifier:0b,duration:140}],Potion:\"minecraft:water\"}"
             }
           ]
         }
