@@ -1,8 +1,8 @@
 ##Fill inventory
-function lem.base:game/inventory/small/fill/run
+execute as @a[tag=ingame] run function lem.base:game/inventory/small/fill/run
 
-##Start check
-function lem.base:game/inventory/small/check
+##Enable ServerUtils SmallInv
+smallinv true
 
 ##Debug info
-tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Starting inventory check","color":"gold"}]
+tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Enabling small inventory","color":"gold"}]

@@ -24,6 +24,9 @@ tag @s add notitle
 ##Run delayrun
 function lem.base:game/player/respawn/delayrun/check
 
+##Delete dropped smallinv items
+execute if score #Store lem.smallinv matches 1 run kill @e[type=item,nbt={Item:{tag:{SmallInv:1}}}]
+
 ##Run functions for addons
 function #lem.base:game/player/respawn/run
 

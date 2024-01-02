@@ -64,5 +64,8 @@ tag @s remove notitle
 ##Reset respawndelay
 scoreboard players reset @s lem.respawndelay
 
+##Give small inventory items
+execute if score #Store lem.smallinv matches 1 run function lem.base:game/inventory/small/fill/run
+
 ##Run functions for addons
 function #lem.base:game/player/respawn/delayrun/run
