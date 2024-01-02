@@ -5,7 +5,7 @@
         "nbt": "{CustomModelData:2}"
       },
       "title": {
-        "text": "Battle"
+        "translate": "lem.battle.advancement.root.name"
       },
       "description": "",
       "frame": "task",
