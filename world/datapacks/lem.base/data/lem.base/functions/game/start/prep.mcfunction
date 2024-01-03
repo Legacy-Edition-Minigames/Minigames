@@ -1,5 +1,5 @@
-##Freeze players in 10 ticks
-schedule function lem.base:game/setup/freeze/check 10t
+##Freeze players
+playerfreeze @a[tag=ingame] true
 
 ##Run TP check
 function #lem.base:game/setup/teleport/check
