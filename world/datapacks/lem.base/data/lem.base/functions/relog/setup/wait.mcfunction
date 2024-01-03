@@ -90,6 +90,9 @@ function lem.base:resource/advancementreset
 ##Hide tablist heart
 setSuffixFont alive "lem.base:tablist/heart/empty" @s
 
+##Freeze player
+playerfreeze @s true
+
 ##Set resource load delay (In ticks!!)
 scoreboard players set @s lem.timer 100
 

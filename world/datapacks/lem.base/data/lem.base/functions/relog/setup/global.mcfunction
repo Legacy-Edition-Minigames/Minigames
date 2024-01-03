@@ -99,5 +99,8 @@ execute if score #Store lem.gamestarted matches 1.. run function lem.base:game/s
 ##Load panorama
 #execute if score #Store lem.gimode matches 2 run function lem.base:ui/panorama/load
 
+##Unfreeze player
+playerfreeze @s false
+
 ##Run functions for addons
 function #lem.base:relog/setup/global
