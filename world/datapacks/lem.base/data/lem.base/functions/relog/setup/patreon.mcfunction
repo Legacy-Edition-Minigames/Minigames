@@ -75,8 +75,6 @@ execute as 75f1db29-6b8d-47cf-b44f-cf1397ed1810 run scoreboard players set @s le
 execute as 2c752ec7-852b-4ff4-b9d4-d6628586e99d run scoreboard players set @s lem.patreon 1
 #TrenchcoatCraig
 execute as 34dd3ae1-24ef-4651-acb2-b65468055c8e run scoreboard players set @s lem.patreon 2
-#TomerTheGreat
-execute as 1273430d-94c8-43a3-9808-fda008935035 run scoreboard players set @s lem.patreon 1
 #FoxPodZ
 execute as a35a944b-0cd3-42e4-9cdd-8c4fb7c1eb46 run scoreboard players set @s lem.patreon 1
 #meta64
@@ -95,6 +93,8 @@ execute as 8c57d5b2-bab7-4500-be85-14ff4acbef74 run scoreboard players set @s le
 execute as dc9c6733-ffdc-4e6a-8fed-10b5cf4fa149 run scoreboard players set @s lem.patreon 1
 #_Arronic_
 execute as 78af622b-a7fc-4adc-8ba2-3ed561822404 run scoreboard players set @s lem.patreon 4
+#pl4yr
+execute as 17e305e8-a0ce-4e3b-85dc-8f46dff39e14 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
