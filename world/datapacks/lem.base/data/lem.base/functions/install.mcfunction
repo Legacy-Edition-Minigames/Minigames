@@ -315,6 +315,12 @@ scoreboard objectives add lem.event.festive dummy
 #Public
 scoreboard objectives add lem.event.public dummy
 
+##Fakeplayer timer
+#Counter
+scoreboard objectives add lem.debug.fakeplayer.counter dummy
+#Target playercount
+scoreboard objectives add lem.debug.fakeplayer.target dummy
+
 ##For addons to disable the built-in UI
 #Game
 scoreboard objectives add lem.ui.game.java.override dummy
