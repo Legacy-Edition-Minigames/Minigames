@@ -1,5 +1,5 @@
 ##RNG
-execute store result score @s lem.musrandom run loot spawn ~ -2 ~ loot lem.battle:musrandom/halloween
+execute store result score @s lem.musrandom run random roll 1..3
 
 #1
 execute if score @s lem.musrandom matches 1 run function lem.battle:game/music/halloween/1
