@@ -1,6 +1,6 @@
 ###Set default config values if they don't exist yet
 ##Alpha tester (unused currently, may be used in the future)
-userconfig @s test lem.base:alpha_tester EQUAL _NOTHING_ runCommand userconfig @s set lem.base:alpha_tester true
+execute unless score #Store lem.event.public matches 1 run userconfig @s test lem.base:alpha_tester EQUAL _NOTHING_ runCommand userconfig @s set lem.base:alpha_tester true
 
 ##UI Scales
 #GUI
