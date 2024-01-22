@@ -13,6 +13,9 @@ scoreboard players set #Store lem.hosttimer 2400
 ##Start lockdown
 lockdown true
 
+##Freeze player
+playerfreeze @s true
+
 ##Start menu check
 function lem.base:menu/check
 

@@ -9,6 +9,8 @@ tag @s remove midhealth
 tag @s remove fullhealth
 tag @s remove fullhealthinit
 tag @s remove weaponheld
+tag @s remove spawnset
+tag @s remove spawnsetready
 
 ##Reset kill counter
 #Per-Round

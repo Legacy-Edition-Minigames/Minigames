@@ -20,11 +20,7 @@ function lem.base:game/end/timer/start
 function lem.base:game/showdown/check
 
 ##Unfreeze players
-#Stop check
-function lem.base:game/setup/freeze/stop
-#Remove shulkers
-execute as @e[tag=boatWall] run tp @s ~ 0 ~
-kill @e[tag=boatWall]
+playerfreeze @a[tag=ingame] false
 
 ##Inform users the game has started
 #P1

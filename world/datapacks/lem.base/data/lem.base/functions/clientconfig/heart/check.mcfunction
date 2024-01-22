@@ -84,6 +84,9 @@ execute as @a[scores={heartcosmetic=28},tag=!heart-pixeogames] run function lem.
 #Lion8Cake
 execute as @a[scores={heartcosmetic=29},tag=heart-lion8cake] run function lem.base:clientconfig/heart/switch/custom/lion8cake
 execute as @a[scores={heartcosmetic=29},tag=!heart-lion8cake] run function lem.base:clientconfig/heart/switch/notunlocked
+#HomieSiDjack
+execute as @a[scores={heartcosmetic=30},tag=heart-homiesidjack] run function lem.base:clientconfig/heart/switch/custom/homiesidjack
+execute as @a[scores={heartcosmetic=30},tag=!heart-homiesidjack] run function lem.base:clientconfig/heart/switch/notunlocked
 
 ##Enable toggle
 scoreboard players enable @a heartcosmetic
