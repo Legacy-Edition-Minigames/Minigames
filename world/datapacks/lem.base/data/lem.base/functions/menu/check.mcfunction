@@ -1,6 +1,3 @@
-##Teleport
-execute as @a run function lem.base:menu/tp
-
 ##Clear check
 schedule clear lem.base:lobby/timer/run/check
 schedule clear lem.base:lobby/timer/check

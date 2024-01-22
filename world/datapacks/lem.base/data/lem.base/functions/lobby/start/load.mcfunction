@@ -4,6 +4,9 @@ schedule clear lem.base:menu/load/host/start/timer/run
 ##Clear menu check
 schedule clear lem.base:menu/check
 
+##Unfreeze player
+playerfreeze @a[tag=ingame] false
+
 ##Load lobby type from config
 scoreboard players operation #Store lem.lobbytype = #Store lem.setlobbytype
 
