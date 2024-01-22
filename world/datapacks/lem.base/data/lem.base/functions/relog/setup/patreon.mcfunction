@@ -77,8 +77,6 @@ execute as 2c752ec7-852b-4ff4-b9d4-d6628586e99d run scoreboard players set @s le
 execute as 34dd3ae1-24ef-4651-acb2-b65468055c8e run scoreboard players set @s lem.patreon 2
 #FoxPodZ
 execute as a35a944b-0cd3-42e4-9cdd-8c4fb7c1eb46 run scoreboard players set @s lem.patreon 1
-#meta64
-execute as f0dfbb3b-db2b-4562-a453-f3eb8efc7cba run scoreboard players set @s lem.patreon 1
 #loaf0002
 execute as 0a78bcdd-d443-4ff0-9ed8-bbd0d4e6252d run scoreboard players set @s lem.patreon 1
 #AzureAres
@@ -105,6 +103,8 @@ execute as c89e3f9e-c606-470a-bcf0-00e021fc3eef run scoreboard players set @s le
 execute as 4204e5d9-ce55-4afd-834f-0d1cd10e3fe4 run scoreboard players set @s lem.patreon 1
 #FamishSteak92
 execute as 32bab921-de2b-4337-89e7-2d5748ddc424 run scoreboard players set @s lem.patreon 2
+#imaurabtw
+execute as 459abf38-1f78-4492-9aaa-c928dca9a9dc run scoreboard players set @s lem.patreon 2
 
 ##Reset heart if no longer subscribed
 #Tiny
