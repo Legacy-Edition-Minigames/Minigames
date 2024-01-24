@@ -1,5 +1,5 @@
 ##RNG
-execute store result score @s lem.musrandom run random roll 1..5
+execute store result score @s lem.musrandom run random value 1..5
 
 #1
 execute if score @s lem.musrandom matches 1 run function lem.battle:game/music/city/1
