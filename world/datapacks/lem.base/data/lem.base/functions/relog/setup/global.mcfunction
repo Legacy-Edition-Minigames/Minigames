@@ -91,7 +91,7 @@ scoreboard players reset @s lem.score
 #Teleport to map
 execute if score #Store lem.gamestatus matches 4 run function lem.base:game/setup/teleport/load
 #Teleport to a spawnpoint
-execute if score #Store lem.gamestatus matches 4 run tp @s @e[type=area_effect_cloud,tag=RandomTP,limit=1,sort=random]
+execute if score #Store lem.gamestatus matches 4 at @e[type=area_effect_cloud,tag=RandomTP,limit=1,sort=random] run playerfreeze @s true ~ ~ ~
 
 ##Load spectator mob
 execute if score #Store lem.gamestarted matches 1.. run function lem.base:game/spectator/start/run
