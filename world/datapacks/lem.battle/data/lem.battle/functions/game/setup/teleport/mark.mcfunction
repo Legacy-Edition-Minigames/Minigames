@@ -9,3 +9,5 @@ execute if score #Store lem.battle.tpselected matches 3 run tag @e[type=area_eff
 ##Swap player tag
 tag @s remove spawnsetready
 tag @s add spawnset
+
+playerfreeze @s true ~ ~ ~
