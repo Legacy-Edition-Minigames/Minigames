@@ -105,6 +105,8 @@ execute as 4204e5d9-ce55-4afd-834f-0d1cd10e3fe4 run scoreboard players set @s le
 execute as 32bab921-de2b-4337-89e7-2d5748ddc424 run scoreboard players set @s lem.patreon 2
 #imaurabtw
 execute as 459abf38-1f78-4492-9aaa-c928dca9a9dc run scoreboard players set @s lem.patreon 2
+#Cbop777
+execute as 98dacc71-5a59-4ca1-9667-945f501acbf0 run scoreboard players set @s lem.patreon 4
 
 ##Reset heart if no longer subscribed
 #Tiny
