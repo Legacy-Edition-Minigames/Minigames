@@ -69,8 +69,6 @@ execute as 3e50252e-f0bb-4955-bb8b-039a759556d7 run scoreboard players set @s le
 execute as 4c679dc2-2ba9-4327-aebc-f58647376298 run scoreboard players set @s lem.patreon 1
 #nono166
 execute as 451bc287-6358-4e88-a3f8-7f2a7db53e43 run scoreboard players set @s lem.patreon 1
-#Xtrabytez
-execute as 75f1db29-6b8d-47cf-b44f-cf1397ed1810 run scoreboard players set @s lem.patreon 1
 #TheRealGorgan
 execute as 2c752ec7-852b-4ff4-b9d4-d6628586e99d run scoreboard players set @s lem.patreon 1
 #TrenchcoatCraig
@@ -81,12 +79,8 @@ execute as a35a944b-0cd3-42e4-9cdd-8c4fb7c1eb46 run scoreboard players set @s le
 execute as 0a78bcdd-d443-4ff0-9ed8-bbd0d4e6252d run scoreboard players set @s lem.patreon 1
 #AzureAres
 execute as 95f50037-a134-4069-8e93-08e5a69a9b71 run scoreboard players set @s lem.patreon 1
-#Exopico
-execute as 19b5be2b-6d9b-49a5-8437-d206a12506bf run scoreboard players set @s lem.patreon 1
 #MiMiCursed
 execute as 957e7c81-79b5-44fb-a44f-771780c41ef4 run scoreboard players set @s lem.patreon 1
-#TheCaptainMiner
-execute as 8c57d5b2-bab7-4500-be85-14ff4acbef74 run scoreboard players set @s lem.patreon 1
 #LightFusionYT
 execute as dc9c6733-ffdc-4e6a-8fed-10b5cf4fa149 run scoreboard players set @s lem.patreon 1
 #_Arronic_
@@ -105,3 +99,7 @@ execute as 4204e5d9-ce55-4afd-834f-0d1cd10e3fe4 run scoreboard players set @s le
 execute as 32bab921-de2b-4337-89e7-2d5748ddc424 run scoreboard players set @s lem.patreon 2
 #imaurabtw
 execute as 459abf38-1f78-4492-9aaa-c928dca9a9dc run scoreboard players set @s lem.patreon 2
+#Cbop777
+execute as 98dacc71-5a59-4ca1-9667-945f501acbf0 run scoreboard players set @s lem.patreon 4
+#Twiney42
+execute as 5fe416d3-50b3-4ff9-a15e-2d0975214cfc run scoreboard players set @s lem.patreon 1
