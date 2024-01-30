@@ -32,16 +32,16 @@
       },
       "18-24": {
         "presetID": "lem.menu:button/generic:blank",
-        "leftClickAction": "openUI/ lem.menu:mgmenu/join/experimental_notice"
+        "leftClickAction": "command/ velocityserverswitch battle_experimental"
       },
       "25": {
         "presetID": "lem.menu:button/standard/full:default",
-        "leftClickAction": "openUI/ lem.menu:mgmenu/join/experimental_notice"
+        "leftClickAction": "command/ velocityserverswitch battle_experimental"
       },
       "26": {
         "presetID": "lem.menu:button/generic:text",
         "customModelData": "lem.menu.ui.text.button.full.server.experimental",
-        "leftClickAction": "openUI/ lem.menu:mgmenu/join/experimental_notice"
+        "leftClickAction": "command/ velocityserverswitch battle_experimental"
       },
       "27-33": {
         "presetID": "lem.menu:button/generic:blank",
