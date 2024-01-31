@@ -12,8 +12,8 @@
     },
     {
       "packname": "menu",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/menu/M1.7/vanilla.zip?raw\u003dtrue",
-      "hash": "",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/menu/M1.8/vanilla.zip?raw\u003dtrue",
+      "hash": "9a62ce139c3a99ab94ec337baa5ff3276a58dff8",
       "required": true,
       "hasPrompt": true,
       "message": "Legacy Edition Minigames requires a resource pack to function properly!",
@@ -30,8 +30,8 @@
     },
     {
       "packname": "all-music",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/menu/M1.7/vanilla.zip?raw\u003dtrue",
-      "hash": "",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/menu/M1.8/vanilla.zip?raw\u003dtrue",
+      "hash": "9a62ce139c3a99ab94ec337baa5ff3276a58dff8",
       "required": true,
       "hasPrompt": true,
       "message": "Legacy Edition Minigames requires a resource pack to function properly!",
