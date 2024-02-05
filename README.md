@@ -1,4 +1,4 @@
-![LLegacy Edition Minigames Battle Logo](https://github.com/Legacy-Edition-Minigames/Minigames/assets/65347035/b0ad22e0-d2dc-43f8-821a-f512bc962540)
+![Legacy Edition Minigames Battle Logo](https://github.com/Legacy-Edition-Minigames/Minigames/assets/65347035/7e05032e-dae2-4c19-9d14-0d55349627ac)
 
 LEM is a set of open source remakes of the Mini Games from Legacy Console Edition.
 
