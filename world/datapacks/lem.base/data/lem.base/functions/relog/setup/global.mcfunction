@@ -44,6 +44,9 @@ function lem.base:game/player/setpid
 ##Detect if Patreon
 function lem.base:relog/setup/patreon
 
+##Check if host is missing
+function lem.base:host/check/run
+
 ##Detect per-user data
 function lem.base:relog/setup/usercheck
 

@@ -2,7 +2,7 @@
 gamemode adventure @s
 
 ##Teleport
-function lem.base:lobby/spawn/run
+custommaploader lobby tp lem.base:the_lobby @s
 
 ##Remove death screen
 title @s title ""

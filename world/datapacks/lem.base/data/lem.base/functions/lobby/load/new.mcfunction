@@ -1,2 +1,2 @@
 ##Create temp dimension
-dimensionloader prepareDimension lem.base:the_lobby lem.base:lobby lem.base:lobby/start/timer/dimensionloaded
+custommaploader lobby load 4jstudios:new_lobby lem.base:the_lobby @a[tag=ingame] lem.base:lobby/start/timer/dimensionloaded

@@ -1,5 +1,5 @@
 ##Teleport
-function lem.base:lobby/spawn/run
+custommaploader lobby tp lem.base:the_lobby @s
 
 ##Tag
 tag @s add lobby

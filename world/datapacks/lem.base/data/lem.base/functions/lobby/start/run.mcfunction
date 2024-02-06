@@ -1,11 +1,5 @@
-##Spawn
-execute as @a[tag=ingame] at @s run function lem.base:lobby/spawn/run
-
 ##Set game status to Lobby
 scoreboard players set #Store lem.gamestatus 2
-
-##Forceload spawnpoints
-execute at @e[tag=LobbyTP] run forceload add ~ ~ ~ ~
 
 ##Update display
 function lem.base:lobby/display/run

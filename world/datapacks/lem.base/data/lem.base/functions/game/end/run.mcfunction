@@ -5,7 +5,7 @@
 #Find winner
 function lem.base:game/end/winner
 #Discord message
-execute if score #Store lem.setround matches 2.. if entity @a[tag=Winner] run discordMSG ["",{"selector":"@a[tag=Winner]"}," has won the most rounds!"]
+execute if score #Store lem.setround matches 2.. if entity @a[tag=Winner] run discordMSG ["",{"selector":"@a[tag=Winner]"}," has won all of the rounds!"]
 execute if score #Store lem.setround matches 2.. unless entity @a[tag=Winner] run discordMSG "The game has ended with no clear winner."
 
 ##Send all players to lobby
