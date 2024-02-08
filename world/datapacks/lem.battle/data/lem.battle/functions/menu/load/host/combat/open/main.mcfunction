@@ -18,6 +18,9 @@ execute if score #Store lem.battle.extendedpotionrange matches 0 run tellraw @s 
 #Enabled
 execute if score #Store lem.battle.extendedpotionrange matches 1 run tellraw @s ["",{"text":" [","color":"blue","clickEvent":{"action":"run_command","value":"/trigger lem.gamecfg set 150"},"hoverEvent":{"action":"show_text","contents":[{"text":"Extend the throwing range of splash and lingering potions.","color":"dark_aqua"}]}},{"text":"✔","color":"green","clickEvent":{"action":"run_command","value":"/trigger lem.gamecfg set 150"},"hoverEvent":{"action":"show_text","contents":[{"text":"Extend the throwing range of splash and lingering potions.","color":"dark_aqua"}]}},{"text":"] Extended Potion Range","color":"blue","clickEvent":{"action":"run_command","value":"/trigger lem.gamecfg set 150"},"hoverEvent":{"action":"show_text","contents":[{"text":"Extend the throwing range of splash and lingering potions.","color":"dark_aqua"}]}}]
 
+##Death Options 
+tellraw @s {"text":" [Death Options]","color":"blue","clickEvent":{"action":"run_command","value":"/trigger lem.gamecfg set 174"},"hoverEvent":{"action":"show_text","contents":[{"text":"Change what happens to items on death.","color":"dark_aqua"}]}}
+
 ##Go back button
 tellraw @s {"text":"[Go Back]","color":"gray","clickEvent":{"action":"run_command","value":"/trigger lem.gamecfg"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click to go back to the normal configuration page","color":"dark_aqua"}]}}
 

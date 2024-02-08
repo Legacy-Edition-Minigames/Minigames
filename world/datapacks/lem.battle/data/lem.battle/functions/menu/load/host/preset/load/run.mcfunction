@@ -63,18 +63,18 @@ userconfig @s test lem.battle:preset_takeeverything EQUAL false runCommand score
 
 ##Lives
 #Infinite
-userconfig @s test lem.battle:preset_lives EQUAL infinite runCommand scoreboard players set #Store lem.lives -1
+userconfig @s test lem.battle:preset_lives EQUAL infinite runCommand scoreboard players set #Store lem.setlives -1
 #Standard
-userconfig @s test lem.battle:preset_lives EQUAL 1 runCommand scoreboard players set #Store lem.lives 1
-userconfig @s test lem.battle:preset_lives EQUAL 2 runCommand scoreboard players set #Store lem.lives 2
-userconfig @s test lem.battle:preset_lives EQUAL 3 runCommand scoreboard players set #Store lem.lives 3
-userconfig @s test lem.battle:preset_lives EQUAL 4 runCommand scoreboard players set #Store lem.lives 4
-userconfig @s test lem.battle:preset_lives EQUAL 5 runCommand scoreboard players set #Store lem.lives 5
-userconfig @s test lem.battle:preset_lives EQUAL 6 runCommand scoreboard players set #Store lem.lives 6
-userconfig @s test lem.battle:preset_lives EQUAL 7 runCommand scoreboard players set #Store lem.lives 7
-userconfig @s test lem.battle:preset_lives EQUAL 8 runCommand scoreboard players set #Store lem.lives 8
-userconfig @s test lem.battle:preset_lives EQUAL 9 runCommand scoreboard players set #Store lem.lives 9
-userconfig @s test lem.battle:preset_lives EQUAL 10 runCommand scoreboard players set #Store lem.lives 10
+userconfig @s test lem.battle:preset_lives EQUAL 1 runCommand scoreboard players set #Store lem.setlives 1
+userconfig @s test lem.battle:preset_lives EQUAL 2 runCommand scoreboard players set #Store lem.setlives 2
+userconfig @s test lem.battle:preset_lives EQUAL 3 runCommand scoreboard players set #Store lem.setlives 3
+userconfig @s test lem.battle:preset_lives EQUAL 4 runCommand scoreboard players set #Store lem.setlives 4
+userconfig @s test lem.battle:preset_lives EQUAL 5 runCommand scoreboard players set #Store lem.setlives 5
+userconfig @s test lem.battle:preset_lives EQUAL 6 runCommand scoreboard players set #Store lem.setlives 6
+userconfig @s test lem.battle:preset_lives EQUAL 7 runCommand scoreboard players set #Store lem.setlives 7
+userconfig @s test lem.battle:preset_lives EQUAL 8 runCommand scoreboard players set #Store lem.setlives 8
+userconfig @s test lem.battle:preset_lives EQUAL 9 runCommand scoreboard players set #Store lem.setlives 9
+userconfig @s test lem.battle:preset_lives EQUAL 10 runCommand scoreboard players set #Store lem.setlives 10
 
 ##Lobby settings
 #Old lobby
@@ -237,6 +237,10 @@ userconfig @s test lem.battle:preset_combat_style_custom_cooldown EQUAL false ru
 userconfig @s test lem.battle:preset_combat_style_custom_criticals EQUAL true runCommand scoreboard players set #Store lem.battle.setcriticalhits 1
 userconfig @s test lem.battle:preset_combat_style_custom_criticals EQUAL false runCommand scoreboard players set #Store lem.battle.setcriticalhits 0
 
+##Old Knockback
+userconfig @s test lem.battle:preset_combat_style_old_knockback EQUAL true runCommand scoreboard players set #Store lem.battle.setoldknockback 1
+userconfig @s test lem.battle:preset_combat_style_old_knockback EQUAL false runCommand scoreboard players set #Store lem.battle.setoldknockback 0
+
 ##Attack Speed
 #Slow
 userconfig @s test lem.battle:preset_combat_style_custom_attackspeed EQUAL slow runCommand scoreboard players set #Store lem.battle.setattackspeed 0
@@ -253,6 +257,19 @@ function lem.battle:game/combat/refresh
 ##Extended potion range
 userconfig @s test lem.battle:preset_combat_extendedpotionrange EQUAL true runCommand scoreboard players set #Store lem.battle.extendedpotionrange 1
 userconfig @s test lem.battle:preset_combat_extendedpotionrange EQUAL false runCommand scoreboard players set #Store lem.battle.extendedpotionrange 0
+
+##Item Drop Behavior
+userconfig @s test lem.battle:preset_combat_death_drop_mode EQUAL normal runCommand scoreboard players set #Store lem.battle.drop.setmode 1
+userconfig @s test lem.battle:preset_combat_death_drop_mode EQUAL keep runCommand scoreboard players set #Store lem.battle.drop.setmode 2
+userconfig @s test lem.battle:preset_combat_death_drop_mode EQUAL clear runCommand scoreboard players set #Store lem.battle.drop.setmode 3
+
+##Quick Item Despawning
+userconfig @s test lem.battle:preset_combat_death_drop_quickdespawn EQUAL true runCommand scoreboard players set #Store lem.battle.drop.quickdespawn 1
+userconfig @s test lem.battle:preset_combat_death_drop_quickdespawn EQUAL false runCommand scoreboard players set #Store lem.battle.drop.quickdespawn 0
+
+##Console Damage
+userconfig @s test lem.battle:preset_combat_style_custom_consoledamage EQUAL true runCommand scoreboard players set #Store lem.battle.setconsoledamage 1
+userconfig @s test lem.battle:preset_combat_style_custom_consoledamage EQUAL false runCommand scoreboard players set #Store lem.battle.setconsoledamage 0
 
 ##Mods enable/disable toggle
 userconfig @s test lem.battle:preset_mods_enabled EQUAL true runCommand scoreboard players set #Store lem.enablemods 1

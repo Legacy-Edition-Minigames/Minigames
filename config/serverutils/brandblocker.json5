@@ -1,0 +1,16 @@
+{
+  "blockedBrands": {
+    "notminecraftplsdontusethisbrand": "$KICKMSG$"
+  },
+  "blockedBrandsRegex": [
+    {
+      "regex": "lunarclient(\\S)+ \\(Velocity\\)",
+      "kickMsg": "\n§cLunar client is not stable with this server!\nPlease consider using something else, such as Fabulously Optimized\nSee https://www.legacyminigames.net/faq/lunar for more info."
+    },
+    {
+      "regex": "lunarclient(\\S)+",
+      "kickMsg": "\n§cLunar client is not stable with this server!\nPlease consider using something else, such as Fabulously Optimized\nSee https://www.legacyminigames.net/faq/lunar for more info."
+    }
+  ],
+  "kickMsg": "If you see this message, its a bug! Please report it immedietly, in the meantime try using fabric"
+}

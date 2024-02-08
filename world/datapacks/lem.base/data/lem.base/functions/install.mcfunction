@@ -286,9 +286,39 @@ scoreboard objectives add lem.experimentalserver dummy
 ##Current preset to interact with
 scoreboard objectives add lem.preset dummy
 
+##Generic temproary variable
+scoreboard objectives add lem.temp dummy
+
+##Game run time (in the sense of how long the game is)
+scoreboard objectives add lem.gameruntime dummy
+
+##Recon Mode
+scoreboard objectives add lem.recon dummy
+
+##User set lives
+scoreboard objectives add lem.setlives dummy
+
+##Recon mode timer
+scoreboard objectives add lem.recontimer dummy
+
+##Damage status
+#Create scoreboard
+scoreboard objectives add lem.damage dummy
+#Set if not set
+execute unless score #Store lem.damage matches 0.. run scoreboard players set #Store lem.damage 1
+
+##Events
+#Halloween
+scoreboard objectives add lem.event.halloween dummy
+#Festive
+scoreboard objectives add lem.event.festive dummy
+#Public
+scoreboard objectives add lem.event.public dummy
+
 ##For addons to disable the built-in UI
 #Game
-scoreboard objectives add lem.ui.game.override dummy
+scoreboard objectives add lem.ui.game.java.override dummy
+scoreboard objectives add lem.ui.game.bedrock.override dummy
 #Loading: Icon
 scoreboard objectives add lem.ui.loading.icon.override dummy
 #Loading: Animation
@@ -379,7 +409,8 @@ scoreboard players set .2 lem.gametimer 2
 
 ##Enable the built-in UI
 #Game
-scoreboard players set #Store lem.ui.game.override 0
+scoreboard players set #Store lem.ui.game.java.override 0
+scoreboard players set #Store lem.ui.game.bedrock.override 0
 #Loading: Icon
 scoreboard players set #Store lem.ui.loading.icon.override 0
 #Loading: Animation

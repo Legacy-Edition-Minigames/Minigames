@@ -42,3 +42,6 @@ clear @a[tag=ingame]
 
 ##Start game if picking new host from existing game
 execute if score #Store lem.plist matches 2.. run scoreboard players set @s lem.gamecfg 9
+
+##Start game if host is on bedrock edition
+scoreboard players set @s[tag=bedrock] lem.gamecfg 9

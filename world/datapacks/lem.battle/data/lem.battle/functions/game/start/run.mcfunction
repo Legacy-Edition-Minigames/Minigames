@@ -1,5 +1,5 @@
 ##Check for Achievements
-function lem.battle:game/achievement/start
+execute unless score #Store lem.recon matches 1 run function lem.battle:game/achievement/start
 
 ##Fill chests
 function lem.battle:game/chests/start
@@ -21,3 +21,6 @@ execute if score #Store lem.battle.takeall matches 0 run takeeverything enabled 
 
 ##Display ArmorBar (in the event someone joined during the countdown)
 execute as @a[tag=ingame] if score @s serverutils.haslemclient matches 2 run userconfig @s test lem.battle:armorbar EQUAL true runCommand armorHud @s true
+
+##Set killcount
+scoreboard players set @a[tag=ingame] lem.battle.killcount 0

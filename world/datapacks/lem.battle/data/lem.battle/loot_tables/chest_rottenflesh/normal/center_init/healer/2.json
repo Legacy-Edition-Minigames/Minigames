@@ -29,8 +29,8 @@
           "name": "minecraft:golden_chestplate",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['[{\"text\":\"§9+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2}"
             }
           ]
         }
@@ -45,8 +45,8 @@
           "name": "minecraft:golden_leggings",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['[{\"text\":\"§9+3.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2}"
             }
           ]
         }
@@ -61,8 +61,8 @@
           "name": "minecraft:golden_boots",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['[{\"text\":\"§9+1.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2}"
             }
           ]
         }

@@ -1,5 +1,5 @@
 ##Add to healthbar
-health @s add 4
+health @s add 8
 
 ##Reset score
 scoreboard players reset @s lem.battle.eat.cookbeef

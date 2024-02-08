@@ -22,7 +22,7 @@ userconfig @s test lem.base:heartcosmetic EQUAL undertale_ut_soul_h runCommand s
 #Load Pride heart
 userconfig @s test lem.base:heartcosmetic EQUAL pride_pride runCommand setSuffixFont alive "lem.base:tablist/heart/pride/pride" @s
 #Load Trans heart
-userconfig @s test lem.base:heartcosmetic EQUAL pride_pride_trans runCommand setSuffixFont alive "lem.base:tablist/heart/pride/trans" @s
+userconfig @s test lem.base:heartcosmetic EQUAL pride_trans runCommand setSuffixFont alive "lem.base:tablist/heart/pride/trans" @s
 #Load Non Binary heart
 userconfig @s test lem.base:heartcosmetic EQUAL pride_enby runCommand setSuffixFont alive "lem.base:tablist/heart/pride/enby" @s
 #Load Pansexual heart

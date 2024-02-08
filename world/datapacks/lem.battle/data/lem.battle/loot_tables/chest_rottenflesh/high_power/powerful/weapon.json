@@ -21,7 +21,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CanPlaceOn:[\"#lem.base:all_blocks\"],HideFlags:16}"
+              "tag": "{CanPlaceOn:[\"#lem.battle:tnt_placeable\"],HideFlags:16}"
             },
             {
               "function": "minecraft:set_count",
@@ -69,7 +69,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+5.5 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']}}",
+              "tag": "{display:{Lore:['[{\"text\":\"§9+5.5 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},lem.weapon:1}",
               "conditions": [
                 {
                   "condition": "minecraft:value_check",
@@ -88,7 +88,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+4.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']}}",
+              "tag": "{display:{Lore:['[{\"text\":\"§9+4.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},lem.weapon:1}",
               "conditions": [
                 {
                   "condition": "minecraft:value_check",
@@ -122,7 +122,7 @@
                 {
                   "attribute": "minecraft:generic.attack_damage",
                   "name": "",
-                  "amount": 4,
+                  "amount": 3,
                   "operation": "addition",
                   "slot": "mainhand"
                 }
@@ -152,7 +152,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+8.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s}]}"
+              "tag": "{display:{Lore:['[{\"text\":\"§9+8.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},lem.weapon:1,HideFlags:2,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s}]}"
             }
           ]
         },
@@ -163,7 +163,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+9.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']}}",
+              "tag": "{display:{Lore:['[{\"text\":\"§9+9.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},lem.weapon:1}",
               "conditions": [
                 {
                   "condition": "minecraft:value_check",
@@ -182,7 +182,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+6.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']}}",
+              "tag": "{display:{Lore:['[{\"text\":\"§9+6.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},lem.weapon:1}",
               "conditions": [
                 {
                   "condition": "minecraft:value_check",
@@ -216,7 +216,7 @@
                 {
                   "attribute": "minecraft:generic.attack_damage",
                   "name": "",
-                  "amount": 6,
+                  "amount": 5,
                   "operation": "addition",
                   "slot": "mainhand"
                 }
@@ -246,7 +246,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+7.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:fire_aspect\",lvl:1s}]}"
+              "tag": "{display:{Lore:['[{\"text\":\"§9+7.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},lem.weapon:1,HideFlags:2,Enchantments:[{id:\"minecraft:fire_aspect\",lvl:1s}]}"
             }
           ]
         }

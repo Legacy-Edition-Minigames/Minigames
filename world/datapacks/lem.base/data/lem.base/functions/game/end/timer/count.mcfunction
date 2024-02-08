@@ -1,5 +1,8 @@
 ##Count down
-scoreboard players remove #Store lem.gametimer 1
+execute unless score #Store lem.recon matches 1 run scoreboard players remove #Store lem.gametimer 1
+
+##Count up
+scoreboard players add #Store lem.gameruntime 1
 
 ##Once at 60 seconds, display counter
 execute if score #Store lem.gametimer matches ..60 run function lem.base:game/end/timer/display

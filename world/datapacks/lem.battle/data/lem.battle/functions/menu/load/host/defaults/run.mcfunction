@@ -84,9 +84,21 @@ scoreboard players set #Store lem.battle.setattackspeed 1
 #Critical attacks
 scoreboard players set #Store lem.battle.criticalhits 1
 scoreboard players set #Store lem.battle.setcriticalhits 1
+#Old knockback
+scoreboard players set #Store lem.battle.oldknockback 1
+scoreboard players set #Store lem.battle.setoldknockback 1
+#Console damage
+scoreboard players set #Store lem.battle.consoledamage 1
+scoreboard players set #Store lem.battle.setconsoledamage 1
 
 ##Extended Potion Range
 scoreboard players set #Store lem.battle.extendedpotionrange 1
 
 ##Random Powerful Chests
 scoreboard players set #Store lem.battle.randompowerchest 0
+
+##Inventory drop behavior
+scoreboard players set #Store lem.battle.drop.setmode 1
+
+##Quick Item Despawning
+scoreboard players set #Store lem.battle.drop.quickdespawn 0

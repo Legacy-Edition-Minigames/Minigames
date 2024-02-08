@@ -167,3 +167,28 @@ execute as @s[scores={lem.gamecfg=169}] run function lem.battle:menu/load/host/c
 #Disable
 execute as @s[scores={lem.gamecfg=170}] run function lem.battle:menu/load/host/combat/style/custom/criticals/disable
 
+##Classic Knockback option
+#Enable
+execute as @s[scores={lem.gamecfg=172}] run function lem.battle:menu/load/host/combat/style/custom/oldknockback/enable
+#Disable
+execute as @s[scores={lem.gamecfg=173}] run function lem.battle:menu/load/host/combat/style/custom/oldknockback/disable
+
+##Change combat style
+#Normal
+execute as @s[scores={lem.gamecfg=175}] run function lem.battle:menu/load/host/combat/death/drop/normal
+#Keep
+execute as @s[scores={lem.gamecfg=176}] run function lem.battle:menu/load/host/combat/death/drop/keep
+#Clear
+execute as @s[scores={lem.gamecfg=177}] run function lem.battle:menu/load/host/combat/death/drop/clear
+
+##Quick item despawning
+#Enable
+execute as @s[scores={lem.gamecfg=178}] run function lem.battle:menu/load/host/combat/death/quickdespawn/enable
+#Disable
+execute as @s[scores={lem.gamecfg=179}] run function lem.battle:menu/load/host/combat/death/quickdespawn/disable
+
+##Classic Knockback option
+#Enable
+execute as @s[scores={lem.gamecfg=180}] run function lem.battle:menu/load/host/combat/style/custom/consoledamage/enable
+#Disable
+execute as @s[scores={lem.gamecfg=181}] run function lem.battle:menu/load/host/combat/style/custom/consoledamage/disable

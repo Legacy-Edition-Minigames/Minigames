@@ -10,6 +10,12 @@ execute if score #Store lem.battle.criticalhits matches 0 run critblocker enable
 #Enabled
 execute if score #Store lem.battle.criticalhits matches 1 run critblocker enablecrits true
 
+##Knockback
+#Modern
+execute if score #Store lem.battle.oldknockback matches 0 run knockback activate1_8 false
+#Classic
+execute if score #Store lem.battle.oldknockback matches 1 run knockback activate1_8 true
+
 ##Loop
 schedule function lem.battle:game/combat/check 10s
 

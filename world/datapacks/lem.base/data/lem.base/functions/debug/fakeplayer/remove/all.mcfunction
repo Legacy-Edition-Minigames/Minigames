@@ -31,3 +31,5 @@ player 14 kill
 player 15 kill
 #P16
 player 16 kill
+#AmBear2211
+player AmBear2211 kill

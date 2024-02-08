@@ -39,9 +39,12 @@ bossbar set minecraft:globalinfo15 players @a[tag=ingame,scores={lem.pid=15}]
 bossbar set minecraft:globalinfo16 players @a[tag=ingame,scores={lem.pid=16}]
 
 ##Banner pushdowns
-#bossbar set minecraft:bannerpushdown1 players @a[tag=ingame]
-bossbar set minecraft:bannerpushdown2 players @a[tag=ingame]
-#bossbar set minecraft:bannerpushdown3 players @a[tag=ingame]
+#bossbar set minecraft:bannerpushdown1 players @a[tag=ingame,tag=!bedrock]
+bossbar set minecraft:bannerpushdown2 players @a[tag=ingame,tag=!bedrock]
+#bossbar set minecraft:bannerpushdown3 players @a[tag=ingame,tag=!bedrock]
 
 ##Banner info
-bossbar set minecraft:bannerinfo players @a[tag=ingame]
+bossbar set minecraft:bannerinfo players @a[tag=ingame,tag=!bedrock]
+
+##Run functions for addons
+function #lem.base:ui/globalinfo/loadpan
