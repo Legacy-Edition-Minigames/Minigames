@@ -7,8 +7,8 @@ execute at @e[tag=LobbyTP] run forceload remove ~ ~
 ##Unload previous lobby
 custommaploader unload lem.base:the_lobby lem.base:menu/load/host/start/timer/lobbyunloaded
 
-##Unload the previous map // TODO: Remove functionCallback once ServerUtils supports it
-custommaploader unload lem.base:arena lem.base:sound/game/count1
+##Unload the previous map
+custommaploader unload lem.base:arena
 
 ##Load menu
 function lem.base:menu/load/host

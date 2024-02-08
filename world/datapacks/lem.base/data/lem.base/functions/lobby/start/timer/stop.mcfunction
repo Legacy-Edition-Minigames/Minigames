@@ -1,5 +1,5 @@
-##Unload the previous map // TODO: Remove functionCallback once ServerUtils supports it
-custommaploader unload lem.base:arena lem.base:sound/game/count1
+##Unload the previous map
+custommaploader unload lem.base:arena
 
 ##Stop teleport
 function lem.base:lobby/start/timer/teleport/stop
