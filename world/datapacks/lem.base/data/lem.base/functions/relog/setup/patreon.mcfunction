@@ -81,8 +81,6 @@ execute as 0a78bcdd-d443-4ff0-9ed8-bbd0d4e6252d run scoreboard players set @s le
 execute as 95f50037-a134-4069-8e93-08e5a69a9b71 run scoreboard players set @s lem.patreon 1
 #MiMiCursed
 execute as 957e7c81-79b5-44fb-a44f-771780c41ef4 run scoreboard players set @s lem.patreon 1
-#LightFusionYT
-execute as dc9c6733-ffdc-4e6a-8fed-10b5cf4fa149 run scoreboard players set @s lem.patreon 1
 #_Arronic_
 execute as 78af622b-a7fc-4adc-8ba2-3ed561822404 run scoreboard players set @s lem.patreon 4
 #pl4yr
@@ -103,6 +101,14 @@ execute as 459abf38-1f78-4492-9aaa-c928dca9a9dc run scoreboard players set @s le
 execute as 98dacc71-5a59-4ca1-9667-945f501acbf0 run scoreboard players set @s lem.patreon 4
 #Twiney42
 execute as 5fe416d3-50b3-4ff9-a15e-2d0975214cfc run scoreboard players set @s lem.patreon 1
+#Liathers
+execute as 8239814c-a39e-4c5a-8200-db5733338b7d run scoreboard players set @s lem.patreon 1
+#withwilliam
+execute as 5976b9cf-3fd2-477e-a110-15bcab30c14e run scoreboard players set @s lem.patreon 1
+#Dylannator220
+execute as 68746cdd-a551-455e-99c0-cf6634fc95c4 run scoreboard players set @s lem.patreon 1
+#notwackyy
+execute as 550fe2be-ba74-4e5a-9eb8-e10c8eeec4a4 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
