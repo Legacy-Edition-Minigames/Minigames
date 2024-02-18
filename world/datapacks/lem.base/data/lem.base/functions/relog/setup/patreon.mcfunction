@@ -107,6 +107,8 @@ execute as d8a0f2d0-99d1-43ac-a83a-2bc9479972ce run scoreboard players set @s le
 execute as 8f508981-2299-4a10-b202-3fcbde8f79d8 run scoreboard players set @s lem.patreon 1
 #notyuru
 execute as fa116ca3-731e-42e9-94f6-fa40e88b3f9f run scoreboard players set @s lem.patreon 1
+#marshtomps
+execute as 2f3d0383-4b97-4127-aef1-cfc0dbb6abc8 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
