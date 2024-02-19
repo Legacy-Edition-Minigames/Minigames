@@ -16,3 +16,6 @@ execute if score #Store lem.battle.chest matches 6 run function lem.battle:game/
 
 ##Refill chests in 30 seconds
 execute if score #Store lem.battle.chestrefill matches 1 run schedule function lem.battle:game/chests/regen 30s
+
+##Mark chests to be tracked
+execute at @e[type=area_effect_cloud,tag=Chest] run chesttracker track ~ ~ ~

@@ -1,5 +1,5 @@
 ##RNG
-execute store result score @s lem.musrandom run loot spawn ~ -2 ~ loot lem.battle:musrandom/fallout
+execute store result score @s lem.musrandom run random value 1..7
 
 #1
 execute if score @s lem.musrandom matches 1 run function lem.battle:game/music/fallout/1

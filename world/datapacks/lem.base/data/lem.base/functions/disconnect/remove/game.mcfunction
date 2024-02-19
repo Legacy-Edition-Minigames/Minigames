@@ -9,3 +9,6 @@ function lem.base:ui/playerbar/load
 
 ##Check for Spectator Mobs to remove
 function lem.base:game/spectator/hide/offline/check
+
+##Delete dropped smallinv items
+execute if score #Store lem.smallinv matches 1 run kill @e[type=item,nbt={Item:{tag:{SmallInv:1}}}]

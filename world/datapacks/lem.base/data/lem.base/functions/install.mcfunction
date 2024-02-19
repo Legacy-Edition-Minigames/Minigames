@@ -312,6 +312,14 @@ execute unless score #Store lem.damage matches 0.. run scoreboard players set #S
 scoreboard objectives add lem.event.halloween dummy
 #Festive
 scoreboard objectives add lem.event.festive dummy
+#Public
+scoreboard objectives add lem.event.public dummy
+
+##Fakeplayer timer
+#Counter
+scoreboard objectives add lem.debug.fakeplayer.counter dummy
+#Target playercount
+scoreboard objectives add lem.debug.fakeplayer.target dummy
 
 ##For addons to disable the built-in UI
 #Game

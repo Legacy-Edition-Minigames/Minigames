@@ -37,7 +37,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"item.minecraft.tipped_arrow.effect.poison\",\"italic\":false}',Lore:['[{\"translate\":\"effect.minecraft.poison\",\"color\":\"red\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"potion.potency.1\"},{\"text\":\" (0:03)\",\"italic\":false}]']},HideFlags:32,CustomPotionEffects:[{Id:19,Amplifier:1b,Duration:60}],Potion:\"minecraft:water\"}"
+              "tag": "{display:{Name:'{\"translate\":\"item.minecraft.tipped_arrow.effect.poison\",\"italic\":false}',Lore:['[{\"translate\":\"effect.minecraft.poison\",\"color\":\"red\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"potion.potency.1\"},{\"text\":\" (0:03)\",\"italic\":false}]']},HideFlags:32,custom_potion_effects:[{show_particles:1b,ambient:0b,id:\"minecraft:poison\",amplifier:1b,duration:60,amplifier_int:1,show_icon:1b}],Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -48,7 +48,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.turtle_master\",\"italic\":false},{\"text\":\" (0:10)\",\"color\":\"gray\"}]'},CustomPotionEffects:[{Id:2,Amplifier:3b,Duration:200},{Id:11,Amplifier:2b,Duration:200}],Potion:\"minecraft:water\"}"
+              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.turtle_master\",\"italic\":false},{\"text\":\" (0:10)\",\"color\":\"gray\"}]'},custom_potion_effects:[{id:\"minecraft:slowness\",amplifier:3b,duration:200},{id:\"minecraft:resistance\",amplifier:2b,duration:200}],Potion:\"minecraft:water\"}"
             }
           ]
         },
