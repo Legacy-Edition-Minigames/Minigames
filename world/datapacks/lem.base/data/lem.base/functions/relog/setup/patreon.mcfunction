@@ -29,8 +29,6 @@ execute as 7f1ca084-fbf7-4f30-84f4-1102bd703706 run scoreboard players set @s le
 execute as 76d21080-19c3-419c-ab6e-a99d930b6b47 run scoreboard players set @s lem.patreon 1
 #DuskDarf1
 execute as 714181d0-f180-4d5b-b165-098527507d74 run scoreboard players set @s lem.patreon 1
-#Furryful
-execute as 8c574bb1-215b-47f5-8094-16e64d3ee2cb run scoreboard players set @s lem.patreon 1
 #Saeraphinx
 execute as 558becd6-3fca-4e64-a6d6-3d6b3b65ef4a run scoreboard players set @s lem.patreon 3
 #Jonoland
@@ -109,6 +107,8 @@ execute as 8f508981-2299-4a10-b202-3fcbde8f79d8 run scoreboard players set @s le
 execute as fa116ca3-731e-42e9-94f6-fa40e88b3f9f run scoreboard players set @s lem.patreon 1
 #marshtomps
 execute as 2f3d0383-4b97-4127-aef1-cfc0dbb6abc8 run scoreboard players set @s lem.patreon 1
+#21xCo
+execute as 9809fefe-118f-4f53-b032-a27ea59949b4 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
