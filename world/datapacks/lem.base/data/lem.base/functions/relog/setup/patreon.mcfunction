@@ -111,6 +111,8 @@ execute as 2f3d0383-4b97-4127-aef1-cfc0dbb6abc8 run scoreboard players set @s le
 execute as 9809fefe-118f-4f53-b032-a27ea59949b4 run scoreboard players set @s lem.patreon 1
 #SnowMy_
 execute as 559a3359-aab0-4703-9590-f96d7851cddc run scoreboard players set @s lem.patreon 1
+#_Arronic_
+execute as 78af622b-a7fc-4adc-8ba2-3ed561822404 run scoreboard players set @s lem.patreon 3
 
 ##Reset heart if no longer subscribed
 #Tiny
