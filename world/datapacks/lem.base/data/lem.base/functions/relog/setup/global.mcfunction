@@ -84,17 +84,14 @@ function lem.base:relog/gamecheck
 ##Disable FriendlyFire
 execute unless score #Store lem.gamestatus matches 4 run attribute @s minecraft:generic.attack_damage base set -100
 
-##Load MapDecider
-execute if score #Store lem.gamestatus matches 2 run function lem.base:mapdecider/vote/join
+##Give lobby items
+execute if score #Store lem.gamestatus matches 2 run function lem.base:lobby/player/items
 
 ##Reset score
 scoreboard players reset @s lem.score
 
-##Teleport to a random player if spectator
-#Teleport to map
-execute if score #Store lem.gamestatus matches 4 run function lem.base:game/setup/teleport/load
-#Teleport to a spawnpoint
-execute if score #Store lem.gamestatus matches 4 at @e[type=area_effect_cloud,tag=RandomTP,limit=1,sort=random] run playerfreeze @s true ~ ~ ~
+##Teleport to a spawnpoint \\ TODO: Don't tie this to battle, have a generic tp command made
+execute if score #Store lem.gamestatus matches 4 run custommaploader battle tp lem.base:arena @s
 
 ##Load spectator mob
 execute if score #Store lem.gamestarted matches 1.. run function lem.base:game/spectator/start/run

@@ -1,4 +1,4 @@
-##Detect if map is loaded
+##Detect if map is loaded \\ TODO: Move check for all chunks to load to serverutils
 execute if entity @a[tag=ingame] as @e[type=area_effect_cloud,tag=MapCenter] at @s run function lem.base:game/loading/mapload/checkcorner
 
 ##Run functions for addons when map gets loaded
@@ -8,17 +8,14 @@ execute unless score #Store lem.mapinit.mapload matches 1 if score #Store lem.ma
 execute if score #Store lem.maploadpos matches 1.. if score #Store lem.maploadneg matches 1.. run scoreboard players add #Store lem.timer 1
 
 ##Display
-#Copy loaded pack users to temp
+#Copy current timer time to temp
 scoreboard players operation .temp lem.timer = #Store lem.timer
-#Multiply loaded pack users by 64
+#Multiply current timer time by 64
 scoreboard players operation .temp lem.timer *= .64 lem.timer
-#Divide loaded pack users by total players
+#Divide current timer time by total players
 scoreboard players operation .temp lem.timer /= #Store lem.timermax
 #Copy output to loading bar
 scoreboard players operation #Store lem.loadingbar = .temp lem.timer
-
-##Spin players to force load chunks on the client
-execute as @e[type=minecraft:area_effect_cloud,tag=MapCenter] at @s run tp @s ~ ~ ~ ~9 ~
 
 ##Loop
 schedule function lem.base:game/loading/mapload/timer 1t

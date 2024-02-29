@@ -21,6 +21,7 @@ function lem.base:game/showdown/check
 
 ##Unfreeze players
 playerfreeze @a[tag=ingame] false
+lockdown @a[tag=ingame] false
 
 ##Inform users the game has started
 #P1

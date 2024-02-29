@@ -44,7 +44,7 @@ scoreboard players operation @a[tag=ingame] lem.lives = #Store lem.lives
 function #lem.base:game/nextround
 
 ##Load timer
-function lem.base:game/start/prep
+function lem.base:game/start/start
 
 ##Reset player
 function lem.base:game/playerreset
