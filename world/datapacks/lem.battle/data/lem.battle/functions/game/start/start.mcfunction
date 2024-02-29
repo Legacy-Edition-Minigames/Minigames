@@ -7,6 +7,9 @@ function lem.battle:game/chests/load/run
 ##Start combat check
 function lem.battle:game/combat/start
 
+##Load hunger
+function lem.battle:game/hunger/start
+
 ##Reset chest particles
 chesttracker reset
 
