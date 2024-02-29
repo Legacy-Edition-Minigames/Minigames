@@ -8,10 +8,10 @@ scoreboard players remove #Store lem.timer 1
 function lem.base:lobby/display/run
 
 ##Start game if timer hits 0
-execute if score #Store lem.timer matches 0 run function lem.base:mapdecider/run
+execute if score #Store lem.timer matches 0 run function lem.base:game/loading/run
 
 ##Start game if everyone is ready
-execute unless score #Store lem.gamestatus matches 3 unless entity @a[tag=ingame,tag=notready] if score #Store lem.plist matches 2.. run function lem.base:mapdecider/run
+execute unless score #Store lem.gamestatus matches 3 unless entity @a[tag=ingame,tag=notready] if score #Store lem.plist matches 2.. run function lem.base:game/loading/run
 
 ##Play Sound
 function lem.base:lobby/timer/run/sound

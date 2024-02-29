@@ -1,5 +1,5 @@
 ##Teleport to lobby if its already loaded
-execute if score #Store lem.fullreset matches 0 run function lem.base:lobby/start/timer/dimensionloaded
+execute if score #Store lem.fullreset matches 0 run function lem.base:lobby/start/timer/noreset
 
 ##Load the lobby dimension
 execute if score #Store lem.fullreset matches 1 run function lem.base:lobby/load/run

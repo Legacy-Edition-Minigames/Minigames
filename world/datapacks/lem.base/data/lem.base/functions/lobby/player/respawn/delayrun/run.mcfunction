@@ -2,7 +2,7 @@
 gamemode adventure @s
 
 ##Teleport
-function lem.base:lobby/spawn/run
+custommaploader lobby tp lem.base:the_lobby @s
 
 ##Remove death screen
 title @s title ""
@@ -15,7 +15,7 @@ tag @s remove notitle
 function lem.base:lobby/display/run
 
 ##Give items
-function lem.base:mapdecider/vote/join
+function lem.base:lobby/player/items
 
 ##Disable attack damage
 attribute @s minecraft:generic.attack_damage base set -100

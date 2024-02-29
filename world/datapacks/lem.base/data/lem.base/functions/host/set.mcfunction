@@ -5,10 +5,10 @@ tag @s add host
 execute at @e[tag=LobbyTP] run forceload remove ~ ~
 
 ##Unload previous lobby
-dimensionloader unload lem.base:the_lobby lem.base:menu/load/host/start/timer/lobbyunloaded
+custommaploader unload lem.base:the_lobby lem.base:menu/load/host/start/timer/lobbyunloaded
 
 ##Unload the previous map
-dimensionloader unload lem.base:arena
+custommaploader unload lem.base:arena
 
 ##Load menu
 function lem.base:menu/load/host

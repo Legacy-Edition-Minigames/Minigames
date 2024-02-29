@@ -1,5 +1,5 @@
 ##Unload the previous map
-dimensionloader unload lem.base:arena
+custommaploader unload lem.base:arena
 
 ##Stop teleport
 function lem.base:lobby/start/timer/teleport/stop

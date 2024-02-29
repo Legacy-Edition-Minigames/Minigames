@@ -1,8 +1,5 @@
 ##Detect if map is loaded
-execute if entity @a[tag=ingame] as @e[type=area_effect_cloud,tag=LobbyCenter] at @s run function lem.base:game/loading/mapload/checkcorner
-
-##Teleport to center
-execute as @a[tag=ingame] at @s run tp @s @e[type=area_effect_cloud,tag=LobbyCenter,limit=1,sort=nearest]
+execute in lem.base:the_lobby run function lem.base:game/loading/mapload/checkcorner
 
 ##Count down
 execute if score #Store lem.maploadpos matches 1.. if score #Store lem.maploadneg matches 1.. run scoreboard players remove #Store lem.timer 1

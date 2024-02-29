@@ -1,6 +1,3 @@
-##Lock at map center
-tp @a[tag=ingame] @e[type=area_effect_cloud,sort=nearest,limit=1,tag=MapCenter]
-
 ##Give invis
 effect give @a[tag=ingame] invisibility 1 0 true
 

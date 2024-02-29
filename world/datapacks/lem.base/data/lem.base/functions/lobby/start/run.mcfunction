@@ -1,11 +1,5 @@
-##Spawn
-execute as @a[tag=ingame] at @s run function lem.base:lobby/spawn/run
-
 ##Set game status to Lobby
 scoreboard players set #Store lem.gamestatus 2
-
-##Forceload spawnpoints
-execute at @e[tag=LobbyTP] run forceload add ~ ~ ~ ~
 
 ##Update display
 function lem.base:lobby/display/run
@@ -40,7 +34,10 @@ execute if score #Store lem.mapcount matches 0 run function lem.base:menu/load/h
 function #lem.base:mapdecider/loadenabled
 
 ##Load map voting
-function lem.base:mapdecider/vote/load
+custommaploader voting start
+
+##Give items
+execute as @a run function lem.base:lobby/player/items
 
 ##Reset world back
 execute if score #Store lem.fullreset matches 0 run function lem.base:lobby/reset/run

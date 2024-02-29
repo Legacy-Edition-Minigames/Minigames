@@ -1,5 +1,5 @@
 ##Unload previous lobby if needed
-execute if score #Store lem.fullreset matches 1 run dimensionloader unload lem.base:the_lobby lem.base:menu/load/host/start/timer/lobbyunloaded
+execute if score #Store lem.fullreset matches 1 run custommaploader unload lem.base:the_lobby lem.base:menu/load/host/start/timer/lobbyunloaded
 
 ##Check for eliminated players
 function lem.base:game/player/death/check
@@ -21,6 +21,7 @@ function lem.base:game/showdown/check
 
 ##Unfreeze players
 playerfreeze @a[tag=ingame] false
+lockdown @a[tag=ingame] false
 
 ##Inform users the game has started
 #P1
