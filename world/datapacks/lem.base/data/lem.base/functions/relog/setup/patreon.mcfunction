@@ -113,6 +113,10 @@ execute as 9809fefe-118f-4f53-b032-a27ea59949b4 run scoreboard players set @s le
 execute as 559a3359-aab0-4703-9590-f96d7851cddc run scoreboard players set @s lem.patreon 1
 #_Arronic_
 execute as 78af622b-a7fc-4adc-8ba2-3ed561822404 run scoreboard players set @s lem.patreon 3
+#SS07
+execute as 2fda05e4-4c9c-4261-b683-52b8fd163476 run scoreboard players set @s lem.patreon 1
+#MarcusEK
+execute as e234fdf0-b813-4fab-b609-655a56f91237 run scoreboard players set @s lem.patreon 2
 
 ##Reset heart if no longer subscribed
 #Tiny
