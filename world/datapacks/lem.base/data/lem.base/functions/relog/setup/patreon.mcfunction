@@ -119,6 +119,8 @@ execute as 1d01106f-cbe6-4b25-8b01-cefd5494a416 run scoreboard players set @s le
 execute as 98b252a5-ac5f-42b4-82ed-fa43ad2f468b run scoreboard players set @s lem.patreon 1
 #WaffleHoney43
 execute as fa012ca4-25a8-4e36-b4bf-75236f27bbd2 run scoreboard players set @s lem.patreon 1
+#SpritelyHoney43
+execute as cccaef8c-cd38-4ed4-a738-fb9d1f3a7672 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
