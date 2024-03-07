@@ -1,5 +1,5 @@
 ##Force accept resource pack
-advancement grant @s only lem.base:resource/finished
+tag @s add resourceloaded
 
 ##Force pack settings to globalpack
 tag @s add globalpack

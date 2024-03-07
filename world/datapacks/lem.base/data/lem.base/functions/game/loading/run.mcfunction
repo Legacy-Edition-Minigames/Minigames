@@ -68,7 +68,7 @@ scoreboard players reset @a[tag=ingame] lem.roundwins
 #function #lem.base:mapdecider/discordmsg
 
 ##Update tablist scores
-function lem.base:relog/timer/forceupdate
+scoreboardSuffixForceUpdate
 
 ##Load the arena dimension
 custommaploader voting end lem.base:arena true @a[tag=ingame]
@@ -95,13 +95,9 @@ function lem.base:ui/display/loadingmap/loadname
 ##Start game in 6 seconds if not overridden by pack
 scoreboard players set #Store lem.timer 0
 
-##Revoke advancement
-execute as @a[tag=ingame] run function lem.base:resource/advancementreset
-
-##Remove resourceloaded tag
+##Remove tags
 tag @a[tag=ingame] remove resourceloaded
-
-##Remove loadingresources tag
+tag @a[tag=ingame] remove loadingcomplete
 tag @a[tag=ingame] remove loadingresources
 
 ##Check which timer to start

@@ -1,11 +1,9 @@
 ##Add tag
-tag @s add resourceloaded
+tag @s add loadingcomplete
 
-##Remove loadingresources tag
+##Remove tags
 tag @s remove loadingresources
-
-##Revoke advancement
-function lem.base:resource/advancementreset
+tag @s remove resourceloaded
 
 ##Replace loading animation with playericon
 function lem.base:ui/playerlist/playericon/enable

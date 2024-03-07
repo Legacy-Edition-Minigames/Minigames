@@ -5,7 +5,7 @@ scoreboard players operation @s lem.pid >< @a[tag=ingame,tag=host] lem.pid
 function lem.base:game/player/team/run
 execute as @a[tag=ingame,tag=host] run function lem.base:game/player/team/run
 #Update display
-function lem.base:relog/timer/forceupdate
+scoreboardSuffixForceUpdate
 #Load playerbar
 function lem.base:ui/playerbar/load
 

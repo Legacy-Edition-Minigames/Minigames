@@ -5,10 +5,10 @@ execute if entity @s[tag=!forceresources,tag=!globalpack,tag=!custompack] run fu
 execute if entity @s[tag=!forceresources,tag=!globalpack,tag=custompack] run function lem.base:resource/load/check
 
 ##Mark as already loaded if custompack is enabled
-execute if entity @s[tag=!forceresources] unless entity @s[tag=!custompack] unless entity @s[tag=!globalpack] run advancement grant @s only lem.base:resource/finished
+execute if entity @s[tag=!forceresources] unless entity @s[tag=!custompack] unless entity @s[tag=!globalpack] run tag @s add resourceloaded
 
 ##Mark as loaded if globalpack has already been loaded
-execute if entity @s[tag=!forceresources,tag=globalpack,tag=!custompack] run advancement grant @s only lem.base:resource/finished
+execute if entity @s[tag=!forceresources,tag=globalpack,tag=!custompack] run tag @s add resourceloaded
 
 ##Load resources regardless of if globalpack if enabled or not if in loading screen
 execute if entity @s[tag=forceresources] unless entity @s[tag=globalpack,tag=custompack] run function lem.base:resource/load/check

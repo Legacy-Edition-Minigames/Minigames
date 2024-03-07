@@ -25,11 +25,8 @@ execute store result score #Store lem.plist if entity @a[tag=ingame]
 ##Update presets
 function #lem.base:menu/load/host/preset/update/check/run
 
-##Add resoureloaded tag
-tag @s add resourceloaded
-
-##Revoke resourcepack loading advancements
-function lem.base:resource/advancementreset
+##Remove resourceloaded tag
+tag @s remove resourceloaded
 
 ##Reset resourcepack timer score
 #scoreboard players reset @s lem.relogtimer

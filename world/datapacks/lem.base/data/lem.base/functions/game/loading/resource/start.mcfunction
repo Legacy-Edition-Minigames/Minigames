@@ -8,7 +8,7 @@ scoreboard players set #Store lem.timer 60
 schedule clear lem.base:game/loading/mapload/timer
 
 ##Mark users that dont need to reload as loaded
-tag @a[tag=ingame,tag=!loadingresources] add resourceloaded
+tag @a[tag=ingame,tag=!loadingresources] add loadingcomplete
 
 ##Start loading animation in tablist
 #Reset loading animation
