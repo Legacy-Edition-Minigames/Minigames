@@ -8,7 +8,10 @@ scoreboard players set @s lem.alive 1
 scoreboard players set @s lem.playerbar 3
 
 ##Teleport
-function #lem.base:game/setup/teleport/respawn
+function #lem.base:game/start/teleport/respawn
+
+##Unfreeze player
+playerfreeze @s false
 
 ##Display lives (above)
 #Above 1
