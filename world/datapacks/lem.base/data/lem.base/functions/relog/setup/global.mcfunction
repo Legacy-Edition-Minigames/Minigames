@@ -91,7 +91,7 @@ execute if score #Store lem.gamestatus matches 2 run function lem.base:lobby/pla
 scoreboard players reset @s lem.score
 
 ##Teleport to a spawnpoint \\ TODO: Don't tie this to battle, have a generic tp command made
-execute if score #Store lem.gamestatus matches 4 run custommaploader battle tp lem.base:arena @s
+execute if score #Store lem.gamestatus matches 4 run custommaploader battle tp lem.base:arena false @s
 
 ##Load spectator mob
 execute if score #Store lem.gamestarted matches 1.. run function lem.base:game/spectator/start/run
