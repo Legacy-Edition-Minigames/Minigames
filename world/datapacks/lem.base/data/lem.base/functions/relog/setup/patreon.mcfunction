@@ -95,8 +95,6 @@ execute as 5fe416d3-50b3-4ff9-a15e-2d0975214cfc run scoreboard players set @s le
 execute as 5976b9cf-3fd2-477e-a110-15bcab30c14e run scoreboard players set @s lem.patreon 1
 #notwackyy
 execute as 550fe2be-ba74-4e5a-9eb8-e10c8eeec4a4 run scoreboard players set @s lem.patreon 1
-#BrandonItaly
-execute as d8a0f2d0-99d1-43ac-a83a-2bc9479972ce run scoreboard players set @s lem.patreon 1
 #Swirlings
 execute as 8f508981-2299-4a10-b202-3fcbde8f79d8 run scoreboard players set @s lem.patreon 1
 #notyuru
@@ -121,6 +119,8 @@ execute as 98b252a5-ac5f-42b4-82ed-fa43ad2f468b run scoreboard players set @s le
 execute as fa012ca4-25a8-4e36-b4bf-75236f27bbd2 run scoreboard players set @s lem.patreon 1
 #SpritelyHoney43
 execute as cccaef8c-cd38-4ed4-a738-fb9d1f3a7672 run scoreboard players set @s lem.patreon 1
+#Dr_01000111
+execute as af419e84-c3e9-44ed-8dc2-de7527163aa1 run scoreboard players set @s lem.patreon 2
 
 ##Reset heart if no longer subscribed
 #Tiny
