@@ -1,6 +1,6 @@
 {
-  "playerCompleteFunction": "lem.base:loaded",
-  "playerFailedFunction": "lem.base:failed",
+  "playerCompleteFunction": "lem.base:resource/loaded",
+  "playerFailedFunction": "lem.base:resource/failed",
   "packs": [
     {
       "packname": "blank",
