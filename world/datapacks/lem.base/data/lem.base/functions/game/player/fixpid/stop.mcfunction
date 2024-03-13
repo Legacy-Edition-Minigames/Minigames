@@ -5,7 +5,7 @@ schedule clear lem.base:game/player/fixpid/check
 execute as @a[tag=ingame] run function lem.base:game/player/team/run
 
 ##Update display
-function lem.base:relog/timer/forceupdate
+scoreboardSuffixForceUpdate
 
 ##Load playerbar
 function lem.base:ui/playerbar/load

@@ -28,6 +28,7 @@ tag @s remove optifine
 tag @s remove ingame
 tag @s remove bedrock
 tag @s remove clientchecked
+tag @s remove loadingcomplete
 tag @s remove heart-architect
 tag @s remove heart-mario
 tag @s remove heart-tris1357
@@ -84,9 +85,6 @@ execute unless entity @a[tag=relogtimer] run scoreboard players set #Store lem.r
 
 ##Add resource pack timer tag
 tag @s add relogtimer
-
-##Revoke resourcepack loading advancements
-function lem.base:resource/advancementreset
 
 ##Hide tablist heart
 setSuffixFont alive "lem.base:tablist/heart/empty" @s

@@ -5,10 +5,10 @@ tag @s add host
 execute at @e[tag=LobbyTP] run forceload remove ~ ~
 
 ##Unload previous lobby
-custommaploader unload lem.base:the_lobby lem.base:menu/load/host/start/timer/lobbyunloaded
+custommaploader lobby unload lem.base:the_lobby lem.base:menu/load/host/start/timer/lobbyunloaded
 
-##Unload the previous map
-custommaploader unload lem.base:arena
+##Unload the previous map \\ TODO: Have a generic command for unloading the arena, not tied to battle
+custommaploader battle unload lem.base:arena
 
 ##Load menu
 function lem.base:menu/load/host

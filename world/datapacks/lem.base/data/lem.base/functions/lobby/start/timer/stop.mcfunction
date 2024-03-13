@@ -1,5 +1,5 @@
-##Unload the previous map
-custommaploader unload lem.base:arena
+##Unload the previous map \\ TODO: Have a generic command for unloading the arena, not tied to battle
+custommaploader battle unload lem.base:arena
 
 ##Stop teleport
 function lem.base:lobby/start/timer/teleport/stop

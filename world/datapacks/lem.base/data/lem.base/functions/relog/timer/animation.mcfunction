@@ -1,5 +1,5 @@
 ##Update display
-function lem.base:relog/timer/forceupdate
+scoreboardSuffixForceUpdate
 
 ##Increase loading animation timer
 execute if score #Store lem.relogtimerani matches 1.. run scoreboard players add #Store lem.relogtimerani 1

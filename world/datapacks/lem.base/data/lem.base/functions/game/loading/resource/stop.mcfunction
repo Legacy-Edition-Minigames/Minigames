@@ -1,8 +1,8 @@
 ##Stop check
 schedule clear lem.base:game/loading/resource/run
 
-##Remove resourceloaded tag
-tag @a[tag=ingame] remove resourceloaded
+##Remove loadingcomplete tag
+tag @a[tag=ingame] remove loadingcomplete
 
 ##Set loadingbar text
 scoreboard players set #Store lem.barmode 1

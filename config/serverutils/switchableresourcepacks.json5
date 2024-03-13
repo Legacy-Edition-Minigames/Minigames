@@ -1,5 +1,6 @@
 {
-  "autoRevoke": false,
+  "playerCompleteFunction": "lem.base:loaded",
+  "playerFailedFunction": "lem.base:failed",
   "packs": [
     {
       "packname": "blank",
