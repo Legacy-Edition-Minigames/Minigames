@@ -53,5 +53,8 @@ execute unless score #Store lem.gamestatus matches 4 run attribute @s minecraft:
 ##Load panorama
 #execute if score #Store lem.gimode matches 2 run function lem.base:ui/panorama/load
 
+##Unfreeze player
+playerfreeze @s false
+
 ##Run functions for addons
 function #lem.base:relog/setup/global

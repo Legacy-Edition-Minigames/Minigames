@@ -9,12 +9,12 @@
         "leftClickAction": "openUI/ lem.menu:options/ui/panorama/main"
       },
       "7": {
-        "presetID": "lem.menu:button/generic:standard",
+        "presetID": "lem.menu:button/standard/full:default",
         "leftClickAction": "openUI/ lem.menu:options/ui/panorama/main"
       },
       "8": {
         "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.button.panorama_settings",
+        "customModelData": "lem.menu.ui.text.button.full.panorama_settings",
         "leftClickAction": "openUI/ lem.menu:options/ui/panorama/main"
       },
       "9-15": {
@@ -22,12 +22,12 @@
         "leftClickAction": "openUI/ lem.menu:options/ui/scale"
       },
       "16": {
-        "presetID": "lem.menu:button/generic:standard",
+        "presetID": "lem.menu:button/standard/full:default",
         "leftClickAction": "openUI/ lem.menu:options/ui/scale"
       },
       "17": {
         "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.button.scale_settings",
+        "customModelData": "lem.menu.ui.text.button.full.scale_settings",
         "leftClickAction": "openUI/ lem.menu:options/ui/scale"
       },
       "72": {

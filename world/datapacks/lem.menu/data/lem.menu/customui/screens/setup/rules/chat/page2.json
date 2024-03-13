@@ -1,0 +1,162 @@
+{
+  "title": "[\"\",{\"text\":\"\uF808\uF8033\",\"color\":\"white\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"text\":\"\uF80C\uF80A\uF809\uF808\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"translate\":\"lem.menu.ui.title.chat_rules\",\"color\":\"#424242\",\"font\":\"lem.menu:menu/text/en_us/title/chat_rules\"}]",
+  "escToClose": true,
+  "escSound": "lem.menu:sound.menu.back",
+  "forceHotBarSlot": "1",
+  "slots": {
+      "0-6": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/raids"
+      },
+      "7": {
+        "presetID": "lem.menu:button/standard/full:default",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/raids"
+      },
+      "8": {
+        "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.full.raids_are_not_tolerated",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/raids"
+      },
+      "9-15": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/civil"
+      },
+      "16": {
+        "presetID": "lem.menu:button/standard/full:default",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/civil"
+      },
+      "17": {
+      "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.full.be_civil",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/civil"
+      },
+      "18-24": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/arguments"
+      },
+      "25": {
+        "presetID": "lem.menu:button/standard/full:default",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/arguments"
+      },
+      "26": {
+      "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.full.keep_arguments_peaceful",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/arguments"
+      },
+      "27-33": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/politics"
+      },
+      "34": {
+        "presetID": "lem.menu:button/standard/full:default",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/politics"
+      },
+      "35": {
+        "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.full.do_not_discuss_politics",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/politics"
+      },
+      "36-42": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/common"
+      },
+      "43": {
+        "presetID": "lem.menu:button/standard/full:default",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/common"
+      },
+      "44": {
+        "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.full.use_common_sense",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/common"
+      },
+      "45": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "command/ function lem.menu:menu/gui/setup/rules/agree/toggle",
+        "refreshOnInteract" : true
+      },
+      "46": {
+        "presetID": "lem.menu:button/generic:tickbox",
+        "leftClickAction": "command/ function lem.menu:menu/gui/setup/rules/agree/toggle",
+        "dynamicModel": {
+          "score": "lem.menu.ui.dynamic.setup.rules.agree",
+          "player": "@s",
+          "models": {
+            "1": "lem.menu.ui.button.tick_disabled",
+            "2": "lem.menu.ui.button.tick_enabled"
+          }
+        }
+      },
+      "47": {
+        "presetID": "lem.menu:button/generic:text_tickbox",
+        "leftClickAction": "command/ function lem.menu:menu/gui/setup/rules/agree/toggle",
+        "customModelData": "lem.menu.ui.text.tick.i_read_and_agree_to_the_rules",
+        "refreshOnInteract" : true
+      },
+      "48-53": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "command/ function lem.menu:menu/gui/setup/rules/agree/toggle",
+        "refreshOnInteract" : true
+      },
+      "54-56": {
+        "presetID": "lem.menu:button/generic:blank",
+        "replaceOpenScreen": true,
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/page1"
+      },
+      "57": {
+        "presetID": "lem.menu:button/standard/half:left_default_up",
+        "replaceOpenScreen": true,
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/page1"
+      },
+      "58-60": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickSound": "lem.menu:sound.menu.fail"
+      },
+      "61": {
+        "presetID": "lem.menu:button/standard/half:right_dark_down",
+        "leftClickSound": "lem.menu:sound.menu.fail"
+      },
+      "62": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickSound": "lem.menu:sound.menu.fail"
+      },
+      "73-78": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickSound": "none",
+        "leftClickAction": "command/ function lem.menu:menu/gui/setup/rules/page2/check"
+      },
+      "79": {
+        "presetID": "lem.menu:button/standard/full:default",
+        "dynamicModel": {
+          "score": "lem.menu.ui.dynamic.setup.rules.agree",
+          "player": "@s",
+          "models": {
+            "1": "1",
+            "2": "1000"
+          }
+        },
+        "leftClickSound": "none",
+        "leftClickAction": "command/ function lem.menu:menu/gui/setup/rules/page2/check"
+      },
+      "80": {
+        "presetID": "lem.menu:button/generic:text",
+        "dynamicModel": {
+          "score": "lem.menu.ui.dynamic.setup.rules.agree",
+          "player": "@s",
+          "models": {
+            "1": "1",
+            "2": "lem.menu.ui.text.button.full.continue"
+          }
+        },
+        "leftClickSound": "none",
+        "leftClickAction": "command/ function lem.menu:menu/gui/setup/rules/page2/check"
+      },
+      "72": {
+        "presetID": "lem.menu:button/leavegame:visual",
+        "leftClickSound": "none",
+        "leftClickAction": "command/ function lem.menu:menu/gui/setup/rules/page2/check"
+      },
+      "81": {
+        "presetID": "lem.menu:button/leavegame:button"
+      }
+  }
+}

@@ -25,6 +25,8 @@ scoreboard objectives add lem.menu.ui.dynamic.panorama.config.scale dummy
 scoreboard objectives add lem.menu.ui.dynamic.panorama.config.background dummy
 #UI Config: Scale
 scoreboard objectives add lem.menu.ui.dynamic.ui.config.scale dummy
+#Setup: Rules
+scoreboard objectives add lem.menu.ui.dynamic.setup.rules.agree dummy
 
 ##Title
 scoreboard objectives add lem.menu.title dummy

@@ -1,5 +1,5 @@
 ##RNG
-execute store result score @s lem.menu.musrandom run loot spawn ~ -2 ~ loot lem.menu:musrandom
+execute store result score @s lem.menu.musrandom run random value 1..4
 
 ##Pick song
 #Menu1

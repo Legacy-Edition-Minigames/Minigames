@@ -1,0 +1,27 @@
+{
+  "title": "[\"\",{\"text\":\"\uF808\uF8033\",\"color\":\"white\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"text\":\"\uF80C\uF80A\uF809\uF808\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"translate\":\"lem.menu.ui.notice.rules.gameplay.cheat_pretend\",\"color\":\"#424242\",\"font\":\"lem.menu:menu/text/en_us/notice/rules/gameplay/cheat_pretend\"}]",
+  "escToClose": true,
+  "escSound": "lem.menu:sound.menu.back",
+  "forceHotBarSlot": "1",
+  "slots": {
+      "53-60": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "back/"
+      },
+      "61": {
+        "presetID": "lem.menu:button/standard/full:default",
+        "leftClickAction": "back/"
+      },
+      "62": {
+        "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.full.ok",
+        "leftClickAction": "back/"
+      },
+      "72": {
+        "presetID": "lem.menu:button/leavegame:visual"
+      },
+      "81": {
+        "presetID": "lem.menu:button/leavegame:button"
+      }
+  }
+}

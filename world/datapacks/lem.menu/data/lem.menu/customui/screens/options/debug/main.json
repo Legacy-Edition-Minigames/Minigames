@@ -9,12 +9,12 @@
         "leftClickAction": "openUI/ lem.menu:options/debug/force_exit_menu"
       },
       "7": {
-        "presetID": "lem.menu:button/generic:standard",
+        "presetID": "lem.menu:button/standard/full:default",
         "leftClickAction": "openUI/ lem.menu:options/debug/force_exit_menu"
       },
       "8": {
       "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.button.force_exit_menu",
+        "customModelData": "lem.menu.ui.text.button.full.force_exit_menu",
         "leftClickAction": "openUI/ lem.menu:options/debug/force_exit_menu"
       },
       "9-15": {
@@ -22,12 +22,12 @@
         "leftClickAction": "command/ function lem.menu:menu/gui/debug/reload-datapack"
       },
       "16": {
-        "presetID": "lem.menu:button/generic:standard",
+        "presetID": "lem.menu:button/standard/full:default",
         "leftClickAction": "command/ function lem.menu:menu/gui/debug/reload-datapack"
       },
       "17": {
       "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.button.reload_datapack",
+        "customModelData": "lem.menu.ui.text.button.full.reload_datapack",
         "leftClickAction": "command/ function lem.menu:menu/gui/debug/reload-datapack"
       },
       "18-24": {
@@ -35,12 +35,12 @@
         "leftClickAction": "command/ scoreboard players set @s reloadresources 1"
       },
       "25": {
-        "presetID": "lem.menu:button/generic:standard",
+        "presetID": "lem.menu:button/standard/full:default",
         "leftClickAction": "command/ scoreboard players set @s reloadresources 1"
       },
       "26": {
       "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.button.reload_resources",
+        "customModelData": "lem.menu.ui.text.button.full.reload_resources",
         "leftClickAction": "command/ scoreboard players set @s reloadresources 1"
       },
       "27-33": {
@@ -48,12 +48,12 @@
         "leftClickAction": "command/ function lem.menu:menu/gui/debug/reload-music"
       },
       "34": {
-        "presetID": "lem.menu:button/generic:standard",
+        "presetID": "lem.menu:button/standard/full:default",
         "leftClickAction": "command/ function lem.menu:menu/gui/debug/reload-music"
       },
       "35": {
         "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.button.reload_music",
+        "customModelData": "lem.menu.ui.text.button.full.reload_music",
         "leftClickAction": "command/ function lem.menu:menu/gui/debug/reload-music"
       },
       "36-42": {
@@ -61,12 +61,12 @@
         "leftClickAction": "openUI/ lem.menu:options/debug/ui_test"
       },
       "43": {
-        "presetID": "lem.menu:button/generic:standard",
+        "presetID": "lem.menu:button/standard/full:default",
         "leftClickAction": "openUI/ lem.menu:options/debug/ui_test"
       },
       "44": {
         "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.button.ui_test",
+        "customModelData": "lem.menu.ui.text.button.full.ui_test",
         "leftClickAction": "openUI/ lem.menu:options/debug/ui_test"
       },
       "45-51": {
@@ -74,12 +74,12 @@
         "leftClickAction": "openUI/ lem.menu:options/debug/config/main"
       },
       "52": {
-        "presetID": "lem.menu:button/generic:standard",
+        "presetID": "lem.menu:button/standard/full:default",
         "leftClickAction": "openUI/ lem.menu:options/debug/config/main"
       },
       "53": {
         "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.button.config_options",
+        "customModelData": "lem.menu.ui.text.button.full.config_options",
         "leftClickAction": "openUI/ lem.menu:options/debug/config/main"
       },
       "73-78": {
@@ -88,13 +88,13 @@
         "leftClickAction": "back/"
       },
       "79": {
-        "presetID": "lem.menu:button/generic:standard",
+        "presetID": "lem.menu:button/standard/full:default",
         "leftClickSound": "lem.menu:sound.menu.back",
         "leftClickAction": "back/"
       },
       "80": {
         "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.button.done",
+        "customModelData": "lem.menu.ui.text.button.full.done",
         "leftClickSound": "lem.menu:sound.menu.back",
         "leftClickAction": "back/"
       },

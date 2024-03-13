@@ -1,5 +1,5 @@
 ##Play song unless this was the last song
-playsound lem.menu:music.menu.2 music @s
+playsound lem.base:music.menu.2 music @s
 
 ##Set timer
 scoreboard players set @s lem.mustimer 183

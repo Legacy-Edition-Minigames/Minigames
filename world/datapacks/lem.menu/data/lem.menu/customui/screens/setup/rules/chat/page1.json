@@ -1,0 +1,115 @@
+{
+  "title": "[\"\",{\"text\":\"\uF808\uF8033\",\"color\":\"white\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"text\":\"\uF80C\uF80A\uF809\uF808\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"translate\":\"lem.menu.ui.title.chat_rules\",\"color\":\"#424242\",\"font\":\"lem.menu:menu/text/en_us/title/chat_rules\"}]",
+  "escToClose": true,
+  "escSound": "lem.menu:sound.menu.back",
+  "forceHotBarSlot": "1",
+  "slots": {
+      "0-6": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/dox"
+      },
+      "7": {
+        "presetID": "lem.menu:button/standard/full:default",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/dox"
+      },
+      "8": {
+        "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.full.do_not_dox_people",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/dox"
+      },
+      "9-15": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/slurs"
+      },
+      "16": {
+        "presetID": "lem.menu:button/standard/full:default",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/slurs"
+      },
+      "17": {
+      "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.full.do_not_use_slurs",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/slurs"
+      },
+      "18-24": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/harass"
+      },
+      "25": {
+        "presetID": "lem.menu:button/standard/full:default",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/harass"
+      },
+      "26": {
+      "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.full.do_not_harass_other_members",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/harass"
+      },
+      "27-33": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/fascism"
+      },
+      "34": {
+        "presetID": "lem.menu:button/standard/full:default",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/fascism"
+      },
+      "35": {
+        "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.full.fascism_is_not_tolerated",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/fascism"
+      },
+      "36-42": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/spam"
+      },
+      "43": {
+        "presetID": "lem.menu:button/standard/full:default",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/spam"
+      },
+      "44": {
+        "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.full.do_not_spam",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/spam"
+      },
+      "45-51": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/nsfw"
+      },
+      "52": {
+        "presetID": "lem.menu:button/standard/full:default",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/nsfw"
+      },
+      "53": {
+        "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.full.do_not_post_nsfw_content",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/nsfw"
+      },
+      "54-56": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickSound": "lem.menu:sound.menu.fail"
+      },
+      "57": {
+        "presetID": "lem.menu:button/standard/half:left_dark_up",
+        "leftClickSound": "lem.menu:sound.menu.fail"
+      },
+      "58-60": {
+        "presetID": "lem.menu:button/generic:blank",
+        "replaceOpenScreen": true,
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/page2"
+      },
+      "61": {
+        "presetID": "lem.menu:button/standard/half:right_default_down",
+        "replaceOpenScreen": true,
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/page2"
+      },
+      "62": {
+        "presetID": "lem.menu:button/generic:blank",
+        "replaceOpenScreen": true,
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/page2"
+      },
+      "72": {
+        "presetID": "lem.menu:button/leavegame:visual"
+      },
+      "81": {
+        "presetID": "lem.menu:button/leavegame:button"
+      }
+  }
+}

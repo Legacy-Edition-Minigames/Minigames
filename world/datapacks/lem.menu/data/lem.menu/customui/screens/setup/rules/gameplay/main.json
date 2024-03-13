@@ -1,0 +1,92 @@
+{
+  "title": "[\"\",{\"text\":\"\uF808\uF8033\",\"color\":\"white\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"text\":\"\uF80C\uF80A\uF809\uF808\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"translate\":\"lem.menu.ui.title.gameplay_rules\",\"color\":\"#424242\",\"font\":\"lem.menu:menu/text/en_us/title/gameplay_rules\"}]",
+  "escToClose": true,
+  "escSound": "lem.menu:sound.menu.back",
+  "forceHotBarSlot": "1",
+  "slots": {
+      "0-6": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/gameplay/cheat"
+      },
+      "7": {
+        "presetID": "lem.menu:button/standard/full:default",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/gameplay/cheat"
+      },
+      "8": {
+        "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.full.do_not_cheat",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/gameplay/cheat"
+      },
+      "9-15": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/gameplay/cheat_pretend"
+      },
+      "16": {
+        "presetID": "lem.menu:button/standard/full:default",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/gameplay/cheat_pretend"
+      },
+      "17": {
+      "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.full.do_not_pretend_to_cheat",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/gameplay/cheat_pretend"
+      },
+      "18-24": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/gameplay/exploit"
+      },
+      "25": {
+        "presetID": "lem.menu:button/standard/full:default",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/gameplay/exploit"
+      },
+      "26": {
+      "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.full.do_not_abuse_exploits",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/gameplay/exploit"
+      },
+      "27-33": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/gameplay/skins"
+      },
+      "34": {
+        "presetID": "lem.menu:button/standard/full:default",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/gameplay/skins"
+      },
+      "35": {
+        "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.full.do_not_use_inappropriate_skins",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/gameplay/skins"
+      },
+      "36-42": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/gameplay/ban"
+      },
+      "43": {
+        "presetID": "lem.menu:button/standard/full:default",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/gameplay/ban"
+      },
+      "44": {
+        "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.full.do_not_ban_evade",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/gameplay/ban"
+      },
+      "54-60": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/page1"
+      },
+      "61": {
+        "presetID": "lem.menu:button/standard/full:default",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/page1"
+      },
+      "62": {
+        "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.full.next_page",
+        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/page1"
+      },
+      "72": {
+        "presetID": "lem.menu:button/leavegame:visual"
+      },
+      "81": {
+        "presetID": "lem.menu:button/leavegame:button"
+      }
+  }
+}

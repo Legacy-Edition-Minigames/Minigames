@@ -50,10 +50,10 @@
         "score": "lem.menu.ui.dynamic.panorama.config.scale",
         "player": "@s",
         "models": {
-          "1": "lem.menu.ui.text.button.panorama_1",
-          "2": "lem.menu.ui.text.button.panorama_2",
-          "3": "lem.menu.ui.text.button.panorama_3",
-          "4": "lem.menu.ui.text.button.panorama_4"
+          "1": "lem.menu.ui.text.button.full.panorama_1",
+          "2": "lem.menu.ui.text.button.full.panorama_2",
+          "3": "lem.menu.ui.text.button.full.panorama_3",
+          "4": "lem.menu.ui.text.button.full.panorama_4"
         }
       }
     },
@@ -103,10 +103,10 @@
         "score": "lem.menu.ui.dynamic.ui.config.scale",
         "player": "@s",
         "models": {
-          "1": "lem.menu.ui.text.button.gui_1",
-          "2": "lem.menu.ui.text.button.gui_2",
-          "3": "lem.menu.ui.text.button.gui_3",
-          "4": "lem.menu.ui.text.button.gui_4"
+          "1": "lem.menu.ui.text.button.full.gui_1",
+          "2": "lem.menu.ui.text.button.full.gui_2",
+          "3": "lem.menu.ui.text.button.full.gui_3",
+          "4": "lem.menu.ui.text.button.full.gui_4"
         }
       }
     },
@@ -116,13 +116,13 @@
       "leftClickAction": "back/"
     },
     "79": {
-      "presetID": "lem.menu:button/generic:standard",
+      "presetID": "lem.menu:button/standard/full:default",
       "leftClickSound": "lem.menu:sound.menu.back",
       "leftClickAction": "back/"
     },
     "80": {
       "presetID": "lem.menu:button/generic:text",
-      "customModelData": "lem.menu.ui.text.button.done",
+      "customModelData": "lem.menu.ui.text.button.full.done",
       "leftClickSound": "lem.menu:sound.menu.back",
       "leftClickAction": "back/"
     },
