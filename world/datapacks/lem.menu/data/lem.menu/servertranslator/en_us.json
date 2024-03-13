@@ -1,4 +1,11 @@
 {
+    "lem.menu.ui.achievement.locked": "34",
+    "lem.menu.ui.achievement.battle.cupid": "6",
+    "lem.menu.ui.achievement.battle.hunger": "7",
+    "lem.menu.ui.achievement.battle.scratch": "8",
+    "lem.menu.ui.achievement.battle.student": "9",
+    "lem.menu.ui.achievement.battle.master": "10",
+    "lem.menu.ui.achievement.battle.root": "31",
     "lem.menu.ui.button.tick_enabled": "1008",
     "lem.menu.ui.button.tick_disabled": "1009",
     "lem.menu.ui.button.tick_broken": "1010",
@@ -244,5 +251,6 @@
     "lem.menu.ui.text.button.half.left.right": "10091",
     "lem.menu.ui.text.button.half.right.right": "10092",
     "lem.menu.ui.text.button.full.late_christmas_event": "10093",
-    "lem.menu.ui.text.button.full.more_information": "10094"
+    "lem.menu.ui.text.button.full.more_information": "10094",
+    "lem.menu.ui.text.button.full.achievements": "10095"
   }

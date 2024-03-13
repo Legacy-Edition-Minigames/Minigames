@@ -1,6 +1,7 @@
 {
   "values":[
-  "lem.menu:config/defaults"
+  "lem.menu:config/defaults",
+  "lem.battle:config/defaults"
   ]
 }
   

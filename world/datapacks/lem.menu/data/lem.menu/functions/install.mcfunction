@@ -27,6 +27,18 @@ scoreboard objectives add lem.menu.ui.dynamic.panorama.config.background dummy
 scoreboard objectives add lem.menu.ui.dynamic.ui.config.scale dummy
 #Setup: Rules
 scoreboard objectives add lem.menu.ui.dynamic.setup.rules.agree dummy
+#Achievement: Student
+scoreboard objectives add lem.menu.ui.dynamic.achievement.battle.student dummy
+#Achievement: Master
+scoreboard objectives add lem.menu.ui.dynamic.achievement.battle.master dummy
+#Achievement: Scratch
+scoreboard objectives add lem.menu.ui.dynamic.achievement.battle.scratch dummy
+#Achievement: Hunger
+scoreboard objectives add lem.menu.ui.dynamic.achievement.battle.hunger dummy
+#Achievement: Cupid
+scoreboard objectives add lem.menu.ui.dynamic.achievement.battle.cupid dummy
+#Achievement: Mine
+scoreboard objectives add lem.menu.ui.dynamic.achievement.battle.mine dummy
 
 ##Title
 scoreboard objectives add lem.menu.title dummy

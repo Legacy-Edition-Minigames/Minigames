@@ -17,6 +17,10 @@
       "replaceOpenScreen": true,
       "leftClickSound": "lem.menu:sound.menu.focus",
       "leftClickAction": "openUI/ lem.menu:mgmenu/friends"
+    },
+    "achievement": {
+      "replaceOpenScreen": true,
+      "leftClickSound": "lem.menu:sound.menu.focus"
     }
   }
 }
