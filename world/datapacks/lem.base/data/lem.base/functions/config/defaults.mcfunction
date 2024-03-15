@@ -38,6 +38,10 @@ userconfig @s test lem.base:panorama_night EQUAL _NOTHING_ runCommand userconfig
 ##Heart Cosmetic
 userconfig @s test lem.base:heartcosmetic EQUAL _NOTHING_ runCommand userconfig @s set lem.base:heartcosmetic minecraft_default
 
+##Achievements
+userconfig @s test lem.base:achievement_ghost EQUAL _NOTHING_ runCommand userconfig @s set lem.base:achievement_ghost false
+userconfig @s test lem.base:achievement_mean EQUAL _NOTHING_ runCommand userconfig @s set lem.base:achievement_mean false
+
 ##Run functions for addons
 function #lem.base:config/defaults
 
