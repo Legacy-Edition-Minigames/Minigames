@@ -10,9 +10,9 @@
       "translate": "lem.battle.advancement.mine.desc"
     },
     "frame": "task",
-    "hidden": false
+    "hidden": true
   },
-  "parent": "lem.battle:root",
+  "parent": "lem.base:root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"

@@ -10,9 +10,10 @@
     "description": {
       "translate": "lem.battle.advancement.hunger.desc"
     },
-    "frame": "task"
+    "frame": "task",
+    "hidden": true
   },
-  "parent": "lem.battle:root",
+  "parent": "lem.base:root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"

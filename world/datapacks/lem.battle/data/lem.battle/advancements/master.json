@@ -10,9 +10,10 @@
     "description": {
       "translate": "lem.battle.advancement.master.desc"
     },
-    "frame": "challenge"
+    "frame": "challenge",
+    "hidden": true
   },
-  "parent": "lem.battle:student",
+  "parent": "lem.base:root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"

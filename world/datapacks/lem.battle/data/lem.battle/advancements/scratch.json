@@ -10,9 +10,10 @@
     "description": {
       "translate": "lem.battle.advancement.scratch.desc"
     },
-    "frame": "goal"
+    "frame": "goal",
+    "hidden": true
   },
-  "parent": "lem.battle:root",
+  "parent": "lem.base:root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"
