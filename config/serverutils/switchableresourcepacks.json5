@@ -1,5 +1,6 @@
 {
-  "autoRevoke": false,
+  "playerCompleteFunction": "lem.base:resource/loaded",
+  "playerFailedFunction": "lem.base:resource/failed",
   "packs": [
     {
       "packname": "blank",
@@ -7,8 +8,7 @@
       "hash": "",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
-      "packCompatibility": "BOTH"
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
     },
     {
       "packname": "menu",
@@ -16,8 +16,7 @@
       "hash": "6426b2604cadad6234d54814c852ef3ada95ffa6",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
-      "packCompatibility": "VANILLA"
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
     },
     {
       "packname": "vanilla",
@@ -25,8 +24,7 @@
       "hash": "",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
-      "packCompatibility": "VANILLA"
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
     },
     {
       "packname": "all-music",
@@ -34,8 +32,7 @@
       "hash": "6426b2604cadad6234d54814c852ef3ada95ffa6",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
-      "packCompatibility": "VANILLA"
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
     },
     {
       "packname": "plastic",
@@ -43,8 +40,7 @@
       "hash": "",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
-      "packCompatibility": "VANILLA"
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
     },
     {
       "packname": "fantasy",
@@ -52,8 +48,7 @@
       "hash": "",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
-      "packCompatibility": "VANILLA"
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
     },
     {
       "packname": "city",
@@ -61,8 +56,7 @@
       "hash": "",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
-      "packCompatibility": "VANILLA"
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
     },
     {
       "packname": "greek",
@@ -70,8 +64,7 @@
       "hash": "",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
-      "packCompatibility": "VANILLA"
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
     },
     {
       "packname": "steampunk",
@@ -79,8 +72,7 @@
       "hash": "",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
-      "packCompatibility": "VANILLA"
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
     },
     {
       "packname": "chinese",
@@ -88,8 +80,7 @@
       "hash": "",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
-      "packCompatibility": "VANILLA"
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
     },
     {
       "packname": "halloween",
@@ -97,8 +88,7 @@
       "hash": "",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
-      "packCompatibility": "VANILLA"
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
     },
     {
       "packname": "festive",
@@ -106,8 +96,7 @@
       "hash": "",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
-      "packCompatibility": "VANILLA"
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
     },
     {
       "packname": "fallout",
@@ -115,8 +104,7 @@
       "hash": "",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
-      "packCompatibility": "VANILLA"
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
     },
     {
       "packname": "natural",
@@ -124,8 +112,7 @@
       "hash": "",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
-      "packCompatibility": "VANILLA"
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
     },
     {
       "packname": "cartoon",
@@ -133,8 +120,7 @@
       "hash": "",
       "required": true,
       "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!",
-      "packCompatibility": "VANILLA"
+      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
     }
   ]
 }
