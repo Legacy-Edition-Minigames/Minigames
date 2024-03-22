@@ -1,0 +1,6 @@
+{
+   "pack": {
+      "pack_format": 15,
+      "description": "Temporary folder for menu elements before lem.menu is properly merged"
+   }
+}

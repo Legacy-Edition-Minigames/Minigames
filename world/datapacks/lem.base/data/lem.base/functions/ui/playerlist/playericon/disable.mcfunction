@@ -33,4 +33,4 @@ team modify P15 prefix ""
 team modify P16 prefix ""
 
 ##Update display
-function lem.base:relog/timer/forceupdate
+scoreboardSuffixForceUpdate
