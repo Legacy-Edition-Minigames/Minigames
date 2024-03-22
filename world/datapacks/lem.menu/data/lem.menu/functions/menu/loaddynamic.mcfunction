@@ -35,6 +35,12 @@ userconfig @s test lem.base:panorama_background EQUAL 1 runCommand scoreboard pl
 scoreboard players operation @s lem.menu.ui.dynamic.ui.config.scale = @s lem.guiscale
 
 ##Achievements
+#Ghost
+userconfig @s test lem.base:achievement_ghost EQUAL false runCommand scoreboard players set @s lem.menu.ui.dynamic.achievement.secret.ghost 1
+userconfig @s test lem.base:achievement_ghost EQUAL true runCommand scoreboard players set @s lem.menu.ui.dynamic.achievement.secret.ghost 2
+#Mean
+userconfig @s test lem.base:achievement_mean EQUAL false runCommand scoreboard players set @s lem.menu.ui.dynamic.achievement.secret.mean 1
+userconfig @s test lem.base:achievement_mean EQUAL true runCommand scoreboard players set @s lem.menu.ui.dynamic.achievement.secret.mean 2
 #Student
 userconfig @s test lem.battle:achievement_student EQUAL false runCommand scoreboard players set @s lem.menu.ui.dynamic.achievement.battle.student 1
 userconfig @s test lem.battle:achievement_student EQUAL true runCommand scoreboard players set @s lem.menu.ui.dynamic.achievement.battle.student 2

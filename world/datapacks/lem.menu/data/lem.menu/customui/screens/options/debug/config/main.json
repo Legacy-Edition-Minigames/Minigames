@@ -12,12 +12,16 @@
       "1": {
         "presetID": "lem.menu:button/generic:tickbox",
         "leftClickAction": "command/ function lem.menu:menu/config/debug/custompack/toggle",
-        "dynamicModel": {
+        "dynamicItem": {
           "score": "lem.menu.ui.dynamic.debug.config.custompack",
           "player": "@s",
-          "models": {
-            "1": "lem.menu.ui.button.tick_disabled",
-            "2": "lem.menu.ui.button.tick_enabled"
+          "items": {
+            "1": {
+              "customModelData": "lem.menu.ui.button.tick_disabled"
+            },
+            "2": {
+              "customModelData": "lem.menu.ui.button.tick_enabled"
+            }
           }
         }
       },

@@ -12,12 +12,16 @@
       "1": {
         "presetID": "lem.menu:button/generic:tickbox",
         "leftClickAction": "command/ function lem.menu:menu/gui/debug/ui_test/tickbox/toggle",
-        "dynamicModel": {
+        "dynamicItem": {
           "score": "lem.menu.ui.dynamic.debug.ui_test.tick",
           "player": "@s",
-          "models": {
-            "1": "lem.menu.ui.button.tick_disabled",
-            "2": "lem.menu.ui.button.tick_enabled"
+          "items": {
+            "1": {
+              "customModelData": "lem.menu.ui.button.tick_disabled"
+            },
+            "2": {
+              "customModelData": "lem.menu.ui.button.tick_enabled"
+            }
           }
         }
       },
@@ -49,19 +53,37 @@
       "13": {
         "presetID": "lem.menu:button/generic:slider_button",
         "leftClickAction": "command/ scoreboard players set @s lem.menu.ui.dynamic.debug.ui_test.slider 5",
-        "dynamicModel": {
+        "dynamicItem": {
           "score": "lem.menu.ui.dynamic.debug.ui_test.slider",
           "player": "@s",
-          "models": {
-            "1": "lem.menu.ui.slider.1",
-            "2": "lem.menu.ui.slider.20",
-            "3": "lem.menu.ui.slider.39",
-            "4": "lem.menu.ui.slider.58",
-            "5": "lem.menu.ui.slider.76",
-            "6": "lem.menu.ui.slider.95",
-            "7": "lem.menu.ui.slider.114",
-            "8": "lem.menu.ui.slider.133",
-            "9": "lem.menu.ui.slider.151"
+          "items": {
+            "1": {
+              "customModelData": "lem.menu.ui.slider.1"
+            },
+            "2": {
+              "customModelData": "lem.menu.ui.slider.20"
+            },
+            "3": {
+              "customModelData": "lem.menu.ui.slider.39"
+            },
+            "4": {
+              "customModelData": "lem.menu.ui.slider.58"
+            },
+            "5": {
+              "customModelData": "lem.menu.ui.slider.76"
+            },
+            "6": {
+              "customModelData": "lem.menu.ui.slider.95"
+            },
+            "7": {
+              "customModelData": "lem.menu.ui.slider.114"
+            },
+            "8": {
+              "customModelData": "lem.menu.ui.slider.133"
+            },
+            "9": {
+              "customModelData": "lem.menu.ui.slider.151"
+            }
           }
         }
       },
@@ -84,19 +106,37 @@
         "presetID": "lem.menu:button/generic:text_slider",
         "leftClickAction": "command/ scoreboard players set @s lem.menu.ui.dynamic.debug.ui_test.slider 9",
         "refreshOnInteract" : true,
-        "dynamicModel": {
+        "dynamicItem": {
           "score": "lem.menu.ui.dynamic.debug.ui_test.slider",
           "player": "@s",
-          "models": {
-            "1": "lem.menu.ui.text.button.full.slider_1",
-            "2": "lem.menu.ui.text.button.full.slider_2",
-            "3": "lem.menu.ui.text.button.full.slider_3",
-            "4": "lem.menu.ui.text.button.full.slider_4",
-            "5": "lem.menu.ui.text.button.full.slider_5",
-            "6": "lem.menu.ui.text.button.full.slider_6",
-            "7": "lem.menu.ui.text.button.full.slider_7",
-            "8": "lem.menu.ui.text.button.full.slider_8",
-            "9": "lem.menu.ui.text.button.full.slider_9"
+          "items": {
+            "1": {
+              "customModelData": "lem.menu.ui.text.button.full.slider_1"
+            },
+            "2": {
+              "customModelData": "lem.menu.ui.text.button.full.slider_2"
+            },
+            "3": {
+              "customModelData": "lem.menu.ui.text.button.full.slider_3"
+            },
+            "4": {
+              "customModelData": "lem.menu.ui.text.button.full.slider_4"
+            },
+            "5": {
+              "customModelData": "lem.menu.ui.text.button.full.slider_5"
+            },
+            "6": {
+              "customModelData": "lem.menu.ui.text.button.full.slider_6"
+            },
+            "7": {
+              "customModelData": "lem.menu.ui.text.button.full.slider_7"
+            },
+            "8": {
+              "customModelData": "lem.menu.ui.text.button.full.slider_8"
+            },
+            "9": {
+              "customModelData": "lem.menu.ui.text.button.full.slider_9"
+            }
           }
         }
       },

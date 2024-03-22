@@ -26,18 +26,34 @@
     "4": {
       "presetID": "lem.menu:button/generic:slider_button",
       "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/19",
-      "dynamicModel": {
+      "dynamicItem": {
         "score": "lem.menu.ui.dynamic.panorama.config.background",
         "player": "@s",
-        "models": {
-          "1": "lem.menu.ui.slider.1",
-          "2": "lem.menu.ui.slider.23",
-          "3": "lem.menu.ui.slider.44",
-          "4": "lem.menu.ui.slider.66",
-          "5": "lem.menu.ui.slider.87",
-          "6": "lem.menu.ui.slider.109",
-          "7": "lem.menu.ui.slider.130",
-          "8": "lem.menu.ui.slider.151"
+        "items": {
+          "1": {
+            "customModelData": "lem.menu.ui.slider.1"
+          },
+          "2": {
+            "customModelData": "lem.menu.ui.slider.23"
+          },
+          "3": {
+            "customModelData": "lem.menu.ui.slider.44"
+          },
+          "4": {
+            "customModelData": "lem.menu.ui.slider.66"
+          },
+          "5": {
+            "customModelData": "lem.menu.ui.slider.87"
+          },
+          "6": {
+            "customModelData": "lem.menu.ui.slider.109"
+          },
+          "7": {
+            "customModelData": "lem.menu.ui.slider.130"
+          },
+          "8": {
+            "customModelData": "lem.menu.ui.slider.151"
+          }
         }
       }
     },
@@ -60,18 +76,34 @@
       "presetID": "lem.menu:button/generic:text_slider",
       "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/69",
       "refreshOnInteract" : true,
-      "dynamicModel": {
+      "dynamicItem": {
         "score": "lem.menu.ui.dynamic.panorama.config.background",
         "player": "@s",
-        "models": {
-          "1": "lem.menu.ui.text.button.full.background_tu1",
-          "2": "lem.menu.ui.text.button.full.background_tu5",
-          "3": "lem.menu.ui.text.button.full.background_tu9",
-          "4": "lem.menu.ui.text.button.full.background_tu14",
-          "5": "lem.menu.ui.text.button.full.background_tu19",
-          "6": "lem.menu.ui.text.button.full.background_tu31",
-          "7": "lem.menu.ui.text.button.full.background_tu46",
-          "8": "lem.menu.ui.text.button.full.background_tu69"
+        "items": {
+          "1": {
+            "customModelData": "lem.menu.ui.text.button.full.background_tu1"
+          },
+          "2": {
+            "customModelData": "lem.menu.ui.text.button.full.background_tu5"
+          },
+          "3": {
+            "customModelData": "lem.menu.ui.text.button.full.background_tu9"
+          },
+          "4": {
+            "customModelData": "lem.menu.ui.text.button.full.background_tu14"
+          },
+          "5": {
+            "customModelData": "lem.menu.ui.text.button.full.background_tu19"
+          },
+          "6": {
+            "customModelData": "lem.menu.ui.text.button.full.background_tu31"
+          },
+          "7": {
+            "customModelData": "lem.menu.ui.text.button.full.background_tu46"
+          },
+          "8": {
+            "customModelData": "lem.menu.ui.text.button.full.background_tu69"
+          }
         }
       }
     },
@@ -83,12 +115,16 @@
     "10": {
       "presetID": "lem.menu:button/generic:tickbox",
       "leftClickAction": "command/ function lem.menu:menu/config/panorama/texture/time/toggle",
-      "dynamicModel": {
+      "dynamicItem": {
         "score": "lem.menu.ui.dynamic.panorama.config.night",
         "player": "@s",
-        "models": {
-          "1": "lem.menu.ui.button.tick_disabled",
-          "2": "lem.menu.ui.button.tick_enabled"
+        "items": {
+          "1": {
+            "customModelData": "lem.menu.ui.button.tick_disabled"
+          },
+          "2": {
+            "customModelData": "lem.menu.ui.button.tick_enabled"
+          }
         }
       }
     },

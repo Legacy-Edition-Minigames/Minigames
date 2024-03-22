@@ -16,79 +16,98 @@
         "leftClickAction": "openUI/ lem.menu:achievement/secret"
       },
       "18": {
-        "itemID": "minecraft:ghast_spawn_egg",
+        "presetID": "lem.menu:button/generic:achievement",
         "itemNBT": "{display:{Name:'{\"translate\":\"lem.battle.advancement.student.name\"}',Lore:['{\"translate\":\"lem.battle.advancement.student.desc\",\"color\":\"white\",\"italic\":false}']}}",
-        "customModelData": "lem.menu.ui.achievement.locked",
-        "dynamicModel": {
+        "dynamicItem": {
           "score": "lem.menu.ui.dynamic.achievement.battle.student",
           "player": "@s",
-          "models": {
-            "1": "lem.menu.ui.achievement.locked",
-            "2": "lem.menu.ui.achievement.battle.student"
+          "items": {
+            "1": {
+              "customModelData": "lem.menu.ui.achievement.locked"
+            },
+            "2": {
+              "customModelData": "lem.menu.ui.achievement.battle.student"
+            }
           }
         }
       },
       "19": {
-        "itemID": "minecraft:ghast_spawn_egg",
+        "presetID": "lem.menu:button/generic:achievement",
         "itemNBT": "{display:{Name:'{\"translate\":\"lem.battle.advancement.master.name\"}',Lore:['{\"translate\":\"lem.battle.advancement.master.desc\",\"color\":\"white\",\"italic\":false}']}}",
-        "customModelData": "lem.menu.ui.achievement.locked",
-        "dynamicModel": {
+        "dynamicItem": {
           "score": "lem.menu.ui.dynamic.achievement.battle.master",
           "player": "@s",
-          "models": {
-            "1": "lem.menu.ui.achievement.locked",
-            "2": "lem.menu.ui.achievement.battle.master"
+          "items": {
+            "1": {
+              "customModelData": "lem.menu.ui.achievement.locked"
+            },
+            "2": {
+              "customModelData": "lem.menu.ui.achievement.battle.master"
+            }
           }
         }
       },
       "20": {
-        "itemID": "minecraft:ghast_spawn_egg",
+        "presetID": "lem.menu:button/generic:achievement",
         "itemNBT": "{display:{Name:'{\"translate\":\"lem.battle.advancement.scratch.name\"}',Lore:['{\"translate\":\"lem.battle.advancement.scratch.desc\",\"color\":\"white\",\"italic\":false}']}}",
-        "customModelData": "lem.menu.ui.achievement.locked",
-        "dynamicModel": {
+        "dynamicItem": {
           "score": "lem.menu.ui.dynamic.achievement.battle.scratch",
           "player": "@s",
-          "models": {
-            "1": "lem.menu.ui.achievement.locked",
-            "2": "lem.menu.ui.achievement.battle.scratch"
+          "items": {
+            "1": {
+              "customModelData": "lem.menu.ui.achievement.locked"
+            },
+            "2": {
+              "customModelData": "lem.menu.ui.achievement.battle.scratch"
+            }
           }
         }
       },
       "21": {
-        "itemID": "minecraft:ghast_spawn_egg",
+        "presetID": "lem.menu:button/generic:achievement",
         "itemNBT": "{display:{Name:'{\"translate\":\"lem.battle.advancement.hunger.name\"}',Lore:['{\"translate\":\"lem.battle.advancement.hunger.desc\",\"color\":\"white\",\"italic\":false}']}}",
-        "customModelData": "lem.menu.ui.achievement.locked",
-        "dynamicModel": {
+        "dynamicItem": {
           "score": "lem.menu.ui.dynamic.achievement.battle.hunger",
           "player": "@s",
-          "models": {
-            "1": "lem.menu.ui.achievement.locked",
-            "2": "lem.menu.ui.achievement.battle.hunger"
+          "items": {
+            "1": {
+              "customModelData": "lem.menu.ui.achievement.locked"
+            },
+            "2": {
+              "customModelData": "lem.menu.ui.achievement.battle.hunger"
+            }
           }
         }
       },
       "22": {
-        "itemID": "minecraft:ghast_spawn_egg",
+        "presetID": "lem.menu:button/generic:achievement",
         "itemNBT": "{display:{Name:'{\"translate\":\"lem.battle.advancement.cupid.name\"}',Lore:['{\"translate\":\"lem.battle.advancement.cupid.desc\",\"color\":\"white\",\"italic\":false}']}}",
-        "customModelData": "lem.menu.ui.achievement.locked",
-        "dynamicModel": {
+        "dynamicItem": {
           "score": "lem.menu.ui.dynamic.achievement.battle.cupid",
           "player": "@s",
-          "models": {
-            "1": "lem.menu.ui.achievement.locked",
-            "2": "lem.menu.ui.achievement.battle.cupid"
+          "items": {
+            "1": {
+              "customModelData": "lem.menu.ui.achievement.locked"
+            },
+            "2": {
+              "customModelData": "lem.menu.ui.achievement.battle.cupid"
+            }
           }
         }
       },
       "23": {
-        "itemID": "minecraft:chest",
+        "presetID": "lem.menu:button/generic:achievement",
         "itemNBT": "{display:{Name:'{\"translate\":\"lem.battle.advancement.mine.name\"}',Lore:['{\"translate\":\"lem.battle.advancement.mine.desc\",\"color\":\"white\",\"italic\":false}']}}",
-        "dynamicModel": {
+        "dynamicItem": {
           "score": "lem.menu.ui.dynamic.achievement.battle.mine",
           "player": "@s",
-          "models": {
-            "1": "lem.menu.ui.achievement.locked",
-            "2": "lem.menu.ui.achievement.battle.mine"
+          "items": {
+            "1": {
+              "customModelData": "lem.menu.ui.achievement.locked"
+            },
+            "2": {
+              "itemID": "minecraft:chest"
+            }
           }
         }
       },

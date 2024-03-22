@@ -77,12 +77,16 @@
       "46": {
         "presetID": "lem.menu:button/generic:tickbox",
         "leftClickAction": "command/ function lem.menu:menu/gui/setup/rules/agree/toggle",
-        "dynamicModel": {
+        "dynamicItem": {
           "score": "lem.menu.ui.dynamic.setup.rules.agree",
           "player": "@s",
-          "models": {
-            "1": "lem.menu.ui.button.tick_disabled",
-            "2": "lem.menu.ui.button.tick_enabled"
+          "items": {
+            "1": {
+              "customModelData": "lem.menu.ui.button.tick_disabled"
+            },
+            "2": {
+              "customModelData": "lem.menu.ui.button.tick_enabled"
+            }
           }
         }
       },
@@ -126,12 +130,16 @@
       },
       "79": {
         "presetID": "lem.menu:button/standard/full:default",
-        "dynamicModel": {
+        "dynamicItem": {
           "score": "lem.menu.ui.dynamic.setup.rules.agree",
           "player": "@s",
-          "models": {
-            "1": "1",
-            "2": "1000"
+          "items": {
+            "1": {
+              "customModelData": "1"
+            },
+            "2": {
+              "customModelData": "1000"
+            }
           }
         },
         "leftClickSound": "none",
@@ -139,12 +147,16 @@
       },
       "80": {
         "presetID": "lem.menu:button/generic:text",
-        "dynamicModel": {
+        "dynamicItem": {
           "score": "lem.menu.ui.dynamic.setup.rules.agree",
           "player": "@s",
-          "models": {
-            "1": "1",
-            "2": "lem.menu.ui.text.button.full.continue"
+          "items": {
+            "1": {
+              "customModelData": "1"
+            },
+            "2": {
+              "customModelData": "lem.menu.ui.text.button.full.continue"
+            }
           }
         },
         "leftClickSound": "none",

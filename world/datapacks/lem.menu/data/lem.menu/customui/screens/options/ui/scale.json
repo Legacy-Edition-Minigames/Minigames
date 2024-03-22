@@ -21,14 +21,22 @@
     "4": {
       "presetID": "lem.menu:button/generic:slider_button",
       "leftClickAction": "command/ function lem.menu:menu/config/panorama/scale/2",
-      "dynamicModel": {
+      "dynamicItem": {
         "score": "lem.menu.ui.dynamic.panorama.config.scale",
         "player": "@s",
-        "models": {
-          "1": "lem.menu.ui.slider.1",
-          "2": "lem.menu.ui.slider.52",
-          "3": "lem.menu.ui.slider.104",
-          "4": "lem.menu.ui.slider.151"
+        "items": {
+          "1": {
+            "customModelData": "lem.menu.ui.slider.1"
+          },
+          "2": {
+            "customModelData": "lem.menu.ui.slider.52"
+          },
+          "3": {
+            "customModelData": "lem.menu.ui.slider.104"
+          },
+          "4": {
+            "customModelData": "lem.menu.ui.slider.151"
+          }
         }
       }
     },
@@ -46,14 +54,22 @@
       "presetID": "lem.menu:button/generic:text_slider",
       "leftClickAction": "command/ function lem.menu:menu/config/panorama/scale/4",
       "refreshOnInteract" : true,
-      "dynamicModel": {
+      "dynamicItem": {
         "score": "lem.menu.ui.dynamic.panorama.config.scale",
         "player": "@s",
-        "models": {
-          "1": "lem.menu.ui.text.button.full.panorama_1",
-          "2": "lem.menu.ui.text.button.full.panorama_2",
-          "3": "lem.menu.ui.text.button.full.panorama_3",
-          "4": "lem.menu.ui.text.button.full.panorama_4"
+        "items": {
+          "1": {
+            "customModelData": "lem.menu.ui.text.button.full.panorama_1"
+          },
+          "2": {
+            "customModelData": "lem.menu.ui.text.button.full.panorama_2"
+          },
+          "3": {
+            "customModelData": "lem.menu.ui.text.button.full.panorama_3"
+          },
+          "4": {
+            "customModelData": "lem.menu.ui.text.button.full.panorama_4"
+          }
         }
       }
     },
@@ -74,14 +90,22 @@
     "13": {
       "presetID": "lem.menu:button/generic:slider_button",
       "leftClickAction": "command/ function lem.menu:menu/config/ui/scale/2",
-      "dynamicModel": {
+      "dynamicItem": {
         "score": "lem.menu.ui.dynamic.ui.config.scale",
         "player": "@s",
-        "models": {
-          "1": "lem.menu.ui.slider.1",
-          "2": "lem.menu.ui.slider.52",
-          "3": "lem.menu.ui.slider.104",
-          "4": "lem.menu.ui.slider.151"
+        "items": {
+          "1": {
+            "customModelData": "lem.menu.ui.slider.1"
+          },
+          "2": {
+            "customModelData": "lem.menu.ui.slider.52"
+          },
+          "3": {
+            "customModelData": "lem.menu.ui.slider.104"
+          },
+          "4": {
+            "customModelData": "lem.menu.ui.slider.151"
+          }
         }
       }
     },
@@ -99,14 +123,22 @@
       "presetID": "lem.menu:button/generic:text_slider",
       "leftClickAction": "command/ function lem.menu:menu/config/ui/scale/4",
       "refreshOnInteract" : true,
-      "dynamicModel": {
+      "dynamicItem": {
         "score": "lem.menu.ui.dynamic.ui.config.scale",
         "player": "@s",
-        "models": {
-          "1": "lem.menu.ui.text.button.full.gui_1",
-          "2": "lem.menu.ui.text.button.full.gui_2",
-          "3": "lem.menu.ui.text.button.full.gui_3",
-          "4": "lem.menu.ui.text.button.full.gui_4"
+        "items": {
+          "1": {
+            "customModelData": "lem.menu.ui.text.button.full.gui_1"
+          },
+          "2": {
+            "customModelData": "lem.menu.ui.text.button.full.gui_2"
+          },
+          "3": {
+            "customModelData": "lem.menu.ui.text.button.full.gui_3"
+          },
+          "4": {
+            "customModelData": "lem.menu.ui.text.button.full.gui_4"
+          }
         }
       }
     },

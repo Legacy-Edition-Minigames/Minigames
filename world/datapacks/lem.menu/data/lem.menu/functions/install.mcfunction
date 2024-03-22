@@ -27,6 +27,10 @@ scoreboard objectives add lem.menu.ui.dynamic.panorama.config.background dummy
 scoreboard objectives add lem.menu.ui.dynamic.ui.config.scale dummy
 #Setup: Rules
 scoreboard objectives add lem.menu.ui.dynamic.setup.rules.agree dummy
+#Achievement: Ghost
+scoreboard objectives add lem.menu.ui.dynamic.achievement.secret.ghost dummy
+#Achievement: Mean
+scoreboard objectives add lem.menu.ui.dynamic.achievement.secret.mean dummy
 #Achievement: Student
 scoreboard objectives add lem.menu.ui.dynamic.achievement.battle.student dummy
 #Achievement: Master
