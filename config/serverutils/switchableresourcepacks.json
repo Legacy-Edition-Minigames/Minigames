@@ -1,10 +1,6 @@
 {
-  "playerStartFunction": "testpack:testhi",
   "playerCompleteFunction": "lem.base:resource/loaded",
   "playerFailedFunction": "lem.base:resource/failed",
-
-  "message": "Legacy Edition Minigames requires a resource pack to function properly!",
-
   "packs": [
     {
       "packID": "lem.base:blank",
