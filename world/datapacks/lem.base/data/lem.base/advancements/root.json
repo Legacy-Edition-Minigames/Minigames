@@ -1,4 +1,5 @@
 {
+  "_comment": "This is here because if there isnt any advancements the redirect from the vanilla menu to the custom one fails",
   "display": {
     "icon": {
       "item": "minecraft:ghast_spawn_egg",
