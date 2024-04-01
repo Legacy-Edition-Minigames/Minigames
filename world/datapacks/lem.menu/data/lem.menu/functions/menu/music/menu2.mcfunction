@@ -2,7 +2,7 @@
 playsound lem.base:music.menu.2 music @s
 
 ##Set timer
-scoreboard players set @s lem.mustimer 183
+scoreboard players set @s lem.mustimer 80
 
 ##Mark as last song
 #scoreboard players set @s lem.menu.muslast 2

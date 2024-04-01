@@ -1,5 +1,5 @@
 {
-  "title": "[{\"text\":\"\uF808\uF8033\",\"color\":\"white\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"text\":\"\uF80C\uF80A\uF809\uF808\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"translate\":\"lem.menu.ui.notice.ui_setup\",\"color\":\"#424242\",\"font\":\"lem.menu:menu/text/en_us/notice/ui_setup\"}]",
+  "title": "[{\"text\":\"\uF808\uF8033\",\"color\":\"white\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"text\":\"\uF80C\uF80A\uF809\uF808\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"translate\":\"lem.menu.ui.notice.ui_setup\",\"color\":\"white\",\"font\":\"lem.menu:menu/text/en_us/notice/ui_setup\"}]",
   "escToClose": true,
   "escSound": "lem.menu:sound.menu.back",
   "forceHotBarSlot": "1",

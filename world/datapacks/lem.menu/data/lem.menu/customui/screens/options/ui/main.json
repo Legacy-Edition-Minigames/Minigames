@@ -6,16 +6,16 @@
   "slots": {
       "0-6": {
         "presetID": "lem.menu:button/generic:blank",
-        "leftClickAction": "openUI/ lem.menu:options/ui/panorama/main"
+        "leftClickSound": "lem.menu:sound.menu.fail"
       },
       "7": {
-        "presetID": "lem.menu:button/standard/full:default",
-        "leftClickAction": "openUI/ lem.menu:options/ui/panorama/main"
+        "presetID": "lem.menu:button/standard/full:dark",
+        "leftClickSound": "lem.menu:sound.menu.fail"
       },
       "8": {
         "presetID": "lem.menu:button/generic:text",
         "customModelData": "lem.menu.ui.text.button.full.panorama_settings",
-        "leftClickAction": "openUI/ lem.menu:options/ui/panorama/main"
+        "leftClickSound": "lem.menu:sound.menu.fail"
       },
       "9-15": {
         "presetID": "lem.menu:button/generic:blank",

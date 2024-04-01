@@ -13,6 +13,9 @@ scoreboard players set @s lem.menu.title 1
 ##Reload bossbars (may not be nessecary?)
 function lem.base:ui/globalinfo/load
 
+##Mark user to hear main title song
+tag @s add music-firstsong
+
 ##Load Menu
 function lem.menu:menu/load
 
