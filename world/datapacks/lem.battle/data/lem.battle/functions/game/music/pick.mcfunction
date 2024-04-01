@@ -18,5 +18,17 @@ execute if score @s lem.muspack matches 7 run function lem.battle:game/music/hal
 execute if score @s lem.muspack matches 8 run function lem.battle:game/music/festive/pick
 #Fallout
 execute if score @s lem.muspack matches 9 run function lem.battle:game/music/fallout/pick
-#Western
-execute if score @s lem.muspack matches 10 run function lem.battle:game/music/western/pick
+#Crucible
+execute if score @s lem.muspack matches 10 run function lem.battle:game/music/crucible/pick
+#Cove
+execute if score @s lem.muspack matches 11 run function lem.battle:game/music/cove/1
+#Cavern
+execute if score @s lem.muspack matches 12 run function lem.battle:game/music/cavern/1
+#Temple
+execute if score @s lem.muspack matches 13 run function lem.battle:game/music/temple/1
+#Castle
+execute if score @s lem.muspack matches 14 run function lem.battle:game/music/castle/1
+#Frontier
+execute if score @s lem.muspack matches 15 run function lem.battle:game/music/frontier/1
+#Dig
+execute if score @s lem.muspack matches 16 run function lem.battle:game/music/dig/1

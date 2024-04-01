@@ -1,6 +1,9 @@
 ##Spawn
 execute as @a[tag=ingame] at @s run function lem.base:lobby/spawn/run
 
+##Play music for winner
+execute as @a[tag=Winner] at @s run playsound lem.base:music.lobbywin music @s ~ ~ ~
+
 ##Set game status to Lobby
 scoreboard players set #Store lem.gamestatus 2
 

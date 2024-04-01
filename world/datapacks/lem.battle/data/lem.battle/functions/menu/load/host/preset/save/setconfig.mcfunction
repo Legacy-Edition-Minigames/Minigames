@@ -44,14 +44,6 @@ execute if score #FoodCentral lem.battle.enableset matches 0 run userconfig @s s
 execute if score #Remastered lem.battle.enableset matches 1 run userconfig @s set lem.battle:preset_chest_randomconfig_remastered true
 execute if score #Remastered lem.battle.enableset matches 0 run userconfig @s set lem.battle:preset_chest_randomconfig_remastered false
 
-##Hunger settings
-#Normal
-execute if score #Store lem.battle.hungertype matches 1 run userconfig @s set lem.battle:preset_hunger normal
-#Fast Healing
-execute if score #Store lem.battle.hungertype matches 3 run userconfig @s set lem.battle:preset_hunger fasthealing
-#Beta
-execute if score #Store lem.battle.hungertype matches 2 run userconfig @s set lem.battle:preset_hunger beta
-
 ##Inventory settings
 #Small inv
 execute if score #Store lem.smallinv matches 1 run userconfig @s set lem.battle:preset_small_inventory true

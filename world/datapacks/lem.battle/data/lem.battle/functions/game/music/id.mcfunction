@@ -25,5 +25,17 @@ execute if score #Store lem.pack matches 10 run scoreboard players set #Store le
 execute if score #Store lem.pack matches 11 run scoreboard players set #Store lem.muspack 1
 
 ##Load any overrides
+#Crucible
+execute if score #Store lem.map matches 1 run scoreboard players set #Store lem.muspack 10
+#Cove
+execute if score #Store lem.map matches 2 run scoreboard players set #Store lem.muspack 11
+#Cavern
+execute if score #Store lem.map matches 3 run scoreboard players set #Store lem.muspack 12
+#Temple
+execute if score #Store lem.map matches 9 run scoreboard players set #Store lem.muspack 13
+#Castle
+execute if score #Store lem.map matches 13 run scoreboard players set #Store lem.muspack 14
 #Frontier
-execute if score #Store lem.map matches 4 run scoreboard players set #Store lem.muspack 10
+execute if score #Store lem.map matches 4 run scoreboard players set #Store lem.muspack 15
+#Dig
+execute if score #Store lem.map matches 6 run scoreboard players set #Store lem.muspack 16

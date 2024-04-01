@@ -19,6 +19,9 @@ execute if score @s serverutils.forgeclient matches 2 run tellraw @s ["",{"trans
 ##Mark player as ingame
 tag @s add ingame
 
+##Mark user to hear main title song
+tag @s add music-firstsong
+
 ##Refresh Plist
 execute store result score #Store lem.plist if entity @a[tag=ingame]
 

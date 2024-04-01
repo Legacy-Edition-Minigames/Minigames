@@ -1,9 +1,6 @@
 ##Time
 function lem.base:menu/load/host/time/run
 
-##Hunger
-function lem.battle:menu/load/host/hunger/run
-
 ##Spectator type
 function lem.base:menu/load/host/spectator/run
 

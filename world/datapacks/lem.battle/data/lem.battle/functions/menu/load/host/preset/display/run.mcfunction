@@ -57,14 +57,6 @@ userconfig @s test lem.battle:preset_time EQUAL night runCommand tellraw @s ["",
 #Midnight
 userconfig @s test lem.battle:preset_time EQUAL midnight runCommand tellraw @s ["",{"text":"Time: ","italic":true,"color":"dark_aqua"},{"text":"Midnight","color":"green","clickEvent":{"action":"open_url","value":"https://twitter.com/MidNightMSPaint"}}]
 
-##Hunger settings
-#Normal
-userconfig @s test lem.battle:preset_hunger EQUAL normal runCommand tellraw @s ["",{"text":"Hunger Mode: ","italic":true,"color":"dark_aqua"},{"text":"Normal","color":"green"}]
-#Fast Healing
-userconfig @s test lem.battle:preset_hunger EQUAL fasthealing runCommand tellraw @s ["",{"text":"Hunger Mode: ","italic":true,"color":"dark_aqua"},{"text":"Fast Healing","color":"green"}]
-#Beta
-userconfig @s test lem.battle:preset_hunger EQUAL beta runCommand tellraw @s ["",{"text":"Hunger Mode: ","italic":true,"color":"dark_aqua"},{"text":"Beta","color":"green"}]
-
 ##Spectator options
 #Spectator Mob
 userconfig @s test lem.battle:preset_spectator EQUAL none runCommand tellraw @s ["",{"text":"Spectator Type: ","italic":true,"color":"dark_aqua"},{"text":"None","color":"green"}]

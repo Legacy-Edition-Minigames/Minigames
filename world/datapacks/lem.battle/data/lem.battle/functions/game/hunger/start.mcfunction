@@ -1,3 +1,6 @@
+##Force beta healing
+scoreboard players set #Store lem.battle.hungertype 2
+
 ##Load scores
 #Normal
 execute if score #Store lem.battle.hungertype matches 1 as @a[tag=ingame] run function lem.battle:game/hunger/load/scores/normal
