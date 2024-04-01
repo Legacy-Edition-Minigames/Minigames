@@ -31,7 +31,7 @@ execute unless entity @s[tag=smallinvclick] unless entity @s[nbt={Inventory:[{Sl
 execute unless score #Store lem.game.smallinv.fill.override matches 1 run function lem.base:game/inventory/small/fill/blank/run
 
 ##Run functions for addons
-execute if score #Store lem.smallinv matches 0 run function #lem.base:game/inventory/small/fill/run
+function #lem.base:game/inventory/small/fill/run
 
 ##Take everything
 execute as @s[tag=smallinvclick] run takeeverything
