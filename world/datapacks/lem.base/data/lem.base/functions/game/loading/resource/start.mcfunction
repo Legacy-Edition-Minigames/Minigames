@@ -10,11 +10,11 @@ schedule clear lem.base:game/loading/mapload/timer
 ##Mark users that dont need to reload as loaded
 tag @a[tag=ingame,tag=!loadingresources] add resourceloaded
 
-##Start resource loader check
-function lem.base:game/loading/resource/run
-
 ##Start loading animation in tablist
 #Reset loading animation
 scoreboard players set #Store lem.packtimerani 1
 #Start
 function lem.base:game/loading/resource/tablist/run
+
+##Start resource loader check
+function lem.base:game/loading/resource/run
