@@ -1,126 +1,113 @@
 {
+  "playerStartFunction": "lem.base:resource/started",
   "playerCompleteFunction": "lem.base:resource/loaded",
   "playerFailedFunction": "lem.base:resource/failed",
+  "message": "Legacy Edition Minigames requires a resource pack to function properly!",
   "packs": [
     {
-      "packname": "blank",
+      "packID": "lem.base:blank",
       "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/blank/1.20.4.zip?raw\u003dtrue",
       "hash": "7474a3bc3e6c17fac1adff8fd205a6883fdc9c4b",
-      "required": true,
-      "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
+      "name_key": "lem.resource.blank.name",
+      "description_key": "lem.resource.blank.desc"
     },
     {
-      "packname": "menu",
+      "packID": "lem.base:menu",
       "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/menu/M1.2/vanilla.zip?raw\u003dtrue",
       "hash": "16af528bcceb42238ea01918b45db8ac360f306d",
-      "required": true,
-      "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
+      "name_key": "lem.resource.menu.name",
+      "description_key": "lem.resource.menu.desc"
     },
     {
-      "packname": "vanilla",
+      "packID": "lem.base:vanilla",
       "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.8/vanilla.zip?raw\u003dtrue",
       "hash": "730abd488e5c90a5c129cbaffa911af95cf97106",
-      "required": true,
-      "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
+      "name_key": "lem.resource.vanilla.name",
+      "description_key": "lem.resource.vanilla.desc"
     },
     {
-      "packname": "all-music",
+      "packID": "lem.base:all-music",
       "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.8/all-music-1.zip?raw\u003dtrue",
       "hash": "615b839f81169ed16715bc2e9d4465e1cba97a39",
-      "required": true,
-      "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
+      "name_key": "lem.resource.all-music.name",
+      "description_key": "lem.resource.all-music.desc"
     },
     {
-      "packname": "plastic",
+      "packID": "lem.base:plastic",
       "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.8/plastic.zip?raw\u003dtrue",
       "hash": "6f1165d2c3e12323f7d1cbafbf3392aa67e8e88a",
-      "required": true,
-      "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
+      "name_key": "lem.resource.plastic.name",
+      "description_key": "lem.resource.plastic.desc"
     },
     {
-      "packname": "fantasy",
+      "packID": "lem.base:fantasy",
       "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.8/fantasy.zip?raw\u003dtrue",
       "hash": "d2c16b7760db87825056845d44ad9cc52d82c298",
-      "required": true,
-      "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
+      "name_key": "lem.resource.fantasy.name",
+      "description_key": "lem.resource.fantasy.desc"
     },
     {
-      "packname": "city",
+      "packID": "lem.base:city",
       "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.8/city.zip?raw\u003dtrue",
       "hash": "291b13332b2700f740f0e6791c3cafb7e8bdeba3",
-      "required": true,
-      "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
+      "name_key": "lem.resource.city.name",
+      "description_key": "lem.resource.city.desc"
     },
     {
-      "packname": "greek",
+      "packID": "lem.base:greek",
       "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.8/greek-mythology.zip?raw\u003dtrue",
       "hash": "c647d93ad30538f39d430717c28513d6cf8066ab",
-      "required": true,
-      "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
+      "name_key": "lem.resource.greek.name",
+      "description_key": "lem.resource.greek.desc"
     },
     {
-      "packname": "steampunk",
+      "packID": "lem.base:steampunk",
       "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.8/steampunk.zip?raw\u003dtrue",
       "hash": "919bc4d5946eeca39cde4ff6431d3ca1edeaba38",
-      "required": true,
-      "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
+      "name_key": "lem.resource.steampunk.name",
+      "description_key": "lem.resource.steampunk.desc"
     },
     {
-      "packname": "chinese",
+      "packID": "lem.base:chinese",
       "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.8/chinese-mythology.zip?raw\u003dtrue",
       "hash": "6fc176b4c90d92066cf3c689bdd543789a617496",
-      "required": true,
-      "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
+      "name_key": "lem.resource.chinese.name",
+      "description_key": "lem.resource.chinese.desc"
     },
     {
-      "packname": "halloween",
+      "packID": "lem.base:halloween",
       "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.8/halloween.zip?raw\u003dtrue",
       "hash": "6f1501932c3259bc047a0f8f2bc18af26269700e",
-      "required": true,
-      "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
+      "name_key": "lem.resource.halloween.name",
+      "description_key": "lem.resource.halloween.desc"
     },
     {
-      "packname": "festive",
+      "packID": "lem.base:festive",
       "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.8/festive.zip?raw\u003dtrue",
       "hash": "b17cbf676d465fd0e4e3819b96795c36cd49ee5d",
-      "required": true,
-      "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
+      "name_key": "lem.resource.festive.name",
+      "description_key": "lem.resource.festive.desc"
     },
     {
-      "packname": "fallout",
+      "packID": "lem.base:fallout",
       "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.8/fallout.zip?raw\u003dtrue",
       "hash": "e206f7f306e924bf34240e416540f012b769c253",
-      "required": true,
-      "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
+      "name_key": "lem.resource.fallout.name",
+      "description_key": "lem.resource.fallout.desc"
     },
     {
-      "packname": "natural",
+      "packID": "lem.base:natural",
       "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.8/natural.zip?raw\u003dtrue",
       "hash": "92a8993d4407923d934fd3d701c06bb4ce85f963",
-      "required": true,
-      "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
+      "name_key": "lem.resource.natural.name",
+      "description_key": "lem.resource.natural.desc"
     },
     {
-      "packname": "cartoon",
+      "packID": "lem.base:cartoon",
       "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.8/cartoon.zip?raw\u003dtrue",
       "hash": "792510635f13f15476f184a7ed70ba3da2806e46",
-      "required": true,
-      "hasPrompt": true,
-      "message": "Legacy Edition Minigames requires a resource pack to function properly!"
+      "name_key": "lem.resource.cartoon.name",
+      "description_key": "lem.resource.cartoon.desc"
     }
   ]
 }
