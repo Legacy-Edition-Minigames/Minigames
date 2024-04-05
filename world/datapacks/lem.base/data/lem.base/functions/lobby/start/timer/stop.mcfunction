@@ -1,14 +1,14 @@
 ##Unload the previous map \\ TODO: Have a generic command for unloading the arena, not tied to battle
 custommaploader battle unload lem.base:arena
 
-##Stop teleport
-function lem.base:lobby/start/timer/teleport/stop
-
 ##Stop timer
 schedule clear lem.base:lobby/start/timer/run
 
 ##Clear panorama
 function lem.base:ui/panorama/stop
+
+##Unfreeze players
+playerfreeze @a[tag=ingame] false
 
 ##Clear map loaded corners scores
 #Positive
