@@ -4,6 +4,9 @@ execute if score #Store lem.fullreset matches 0 run function lem.base:lobby/star
 ##Load the lobby dimension
 execute if score #Store lem.fullreset matches 1 run function lem.base:lobby/load/run
 
+##Freeze players
+schedule function lem.base:lobby/start/timer/freeze 1t
+
 ##Set displaymode
 #Reset timer
 scoreboard players set #Store lem.loadinganim 1
