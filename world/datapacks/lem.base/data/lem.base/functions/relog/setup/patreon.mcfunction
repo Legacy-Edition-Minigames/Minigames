@@ -53,8 +53,6 @@ execute as 18b4a5df-5ec6-4033-a96a-9ad6d822efbe run scoreboard players set @s le
 execute as 1d6033d1-cad8-426e-913a-c7ccde64de54 run scoreboard players set @s lem.patreon 1
 #Sa4mi
 execute as 4f4d3d01-6e0b-4533-add1-e742eeea8962 run scoreboard players set @s lem.patreon 1
-#MrT_23
-execute as 39b6feb7-0c8e-4333-9592-1a35e0698abf run scoreboard players set @s lem.patreon 1
 #PF247
 execute as 3e50252e-f0bb-4955-bb8b-039a759556d7 run scoreboard players set @s lem.patreon 1
 #manh_e
@@ -85,8 +83,6 @@ execute as 559a3359-aab0-4703-9590-f96d7851cddc run scoreboard players set @s le
 execute as e234fdf0-b813-4fab-b609-655a56f91237 run scoreboard players set @s lem.patreon 2
 #WaffleHoney43
 execute as fa012ca4-25a8-4e36-b4bf-75236f27bbd2 run scoreboard players set @s lem.patreon 1
-#SpritelyHoney43
-execute as cccaef8c-cd38-4ed4-a738-fb9d1f3a7672 run scoreboard players set @s lem.patreon 1
 #Dr_01000111
 execute as af419e84-c3e9-44ed-8dc2-de7527163aa1 run scoreboard players set @s lem.patreon 2
 #MxrZo
@@ -107,6 +103,8 @@ execute as feab43ec-0215-481c-a903-5610cdf703b3 run scoreboard players set @s le
 execute as ea05cc4d-d07c-4d4d-ae51-1ab7abbbfb42 run scoreboard players set @s lem.patreon 1
 #Hecker_01
 execute as 3530addd-a11a-4834-8684-0b10bdb958d7 run scoreboard players set @s lem.patreon 1
+#CuddleDrivenPony
+execute as ea149491-22e9-4458-b52e-ddd3f66e6d92 run scoreboard players set @s lem.patreon 4
 
 ##Reset heart if no longer subscribed
 #Tiny
