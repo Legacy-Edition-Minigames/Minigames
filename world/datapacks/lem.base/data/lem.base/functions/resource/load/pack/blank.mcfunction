@@ -1,2 +1,2 @@
 ##Load blank resource pack
-loadresource blank
+loadresource lem.base:blank
