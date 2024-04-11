@@ -30,6 +30,14 @@ userconfig @s test lem.base:panorama_background EQUAL 9 runCommand scoreboard pl
 userconfig @s test lem.base:panorama_background EQUAL 5 runCommand scoreboard players set @s lem.menu.ui.dynamic.panorama.config.background 2
 userconfig @s test lem.base:panorama_background EQUAL 1 runCommand scoreboard players set @s lem.menu.ui.dynamic.panorama.config.background 1
 
+##Pack config options
+#Map Textures
+userconfig @s test lem.base:globalpack EQUAL false runCommand scoreboard players set @s lem.menu.ui.dynamic.pack.config.maptextures 2
+userconfig @s test lem.base:globalpack EQUAL true runCommand scoreboard players set @s lem.menu.ui.dynamic.pack.config.maptextures 1
+#Safe Music
+userconfig @s test lem.base:safemusic EQUAL false runCommand scoreboard players set @s lem.menu.ui.dynamic.pack.config.safemusic 1
+userconfig @s test lem.base:safemusic EQUAL true runCommand scoreboard players set @s lem.menu.ui.dynamic.pack.config.safemusic 2
+
 ##UI config options
 #UI Scale
 scoreboard players operation @s lem.menu.ui.dynamic.ui.config.scale = @s lem.guiscale

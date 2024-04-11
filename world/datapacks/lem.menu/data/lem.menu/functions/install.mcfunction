@@ -23,6 +23,10 @@ scoreboard objectives add lem.menu.ui.dynamic.panorama.config.night dummy
 scoreboard objectives add lem.menu.ui.dynamic.panorama.config.scale dummy
 #Panorama Config: Background
 scoreboard objectives add lem.menu.ui.dynamic.panorama.config.background dummy
+#Pack Config: Map Textures
+scoreboard objectives add lem.menu.ui.dynamic.pack.config.maptextures dummy
+#Pack Config: Safe Music
+scoreboard objectives add lem.menu.ui.dynamic.pack.config.safemusic dummy
 #UI Config: Scale
 scoreboard objectives add lem.menu.ui.dynamic.ui.config.scale dummy
 #Setup: Rules
