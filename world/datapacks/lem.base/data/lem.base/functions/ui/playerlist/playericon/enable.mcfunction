@@ -49,4 +49,4 @@ execute unless entity @a[scores={lem.pid=16},tag=bedrock] run team modify P16 pr
 execute if entity @a[scores={lem.pid=16},tag=bedrock] run team modify P16 prefix ["",{"text":"\uF816","color":"#fafafa","font":"lem.base:playericon"},{"text":"\uF801","color":"#fafafa","font":"lem.base:bedrockicon"},{"text":"\uF821","font":"lem.base:default"}]
 
 ##Update display
-function lem.base:relog/timer/forceupdate
+scoreboardSuffixForceUpdate

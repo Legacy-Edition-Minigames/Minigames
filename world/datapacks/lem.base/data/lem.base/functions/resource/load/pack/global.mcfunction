@@ -1,2 +1,2 @@
 ##Add loadingresources tag
-tag @s add loadingresources
+#tag @s add loadingresources

@@ -10,11 +10,8 @@ tag @s add ingame
 ##Refresh Plist
 execute store result score #Store lem.plist if entity @a[tag=ingame]
 
-##Add resoureloaded tag
-tag @s add resourceloaded
-
-##Revoke resourcepack loading advancements
-function lem.base:resource/advancementreset
+##Remove resourceloaded tag
+tag @s remove resourceloaded
 
 ##Reset resourcepack timer score
 #scoreboard players reset @s lem.relogtimer
@@ -24,6 +21,9 @@ tag @s remove relogtimer
 
 ##Detect if Patreon
 function lem.base:relog/setup/patreon
+
+##Check if host is missing
+function lem.base:host/check/run
 
 ##Detect per-user data
 function lem.base:relog/setup/usercheck
