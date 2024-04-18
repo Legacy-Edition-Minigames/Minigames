@@ -109,6 +109,8 @@ execute as 9542dee5-c116-4dbc-879d-1c211fee4cb6 run scoreboard players set @s le
 execute as d78b906a-4ad5-4af3-814b-42d20f2e90b8 run scoreboard players set @s lem.patreon 5
 #BigManJude8
 execute as 50fd53fb-7000-4cf2-b980-c150b223fe9e run scoreboard players set @s lem.patreon 1
+#KookieMonsT3Rz
+execute as 366f29a9-ef78-454c-b841-be9b8430e7be run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
