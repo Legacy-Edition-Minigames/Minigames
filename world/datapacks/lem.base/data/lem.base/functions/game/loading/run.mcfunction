@@ -70,6 +70,11 @@ scoreboard players reset @a[tag=ingame] lem.roundwins
 ##Update tablist scores
 scoreboardSuffixForceUpdate
 
+##Remove tags
+tag @a[tag=ingame] remove resourceloaded
+tag @a[tag=ingame] remove loadingcomplete
+tag @a[tag=ingame] remove loadingresources
+
 ##Load the arena dimension
 custommaploader voting end lem.base:arena true @a[tag=ingame]
 
@@ -94,11 +99,6 @@ function lem.base:ui/display/loadingmap/loadname
 
 ##Start game in 6 seconds if not overridden by pack
 scoreboard players set #Store lem.timer 0
-
-##Remove tags
-tag @a[tag=ingame] remove resourceloaded
-tag @a[tag=ingame] remove loadingcomplete
-tag @a[tag=ingame] remove loadingresources
 
 ##Check which timer to start
 schedule function lem.base:game/loading/check 2s
