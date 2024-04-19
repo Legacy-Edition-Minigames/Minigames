@@ -1,8 +1,6 @@
 ##Load patreon data
 #Emmie
 execute as a20181ca-a75d-401e-ac58-36ab8f040cf5 run scoreboard players set @s lem.patreon 5
-#VilFire/81079582
-execute as 03bcb87b-5995-4378-8af3-3f8d181f2d47 run scoreboard players set @s lem.patreon 5
 #Lion8Cake/83649865
 execute as e9e4b393-29d1-4004-b469-125d8b87c124 run scoreboard players set @s lem.patreon 3
 #PanchoMaule1
@@ -55,8 +53,6 @@ execute as 18b4a5df-5ec6-4033-a96a-9ad6d822efbe run scoreboard players set @s le
 execute as 1d6033d1-cad8-426e-913a-c7ccde64de54 run scoreboard players set @s lem.patreon 1
 #Sa4mi
 execute as 4f4d3d01-6e0b-4533-add1-e742eeea8962 run scoreboard players set @s lem.patreon 1
-#MrT_23
-execute as 39b6feb7-0c8e-4333-9592-1a35e0698abf run scoreboard players set @s lem.patreon 1
 #PF247
 execute as 3e50252e-f0bb-4955-bb8b-039a759556d7 run scoreboard players set @s lem.patreon 1
 #manh_e
@@ -71,44 +67,50 @@ execute as 957e7c81-79b5-44fb-a44f-771780c41ef4 run scoreboard players set @s le
 execute as 17e305e8-a0ce-4e3b-85dc-8f46dff39e14 run scoreboard players set @s lem.patreon 1
 #DylanOMGHD
 execute as c89e3f9e-c606-470a-bcf0-00e021fc3eef run scoreboard players set @s lem.patreon 1
-#imaurabtw
-execute as 459abf38-1f78-4492-9aaa-c928dca9a9dc run scoreboard players set @s lem.patreon 2
 #Cbop777
 execute as 98dacc71-5a59-4ca1-9667-945f501acbf0 run scoreboard players set @s lem.patreon 4
 #withwilliam
 execute as 5976b9cf-3fd2-477e-a110-15bcab30c14e run scoreboard players set @s lem.patreon 1
-#notwackyy
-execute as 550fe2be-ba74-4e5a-9eb8-e10c8eeec4a4 run scoreboard players set @s lem.patreon 1
-#marshtomps
-execute as 2f3d0383-4b97-4127-aef1-cfc0dbb6abc8 run scoreboard players set @s lem.patreon 1
 #21xCo
 execute as 9809fefe-118f-4f53-b032-a27ea59949b4 run scoreboard players set @s lem.patreon 1
 #SnowMy_
 execute as 559a3359-aab0-4703-9590-f96d7851cddc run scoreboard players set @s lem.patreon 1
 #MarcusEK
 execute as e234fdf0-b813-4fab-b609-655a56f91237 run scoreboard players set @s lem.patreon 2
-#ACoolBerb
-execute as 98b252a5-ac5f-42b4-82ed-fa43ad2f468b run scoreboard players set @s lem.patreon 1
 #WaffleHoney43
 execute as fa012ca4-25a8-4e36-b4bf-75236f27bbd2 run scoreboard players set @s lem.patreon 1
-#SpritelyHoney43
-execute as cccaef8c-cd38-4ed4-a738-fb9d1f3a7672 run scoreboard players set @s lem.patreon 1
 #Dr_01000111
 execute as af419e84-c3e9-44ed-8dc2-de7527163aa1 run scoreboard players set @s lem.patreon 2
-#MxrZo
-execute as de6cb54e-18e9-48d0-931e-703e4255a133 run scoreboard players set @s lem.patreon 1
-#IIDaikenII
-execute as 02f1300b-dea2-4aa7-99f1-d6ec59e25273 run scoreboard players set @s lem.patreon 1
 #sunjahmen
 execute as bb9087e8-f2b5-47b0-9bb2-8da22fe125d9 run scoreboard players set @s lem.patreon 1
-#AndreMajority
-execute as 57336e98-ced5-4296-86fa-05c48ef3c394 run scoreboard players set @s lem.patreon 1
 #TorchReaper
 execute as 9702cc0a-b031-4e51-93e4-192198a473b1 run scoreboard players set @s lem.patreon 1
 #AustinDLM
 execute as af3b5352-d5b2-4dd3-aabb-6d6b9b1ff1d9 run scoreboard players set @s lem.patreon 1
 #__yan
 execute as feab43ec-0215-481c-a903-5610cdf703b3 run scoreboard players set @s lem.patreon 1
+#TheMikeGuy_
+execute as ea05cc4d-d07c-4d4d-ae51-1ab7abbbfb42 run scoreboard players set @s lem.patreon 1
+#Hecker_01
+execute as 3530addd-a11a-4834-8684-0b10bdb958d7 run scoreboard players set @s lem.patreon 1
+#CuddleDrivenPony
+execute as ea149491-22e9-4458-b52e-ddd3f66e6d92 run scoreboard players set @s lem.patreon 4
+#LockedWatch
+execute as 10238b23-d519-4223-87e9-5182bf0bc5ec run scoreboard players set @s lem.patreon 1
+#CrumbledHam
+execute as 1248d4e7-23eb-4605-ad21-dadcc8b2c965 run scoreboard players set @s lem.patreon 2
+#UnfortunateGms
+execute as 61b571b3-973a-42ac-8e59-c29f19e87193 run scoreboard players set @s lem.patreon 1
+#Kittygamer123456
+execute as e145ae1a-2334-47f1-9026-7ea6def268af run scoreboard players set @s lem.patreon 1
+#RogueRyan_
+execute as 9542dee5-c116-4dbc-879d-1c211fee4cb6 run scoreboard players set @s lem.patreon 1
+#SThreeQ
+execute as d78b906a-4ad5-4af3-814b-42d20f2e90b8 run scoreboard players set @s lem.patreon 5
+#BigManJude8
+execute as 50fd53fb-7000-4cf2-b980-c150b223fe9e run scoreboard players set @s lem.patreon 1
+#KookieMonsT3Rz
+execute as 366f29a9-ef78-454c-b841-be9b8430e7be run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
