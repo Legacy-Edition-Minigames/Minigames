@@ -13,9 +13,9 @@ function lem.base:ui/playerbar/load
 #Add tag
 tag @s add transferhostmsg
 #Transfer
-discordChatMSG {"translate":"lem.menu.host.transfer.success","with":[{"selector":"@a[tag=ingame,tag=host]","color":"dark_aqua"},{"selector":"@a[tag=transferhostmsg]","color":"dark_aqua"}],"color":"blue"}
+execute unless entity @s[tag=silentTransfer] run discordChatMSG {"translate":"lem.menu.host.transfer.success","with":[{"selector":"@a[tag=ingame,tag=host]","color":"dark_aqua"},{"selector":"@a[tag=transferhostmsg]","color":"dark_aqua"}],"color":"blue"}
 #Recieve
-tellraw @s {"translate":"lem.menu.host.transfer.receive","italic":true,"color":"dark_aqua"}
+execute unless entity @s[tag=silentTransfer] run tellraw @s {"translate":"lem.menu.host.transfer.receive","italic":true,"color":"dark_aqua"}
 #Remove tag
 tag @s remove transferhostmsg
 
