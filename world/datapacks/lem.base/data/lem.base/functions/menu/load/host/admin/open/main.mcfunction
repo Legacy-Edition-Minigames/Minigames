@@ -34,7 +34,7 @@ tellraw @s {"text":"[End Round]","color":"blue","clickEvent":{"action":"run_comm
 #Standard
 execute unless entity @s[tag=debug] run tellraw @s {"text":"[Load Map]","color":"gold","clickEvent":{"action":"run_command","value":"/function lem.base:menu/load/host/admin/forcestart"},"hoverEvent":{"action":"show_text","contents":[{"text":"Loads the map, regardless of wait time or player count.","color":"dark_aqua"}]}}
 #Debug
-execute if entity @s[tag=debug] run tellraw @s {"text":"[Load Map]","color":"gold","clickEvent":{"action":"run_command","value":"/function lem.base:mapdecider/run"},"hoverEvent":{"action":"show_text","contents":[{"text":"Loads the map, no matter the conditions.","color":"dark_aqua"}]}}
+execute if entity @s[tag=debug] run tellraw @s {"text":"[Load Map]","color":"gold","clickEvent":{"action":"run_command","value":"/function lem.base:game/loading/run"},"hoverEvent":{"action":"show_text","contents":[{"text":"Loads the map, no matter the conditions.","color":"dark_aqua"}]}}
 
 ##Run functions for addons
 function #lem.base:menu/load/host/admin/open/main
