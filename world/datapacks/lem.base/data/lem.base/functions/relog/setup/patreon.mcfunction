@@ -113,6 +113,8 @@ execute as 50fd53fb-7000-4cf2-b980-c150b223fe9e run scoreboard players set @s le
 execute as 366f29a9-ef78-454c-b841-be9b8430e7be run scoreboard players set @s lem.patreon 1
 #fan1glam
 execute as e345a768-2b7b-4b07-9d7b-3d88c00c4af2 run scoreboard players set @s lem.patreon 1
+#Crewface28
+execute as 7f66c430-e6ee-4666-a22e-d03e31913b32 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
