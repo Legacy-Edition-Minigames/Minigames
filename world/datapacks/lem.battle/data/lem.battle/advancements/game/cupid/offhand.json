@@ -1,0 +1,43 @@
+{
+    "criteria": {
+      "player_bow_kill": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "offhand": {
+                    "tag": "lem.battle:bows"
+                  }
+                }
+              }
+            }
+          ],
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:player"
+              }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "lem.battle:game/achievement/cupid/check"
+    }
+  }
+  
