@@ -20,6 +20,7 @@
         "crafting_table": true,
         "brewing_stand": true,
         "respawn_anchor": true,
+        "cauldron": true,
         "white_bed": true,
         "orange_bed": true,
         "magenta_bed": true,
