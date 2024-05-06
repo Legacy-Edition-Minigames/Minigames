@@ -76,3 +76,6 @@ bossbar set globalinfo16 name {"translate":"lem.game.roundend"}
 
 ##Clear all schedules
 schedule function lem.base:game/end/clear/round/run 2t
+
+##Run functions for addons
+function #lem.base:game/end/spectate/roundend
