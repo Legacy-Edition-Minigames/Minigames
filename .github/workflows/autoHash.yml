@@ -1,0 +1,40 @@
+# Automatically build the project and run any configured tests for every push
+# and submitted pull request. This can help catch issues that only occur on
+# certain platforms or Java versions, and provides a first line of defence
+# against bad commits.
+
+name: AutoHash
+on: [push]
+
+jobs:
+  AutoHash:
+
+    runs-on: ubuntu-latest
+
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the changed files back to the repository.
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin' # See 'Supported distributions' for available options
+          java-version: '17'
+
+      - name: Download AutoHasher
+        working-directory: ./.toolbox
+        run: curl -O https://raw.githubusercontent.com/Legacy-Edition-Minigames/ToolBox/java/testConfigs/AutoHasher.jar
+
+      - name: Hash Files
+        working-directory: ./.toolbox
+        run: java -jar AutoHasher.jar --autoHash
+
+      - name: Delete AutoHasher
+        working-directory: ./.toolbox
+        run: rm AutoHasher.jar
+
+      - name: Push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Auto generate hash for dependency files
