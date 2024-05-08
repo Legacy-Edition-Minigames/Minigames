@@ -30,7 +30,7 @@ jobs:
 
       - name: Delete AutoHasher
         working-directory: ./.toolbox
-        run: rm AutoHasher.jar
+        run: rm Toolbox2.0_noupdater.jar
 
       - name: Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
