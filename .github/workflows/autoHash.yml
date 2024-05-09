@@ -1,8 +1,3 @@
-# Automatically build the project and run any configured tests for every push
-# and submitted pull request. This can help catch issues that only occur on
-# certain platforms or Java versions, and provides a first line of defence
-# against bad commits.
-
 name: AutoHash
 on: [push]
 
@@ -22,17 +17,20 @@ jobs:
           distribution: 'temurin' # See 'Supported distributions' for available options
           java-version: '17'
 
-      - name: Download AutoHasher
-        working-directory: ./.toolbox
-        run: curl -O https://raw.githubusercontent.com/Legacy-Edition-Minigames/ToolBox/java/testConfigs/AutoHasher.jar
+      - uses: robinraju/release-downloader@v1.10
+        with:
+          repository: 'Legacy-Edition-Minigames/ToolBox'
+          latest: true
+          fileName: 'Toolbox2.0_noupdater.jar'
+          out-file-path: '.toolbox'
 
       - name: Hash Files
         working-directory: ./.toolbox
-        run: java -jar AutoHasher.jar --autoHash
+        run: java -jar Toolbox2.0_noupdater.jar --autoHash
 
       - name: Delete AutoHasher
         working-directory: ./.toolbox
-        run: rm AutoHasher.jar
+        run: rm Toolbox2.0_noupdater.jar
 
       - name: Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
