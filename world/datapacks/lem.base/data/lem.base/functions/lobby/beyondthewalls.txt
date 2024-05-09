@@ -1,0 +1,3 @@
+new lobby: /execute in lem.base:the_lobby positioned -332 48 -341 as @a[tag=ingame] if entity @s[distance=62..] run title @s actionbar "OOB"
+
+old lobby: /execute in lem.base:the_lobby positioned -357 62 -380 as @a[tag=ingame] if entity @s[distance=33..] run title @s actionbar "OOB"
