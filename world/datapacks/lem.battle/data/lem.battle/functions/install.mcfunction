@@ -19,17 +19,25 @@ scoreboard objectives add lem.battle.setmaptype dummy
 ##Map Type
 scoreboard objectives add lem.battle.maptype dummy
 
-##Achivement kill count
+##Achievement kill count
 scoreboard objectives add lem.battle.kill playerKillCount
 
 ##Kill Count
 scoreboard objectives add lem.battle.killcount playerKillCount
 
-##Cupid achivement
+##Cupid achievement
 scoreboard objectives add lem.battle.cupid dummy
 
-##Tis but a scratch achivement
+##Tis but a scratch achievement
 scoreboard objectives add lem.battle.scratch minecraft.custom:minecraft.damage_taken
+
+##Forked achievement
+scoreboard objectives add lem.battle.forked dummy
+
+##Fast Routing achievement
+scoreboard objectives add lem.battle.fast.chest minecraft.custom:minecraft.open_chest
+scoreboard objectives add lem.battle.fast.shulker_box minecraft.custom:minecraft.open_shulker_box
+scoreboard objectives add lem.battle.fast.barrel minecraft.custom:minecraft.open_barrel
 
 ##Glowing Setting
 scoreboard objectives add lem.glow dummy

@@ -1,0 +1,50 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:player",
+      "equipment": {
+        "head": {
+          "items": [
+            "minecraft:golden_helmet"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:binding_curse"
+            }
+          ]
+        },
+        "chest": {
+          "items": [
+            "minecraft:golden_chestplate"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:binding_curse"
+            }
+          ]
+        },
+        "legs": {
+          "items": [
+            "minecraft:golden_leggings"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:binding_curse"
+            }
+          ]
+        },
+        "feet": {
+          "items": [
+            "minecraft:golden_boots"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:binding_curse"
+            }
+          ]
+        }
+      }
+    }
+  }
+  

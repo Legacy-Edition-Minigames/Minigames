@@ -3,19 +3,7 @@
       "player_bow_kill": {
         "trigger": "minecraft:player_killed_entity",
         "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "equipment": {
-                  "offhand": {
-                    "tag": "lem.battle:bows"
-                  }
-                }
-              }
-            }
-          ],
+          "player": [],
           "entity": [
             {
               "condition": "minecraft:entity_properties",
@@ -26,12 +14,9 @@
             }
           ],
           "killing_blow": {
-            "tags": [
-              {
-                "id": "minecraft:is_projectile",
-                "expected": true
-              }
-            ]
+            "direct_entity": {
+              "type": "minecraft:arrow"
+            }
           }
         }
       }

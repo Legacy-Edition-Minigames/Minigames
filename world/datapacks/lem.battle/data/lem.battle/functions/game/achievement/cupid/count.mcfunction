@@ -1,5 +1,5 @@
-##Cupid
-#Add count
+##Add count
 scoreboard players add @s lem.battle.cupid 1
-#Give achivement
+
+##Give achievement
 execute as @s[scores={lem.battle.cupid=2..}] run function lem.battle:game/achievement/give/cupid
