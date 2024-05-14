@@ -159,6 +159,26 @@ execute as 4577704b-302e-4e76-9597-ccf7d7ef3654 run scoreboard players set @s le
 execute as 37850395-3fa1-4f1f-bc61-b92fcb6825d6 run scoreboard players set @s lem.patreon 1
 #QuitePeeved
 execute as 98946c52-00e2-4d35-9d85-f045fe2c902b run scoreboard players set @s lem.patreon 1
+#Vectrix
+execute as c00ae8aa-499e-418c-b31f-c8cde4dec384 run scoreboard players set @s lem.patreon 1
+#qTutu
+execute as 963b104c-e89e-4bfb-b4de-94a6504295d1 run scoreboard players set @s lem.patreon 1
+#Monster2239
+execute as 0590e453-1215-4852-a173-02f940f57f02 run scoreboard players set @s lem.patreon 1
+#iuky
+execute as b16d9b81-7f2d-4b27-a0b1-6b2c2f125979 run scoreboard players set @s lem.patreon 1
+#BossGamerBrent
+execute as 8c193d5d-ada0-49b5-8446-981a143e87f9 run scoreboard players set @s lem.patreon 1
+#scooter_waffle
+execute as c59afcde-4c04-46cb-9149-6948a00cd776 run scoreboard players set @s lem.patreon 2
+#JoeyCheerio
+execute as 287d92d6-8ddc-4d28-bd2e-4cd224da15b6 run scoreboard players set @s lem.patreon 1
+#Ignition0001
+execute as 6f3b0b1b-ca35-43ad-8ffe-105d8002c6ec run scoreboard players set @s lem.patreon 1
+#M1n1k3m0n
+execute as 4ede9a53-be4a-45ae-a7cf-2754b8079a54 run scoreboard players set @s lem.patreon 1
+#Fax_Machin
+execute as 52cf66c8-d95f-4440-9366-8568eb7e5000 run scoreboard players set @s lem.patreon 5
 
 ##Reset heart if no longer subscribed
 #Tiny
