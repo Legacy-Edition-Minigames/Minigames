@@ -179,6 +179,20 @@ execute as 6f3b0b1b-ca35-43ad-8ffe-105d8002c6ec run scoreboard players set @s le
 execute as 4ede9a53-be4a-45ae-a7cf-2754b8079a54 run scoreboard players set @s lem.patreon 1
 #Fax_Machin
 execute as 52cf66c8-d95f-4440-9366-8568eb7e5000 run scoreboard players set @s lem.patreon 5
+#DroCaleb
+execute as 1b20016a-0198-44f0-8641-8cf8512ae280 run scoreboard players set @s lem.patreon 2
+#Sorroh
+execute as a21a6290-896b-43bb-8b0a-046869cdfa20 run scoreboard players set @s lem.patreon 1
+#LonkBTS
+execute as e0017f2a-18af-4a85-9f20-3e61e80558f0 run scoreboard players set @s lem.patreon 1
+#tabby0x
+execute as b917b2dc-c0d3-40e6-abc0-931f237ba158 run scoreboard players set @s lem.patreon 1
+#Sebushtin
+execute as eb746546-4e82-4271-9ac5-ed6460a4d897 run scoreboard players set @s lem.patreon 1
+#Hardly_Meow
+execute as 3360a7df-1563-4bd2-aa80-ea993333a502 run scoreboard players set @s lem.patreon 1
+#MinetestSore12
+execute as 27ce6244-74e8-47ec-b451-4773e98bf691 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
