@@ -4,7 +4,9 @@
   "predicate": {
     "equipment": {
       "mainhand": {
-        "nbt": "{LoadingTip:1}"
+        "components":{
+          "custom_data": {"LoadingTip":1}
+        }
       }
     }
   }

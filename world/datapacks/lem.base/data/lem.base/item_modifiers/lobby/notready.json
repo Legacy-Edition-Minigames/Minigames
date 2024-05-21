@@ -1,6 +1,10 @@
 [
   {
-    "function": "minecraft:set_nbt",
-    "tag": "{display:{Name:'[{\"translate\":\"lem.mapdecider.item.notready\",\"color\":\"red\",\"bold\":true,\"italic\":false},{\"text\":\" (\",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"keybind\":\"key.use\",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\")\",\"color\":\"gray\",\"bold\":false,\"italic\":false}]'},CustomModelData:5,ReadyCOAS:1}"
+    "function": "minecraft:set_components",
+    "components": {
+      "custom_name": "[{\"bold\":true,\"color\":\"red\",\"italic\":false,\"translate\":\"lem.mapdecider.item.notready\"},{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"text\":\" (\"},{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"keybind\":\"key.use\"},{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"text\":\")\"}]",
+      "custom_model_data": 5,
+      "custom_data": {"ReadyCOAS":1}
+    }
   }
 ]
