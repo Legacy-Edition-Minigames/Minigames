@@ -1,5 +1,5 @@
 ##Detect coas
-execute as @a[tag=ingame,scores={lem.coas=1..}] if entity @s[nbt={SelectedItem:{tag:{ReadyCOAS:1}}}] run scoreboard players set @s lem.ready 1
+execute as @a[tag=ingame,scores={lem.coas=1..}] if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{ReadyCOAS:1b}}}}] run scoreboard players set @s lem.ready 1
 
 ##Detect Ready toggle
 #Set ready
