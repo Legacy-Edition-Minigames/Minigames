@@ -1,7 +1,8 @@
 [
-    {
-      "function": "minecraft:set_nbt",
-      "tag": "{display:{Name:'{\"text\":\"\\\\uF8221\\\\uF8012\\\\uF8013\\\\uF8014\",\"font\":\"lem.battle:loading/tips/5\",\"italic\":false,\"color\":\"#fafafa\"}'}}"
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:custom_name": "{\"text\":\"\\\\uF8221\\\\uF8012\\\\uF8013\\\\uF8014\",\"font\":\"lem.battle:loading/tips/5\",\"italic\":false,\"color\":\"#fafafa\"}"
     }
-  ]
-  
+  }
+]

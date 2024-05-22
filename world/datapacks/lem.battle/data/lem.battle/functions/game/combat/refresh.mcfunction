@@ -13,7 +13,7 @@ execute if score #Store lem.battle.combatstyle matches 3 run scoreboard players 
 execute if score #Store lem.battle.combatstyle matches 3 run scoreboard players operation #Store lem.battle.moderndamage.sword = #Store lem.battle.setmoderndamage.sword
 #1.9 Weapon Damage (trident)
 execute if score #Store lem.battle.combatstyle matches 3 run scoreboard players operation #Store lem.battle.moderndamage.trident = #Store lem.battle.setmoderndamage.trident
-#Sword Blocking
+#Sword Blocking \\ TODO: Reimplement in java
 execute if score #Store lem.battle.combatstyle matches 3 run scoreboard players operation #Store lem.battle.swordblock = #Store lem.battle.setswordblock
 #Attack speed
 execute if score #Store lem.battle.combatstyle matches 3 run scoreboard players operation #Store lem.battle.attackspeed = #Store lem.battle.setattackspeed

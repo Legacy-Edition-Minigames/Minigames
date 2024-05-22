@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:chest"
+      "id": "minecraft:chest"
     },
     "title": {
       "translate": "lem.battle.advancement.mine.name"
