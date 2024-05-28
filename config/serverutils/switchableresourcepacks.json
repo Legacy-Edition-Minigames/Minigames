@@ -109,5 +109,115 @@
       "name_key": "lem.resource.cartoon.name",
       "description_key": "lem.resource.cartoon.desc"
     }
+  ],
+  "musicPacks": [
+    {
+      "packID": "lem.battle:fallout",
+      "play_order": "CHRONOLOGICAL",
+      "songs": {
+        "lem.battle:music.fallout.1": 183,
+        "lem.battle:music.fallout.2": 179,
+        "lem.battle:music.fallout.3": 193,
+        "lem.battle:music.fallout.4": 188,
+        "lem.battle:music.fallout.5": 208,
+        "lem.battle:music.fallout.6": 126,
+        "lem.battle:music.fallout.7": 103
+      }
+    },
+    {
+      "packID": "lem.battle:fantasy",
+      "play_order": "CHRONOLOGICAL",
+      "songs": {
+        "lem.battle:music.fantasy.1": 130,
+        "lem.battle:music.fantasy.2": 214,
+        "lem.battle:music.fantasy.3": 222
+      }
+    },
+    {
+      "packID": "lem.battle:festive",
+      "play_order": "CHRONOLOGICAL",
+      "songs": {
+        "lem.battle:music.festive.1": 138,
+        "lem.battle:music.festive.2": 156,
+        "lem.battle:music.festive.3": 165
+      }
+    },
+    {
+      "packID": "lem.battle:western",
+      "play_order": "CHRONOLOGICAL",
+      "songs": {
+        "lem.battle:music.western.1": 140,
+        "lem.battle:music.western.2": 148,
+        "lem.battle:music.western.3": 172
+      }
+    },
+    {
+      "packID": "lem.battle:chinese",
+      "play_order": "CHRONOLOGICAL",
+      "songs": {
+        "lem.battle:music.chinese.1": 199,
+        "lem.battle:music.chinese.2": 145,
+        "lem.battle:music.chinese.3": 206,
+        "lem.battle:music.chinese.4": 211
+      }
+    },
+    {
+      "packID": "lem.battle:steampunk",
+      "play_order": "CHRONOLOGICAL",
+      "songs": {
+        "lem.battle:music.steampunk.1": 170,
+        "lem.battle:music.steampunk.2": 179,
+        "lem.battle:music.steampunk.3": 223,
+        "lem.battle:music.steampunk.4": 190
+      }
+    },
+    {
+      "packID": "lem.battle:vanilla",
+      "play_order": "CHRONOLOGICAL",
+      "songs": {
+        "lem.battle:music.vanilla.1": 491,
+        "lem.battle:music.vanilla.2": 489,
+        "lem.battle:music.vanilla.3": 508,
+        "lem.battle:music.vanilla.4": 528
+      }
+    },
+    {
+      "packID": "lem.battle:halloween",
+      "play_order": "CHRONOLOGICAL",
+      "songs": {
+        "lem.battle:music.halloween.1": 151,
+        "lem.battle:music.halloween.2": 166,
+        "lem.battle:music.halloween.3": 164
+      }
+    },
+    {
+      "packID": "lem.battle:greek",
+      "play_order": "CHRONOLOGICAL",
+      "songs": {
+        "lem.battle:music.greek.1": 155,
+        "lem.battle:music.greek.2": 215,
+        "lem.battle:music.greek.3": 216
+      }
+    },
+    {
+      "packID": "lem.battle:city",
+      "play_order": "CHRONOLOGICAL",
+      "songs": {
+        "lem.battle:music.city.1": 179,
+        "lem.battle:music.city.2": 196,
+        "lem.battle:music.city.3": 194,
+        "lem.battle:music.city.4": 228,
+        "lem.battle:music.city.5": 183
+      }
+    },
+    {
+      "packID": "lem.battle:plastic",
+      "play_order": "CHRONOLOGICAL",
+      "songs": {
+        "lem.battle:music.plastic.1": 135,
+        "lem.battle:music.plastic.2": 155,
+        "lem.battle:music.plastic.3": 150
+      }
+    }
   ]
 }
