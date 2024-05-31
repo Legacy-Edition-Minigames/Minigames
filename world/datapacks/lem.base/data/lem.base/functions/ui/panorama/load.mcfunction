@@ -1,51 +1,48 @@
-##Clear loaded panoramas
-panorama clear
-
 ##TU69
 #No time change
-userconfig @s test lem.base:panorama_background EQUAL 69 runCommand userconfig @s test lem.base:panorama_night EQUAL false runCommand execute if predicate lem.base:is_daytime run panorama start panorama/69 lem.panscale false @s
-userconfig @s test lem.base:panorama_background EQUAL 69 runCommand userconfig @s test lem.base:panorama_night EQUAL false runCommand execute if predicate lem.base:is_nighttime run panorama start panorama/69 lem.panscale true @s
+execute if predicate lem.base:is_daytime run bossbar set minecraft:panorama69/day players @a[tag=!relogtimer,tag=!panorama_night,scores={lem.panorama.background=69}]
+execute if predicate lem.base:is_nighttime run bossbar set minecraft:panorama69/night players @a[tag=!relogtimer,tag=!panorama_night,scores={lem.panorama.background=69}]
 #Prefer night
-userconfig @s test lem.base:panorama_background EQUAL 69 runCommand userconfig @s test lem.base:panorama_night EQUAL true runCommand panorama start panorama/69 lem.panscale true @s
+bossbar set minecraft:panorama69/night players @a[tag=!relogtimer,tag=panorama_night,scores={lem.panorama.background=69}]
 
 ##TU46
-userconfig @s test lem.base:panorama_background EQUAL 46 runCommand userconfig @s test lem.base:panorama_night EQUAL false runCommand execute if predicate lem.base:is_daytime run panorama start panorama/46 lem.panscale false @s
-userconfig @s test lem.base:panorama_background EQUAL 46 runCommand userconfig @s test lem.base:panorama_night EQUAL false runCommand execute if predicate lem.base:is_nighttime run panorama start panorama/46 lem.panscale true @s
+execute if predicate lem.base:is_daytime run bossbar set minecraft:panorama46/day players @a[tag=!relogtimer,tag=!panorama_night,scores={lem.panorama.background=46}]
+execute if predicate lem.base:is_nighttime run bossbar set minecraft:panorama46/night players @a[tag=!relogtimer,tag=!panorama_night,scores={lem.panorama.background=46}]
 #Prefer night
-userconfig @s test lem.base:panorama_background EQUAL 46 runCommand userconfig @s test lem.base:panorama_night EQUAL true runCommand panorama start panorama/46 lem.panscale true @s
+bossbar set minecraft:panorama46/night players @a[tag=!relogtimer,tag=panorama_night,scores={lem.panorama.background=46}]
 
 ##TU31
-userconfig @s test lem.base:panorama_background EQUAL 31 runCommand userconfig @s test lem.base:panorama_night EQUAL false runCommand execute if predicate lem.base:is_daytime run panorama start panorama/31 lem.panscale false @s
-userconfig @s test lem.base:panorama_background EQUAL 31 runCommand userconfig @s test lem.base:panorama_night EQUAL false runCommand execute if predicate lem.base:is_nighttime run panorama start panorama/31 lem.panscale true @s
+execute if predicate lem.base:is_daytime run bossbar set minecraft:panorama31/day players @a[tag=!relogtimer,tag=!panorama_night,scores={lem.panorama.background=31}]
+execute if predicate lem.base:is_nighttime run bossbar set minecraft:panorama31/night players @a[tag=!relogtimer,tag=!panorama_night,scores={lem.panorama.background=31}]
 #Prefer night
-userconfig @s test lem.base:panorama_background EQUAL 31 runCommand userconfig @s test lem.base:panorama_night EQUAL true runCommand panorama start panorama/31 lem.panscale true @s
+bossbar set minecraft:panorama31/night players @a[tag=!relogtimer,tag=panorama_night,scores={lem.panorama.background=31}]
 
 ##TU19
-userconfig @s test lem.base:panorama_background EQUAL 19 runCommand userconfig @s test lem.base:panorama_night EQUAL false runCommand execute if predicate lem.base:is_daytime run panorama start panorama/19 lem.panscale false @s
-userconfig @s test lem.base:panorama_background EQUAL 19 runCommand userconfig @s test lem.base:panorama_night EQUAL false runCommand execute if predicate lem.base:is_nighttime run panorama start panorama/19 lem.panscale true @s
+execute if predicate lem.base:is_daytime run bossbar set minecraft:panorama19/day players @a[tag=!relogtimer,tag=!panorama_night,scores={lem.panorama.background=19}]
+execute if predicate lem.base:is_nighttime run bossbar set minecraft:panorama19/night players @a[tag=!relogtimer,tag=!panorama_night,scores={lem.panorama.background=19}]
 #Prefer night
-userconfig @s test lem.base:panorama_background EQUAL 19 runCommand userconfig @s test lem.base:panorama_night EQUAL true runCommand panorama start panorama/19 lem.panscale true @s
+bossbar set minecraft:panorama19/night players @a[tag=!relogtimer,tag=panorama_night,scores={lem.panorama.background=19}]
 
 ##TU14
-userconfig @s test lem.base:panorama_background EQUAL 14 runCommand userconfig @s test lem.base:panorama_night EQUAL false runCommand execute if predicate lem.base:is_daytime run panorama start panorama/14 lem.panscale false @s
-userconfig @s test lem.base:panorama_background EQUAL 14 runCommand userconfig @s test lem.base:panorama_night EQUAL false runCommand execute if predicate lem.base:is_nighttime run panorama start panorama/14 lem.panscale true @s
+execute if predicate lem.base:is_daytime run bossbar set minecraft:panorama14/day players @a[tag=!relogtimer,tag=!panorama_night,scores={lem.panorama.background=14}]
+execute if predicate lem.base:is_nighttime run bossbar set minecraft:panorama14/night players @a[tag=!relogtimer,tag=!panorama_night,scores={lem.panorama.background=14}]
 #Prefer night
-userconfig @s test lem.base:panorama_background EQUAL 14 runCommand userconfig @s test lem.base:panorama_night EQUAL true runCommand panorama start panorama/14 lem.panscale true @s
+bossbar set minecraft:panorama14/night players @a[tag=!relogtimer,tag=panorama_night,scores={lem.panorama.background=14}]
 
 ##TU9
-userconfig @s test lem.base:panorama_background EQUAL 9 runCommand userconfig @s test lem.base:panorama_night EQUAL false runCommand execute if predicate lem.base:is_daytime run panorama start panorama/9 lem.panscale false @s
-userconfig @s test lem.base:panorama_background EQUAL 9 runCommand userconfig @s test lem.base:panorama_night EQUAL false runCommand execute if predicate lem.base:is_nighttime run panorama start panorama/9 lem.panscale true @s
+execute if predicate lem.base:is_daytime run bossbar set minecraft:panorama9/day players @a[tag=!relogtimer,tag=!panorama_night,scores={lem.panorama.background=9}]
+execute if predicate lem.base:is_nighttime run bossbar set minecraft:panorama9/night players @a[tag=!relogtimer,tag=!panorama_night,scores={lem.panorama.background=9}]
 #Prefer night
-userconfig @s test lem.base:panorama_background EQUAL 9 runCommand userconfig @s test lem.base:panorama_night EQUAL true runCommand panorama start panorama/9 lem.panscale true @s
+bossbar set minecraft:panorama9/night players @a[tag=!relogtimer,tag=panorama_night,scores={lem.panorama.background=9}]
 
 ##TU5
-userconfig @s test lem.base:panorama_background EQUAL 5 runCommand userconfig @s test lem.base:panorama_night EQUAL false runCommand execute if predicate lem.base:is_daytime run panorama start panorama/5 lem.panscale false @s
-userconfig @s test lem.base:panorama_background EQUAL 5 runCommand userconfig @s test lem.base:panorama_night EQUAL false runCommand execute if predicate lem.base:is_nighttime run panorama start panorama/5 lem.panscale true @s
+execute if predicate lem.base:is_daytime run bossbar set minecraft:panorama5/day players @a[tag=!relogtimer,tag=!panorama_night,scores={lem.panorama.background=5}]
+execute if predicate lem.base:is_nighttime run bossbar set minecraft:panorama5/night players @a[tag=!relogtimer,tag=!panorama_night,scores={lem.panorama.background=5}]
 #Prefer night
-userconfig @s test lem.base:panorama_background EQUAL 5 runCommand userconfig @s test lem.base:panorama_night EQUAL true runCommand panorama start panorama/5 lem.panscale true @s
+bossbar set minecraft:panorama5/night players @a[tag=!relogtimer,tag=panorama_night,scores={lem.panorama.background=5}]
 
 ##TU1
-userconfig @s test lem.base:panorama_background EQUAL 1 runCommand userconfig @s test lem.base:panorama_night EQUAL false runCommand execute if predicate lem.base:is_daytime run panorama start panorama/1 lem.panscale false @s
-userconfig @s test lem.base:panorama_background EQUAL 1 runCommand userconfig @s test lem.base:panorama_night EQUAL false runCommand execute if predicate lem.base:is_nighttime run panorama start panorama/1 lem.panscale true @s
+execute if predicate lem.base:is_daytime run bossbar set minecraft:panorama1/day players @a[tag=!relogtimer,tag=!panorama_night,scores={lem.panorama.background=1}]
+execute if predicate lem.base:is_nighttime run bossbar set minecraft:panorama1/night players @a[tag=!relogtimer,tag=!panorama_night,scores={lem.panorama.background=1}]
 #Prefer night
-userconfig @s test lem.base:panorama_background EQUAL 1 runCommand userconfig @s test lem.base:panorama_night EQUAL true runCommand panorama start panorama/1 lem.panscale true @s
+bossbar set minecraft:panorama1/night players @a[tag=!relogtimer,tag=panorama_night,scores={lem.panorama.background=1}]

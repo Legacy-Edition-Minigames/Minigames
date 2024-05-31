@@ -14,6 +14,5 @@ gamemode creative @a[tag=ingame,gamemode=adventure]
 #Enable output
 gamerule sendCommandFeedback true
 
-
 ##Start
 function lem.base:ui/panorama/check
