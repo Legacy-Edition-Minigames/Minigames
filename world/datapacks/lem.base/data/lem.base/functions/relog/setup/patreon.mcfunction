@@ -311,6 +311,14 @@ execute as b67379d2-cd2b-4a6b-aeee-bbb9332cf7ec run scoreboard players set @s le
 execute as af1a3cae-f78e-475a-9794-b90fb2205e4b run scoreboard players set @s lem.patreon 2
 #pixelatedname
 execute as 817ff77d-4bf0-4bac-9d81-c387e3b24f29 run scoreboard players set @s lem.patreon 1
+#ImAmGay
+execute as ae101574-e132-439b-88d2-9e64c6ec1546 run scoreboard players set @s lem.patreon 1
+#hzDelta
+execute as 37f2fcb4-a4db-46ad-8ca4-1c2737d0c6df run scoreboard players set @s lem.patreon 1
+#DirefulCactus
+execute as 3a3d42ed-e5a4-491f-843b-5b631825d887 run scoreboard players set @s lem.patreon 1
+#Kiyoshime
+execute as 1b481fff-6b14-49f4-86a6-65d579d19f94 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
