@@ -11,6 +11,9 @@ function lem.base:ui/playerbar/load
 ##Set lives
 scoreboard players operation @s lem.lives = #Store lem.lives
 
+##Give small inventory items
+execute if score #Store lem.smallinv matches 1 run function lem.base:game/inventory/small/fill/run
+
 ##Display message
 function lem.base:relog/messages/generic
 
