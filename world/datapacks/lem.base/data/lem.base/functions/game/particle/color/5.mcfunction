@@ -1,0 +1,1 @@
+particle entity_effect{color:[0.980,0.200,0.812,1.00]} ~ ~0.3 ~ 0.35 0.8 0.35 1 3 force @a

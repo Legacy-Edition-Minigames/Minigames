@@ -25,21 +25,21 @@ bossbar set minecraft:bannerpushdown3 players
 #Banner info
 bossbar set minecraft:bannerinfo players
 #Panorama
-bossbar set minecraft:panorama/day/69/1 players
-bossbar set minecraft:panorama/day/69/2 players
-bossbar set minecraft:panorama/day/69/3 players
-bossbar set minecraft:panorama/day/69/4 players
-bossbar set minecraft:panorama/night/69/1 players
-bossbar set minecraft:panorama/night/69/2 players
-bossbar set minecraft:panorama/night/69/3 players
-bossbar set minecraft:panorama/night/69/4 players
-bossbar set minecraft:panorama/day/custom/1 players
-bossbar set minecraft:panorama/day/custom/2 players
-bossbar set minecraft:panorama/day/custom/3 players
-bossbar set minecraft:panorama/day/custom/4 players
-bossbar set minecraft:panorama/night/custom/1 players
-bossbar set minecraft:panorama/night/custom/2 players
-bossbar set minecraft:panorama/night/custom/3 players
-bossbar set minecraft:panorama/night/custom/4 players
+bossbar set minecraft:panorama69/day players
+bossbar set minecraft:panorama69/night players
+bossbar set minecraft:panorama46/day players
+bossbar set minecraft:panorama46/night players
+bossbar set minecraft:panorama31/day players
+bossbar set minecraft:panorama31/night players
+bossbar set minecraft:panorama19/day players
+bossbar set minecraft:panorama19/night players
+bossbar set minecraft:panorama14/day players
+bossbar set minecraft:panorama14/night players
+bossbar set minecraft:panorama9/day players
+bossbar set minecraft:panorama9/night players
+bossbar set minecraft:panorama5/day players
+bossbar set minecraft:panorama5/night players
+bossbar set minecraft:panorama1/day players
+bossbar set minecraft:panorama1/night players
 #Addons
 function #lem.base:ui/globalinfo/clear

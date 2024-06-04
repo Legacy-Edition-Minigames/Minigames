@@ -321,6 +321,10 @@ scoreboard objectives add lem.debug.fakeplayer.counter dummy
 #Target playercount
 scoreboard objectives add lem.debug.fakeplayer.target dummy
 
+##Panorama config
+#Background
+scoreboard objectives add lem.panorama.background dummy
+
 ##For addons to disable the built-in UI
 #Game
 scoreboard objectives add lem.ui.game.java.override dummy
@@ -639,6 +643,32 @@ bossbar add globalinfo14 ""
 bossbar add globalinfo15 ""
 #P16
 bossbar add globalinfo16 ""
+
+##Panoramas
+#TU69
+bossbar add panorama69/day {"text":"[1-2-3-4-1-2-3-4-1-2-3-4-1-2-3-4-]","font":"lem.base:panorama/69/day","color":"#020200"}
+bossbar add panorama69/night {"text":"[1-2-3-4-1-2-3-4-1-2-3-4-1-2-3-4-]","font":"lem.base:panorama/69/night","color":"#020200"}
+#TU46
+bossbar add panorama46/day {"text":"[1-2-3-4-1-2-3-4-1-2-3-4-1-2-3-4-]","font":"lem.base:panorama/46/day","color":"#020200"}
+bossbar add panorama46/night {"text":"[1-2-3-4-1-2-3-4-1-2-3-4-1-2-3-4-]","font":"lem.base:panorama/46/night","color":"#020200"}
+#TU31
+bossbar add panorama31/day {"text":"[1-2-3-4-1-2-3-4-1-2-3-4-1-2-3-4-]","font":"lem.base:panorama/31/day","color":"#020200"}
+bossbar add panorama31/night {"text":"[1-2-3-4-1-2-3-4-1-2-3-4-1-2-3-4-]","font":"lem.base:panorama/31/night","color":"#020200"}
+#TU19
+bossbar add panorama19/day {"text":"[1-2-3-4-1-2-3-4-1-2-3-4-1-2-3-4-]","font":"lem.base:panorama/19/day","color":"#020200"}
+bossbar add panorama19/night {"text":"[1-2-3-4-1-2-3-4-1-2-3-4-1-2-3-4-]","font":"lem.base:panorama/19/night","color":"#020200"}
+#TU14
+bossbar add panorama14/day {"text":"[1-2-3-4-1-2-3-4-1-2-3-4-1-2-3-4-]","font":"lem.base:panorama/14/day","color":"#020200"}
+bossbar add panorama14/night {"text":"[1-2-3-4-1-2-3-4-1-2-3-4-1-2-3-4-]","font":"lem.base:panorama/14/night","color":"#020200"}
+#TU9
+bossbar add panorama9/day {"text":"[1-2-3-4-1-2-3-4-1-2-3-4-1-2-3-4-]","font":"lem.base:panorama/9/day","color":"#020200"}
+bossbar add panorama9/night {"text":"[1-2-3-4-1-2-3-4-1-2-3-4-1-2-3-4-]","font":"lem.base:panorama/9/night","color":"#020200"}
+#TU5
+bossbar add panorama5/day {"text":"[1-2-3-4-1-2-3-4-1-2-3-4-1-2-3-4-]","font":"lem.base:panorama/5/day","color":"#020200"}
+bossbar add panorama5/night {"text":"[1-2-3-4-1-2-3-4-1-2-3-4-1-2-3-4-]","font":"lem.base:panorama/5/night","color":"#020200"}
+#TU1
+bossbar add panorama1/day {"text":"[1-2-3-4-1-2-3-4-1-2-3-4-1-2-3-4-]","font":"lem.base:panorama/1/day","color":"#020200"}
+bossbar add panorama1/night {"text":"[1-2-3-4-1-2-3-4-1-2-3-4-1-2-3-4-]","font":"lem.base:panorama/1/night","color":"#020200"}
 
 ##Run install functions for addons
 function #lem.base:install

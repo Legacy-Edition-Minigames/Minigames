@@ -48,7 +48,7 @@ function lem.base:ui/globalinfo/empty/clear/check
 scoreboard players reset @a[tag=ingame] lem.eliminated
 
 ##Display particles
-execute unless score #Store lem.game.particle.pregame.override matches 1 run function lem.base:game/particle/pregame/run
+execute unless score #Store lem.game.particle.pregame.override matches 1 run function lem.base:game/particle/pregame
 
 ##Load custom behavior
 execute if score #Store lem.initialgame matches 1 run function #lem.base:game/custom/load

@@ -20,7 +20,7 @@ schedule clear lem.base:ui/globalinfo/empty/clear/check
 #GlobalInfo hide
 schedule clear lem.base:ui/globalinfo/empty/hide
 #Start particles
-schedule clear lem.base:game/particle/pregame/run
+schedule clear lem.base:game/particle/pregame
 
 ##Clear Scores
 #GlobalInfo clear timer
