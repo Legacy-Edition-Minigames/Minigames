@@ -10,8 +10,5 @@ execute unless score #Store lem.ui.loading.animation.override matches 1 as @a[ta
 ##Reset timer if above 80
 execute if score #Store lem.loadinganim matches 81.. run scoreboard players set #Store lem.loadinganim 1
 
-##Clear actionbar
-title @a[tag=ingame] actionbar ""
-
 ##Display tip
 execute unless score #Store lem.ui.loading.tip.override matches 1 run function lem.base:ui/display/loading/tip/run
