@@ -4,7 +4,7 @@
     "icon": {
       "id": "minecraft:ghast_spawn_egg",
       "components": {
-        "minecraft:custom_model_data": 2
+        "minecraft:custom_model_data": 31
       }
     },
     "title": {
