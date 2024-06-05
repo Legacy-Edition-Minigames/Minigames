@@ -26,8 +26,8 @@ execute unless entity @a[tag=ingame,tag=host] run scoreboard players set #Store 
 #Start check
 execute unless entity @a[tag=ingame,tag=host] run function lem.base:host/check/run
 
-##Stop Music
-function lem.base:game/music/stop
+##Stop Music \\ TODO: Look into if we need this still
+#function lem.base:game/music/stop
 
 ##Mark mapload functions as needing to run again
 scoreboard players set #Store lem.mapinit.mapload 0
