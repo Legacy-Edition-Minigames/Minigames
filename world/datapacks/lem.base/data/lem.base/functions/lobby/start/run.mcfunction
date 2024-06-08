@@ -42,6 +42,9 @@ execute as @a run function lem.base:lobby/player/items
 ##Reset world back
 execute if score #Store lem.fullreset matches 0 run function lem.base:lobby/reset/run
 
+##Modify entities
+function lem.base:game/loading/modifyentities
+
 ##Set tablist display
 function #lem.base:ui/playerlist/scores/load/lobby
 

@@ -6,3 +6,4 @@ execute as @e[tag=!lem.nomodify,type=glow_item_frame] run data merge entity @s {
 execute as @e[tag=!lem.nomodify,type=glow_item_frame] unless entity @s[nbt={Item:{}}] run data merge entity @s {Fixed:1}
 execute as @e[tag=!lem.nomodify,type=armor_stand] run data merge entity @s {DisabledSlots:4144959}
 execute as @e[tag=!lem.nomodify,type=armor_stand] run data merge entity @s {ShowArms:1}
+execute as @e[tag=!lem.nomodify,type=armor_stand] run attribute @s generic.step_height base set 0.6
