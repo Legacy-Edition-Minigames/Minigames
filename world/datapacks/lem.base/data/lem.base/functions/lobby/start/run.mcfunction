@@ -37,7 +37,10 @@ function #lem.base:mapdecider/loadenabled
 custommaploader voting start
 
 ##Give items
-execute as @a run function lem.base:lobby/player/items
+execute as @a[tag=ingame] run function lem.base:lobby/player/items
+
+##Set player attributes
+execute as @a[tag=ingame] run function lem.base:lobby/attributes/set
 
 ##Reset world back
 execute if score #Store lem.fullreset matches 0 run function lem.base:lobby/reset/run
