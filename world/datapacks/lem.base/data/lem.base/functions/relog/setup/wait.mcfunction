@@ -77,6 +77,9 @@ function lem.base:menu/load/user
 ##Clear inventory
 clear @s
 
+##Reset attributes
+function lem.base:relog/setup/attributes
+
 ##Set timer for resource pack wait
 #scoreboard players set @s lem.relogtimer 15
 

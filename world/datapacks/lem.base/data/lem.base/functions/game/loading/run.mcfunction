@@ -75,6 +75,9 @@ tag @a[tag=ingame] remove resourceloaded
 tag @a[tag=ingame] remove loadingcomplete
 tag @a[tag=ingame] remove loadingresources
 
+##Remove lobby attributes
+execute as @a[tag=ingame] run function lem.base:lobby/attributes/remove
+
 ##Load the arena dimension
 custommaploader voting end lem.base:arena true @a[tag=ingame]
 
