@@ -13,8 +13,17 @@
               "count": 10
             },
             {
-              "function": "set_nbt",
-              "tag": "{CanPlaceOn:[\"#lem.base:all_blocks\"],HideFlags:16}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{CanPlaceOn:[\"#lem.base:all_blocks\"]}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:can_place_on": {
+                  "predciates": [],
+                  "show_in_tooltip": false
+                }
+              }
             }
           ]
         }
@@ -29,8 +38,10 @@
           "name": "minecraft:leather_boots",
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{Damage:54}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:damage": 54
+              }
             }
           ]
         }
@@ -49,8 +60,13 @@
               "count": 1
             },
             {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:harming\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_effects": [],
+                  "potion": "minecraft:harming"
+                }
+              }
             }
           ]
         }

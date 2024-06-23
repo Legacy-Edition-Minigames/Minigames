@@ -9,8 +9,20 @@
           "name": "minecraft:diamond_pickaxe",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},lem.weapon:1,HideFlags:2}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{lem.weapon:1}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  "[{\"text\":\"\u00a79+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]"
+                ],
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
             }
           ]
         }
@@ -29,8 +41,20 @@
               "count": 1
             },
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.strength\",\"italic\":false},{\"text\":\" (0:10)\",\"color\":\"gray\"}]'},custom_potion_effects:[{id:\"minecraft:strength\",amplifier:0b,duration:200}],Potion:\"minecraft:water\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "[{\"translate\":\"item.minecraft.potion.effect.strength\",\"italic\":false},{\"text\":\" (0:10)\",\"color\":\"gray\"}]",
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": 0,
+                      "duration": 200
+                    }
+                  ],
+                  "potion": "minecraft:water"
+                }
+              }
             }
           ]
         }
@@ -49,8 +73,21 @@
               "count": 1
             },
             {
-              "function": "set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+2.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:thorns\",lvl:1s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:thorns": 1
+                  }
+                },
+                "minecraft:lore": [
+                  "[{\"text\":\"\u00a79+2.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]"
+                ],
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
             }
           ]
         }

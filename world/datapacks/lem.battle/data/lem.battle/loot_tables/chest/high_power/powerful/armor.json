@@ -8,8 +8,21 @@
           "name": "minecraft:iron_boots",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+2.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:thorns\",lvl:2s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:thorns": 2
+                  }
+                },
+                "minecraft:lore": [
+                  "[{\"text\":\"\u00a79+2.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]"
+                ],
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
             }
           ]
         },
@@ -18,8 +31,21 @@
           "name": "minecraft:iron_leggings",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:thorns\",lvl:2s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:thorns": 2
+                  }
+                },
+                "minecraft:lore": [
+                  "[{\"text\":\"\u00a79+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]"
+                ],
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
             }
           ]
         },
@@ -28,8 +54,21 @@
           "name": "minecraft:iron_chestplate",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+6.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:thorns\",lvl:2s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:thorns": 2
+                  }
+                },
+                "minecraft:lore": [
+                  "[{\"text\":\"\u00a79+6.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]"
+                ],
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
             }
           ]
         },
@@ -38,8 +77,21 @@
           "name": "minecraft:iron_helmet",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+2.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:thorns\",lvl:2s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:thorns": 2
+                  }
+                },
+                "minecraft:lore": [
+                  "[{\"text\":\"\u00a79+2.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]"
+                ],
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
             }
           ]
         },
@@ -48,8 +100,21 @@
           "name": "minecraft:golden_boots",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+1.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:protection\",lvl:3s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 3
+                  }
+                },
+                "minecraft:lore": [
+                  "[{\"text\":\"\u00a79+1.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]"
+                ],
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
             }
           ]
         },
@@ -58,8 +123,21 @@
           "name": "minecraft:golden_leggings",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+3.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:protection\",lvl:3s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 3
+                  }
+                },
+                "minecraft:lore": [
+                  "[{\"text\":\"\u00a79+3.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]"
+                ],
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
             }
           ]
         },
@@ -68,8 +146,21 @@
           "name": "minecraft:golden_chestplate",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:protection\",lvl:3s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 3
+                  }
+                },
+                "minecraft:lore": [
+                  "[{\"text\":\"\u00a79+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]"
+                ],
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
             }
           ]
         },
@@ -78,8 +169,21 @@
           "name": "minecraft:golden_helmet",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+2.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:protection\",lvl:3s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 3
+                  }
+                },
+                "minecraft:lore": [
+                  "[{\"text\":\"\u00a79+2.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]"
+                ],
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
             }
           ]
         }

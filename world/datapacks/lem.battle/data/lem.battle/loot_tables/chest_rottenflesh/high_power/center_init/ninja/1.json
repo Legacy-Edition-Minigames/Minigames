@@ -13,8 +13,20 @@
               "count": 1
             },
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.invisibility\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},custom_potion_effects:[{id:\"minecraft:invisibility\",amplifier:0b,duration:400}],Potion:\"minecraft:water\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "[{\"translate\":\"item.minecraft.potion.effect.invisibility\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]",
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:invisibility",
+                      "amplifier": 0,
+                      "duration": 400
+                    }
+                  ],
+                  "potion": "minecraft:water"
+                }
+              }
             }
           ]
         }
@@ -33,8 +45,20 @@
               "count": 1
             },
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.swiftness\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},custom_potion_effects:[{id:\"minecraft:speed\",amplifier:0b,duration:400}],Potion:\"minecraft:water\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "[{\"translate\":\"item.minecraft.potion.effect.swiftness\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]",
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 0,
+                      "duration": 400
+                    }
+                  ],
+                  "potion": "minecraft:water"
+                }
+              }
             }
           ]
         }
@@ -53,8 +77,20 @@
               "count": 1
             },
             {
-              "function": "set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+7.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},lem.weapon:1,HideFlags:2}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{lem.weapon:1}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  "[{\"text\":\"\u00a79+7.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]"
+                ],
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
             }
           ]
         }

@@ -13,8 +13,15 @@
               "count": 1
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:respiration\",lvl:1s}],Damage:44}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:damage": 44,
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:respiration": 1
+                  }
+                }
+              }
             }
           ]
         }
@@ -29,8 +36,10 @@
           "name": "minecraft:leather_boots",
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{Damage:54}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:damage": 54
+              }
             }
           ]
         }
@@ -49,8 +58,21 @@
               "count": 1
             },
             {
-              "function": "set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+4.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},lem.weapon:1,HideFlags:2,Damage:54}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{lem.weapon:1}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:damage": 54,
+                "minecraft:lore": [
+                  "[{\"text\":\"\u00a79+4.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]"
+                ],
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
             }
           ]
         }

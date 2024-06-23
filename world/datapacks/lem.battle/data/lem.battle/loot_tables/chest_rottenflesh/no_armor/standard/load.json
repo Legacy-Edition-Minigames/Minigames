@@ -11,8 +11,30 @@
           "name": "minecraft:tipped_arrow",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"item.minecraft.tipped_arrow.effect.slowness\",\"italic\":false}',Lore:['[{\"translate\":\"effect.minecraft.slowness\",\"color\":\"red\",\"italic\":false},{\"text\":\" (0:05)\",\"color\":\"red\",\"italic\":false}]','{\"text\":\" \"}','{\"translate\":\"potion.whenDrank\",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"-15% \",\"color\":\"red\",\"italic\":false},{\"translate\":\"attribute.name.generic.movement_speed\"}]']},HideFlags:32,custom_potion_effects:[{show_particles:1b,ambient:0b,id:\"minecraft:slowness\",amplifier:0b,duration:100,amplifier_int:0,show_icon:1b}],Potion:\"minecraft:water\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.tipped_arrow.effect.slowness\",\"italic\":false}",
+                "minecraft:lore": [
+                  "[{\"translate\":\"effect.minecraft.slowness\",\"color\":\"red\",\"italic\":false},{\"text\":\" (0:05)\",\"color\":\"red\",\"italic\":false}]",
+                  "{\"text\":\" \"}",
+                  "{\"translate\":\"potion.whenDrank\",\"color\":\"dark_purple\",\"italic\":false}",
+                  "[{\"text\":\"-15% \",\"color\":\"red\",\"italic\":false},{\"translate\":\"attribute.name.generic.movement_speed\"}]"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "show_particles": true,
+                      "ambient": false,
+                      "id": "minecraft:slowness",
+                      "amplifier": 0,
+                      "duration": 100,
+                      "show_icon": true
+                    }
+                  ],
+                  "potion": "minecraft:water"
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
             },
             {
               "function": "minecraft:set_count",
@@ -26,8 +48,30 @@
           "name": "minecraft:tipped_arrow",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"item.minecraft.tipped_arrow.effect.weakness\",\"italic\":false}',Lore:['[{\"translate\":\"effect.minecraft.weakness\",\"color\":\"red\",\"italic\":false},{\"text\":\" (0:07)\",\"italic\":false}]','{\"text\":\" \"}','{\"translate\":\"potion.whenDrank\",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"-4 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\",\"color\":\"red\",\"italic\":false}]']},HideFlags:32,custom_potion_effects:[{show_particles:1b,ambient:0b,id:\"minecraft:weakness\",amplifier:0b,duration:140,amplifier_int:0,show_icon:1b}],Potion:\"minecraft:water\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.tipped_arrow.effect.weakness\",\"italic\":false}",
+                "minecraft:lore": [
+                  "[{\"translate\":\"effect.minecraft.weakness\",\"color\":\"red\",\"italic\":false},{\"text\":\" (0:07)\",\"italic\":false}]",
+                  "{\"text\":\" \"}",
+                  "{\"translate\":\"potion.whenDrank\",\"color\":\"dark_purple\",\"italic\":false}",
+                  "[{\"text\":\"-4 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\",\"color\":\"red\",\"italic\":false}]"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "show_particles": true,
+                      "ambient": false,
+                      "id": "minecraft:weakness",
+                      "amplifier": 0,
+                      "duration": 140,
+                      "show_icon": true
+                    }
+                  ],
+                  "potion": "minecraft:water"
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
             },
             {
               "function": "minecraft:set_count",
@@ -45,8 +89,28 @@
               "count": 2
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"item.minecraft.tipped_arrow.effect.poison\",\"italic\":false}',Lore:['[{\"translate\":\"effect.minecraft.poison\",\"color\":\"red\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"potion.potency.1\"},{\"text\":\" (0:03)\",\"italic\":false}]']},HideFlags:32,custom_potion_effects:[{show_particles:1b,ambient:0b,id:\"minecraft:poison\",amplifier:1b,duration:60,amplifier_int:1,show_icon:1b}],Potion:\"minecraft:water\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.tipped_arrow.effect.poison\",\"italic\":false}",
+                "minecraft:lore": [
+                  "[{\"translate\":\"effect.minecraft.poison\",\"color\":\"red\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"potion.potency.1\"},{\"text\":\" (0:03)\",\"italic\":false}]"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "show_particles": true,
+                      "ambient": false,
+                      "id": "minecraft:poison",
+                      "amplifier": 1,
+                      "duration": 60,
+                      "amplifier_int": 1,
+                      "show_icon": true
+                    }
+                  ],
+                  "potion": "minecraft:water"
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
             }
           ]
         },
@@ -56,8 +120,13 @@
           "name": "minecraft:lingering_potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:harming\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_effects": [],
+                  "potion": "minecraft:harming"
+                }
+              }
             }
           ]
         },
@@ -67,8 +136,13 @@
           "name": "minecraft:lingering_potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:strong_healing\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_effects": [],
+                  "potion": "minecraft:strong_healing"
+                }
+              }
             }
           ]
         },
@@ -78,8 +152,13 @@
           "name": "minecraft:splash_potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:harming\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_effects": [],
+                  "potion": "minecraft:harming"
+                }
+              }
             }
           ]
         },
@@ -89,8 +168,20 @@
           "name": "minecraft:splash_potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.splash_potion.effect.slowness\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\"}]'},custom_potion_effects:[{id:\"minecraft:slowness\",amplifier:0b,duration:140}],Potion:\"minecraft:water\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "[{\"translate\":\"item.minecraft.splash_potion.effect.slowness\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\"}]",
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 0,
+                      "duration": 140
+                    }
+                  ],
+                  "potion": "minecraft:water"
+                }
+              }
             }
           ]
         },
@@ -100,8 +191,20 @@
           "name": "minecraft:splash_potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.splash_potion.effect.weakness\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\"}]'},custom_potion_effects:[{id:\"minecraft:weakness\",amplifier:0b,duration:140}],Potion:\"minecraft:water\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "[{\"translate\":\"item.minecraft.splash_potion.effect.weakness\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\"}]",
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 0,
+                      "duration": 140
+                    }
+                  ],
+                  "potion": "minecraft:water"
+                }
+              }
             }
           ]
         },
@@ -111,8 +214,20 @@
           "name": "minecraft:splash_potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.splash_potion.effect.poison\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\"}]'},custom_potion_effects:[{id:\"minecraft:poison\",amplifier:1b,duration:140}],Potion:\"minecraft:water\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "[{\"translate\":\"item.minecraft.splash_potion.effect.poison\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\"}]",
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:poison",
+                      "amplifier": 1,
+                      "duration": 140
+                    }
+                  ],
+                  "potion": "minecraft:water"
+                }
+              }
             }
           ]
         },
@@ -122,8 +237,20 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.invisibility\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},custom_potion_effects:[{id:\"minecraft:invisibility\",amplifier:0b,duration:400}],Potion:\"minecraft:water\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "[{\"translate\":\"item.minecraft.potion.effect.invisibility\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]",
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:invisibility",
+                      "amplifier": 0,
+                      "duration": 400
+                    }
+                  ],
+                  "potion": "minecraft:water"
+                }
+              }
             }
           ]
         },
@@ -133,8 +260,20 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.fire_resistance\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},custom_potion_effects:[{id:\"minecraft:fire_resistance\",amplifier:0b,duration:400}],Potion:\"minecraft:water\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "[{\"translate\":\"item.minecraft.potion.effect.fire_resistance\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]",
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:fire_resistance",
+                      "amplifier": 0,
+                      "duration": 400
+                    }
+                  ],
+                  "potion": "minecraft:water"
+                }
+              }
             }
           ]
         },
@@ -144,8 +283,20 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.swiftness\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},custom_potion_effects:[{id:\"minecraft:speed\",amplifier:0b,duration:400}],Potion:\"minecraft:water\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "[{\"translate\":\"item.minecraft.potion.effect.swiftness\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]",
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 0,
+                      "duration": 400
+                    }
+                  ],
+                  "potion": "minecraft:water"
+                }
+              }
             }
           ]
         },
@@ -155,8 +306,20 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.regeneration\",\"italic\":false},{\"text\":\" (0:15)\",\"color\":\"gray\"}]'},custom_potion_effects:[{id:\"minecraft:regeneration\",amplifier:0b,duration:300}],Potion:\"minecraft:water\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "[{\"translate\":\"item.minecraft.potion.effect.regeneration\",\"italic\":false},{\"text\":\" (0:15)\",\"color\":\"gray\"}]",
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 0,
+                      "duration": 300
+                    }
+                  ],
+                  "potion": "minecraft:water"
+                }
+              }
             }
           ]
         },
@@ -166,8 +329,13 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:strong_healing\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_effects": [],
+                  "potion": "minecraft:strong_healing"
+                }
+              }
             }
           ]
         },
@@ -188,7 +356,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "lem.battle:chest/no_armor/standard/weapon"
+          "value": "lem.battle:chest/no_armor/standard/weapon"
         }
       ]
     }

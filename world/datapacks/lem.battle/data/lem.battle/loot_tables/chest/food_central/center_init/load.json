@@ -7,107 +7,107 @@
         {
           "type": "minecraft:loot_table",
           "weight": 75,
-          "name": "lem.battle:chest/food_central/center_init/pirate/3"
+          "value": "lem.battle:chest/food_central/center_init/pirate/3"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 75,
-          "name": "lem.battle:chest/food_central/center_init/pirate/2"
+          "value": "lem.battle:chest/food_central/center_init/pirate/2"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 75,
-          "name": "lem.battle:chest/food_central/center_init/pirate/1"
+          "value": "lem.battle:chest/food_central/center_init/pirate/1"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 100,
-          "name": "lem.battle:chest/food_central/center_init/ninja/3"
+          "value": "lem.battle:chest/food_central/center_init/ninja/3"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 100,
-          "name": "lem.battle:chest/food_central/center_init/ninja/2"
+          "value": "lem.battle:chest/food_central/center_init/ninja/2"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 100,
-          "name": "lem.battle:chest/food_central/center_init/ninja/1"
+          "value": "lem.battle:chest/food_central/center_init/ninja/1"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 100,
-          "name": "lem.battle:chest/food_central/center_init/healer/3"
+          "value": "lem.battle:chest/food_central/center_init/healer/3"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 100,
-          "name": "lem.battle:chest/food_central/center_init/healer/2"
+          "value": "lem.battle:chest/food_central/center_init/healer/2"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 100,
-          "name": "lem.battle:chest/food_central/center_init/healer/1"
+          "value": "lem.battle:chest/food_central/center_init/healer/1"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 100,
-          "name": "lem.battle:chest/food_central/center_init/mage/3"
+          "value": "lem.battle:chest/food_central/center_init/mage/3"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 100,
-          "name": "lem.battle:chest/food_central/center_init/mage/2"
+          "value": "lem.battle:chest/food_central/center_init/mage/2"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 100,
-          "name": "lem.battle:chest/food_central/center_init/mage/1"
+          "value": "lem.battle:chest/food_central/center_init/mage/1"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 150,
-          "name": "lem.battle:chest/food_central/center_init/scout/3"
+          "value": "lem.battle:chest/food_central/center_init/scout/3"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 150,
-          "name": "lem.battle:chest/food_central/center_init/scout/2"
+          "value": "lem.battle:chest/food_central/center_init/scout/2"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 150,
-          "name": "lem.battle:chest/food_central/center_init/scout/1"
+          "value": "lem.battle:chest/food_central/center_init/scout/1"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 150,
-          "name": "lem.battle:chest/food_central/center_init/heavy/3"
+          "value": "lem.battle:chest/food_central/center_init/heavy/3"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 150,
-          "name": "lem.battle:chest/food_central/center_init/heavy/2"
+          "value": "lem.battle:chest/food_central/center_init/heavy/2"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 150,
-          "name": "lem.battle:chest/food_central/center_init/heavy/1"
+          "value": "lem.battle:chest/food_central/center_init/heavy/1"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 150,
-          "name": "lem.battle:chest/food_central/center_init/swordsman/3"
+          "value": "lem.battle:chest/food_central/center_init/swordsman/3"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 150,
-          "name": "lem.battle:chest/food_central/center_init/swordsman/2"
+          "value": "lem.battle:chest/food_central/center_init/swordsman/2"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 150,
-          "name": "lem.battle:chest/food_central/center_init/swordsman/1"
+          "value": "lem.battle:chest/food_central/center_init/swordsman/1"
         }
       ]
     },
@@ -116,7 +116,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "lem.battle:chest/food_central/center_init/food"
+          "value": "lem.battle:chest/food_central/center_init/food"
         }
       ]
     }

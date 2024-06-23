@@ -9,8 +9,10 @@
           "name": "minecraft:bow",
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{Damage:376}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:damage": 376
+              }
             }
           ]
         }
@@ -45,8 +47,15 @@
               "count": 1
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:depth_strider\",lvl:2s}],Damage:54}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:damage": 54,
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:depth_strider": 2
+                  }
+                }
+              }
             }
           ]
         }

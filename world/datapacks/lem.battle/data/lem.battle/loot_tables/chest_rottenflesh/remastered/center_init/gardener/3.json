@@ -13,8 +13,14 @@
               "count": 1
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:knockback\",lvl:1s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:knockback": 1
+                  }
+                }
+              }
             }
           ]
         }
@@ -29,8 +35,16 @@
           "name": "minecraft:diamond_boots",
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+3.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  "[{\"text\":\"\u00a79+3.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]"
+                ],
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
             }
           ]
         }

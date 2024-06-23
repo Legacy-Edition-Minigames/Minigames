@@ -13,8 +13,15 @@
               "count": 1
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:knockback\",lvl:1s}],Damage:39}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:damage": 39,
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:knockback": 1
+                  }
+                }
+              }
             }
           ]
         }
@@ -29,8 +36,10 @@
           "name": "minecraft:diamond_boots",
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{Damage:419}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:damage": 419
+              }
             }
           ]
         }

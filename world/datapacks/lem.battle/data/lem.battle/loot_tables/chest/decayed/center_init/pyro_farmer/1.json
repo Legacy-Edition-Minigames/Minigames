@@ -13,8 +13,27 @@
               "count": 1
             },
             {
-              "function": "set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+1.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},lem.weapon:1,HideFlags:2,Enchantments:[{id:\"minecraft:sharpness\",lvl:1s},{id:\"minecraft:fire_aspect\",lvl:1s}],Damage:48}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{lem.weapon:1}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:damage": 48,
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 1,
+                    "minecraft:fire_aspect": 1
+                  }
+                },
+                "minecraft:lore": [
+                  "[{\"text\":\"\u00a79+1.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]"
+                ],
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
             }
           ]
         }
@@ -29,8 +48,10 @@
           "name": "minecraft:leather_leggings",
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{Damage:61}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:damage": 61
+              }
             }
           ]
         }
@@ -49,8 +70,20 @@
               "count": 1
             },
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.splash_potion.effect.slowness\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\"}]'},custom_potion_effects:[{id:\"minecraft:slowness\",amplifier:0b,duration:140}],Potion:\"minecraft:water\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "[{\"translate\":\"item.minecraft.splash_potion.effect.slowness\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\"}]",
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 0,
+                      "duration": 140
+                    }
+                  ],
+                  "potion": "minecraft:water"
+                }
+              }
             }
           ]
         }

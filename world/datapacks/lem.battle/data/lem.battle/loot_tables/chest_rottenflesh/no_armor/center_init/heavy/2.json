@@ -13,8 +13,17 @@
               "count": 3
             },
             {
-              "function": "set_nbt",
-              "tag": "{CanPlaceOn:[\"#lem.battle:tnt_placeable\"],HideFlags:16}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{CanPlaceOn:[\"#lem.battle:tnt_placeable\"]}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:can_place_on": {
+                  "predciates": [],
+                  "show_in_tooltip": false
+                }
+              }
             }
           ]
         }
@@ -33,8 +42,20 @@
               "count": 1
             },
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.fire_resistance\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},custom_potion_effects:[{id:\"minecraft:fire_resistance\",amplifier:0b,duration:400}],Potion:\"minecraft:water\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "[{\"translate\":\"item.minecraft.potion.effect.fire_resistance\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]",
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:fire_resistance",
+                      "amplifier": 0,
+                      "duration": 400
+                    }
+                  ],
+                  "potion": "minecraft:water"
+                }
+              }
             }
           ]
         }

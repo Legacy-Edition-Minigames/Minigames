@@ -13,8 +13,15 @@
               "count": 1
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:2s}],Damage:229}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:damage": 229,
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 2
+                  }
+                }
+              }
             }
           ]
         }
@@ -33,8 +40,14 @@
               "count": 1
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:1s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 1
+                  }
+                }
+              }
             }
           ]
         }

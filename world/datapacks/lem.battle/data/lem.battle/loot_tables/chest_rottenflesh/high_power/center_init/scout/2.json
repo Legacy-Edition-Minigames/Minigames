@@ -25,8 +25,30 @@
           "name": "minecraft:tipped_arrow",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"item.minecraft.tipped_arrow.effect.weakness\",\"italic\":false}',Lore:['[{\"translate\":\"effect.minecraft.weakness\",\"color\":\"red\",\"italic\":false},{\"text\":\" (0:07)\",\"italic\":false}]','{\"text\":\" \"}','{\"translate\":\"potion.whenDrank\",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"-4 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\",\"color\":\"red\",\"italic\":false}]']},HideFlags:32,custom_potion_effects:[{show_particles:1b,ambient:0b,id:\"minecraft:weakness\",amplifier:0b,duration:140,amplifier_int:0,show_icon:1b}],Potion:\"minecraft:water\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.tipped_arrow.effect.weakness\",\"italic\":false}",
+                "minecraft:lore": [
+                  "[{\"translate\":\"effect.minecraft.weakness\",\"color\":\"red\",\"italic\":false},{\"text\":\" (0:07)\",\"italic\":false}]",
+                  "{\"text\":\" \"}",
+                  "{\"translate\":\"potion.whenDrank\",\"color\":\"dark_purple\",\"italic\":false}",
+                  "[{\"text\":\"-4 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\",\"color\":\"red\",\"italic\":false}]"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "show_particles": true,
+                      "ambient": false,
+                      "id": "minecraft:weakness",
+                      "amplifier": 0,
+                      "duration": 140,
+                      "show_icon": true
+                    }
+                  ],
+                  "potion": "minecraft:water"
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
             },
             {
               "function": "minecraft:set_count",
@@ -49,8 +71,21 @@
               "count": 1
             },
             {
-              "function": "set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+2.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]']},HideFlags:2,Enchantments:[{id:\"minecraft:depth_strider\",lvl:2s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:depth_strider": 2
+                  }
+                },
+                "minecraft:lore": [
+                  "[{\"text\":\"\u00a79+2.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.armor\"}]"
+                ],
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
             }
           ]
         }

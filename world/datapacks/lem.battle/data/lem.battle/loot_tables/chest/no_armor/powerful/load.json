@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "lem.battle:chest/no_armor/powerful/weapon"
+          "value": "lem.battle:chest/no_armor/powerful/weapon"
         }
       ]
     },
@@ -22,8 +22,28 @@
               "count": 5
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"item.minecraft.tipped_arrow.effect.poison\",\"italic\":false}',Lore:['[{\"translate\":\"effect.minecraft.poison\",\"color\":\"red\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"potion.potency.1\"},{\"text\":\" (0:03)\",\"italic\":false}]']},HideFlags:32,custom_potion_effects:[{show_particles:1b,ambient:0b,id:\"minecraft:poison\",amplifier:1b,duration:60,amplifier_int:1,show_icon:1b}],Potion:\"minecraft:water\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.tipped_arrow.effect.poison\",\"italic\":false}",
+                "minecraft:lore": [
+                  "[{\"translate\":\"effect.minecraft.poison\",\"color\":\"red\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"potion.potency.1\"},{\"text\":\" (0:03)\",\"italic\":false}]"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "show_particles": true,
+                      "ambient": false,
+                      "id": "minecraft:poison",
+                      "amplifier": 1,
+                      "duration": 60,
+                      "amplifier_int": 1,
+                      "show_icon": true
+                    }
+                  ],
+                  "potion": "minecraft:water"
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
             }
           ]
         },

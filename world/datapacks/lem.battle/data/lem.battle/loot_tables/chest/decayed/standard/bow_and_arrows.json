@@ -8,8 +8,10 @@
           "name": "minecraft:bow",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Damage:376}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:damage": 376
+              }
             }
           ]
         }

@@ -9,8 +9,15 @@
           "name": "minecraft:bow",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],Damage:372}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:damage": 372,
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:infinity": 1
+                  }
+                }
+              }
             }
           ]
         },
@@ -20,8 +27,17 @@
           "name": "minecraft:tnt",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CanPlaceOn:[\"#lem.battle:tnt_placeable\"],HideFlags:16}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{CanPlaceOn:[\"#lem.battle:tnt_placeable\"]}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:can_place_on": {
+                  "predciates": [],
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "minecraft:set_count",
@@ -35,8 +51,14 @@
           "name": "minecraft:bow",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:flame\",lvl:1s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:flame": 1
+                  }
+                }
+              }
             }
           ]
         },
@@ -46,8 +68,14 @@
           "name": "minecraft:bow",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:punch\",lvl:1s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:punch": 1
+                  }
+                }
+              }
             }
           ]
         },
@@ -57,8 +85,14 @@
           "name": "minecraft:bow",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:power\",lvl:1s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:power": 1
+                  }
+                }
+              }
             }
           ]
         },
@@ -68,8 +102,8 @@
           "name": "minecraft:trident",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+9.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},lem.weapon:1}",
+              "function": "minecraft:set_custom_data",
+              "tag": "{lem.weapon:1}",
               "conditions": [
                 {
                   "condition": "minecraft:value_check",
@@ -87,8 +121,31 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+6.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},lem.weapon:1}",
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  "[{\"text\":\"\u00a79+9.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]"
+                ]
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#Store"
+                    },
+                    "score": "lem.battle.moderndamage.trident",
+                    "scale": 1
+                  },
+                  "range": 1
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{lem.weapon:1}",
               "conditions": [
                 {
                   "condition": "minecraft:value_check",
@@ -106,8 +163,41 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:2,Enchantments:[{id:\"minecraft:loyalty\",lvl:3s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  "[{\"text\":\"\u00a79+6.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]"
+                ]
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#Store"
+                    },
+                    "score": "lem.battle.moderndamage.trident",
+                    "scale": 1
+                  },
+                  "range": 0
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:loyalty": 3
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "minecraft:set_attributes",
@@ -116,14 +206,14 @@
                   "attribute": "minecraft:generic.attack_speed",
                   "name": "",
                   "amount": -2.9,
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand"
                 },
                 {
                   "attribute": "minecraft:generic.attack_damage",
                   "name": "",
                   "amount": 5,
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand"
                 }
               ],
@@ -151,8 +241,8 @@
           "name": "minecraft:trident",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+9.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},lem.weapon:1}",
+              "function": "minecraft:set_custom_data",
+              "tag": "{lem.weapon:1}",
               "conditions": [
                 {
                   "condition": "minecraft:value_check",
@@ -170,8 +260,31 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+6.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},lem.weapon:1}",
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  "[{\"text\":\"\u00a79+9.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]"
+                ]
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#Store"
+                    },
+                    "score": "lem.battle.moderndamage.trident",
+                    "scale": 1
+                  },
+                  "range": 1
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{lem.weapon:1}",
               "conditions": [
                 {
                   "condition": "minecraft:value_check",
@@ -189,8 +302,41 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:2,Enchantments:[{id:\"minecraft:riptide\",lvl:1s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  "[{\"text\":\"\u00a79+6.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]"
+                ]
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#Store"
+                    },
+                    "score": "lem.battle.moderndamage.trident",
+                    "scale": 1
+                  },
+                  "range": 0
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:riptide": 1
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "minecraft:set_attributes",
@@ -199,14 +345,14 @@
                   "attribute": "minecraft:generic.attack_speed",
                   "name": "",
                   "amount": -2.9,
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand"
                 },
                 {
                   "attribute": "minecraft:generic.attack_damage",
                   "name": "",
                   "amount": 5,
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand"
                 }
               ],
@@ -234,8 +380,15 @@
           "name": "minecraft:crossbow",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:quick_charge\",lvl:3s},{id:\"minecraft:piercing\",lvl:1s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:quick_charge": 3,
+                    "minecraft:piercing": 1
+                  }
+                }
+              }
             }
           ]
         },
@@ -245,8 +398,14 @@
           "name": "minecraft:crossbow",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:multishot\",lvl:1s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:multishot": 1
+                  }
+                }
+              }
             }
           ]
         },
@@ -256,8 +415,8 @@
           "name": "minecraft:diamond_shovel",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+5.5 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},lem.weapon:1}",
+              "function": "minecraft:set_custom_data",
+              "tag": "{lem.weapon:1}",
               "conditions": [
                 {
                   "condition": "minecraft:value_check",
@@ -275,8 +434,31 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+4.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},lem.weapon:1}",
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  "[{\"text\":\"\u00a79+5.5 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]"
+                ]
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#Store"
+                    },
+                    "score": "lem.battle.moderndamage.shovel",
+                    "scale": 1
+                  },
+                  "range": 1
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{lem.weapon:1}",
               "conditions": [
                 {
                   "condition": "minecraft:value_check",
@@ -294,8 +476,41 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:2,Enchantments:[{id:\"minecraft:knockback\",lvl:2s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  "[{\"text\":\"\u00a79+4.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]"
+                ]
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#Store"
+                    },
+                    "score": "lem.battle.moderndamage.shovel",
+                    "scale": 1
+                  },
+                  "range": 0
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:knockback": 2
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "minecraft:set_attributes",
@@ -304,14 +519,14 @@
                   "attribute": "minecraft:generic.attack_speed",
                   "name": "",
                   "amount": -3,
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand"
                 },
                 {
                   "attribute": "minecraft:generic.attack_damage",
                   "name": "",
                   "amount": 3,
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand"
                 }
               ],
@@ -339,8 +554,20 @@
           "name": "minecraft:diamond_pickaxe",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},lem.weapon:1,HideFlags:2}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{lem.weapon:1}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  "[{\"text\":\"\u00a79+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]"
+                ],
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
             }
           ]
         },
@@ -350,8 +577,8 @@
           "name": "minecraft:iron_axe",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+9.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},lem.weapon:1}",
+              "function": "minecraft:set_custom_data",
+              "tag": "{lem.weapon:1}",
               "conditions": [
                 {
                   "condition": "minecraft:value_check",
@@ -369,8 +596,31 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},lem.weapon:1}",
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  "[{\"text\":\"\u00a79+9.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]"
+                ]
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#Store"
+                    },
+                    "score": "lem.battle.moderndamage.axe",
+                    "scale": 1
+                  },
+                  "range": 1
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{lem.weapon:1}",
               "conditions": [
                 {
                   "condition": "minecraft:value_check",
@@ -388,8 +638,41 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:2,Enchantments:[{id:\"minecraft:knockback\",lvl:1s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  "[{\"text\":\"\u00a79+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]"
+                ]
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#Store"
+                    },
+                    "score": "lem.battle.moderndamage.axe",
+                    "scale": 1
+                  },
+                  "range": 0
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:knockback": 1
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "minecraft:set_attributes",
@@ -398,14 +681,14 @@
                   "attribute": "minecraft:generic.attack_speed",
                   "name": "",
                   "amount": -3.1,
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand"
                 },
                 {
                   "attribute": "minecraft:generic.attack_damage",
                   "name": "",
                   "amount": 4,
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand"
                 }
               ],
@@ -433,8 +716,25 @@
           "name": "minecraft:stone_sword",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"§9+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]']},lem.weapon:1,HideFlags:2,Enchantments:[{id:\"minecraft:fire_aspect\",lvl:1s}]}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{lem.weapon:1}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fire_aspect": 1
+                  }
+                },
+                "minecraft:lore": [
+                  "[{\"text\":\"\u00a79+5.0 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\"}]"
+                ],
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
             }
           ]
         }

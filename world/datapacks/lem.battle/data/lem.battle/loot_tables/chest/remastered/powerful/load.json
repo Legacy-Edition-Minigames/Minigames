@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "lem.battle:chest/remastered/powerful/weapon"
+          "value": "lem.battle:chest/remastered/powerful/weapon"
         }
       ]
     },
@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "lem.battle:chest/remastered/powerful/armor"
+          "value": "lem.battle:chest/remastered/powerful/armor"
         }
       ]
     },
@@ -24,7 +24,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "lem.battle:chest/remastered/powerful/armor"
+          "value": "lem.battle:chest/remastered/powerful/armor"
         },
         {
           "type": "minecraft:item",
@@ -36,8 +36,28 @@
               "count": 5
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"item.minecraft.tipped_arrow.effect.poison\",\"italic\":false}',Lore:['[{\"translate\":\"effect.minecraft.poison\",\"color\":\"red\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"potion.potency.1\"},{\"text\":\" (0:03)\",\"italic\":false}]']},HideFlags:32,custom_potion_effects:[{show_particles:1b,ambient:0b,id:\"minecraft:poison\",amplifier:1b,duration:60,amplifier_int:1,show_icon:1b}],Potion:\"minecraft:water\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.tipped_arrow.effect.poison\",\"italic\":false}",
+                "minecraft:lore": [
+                  "[{\"translate\":\"effect.minecraft.poison\",\"color\":\"red\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"potion.potency.1\"},{\"text\":\" (0:03)\",\"italic\":false}]"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "show_particles": true,
+                      "ambient": false,
+                      "id": "minecraft:poison",
+                      "amplifier": 1,
+                      "duration": 60,
+                      "amplifier_int": 1,
+                      "show_icon": true
+                    }
+                  ],
+                  "potion": "minecraft:water"
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
             }
           ]
         },
@@ -47,8 +67,25 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.turtle_master\",\"italic\":false},{\"text\":\" (0:10)\",\"color\":\"gray\"}]'},custom_potion_effects:[{id:\"minecraft:slowness\",amplifier:3b,duration:200},{id:\"minecraft:resistance\",amplifier:2b,duration:200}],Potion:\"minecraft:water\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "[{\"translate\":\"item.minecraft.potion.effect.turtle_master\",\"italic\":false},{\"text\":\" (0:10)\",\"color\":\"gray\"}]",
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 3,
+                      "duration": 200
+                    },
+                    {
+                      "id": "minecraft:resistance",
+                      "amplifier": 2,
+                      "duration": 200
+                    }
+                  ],
+                  "potion": "minecraft:water"
+                }
+              }
             }
           ]
         },

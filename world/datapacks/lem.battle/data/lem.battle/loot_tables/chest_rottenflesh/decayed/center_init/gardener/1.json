@@ -13,8 +13,15 @@
               "count": 1
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:1s}],Damage:219}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:damage": 219,
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 1
+                  }
+                }
+              }
             }
           ]
         }
@@ -33,8 +40,20 @@
               "count": 1
             },
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.splash_potion.effect.weakness\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\"}]'},custom_potion_effects:[{id:\"minecraft:weakness\",amplifier:0b,duration:140}],Potion:\"minecraft:water\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "[{\"translate\":\"item.minecraft.splash_potion.effect.weakness\",\"italic\":false},{\"text\":\" (0:07)\",\"color\":\"gray\"}]",
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 0,
+                      "duration": 140
+                    }
+                  ],
+                  "potion": "minecraft:water"
+                }
+              }
             }
           ]
         }
@@ -49,8 +68,10 @@
           "name": "minecraft:leather_boots",
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{Damage:54}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:damage": 54
+              }
             }
           ]
         }

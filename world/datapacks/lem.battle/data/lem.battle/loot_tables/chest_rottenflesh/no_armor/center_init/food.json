@@ -6,31 +6,31 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "lem.battle:chest/no_armor/center_init/food/7"
+          "value": "lem.battle:chest/no_armor/center_init/food/7"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "lem.battle:chest/no_armor/center_init/food/6"
+          "value": "lem.battle:chest/no_armor/center_init/food/6"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "lem.battle:chest/no_armor/center_init/food/5"
+          "value": "lem.battle:chest/no_armor/center_init/food/5"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "lem.battle:chest/no_armor/center_init/food/4"
+          "value": "lem.battle:chest/no_armor/center_init/food/4"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "lem.battle:chest/no_armor/center_init/food/3"
+          "value": "lem.battle:chest/no_armor/center_init/food/3"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "lem.battle:chest/no_armor/center_init/food/2"
+          "value": "lem.battle:chest/no_armor/center_init/food/2"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "lem.battle:chest/no_armor/center_init/food/1"
+          "value": "lem.battle:chest/no_armor/center_init/food/1"
         }
       ]
     }
