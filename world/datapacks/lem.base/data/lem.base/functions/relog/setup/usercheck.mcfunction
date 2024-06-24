@@ -11,6 +11,8 @@ tag 1d6033d1-cad8-426e-913a-c7ccde64de54 add heart-pixeogames
 tag e9e4b393-29d1-4004-b469-125d8b87c124 add heart-lion8cake
 #HomieSiDjack
 tag 89da0d81-fc65-42d0-9668-2bd538bd3c26 add heart-homiesidjack
+#CuddleDrivenPony
+tag ea149491-22e9-4458-b52e-ddd3f66e6d92 add heart-cuddledrivenpony
 
 ##DSMSYB mode
 execute as 6c746b61-7f58-4597-8d9a-32fc518b9d87 run tag @s add dsmsyb

@@ -65,3 +65,5 @@ userconfig @s test lem.base:heartcosmetic EQUAL custom_pixeogames runCommand set
 userconfig @s test lem.base:heartcosmetic EQUAL custom_lion8cake runCommand setSuffixFont alive "lem.base:tablist/heart/secret/lion8cake" @s
 #HomieSiDjack
 userconfig @s test lem.base:heartcosmetic EQUAL custom_homiesidjack runCommand setSuffixFont alive "lem.base:tablist/heart/secret/homiesidjack" @s
+#CuddleDrivenPony
+userconfig @s test lem.base:heartcosmetic EQUAL custom_cuddledrivenpony runCommand setSuffixFont alive "lem.base:tablist/heart/secret/cuddledrivenpony" @s
