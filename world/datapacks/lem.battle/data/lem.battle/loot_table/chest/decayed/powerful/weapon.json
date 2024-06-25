@@ -189,21 +189,6 @@
               ]
             },
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:damage": 1556,
-                "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:knockback": 2
-                  }
-                },
-                "minecraft:attribute_modifiers": {
-                  "modifiers": [],
-                  "show_in_tooltip": false
-                }
-              }
-            },
-            {
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
@@ -236,6 +221,21 @@
                   "range": 0
                 }
               ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:damage": 1556,
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:knockback": 2
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
             }
           ]
         },
@@ -353,21 +353,6 @@
               ]
             },
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:damage": 239,
-                "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:knockback": 1
-                  }
-                },
-                "minecraft:attribute_modifiers": {
-                  "modifiers": [],
-                  "show_in_tooltip": false
-                }
-              }
-            },
-            {
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
@@ -400,6 +385,21 @@
                   "range": 0
                 }
               ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:damage": 239,
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:knockback": 1
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
             }
           ]
         },

@@ -185,21 +185,6 @@
               ]
             },
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:knockback": 2,
-                    "minecraft:fire_aspect": 1
-                  }
-                },
-                "minecraft:attribute_modifiers": {
-                  "modifiers": [],
-                  "show_in_tooltip": false
-                }
-              }
-            },
-            {
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
@@ -232,6 +217,21 @@
                   "range": 0
                 }
               ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:knockback": 2,
+                    "minecraft:fire_aspect": 1
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
             }
           ]
         },
@@ -353,20 +353,6 @@
               ]
             },
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:knockback": 1
-                  }
-                },
-                "minecraft:attribute_modifiers": {
-                  "modifiers": [],
-                  "show_in_tooltip": false
-                }
-              }
-            },
-            {
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
@@ -399,6 +385,20 @@
                   "range": 0
                 }
               ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:knockback": 1
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
             }
           ]
         },
