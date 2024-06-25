@@ -35,6 +35,8 @@ tag @s remove heart-tris1357
 tag @s remove heart-pixeogames
 tag @s remove heart-lion8cake
 tag @s remove heart-homiesidjack
+tag @s remove heart-cuddledrivenpony
+tag @s remove heart-mybadimbanned
 
 ##Set title times
 title @s times 0 50 1

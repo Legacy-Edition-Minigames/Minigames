@@ -65,3 +65,9 @@ userconfig @s test lem.base:heartcosmetic EQUAL custom_pixeogames runCommand set
 userconfig @s test lem.base:heartcosmetic EQUAL custom_lion8cake runCommand setSuffixFont alive "lem.base:tablist/heart/secret/lion8cake" @s
 #HomieSiDjack
 userconfig @s test lem.base:heartcosmetic EQUAL custom_homiesidjack runCommand setSuffixFont alive "lem.base:tablist/heart/secret/homiesidjack" @s
+#CuddleDrivenPony
+userconfig @s test lem.base:heartcosmetic EQUAL custom_cuddledrivenpony runCommand setSuffixFont alive "lem.base:tablist/heart/secret/cuddledrivenpony" @s
+#MyBadImBanned
+userconfig @s test lem.base:heartcosmetic EQUAL custom_mybadimbanned runCommand execute store result score @s lem.temp run random value 1..2
+userconfig @s test lem.base:heartcosmetic EQUAL custom_mybadimbanned runCommand execute if score @s lem.temp matches 1 run setSuffixFont alive "lem.base:tablist/heart/secret/mybadimbanned/rick" @s
+userconfig @s test lem.base:heartcosmetic EQUAL custom_mybadimbanned runCommand execute if score @s lem.temp matches 2 run setSuffixFont alive "lem.base:tablist/heart/secret/mybadimbanned/meals" @s
