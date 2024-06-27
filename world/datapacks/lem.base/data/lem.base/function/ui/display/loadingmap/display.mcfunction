@@ -19,8 +19,5 @@ execute unless score #Store lem.ui.loadingmap.bar.override matches 1 if score #S
 #Loading Resources
 execute unless score #Store lem.ui.loadingmap.bar.override matches 1 if score #Store lem.barmode matches 2 as @a[tag=ingame] run function lem.base:ui/display/loadingmap/bar/resource
 
-##Clear actionbar
-title @a[tag=ingame] actionbar ""
-
 #title @a subtitle {"text":"\uF901","font":"lem.base:loading/bar/progress"}
 #title @a subtitle ["",{"text":"\uF80A\uF808\uF802\uF901","font":"lem.base:loading/bar/progress"},{"text":"\uF80C\uF801\uF901","font":"lem.base:loading/bar/text"}]
