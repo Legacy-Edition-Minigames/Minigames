@@ -9,7 +9,7 @@ tag @s remove panorama_night
 #GlobalPack
 userconfig @s test lem.base:globalpack EQUAL true runCommand tag @s add globalpack
 #CustomPack
-userconfig @s test lem.base:custompack EQUAL true runCommand tag @s add custompack
+userconfig @s test serverutils:srp_custompack EQUAL true runCommand tag @s add custompack
 
 ##Panorama Settings
 #Background

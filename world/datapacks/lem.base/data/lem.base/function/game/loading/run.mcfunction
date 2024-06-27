@@ -79,7 +79,10 @@ tag @a[tag=ingame] remove loadingresources
 execute as @a[tag=ingame] run function lem.base:lobby/attributes/remove
 
 ##Load the arena dimension
-custommaploader voting end lem.base:arena true @a[tag=ingame]
+custommaploader voting end lem.base:arena true @a[tag=ingame] lem.base:game/loading/dimensionloaded
+
+##Hide hotbar
+execute if score #Store lem.gimode matches 2 run spoofspectator @s true
 
 ##Lock players to map center
 function lem.base:game/loading/mapload/check
@@ -103,8 +106,6 @@ function lem.base:ui/display/loadingmap/loadname
 ##Start game in 6 seconds if not overridden by pack
 scoreboard players set #Store lem.timer 0
 
-##Check which timer to start
-schedule function lem.base:game/loading/check 2s
 
 ##Start panorama
 function lem.base:ui/panorama/start

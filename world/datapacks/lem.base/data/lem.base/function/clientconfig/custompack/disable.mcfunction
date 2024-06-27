@@ -1,5 +1,5 @@
 ##Disable CustomPack
-userconfig @s set lem.base:custompack false
+userconfig @s set serverutils:srp_custompack false
 
 ##Disable per-map textures
 userconfig @s set lem.base:globalpack false

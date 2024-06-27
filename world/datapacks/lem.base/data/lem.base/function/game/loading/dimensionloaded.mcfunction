@@ -1,11 +1,11 @@
 ##Run functions for addons
 function #lem.base:game/loading/dimensionloaded
 
-##Teleport to map
-execute as @a[tag=ingame] run function lem.base:game/setup/teleport/load
-
 ##Refresh time
 function lem.base:game/time/refresh
 
-##Load resource packs
-schedule function lem.base:game/loading/resourceschedule 10t
+##Hide hotbar
+execute if score #Store lem.gimode matches 2 run spoofspectator @a[tag=ingame] true
+
+##Check resource which timer to start
+schedule function lem.base:game/loading/check 2s

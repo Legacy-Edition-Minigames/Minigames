@@ -57,6 +57,9 @@ scoreboard players reset @s
 #Get serverutils scores
 scoreboardplayerinfo setAllScores
 
+##Update outdated configs
+function lem.base:config/update
+
 ##Load default config
 function lem.base:config/defaults
 

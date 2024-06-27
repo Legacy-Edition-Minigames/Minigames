@@ -12,7 +12,7 @@ userconfig @s test lem.base:panscale EQUAL _NOTHING_ runCommand userconfig @s se
 #GlobalPack (No Map Textures)
 userconfig @s test lem.base:globalpack EQUAL _NOTHING_ runCommand userconfig @s set lem.base:globalpack false
 #CustomPack
-userconfig @s test lem.base:custompack EQUAL _NOTHING_ runCommand userconfig @s set lem.base:custompack false
+userconfig @s test serverutils:srp_custompack EQUAL _NOTHING_ runCommand userconfig @s set serverutils:srp_custompack false
 
 ##Small Inventory theme
 userconfig @s test lem.base:smallinv_theme EQUAL _NOTHING_ runCommand userconfig @s set lem.base:smallinv_theme vanilla

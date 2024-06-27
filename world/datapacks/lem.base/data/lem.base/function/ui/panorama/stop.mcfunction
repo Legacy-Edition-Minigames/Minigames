@@ -20,7 +20,7 @@ lockdown false
 #Disable output
 gamerule sendCommandFeedback false
 #Set gamemode
-gamemode adventure @a[tag=ingame,gamemode=creative]
+spoofspectator @a[tag=ingame] false
 #Enable output
 gamerule sendCommandFeedback true
 
