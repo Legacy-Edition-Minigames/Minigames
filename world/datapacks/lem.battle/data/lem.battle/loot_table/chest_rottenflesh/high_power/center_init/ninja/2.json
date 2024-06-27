@@ -45,14 +45,14 @@
               "count": 5
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{CanPlaceOn:[\"#lem.battle:tnt_placeable\"]}"
-            },
-            {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:can_place_on": {
-                  "predciates": [],
+                  "predicates": [
+                    {
+                      "blocks": "#lem.battle:tnt_placeable"
+                    }
+                  ],
                   "show_in_tooltip": false
                 }
               }

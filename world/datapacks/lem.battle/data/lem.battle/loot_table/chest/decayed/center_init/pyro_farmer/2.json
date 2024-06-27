@@ -13,14 +13,14 @@
               "count": 10
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{CanPlaceOn:[\"#lem.base:all_blocks\"]}"
-            },
-            {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:can_place_on": {
-                  "predciates": [],
+                  "predicates": [
+                    {
+                      "blocks": "#lem.base:all_blocks"
+                    }
+                  ],
                   "show_in_tooltip": false
                 }
               }
