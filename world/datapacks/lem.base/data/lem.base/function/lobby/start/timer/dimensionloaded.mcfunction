@@ -1,6 +1,9 @@
 ##Mark lobby as loaded
 scoreboard players set #Store lem.lobbyready 0
 
+##Hide hotbar
+execute if score #Store lem.gimode matches 2 run spoofspectator @a[tag=ingame] true
+
 ##Set spawnpoints
 execute as @a[tag=ingame] at @s run spawnpoint @s ~ ~ ~
 
