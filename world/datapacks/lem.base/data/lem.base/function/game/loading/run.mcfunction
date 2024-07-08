@@ -82,7 +82,7 @@ execute as @a[tag=ingame] run function lem.base:lobby/attributes/remove
 custommaploader voting end lem.base:arena true @a[tag=ingame] lem.base:game/loading/dimensionloaded
 
 ##Hide hotbar
-execute if score #Store lem.gimode matches 2 run spoofspectator @s true
+execute if score #Store lem.gimode matches 2 run spoofspectator @a[tag=ingame] true
 
 ##Lock players to map center
 function lem.base:game/loading/mapload/check
