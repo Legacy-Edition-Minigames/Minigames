@@ -32,15 +32,6 @@ scoreboard objectives add lem.gamestatus dummy
 ##Timer
 scoreboard objectives add lem.timer dummy
 
-##Music Timer
-scoreboard objectives add lem.mustimer dummy
-
-##Music RNG
-scoreboard objectives add lem.musrandom dummy
-
-##Last song
-scoreboard objectives add lem.muslast dummy
-
 ##Player List
 #plist
 scoreboard objectives add lem.plist dummy
@@ -261,9 +252,6 @@ scoreboard objectives add lem.mapinit.mapload dummy
 
 ##Variable for checking if lobby dimension is ready to be loaded or not in a very specific scenario
 scoreboard objectives add lem.lobbyready dummy
-
-##Music Pack ID
-scoreboard objectives add lem.muspack dummy
 
 ##Timer to remind people that we need money to actually survive
 scoreboard objectives add lem.patreontimer dummy

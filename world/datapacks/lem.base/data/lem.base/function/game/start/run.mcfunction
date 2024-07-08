@@ -75,7 +75,6 @@ execute as @a[tag=ingame] at @s run spawnpoint @s ~ ~ ~
 kill @e[type=item]
 
 ##Start Music
-execute unless score #Store lem.recon matches 1 if score #Store lem.initialgame matches 1 as @a[tag=ingame] run music set lem.base:arena
 execute unless score #Store lem.recon matches 1 if score #Store lem.initialgame matches 1 as @a[tag=ingame] run music play 
 
 ##Run functions for addons
