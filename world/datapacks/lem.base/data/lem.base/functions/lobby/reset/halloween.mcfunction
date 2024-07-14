@@ -62,3 +62,4 @@ data merge block -317 85 -366 {Items:[{Count:41b,Slot:0b,id:"minecraft:firework_
 data merge block -361 77 -342 {Items:[{Count:1b,Slot:13b,id:"minecraft:elytra",tag:{Damage:0}}]}
 data merge block -304 62 -315 {Items:[{Count:16b,Slot:0b,id:"minecraft:snowball"},{Count:16b,Slot:1b,id:"minecraft:snowball"},{Count:16b,Slot:2b,id:"minecraft:snowball"},{Count:16b,Slot:3b,id:"minecraft:snowball"},{Count:16b,Slot:4b,id:"minecraft:snowball"},{Count:16b,Slot:5b,id:"minecraft:snowball"},{Count:16b,Slot:6b,id:"minecraft:snowball"},{Count:16b,Slot:7b,id:"minecraft:snowball"},{Count:16b,Slot:8b,id:"minecraft:snowball"}]}
 data merge block -305 62 -315 {Items:[]}
+data merge block -317 42 -328 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_disc_13",tag:{CanPlaceOn:["minecraft:jukebox"],HideFlags:16}}]}
