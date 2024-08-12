@@ -21,8 +21,6 @@ execute as 4133ad6d-1a53-49b7-8b16-c96430dde0ca run scoreboard players set @s le
 execute as 84d19bef-dcff-447c-975d-f34a0bf8b51f run scoreboard players set @s lem.patreon 1
 #Blizzard325
 execute as 6d892c9f-2cf4-4888-b122-3d3c94dd419c run scoreboard players set @s lem.patreon 1
-#bittyrippedone
-execute as 7f1ca084-fbf7-4f30-84f4-1102bd703706 run scoreboard players set @s lem.patreon 1
 #Nulludo
 execute as 76d21080-19c3-419c-ab6e-a99d930b6b47 run scoreboard players set @s lem.patreon 1
 #DuskDarf1
@@ -209,8 +207,6 @@ execute as 8267d8ee-6231-45f4-9cd7-43a78c784663 run scoreboard players set @s le
 execute as 9b578b07-1d42-4f80-aec4-547a736dc437 run scoreboard players set @s lem.patreon 1
 #FLORO_POMIDORO
 execute as c76287d1-2140-496a-887e-8490d90b6b9b run scoreboard players set @s lem.patreon 1
-#_Sappy_
-execute as ea4788dd-e51d-4741-885e-d38e60135235 run scoreboard players set @s lem.patreon 1
 #Fannattastic
 execute as 14daf59a-8a3f-4249-a794-029395c6f1db run scoreboard players set @s lem.patreon 1
 #amaaaaa_
@@ -276,7 +272,7 @@ execute as cdbf9f5c-d216-432f-a04a-9511d3f20a77 run scoreboard players set @s le
 #Pacblox109
 execute as bf2a6ceb-91ea-4796-bfe6-ebd2d4864d0a run scoreboard players set @s lem.patreon 1
 #panchoETV
-execute as c87df513-18c2-4c59-91cd-65a0c1b13ba1 run scoreboard players set  @s lem.patreon 1
+execute as c87df513-18c2-4c59-91cd-65a0c1b13ba1 run scoreboard players set @s lem.patreon 1
 #dasleepa
 execute as e575fb97-15f5-49f0-879e-a4b2aa1119b5 run scoreboard players set @s lem.patreon 1
 #eatyourglory
@@ -329,6 +325,8 @@ execute as abd78b2c-8346-45b8-945b-94d7a1e0226c run scoreboard players set @s le
 execute as d6141f87-12ae-4c4a-8a96-f6fbe43d724d run scoreboard players set @s lem.patreon 1
 #akkreyiz9009
 execute as 1cbfe1d0-1823-4a7e-a15b-85e9dc47ee88 run scoreboard players set @s lem.patreon 1
+#Fish_Sticks2330
+execute as 71f3f259-ca1d-4ebc-8e4c-b4bbf4693c09 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
