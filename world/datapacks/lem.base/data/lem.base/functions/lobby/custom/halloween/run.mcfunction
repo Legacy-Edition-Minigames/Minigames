@@ -8,7 +8,7 @@ execute as @e[tag=circle,type=minecraft:armor_stand] at @s run tp @s ~ ~ ~ ~1.5 
 #Get Y position
 execute as @a[tag=ingame] at @s store result score @s lem.yvalue run data get entity @s Pos[1]
 #TP out to backrooms
-execute at @e[type=area_effect_cloud,tag=LobbyCenter] as @a[tag=ingame,distance=1..,tag=!backrooms,scores={lem.yvalue=..26}] run function lem.base:lobby/custom/halloween/backrooms
+execute at @e[type=area_effect_cloud,tag=LobbyCenter] as @a[tag=ingame,distance=1..,tag=!backrooms,scores={lem.yvalue=..52}] run function lem.base:lobby/custom/halloween/backrooms
 
 ##Backrooms effects
 #Give darkness effect
