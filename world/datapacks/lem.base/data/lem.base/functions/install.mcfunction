@@ -392,6 +392,9 @@ scoreboard objectives add lem.gameicon dummy
 gamerule doDaylightCycle false
 time set noon
 
+##Set admin settings variables
+execute unless score #Store lem.recon matches 0.. run scoreboard players set #Store lem.recon 0
+
 ##Disable worldborder warning
 worldborder warning distance 0
 

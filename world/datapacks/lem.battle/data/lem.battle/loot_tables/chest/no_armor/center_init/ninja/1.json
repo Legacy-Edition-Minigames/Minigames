@@ -85,7 +85,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.leaping\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},custom_potion_effects:[{id:\"minecraft:leaping\",amplifier:1b,duration:400}],Potion:\"minecraft:water\"}",
+              "tag": "{display:{Name:'[{\"translate\":\"item.minecraft.potion.effect.leaping\",\"italic\":false},{\"text\":\" (0:20)\",\"color\":\"gray\"}]'},custom_potion_effects:[{id:\"minecraft:jump_boost\",amplifier:1b,duration:400}],Potion:\"minecraft:water\"}",
               "conditions": [
                 {
                   "condition": "minecraft:value_check",
