@@ -1,6 +1,6 @@
 ##Display circle particles
 #Display particles at center
-execute as @e[tag=circle,type=minecraft:armor_stand] at @s run function lem.base:lobby/custom/halloween/circle
+execute in lem.base:the_lobby if block -328 64 -386 minecraft:jukebox{IsPlaying:1b} as @e[tag=circle,type=minecraft:armor_stand] at @s run function lem.base:lobby/custom/halloween/circle
 #Rotate
 execute as @e[tag=circle,type=minecraft:armor_stand] at @s run tp @s ~ ~ ~ ~1.5 ~
 
@@ -14,7 +14,7 @@ execute at @e[type=area_effect_cloud,tag=LobbyCenter] as @a[tag=ingame,distance=
 #Give darkness effect
 effect give @a[tag=backrooms,tag=ingame] darkness 1 0 true
 #Stop music
-stopsound @s music
+stopsound @a[tag=backrooms,tag=ingame] music
 
 ##Rotate the xof
 execute as @e[tag=xof] at @s run tp @s ~ ~ ~ ~20 ~
