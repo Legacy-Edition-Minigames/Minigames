@@ -93,3 +93,4 @@ data merge block -292 84 -328 {Items:[{Count:61b,Slot:0b,id:"minecraft:firework_
 data merge block -317 85 -366 {Items:[{Count:41b,Slot:0b,id:"minecraft:firework_rocket",tag:{Fireworks:{Explosions:[{Colors:[I;2437522],Flicker:1b,Type:3b}],Flight:1b}}},{Count:52b,Slot:1b,id:"minecraft:firework_rocket",tag:{Fireworks:{Explosions:[{Colors:[I;2437522],Flicker:1b,Type:3b}],Flight:1b}}}]}
 data merge block -316 85 -316 {Items:[{Count:63b,Slot:0b,id:"minecraft:firework_rocket",tag:{Fireworks:{Explosions:[{Colors:[I;2437522],Flicker:1b,Type:3b}],Flight:1b}}},{Count:59b,Slot:1b,id:"minecraft:firework_rocket",tag:{Fireworks:{Explosions:[{Colors:[I;2437522],Flicker:1b,Type:3b}],Flight:1b}}}]}
 data merge block -315 86 -341 {Items:[{Count:6b,Slot:4b,id:"minecraft:skeleton_skull"}],Lock:"lock"}
+data merge block -317 42 -328 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_disc_13",tag:{CanPlaceOn:["minecraft:jukebox"],HideFlags:16}}]}

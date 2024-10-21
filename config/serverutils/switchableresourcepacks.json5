@@ -102,8 +102,8 @@
     },
     {
       "packname": "festive",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.8/festive.zip?raw\u003dtrue",
-      "hash": "b17cbf676d465fd0e4e3819b96795c36cd49ee5d",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/standard/R26.8.1/festive.zip?raw\u003dtrue",
+      "hash": "8049ccea85bc7195b3dee45cb04daded8949cb6d",
       "required": true,
       "hasPrompt": true,
       "message": "Legacy Edition Minigames requires a resource pack to function properly!",
