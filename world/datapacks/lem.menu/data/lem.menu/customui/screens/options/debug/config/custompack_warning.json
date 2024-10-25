@@ -10,13 +10,13 @@
       "leftClickAction": "back/"
     },
     "43": {
-      "presetID": "lem.menu:button/generic:standard",
+      "presetID": "lem.menu:button/standard/full:default",
       "leftClickSound": "lem.menu:sound.menu.back",
       "leftClickAction": "back/"
     },
     "44": {
       "presetID": "lem.menu:button/generic:text",
-      "customModelData": "lem.menu.ui.text.button.cancel",
+      "customModelData": "lem.menu.ui.text.button.full.cancel",
       "leftClickSound": "lem.menu:sound.menu.back",
       "leftClickAction": "back/"
     },
@@ -26,13 +26,13 @@
       "leftClickAction": "openUI/ lem.menu:options/debug/config/custompack_confirmation"
     },
     "52": {
-      "presetID": "lem.menu:button/generic:standard",
+      "presetID": "lem.menu:button/standard/full:default",
       "replaceOpenScreen": true,
       "leftClickAction": "openUI/ lem.menu:options/debug/config/custompack_confirmation"
     },
     "53": {
       "presetID": "lem.menu:button/generic:text",
-      "customModelData": "lem.menu.ui.text.button.ok",
+      "customModelData": "lem.menu.ui.text.button.full.ok",
       "replaceOpenScreen": true,
       "leftClickAction": "openUI/ lem.menu:options/debug/config/custompack_confirmation"
     },

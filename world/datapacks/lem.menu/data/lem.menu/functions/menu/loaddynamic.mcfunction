@@ -10,6 +10,10 @@ scoreboard players set @s lem.menu.ui.dynamic.debug.ui_test.slider 1
 scoreboard players set @s[tag=!custompack] lem.menu.ui.dynamic.debug.config.custompack 1
 scoreboard players set @s[tag=custompack] lem.menu.ui.dynamic.debug.config.custompack 2
 
+##Setup
+#Rules
+execute unless score @s lem.menu.ui.dynamic.setup.rules.agree matches 1..2 run scoreboard players set @s lem.menu.ui.dynamic.setup.rules.agree 1
+
 ##Panorama config options
 #Always Night
 userconfig @s test lem.base:panorama_night EQUAL false runCommand scoreboard players set @s lem.menu.ui.dynamic.panorama.config.night 1

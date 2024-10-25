@@ -1,6 +1,6 @@
 {
    "pack": {
-      "pack_format": 15,
+      "pack_format": 26,
       "description": "Stripped down version of the Base for Legacy Edition Minigames"
    },
    "filter": {

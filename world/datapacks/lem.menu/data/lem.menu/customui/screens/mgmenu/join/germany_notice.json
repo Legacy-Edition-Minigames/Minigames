@@ -9,12 +9,12 @@
       "leftClickAction": "back/"
     },
     "52": {
-      "presetID": "lem.menu:button/generic:standard",
+      "presetID": "lem.menu:button/standard/full:default",
       "leftClickAction": "back/"
     },
     "53": {
       "presetID": "lem.menu:button/generic:text",
-      "customModelData": "lem.menu.ui.text.button.ok",
+      "customModelData": "lem.menu.ui.text.button.full.ok",
       "leftClickAction": "back/"
     },
     "72": {

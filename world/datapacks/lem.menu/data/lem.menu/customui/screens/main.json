@@ -7,12 +7,12 @@
         "leftClickAction": "openUI/ lem.menu:mgmenu/join"
       },
       "7": {
-        "presetID": "lem.menu:button/generic:standard",
+        "presetID": "lem.menu:button/standard/full:default",
         "leftClickAction": "openUI/ lem.menu:mgmenu/join"
       },
       "8": {
         "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.button.play_mini_games",
+        "customModelData": "lem.menu.ui.text.button.full.play_mini_games",
         "leftClickAction": "openUI/ lem.menu:mgmenu/join"
       },
       "9-15": {
@@ -20,12 +20,12 @@
         "leftClickAction": "openUI/ lem.menu:options/main"
       },
       "16": {
-        "presetID": "lem.menu:button/generic:standard",
+        "presetID": "lem.menu:button/standard/full:default",
         "leftClickAction": "openUI/ lem.menu:options/main"
       },
       "17": {
         "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.button.help_and_options",
+        "customModelData": "lem.menu.ui.text.button.full.help_and_options",
         "leftClickAction": "openUI/ lem.menu:options/main"
       },
       "18-24": {
@@ -33,12 +33,12 @@
         "leftClickAction": "openUI/ lem.menu:exit_server"
       },
       "25": {
-        "presetID": "lem.menu:button/generic:standard",
+        "presetID": "lem.menu:button/standard/full:default",
         "leftClickAction": "openUI/ lem.menu:exit_server"
       },
       "26": {
         "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.button.exit_server",
+        "customModelData": "lem.menu.ui.text.button.full.exit_server",
         "leftClickAction": "openUI/ lem.menu:exit_server"
       }
   }
