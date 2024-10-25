@@ -24,7 +24,7 @@ data merge block -376 63 -382 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_dis
 data merge block -350 63 -404 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_disc_strad",tag:{CanPlaceOn:["minecraft:jukebox"],HideFlags:16}}]}
 data merge block -349 70 -404 {Items:[{Count:6b,Slot:4b,id:"minecraft:creeper_head"}],Lock:"lock"}
 data merge block -329 63 -393 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_disc_ward",tag:{CanPlaceOn:["minecraft:jukebox"],HideFlags:16}}]}
-data merge block -326 79 -384 {Items:[{Count:1b,Slot:4b,id:"minecraft:music_disc_far",tag:{CanPlaceOn:["minecraft:jukebox"],HideFlags:16}}]}
+data merge block -327 79 -384 {Items:[{Count:1b,Slot:4b,id:"minecraft:music_disc_far",tag:{CanPlaceOn:["minecraft:jukebox"],HideFlags:16}}]}
 data merge block -354 79 -398 {Items:[{Count:1b,Slot:13b,id:"minecraft:music_disc_13",tag:{CanPlaceOn:["minecraft:jukebox"],HideFlags:16}}]}
 data merge block -374 77 -380 {Items:[{Count:6b,Slot:4b,id:"minecraft:wither_skeleton_skull"}]}
 data merge block -368 87 -369 {Items:[{Count:6b,Slot:4b,id:"minecraft:player_head"}]}
