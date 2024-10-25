@@ -1,5 +1,5 @@
 {
-  "title": "[\"\",{\"text\":\"\uF808\uF8033\",\"color\":\"white\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"text\":\"\uF80C\uF80A\uF809\uF808\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"translate\":\"lem.menu.ui.notice.rules.chat.fascism\",\"color\":\"#424242\",\"font\":\"lem.menu:menu/text/en_us/notice/rules/chat/fascism\"}]",
+  "title": "[\"\",{\"text\":\"\uF808\uF8033\",\"color\":\"white\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"text\":\"\uF80C\uF80A\uF809\uF808\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"translate\":\"lem.menu.ui.notice.rules.chat.fascism\",\"color\":\"#2D2D2D\",\"font\":\"lem.menu:menu/text/en_us/notice/rules/chat/fascism\"}]",
   "escToClose": true,
   "escSound": "lem.menu:sound.menu.back",
   "forceHotBarSlot": "1",
