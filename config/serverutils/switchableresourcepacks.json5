@@ -12,8 +12,8 @@
     },
     {
       "packname": "menu",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/menu/M1.8.2/halloween.zip?raw\u003dtrue",
-      "hash": "0ea72bc1548e4cd78491cde4f1948063992a9f18",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/menu/M1.8.4/halloween.zip?raw\u003dtrue",
+      "hash": "7a6c0f194238dc450e237ad1a0130b30a466cbde",
       "required": true,
       "hasPrompt": true,
       "message": "Legacy Edition Minigames requires a resource pack to function properly!",
@@ -30,8 +30,8 @@
     },
     {
       "packname": "all-music",
-      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/menu/M1.8.2/halloween.zip?raw\u003dtrue",
-      "hash": "0ea72bc1548e4cd78491cde4f1948063992a9f18",
+      "url": "https://github.com/Legacy-Edition-Minigames/Minigame-Resources/blob/zip/zip/menu/M1.8.4/halloween.zip?raw\u003dtrue",
+      "hash": "7a6c0f194238dc450e237ad1a0130b30a466cbde",
       "required": true,
       "hasPrompt": true,
       "message": "Legacy Edition Minigames requires a resource pack to function properly!",
