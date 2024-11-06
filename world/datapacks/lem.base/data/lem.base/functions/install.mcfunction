@@ -395,6 +395,11 @@ time set noon
 ##Set admin settings variables
 execute unless score #Store lem.recon matches 0.. run scoreboard players set #Store lem.recon 0
 
+##Lore
+scoreboard objectives add lem.spook.id dummy
+scoreboard objectives add lem.spook.life dummy
+scoreboard objectives add lem.spook.danger dummy
+
 ##Disable worldborder warning
 worldborder warning distance 0
 
