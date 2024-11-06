@@ -4,6 +4,9 @@ tellraw @s {"text":"- Lore -","color":"blue"}
 ##Puppet Master
 tellraw @s {"text":"[Puppet Master]","color":"blue","clickEvent":{"action":"run_command","value":"/function lem.base:menu/load/host/admin/lore/puppet"},"hoverEvent":{"action":"show_text","contents":[{"text":"Summon the Puppet Master.","color":"dark_aqua"}]}}
 
+##The Great Spook
+tellraw @s {"text":"[The Great Spook]","color":"blue","clickEvent":{"action":"run_command","value":"/function lem.base:menu/load/host/admin/lore/spook/prep"},"hoverEvent":{"action":"show_text","contents":[{"text":"Summon the The Great Spook.","color":"dark_aqua"}]}}
+
 ##Run functions for addons
 function #lem.base:menu/load/host/admin/open/lore
 
