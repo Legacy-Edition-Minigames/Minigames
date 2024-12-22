@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:ghast_spawn_egg",
+        "nbt": "{CustomModelData:31}"
+      },
+      "title": {
+        "translate": "lem.battle.advancement.root.name"
+      },
+      "description": "",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false
+    },
+    "parent": "lem.base:root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }
+  
