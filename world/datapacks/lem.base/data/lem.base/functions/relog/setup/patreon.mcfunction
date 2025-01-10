@@ -243,12 +243,12 @@ execute as ab779c6a-1e50-481b-a931-8f1b098ec3b2 run scoreboard players set @s le
 execute as 486245b2-332e-49a4-9533-76dc91e25956 run scoreboard players set @s lem.patreon 4
 #Flamer777
 execute as 52325c3b-ede7-4940-adde-a4b05f45c324 run scoreboard players set @s lem.patreon 1
-#Flliberish
-#Squido717
-#NeoToad
-#chunguess
-#Rhythme
-#Exquisitezazaa
+#Caffeine2001
+execute as f76e207f-182a-48a5-b0d6-f434ad02f61f run scoreboard players set @s lem.patreon 2
+#Jacebox
+execute as 674bc05c-8daa-4899-9f5e-a8f719822bc0 run scoreboard players set @s lem.patreon 2
+#_KONA_DIO_DA_
+execute as cbc6d377-b26d-4faf-b8ea-98617c30df1c run scoreboard players set @s lem.patreon 5
 
 ##Reset heart if no longer subscribed
 #Tiny
