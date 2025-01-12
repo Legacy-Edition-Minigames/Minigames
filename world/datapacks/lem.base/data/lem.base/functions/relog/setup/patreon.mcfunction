@@ -249,6 +249,10 @@ execute as f76e207f-182a-48a5-b0d6-f434ad02f61f run scoreboard players set @s le
 execute as 674bc05c-8daa-4899-9f5e-a8f719822bc0 run scoreboard players set @s lem.patreon 2
 #_KONA_DIO_DA_
 execute as cbc6d377-b26d-4faf-b8ea-98617c30df1c run scoreboard players set @s lem.patreon 5
+#pasagroup53
+execute as 06ff419d-00b1-4f74-b7ef-f4b43a47367a run scoreboard players set @s lem.patreon 2
+#FrxZqnBoss
+execute as 8fa10b8a-6320-49c3-af09-77fe1204e89c run scoreboard players set @s lem.patreon 5
 
 ##Reset heart if no longer subscribed
 #Tiny
