@@ -1,0 +1,14 @@
+{
+  "centerInit": "lem.battle:chest/normal/center_init/load",
+  "standardInit": "lem.battle:chest/normal/standard/load",
+  "powerfulInit": "lem.battle:chest/normal/powerful/load",
+  "centerRefill": "lem.battle:chest/normal/center_refill/load",
+  "standardRefill": "lem.battle:chest/normal/standard/load",
+  "powerfulRefill": "lem.battle:chest/normal/powerful/load",
+  "addon_id": "4jstudios:normal",
+  "name_key": "lem.battle.game.start.displaysettings.itemset.normal",
+  "description_key": "lem.battle.game.start.displaysettings.itemset.normal.desc",
+  "authors": "4jstudios",
+  "version": "1.0",
+  "addon_type": "battle_loot"
+}

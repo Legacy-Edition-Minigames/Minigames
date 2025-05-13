@@ -1,0 +1,220 @@
+{
+  "message": "Legacy Edition Minigames requires a resource pack to function properly!",
+  "packs": [
+    {
+      "packID": "lem.base:blank",
+      "url": "https://github.com/kyrptonaught/Minigame-Resources/blob/zip/zip/blank/1.20.4.zip?raw\u003dtrue",
+      "hash": "7474a3bc3e6c17fac1adff8fd205a6883fdc9c4b",
+      "name_key": "lem.resource.blank.name",
+      "description_key": "lem.resource.blank.desc"
+    },
+    {
+      "packID": "lem.base:menu",
+      "url": "https://github.com/kyrptonaught/Minigame-Resources/blob/zip/zip/menu/M1.2/vanilla.zip?raw\u003dtrue",
+      "hash": "16af528bcceb42238ea01918b45db8ac360f306d",
+      "name_key": "lem.resource.menu.name",
+      "description_key": "lem.resource.menu.desc"
+    },
+    {
+      "packID": "lem.base:vanilla",
+      "url": "https://github.com/kyrptonaught/Minigame-Resources/releases/latest/download/vanilla.zip",
+      "hash": "880504dae5a9090df1ad1797d198aec17258dac2",
+      "name_key": "lem.resource.vanilla.name",
+      "description_key": "lem.resource.vanilla.desc"
+    },
+    {
+      "packID": "lem.base:all-music",
+      "url": "https://github.com/kyrptonaught/Minigame-Resources/blob/zip/zip/standard/R26.8/all-music-1.zip?raw\u003dtrue",
+      "hash": "615b839f81169ed16715bc2e9d4465e1cba97a39",
+      "name_key": "lem.resource.all-music.name",
+      "description_key": "lem.resource.all-music.desc"
+    },
+    {
+      "packID": "lem.base:plastic",
+      "url": "https://github.com/kyrptonaught/Minigame-Resources/releases/latest/download/plastic.zip",
+      "hash": "d8f219d88deed02912f56114aeb92109b69428d8",
+      "name_key": "lem.resource.plastic.name",
+      "description_key": "lem.resource.plastic.desc"
+    },
+    {
+      "packID": "lem.base:fantasy",
+      "url": "https://github.com/kyrptonaught/Minigame-Resources/releases/latest/download/fantasy.zip",
+      "hash": "b7bdd99ef2b98ec8644687ab82c253889876ee0b",
+      "name_key": "lem.resource.fantasy.name",
+      "description_key": "lem.resource.fantasy.desc"
+    },
+    {
+      "packID": "lem.base:city",
+      "url": "https://github.com/kyrptonaught/Minigame-Resources/releases/latest/download/city.zip",
+      "hash": "de6d5fed6ebd1c6bae2d7afd160c9ced00eb7ab3",
+      "name_key": "lem.resource.city.name",
+      "description_key": "lem.resource.city.desc"
+    },
+    {
+      "packID": "lem.base:greek",
+      "url": "https://github.com/kyrptonaught/Minigame-Resources/releases/latest/download/greek-mythology.zip",
+      "hash": "957e2bcb44158587be9e9650b9ebfced71d7e3b5",
+      "name_key": "lem.resource.greek.name",
+      "description_key": "lem.resource.greek.desc"
+    },
+    {
+      "packID": "lem.base:steampunk",
+      "url": "https://github.com/kyrptonaught/Minigame-Resources/releases/latest/download/steampunk.zip",
+      "hash": "500c94e4639cf1429a316d647caee127ad84e6dd",
+      "name_key": "lem.resource.steampunk.name",
+      "description_key": "lem.resource.steampunk.desc"
+    },
+    {
+      "packID": "lem.base:chinese",
+      "url": "https://github.com/kyrptonaught/Minigame-Resources/releases/latest/download/chinese-mythology.zip",
+      "hash": "9f602af078f067295025f396da6ba9ac28281e5d",
+      "name_key": "lem.resource.chinese.name",
+      "description_key": "lem.resource.chinese.desc"
+    },
+    {
+      "packID": "lem.base:halloween",
+      "url": "https://github.com/kyrptonaught/Minigame-Resources/releases/latest/download/halloween.zip",
+      "hash": "59c48f05ed5ec09209f94ac2b5ce9af150ee40bb",
+      "name_key": "lem.resource.halloween.name",
+      "description_key": "lem.resource.halloween.desc"
+    },
+    {
+      "packID": "lem.base:festive",
+      "url": "https://github.com/kyrptonaught/Minigame-Resources/releases/latest/download/festive.zip",
+      "hash": "17f60e06caf1d0e8f995c0e44a259fec777cea8b",
+      "name_key": "lem.resource.festive.name",
+      "description_key": "lem.resource.festive.desc"
+    },
+    {
+      "packID": "lem.base:fallout",
+      "url": "https://github.com/kyrptonaught/Minigame-Resources/releases/latest/download/fallout.zip",
+      "hash": "5e31440c0b5c5c73ddd22da94aa2da75c576ff2b",
+      "name_key": "lem.resource.fallout.name",
+      "description_key": "lem.resource.fallout.desc"
+    },
+    {
+      "packID": "lem.base:natural",
+      "url": "https://github.com/kyrptonaught/Minigame-Resources/releases/latest/download/natural.zip",
+      "hash": "1674eabce14bf5b42e9a99dd902977fc7ef64f2d",
+      "name_key": "lem.resource.natural.name",
+      "description_key": "lem.resource.natural.desc"
+    },
+    {
+      "packID": "lem.base:cartoon",
+      "url": "https://github.com/kyrptonaught/Minigame-Resources/releases/latest/download/cartoon.zip",
+      "hash": "8898e0a5b353f24dd65454f8bab32f619e28e1dc",
+      "name_key": "lem.resource.cartoon.name",
+      "description_key": "lem.resource.cartoon.desc"
+    }
+  ],
+  "musicPacks": [
+    {
+      "packID": "lem.battle:fallout",
+      "play_order": "CHRONOLOGICAL",
+      "songs": {
+        "lem.battle:music.fallout.1": 183,
+        "lem.battle:music.fallout.2": 179,
+        "lem.battle:music.fallout.3": 193,
+        "lem.battle:music.fallout.4": 188,
+        "lem.battle:music.fallout.5": 208,
+        "lem.battle:music.fallout.6": 126,
+        "lem.battle:music.fallout.7": 103
+      }
+    },
+    {
+      "packID": "lem.battle:fantasy",
+      "play_order": "CHRONOLOGICAL",
+      "songs": {
+        "lem.battle:music.fantasy.1": 130,
+        "lem.battle:music.fantasy.2": 214,
+        "lem.battle:music.fantasy.3": 222
+      }
+    },
+    {
+      "packID": "lem.battle:festive",
+      "play_order": "CHRONOLOGICAL",
+      "songs": {
+        "lem.battle:music.festive.1": 138,
+        "lem.battle:music.festive.2": 156,
+        "lem.battle:music.festive.3": 165
+      }
+    },
+    {
+      "packID": "lem.battle:western",
+      "play_order": "CHRONOLOGICAL",
+      "songs": {
+        "lem.battle:music.western.1": 140,
+        "lem.battle:music.western.2": 148,
+        "lem.battle:music.western.3": 172
+      }
+    },
+    {
+      "packID": "lem.battle:chinese",
+      "play_order": "CHRONOLOGICAL",
+      "songs": {
+        "lem.battle:music.chinese.1": 199,
+        "lem.battle:music.chinese.2": 145,
+        "lem.battle:music.chinese.3": 206,
+        "lem.battle:music.chinese.4": 211
+      }
+    },
+    {
+      "packID": "lem.battle:steampunk",
+      "play_order": "CHRONOLOGICAL",
+      "songs": {
+        "lem.battle:music.steampunk.1": 170,
+        "lem.battle:music.steampunk.2": 179,
+        "lem.battle:music.steampunk.3": 223,
+        "lem.battle:music.steampunk.4": 190
+      }
+    },
+    {
+      "packID": "lem.battle:vanilla",
+      "play_order": "CHRONOLOGICAL",
+      "songs": {
+        "lem.battle:music.vanilla.1": 491,
+        "lem.battle:music.vanilla.2": 489,
+        "lem.battle:music.vanilla.3": 508,
+        "lem.battle:music.vanilla.4": 528
+      }
+    },
+    {
+      "packID": "lem.battle:halloween",
+      "play_order": "CHRONOLOGICAL",
+      "songs": {
+        "lem.battle:music.halloween.1": 151,
+        "lem.battle:music.halloween.2": 166,
+        "lem.battle:music.halloween.3": 164
+      }
+    },
+    {
+      "packID": "lem.battle:greek",
+      "play_order": "CHRONOLOGICAL",
+      "songs": {
+        "lem.battle:music.greek.1": 155,
+        "lem.battle:music.greek.2": 215,
+        "lem.battle:music.greek.3": 216
+      }
+    },
+    {
+      "packID": "lem.battle:city",
+      "play_order": "CHRONOLOGICAL",
+      "songs": {
+        "lem.battle:music.city.1": 179,
+        "lem.battle:music.city.2": 196,
+        "lem.battle:music.city.3": 194,
+        "lem.battle:music.city.4": 228,
+        "lem.battle:music.city.5": 183
+      }
+    },
+    {
+      "packID": "lem.battle:plastic",
+      "play_order": "CHRONOLOGICAL",
+      "songs": {
+        "lem.battle:music.plastic.1": 135,
+        "lem.battle:music.plastic.2": 155,
+        "lem.battle:music.plastic.3": 150
+      }
+    }
+  ]
+}
