@@ -18,7 +18,7 @@
     {
       "packID": "lem.base:vanilla",
       "url": "https://github.com/kyrptonaught/Minigame-Resources/releases/latest/download/vanilla.zip",
-      "hash": "880504dae5a9090df1ad1797d198aec17258dac2",
+      "hash": "a93a54e8fff3701b9c1441668717fdf7c9590a5f",
       "name_key": "lem.resource.vanilla.name",
       "description_key": "lem.resource.vanilla.desc"
     },
@@ -32,77 +32,77 @@
     {
       "packID": "lem.base:plastic",
       "url": "https://github.com/kyrptonaught/Minigame-Resources/releases/latest/download/plastic.zip",
-      "hash": "d8f219d88deed02912f56114aeb92109b69428d8",
+      "hash": "baad452d2927d786189324ac19c5d2d601fa215b",
       "name_key": "lem.resource.plastic.name",
       "description_key": "lem.resource.plastic.desc"
     },
     {
       "packID": "lem.base:fantasy",
       "url": "https://github.com/kyrptonaught/Minigame-Resources/releases/latest/download/fantasy.zip",
-      "hash": "b7bdd99ef2b98ec8644687ab82c253889876ee0b",
+      "hash": "6772ea3d19b8140340fd3d5d54fa4a11dad49476",
       "name_key": "lem.resource.fantasy.name",
       "description_key": "lem.resource.fantasy.desc"
     },
     {
       "packID": "lem.base:city",
       "url": "https://github.com/kyrptonaught/Minigame-Resources/releases/latest/download/city.zip",
-      "hash": "de6d5fed6ebd1c6bae2d7afd160c9ced00eb7ab3",
+      "hash": "e6144c6a3ec0ab2e96de012e029ed62a7679c74d",
       "name_key": "lem.resource.city.name",
       "description_key": "lem.resource.city.desc"
     },
     {
       "packID": "lem.base:greek",
       "url": "https://github.com/kyrptonaught/Minigame-Resources/releases/latest/download/greek-mythology.zip",
-      "hash": "957e2bcb44158587be9e9650b9ebfced71d7e3b5",
+      "hash": "b1c07031fb4676c39aaf261367a87be7482cdc19",
       "name_key": "lem.resource.greek.name",
       "description_key": "lem.resource.greek.desc"
     },
     {
       "packID": "lem.base:steampunk",
       "url": "https://github.com/kyrptonaught/Minigame-Resources/releases/latest/download/steampunk.zip",
-      "hash": "500c94e4639cf1429a316d647caee127ad84e6dd",
+      "hash": "9bd6660f6a9921c9852fd901865fc9574dab3091",
       "name_key": "lem.resource.steampunk.name",
       "description_key": "lem.resource.steampunk.desc"
     },
     {
       "packID": "lem.base:chinese",
       "url": "https://github.com/kyrptonaught/Minigame-Resources/releases/latest/download/chinese-mythology.zip",
-      "hash": "9f602af078f067295025f396da6ba9ac28281e5d",
+      "hash": "16cd710c06cca7c95f367ef7e3dd006ed66c0281",
       "name_key": "lem.resource.chinese.name",
       "description_key": "lem.resource.chinese.desc"
     },
     {
       "packID": "lem.base:halloween",
       "url": "https://github.com/kyrptonaught/Minigame-Resources/releases/latest/download/halloween.zip",
-      "hash": "59c48f05ed5ec09209f94ac2b5ce9af150ee40bb",
+      "hash": "14c66fb0d68950e05ce45d27439a99d64679889e",
       "name_key": "lem.resource.halloween.name",
       "description_key": "lem.resource.halloween.desc"
     },
     {
       "packID": "lem.base:festive",
       "url": "https://github.com/kyrptonaught/Minigame-Resources/releases/latest/download/festive.zip",
-      "hash": "17f60e06caf1d0e8f995c0e44a259fec777cea8b",
+      "hash": "e0db36b80e2067096580d8691c756552fd85073e",
       "name_key": "lem.resource.festive.name",
       "description_key": "lem.resource.festive.desc"
     },
     {
       "packID": "lem.base:fallout",
       "url": "https://github.com/kyrptonaught/Minigame-Resources/releases/latest/download/fallout.zip",
-      "hash": "5e31440c0b5c5c73ddd22da94aa2da75c576ff2b",
+      "hash": "3e08c99efa38ef256aff9d656a757dabe11bab3f",
       "name_key": "lem.resource.fallout.name",
       "description_key": "lem.resource.fallout.desc"
     },
     {
       "packID": "lem.base:natural",
       "url": "https://github.com/kyrptonaught/Minigame-Resources/releases/latest/download/natural.zip",
-      "hash": "1674eabce14bf5b42e9a99dd902977fc7ef64f2d",
+      "hash": "86836dc7f531720c2b0a83605fba4d2bb6097d0d",
       "name_key": "lem.resource.natural.name",
       "description_key": "lem.resource.natural.desc"
     },
     {
       "packID": "lem.base:cartoon",
       "url": "https://github.com/kyrptonaught/Minigame-Resources/releases/latest/download/cartoon.zip",
-      "hash": "8898e0a5b353f24dd65454f8bab32f619e28e1dc",
+      "hash": "630a4ce8671f32cca760f3c3672d45fde681fc92",
       "name_key": "lem.resource.cartoon.name",
       "description_key": "lem.resource.cartoon.desc"
     }
