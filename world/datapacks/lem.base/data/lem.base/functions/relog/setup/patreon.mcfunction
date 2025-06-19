@@ -345,6 +345,8 @@ execute as d2b2e93e-6f23-4dde-985f-1fca296b7bec run scoreboard players set @s le
 execute as 29f378ed-2bd0-44f9-807f-a7556f53781f run scoreboard players set @s lem.patreon 1
 #romzuko
 execute as 5353d200-6667-4434-a049-974bc7257016 run scoreboard players set @s lem.patreon 1
+#TotalyuselessMC
+execute as 2308560a-74e5-428b-81c3-3bbbc3a33ec5 run scoreboard players set @s lem.patreon 3
 
 ##Reset heart if no longer subscribed
 #Tiny
