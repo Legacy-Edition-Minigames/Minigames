@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Legacy Edition Battle",
+  "external_title": "LEM Options",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "lem.mapdecider.menu.credit"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "The LEM Team",
+        "italic": true,
+        "underlined": true,
+        "click_event": {
+          "action": "open_url",
+          "url": "https://www.legacyminigames.net/credits"
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "lem.mapdecider.menu.supportplease"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Patreon",
+        "italic": true,
+        "underlined": true,
+        "click_event": {
+          "action": "open_url",
+          "url": "https://www.legacyminigames.net/patreon"
+        }
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "none",
+  "exit_action": {
+    "label": {
+      "translate": "mco.selectServer.close"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": {
+        "translate": "lem.mapdecider.menu.mapvoting"
+      },
+      "action": {
+        "type": "custom",
+        "id": "heirloom:just_open",
+        "payload" : "map_vote_list"
+      }
+    },
+    {
+      "label": {
+        "translate": "lem.generic.options"
+      },
+      "action": {
+        "type": "custom",
+        "id": "heirloom:just_open",
+        "payload" : "options_list"
+      }
+    }
+  ]
+}
