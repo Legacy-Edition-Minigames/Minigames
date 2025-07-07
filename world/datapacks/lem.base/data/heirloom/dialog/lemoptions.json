@@ -6,6 +6,15 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
+        "text": "\uF82B\uF82B\uF82B1\uF8012\uF8013\uF8014\uF82B\uF82B\uF82B\uF82B\uF82B\uF82B\uF82B\uF82B\uF82B\uF82B",
+        "color": "#fafafa",
+        "font": "title"
+      },
+      "width": 230
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
         "translate": "lem.mapdecider.menu.credit"
       }
     },
@@ -46,6 +55,10 @@
   "exit_action": {
     "label": {
       "translate": "mco.selectServer.close"
+    },
+    "action": {
+      "type": "custom",
+      "id": "heirloom:just_close"
     }
   },
   "columns": 1,
@@ -57,7 +70,7 @@
       "action": {
         "type": "custom",
         "id": "heirloom:just_open",
-        "payload" : "map_vote_list"
+        "payload": "map_vote_list"
       }
     },
     {
@@ -67,7 +80,7 @@
       "action": {
         "type": "custom",
         "id": "heirloom:just_open",
-        "payload" : "options_list"
+        "payload": "options_list"
       }
     }
   ]
