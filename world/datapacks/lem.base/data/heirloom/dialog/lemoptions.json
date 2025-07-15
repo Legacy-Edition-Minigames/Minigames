@@ -6,7 +6,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "\uF82B\uF82B\uF82B1\uF8012\uF8013\uF8014\uF82B\uF82B\uF82B\uF82B\uF82B\uF82B\uF82B\uF82B\uF82B\uF82B",
+        "text": "1\uF8012\uF8013\uF8014\n\n\n",
         "color": "#fafafa",
         "font": "title"
       },
