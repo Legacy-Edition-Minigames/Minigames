@@ -347,6 +347,26 @@ execute as 29f378ed-2bd0-44f9-807f-a7556f53781f run scoreboard players set @s le
 execute as 5353d200-6667-4434-a049-974bc7257016 run scoreboard players set @s lem.patreon 1
 #TotalyuselessMC
 execute as 2308560a-74e5-428b-81c3-3bbbc3a33ec5 run scoreboard players set @s lem.patreon 3
+#glasscrazy011
+execute as 8d5d83bd-a982-46af-a0c5-38671995813c run scoreboard players set @s lem.patreon 1
+#cydd0918
+execute as 30bbd975-1e18-4026-86a3-2815bd70af4e run scoreboard players set @s lem.patreon 1
+#notcoolmpg
+execute as db526b4d-98f2-4914-8ee4-495d23223d27 run scoreboard players set @s lem.patreon 1
+#Atirta
+execute as 48685f92-4682-4b9a-9d26-5868a2fa8e05 run scoreboard players set @s lem.patreon 4
+#ZThatFan
+execute as fc0e519f-dc08-4cdf-8316-2eba8f8eab4a run scoreboard players set @s lem.patreon 1
+#murioz
+execute as f5e40a2c-382a-4a40-9013-0a3cbb30da1d run scoreboard players set @s lem.patreon 1
+#Intergrudgee
+execute as 2aba7ad6-e27d-4452-960e-222e9a13e19e run scoreboard players set @s lem.patreon 1
+#Osogalaxy
+execute as 9846b5b8-54d5-41e5-beda-6c9fc29014d9 run scoreboard players set @s lem.patreon 1
+#angy94131
+execute as 070f7ef4-f8bd-44eb-86fc-a79da7bcc7fc run scoreboard players set @s lem.patreon 1
+#Museum42
+execute as f6156be2-89bd-4b8f-ab11-29c3956ce3be run scoreboard players set @s lem.patreon 2
 
 ##Reset heart if no longer subscribed
 #Tiny
