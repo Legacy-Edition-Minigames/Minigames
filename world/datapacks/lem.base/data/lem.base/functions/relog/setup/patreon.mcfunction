@@ -104,7 +104,7 @@ execute as 47669d38-2792-4b1d-92c4-9b6e0efeca0e run scoreboard players set @s le
 #gamerTM1234
 execute as e2f84393-50d7-410b-98d4-0942a8621b11 run scoreboard players set @s lem.patreon 3
 #IKnowJim
-execute as 47917a66-a908-4383-94a3-e13bf6e77754 run scoreboard players set @s lem.patreon 1
+execute as 47917a66-a908-4383-94a3-e13bf6e77754 run scoreboard players set @s lem.patreon 2
 #WybieJr
 execute as 25cb8998-9f76-461d-a4cd-2aab2e5ebccd run scoreboard players set @s lem.patreon 2
 #ProfessChickonYT
