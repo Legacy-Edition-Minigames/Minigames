@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ghast_spawn_egg",
+      "components": {
+        "minecraft:item_model": "lem.battle:advancement/root"
+      }
+    },
+    "title": {
+      "translate": "lem.advancement.root.name"
+    },
+    "description": "",
+    "background": "minecraft:block/quartz_block_bottom",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ghast_spawn_egg",
+      "components": {
+        "minecraft:item_model": "lem.battle:advancement/student"
+      }
+    },
+    "title": {
+      "translate": "lem.battle.advancement.student.name"
+    },
+    "description": {
+      "translate": "lem.battle.advancement.student.desc"
+    },
+    "frame": "goal"
+  },
+  "parent": "lem.battle:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
