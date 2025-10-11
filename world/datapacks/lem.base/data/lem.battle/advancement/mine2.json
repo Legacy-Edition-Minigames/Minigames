@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chest"
+    },
+    "title": {
+      "translate": "lem.battle.advancement.mine2.name"
+    },
+    "description": {
+      "translate": "lem.battle.advancement.mine2.desc"
+    },
+    "frame": "task"
+  },
+  "parent": "lem.battle:mine",
+  "criteria": {
+    "mine1": {
+      "trigger": "minecraft:impossible"
+    },
+    "mine2": {
+      "trigger": "minecraft:impossible"
+    },
+    "mine3": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

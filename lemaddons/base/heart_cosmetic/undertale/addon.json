@@ -1,0 +1,14 @@
+{
+  "addon_type": "heart_cosmetic",
+
+  "addon_id": "heirloom:undertale/monster_mc",
+  "name_key": "heirloom.cosmetics.heart.undertale.monster.mc",
+  "authors": "LEM",
+  "version": "1.0",
+
+  "addon_pack": "undertale",
+  "addon_pack_key": "heirloom.cosmetics.heart.pack.undertale",
+
+  "alive_sprite": "heirloom:heart/undertale/soul_m",
+  "dead_sprite": "heirloom:heart/undertale/dead_flipped"
+}

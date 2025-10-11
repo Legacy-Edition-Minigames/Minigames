@@ -17,7 +17,7 @@
     "parent": "lem.base:root",
     "criteria": {
       "requirement": {
-        "trigger": "minecraft:tick"
+        "trigger": "minecraft:impossible"
       }
     }
   }

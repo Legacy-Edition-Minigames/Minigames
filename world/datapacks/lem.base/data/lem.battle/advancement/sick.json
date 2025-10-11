@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pufferfish"
+    },
+    "title": {
+      "translate": "lem.battle.advancement.sick.name"
+    },
+    "description": {
+      "translate": "lem.battle.advancement.sick.desc"
+    },
+    "frame": "task"
+  },
+  "parent": "lem.battle:root",
+  "criteria": {
+    "kill_with_nausea": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player"
+        },
+        "player": {
+          "effects": {
+            "minecraft:nausea": {}
+          }
+        }
+      }
+    }
+  }
+}

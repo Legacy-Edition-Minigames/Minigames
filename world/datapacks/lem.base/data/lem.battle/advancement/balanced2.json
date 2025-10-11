@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beacon"
+    },
+    "title": {
+      "translate": "lem.battle.advancement.balanced2.name"
+    },
+    "description": {
+      "translate": "lem.battle.advancement.balanced2.desc"
+    },
+    "frame": "task"
+  },
+  "parent": "lem.battle:balanced",
+  "criteria": {
+    "all_effects": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:regeneration": {},
+          "minecraft:poison": {},
+          "minecraft:speed": {},
+          "minecraft:slowness": {},
+          "minecraft:weakness": {},
+          "minecraft:strength": {}
+        }
+      }
+    }
+  }
+}

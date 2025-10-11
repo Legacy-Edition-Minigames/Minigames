@@ -16,7 +16,13 @@
   },
   "parent": "lem.battle:student",
   "criteria": {
-    "requirement": {
+    "win1": {
+      "trigger": "minecraft:impossible"
+    },
+    "win2": {
+      "trigger": "minecraft:impossible"
+    },
+    "win3": {
       "trigger": "minecraft:impossible"
     }
   }

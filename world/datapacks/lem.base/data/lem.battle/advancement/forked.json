@@ -1,16 +1,13 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:ghast_spawn_egg",
-      "components": {
-        "minecraft:item_model": "lem.battle:advancement/cupid"
-      }
+      "id": "minecraft:trident"
     },
     "title": {
-      "translate": "lem.battle.advancement.cupid.name"
+      "translate": "lem.battle.advancement.forked.name"
     },
     "description": {
-      "translate": "lem.battle.advancement.cupid.desc"
+      "translate": "lem.battle.advancement.forked.desc"
     },
     "frame": "task"
   },
