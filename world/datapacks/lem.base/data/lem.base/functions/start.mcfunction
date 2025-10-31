@@ -1,14 +1,14 @@
 ##Install
 execute unless entity @a run function lem.base:install
 
+##Enable Halloween lobby
+scoreboard players set #Store lem.event.halloween 1
+
 ##Set relog score to 1 if there are no players online
 execute unless entity @a run scoreboard players set * lem.relog 1
 
 ##Mark server as experimental
 scoreboard players set #Store lem.experimentalserver 1
-
-##Enable festive event
-scoreboard players set #Store lem.event.festive 1
 
 ##Check for relog
 function lem.base:relog/check
