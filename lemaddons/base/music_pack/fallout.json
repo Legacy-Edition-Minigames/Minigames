@@ -5,6 +5,7 @@
   "name_key": "lem.resource.fallout.name",
   "description_key": "lem.resource.fallout.desc",
   "songs": {
+    "heirloom:delay": 10,
     "lem.battle:music.fallout.1": 183,
     "lem.battle:music.fallout.2": 179,
     "lem.battle:music.fallout.3": 193,

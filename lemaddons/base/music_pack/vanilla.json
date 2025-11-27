@@ -5,6 +5,7 @@
   "name_key": "lem.resource.vanilla.name",
   "description_key": "lem.resource.vanilla.desc",
   "songs": {
+    "heirloom:delay": 10,
     "lem.battle:music.vanilla.1": 491,
     "lem.battle:music.vanilla.2": 489,
     "lem.battle:music.vanilla.3": 508,

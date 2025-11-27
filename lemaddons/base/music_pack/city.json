@@ -5,6 +5,7 @@
   "name_key": "lem.resource.city.name",
   "description_key": "lem.resource.city.desc",
   "songs": {
+    "heirloom:delay": 10,
     "lem.battle:music.city.1": 179,
     "lem.battle:music.city.2": 196,
     "lem.battle:music.city.3": 194,

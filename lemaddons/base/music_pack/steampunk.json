@@ -5,6 +5,7 @@
   "name_key": "lem.resource.steampunk.name",
   "description_key": "lem.resource.steampunk.desc",
   "songs": {
+    "heirloom:delay": 10,
     "lem.battle:music.steampunk.1": 170,
     "lem.battle:music.steampunk.2": 179,
     "lem.battle:music.steampunk.3": 223,

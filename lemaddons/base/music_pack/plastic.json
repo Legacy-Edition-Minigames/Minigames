@@ -5,6 +5,7 @@
   "name_key": "lem.resource.plastic.name",
   "description_key": "lem.resource.plastic.desc",
   "songs": {
+    "heirloom:delay": 10,
     "lem.battle:music.plastic.1": 135,
     "lem.battle:music.plastic.2": 155,
     "lem.battle:music.plastic.3": 150

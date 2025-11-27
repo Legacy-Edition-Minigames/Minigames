@@ -5,6 +5,7 @@
   "name_key": "lem.resource.greek.name",
   "description_key": "lem.resource.greek.desc",
   "songs": {
+    "heirloom:delay": 10,
     "lem.battle:music.greek.1": 155,
     "lem.battle:music.greek.2": 215,
     "lem.battle:music.greek.3": 216

@@ -3,6 +3,7 @@
 
   "addon_id": "lem.battle:western",
   "songs": {
+    "heirloom:delay": 10,
     "lem.battle:music.western.1": 140,
     "lem.battle:music.western.2": 148,
     "lem.battle:music.western.3": 172
