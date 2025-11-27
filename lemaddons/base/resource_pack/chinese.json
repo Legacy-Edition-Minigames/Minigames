@@ -1,0 +1,9 @@
+{
+  "addon_type": "resource_pack",
+
+  "addon_id": "lem.base:chinese",
+  "name_key": "lem.resource.chinese.name",
+  "description_key": "lem.resource.chinese.desc",
+
+  "asset": "chinese-mythology.zip"
+}

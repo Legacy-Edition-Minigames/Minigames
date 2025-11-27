@@ -1,0 +1,9 @@
+{
+  "addon_type": "resource_pack",
+
+  "addon_id": "lem.base:city",
+  "name_key": "lem.resource.city.name",
+  "description_key": "lem.resource.city.desc",
+
+  "asset": "city.zip"
+}

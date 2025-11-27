@@ -1,0 +1,9 @@
+{
+  "addon_type": "resource_pack",
+
+  "addon_id": "lem.base:steampunk",
+  "name_key": "lem.resource.steampunk.name",
+  "description_key": "lem.resource.steampunk.desc",
+
+  "asset": "steampunk.zip"
+}

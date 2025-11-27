@@ -1,0 +1,9 @@
+{
+  "addon_type": "resource_pack",
+
+  "addon_id": "lem.base:festive",
+  "name_key": "lem.resource.festive.name",
+  "description_key": "lem.resource.festive.desc",
+
+  "asset": "festive.zip"
+}

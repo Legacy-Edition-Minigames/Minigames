@@ -1,0 +1,9 @@
+{
+  "addon_type": "resource_pack",
+
+  "addon_id": "lem.base:natural",
+  "name_key": "lem.resource.natural.name",
+  "description_key": "lem.resource.natural.desc",
+
+  "asset": "natural.zip"
+}

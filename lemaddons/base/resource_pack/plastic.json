@@ -1,0 +1,9 @@
+{
+  "addon_type": "resource_pack",
+
+  "addon_id": "lem.base:plastic",
+  "name_key": "lem.resource.plastic.name",
+  "description_key": "lem.resource.plastic.desc",
+
+  "asset": "plastic.zip"
+}

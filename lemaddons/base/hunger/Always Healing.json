@@ -1,0 +1,31 @@
+{
+  "addon_type": "hunger",
+
+  "addon_id": "4jstudios:alwayshealing",
+  "name_key": "lem.battle.menu.host.config.hunger.option.alwayshealing",
+  "description_key": "lem.battle.menu.host.config.hunger.option.alwayshealing.desc",
+  "authors": "4jstudios",
+  "version": "1.0",
+
+  "FoodMax" : 20,
+  "SaturationMax" : 4.0,
+  "SaturationStart" : 4.0,
+  "SaturationMin" : 0.0,
+  "ExhaustionDrop" : 4.0,
+  "FoodHealTickCount" : 100,
+  "SaturationHealTickCount" : 40,
+  "HealLevel" : 0,
+  "StarveLevel" : -1,
+  "SprintLevel" : 6,
+  "ExhaustionHeal" : 4.0,
+  "ExhaustionJump" : 0.2,
+  "ExhaustionSprintJump" : 0.8,
+  "ExhaustionMine" : 0.025,
+  "ExhaustionAttack" : 0.3,
+  "ExhaustionDamage" : 0.1,
+  "ExhaustionSneak" : 0.04,
+  "ExhaustionWalk" : 0.04,
+  "ExhaustionSprint" : 0.085,
+  "ExhaustionSwim" : 0.03,
+  "ExhaustionIdle" : 0.004
+}

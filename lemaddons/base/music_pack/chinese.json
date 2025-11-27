@@ -1,0 +1,13 @@
+{
+  "addon_type": "music_pack",
+
+  "addon_id": "lem.battle:chinese",
+  "name_key": "lem.resource.chinese.name",
+  "description_key": "lem.resource.chinese.desc",
+  "songs": {
+    "lem.battle:music.chinese.1": 199,
+    "lem.battle:music.chinese.2": 145,
+    "lem.battle:music.chinese.3": 206,
+    "lem.battle:music.chinese.4": 211
+  }
+}

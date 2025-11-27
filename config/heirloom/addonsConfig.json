@@ -45,5 +45,7 @@
     "4jstudios:leadfeet",
     "4jstudios:alwayshungry"
   ],
-  "disabledAddons": []
+  "disabledAddons": [],
+  "resourcePackUrl": "https://github.com/kyrptonaught/Minigame-Resources/releases/download",
+  "resourcePackTag": "2.0B24"
 }

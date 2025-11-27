@@ -1,0 +1,14 @@
+{
+  "addon_type": "music_pack",
+
+  "addon_id": "lem.battle:city",
+  "name_key": "lem.resource.city.name",
+  "description_key": "lem.resource.city.desc",
+  "songs": {
+    "lem.battle:music.city.1": 179,
+    "lem.battle:music.city.2": 196,
+    "lem.battle:music.city.3": 194,
+    "lem.battle:music.city.4": 228,
+    "lem.battle:music.city.5": 183
+  }
+}

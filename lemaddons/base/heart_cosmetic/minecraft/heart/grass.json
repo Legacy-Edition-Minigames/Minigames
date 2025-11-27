@@ -1,0 +1,13 @@
+{
+  "addon_type": "heart_cosmetic",
+
+  "addon_id": "heirloom:minecraft/grass",
+  "name_key": "heirloom.cosmetics.heart.minecraft.grass",
+  "authors": "LEM",
+  "version": "1.0",
+
+   "addon_pack": "minecraft_heart",
+  "addon_pack_key": "heirloom.cosmetics.heart.pack.minecraft.heart",
+
+  "alive_sprite": "heirloom:heart/minecraft/grass"
+}

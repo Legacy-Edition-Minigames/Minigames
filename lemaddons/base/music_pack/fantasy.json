@@ -1,0 +1,12 @@
+{
+  "addon_type": "music_pack",
+
+  "addon_id": "lem.battle:fantasy",
+  "name_key": "lem.resource.fantasy.name",
+  "description_key": "lem.resource.fantasy.desc",
+  "songs": {
+    "lem.battle:music.fantasy.1": 130,
+    "lem.battle:music.fantasy.2": 214,
+    "lem.battle:music.fantasy.3": 222
+  }
+}

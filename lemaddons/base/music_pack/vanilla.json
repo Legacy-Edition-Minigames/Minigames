@@ -1,0 +1,13 @@
+{
+  "addon_type": "music_pack",
+
+  "addon_id": "lem.battle:vanilla",
+  "name_key": "lem.resource.vanilla.name",
+  "description_key": "lem.resource.vanilla.desc",
+  "songs": {
+    "lem.battle:music.vanilla.1": 491,
+    "lem.battle:music.vanilla.2": 489,
+    "lem.battle:music.vanilla.3": 508,
+    "lem.battle:music.vanilla.4": 528
+  }
+}

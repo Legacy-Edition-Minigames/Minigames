@@ -1,0 +1,12 @@
+{
+  "addon_type": "music_pack",
+
+  "addon_id": "lem.battle:festive",
+  "name_key": "lem.resource.festive.name",
+  "description_key": "lem.resource.festive.desc",
+  "songs": {
+    "lem.battle:music.festive.1": 138,
+    "lem.battle:music.festive.2": 156,
+    "lem.battle:music.festive.3": 165
+  }
+}

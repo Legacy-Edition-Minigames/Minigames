@@ -1,0 +1,10 @@
+{
+  "addon_type": "music_pack",
+
+  "addon_id": "lem.base:lobby",
+  "delay": "100-300",
+  "songs": {
+    "heirloom:delay_skip": 20,
+    "heirloom:music.game": 600
+  }
+}

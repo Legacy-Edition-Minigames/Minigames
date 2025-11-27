@@ -1,0 +1,13 @@
+{
+  "addon_type": "music_pack",
+
+  "addon_id": "lem.battle:steampunk",
+  "name_key": "lem.resource.steampunk.name",
+  "description_key": "lem.resource.steampunk.desc",
+  "songs": {
+    "lem.battle:music.steampunk.1": 170,
+    "lem.battle:music.steampunk.2": 179,
+    "lem.battle:music.steampunk.3": 223,
+    "lem.battle:music.steampunk.4": 190
+  }
+}

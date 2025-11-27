@@ -1,0 +1,12 @@
+{
+  "addon_type": "music_pack",
+
+  "addon_id": "lem.battle:plastic",
+  "name_key": "lem.resource.plastic.name",
+  "description_key": "lem.resource.plastic.desc",
+  "songs": {
+    "lem.battle:music.plastic.1": 135,
+    "lem.battle:music.plastic.2": 155,
+    "lem.battle:music.plastic.3": 150
+  }
+}

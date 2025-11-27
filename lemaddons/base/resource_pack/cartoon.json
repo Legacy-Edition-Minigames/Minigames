@@ -1,0 +1,9 @@
+{
+  "addon_type": "resource_pack",
+
+  "addon_id": "lem.base:cartoon",
+  "name_key": "lem.resource.cartoon.name",
+  "description_key": "lem.resource.cartoon.desc",
+
+  "asset": "cartoon.zip"
+}

@@ -1,0 +1,16 @@
+{
+  "addon_type": "music_pack",
+
+  "addon_id": "lem.battle:fallout",
+  "name_key": "lem.resource.fallout.name",
+  "description_key": "lem.resource.fallout.desc",
+  "songs": {
+    "lem.battle:music.fallout.1": 183,
+    "lem.battle:music.fallout.2": 179,
+    "lem.battle:music.fallout.3": 193,
+    "lem.battle:music.fallout.4": 188,
+    "lem.battle:music.fallout.5": 208,
+    "lem.battle:music.fallout.6": 126,
+    "lem.battle:music.fallout.7": 103
+  }
+}

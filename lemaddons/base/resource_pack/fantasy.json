@@ -1,0 +1,9 @@
+{
+  "addon_type": "resource_pack",
+
+  "addon_id": "lem.base:fantasy",
+  "name_key": "lem.resource.fantasy.name",
+  "description_key": "lem.resource.fantasy.desc",
+
+  "asset": "fantasy.zip"
+}

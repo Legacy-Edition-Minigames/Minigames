@@ -1,0 +1,17 @@
+{
+  "addon_type": "heart_cosmetic",
+
+  "addon_id": "heirloom:minecraft/block/pumpkin",
+  "name_key": "block.minecraft.pumpkin",
+  "authors": "LEM",
+  "version": "1.0",
+
+  "addon_pack": "minecraft_block",
+  "addon_pack_key": "heirloom.cosmetics.heart.pack.minecraft.block",
+
+  "alive_atlas" : "blocks",
+  "dead_atlas" : "blocks",
+
+  "alive_sprite": "block/jack_o_lantern",
+  "dead_sprite": "block/carved_pumpkin"
+}

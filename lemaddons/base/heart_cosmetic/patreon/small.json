@@ -1,0 +1,15 @@
+{
+  "addon_type": "heart_cosmetic",
+
+  "addon_id": "heirloom:patreon/small",
+  "name_key": "heirloom.cosmetics.heart.patreon.small",
+  "authors": "LEM",
+  "version": "1.0",
+
+  "locked" : true,
+
+  "addon_pack": "patreon",
+  "addon_pack_key": "heirloom.cosmetics.heart.pack.patreon",
+
+  "alive_sprite": "heirloom:heart/patreon/small"
+}

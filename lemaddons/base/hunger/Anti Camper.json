@@ -1,0 +1,31 @@
+{
+  "addon_type": "hunger",
+
+  "addon_id": "4jstudios:anticamper",
+  "name_key": "lem.battle.menu.host.config.hunger.option.anticamper",
+  "description_key": "lem.battle.menu.host.config.hunger.option.anticamper.desc",
+  "authors": "4jstudios",
+  "version": "1.0",
+
+  "FoodMax" : 20,
+  "SaturationMax" : 4.0,
+  "SaturationStart" : 4.0,
+  "SaturationMin" : 0.0,
+  "ExhaustionDrop" : 5.0,
+  "FoodHealTickCount" : 60,
+  "SaturationHealTickCount" : 40,
+  "HealLevel" : 4,
+  "StarveLevel" : 0,
+  "SprintLevel" : 0,
+  "ExhaustionHeal" : 5.0,
+  "ExhaustionJump" : 0.2,
+  "ExhaustionSprintJump" : 0.8,
+  "ExhaustionMine" : 0.025,
+  "ExhaustionAttack" : 0.3,
+  "ExhaustionDamage" : 0.1,
+  "ExhaustionSneak" : 0.0,
+  "ExhaustionWalk" : 0.0,
+  "ExhaustionSprint" : 0.05,
+  "ExhaustionSwim" : 0.0,
+  "ExhaustionIdle" : 0.012
+}

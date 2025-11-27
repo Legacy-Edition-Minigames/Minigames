@@ -1,0 +1,17 @@
+{
+  "addon_type": "heart_cosmetic",
+
+  "addon_id": "heirloom:minecraft/block/torch",
+  "name_key": "block.minecraft.torch",
+  "authors": "LEM",
+  "version": "1.0",
+
+  "addon_pack": "minecraft_block",
+  "addon_pack_key": "heirloom.cosmetics.heart.pack.minecraft.block",
+
+  "alive_atlas" : "blocks",
+  "dead_atlas" : "blocks",
+
+  "alive_sprite": "block/redstone_torch",
+  "dead_sprite": "block/redstone_torch_off"
+}

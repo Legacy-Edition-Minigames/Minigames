@@ -1,0 +1,19 @@
+{
+  "addon_type": "heart_cosmetic",
+
+  "addon_id": "heirloom:patreon/user/homiesidjack",
+  "authors": "homiesidjack",
+  "version": "1.0",
+
+  "hidden" : true,
+  "locked" : true,
+  "user_UUID": "",
+
+  "addon_pack": "patreon_users",
+  "addon_pack_key": "heirloom.cosmetics.heart.pack.patreon.user",
+
+  "name" : "homiesidjack",
+
+  "alive_sprite": "heirloom:heart/patreon/user/homiesidjack/alive",
+  "dead_sprite": "heirloom:heart/patreon/user/homiesidjack/dead"
+}
