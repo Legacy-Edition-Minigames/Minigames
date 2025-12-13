@@ -9,8 +9,8 @@
   "addon_pack": "minecraft_item",
   "addon_pack_key": "heirloom.cosmetics.heart.pack.minecraft.item",
 
-  "alive_atlas" : "blocks",
-  "dead_atlas" : "blocks",
+  "alive_atlas" : "items",
+  "dead_atlas" : "items",
 
   "alive_sprite": "item/suspicious_stew",
   "dead_sprite": "item/bowl"

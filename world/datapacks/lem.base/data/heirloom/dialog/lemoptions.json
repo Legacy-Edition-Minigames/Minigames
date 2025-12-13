@@ -1,51 +1,49 @@
 {
   "type": "minecraft:multi_action",
-  "title": "Legacy Edition Battle",
+  "title": "",
   "external_title": "LEM Options",
   "body": [
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "1\uF8012\uF8013\uF8014\n\n\n",
+        "text": "1234\n\n\n",
         "color": "#fafafa",
         "font": "title"
       },
-      "width": 230
+      "width": 235
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "translate": "lem.mapdecider.menu.credit"
+        "translate": "lem.mapdecider.menu.credit",
+        "extra": [
+          {
+            "text": "\nThe LEM Team",
+            "italic": true,
+            "underlined": true,
+            "click_event": {
+              "action": "open_url",
+              "url": "https://www.legacyminigames.net/credits"
+            }
+          }
+        ]
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "The LEM Team",
-        "italic": true,
-        "underlined": true,
-        "click_event": {
-          "action": "open_url",
-          "url": "https://www.legacyminigames.net/credits"
-        }
-      }
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": {
-        "translate": "lem.mapdecider.menu.supportplease"
-      }
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": {
-        "text": "Patreon",
-        "italic": true,
-        "underlined": true,
-        "click_event": {
-          "action": "open_url",
-          "url": "https://www.legacyminigames.net/patreon"
-        }
+        "translate": "lem.mapdecider.menu.supportplease",
+        "extra": [
+          {
+            "text": "\nPatreon",
+            "italic": true,
+            "underlined": true,
+            "click_event": {
+              "action": "open_url",
+              "url": "https://www.legacyminigames.net/patreon"
+            }
+          }
+        ]
       }
     }
   ],

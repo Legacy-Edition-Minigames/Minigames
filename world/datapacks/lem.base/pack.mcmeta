@@ -1,6 +1,7 @@
 {
    "pack": {
-      "pack_format": 26,
+     "min_format": 88,
+     "max_format": 88,
       "description": "Base for Legacy Edition Minigames"
    },
    "filter": {
