@@ -405,6 +405,12 @@ execute as 7ea29790-c6b6-4c33-a2f0-04cf0cab7bd3 run scoreboard players set @s le
 execute as 1841e809-9a6c-41cf-b633-f67c22c30aa8 run scoreboard players set @s lem.patreon 1
 #FERNANGAMER1605
 execute as 38aa965a-93a1-431d-a68f-afa599e4fcfa run scoreboard players set @s lem.patreon 1
+#Criminally_Silly
+execute as 6dbb64aa-d545-4ba2-8c81-411997c70463 run scoreboard players set @s lem.patreon 3
+#Yoxraiv
+execute as 4cf5d787-3cc3-4d55-9af2-7948e6a109f9 run scoreboard players set @s lem.patreon 2
+#c0keb0ttle
+execute as 595984ae-ceb7-473d-b245-0a775384f276 run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
