@@ -1,6 +1,5 @@
 {
   "addon_type": "music_pack",
-
   "addon_id": "lem.battle:greek",
   "name_key": "lem.resource.greek.name",
   "description_key": "lem.resource.greek.desc",

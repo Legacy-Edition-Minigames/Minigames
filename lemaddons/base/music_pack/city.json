@@ -1,6 +1,5 @@
 {
   "addon_type": "music_pack",
-
   "addon_id": "lem.battle:city",
   "name_key": "lem.resource.city.name",
   "description_key": "lem.resource.city.desc",

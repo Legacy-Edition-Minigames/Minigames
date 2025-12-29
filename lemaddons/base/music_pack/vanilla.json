@@ -1,6 +1,5 @@
 {
   "addon_type": "music_pack",
-
   "addon_id": "lem.battle:vanilla",
   "name_key": "lem.resource.vanilla.name",
   "description_key": "lem.resource.vanilla.desc",

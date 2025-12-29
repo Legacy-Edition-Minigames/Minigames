@@ -1,17 +1,13 @@
 {
   "addon_type": "heart_cosmetic",
-
   "addon_id": "heirloom:minecraft/item/axolotl",
   "name_key": "entity.minecraft.axolotl",
   "authors": "LEM",
   "version": "1.0",
-
   "addon_pack": "minecraft_item",
   "addon_pack_key": "heirloom.cosmetics.heart.pack.minecraft.item",
-
-  "alive_atlas" : "items",
-  "dead_atlas" : "items",
-
+  "alive_atlas": "items",
+  "dead_atlas": "items",
   "alive_sprite": "item/axolotl_bucket",
   "dead_sprite": "item/bucket"
 }

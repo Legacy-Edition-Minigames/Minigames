@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "pack_format": 94.1,
+    "min_format": 94.1,
+    "max_format": 94.1,
+    "description": "Base for Legacy Edition Minigames"
+  },
+  "filter": {
+    "block": [
+      {
+        "path": "advancement"
+      },
+      {
+        "path": "recipe"
+      }
+    ]
+  }
+}

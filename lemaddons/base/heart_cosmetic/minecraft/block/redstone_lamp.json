@@ -1,17 +1,13 @@
 {
   "addon_type": "heart_cosmetic",
-
   "addon_id": "heirloom:minecraft/block/lamp",
   "name_key": "block.minecraft.redstone_lamp",
   "authors": "LEM",
   "version": "1.0",
-
   "addon_pack": "minecraft_block",
   "addon_pack_key": "heirloom.cosmetics.heart.pack.minecraft.block",
-
-  "alive_atlas" : "blocks",
-  "dead_atlas" : "blocks",
-
+  "alive_atlas": "blocks",
+  "dead_atlas": "blocks",
   "alive_sprite": "block/redstone_lamp_on",
   "dead_sprite": "block/redstone_lamp"
 }

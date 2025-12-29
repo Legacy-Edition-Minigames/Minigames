@@ -1,13 +1,10 @@
 {
   "addon_type": "heart_cosmetic",
-
   "addon_id": "heirloom:minecraft/absorption",
   "name_key": "heirloom.cosmetics.heart.minecraft.absorption",
   "authors": "LEM",
   "version": "1.0",
-
   "addon_pack": "minecraft_heart",
   "addon_pack_key": "heirloom.cosmetics.heart.pack.minecraft.heart",
-
   "alive_sprite": "heirloom:heart/minecraft/absorption"
 }

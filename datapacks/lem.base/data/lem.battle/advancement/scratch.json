@@ -1,0 +1,320 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ghast_spawn_egg",
+      "components": {
+        "minecraft:item_model": "lem.battle:advancement/scratch"
+      }
+    },
+    "title": {
+      "translate": "lem.battle.advancement.scratch.name"
+    },
+    "description": {
+      "translate": "lem.battle.advancement.scratch.desc"
+    },
+    "frame": "goal"
+  },
+  "parent": "lem.battle:root",
+  "criteria": {
+    "damage1": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage2": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage3": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage4": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage5": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage6": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage7": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage8": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage9": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage10": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage11": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage12": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage13": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage14": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage15": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage16": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage17": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage18": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage19": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage20": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage21": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage22": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage23": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage24": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage25": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage26": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage27": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage28": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage29": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage30": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage31": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage32": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage33": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage34": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage35": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage36": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage37": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage38": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage39": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage40": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage41": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage42": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage43": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage44": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage45": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage46": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage47": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage48": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage49": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage50": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage51": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage52": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage53": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage54": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage55": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage56": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage57": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage58": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage59": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage60": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage61": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage62": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage63": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage64": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage65": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage66": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage67": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage68": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage69": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage70": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage71": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage72": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage73": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage74": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage75": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage76": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage77": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage78": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage79": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage80": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage81": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage82": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage83": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage84": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage85": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage86": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage87": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage88": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage89": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage90": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage91": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage92": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage93": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage94": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage95": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage96": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage97": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage98": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage99": {
+      "trigger": "minecraft:impossible"
+    },
+    "damage100": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

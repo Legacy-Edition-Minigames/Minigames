@@ -1,6 +1,5 @@
 {
   "addon_type": "music_pack",
-
   "addon_id": "lem.battle:halloween",
   "name_key": "lem.resource.halloween.name",
   "description_key": "lem.resource.halloween.desc",

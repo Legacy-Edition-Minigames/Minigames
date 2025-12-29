@@ -1,9 +1,7 @@
 {
   "addon_type": "resource_pack",
-
   "addon_id": "lem.base:vanilla",
   "name_key": "lem.resource.vanilla.name",
   "description_key": "lem.resource.vanilla.desc",
-
   "asset": "vanilla.zip"
 }

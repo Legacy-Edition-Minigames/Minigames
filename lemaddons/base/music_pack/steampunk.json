@@ -1,6 +1,5 @@
 {
   "addon_type": "music_pack",
-
   "addon_id": "lem.battle:steampunk",
   "name_key": "lem.resource.steampunk.name",
   "description_key": "lem.resource.steampunk.desc",

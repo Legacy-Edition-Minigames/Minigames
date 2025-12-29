@@ -1,16 +1,12 @@
 {
   "addon_type": "heart_cosmetic",
-
   "addon_id": "heirloom:patreon/standard",
   "name_key": "heirloom.cosmetics.heart.patreon.standard",
   "authors": "LEM",
   "version": "1.0",
-
-  "locked" : true,
-
+  "locked": true,
   "addon_pack": "patreon",
   "addon_pack_key": "heirloom.cosmetics.heart.pack.patreon",
-
   "alive_sprite": "heirloom:heart/patreon/standard",
   "dead_sprite": "heirloom:heart/dead_large"
 }

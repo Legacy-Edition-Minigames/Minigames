@@ -1,14 +1,11 @@
 {
   "addon_type": "heart_cosmetic",
-
   "addon_id": "heirloom:undertale/monster_soul",
   "name_key": "heirloom.cosmetics.heart.undertale.monster.soul",
   "authors": "LEM",
   "version": "1.0",
-
   "addon_pack": "undertale",
   "addon_pack_key": "heirloom.cosmetics.heart.pack.undertale",
-
   "alive_sprite": "heirloom:heart/undertale/ut_soul_m",
   "dead_sprite": "heirloom:heart/undertale/ut_dead_m"
 }
