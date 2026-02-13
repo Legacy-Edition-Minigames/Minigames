@@ -15,16 +15,12 @@
       "presetID": "lem.menu:button/generic:tickbox",
       "itemNBT": "{display:{Name:'{\"translate\":\"lem.menu.ui.tip.texture_pack_swapping\",\"italic\":false}'}}",
       "leftClickAction": "command/ function lem.menu:menu/config/pack/maptextures/toggle",
-      "dynamicItem": {
+      "dynamicModel": {
         "score": "lem.menu.ui.dynamic.pack.config.maptextures",
         "player": "@s",
-        "items": {
-          "1": {
-            "customModelData": "lem.menu.ui.button.tick_disabled"
-          },
-          "2": {
-            "customModelData": "lem.menu.ui.button.tick_enabled"
-          }
+        "models": {
+          "1": "lem.menu.ui.button.tick_disabled",
+          "2": "lem.menu.ui.button.tick_enabled"
         }
       }
     },
@@ -50,16 +46,12 @@
     "19": {
       "presetID": "lem.menu:button/generic:tickbox",
       "leftClickAction": "command/ function lem.menu:menu/config/pack/safemusic/toggle",
-      "dynamicItem": {
+      "dynamicModel": {
         "score": "lem.menu.ui.dynamic.pack.config.safemusic",
         "player": "@s",
-        "items": {
-          "1": {
-            "customModelData": "lem.menu.ui.button.tick_disabled"
-          },
-          "2": {
-            "customModelData": "lem.menu.ui.button.tick_enabled"
-          }
+        "models": {
+          "1": "lem.menu.ui.button.tick_disabled",
+          "2": "lem.menu.ui.button.tick_enabled"
         }
       }
     },
