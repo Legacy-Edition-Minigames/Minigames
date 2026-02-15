@@ -32,6 +32,8 @@ execute if score #Store lem.battle.randompowerchest matches 0 run tellraw @s [""
 #Enabled
 execute if score #Store lem.battle.randompowerchest matches 1 run tellraw @s ["",{"text":" [","color":"blue","clickEvent":{"action":"run_command","value":"/trigger lem.gamecfg set 168"},"hoverEvent":{"action":"show_text","contents":[{"text":"Powerful chests will have randomized locations instead of being the same every time.","color":"dark_aqua"}]}},{"text":"✔","color":"green","clickEvent":{"action":"run_command","value":"/trigger lem.gamecfg set 168"},"hoverEvent":{"action":"show_text","contents":[{"text":"Powerful chests will have randomized locations instead of being the same every time.","color":"dark_aqua"}]}},{"text":"] Random Powerful Chests","color":"blue","clickEvent":{"action":"run_command","value":"/trigger lem.gamecfg set 168"},"hoverEvent":{"action":"show_text","contents":[{"text":"Powerful chests will have randomized locations instead of being the same every time.","color":"dark_aqua"}]}}]
 
+##Remastered Info
+execute if score #Store lem.battle.setchest matches 6 run tellraw @s ["",{"text":"Warning: ","bold":true,"color":"red"},{"text":"The remastered item set is unfinished and in need a rebalance, you might not want to use it in its current state.","color":"gold"}]
 
 ##Go back button
 tellraw @s {"text":"[Go Back]","color":"gray","clickEvent":{"action":"run_command","value":"/trigger lem.gamecfg"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click to go back to the normal configuration page","color":"dark_aqua"}]}}
