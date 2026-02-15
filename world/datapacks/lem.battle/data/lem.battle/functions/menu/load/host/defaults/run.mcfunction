@@ -22,7 +22,7 @@ scoreboard players set #Decayed lem.battle.enableset 1
 #Food Central
 scoreboard players set #FoodCentral lem.battle.enableset 1
 #Remastered
-scoreboard players set #Remastered lem.battle.enableset 1
+scoreboard players set #Remastered lem.battle.enableset 0
 
 ##Default Map Type
 scoreboard players set #Store lem.battle.setmaptype 1
