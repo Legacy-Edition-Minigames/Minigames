@@ -96,6 +96,9 @@ execute as @a[scores={heartcosmetic=32},tag=!heart-v3nco] run function lem.base:
 #CuddleDrivenPony
 execute as @a[scores={heartcosmetic=33},tag=heart-cuddledrivenpony] run function lem.base:clientconfig/heart/switch/custom/cuddledrivenpony
 execute as @a[scores={heartcosmetic=33},tag=!heart-cuddledrivenpony] run function lem.base:clientconfig/heart/switch/notunlocked
+#SophiePancakes
+execute as @a[scores={heartcosmetic=34},tag=heart-sophiepancakes] run function lem.base:clientconfig/heart/switch/custom/sophiepancakes
+execute as @a[scores={heartcosmetic=34},tag=!heart-sophiepancakes] run function lem.base:clientconfig/heart/switch/notunlocked
 
 ##Enable toggle
 scoreboard players enable @a heartcosmetic

@@ -73,3 +73,5 @@ userconfig @s test lem.base:heartcosmetic EQUAL custom_v3nco runCommand execute 
 userconfig @s test lem.base:heartcosmetic EQUAL custom_v3nco runCommand execute if score @s lem.temp matches 2 run setSuffixFont alive "lem.base:tablist/heart/secret/v3nco/meals" @s
 #CuddleDrivenPony
 userconfig @s test lem.base:heartcosmetic EQUAL custom_cuddledrivenpony runCommand setSuffixFont alive "lem.base:tablist/heart/secret/cuddledrivenpony" @s
+#SophiePancakes
+userconfig @s test lem.base:heartcosmetic EQUAL custom_sophiepancakes runCommand setSuffixFont alive "lem.base:tablist/heart/secret/sophiepancakes" @s
