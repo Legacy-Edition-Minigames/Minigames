@@ -67,3 +67,7 @@ userconfig @s test lem.base:heartcosmetic EQUAL custom_lion8cake runCommand setS
 userconfig @s test lem.base:heartcosmetic EQUAL custom_homiesidjack runCommand setSuffixFont alive "lem.base:tablist/heart/secret/homiesidjack" @s
 #Criminally_Silly
 userconfig @s test lem.base:heartcosmetic EQUAL custom_criminally_silly runCommand setSuffixFont alive "lem.base:tablist/heart/secret/criminally_silly" @s
+#V3NCO
+userconfig @s test lem.base:heartcosmetic EQUAL custom_v3nco runCommand execute store result score @s lem.temp run random value 1..2
+userconfig @s test lem.base:heartcosmetic EQUAL custom_v3nco runCommand execute if score @s lem.temp matches 1 run setSuffixFont alive "lem.base:tablist/heart/secret/v3nco/rick" @s
+userconfig @s test lem.base:heartcosmetic EQUAL custom_v3nco runCommand execute if score @s lem.temp matches 2 run setSuffixFont alive "lem.base:tablist/heart/secret/v3nco/meals" @s

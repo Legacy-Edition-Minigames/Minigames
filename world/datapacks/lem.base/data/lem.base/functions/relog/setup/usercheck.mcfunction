@@ -13,6 +13,8 @@ tag e9e4b393-29d1-4004-b469-125d8b87c124 add heart-lion8cake
 tag 89da0d81-fc65-42d0-9668-2bd538bd3c26 add heart-homiesidjack
 #Criminally_Silly
 tag 6dbb64aa-d545-4ba2-8c81-411997c70463 add heart-criminally_silly
+#V3NCO
+tag 14fc9045-fe84-4a04-af38-45181de0b4e8 add heart-v3nco
 
 ##DSMSYB mode
 execute as 6c746b61-7f58-4597-8d9a-32fc518b9d87 run tag @s add dsmsyb

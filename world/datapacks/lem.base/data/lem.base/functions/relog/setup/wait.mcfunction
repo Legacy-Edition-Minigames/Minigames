@@ -35,6 +35,7 @@ tag @s remove heart-pixeogames
 tag @s remove heart-lion8cake
 tag @s remove heart-homiesidjack
 tag @s remove heart-criminally_silly
+tag @s remove heart-v3nco
 
 ##Set title times
 title @s times 0 50 1
