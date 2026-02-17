@@ -21,6 +21,8 @@ tag ea149491-22e9-4458-b52e-ddd3f66e6d92 add heart-cuddledrivenpony
 tag fc036d4e-fb92-4cb1-8c6e-7ace46f15125 add heart-sophiepancakes
 #Nioum
 tag ccf5687b-e24b-494a-aed4-e73f6e46cb82 add heart-nioum
+#KitsuneTerra
+tag b74c08fb-fd24-4a6c-ad9a-0543a71920de add heart-kitsuneterra
 
 ##DSMSYB mode
 execute as 6c746b61-7f58-4597-8d9a-32fc518b9d87 run tag @s add dsmsyb

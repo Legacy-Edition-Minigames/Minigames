@@ -102,6 +102,9 @@ execute as @a[scores={heartcosmetic=34},tag=!heart-sophiepancakes] run function 
 #Nioum
 execute as @a[scores={heartcosmetic=35},tag=heart-nioum] run function lem.base:clientconfig/heart/switch/custom/nioum
 execute as @a[scores={heartcosmetic=35},tag=!heart-nioum] run function lem.base:clientconfig/heart/switch/notunlocked
+#KitsuneTerra
+execute as @a[scores={heartcosmetic=36},tag=heart-kitsuneterra] run function lem.base:clientconfig/heart/switch/custom/kitsuneterra
+execute as @a[scores={heartcosmetic=36},tag=!heart-kitsuneterra] run function lem.base:clientconfig/heart/switch/notunlocked
 
 ##Enable toggle
 scoreboard players enable @a heartcosmetic

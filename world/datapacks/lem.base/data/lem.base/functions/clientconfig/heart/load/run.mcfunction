@@ -77,3 +77,5 @@ userconfig @s test lem.base:heartcosmetic EQUAL custom_cuddledrivenpony runComma
 userconfig @s test lem.base:heartcosmetic EQUAL custom_sophiepancakes runCommand setSuffixFont alive "lem.base:tablist/heart/secret/sophiepancakes" @s
 #Nioum
 userconfig @s test lem.base:heartcosmetic EQUAL custom_nioum runCommand setSuffixFont alive "lem.base:tablist/heart/secret/nioum" @s
+#KitsuneTerra
+userconfig @s test lem.base:heartcosmetic EQUAL custom_kitsuneterra runCommand setSuffixFont alive "lem.base:tablist/heart/secret/kitsuneterra" @s
