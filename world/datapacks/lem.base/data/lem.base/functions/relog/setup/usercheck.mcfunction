@@ -15,6 +15,8 @@ tag 89da0d81-fc65-42d0-9668-2bd538bd3c26 add heart-homiesidjack
 tag 6dbb64aa-d545-4ba2-8c81-411997c70463 add heart-criminally_silly
 #V3NCO
 tag 14fc9045-fe84-4a04-af38-45181de0b4e8 add heart-v3nco
+#CuddleDrivenPony
+tag ea149491-22e9-4458-b52e-ddd3f66e6d92 add heart-cuddledrivenpony
 
 ##DSMSYB mode
 execute as 6c746b61-7f58-4597-8d9a-32fc518b9d87 run tag @s add dsmsyb

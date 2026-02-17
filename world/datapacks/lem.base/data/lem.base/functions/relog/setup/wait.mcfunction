@@ -36,6 +36,7 @@ tag @s remove heart-lion8cake
 tag @s remove heart-homiesidjack
 tag @s remove heart-criminally_silly
 tag @s remove heart-v3nco
+tag @s remove heart-cuddledrivenpony
 
 ##Set title times
 title @s times 0 50 1
