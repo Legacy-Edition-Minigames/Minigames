@@ -35,6 +35,9 @@ tag ccf5687b-e24b-494a-aed4-e73f6e46cb82 add heart-custom1
 #KitsuneTerra
 tag b74c08fb-fd24-4a6c-ad9a-0543a71920de add heart-kitsuneterra-1
 tag b74c08fb-fd24-4a6c-ad9a-0543a71920de add heart-custom1
+#FoxPodZ
+tag a35a944b-0cd3-42e4-9cdd-8c4fb7c1eb46 add heart-foxpodz-1
+tag a35a944b-0cd3-42e4-9cdd-8c4fb7c1eb46 add heart-custom1
 
 ##DSMSYB mode
 execute as 6c746b61-7f58-4597-8d9a-32fc518b9d87 run tag @s add dsmsyb

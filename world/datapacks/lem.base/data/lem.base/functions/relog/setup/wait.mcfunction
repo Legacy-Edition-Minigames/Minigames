@@ -41,6 +41,7 @@ tag @s remove heart-cuddledrivenpony-1
 tag @s remove heart-sophiepancakes-1
 tag @s remove heart-nioum-1
 tag @s remove heart-kitsuneterra-1
+tag @s remove heart-foxpodz-1
 
 ##Set title times
 title @s times 0 50 1

@@ -79,3 +79,5 @@ userconfig @s test lem.base:heartcosmetic EQUAL custom_sophiepancakes runCommand
 userconfig @s test lem.base:heartcosmetic EQUAL custom_nioum runCommand setSuffixFont alive "lem.base:tablist/heart/custom/1/nioum" @s
 #KitsuneTerra
 userconfig @s test lem.base:heartcosmetic EQUAL custom_kitsuneterra runCommand setSuffixFont alive "lem.base:tablist/heart/custom/1/kitsuneterra" @s
+#FoxPodZ
+userconfig @s test lem.base:heartcosmetic EQUAL custom_foxpodz runCommand setSuffixFont alive "lem.base:tablist/heart/custom/1/foxpodz" @s
