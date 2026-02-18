@@ -28,18 +28,19 @@ tag @s remove optifine
 tag @s remove ingame
 tag @s remove bedrock
 tag @s remove clientchecked
-tag @s remove heart-architect
-tag @s remove heart-mario
-tag @s remove heart-tris1357
-tag @s remove heart-pixeogames
-tag @s remove heart-lion8cake
-tag @s remove heart-homiesidjack
-tag @s remove heart-criminally_silly
-tag @s remove heart-v3nco
-tag @s remove heart-cuddledrivenpony
-tag @s remove heart-sophiepancakes
-tag @s remove heart-nioum
-tag @s remove heart-kitsuneterra
+tag @s remove heart-custom1
+tag @s remove heart-theminecraftarchitect-1
+tag @s remove heart-robux_generator-1
+tag @s remove heart-tris1357-1
+tag @s remove heart-pixeogames-1
+tag @s remove heart-lion8cake-1
+tag @s remove heart-homiesidjack-1
+tag @s remove heart-criminally_silly-1
+tag @s remove heart-v3nco-1
+tag @s remove heart-cuddledrivenpony-1
+tag @s remove heart-sophiepancakes-1
+tag @s remove heart-nioum-1
+tag @s remove heart-kitsuneterra-1
 
 ##Set title times
 title @s times 0 50 1

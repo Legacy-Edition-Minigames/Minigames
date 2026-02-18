@@ -1,28 +1,40 @@
-##Hearts
+##Hearts 1
 #TheMinecraftArchitect
-tag d034b241-5f0b-4607-ad8d-704f1dbced6f add heart-architect
+tag d034b241-5f0b-4607-ad8d-704f1dbced6f add heart-1-theminecraftarchitect
+tag d034b241-5f0b-4607-ad8d-704f1dbced6f add heart-custom1
 #Robux_Generator
-tag 8411f30e-2ba5-431f-bbcd-e3fac5597649 add heart-mario
+tag 8411f30e-2ba5-431f-bbcd-e3fac5597649 add heart-robux_generator-1
+tag 8411f30e-2ba5-431f-bbcd-e3fac5597649 add heart-custom1
 #Tris1357
-tag ae26f95c-314f-4cf8-9af3-16fa5da78085 add heart-tris1357
+tag ae26f95c-314f-4cf8-9af3-16fa5da78085 add heart-tris1357-1
+tag ae26f95c-314f-4cf8-9af3-16fa5da78085 add heart-custom1
 #PixeoGames
-tag 1d6033d1-cad8-426e-913a-c7ccde64de54 add heart-pixeogames
+tag 1d6033d1-cad8-426e-913a-c7ccde64de54 add heart-pixeogames-1
+tag 1d6033d1-cad8-426e-913a-c7ccde64de54 add heart-custom1
 #Lion8Cake
-tag e9e4b393-29d1-4004-b469-125d8b87c124 add heart-lion8cake
+tag e9e4b393-29d1-4004-b469-125d8b87c124 add heart-lion8cake-1
+tag e9e4b393-29d1-4004-b469-125d8b87c124 add heart-custom1
 #HomieSiDjack
-tag 89da0d81-fc65-42d0-9668-2bd538bd3c26 add heart-homiesidjack
+tag 89da0d81-fc65-42d0-9668-2bd538bd3c26 add heart-homiesidjack-1
+tag 89da0d81-fc65-42d0-9668-2bd538bd3c26 add heart-custom1
 #Criminally_Silly
-tag 6dbb64aa-d545-4ba2-8c81-411997c70463 add heart-criminally_silly
+tag 6dbb64aa-d545-4ba2-8c81-411997c70463 add heart-criminally_silly-1
+tag 6dbb64aa-d545-4ba2-8c81-411997c70463 add heart-custom1
 #V3NCO
-tag 14fc9045-fe84-4a04-af38-45181de0b4e8 add heart-v3nco
+tag 14fc9045-fe84-4a04-af38-45181de0b4e8 add heart-v3nco-1
+tag 14fc9045-fe84-4a04-af38-45181de0b4e8 add heart-custom1
 #CuddleDrivenPony
-tag ea149491-22e9-4458-b52e-ddd3f66e6d92 add heart-cuddledrivenpony
+tag ea149491-22e9-4458-b52e-ddd3f66e6d92 add heart-cuddledrivenpony-1
+tag ea149491-22e9-4458-b52e-ddd3f66e6d92 add heart-custom1
 #SophiePancakes
-tag fc036d4e-fb92-4cb1-8c6e-7ace46f15125 add heart-sophiepancakes
+tag fc036d4e-fb92-4cb1-8c6e-7ace46f15125 add heart-sophiepancakes-1
+tag fc036d4e-fb92-4cb1-8c6e-7ace46f15125 add heart-custom1
 #Nioum
-tag ccf5687b-e24b-494a-aed4-e73f6e46cb82 add heart-nioum
+tag ccf5687b-e24b-494a-aed4-e73f6e46cb82 add heart-nioum-1
+tag ccf5687b-e24b-494a-aed4-e73f6e46cb82 add heart-custom1
 #KitsuneTerra
-tag b74c08fb-fd24-4a6c-ad9a-0543a71920de add heart-kitsuneterra
+tag b74c08fb-fd24-4a6c-ad9a-0543a71920de add heart-kitsuneterra-1
+tag b74c08fb-fd24-4a6c-ad9a-0543a71920de add heart-custom1
 
 ##DSMSYB mode
 execute as 6c746b61-7f58-4597-8d9a-32fc518b9d87 run tag @s add dsmsyb

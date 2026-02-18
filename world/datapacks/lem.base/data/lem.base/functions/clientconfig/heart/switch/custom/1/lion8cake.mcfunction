@@ -1,11 +1,11 @@
 ##Give heart
-userconfig @s set lem.base:heartcosmetic custom_homiesidjack
+userconfig @s set lem.base:heartcosmetic custom_lion8cake
 
 ##Sync with backend
 userconfig @s sync
 
 ##Load heart
-setSuffixFont alive "lem.base:tablist/heart/secret/homiesidjack" @s
+setSuffixFont alive "lem.base:tablist/heart/custom/1/lion8cake" @s
 
 ##Display message
 tellraw @s {"translate":"lem.config.heart.menu.text.success","color":"green"}

@@ -1,11 +1,11 @@
 ##Give heart
-userconfig @s set lem.base:heartcosmetic custom_cuddledrivenpony
+userconfig @s set lem.base:heartcosmetic custom_pixeogames
 
 ##Sync with backend
 userconfig @s sync
 
 ##Load heart
-setSuffixFont alive "lem.base:tablist/heart/secret/cuddledrivenpony" @s
+setSuffixFont alive "lem.base:tablist/heart/custom/1/pixeogames" @s
 
 ##Display message
 tellraw @s {"translate":"lem.config.heart.menu.text.success","color":"green"}

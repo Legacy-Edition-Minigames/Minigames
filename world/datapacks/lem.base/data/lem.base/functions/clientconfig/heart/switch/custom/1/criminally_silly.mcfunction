@@ -1,11 +1,11 @@
 ##Give heart
-userconfig @s set lem.base:heartcosmetic custom_nioum
+userconfig @s set lem.base:heartcosmetic custom_criminally_silly
 
 ##Sync with backend
 userconfig @s sync
 
 ##Load heart
-setSuffixFont alive "lem.base:tablist/heart/secret/nioum" @s
+setSuffixFont alive "lem.base:tablist/heart/custom/1/criminally_silly" @s
 
 ##Display message
 tellraw @s {"translate":"lem.config.heart.menu.text.success","color":"green"}

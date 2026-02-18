@@ -1,11 +1,11 @@
 ##Give heart
-userconfig @s set lem.base:heartcosmetic custom_tris1357
+userconfig @s set lem.base:heartcosmetic custom_sophiepancakes
 
 ##Sync with backend
 userconfig @s sync
 
 ##Load heart
-setSuffixFont alive "lem.base:tablist/heart/secret/tris1357" @s
+setSuffixFont alive "lem.base:tablist/heart/custom/1/sophiepancakes" @s
 
 ##Display message
 tellraw @s {"translate":"lem.config.heart.menu.text.success","color":"green"}
