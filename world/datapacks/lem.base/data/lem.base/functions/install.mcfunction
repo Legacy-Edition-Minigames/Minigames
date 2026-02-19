@@ -321,6 +321,9 @@ scoreboard objectives add lem.debug.fakeplayer.counter dummy
 #Target playercount
 scoreboard objectives add lem.debug.fakeplayer.target dummy
 
+##User config
+scoreboard objectives add usercfg trigger
+
 ##For addons to disable the built-in UI
 #Game
 scoreboard objectives add lem.ui.game.java.override dummy

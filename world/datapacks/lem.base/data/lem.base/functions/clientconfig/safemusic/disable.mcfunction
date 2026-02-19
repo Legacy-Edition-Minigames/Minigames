@@ -4,8 +4,14 @@ userconfig @s set lem.base:safemusic false
 ##Sync with backend
 userconfig @s sync
 
+##Skip to next song
+execute if score #Store lem.gamestatus matches 4 run function lem.base:clientconfig/skipsong/run
+
 ##Reset score
 scoreboard players reset @s safemusic
 
 ##Display message
-tellraw @s {"translate":"lem.config.safemusic.disable","color":"red"}
+execute unless score @s usercfg matches 1.. run tellraw @s {"translate":"lem.config.safemusic.disable","color":"red"}
+
+##Show usercfg if used
+execute if score @s usercfg matches 1.. run function lem.base:clientconfig/usercfg/menu/pack

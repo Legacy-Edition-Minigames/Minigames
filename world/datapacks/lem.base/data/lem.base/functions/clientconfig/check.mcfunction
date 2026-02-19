@@ -37,6 +37,9 @@ function lem.base:clientconfig/safemusic/check
 ##Tipped arrow hotbarswap toggle
 function lem.base:clientconfig/swaptipped/check
 
+##User config
+function lem.base:clientconfig/usercfg/check
+
 ##Run functions for addons
 function #lem.base:clientconfig/check
 
