@@ -11,4 +11,10 @@ function lem.base:config/load
 scoreboard players reset @s maptextures
 
 ##Display message
-tellraw @s ["",{"translate":"lem.config.globalpack.disable"},"\n",{"translate":"lem.hints.reloadresources.text","with":[{"text":"/trigger reloadresources","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger reloadresources"},"hoverEvent":{"action":"show_text","contents":[{"translate":"lem.hints.reloadresources.hover"}]}}],"clickEvent":{"action":"run_command","value":""}}]
+execute unless score @s usercfg matches 1.. run tellraw @s ["",{"translate":"lem.config.globalpack.disable"},"\n",{"translate":"lem.hints.reloadresources.text","with":[{"text":"/trigger reloadresources","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger reloadresources"},"hoverEvent":{"action":"show_text","contents":[{"translate":"lem.hints.reloadresources.hover"}]}}],"clickEvent":{"action":"run_command","value":""}}]
+
+##Reload resources if usercfg is used
+execute if score @s usercfg matches 1.. run scoreboard players set @s reloadresources 1
+
+##Show usercfg if used
+execute if score @s usercfg matches 1.. run function lem.base:clientconfig/usercfg/menu/pack

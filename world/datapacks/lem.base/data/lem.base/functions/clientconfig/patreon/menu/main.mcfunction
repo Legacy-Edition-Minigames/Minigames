@@ -6,3 +6,6 @@ function lem.base:clientconfig/patreon/menu/tier
 
 ##Display mob override options
 execute if score @s lem.patreon matches 2.. run function lem.base:clientconfig/patreon/menu/mob
+
+##Go back
+function lem.base:clientconfig/usercfg/menu/goback

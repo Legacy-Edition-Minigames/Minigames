@@ -9,8 +9,14 @@ execute as @a[scores={heartcosmetic=-2}] run function lem.base:clientconfig/hear
 execute as @a[scores={heartcosmetic=-3}] run function lem.base:clientconfig/heart/menu/pride
 #Patreon
 execute as @a[scores={heartcosmetic=-4}] run function lem.base:clientconfig/heart/menu/patreon
-#Secret
-execute as @a[scores={heartcosmetic=-5}] run function lem.base:clientconfig/heart/menu/secret
+#Custom
+execute as @a[scores={heartcosmetic=-5}] run function lem.base:clientconfig/heart/menu/custom/open
+execute as @a[scores={heartcosmetic=37,lem.patreon=..2}] run function lem.base:clientconfig/heart/menu/custom/needstandard
+execute as @a[scores={heartcosmetic=37,lem.patreon=3..}] run function lem.base:clientconfig/heart/menu/custom/needsetup
+execute as @a[scores={heartcosmetic=38,lem.patreon=..3}] run function lem.base:clientconfig/heart/menu/custom/needlarge
+execute as @a[scores={heartcosmetic=38,lem.patreon=4..}] run function lem.base:clientconfig/heart/menu/custom/needsetup
+execute as @a[scores={heartcosmetic=39,lem.patreon=..4}] run function lem.base:clientconfig/heart/menu/custom/needlargeplus
+execute as @a[scores={heartcosmetic=39,lem.patreon=5..}] run function lem.base:clientconfig/heart/menu/custom/needsetup
 
 ##Switch hearts
 #Minecraft
@@ -68,25 +74,46 @@ execute as @a[scores={heartcosmetic=23}] unless entity @s[scores={lem.patreon=4.
 #Large+
 execute as @a[scores={heartcosmetic=24}] if entity @s[scores={lem.patreon=5..}] run function lem.base:clientconfig/heart/switch/patreon/largeplus/run
 execute as @a[scores={heartcosmetic=24}] unless entity @s[scores={lem.patreon=5..}] run function lem.base:clientconfig/heart/switch/patreon/largeplus/fail
-#Custom
+#Custom 1
 #TheMinecraftArchitect
-execute as @a[scores={heartcosmetic=25},tag=heart-architect] run function lem.base:clientconfig/heart/switch/custom/architect
-execute as @a[scores={heartcosmetic=25},tag=!heart-architect] run function lem.base:clientconfig/heart/switch/notunlocked
-#Mario (Requested by Robux_Generator)
-execute as @a[scores={heartcosmetic=26},tag=heart-mario] run function lem.base:clientconfig/heart/switch/custom/mario
-execute as @a[scores={heartcosmetic=26},tag=!heart-mario] run function lem.base:clientconfig/heart/switch/notunlocked
+execute as @a[scores={heartcosmetic=25},tag=heart-theminecraftarchitect-1] run function lem.base:clientconfig/heart/switch/custom/1/theminecraftarchitect
+execute as @a[scores={heartcosmetic=25},tag=!heart-theminecraftarchitect-1] run function lem.base:clientconfig/heart/switch/notunlocked
+#Robux_Generator
+execute as @a[scores={heartcosmetic=26},tag=heart-robux_generator-1] run function lem.base:clientconfig/heart/switch/custom/1/robux_generator
+execute as @a[scores={heartcosmetic=26},tag=!heart-robux_generator-1] run function lem.base:clientconfig/heart/switch/notunlocked
 #Tris1357
-execute as @a[scores={heartcosmetic=27},tag=heart-tris1357] run function lem.base:clientconfig/heart/switch/custom/tris1357
-execute as @a[scores={heartcosmetic=27},tag=!heart-tris1357] run function lem.base:clientconfig/heart/switch/notunlocked
+execute as @a[scores={heartcosmetic=27},tag=heart-tris1357-1] run function lem.base:clientconfig/heart/switch/custom/1/tris1357
+execute as @a[scores={heartcosmetic=27},tag=!heart-tris1357-1] run function lem.base:clientconfig/heart/switch/notunlocked
 #PixeoGames
-execute as @a[scores={heartcosmetic=28},tag=heart-pixeogames] run function lem.base:clientconfig/heart/switch/custom/pixeogames
-execute as @a[scores={heartcosmetic=28},tag=!heart-pixeogames] run function lem.base:clientconfig/heart/switch/notunlocked
+execute as @a[scores={heartcosmetic=28},tag=heart-pixeogames-1] run function lem.base:clientconfig/heart/switch/custom/1/pixeogames
+execute as @a[scores={heartcosmetic=28},tag=!heart-pixeogames-1] run function lem.base:clientconfig/heart/switch/notunlocked
 #Lion8Cake
-execute as @a[scores={heartcosmetic=29},tag=heart-lion8cake] run function lem.base:clientconfig/heart/switch/custom/lion8cake
-execute as @a[scores={heartcosmetic=29},tag=!heart-lion8cake] run function lem.base:clientconfig/heart/switch/notunlocked
+execute as @a[scores={heartcosmetic=29},tag=heart-lion8cake-1] run function lem.base:clientconfig/heart/switch/custom/1/lion8cake
+execute as @a[scores={heartcosmetic=29},tag=!heart-lion8cake-1] run function lem.base:clientconfig/heart/switch/notunlocked
 #HomieSiDjack
-execute as @a[scores={heartcosmetic=30},tag=heart-homiesidjack] run function lem.base:clientconfig/heart/switch/custom/homiesidjack
-execute as @a[scores={heartcosmetic=30},tag=!heart-homiesidjack] run function lem.base:clientconfig/heart/switch/notunlocked
+execute as @a[scores={heartcosmetic=30},tag=heart-homiesidjack-1] run function lem.base:clientconfig/heart/switch/custom/1/homiesidjack
+execute as @a[scores={heartcosmetic=30},tag=!heart-homiesidjack-1] run function lem.base:clientconfig/heart/switch/notunlocked
+#Criminally_Silly
+execute as @a[scores={heartcosmetic=31},tag=heart-criminally_silly-1] run function lem.base:clientconfig/heart/switch/custom/1/criminally_silly
+execute as @a[scores={heartcosmetic=31},tag=!heart-criminally_silly-1] run function lem.base:clientconfig/heart/switch/notunlocked
+#V3NCO
+execute as @a[scores={heartcosmetic=32},tag=heart-v3nco-1] run function lem.base:clientconfig/heart/switch/custom/1/v3nco
+execute as @a[scores={heartcosmetic=32},tag=!heart-v3nco-1] run function lem.base:clientconfig/heart/switch/notunlocked
+#CuddleDrivenPony
+execute as @a[scores={heartcosmetic=33},tag=heart-cuddledrivenpony-1] run function lem.base:clientconfig/heart/switch/custom/1/cuddledrivenpony
+execute as @a[scores={heartcosmetic=33},tag=!heart-cuddledrivenpony-1] run function lem.base:clientconfig/heart/switch/notunlocked
+#SophiePancakes
+execute as @a[scores={heartcosmetic=34},tag=heart-sophiepancakes-1] run function lem.base:clientconfig/heart/switch/custom/1/sophiepancakes
+execute as @a[scores={heartcosmetic=34},tag=!heart-sophiepancakes-1] run function lem.base:clientconfig/heart/switch/notunlocked
+#Nioum
+execute as @a[scores={heartcosmetic=35},tag=heart-nioum-1] run function lem.base:clientconfig/heart/switch/custom/1/nioum
+execute as @a[scores={heartcosmetic=35},tag=!heart-nioum-1] run function lem.base:clientconfig/heart/switch/notunlocked
+#KitsuneTerra
+execute as @a[scores={heartcosmetic=36},tag=heart-kitsuneterra-1] run function lem.base:clientconfig/heart/switch/custom/1/kitsuneterra
+execute as @a[scores={heartcosmetic=36},tag=!heart-kitsuneterra-1] run function lem.base:clientconfig/heart/switch/notunlocked
+#FoxPodZ
+execute as @a[scores={heartcosmetic=40},tag=heart-foxpodz-1] run function lem.base:clientconfig/heart/switch/custom/1/foxpodz
+execute as @a[scores={heartcosmetic=40},tag=!heart-foxpodz-1] run function lem.base:clientconfig/heart/switch/notunlocked
 
 ##Enable toggle
 scoreboard players enable @a heartcosmetic

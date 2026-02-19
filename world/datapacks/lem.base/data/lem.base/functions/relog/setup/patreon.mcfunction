@@ -1,3 +1,6 @@
+##Set default value
+scoreboard players set @s lem.patreon 0
+
 ##Load patreon data
 #Emmie
 execute as a20181ca-a75d-401e-ac58-36ab8f040cf5 run scoreboard players set @s lem.patreon 5

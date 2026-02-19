@@ -8,4 +8,7 @@ userconfig @s sync
 scoreboard players reset @s swaptipped
 
 ##Display message
-tellraw @s {"translate":"lem.config.swaptipped.disable","color":"red"}
+execute unless score @s usercfg matches 1.. run tellraw @s {"translate":"lem.config.swaptipped.disable","color":"red"}
+
+##Show usercfg if used
+execute if score @s usercfg matches 1.. run function lem.base:clientconfig/usercfg/menu/user
