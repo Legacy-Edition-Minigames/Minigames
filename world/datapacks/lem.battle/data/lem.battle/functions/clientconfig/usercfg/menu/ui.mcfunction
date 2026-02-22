@@ -1,0 +1,5 @@
+##Armor Bar
+#Disabled
+userconfig @s test lem.battle:armorbar EQUAL false runCommand tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger usercfg set 13"}},{"text":"❌","color":"red","clickEvent":{"action":"run_command","value":"/trigger usercfg set 13"}},{"text":"] ","color":"blue","clickEvent":{"action":"run_command","value":"/trigger usercfg set 13"}},{"translate":"lem.config.usercfg.menu.ui.armorbar","color":"blue","clickEvent":{"action":"run_command","value":"/trigger usercfg set 13"}}]
+#Enabled
+userconfig @s test lem.battle:armorbar EQUAL true runCommand tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger usercfg set 14"}},{"text":"✔","color":"green","clickEvent":{"action":"run_command","value":"/trigger usercfg set 14"}},{"text":"] ","color":"blue","clickEvent":{"action":"run_command","value":"/trigger usercfg set 14"}},{"translate":"lem.config.usercfg.menu.ui.armorbar","color":"blue","clickEvent":{"action":"run_command","value":"/trigger usercfg set 14"}}]

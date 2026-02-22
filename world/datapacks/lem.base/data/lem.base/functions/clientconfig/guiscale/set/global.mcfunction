@@ -9,3 +9,6 @@ userconfig @s sync
 
 ##Reset score
 scoreboard players reset @s guiscale
+
+##Show usercfg if used
+execute if score @s usercfg matches 1.. run function lem.base:clientconfig/usercfg/menu/ui

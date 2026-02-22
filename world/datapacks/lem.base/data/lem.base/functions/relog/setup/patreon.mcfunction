@@ -1,3 +1,6 @@
+##Set default value
+scoreboard players set @s lem.patreon 0
+
 ##Load patreon data
 #Emmie
 execute as a20181ca-a75d-401e-ac58-36ab8f040cf5 run scoreboard players set @s lem.patreon 5
@@ -425,6 +428,26 @@ execute as 52ef6e51-c220-437b-bb32-479c2fe2b28a run scoreboard players set @s le
 execute as 712312e6-59da-4f78-bda4-793ca68aa700 run scoreboard players set @s lem.patreon 1
 #Pratatoo
 execute as 61038194-0e1e-47a3-8632-190f5658e0bd run scoreboard players set @s lem.patreon 1
+#mexican_misosoup
+execute as c9b092b2-be22-4c7c-9cba-390ea20d05ce run scoreboard players set @s lem.patreon 1
+#PWTC
+execute as ce4eeb28-ae71-4d85-8ca1-c288b348039e run scoreboard players set @s lem.patreon 1
+#blackb1ade
+execute as 7e41efdc-a88b-459a-b450-dbb1059a9a11 run scoreboard players set @s lem.patreon 1
+#EndofTimee
+execute as dbdd5790-08cc-4cb7-907e-8d0fc45bed5e run scoreboard players set @s lem.patreon 1
+#roroohehe
+execute as 4e52ed15-8358-40ce-bc10-e58977dc5f0a run scoreboard players set @s lem.patreon 1
+#lemqin
+execute as 1384bae4-621f-4e3d-ba96-dd6db585b672 run scoreboard players set @s lem.patreon 2
+#KitsuneTerra
+execute as b74c08fb-fd24-4a6c-ad9a-0543a71920de run scoreboard players set @s lem.patreon 4
+#hen0tic02
+execute as 62a310c0-c276-48ef-a46b-fbdd11c2c54b run scoreboard players set @s lem.patreon 1
+#Applejax3621
+execute as 71169fb0-30c5-4c5f-8357-26664606ab28 run scoreboard players set @s lem.patreon 2
+#FoxPodZ
+execute as a35a944b-0cd3-42e4-9cdd-8c4fb7c1eb46 run scoreboard players set @s lem.patreon 5
 
 ##Reset heart if no longer subscribed
 #Tiny

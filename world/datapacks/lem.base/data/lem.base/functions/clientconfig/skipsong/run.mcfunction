@@ -8,4 +8,4 @@ stopsound @s music
 scoreboard players reset @s skipsong
 
 ##Display message
-tellraw @s ["",{"translate":"lem.config.skipsong.success","color":"green"},"\n",{"translate":"lem.config.skipsong.note","color":"gold"}]
+execute unless score @s usercfg matches 1.. run tellraw @s ["",{"translate":"lem.config.skipsong.success","color":"green"},"\n",{"translate":"lem.config.skipsong.note","color":"gold"}]

@@ -6,7 +6,7 @@ function lem.base:relog/setup/lemclienthelper/optionsync/run
 
 ##Display message
 #Discord
-tellraw @s ["",{"translate":"lem.relog.join.discord","color":"#7289DA"},"\n",{"text":"https://discord.gg/t52nM7X6nd","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://discord.gg/t52nM7X6nd"},"hoverEvent":{"action":"show_text","contents":[{"translate":"lem.relog.join.discord.hover","color":"blue"},": https://discord.gg/t52nM7X6nd"]}}]
+tellraw @s ["",{"translate":"lem.relog.join.discord","color":"#7289DA"},"\n",{"text":"https://discord.gg/sApDDaS8et","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://discord.gg/sApDDaS8et"},"hoverEvent":{"action":"show_text","contents":[{"translate":"lem.relog.join.discord.hover","color":"blue"},": https://discord.gg/sApDDaS8et"]}}]
 #Patreon
 tellraw @s ["",{"translate":"lem.relog.join.patreon","color":"gold","with":[{"text":"Patreon","bold":true,"color":"#FF424D"}]},"\n",{"text":"https://www.legacyminigames.net/patreon","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://www.legacyminigames.net/patreon"},"hoverEvent":{"action":"show_text","contents":[{"text":"https://www.legacyminigames.net/patreon","color":"blue"}]}}]
 #Experimental Server
@@ -43,6 +43,9 @@ function lem.base:game/player/setpid
 
 ##Detect if Patreon
 function lem.base:relog/setup/patreon
+
+##Detect if Moderator
+function lem.base:relog/setup/moderator
 
 ##Detect per-user data
 function lem.base:relog/setup/usercheck
