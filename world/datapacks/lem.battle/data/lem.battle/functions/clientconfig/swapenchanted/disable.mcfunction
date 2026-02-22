@@ -11,4 +11,7 @@ takeeverything ignoreEnchants false @s
 scoreboard players reset @s swapenchanted
 
 ##Display message
-tellraw @s {"translate":"lem.battle.config.swapenchanted.disable","color":"red"}
+execute unless score @s usercfg matches 1.. run tellraw @s {"translate":"lem.battle.config.swapenchanted.disable","color":"red"}
+
+##Show usercfg if used
+execute if score @s usercfg matches 1.. run function lem.base:clientconfig/usercfg/menu/user

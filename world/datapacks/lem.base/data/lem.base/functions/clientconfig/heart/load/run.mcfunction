@@ -54,14 +54,30 @@ userconfig @s test lem.base:heartcosmetic EQUAL patreon_largeplus runCommand set
 
 ##Custom
 #TheMinecraftArchitect
-userconfig @s test lem.base:heartcosmetic EQUAL custom_architect runCommand setSuffixFont alive "lem.base:tablist/heart/secret/architect" @s
-#Mario
-userconfig @s test lem.base:heartcosmetic EQUAL custom_mario runCommand setSuffixFont alive "lem.base:tablist/heart/secret/mario" @s
+userconfig @s test lem.base:heartcosmetic EQUAL custom_theminecraftarchitect runCommand setSuffixFont alive "lem.base:tablist/heart/custom/1/theminecraftarchitect" @s
+#Robux_Generator
+userconfig @s test lem.base:heartcosmetic EQUAL custom_robux_generator runCommand setSuffixFont alive "lem.base:tablist/heart/custom/1/robux_generator" @s
 #Tris1357
-userconfig @s test lem.base:heartcosmetic EQUAL custom_tris1357 runCommand setSuffixFont alive "lem.base:tablist/heart/secret/tris1357" @s
+userconfig @s test lem.base:heartcosmetic EQUAL custom_tris1357 runCommand setSuffixFont alive "lem.base:tablist/heart/custom/1/tris1357" @s
 #PixeoGames
-userconfig @s test lem.base:heartcosmetic EQUAL custom_pixeogames runCommand setSuffixFont alive "lem.base:tablist/heart/secret/pixeogames" @s
+userconfig @s test lem.base:heartcosmetic EQUAL custom_pixeogames runCommand setSuffixFont alive "lem.base:tablist/heart/custom/1/pixeogames" @s
 #Lion8Cake
-userconfig @s test lem.base:heartcosmetic EQUAL custom_lion8cake runCommand setSuffixFont alive "lem.base:tablist/heart/secret/lion8cake" @s
+userconfig @s test lem.base:heartcosmetic EQUAL custom_lion8cake runCommand setSuffixFont alive "lem.base:tablist/heart/custom/1/lion8cake" @s
 #HomieSiDjack
-userconfig @s test lem.base:heartcosmetic EQUAL custom_homiesidjack runCommand setSuffixFont alive "lem.base:tablist/heart/secret/homiesidjack" @s
+userconfig @s test lem.base:heartcosmetic EQUAL custom_homiesidjack runCommand setSuffixFont alive "lem.base:tablist/heart/custom/1/homiesidjack" @s
+#Criminally_Silly
+userconfig @s test lem.base:heartcosmetic EQUAL custom_criminally_silly runCommand setSuffixFont alive "lem.base:tablist/heart/custom/1/criminally_silly" @s
+#V3NCO
+userconfig @s test lem.base:heartcosmetic EQUAL custom_v3nco runCommand execute store result score @s lem.temp run random value 1..2
+userconfig @s test lem.base:heartcosmetic EQUAL custom_v3nco runCommand execute if score @s lem.temp matches 1 run setSuffixFont alive "lem.base:tablist/heart/custom/1/v3nco/rick" @s
+userconfig @s test lem.base:heartcosmetic EQUAL custom_v3nco runCommand execute if score @s lem.temp matches 2 run setSuffixFont alive "lem.base:tablist/heart/custom/1/v3nco/meals" @s
+#CuddleDrivenPony
+userconfig @s test lem.base:heartcosmetic EQUAL custom_cuddledrivenpony runCommand setSuffixFont alive "lem.base:tablist/heart/custom/1/cuddledrivenpony" @s
+#SophiePancakes
+userconfig @s test lem.base:heartcosmetic EQUAL custom_sophiepancakes runCommand setSuffixFont alive "lem.base:tablist/heart/custom/1/sophiepancakes" @s
+#Nioum
+userconfig @s test lem.base:heartcosmetic EQUAL custom_nioum runCommand setSuffixFont alive "lem.base:tablist/heart/custom/1/nioum" @s
+#KitsuneTerra
+userconfig @s test lem.base:heartcosmetic EQUAL custom_kitsuneterra runCommand setSuffixFont alive "lem.base:tablist/heart/custom/1/kitsuneterra" @s
+#FoxPodZ
+userconfig @s test lem.base:heartcosmetic EQUAL custom_foxpodz runCommand setSuffixFont alive "lem.base:tablist/heart/custom/1/foxpodz" @s
