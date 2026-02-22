@@ -28,6 +28,8 @@ tag @s remove optifine
 tag @s remove ingame
 tag @s remove bedrock
 tag @s remove clientchecked
+tag @s remove moderator
+tag @s remove MobOverride_mod
 tag @s remove heart-custom1
 tag @s remove heart-theminecraftarchitect-1
 tag @s remove heart-robux_generator-1

@@ -27,6 +27,9 @@ userconfig @s test lem.base:swaptipped EQUAL _NOTHING_ runCommand userconfig @s 
 ##Patreon mob override
 userconfig @s test lem.base:patreon_mob EQUAL _NOTHING_ runCommand userconfig @s set lem.base:patreon_mob disabled
 
+##Moderator mob override
+userconfig @s test lem.base:moderator_mob EQUAL _NOTHING_ runCommand userconfig @s set lem.base:moderator_mob disabled
+
 ##Panorama settings
 #Background
 userconfig @s test lem.base:panorama_background EQUAL _NOTHING_ runCommand userconfig @s set lem.base:panorama_background 69

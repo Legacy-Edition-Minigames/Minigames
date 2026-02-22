@@ -40,6 +40,9 @@ function lem.base:clientconfig/swaptipped/check
 ##User config
 function lem.base:clientconfig/usercfg/check
 
+##Moderator menu
+function lem.base:clientconfig/moderator/check
+
 ##Run functions for addons
 function #lem.base:clientconfig/check
 
