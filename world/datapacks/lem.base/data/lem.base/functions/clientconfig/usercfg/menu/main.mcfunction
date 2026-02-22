@@ -10,6 +10,9 @@ tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","
 ##Patreon settings
 tellraw @s ["",{"text":"[","color":"#FF424D","clickEvent":{"action":"run_command","value":"/trigger patreon"}},{"translate":"lem.config.usercfg.menu.patreon","color":"#FF424D","clickEvent":{"action":"run_command","value":"/trigger patreon"}},{"text":"]","color":"#FF424D","clickEvent":{"action":"run_command","value":"/trigger patreon"}}]
 
+##Moderator
+execute if entity @s[tag=moderator] run tellraw @s ["",{"text":"[","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger moderator"}},{"translate":"lem.config.usercfg.menu.mod","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger moderator"}},{"text":"]","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger moderator"}}]
+
 #Admin
 ifop @s runFunction lem.base:menu/load/host/admin/run
 

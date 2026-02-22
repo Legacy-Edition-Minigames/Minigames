@@ -44,6 +44,9 @@ function lem.base:game/player/setpid
 ##Detect if Patreon
 function lem.base:relog/setup/patreon
 
+##Detect if Moderator
+function lem.base:relog/setup/moderator
+
 ##Detect per-user data
 function lem.base:relog/setup/usercheck
 
