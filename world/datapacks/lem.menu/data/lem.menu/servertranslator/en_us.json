@@ -261,5 +261,13 @@
     "lem.menu.ui.text.button.full.server.4": "10100",
     "lem.menu.ui.text.button.full.server.experimental.1": "10101",
     "lem.menu.ui.text.button.full.server.experimental.2": "10102",
-    "lem.menu.ui.text.button.full.server.europe": "10103"
+    "lem.menu.ui.text.button.full.server.europe": "10103",
+    "lem.menu.ui.text.button.full.smallinv_default": "10104",
+    "lem.menu.ui.text.button.full.smallinv_dark": "10105",
+    "lem.menu.ui.text.button.full.smallinv_transparent": "10106",
+    "lem.menu.ui.text.tick.armor_bar": "10107",
+    "lem.menu.ui.text.tick.hotbar_item_swapping": "10108",
+    "lem.menu.ui.text.tick.tipped_arrow_hotbar_swapping": "10109",
+    "lem.menu.ui.text.tick.auto_swap_enchanted_armor": "10110",
+    "lem.menu.ui.text.button.full.heart_cosmetic": "10111"
   }

@@ -31,6 +31,16 @@ scoreboard objectives add lem.menu.ui.dynamic.pack.config.safemusic dummy
 scoreboard objectives add lem.menu.ui.dynamic.ui.config.scale dummy
 #Setup: Rules
 scoreboard objectives add lem.menu.ui.dynamic.setup.rules.agree dummy
+#UI Config: Small Inventory
+scoreboard objectives add lem.menu.ui.dynamic.ui.config.smallinv dummy
+#UI Config: Armor Bar
+scoreboard objectives add lem.menu.ui.dynamic.ui.config.armorbar dummy
+#User Config: Hotbar Swapipng
+scoreboard objectives add lem.menu.ui.dynamic.user.config.hotbarswap dummy
+#User Config: Tipped Arrow Hotbar Swapipng
+scoreboard objectives add lem.menu.ui.dynamic.user.config.swaptipped dummy
+#User Config: Enchanted Armor Swapping
+scoreboard objectives add lem.menu.ui.dynamic.user.config.swapenchanted dummy
 
 ##Title
 scoreboard objectives add lem.menu.title dummy

@@ -1,0 +1,147 @@
+{
+  "title": "[\"\",{\"text\":\"\uF808\uF8033\",\"color\":\"white\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"text\":\"\uF80C\uF80A\uF809\uF808\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"translate\":\"lem.menu.ui.title.user_settings\",\"color\":\"#424242\",\"font\":\"lem.menu:menu/text/en_us/title/user_settings\"}]",
+  "escToClose": true,
+  "escSound": "lem.menu:sound.menu.back",
+  "forceHotBarSlot": "1",
+  "slots": {
+      "0-6": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:options/user/heart_notice"
+      },
+      "7": {
+        "presetID": "lem.menu:button/standard/full:default",
+        "leftClickAction": "openUI/ lem.menu:options/user/heart_notice"
+      },
+      "8": {
+        "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.full.heart_cosmetic",
+        "leftClickAction": "openUI/ lem.menu:options/user/heart_notice"
+      },
+      "9": {
+        "presetID": "lem.menu:button/generic:blank",
+        "itemID": "minecraft:ghast_tear",
+        "itemNBT": "{display:{Name:'{\"translate\":\"lem.menu.ui.tip.hotbar_item_swapping\",\"italic\":false}'},CustomModelData:1}",
+        "leftClickAction": "command/ function lem.menu:menu/config/user/hotbarswap/toggle",
+        "refreshOnInteract" : true
+      },
+      "10": {
+        "presetID": "lem.menu:button/generic:tickbox",
+        "itemNBT": "{display:{Name:'{\"translate\":\"lem.menu.ui.tip.hotbar_item_swapping\",\"italic\":false}'},CustomModelData:1}",
+        "leftClickAction": "command/ function lem.menu:menu/config/user/hotbarswap/toggle",
+        "dynamicModel": {
+          "score": "lem.menu.ui.dynamic.user.config.hotbarswap",
+          "player": "@s",
+          "models": {
+            "2": "lem.menu.ui.button.tick_disabled",
+            "1": "lem.menu.ui.button.tick_enabled"
+          }
+        }
+      },
+      "11": {
+        "presetID": "lem.menu:button/generic:text_tickbox",
+        "itemNBT": "{HideFlags:64,display:{color:4342338,Name:'{\"translate\":\"lem.menu.ui.tip.hotbar_item_swapping\",\"italic\":false}'},CustomModelData:1}",
+        "leftClickAction": "command/ function lem.menu:menu/config/user/hotbarswap/toggle",
+        "customModelData": "lem.menu.ui.text.tick.hotbar_item_swapping",
+        "refreshOnInteract" : true
+      },
+      "12-15": {
+        "presetID": "lem.menu:button/generic:blank",
+        "itemID": "minecraft:ghast_tear",
+        "itemNBT": "{display:{Name:'{\"translate\":\"lem.menu.ui.tip.hotbar_item_swapping\",\"italic\":false}'},CustomModelData:1}",
+        "leftClickAction": "command/ function lem.menu:menu/config/user/hotbarswap/toggle",
+        "refreshOnInteract" : true
+      },
+      "18": {
+        "presetID": "lem.menu:button/generic:blank",
+        "itemID": "minecraft:ghast_tear",
+        "itemNBT": "{display:{Name:'{\"translate\":\"lem.menu.ui.tip.tipped_arrow_hotbar_swapping\",\"italic\":false}'},CustomModelData:1}",
+        "leftClickAction": "command/ function lem.menu:menu/config/user/swaptipped/toggle",
+        "refreshOnInteract" : true
+      },
+      "19": {
+        "presetID": "lem.menu:button/generic:tickbox",
+        "itemNBT": "{display:{Name:'{\"translate\":\"lem.menu.ui.tip.tipped_arrow_hotbar_swapping\",\"italic\":false}'},CustomModelData:1}",
+        "leftClickAction": "command/ function lem.menu:menu/config/user/swaptipped/toggle",
+        "dynamicModel": {
+          "score": "lem.menu.ui.dynamic.user.config.swaptipped",
+          "player": "@s",
+          "models": {
+            "2": "lem.menu.ui.button.tick_disabled",
+            "1": "lem.menu.ui.button.tick_enabled"
+          }
+        }
+      },
+      "20": {
+        "presetID": "lem.menu:button/generic:text_tickbox",
+        "itemNBT": "{HideFlags:64,display:{color:4342338,Name:'{\"translate\":\"lem.menu.ui.tip.tipped_arrow_hotbar_swapping\",\"italic\":false}'},CustomModelData:1}",
+        "leftClickAction": "command/ function lem.menu:menu/config/user/swaptipped/toggle",
+        "customModelData": "lem.menu.ui.text.tick.tipped_arrow_hotbar_swapping",
+        "refreshOnInteract" : true
+      },
+      "21-26": {
+        "presetID": "lem.menu:button/generic:blank",
+        "itemID": "minecraft:ghast_tear",
+        "itemNBT": "{display:{Name:'{\"translate\":\"lem.menu.ui.tip.tipped_arrow_hotbar_swapping\",\"italic\":false}'},CustomModelData:1}",
+        "leftClickAction": "command/ function lem.menu:menu/config/user/swaptipped/toggle",
+        "refreshOnInteract" : true
+      },
+      "27": {
+        "presetID": "lem.menu:button/generic:blank",
+        "itemID": "minecraft:ghast_tear",
+        "itemNBT": "{display:{Name:'{\"translate\":\"lem.menu.ui.tip.auto_swap_enchanted_armor\",\"italic\":false}'},CustomModelData:1}",
+        "leftClickAction": "command/ function lem.menu:menu/config/user/swapenchanted/toggle",
+        "refreshOnInteract" : true
+      },
+      "28": {
+        "presetID": "lem.menu:button/generic:tickbox",
+        "itemNBT": "{display:{Name:'{\"translate\":\"lem.menu.ui.tip.auto_swap_enchanted_armor\",\"italic\":false}'},CustomModelData:1}",
+        "leftClickAction": "command/ function lem.menu:menu/config/user/swapenchanted/toggle",
+        "dynamicModel": {
+          "score": "lem.menu.ui.dynamic.user.config.swapenchanted",
+          "player": "@s",
+          "models": {
+            "2": "lem.menu.ui.button.tick_disabled",
+            "1": "lem.menu.ui.button.tick_enabled"
+          }
+        }
+      },
+      "29": {
+        "presetID": "lem.menu:button/generic:text_tickbox",
+        "itemNBT": "{HideFlags:64,display:{color:4342338,Name:'{\"translate\":\"lem.menu.ui.tip.auto_swap_enchanted_armor\",\"italic\":false}'},CustomModelData:1}",
+        "leftClickAction": "command/ function lem.menu:menu/config/user/swapenchanted/toggle",
+        "customModelData": "lem.menu.ui.text.tick.auto_swap_enchanted_armor",
+        "refreshOnInteract" : true
+      },
+      "30-35": {
+        "presetID": "lem.menu:button/generic:blank",
+        "itemID": "minecraft:ghast_tear",
+        "itemNBT": "{display:{Name:'{\"translate\":\"lem.menu.ui.tip.auto_swap_enchanted_armor\",\"italic\":false}'},CustomModelData:1}",
+        "leftClickAction": "command/ function lem.menu:menu/config/user/swapenchanted/toggle",
+        "refreshOnInteract" : true
+      },
+      "73-78": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
+      },
+      "79": {
+        "presetID": "lem.menu:button/standard/full:default",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
+      },
+      "80": {
+        "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.full.done",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
+      },
+      "72": {
+        "presetID": "lem.menu:button/leavegame:visual",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
+      },
+      "81": {
+        "presetID": "lem.menu:button/leavegame:button"
+      }
+  }
+}

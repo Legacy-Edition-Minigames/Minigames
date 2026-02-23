@@ -1,5 +1,5 @@
 {
-  "title": "",
+  "title": "[\"\",{\"text\":\"\uF808\uF8033\",\"color\":\"white\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"text\":\"\uF80C\uF80A\uF809\uF808\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"},{\"translate\":\"lem.menu.ui.title.ui_settings\",\"color\":\"#424242\",\"font\":\"lem.menu:menu/text/en_us/title/ui_settings\"}]",
   "escToClose": true,
   "escSound": "lem.menu:sound.menu.back",
   "forceHotBarSlot": "1",
@@ -27,11 +27,114 @@
       },
       "17": {
         "presetID": "lem.menu:button/generic:text",
-        "customModelData": "lem.menu.ui.text.button.full.scale_settings",
+        "customModelData": "lem.menu.ui.text.button.full.ui_settings",
         "leftClickAction": "openUI/ lem.menu:options/ui/scale"
       },
+      "18": {
+        "presetID": "lem.menu:button/generic:slider_background",
+        "leftClickAction": "command/ function lem.menu:menu/config/ui/smallinv/vanilla",
+        "refreshOnInteract" : true
+      },
+      "19-20": {
+        "presetID": "lem.menu:button/generic:blank_slider",
+        "leftClickAction": "command/ function lem.menu:menu/config/ui/smallinv/vanilla",
+        "refreshOnInteract" : true
+      },
+      "21": {
+        "presetID": "lem.menu:button/generic:slider_button",
+        "itemNBT": "{CustomModelData:1,display:{Name:'{\"translate\":\"lem.menu.ui.tip.smallinv.dark\",\"italic\":false}'}}",
+        "refreshOnInteract" : true
+      },
+      "22": {
+        "presetID": "lem.menu:button/generic:slider_button",
+        "itemNBT": "{display:{Name:'{\"translate\":\"lem.menu.ui.tip.smallinv.dark\",\"italic\":false}'}}",
+        "leftClickAction": "command/ function lem.menu:menu/config/ui/smallinv/dark",
+        "refreshOnInteract" : true,
+        "dynamicModel": {
+          "score": "lem.menu.ui.dynamic.ui.config.smallinv",
+          "player": "@s",
+          "models": {
+            "1": "lem.menu.ui.slider.1",
+            "2": "lem.menu.ui.slider.76",
+            "3": "lem.menu.ui.slider.151"
+          }
+        }
+      },
+      "23": {
+        "presetID": "lem.menu:button/generic:slider_button",
+        "itemNBT": "{CustomModelData:1,display:{Name:'{\"translate\":\"lem.menu.ui.tip.smallinv.dark\",\"italic\":false}'}}",
+        "leftClickAction": "command/ function lem.menu:menu/config/ui/smallinv/dark",
+        "refreshOnInteract" : true
+      },
+      "24-25": {
+        "presetID": "lem.menu:button/generic:slider_button",
+        "itemNBT": "{CustomModelData:1,display:{Name:'{\"translate\":\"lem.menu.ui.tip.smallinv.transparent\",\"italic\":false}'}}",
+        "leftClickAction": "command/ function lem.menu:menu/config/ui/smallinv/transparent",
+        "refreshOnInteract" : true
+      },
+      "26": {
+        "presetID": "lem.menu:button/generic:text_slider",
+        "itemNBT": "{HideFlags:64,display:{color:16777215,Name:'{\"translate\":\"lem.menu.ui.tip.smallinv.transparent\",\"italic\":false}'}}",
+        "leftClickAction": "command/ function lem.menu:menu/config/ui/smallinv/transparent",
+        "refreshOnInteract" : true,
+        "dynamicModel": {
+          "score": "lem.menu.ui.dynamic.ui.config.smallinv",
+          "player": "@s",
+          "models": {
+            "1": "lem.menu.ui.text.button.full.smallinv_default",
+            "2": "lem.menu.ui.text.button.full.smallinv_dark",
+            "3": "lem.menu.ui.text.button.full.smallinv_transparent"
+          }
+        }
+      },
+      "27": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "command/ function lem.menu:menu/config/ui/armorbar/toggle",
+        "refreshOnInteract" : true
+      },
+      "28": {
+        "presetID": "lem.menu:button/generic:tickbox",
+        "leftClickAction": "command/ function lem.menu:menu/config/ui/armorbar/toggle",
+        "dynamicModel": {
+          "score": "lem.menu.ui.dynamic.ui.config.armorbar",
+          "player": "@s",
+          "models": {
+            "2": "lem.menu.ui.button.tick_disabled",
+            "1": "lem.menu.ui.button.tick_enabled"
+          }
+        }
+      },
+      "29": {
+        "presetID": "lem.menu:button/generic:text_tickbox",
+        "leftClickAction": "command/ function lem.menu:menu/config/ui/armorbar/toggle",
+        "customModelData": "lem.menu.ui.text.tick.armor_bar",
+        "refreshOnInteract" : true
+      },
+      "30": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "command/ function lem.menu:menu/config/ui/armorbar/toggle",
+        "refreshOnInteract" : true
+      },
+      "73-78": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
+      },
+      "79": {
+        "presetID": "lem.menu:button/standard/full:default",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
+      },
+      "80": {
+        "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.full.done",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
+      },
       "72": {
-        "presetID": "lem.menu:button/leavegame:visual"
+        "presetID": "lem.menu:button/leavegame:visual",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
       },
       "81": {
         "presetID": "lem.menu:button/leavegame:button"

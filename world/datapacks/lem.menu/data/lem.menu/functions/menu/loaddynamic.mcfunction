@@ -41,6 +41,24 @@ userconfig @s test lem.base:safemusic EQUAL true runCommand scoreboard players s
 ##UI config options
 #UI Scale
 scoreboard players operation @s lem.menu.ui.dynamic.ui.config.scale = @s lem.guiscale
+#Smallinv
+userconfig @s test lem.base:smallinv_theme EQUAL vanilla runCommand scoreboard players set @s lem.menu.ui.dynamic.ui.config.smallinv 1
+userconfig @s test lem.base:smallinv_theme EQUAL dark runCommand scoreboard players set @s lem.menu.ui.dynamic.ui.config.smallinv 2
+userconfig @s test lem.base:smallinv_theme EQUAL transparent runCommand scoreboard players set @s lem.menu.ui.dynamic.ui.config.smallinv 3
+#Armor Bar
+userconfig @s test lem.battle:armorbar EQUAL false runCommand scoreboard players set @s lem.menu.ui.dynamic.ui.config.armorbar 2
+userconfig @s test lem.battle:armorbar EQUAL true runCommand scoreboard players set @s lem.menu.ui.dynamic.ui.config.armorbar 1
+
+##User config options
+#Hotbar Swapping
+userconfig @s test lem.base:hotbarswap EQUAL false runCommand scoreboard players set @s lem.menu.ui.dynamic.user.config.hotbarswap 2
+userconfig @s test lem.base:hotbarswap EQUAL true runCommand scoreboard players set @s lem.menu.ui.dynamic.user.config.hotbarswap 1
+#Tipped Arrow Hotbar Swapping
+userconfig @s test lem.base:swaptipped EQUAL false runCommand scoreboard players set @s lem.menu.ui.dynamic.user.config.swaptipped 2
+userconfig @s test lem.base:swaptipped EQUAL true runCommand scoreboard players set @s lem.menu.ui.dynamic.user.config.swaptipped 1
+#Enchanted Armor Swapping
+userconfig @s test lem.battle:swapenchanted EQUAL false runCommand scoreboard players set @s lem.menu.ui.dynamic.user.config.swapenchanted 2
+userconfig @s test lem.battle:swapenchanted EQUAL true runCommand scoreboard players set @s lem.menu.ui.dynamic.user.config.swapenchanted 1
 
 ##Run functions for addons
 function #lem.menu:menu/loaddynamic
