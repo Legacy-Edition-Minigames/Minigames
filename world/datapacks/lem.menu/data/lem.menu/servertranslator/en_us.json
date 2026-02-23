@@ -255,5 +255,11 @@
     "lem.menu.ui.text.button.full.more_information": "10094",
     "lem.menu.ui.text.button.full.achievements": "10095",
     "lem.menu.ui.text.tick.texture_pack_swapping": "10096",
-    "lem.menu.ui.text.tick.twitch_youtube_safe_music": "10097"
+    "lem.menu.ui.text.tick.twitch_youtube_safe_music": "10097",
+    "lem.menu.ui.text.button.full.stable": "10098",
+    "lem.menu.ui.text.button.full.experimental": "10099",
+    "lem.menu.ui.text.button.full.server.4": "10100",
+    "lem.menu.ui.text.button.full.server.experimental.1": "10101",
+    "lem.menu.ui.text.button.full.server.experimental.2": "10102",
+    "lem.menu.ui.text.button.full.server.europe": "10103"
   }

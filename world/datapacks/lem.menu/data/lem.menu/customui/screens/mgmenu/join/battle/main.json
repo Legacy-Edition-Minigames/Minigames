@@ -1,0 +1,58 @@
+{
+  "title": "{\"text\":\"\uF808\uF8031\",\"color\":\"white\",\"font\":\"lem.menu:menu/theme/vanilla/window/box\"}",
+  "escToClose": true,
+  "escSound": "lem.menu:sound.menu.back",
+  "forceHotBarSlot": "1",
+  "slots": {
+      "0-6": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:mgmenu/join/battle/stable"
+      },
+      "7": {
+        "presetID": "lem.menu:button/standard/full:default",
+        "leftClickAction": "openUI/ lem.menu:mgmenu/join/battle/stable"
+      },
+      "8": {
+        "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.full.stable",
+        "leftClickAction": "openUI/ lem.menu:mgmenu/join/battle/stable"
+      },
+      "9-15": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickAction": "openUI/ lem.menu:mgmenu/join/battle/experimental"
+      },
+      "16": {
+        "presetID": "lem.menu:button/standard/full:default",
+        "leftClickAction": "openUI/ lem.menu:mgmenu/join/battle/experimental"
+      },
+      "17": {
+        "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.full.experimental",
+        "leftClickAction": "openUI/ lem.menu:mgmenu/join/battle/experimental"
+      },
+      "73-78": {
+        "presetID": "lem.menu:button/generic:blank",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
+      },
+      "79": {
+        "presetID": "lem.menu:button/standard/full:default",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
+      },
+      "80": {
+        "presetID": "lem.menu:button/generic:text",
+        "customModelData": "lem.menu.ui.text.button.full.go_back",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
+      },
+      "72": {
+        "presetID": "lem.menu:button/leavegame:visual",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
+      },
+      "81": {
+        "presetID": "lem.menu:button/leavegame:button"
+      }
+  }
+}
