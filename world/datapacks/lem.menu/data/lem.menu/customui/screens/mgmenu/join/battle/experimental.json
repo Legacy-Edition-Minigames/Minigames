@@ -6,29 +6,29 @@
   "slots": {
       "0-6": {
         "presetID": "lem.menu:button/generic:blank",
-        "leftClickAction": "command/ velocityserverswitch battle_exp_1"
+        "leftClickAction": "command/ velocityserverswitch battle_experimental_1"
       },
       "7": {
         "presetID": "lem.menu:button/standard/full:default",
-        "leftClickAction": "command/ velocityserverswitch battle_exp_1"
+        "leftClickAction": "command/ velocityserverswitch battle_experimental_1"
       },
       "8": {
         "presetID": "lem.menu:button/generic:text",
         "customModelData": "lem.menu.ui.text.button.full.server.experimental.1",
-        "leftClickAction": "command/ velocityserverswitch battle_exp_1"
+        "leftClickAction": "command/ velocityserverswitch battle_experimental_1"
       },
       "9-15": {
         "presetID": "lem.menu:button/generic:blank",
-        "leftClickAction": "command/ velocityserverswitch battle_exp_2"
+        "leftClickAction": "command/ velocityserverswitch battle_experimental_2"
       },
       "16": {
         "presetID": "lem.menu:button/standard/full:default",
-        "leftClickAction": "command/ velocityserverswitch battle_exp_2"
+        "leftClickAction": "command/ velocityserverswitch battle_experimental_2"
       },
       "17": {
         "presetID": "lem.menu:button/generic:text",
         "customModelData": "lem.menu.ui.text.button.full.server.experimental.2",
-        "leftClickAction": "command/ velocityserverswitch battle_exp_2"
+        "leftClickAction": "command/ velocityserverswitch battle_experimental_2"
       },
       "18-24": {
         "presetID": "lem.menu:button/generic:blank",
