@@ -41,6 +41,9 @@ execute as @a[scores={usercfg=20}] run function lem.base:clientconfig/hotbarswap
 execute as @a[scores={usercfg=21}] run function lem.base:clientconfig/swaptipped/enable
 execute as @a[scores={usercfg=22}] run function lem.base:clientconfig/swaptipped/disable
 
+##Leave server
+execute as @a[scores={usercfg=2845}] run function lem.base:clientconfig/usercfg/leaveserver
+
 ##Run functions for addons
 function #lem.base:clientconfig/usercfg/check
 
