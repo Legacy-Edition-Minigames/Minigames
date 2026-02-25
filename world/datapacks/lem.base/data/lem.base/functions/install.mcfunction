@@ -326,6 +326,7 @@ scoreboard objectives add usercfg trigger
 
 ##Moderator menu
 scoreboard objectives add moderator trigger
+scoreboard objectives add lem.mod.migrate dummy
 
 ##For addons to disable the built-in UI
 #Game
