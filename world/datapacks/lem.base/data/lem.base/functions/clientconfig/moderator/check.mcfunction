@@ -27,6 +27,9 @@ execute as @a[scores={moderator=10..16}] run function lem.base:clientconfig/mode
 #Run
 execute as @a[scores={moderator=17}] run function lem.base:clientconfig/moderator/migrate/run
 
+##Steal host
+execute as @a[scores={moderator=18}] run function lem.base:clientconfig/moderator/stealhost
+
 ##Run functions for addons
 function #lem.base:clientconfig/moderator/check
 

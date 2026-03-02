@@ -31,6 +31,8 @@ userconfig @s test lem.base:heartcosmetic EQUAL pride_pan runCommand setSuffixFo
 userconfig @s test lem.base:heartcosmetic EQUAL pride_bi runCommand setSuffixFont alive "lem.base:tablist/heart/pride/bi" @s
 #Load Lesbian heart
 userconfig @s test lem.base:heartcosmetic EQUAL pride_lesbian runCommand setSuffixFont alive "lem.base:tablist/heart/pride/lesbian" @s
+#Load Gay heart
+userconfig @s test lem.base:heartcosmetic EQUAL pride_gay runCommand setSuffixFont alive "lem.base:tablist/heart/pride/gay" @s
 #Load Omnisexual heart
 userconfig @s test lem.base:heartcosmetic EQUAL pride_omni runCommand setSuffixFont alive "lem.base:tablist/heart/pride/omni" @s
 #Load Pan Lesbian heart

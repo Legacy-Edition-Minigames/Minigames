@@ -10,6 +10,9 @@ tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","
 ##Reset host settings
 tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger moderator set 6"}},{"translate":"lem.config.mod.resethost","color":"blue","clickEvent":{"action":"run_command","value":"/trigger moderator set 6"}},{"text":"]","color":"blue","clickEvent":{"action":"run_command","value":"/trigger moderator set 6"}}]
 
+##Steal host
+tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger moderator set 18"}},{"translate":"lem.config.mod.stealhost","color":"blue","clickEvent":{"action":"run_command","value":"/trigger moderator set 18"}},{"text":"]","color":"blue","clickEvent":{"action":"run_command","value":"/trigger moderator set 18"}}]
+
 ##Disable multirounds
 tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger moderator set 7"}},{"translate":"lem.config.mod.disablerounds","color":"blue","clickEvent":{"action":"run_command","value":"/trigger moderator set 7"}},{"text":"]","color":"blue","clickEvent":{"action":"run_command","value":"/trigger moderator set 7"}}]
 
