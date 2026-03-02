@@ -14,7 +14,10 @@ tellraw @s ["",{"text":"[","color":"#FF424D","clickEvent":{"action":"run_command
 execute if entity @s[tag=moderator] run tellraw @s ["",{"text":"[","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger moderator"}},{"translate":"lem.config.usercfg.menu.mod","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger moderator"}},{"text":"]","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger moderator"}}]
 
 #Admin
-ifop @s runFunction lem.base:menu/load/host/admin/run
+execute if entity @s[tag=admin] run function lem.base:menu/load/host/admin/run
+
+##Exit to menu
+tellraw @s ["",{"text":"[","color":"blue","clickEvent":{"action":"run_command","value":"/trigger usercfg set -4"}},{"translate":"lem.mapdecider.menu.menuserver","color":"blue","clickEvent":{"action":"run_command","value":"/trigger usercfg set -4"}},{"text":"]","color":"blue","clickEvent":{"action":"run_command","value":"/trigger usercfg set -4"}}]
 
 ##Reset score
 scoreboard players reset @s usercfg

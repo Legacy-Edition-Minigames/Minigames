@@ -19,6 +19,17 @@ execute as @a[scores={moderator=7}] run function lem.base:clientconfig/moderator
 ##Force end round
 execute as @a[scores={moderator=8}] run function lem.base:clientconfig/moderator/forceend
 
+##Migrate players
+#Menu
+execute as @a[scores={moderator=9}] run function lem.base:clientconfig/moderator/menu/migrate/main
+#Check
+execute as @a[scores={moderator=10..16}] run function lem.base:clientconfig/moderator/migrate/check
+#Run
+execute as @a[scores={moderator=17}] run function lem.base:clientconfig/moderator/migrate/run
+
+##Steal host
+execute as @a[scores={moderator=18}] run function lem.base:clientconfig/moderator/stealhost
+
 ##Run functions for addons
 function #lem.base:clientconfig/moderator/check
 

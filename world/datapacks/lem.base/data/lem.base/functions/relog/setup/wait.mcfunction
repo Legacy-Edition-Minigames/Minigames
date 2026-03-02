@@ -30,6 +30,7 @@ tag @s remove bedrock
 tag @s remove clientchecked
 tag @s remove moderator
 tag @s remove MobOverride_mod
+tag @s remove admin
 tag @s remove heart-custom1
 tag @s remove heart-theminecraftarchitect-1
 tag @s remove heart-robux_generator-1

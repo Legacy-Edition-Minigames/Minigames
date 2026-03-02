@@ -47,6 +47,9 @@ function lem.base:relog/setup/patreon
 ##Detect if Moderator
 function lem.base:relog/setup/moderator
 
+##Detect if Admin
+function lem.base:relog/setup/admin
+
 ##Detect per-user data
 function lem.base:relog/setup/usercheck
 
