@@ -7,6 +7,8 @@ execute as @a[scores={usercfg=-1}] run function lem.base:clientconfig/usercfg/me
 execute as @a[scores={usercfg=-2}] run function lem.base:clientconfig/usercfg/menu/pack
 #User
 execute as @a[scores={usercfg=-3}] run function lem.base:clientconfig/usercfg/menu/user
+#Leave server
+execute as @a[scores={usercfg=-4}] run function lem.base:clientconfig/usercfg/menu/leaveserver
 
 ##Panorama scale
 execute as @a[scores={usercfg=2}] run function lem.base:clientconfig/panscale/set/1
