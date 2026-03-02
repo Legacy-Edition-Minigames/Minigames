@@ -14,7 +14,7 @@ tellraw @s ["",{"text":"[","color":"#FF424D","clickEvent":{"action":"run_command
 execute if entity @s[tag=moderator] run tellraw @s ["",{"text":"[","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger moderator"}},{"translate":"lem.config.usercfg.menu.mod","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger moderator"}},{"text":"]","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger moderator"}}]
 
 #Admin
-userconfig @s test lem.base:admin EQUAL true runFunction lem.base:menu/load/host/admin/run
+execute if entity @s[tag=admin] run function lem.base:menu/load/host/admin/run
 
 ##Reset score
 scoreboard players reset @s usercfg
