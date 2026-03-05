@@ -448,6 +448,12 @@ execute as 62a310c0-c276-48ef-a46b-fbdd11c2c54b run scoreboard players set @s le
 execute as 71169fb0-30c5-4c5f-8357-26664606ab28 run scoreboard players set @s lem.patreon 2
 #FoxPodZ
 execute as a35a944b-0cd3-42e4-9cdd-8c4fb7c1eb46 run scoreboard players set @s lem.patreon 5
+#Mxyo_
+execute as 59616119-2f86-43da-99fe-3eb8a3dc7607 run scoreboard players set @s lem.patreon 1
+#RamCinder
+execute as e7bf76a8-5c42-400e-8da6-ac0fd34bb139 run scoreboard players set @s lem.patreon 2
+#Mate_head
+execute as 77e78a7c-ac26-4879-bed8-a831d640d7c7 run scoreboard players set @s lem.patreon 3
 
 ##Reset heart if no longer subscribed
 #Tiny

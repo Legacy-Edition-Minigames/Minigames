@@ -50,6 +50,8 @@ execute as @a[scores={heartcosmetic=11}] run function lem.base:clientconfig/hear
 execute as @a[scores={heartcosmetic=12}] run function lem.base:clientconfig/heart/switch/pride/bi
 #Lesbian
 execute as @a[scores={heartcosmetic=13}] run function lem.base:clientconfig/heart/switch/pride/lesbian
+#Gay
+execute as @a[scores={heartcosmetic=41}] run function lem.base:clientconfig/heart/switch/pride/gay
 #Omnisexual
 execute as @a[scores={heartcosmetic=14}] run function lem.base:clientconfig/heart/switch/pride/omni
 #Pan Lesbian
