@@ -1,5 +1,5 @@
 ##Display message
-discordChatMSG {"translate":"lem.menu.host.config.update.generic","with":[{"translate":"lem.menu.host.config.preset.load"}]}
+discordChatMSG {"translate":"lem.menu.host.config.update.generic","fallback":"The host has %s","with":[{"translate":"lem.menu.host.config.preset.load","fallback":"loaded a preset"}]}
 
 ##Display as loaded
 tellraw @s {"text":"Loaded Preset!","color":"green"}
