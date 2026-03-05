@@ -5,7 +5,7 @@ scoreboard players set #Store lem.battle.setconsoledamage 1
 function lem.battle:menu/load/host/combat/style/custom/global
 
 ##Display message
-discordChatMSG {"translate":"lem.menu.host.config.update.generic","with":[{"translate":"lem.menu.host.config.update.enable","with":[{"text":"Console Damage"}]}]}
+discordChatMSG {"translate":"lem.menu.host.config.update.generic","fallback":"The host has %s","with":[{"translate":"lem.menu.host.config.update.enable","fallback":"enabled %s","with":[{"text":"Console Damage"}]}]}
 
 ##Open menu
 function lem.battle:menu/load/host/combat/open/main
