@@ -2,7 +2,7 @@
 scoreboard players set #Store lem.timelimit 3
 
 ##Display message
-discordChatMSG {"translate":"lem.menu.host.config.update.generic","with":[{"translate":"lem.menu.host.config.update.set","with":[{"translate":"lem.menu.host.config.update.timelimit"},{"translate":"lem.menu.host.config.update.timelimit.long"}]}]}
+discordChatMSG {"translate":"lem.menu.host.config.update.generic","fallback":"The host has %s","with":[{"translate":"lem.menu.host.config.update.set","fallback":"set %s to %s","with":[{"translate":"lem.menu.host.config.update.timelimit","fallback":"the Time Limit"},{"translate":"lem.menu.host.config.update.timelimit.long","fallback":"Long"}]}]}
 
 ##Open menu
 function lem.base:menu/load/host/extra/open

@@ -3,9 +3,9 @@ tag @s add joinmsg
 
 ##Send message
 #Minecraft
-tellraw @a {"translate":"lem.generic.join","with":[{"selector":"@s"}],"color":"yellow"}
+tellraw @a {"translate":"lem.generic.join","fallback":"%s joined the game","with":[{"selector":"@s"}],"color":"yellow"}
 #Discord
-discordMSG [{"translate":"lem.generic.join","with":[{"selector":"@a[tag=joinmsg]"}],"color":"yellow"},{"text":" "},{"translate":"lem.generic.join.ping"}]
+discordMSG [{"translate":"lem.generic.join","fallback":"%s joined the game","with":[{"selector":"@a[tag=joinmsg]"}],"color":"yellow"},{"text":" "},{"translate":"lem.generic.join.ping","fallback":""}]
 
 ##Remove tag
 tag @s remove joinmsg
