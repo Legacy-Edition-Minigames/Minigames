@@ -5,7 +5,7 @@ scoreboard players set #Store lem.setlobbytype 4
 scoreboard players set #Store lem.fullreset 1
 
 ##Display message
-discordChatMSG {"translate":"lem.menu.host.config.update.generic","with":[{"translate":"lem.menu.host.config.update.set","with":[{"translate":"lem.menu.host.config.update.lobby"},{"translate":"lem.menu.host.config.update.lobby.festive"}]}]}
+discordChatMSG {"translate":"lem.menu.host.config.update.generic","fallback":"The host has %s","with":[{"translate":"lem.menu.host.config.update.set","fallback":"set %s to %s","with":[{"translate":"lem.menu.host.config.update.lobby","fallback":"the Lobby"},{"translate":"lem.menu.host.config.update.lobby.festive","fallback":"Festive"}]}]}
 
 ##Open menu
 function lem.base:menu/load/host/extra/open
