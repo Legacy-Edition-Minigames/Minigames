@@ -44,6 +44,9 @@ schedule clear lem.base:lobby/nodrop/check
 ##Stop Inventory hotbar swap check
 schedule clear lem.base:game/inventory/swap/check/run
 
+##Enable map review sidebar
+execute if score #Store lem.debug.mapreview.enabled matches 1 run scoreboard objectives setdisplay sidebar lem.debug.mapreview.chestcount
+
 ##Debug info
 tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Running MapDecider...","color":"gold"}]
 tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Current Map ID: ","color":"gold"},{"score":{"name":"#Store","objective":"lem.map"},"color":"yellow"}]

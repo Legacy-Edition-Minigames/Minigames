@@ -328,6 +328,17 @@ scoreboard objectives add usercfg trigger
 scoreboard objectives add moderator trigger
 scoreboard objectives add lem.mod.migrate dummy
 
+##Map review
+#Chestcount
+scoreboard objectives add lem.debug.mapreview.chestcount dummy "Chest Count"
+#Colors
+team add dark_aqua
+team modify dark_aqua color dark_aqua
+#Chest glow
+scoreboard objectives add lem.debug.mapreview.glow dummy
+#Enabled status
+scoreboard objectives add lem.debug.mapreview.enabled dummy
+
 ##For addons to disable the built-in UI
 #Game
 scoreboard objectives add lem.ui.game.java.override dummy
@@ -487,6 +498,9 @@ scoreboard players set #Store lem.sound.game.win.override 0
 
 ##Set default game icon
 scoreboard players set #Store lem.gameicon 0
+
+##Set map review status
+scoreboard players set #Store lem.debug.mapreview.enabled 0
 
 ##Set PID (Temporary!)
 #Reset stored PID

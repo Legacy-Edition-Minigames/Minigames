@@ -1,0 +1,5 @@
+- glow toggle
+/execute as @e[tag=lem.mt.display] run data merge entity @s {Glowing:0}
+- chest count
+- more glow colors
+- menu
