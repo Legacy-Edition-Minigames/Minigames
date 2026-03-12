@@ -56,43 +56,15 @@
         "customModelData": "lem.menu.ui.text.button.full.use_common_sense",
         "leftClickAction": "openUI/ lem.menu:setup/rules/chat/common"
       },
-      "45": {
-        "presetID": "lem.menu:button/generic:blank",
-        "leftClickAction": "command/ function lem.menu:menu/gui/setup/rules/agree/toggle",
-        "refreshOnInteract" : true
-      },
-      "46": {
-        "presetID": "lem.menu:button/generic:tickbox",
-        "leftClickAction": "command/ function lem.menu:menu/gui/setup/rules/agree/toggle",
-        "dynamicModel": {
-          "score": "lem.menu.ui.dynamic.setup.rules.agree",
-          "player": "@s",
-          "models": {
-            "1": "lem.menu.ui.button.tick_disabled",
-            "2": "lem.menu.ui.button.tick_enabled"
-          }
-        }
-      },
-      "47": {
-        "presetID": "lem.menu:button/generic:text_tickbox",
-        "leftClickAction": "command/ function lem.menu:menu/gui/setup/rules/agree/toggle",
-        "customModelData": "lem.menu.ui.text.tick.i_read_and_agree_to_the_rules",
-        "refreshOnInteract" : true
-      },
-      "48-53": {
-        "presetID": "lem.menu:button/generic:blank",
-        "leftClickAction": "command/ function lem.menu:menu/gui/setup/rules/agree/toggle",
-        "refreshOnInteract" : true
-      },
       "54-56": {
         "presetID": "lem.menu:button/generic:blank",
         "replaceOpenScreen": true,
-        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/page1"
+        "leftClickAction": "openUI/ lem.menu:rules/chat/page1"
       },
       "57": {
         "presetID": "lem.menu:button/standard/half:left_default_up",
         "replaceOpenScreen": true,
-        "leftClickAction": "openUI/ lem.menu:setup/rules/chat/page1"
+        "leftClickAction": "openUI/ lem.menu:rules/chat/page1"
       },
       "58-60": {
         "presetID": "lem.menu:button/generic:blank",
@@ -108,39 +80,24 @@
       },
       "73-78": {
         "presetID": "lem.menu:button/generic:blank",
-        "leftClickSound": "none",
-        "leftClickAction": "command/ function lem.menu:menu/gui/setup/rules/page2/check"
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
       },
       "79": {
         "presetID": "lem.menu:button/standard/full:default",
-        "dynamicModel": {
-          "score": "lem.menu.ui.dynamic.setup.rules.agree",
-          "player": "@s",
-          "models": {
-            "1": "1",
-            "2": "1000"
-          }
-        },
-        "leftClickSound": "none",
-        "leftClickAction": "command/ function lem.menu:menu/gui/setup/rules/page2/check"
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
       },
       "80": {
         "presetID": "lem.menu:button/generic:text",
-        "dynamicModel": {
-          "score": "lem.menu.ui.dynamic.setup.rules.agree",
-          "player": "@s",
-          "models": {
-            "1": "1",
-            "2": "lem.menu.ui.text.button.full.continue"
-          }
-        },
-        "leftClickSound": "none",
-        "leftClickAction": "command/ function lem.menu:menu/gui/setup/rules/page2/check"
+        "customModelData": "lem.menu.ui.text.button.full.done",
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
       },
       "72": {
         "presetID": "lem.menu:button/leavegame:visual",
-        "leftClickSound": "none",
-        "leftClickAction": "command/ function lem.menu:menu/gui/setup/rules/page2/check"
+        "leftClickSound": "lem.menu:sound.menu.back",
+        "leftClickAction": "back/"
       },
       "81": {
         "presetID": "lem.menu:button/leavegame:button"

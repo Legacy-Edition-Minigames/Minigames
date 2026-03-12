@@ -269,5 +269,8 @@
     "lem.menu.ui.text.tick.hotbar_item_swapping": "10108",
     "lem.menu.ui.text.tick.tipped_arrow_hotbar_swapping": "10109",
     "lem.menu.ui.text.tick.auto_swap_enchanted_armor": "10110",
-    "lem.menu.ui.text.button.full.heart_cosmetic": "10111"
+    "lem.menu.ui.text.button.full.heart_cosmetic": "10111",
+    "lem.menu.ui.text.button.full.server_rules": "10112",
+    "lem.menu.ui.text.button.full.gameplay_rules": "10113",
+    "lem.menu.ui.text.button.full.chat_rules": "10114"
   }
