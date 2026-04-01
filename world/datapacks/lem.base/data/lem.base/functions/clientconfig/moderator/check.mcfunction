@@ -11,8 +11,7 @@ execute as @a[scores={moderator=4}] run function lem.base:clientconfig/moderator
 execute as @a[scores={moderator=5}] run function lem.base:clientconfig/moderator/lch
 
 ##Reset host options
-execute if score #Store lem.gamestatus matches 0..2 as @a[scores={moderator=6}] run function lem.base:clientconfig/moderator/resethost
-execute unless score #Store lem.gamestatus matches 0..2 as @a[scores={moderator=6}] run function lem.base:clientconfig/moderator/lobbyonly
+execute as @a[scores={moderator=6}] run function lem.base:clientconfig/moderator/resethost
 
 ##Disable multirounds
 execute as @a[scores={moderator=7}] run function lem.base:clientconfig/moderator/disablerounds
@@ -29,8 +28,7 @@ execute as @a[scores={moderator=10..16}] run function lem.base:clientconfig/mode
 execute as @a[scores={moderator=17}] run function lem.base:clientconfig/moderator/migrate/run
 
 ##Steal host
-execute if score #Store lem.gamestatus matches 0..2 as @a[scores={moderator=18}] run function lem.base:clientconfig/moderator/stealhost
-execute unless score #Store lem.gamestatus matches 0..2 as @a[scores={moderator=18}] run function lem.base:clientconfig/moderator/lobbyonly
+execute as @a[scores={moderator=18}] run function lem.base:clientconfig/moderator/stealhost
 
 ##Run functions for addons
 function #lem.base:clientconfig/moderator/check

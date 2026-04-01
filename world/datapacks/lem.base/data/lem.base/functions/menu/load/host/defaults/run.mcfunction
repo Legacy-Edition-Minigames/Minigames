@@ -28,8 +28,8 @@ scoreboard players set #Store lem.fullreset 1
 ##Set time limit
 scoreboard players set #Store lem.timelimit 2
 
-##Disable mods
-scoreboard players set #Store lem.enablemods 0
+##Enable mods
+scoreboard players set #Store lem.enablemods 1
 
 ##Run functions for addons
 function #lem.base:menu/load/host/defaults/run

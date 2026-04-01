@@ -51,10 +51,10 @@ execute as @s[scores={lem.gamecfg=83..92}] run function lem.base:menu/load/host/
 execute as @s[scores={lem.gamecfg=123}] run function lem.base:menu/load/host/bug/open
 
 ##Mods menu
-execute as @s[scores={lem.gamecfg=166}] run function lem.base:menu/load/host/mods/open/main
+#execute as @s[scores={lem.gamecfg=166}] run function lem.base:menu/load/host/mods/open/main
 
 ##Mods menu: Maps
-execute as @s[scores={lem.gamecfg=2000..2999}] run function lem.base:menu/load/host/mods/open/maps
+#execute as @s[scores={lem.gamecfg=2000..2999}] run function lem.base:menu/load/host/mods/open/maps
 
 ##Run functions for addons
 function #lem.base:menu/configure/menucheck

@@ -57,6 +57,10 @@ execute if score #Store lem.map matches 18 run scoreboard players set #Store lem
 execute if score #Store lem.map matches 19 run scoreboard players set #Store lem.battle.maptypeavailable.remastered 0
 
 ##Libertalia
+#Small
+execute if score #Store lem.map matches 20 run scoreboard players set #Store lem.battle.maptypeavailable.small 0
+#Large
+execute if score #Store lem.map matches 20 run scoreboard players set #Store lem.battle.maptypeavailable.large 0
 #Remastered
 execute if score #Store lem.map matches 20 run scoreboard players set #Store lem.battle.maptypeavailable.remastered 0
 

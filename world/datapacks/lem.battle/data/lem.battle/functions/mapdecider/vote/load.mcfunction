@@ -38,6 +38,6 @@ execute if score #Festive lem.enablemap matches 1 run scoreboard players set §a
 #Atomics
 execute if score #Atomics lem.enablemap matches 1 run scoreboard players set §a8-1:Atomics lem.mapvote 0
 #Libertalia
-execute if score #Libertalia lem.enablemap matches 1 run scoreboard players set §a8-2:Libertalia lem.mapvote 0
+#execute if score #Libertalia lem.enablemap matches 1 run scoreboard players set §a8-2:Libertalia lem.mapvote 0
 #Capitol
 execute if score #Capitol lem.enablemap matches 1 run scoreboard players set §a8-3:Capitol lem.mapvote 0

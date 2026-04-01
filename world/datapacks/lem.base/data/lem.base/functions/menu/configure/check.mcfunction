@@ -14,8 +14,8 @@ execute as @s[scores={lem.gamecfg=7}] run function lem.base:menu/load/host/lives
 execute as @s[scores={lem.gamecfg=9}] run function lem.base:menu/load/host/start/check
 
 ##Map settings
-execute as @s[scores={lem.gamecfg=1000..1999}] run function #lem.base:menu/configure/map
-execute as @s[scores={lem.gamecfg=3000..4999}] run function #lem.base:menu/configure/map
+#execute as @s[scores={lem.gamecfg=1000..1999}] run function #lem.base:menu/configure/map
+#execute as @s[scores={lem.gamecfg=3000..4999}] run function #lem.base:menu/configure/map
 
 ##Enable glowing if set to 13
 execute as @s[scores={lem.gamecfg=13}] run function lem.base:menu/load/host/showdown/glow/enable
@@ -113,9 +113,9 @@ execute as @s[scores={lem.gamecfg=103..119}] run function lem.base:menu/configur
 
 ##Modded content toggle
 #Enable
-execute as @s[scores={lem.gamecfg=162}] run function lem.base:menu/load/host/mods/enable
+#execute as @s[scores={lem.gamecfg=162}] run function lem.base:menu/load/host/mods/enable
 #Disable
-execute as @s[scores={lem.gamecfg=163}] run function lem.base:menu/load/host/mods/disable
+#execute as @s[scores={lem.gamecfg=163}] run function lem.base:menu/load/host/mods/disable
 
 ##Run functions for addons
 function #lem.base:menu/configure/check
