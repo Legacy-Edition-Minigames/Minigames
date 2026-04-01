@@ -50,7 +50,7 @@ scoreboard players set #Store lem.gimode 2
 
 ##Title Bossbars
 #Main
-bossbar add lem.menu:title/main {"text":"1\uF8012\uF8013\uF8014","font":"lem.base:loading/logo","color":"#fafafa"}
+bossbar add lem.menu:title/main {"text":"1\uF8022\uF8023\uF8024","font":"lem.base:loading/logo","color":"#fafafa"}
 #Battle
 bossbar add lem.menu:title/battle {"text":"1\uF8012\uF8013\uF8014","font":"lem.battle:loading/logo","color":"#fafafa"}
 #Tumble
