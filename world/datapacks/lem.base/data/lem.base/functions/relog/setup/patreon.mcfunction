@@ -292,8 +292,8 @@ execute as 225dadda-c651-42d7-8772-828b84e9fa01 run scoreboard players set @s le
 execute as 86f47322-2b9b-4ca4-9a97-b0c7bdf36817 run scoreboard players set @s lem.patreon 1
 #Squidfox12
 execute as 27aa4b55-6cc4-46f6-a8dd-48babd12eb75 run scoreboard players set @s lem.patreon 1
-#momochitters
-execute as 48e82f25-a244-432b-9db5-8a720dc4d553 run scoreboard players set @s lem.patreon 1
+#loodelin
+execute as 48e82f25-a244-432b-9db5-8a720dc4d553 run scoreboard players set @s lem.patreon 3
 #nanobot567
 execute as 8de3bea5-872c-45cd-8b77-593eb3391df3 run scoreboard players set @s lem.patreon 1
 #Glitchblox
@@ -454,6 +454,8 @@ execute as 59616119-2f86-43da-99fe-3eb8a3dc7607 run scoreboard players set @s le
 execute as e7bf76a8-5c42-400e-8da6-ac0fd34bb139 run scoreboard players set @s lem.patreon 2
 #Mate_head
 execute as 77e78a7c-ac26-4879-bed8-a831d640d7c7 run scoreboard players set @s lem.patreon 3
+#EilrahcF
+execute as f4cf5b63-31e6-41fd-98c3-ec97168f3720 run scoreboard players set @s lem.patreon 3
 
 ##Reset heart if no longer subscribed
 #Tiny
