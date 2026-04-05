@@ -77,6 +77,9 @@ execute as @s[scores={lem.gamecfg=171}] run function lem.base:menu/load/host/lob
 ##Set lobby to anniversary
 execute as @s[scores={lem.gamecfg=134}] run function lem.base:menu/load/host/lobby/setanniversary
 
+##Set lobby to easter
+execute as @s[scores={lem.gamecfg=182}] run function lem.base:menu/load/host/lobby/seteaster
+
 ##Set time limit to short
 execute as @s[scores={lem.gamecfg=41}] run function lem.base:menu/load/host/timelimit/setshort
 
