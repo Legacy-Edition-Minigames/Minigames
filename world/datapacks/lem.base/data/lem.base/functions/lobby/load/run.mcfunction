@@ -9,6 +9,8 @@ execute if score #Store lem.lobbytype matches 2 run function lem.base:lobby/load
 execute if score #Store lem.lobbytype matches 3 run function lem.base:lobby/load/halloween
 #Festive lobby
 execute if score #Store lem.lobbytype matches 4 run function lem.base:lobby/load/festive
+#Easter lobby
+execute if score #Store lem.lobbytype matches 5 run function lem.base:lobby/load/easter
 
 ##Disable full resets
 scoreboard players set #Store lem.fullreset 0

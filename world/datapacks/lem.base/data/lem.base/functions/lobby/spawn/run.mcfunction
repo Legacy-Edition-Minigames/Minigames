@@ -16,5 +16,8 @@ execute if score #Store lem.lobbytype matches 3 in lem.base:the_lobby run functi
 ##Festive lobby
 execute if score #Store lem.lobbytype matches 4 in lem.base:the_lobby run function lem.base:lobby/spawn/teleport/festive
 
+##Easter lobby
+execute if score #Store lem.lobbytype matches 5 in lem.base:the_lobby run function lem.base:lobby/spawn/teleport/easter
+
 ##Set spawnpoint
 spawnpoint @s ~ ~ ~
