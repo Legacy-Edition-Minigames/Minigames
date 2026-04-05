@@ -116,6 +116,9 @@ execute as @a[scores={heartcosmetic=36},tag=!heart-kitsuneterra-1] run function 
 #FoxPodZ
 execute as @a[scores={heartcosmetic=40},tag=heart-foxpodz-1] run function lem.base:clientconfig/heart/switch/custom/1/foxpodz
 execute as @a[scores={heartcosmetic=40},tag=!heart-foxpodz-1] run function lem.base:clientconfig/heart/switch/notunlocked
+#EilrahcF
+execute as @a[scores={heartcosmetic=42},tag=heart-eilrahcf-1] run function lem.base:clientconfig/heart/switch/custom/1/eilrahcf
+execute as @a[scores={heartcosmetic=42},tag=!heart-eilrahcf-1] run function lem.base:clientconfig/heart/switch/notunlocked
 
 ##Enable toggle
 scoreboard players enable @a heartcosmetic

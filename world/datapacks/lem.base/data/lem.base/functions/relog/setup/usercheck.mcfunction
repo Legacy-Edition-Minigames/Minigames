@@ -51,6 +51,10 @@ tag b74c08fb-fd24-4a6c-ad9a-0543a71920de add heart-custom
 tag a35a944b-0cd3-42e4-9cdd-8c4fb7c1eb46 add heart-foxpodz-1
 tag a35a944b-0cd3-42e4-9cdd-8c4fb7c1eb46 add heart-custom1
 tag a35a944b-0cd3-42e4-9cdd-8c4fb7c1eb46 add heart-custom
+#EilrahcF
+tag f4cf5b63-31e6-41fd-98c3-ec97168f3720 add heart-eilrahcf-1
+tag f4cf5b63-31e6-41fd-98c3-ec97168f3720 add heart-custom1
+tag f4cf5b63-31e6-41fd-98c3-ec97168f3720 add heart-custom
 
 ##DSMSYB mode
 execute as 6c746b61-7f58-4597-8d9a-32fc518b9d87 run tag @s add dsmsyb
