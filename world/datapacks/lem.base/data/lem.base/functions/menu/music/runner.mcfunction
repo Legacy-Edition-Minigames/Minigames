@@ -9,3 +9,6 @@ function lem.base:game/music/block
 
 ##Loop
 schedule function lem.base:menu/music/runner 1s
+
+##Stop if menu isn't loaded
+execute unless score #Store lem.gamestatus matches 0 run function lem.base:menu/music/stop

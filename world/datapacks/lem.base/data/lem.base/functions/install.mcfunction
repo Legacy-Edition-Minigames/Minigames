@@ -312,6 +312,8 @@ execute unless score #Store lem.damage matches 0.. run scoreboard players set #S
 scoreboard objectives add lem.event.halloween dummy
 #Festive
 scoreboard objectives add lem.event.festive dummy
+#Easter
+scoreboard objectives add lem.event.easter dummy
 #Public
 scoreboard objectives add lem.event.public dummy
 
@@ -327,6 +329,17 @@ scoreboard objectives add usercfg trigger
 ##Moderator menu
 scoreboard objectives add moderator trigger
 scoreboard objectives add lem.mod.migrate dummy
+
+##Map review
+#Chestcount
+scoreboard objectives add lem.debug.mapreview.chestcount dummy "Chest Count"
+#Colors
+team add dark_aqua
+team modify dark_aqua color dark_aqua
+#Chest glow
+scoreboard objectives add lem.debug.mapreview.glow dummy
+#Enabled status
+scoreboard objectives add lem.debug.mapreview.enabled dummy
 
 ##For addons to disable the built-in UI
 #Game
@@ -487,6 +500,9 @@ scoreboard players set #Store lem.sound.game.win.override 0
 
 ##Set default game icon
 scoreboard players set #Store lem.gameicon 0
+
+##Set map review status
+scoreboard players set #Store lem.debug.mapreview.enabled 0
 
 ##Set PID (Temporary!)
 #Reset stored PID

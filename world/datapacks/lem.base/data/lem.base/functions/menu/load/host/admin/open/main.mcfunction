@@ -21,6 +21,9 @@ execute if score #Store lem.lobbytimerset matches 0.. run tellraw @s ["",{"text"
 ##Lobby timer counter
 execute unless score #Store lem.lobbytimerset matches -1 run tellraw @s ["",{"text":" [","color":"blue","clickEvent":{"action":"run_command","value":"/function lem.base:menu/load/host/admin/lobby/timer/remove"}},{"text":"-","color":"red","clickEvent":{"action":"run_command","value":"/function lem.base:menu/load/host/admin/lobby/timer/remove"}},{"text":"] ","color":"blue","clickEvent":{"action":"run_command","value":"/function lem.base:menu/load/host/admin/lobby/timer/remove"}},{"score":{"name":"#Store","objective":"lem.lobbytimerset"},"color":"green"},{"text":" [","color":"blue","clickEvent":{"action":"run_command","value":"/function lem.base:menu/load/host/admin/lobby/timer/add"}},{"text":"+","color":"green","clickEvent":{"action":"run_command","value":"/function lem.base:menu/load/host/admin/lobby/timer/add"}},{"text":"]","color":"blue","clickEvent":{"action":"run_command","value":"/function lem.base:menu/load/host/admin/lobby/timer/add"}}]
 
+##Map Review Tools
+tellraw @s {"text":"[Map Review Tools]","color":"blue","clickEvent":{"action":"run_command","value":"/function lem.base:debug/mapreview/menu/check"},"hoverEvent":{"action":"show_text","contents":[{"text":"Tools for reviewing maps","color":"dark_aqua"}]}}
+
 ##Lore
 tellraw @s {"text":"[Lore]","color":"blue","clickEvent":{"action":"run_command","value":"/function lem.base:menu/load/host/admin/open/lore"},"hoverEvent":{"action":"show_text","contents":[{"text":"Description can not be disclosed at this time.","color":"dark_aqua"}]}}
 
