@@ -21,6 +21,8 @@ schedule clear lem.base:ui/globalinfo/empty/clear/check
 schedule clear lem.base:ui/globalinfo/empty/hide
 #Start particles
 schedule clear lem.base:game/particle/pregame/run
+##AFK check
+schedule clear lem.base:afk/check
 
 ##Clear Scores
 #GlobalInfo clear timer

@@ -79,6 +79,9 @@ execute unless score #Store lem.recon matches 1 if score #Store lem.initialgame 
 ##Display warning for recon mode
 execute if score #Store lem.recon matches 1 run tellraw @a ["",{"text":"⚠ ","color":"dark_red"},{"text":"Recon mode enabled!","bold":true,"color":"red"},{"text":" This feature is unfinished, you might run into issues!","color":"gold"}]
 
+##Start AFK check
+execute unless score #Store lem.afk.timer matches -1 run function lem.base:afk/start
+
 ##Run functions for addons
 function #lem.base:game/start/run
 

@@ -31,6 +31,7 @@ tag @s remove clientchecked
 tag @s remove moderator
 tag @s remove MobOverride_mod
 tag @s remove admin
+tag @s remove activitydetected
 tag @s remove heart-custom
 tag @s remove heart-custom1
 tag @s remove heart-theminecraftarchitect-1
