@@ -434,7 +434,7 @@ worldborder warning distance 0
 scoreboard players set #Store lem.gamestatus 0
 
 ##Set lobby timer
-scoreboard players set #Store lem.lobbytimerset 60
+execute unless score #Store lem.lobbytimerset matches -1.. run scoreboard players set #Store lem.lobbytimerset 60
 
 ##Mark lobby as ready to load
 scoreboard players set #Store lem.lobbyready 1
