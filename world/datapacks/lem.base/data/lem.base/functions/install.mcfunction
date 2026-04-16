@@ -341,6 +341,13 @@ scoreboard objectives add lem.debug.mapreview.glow dummy
 #Enabled status
 scoreboard objectives add lem.debug.mapreview.enabled dummy
 
+##Server restart
+scoreboard objectives add lem.restarttimer.min dummy
+scoreboard objectives add lem.restarttimer.sec dummy
+scoreboard objectives add lem.restarttimer.pending dummy
+##Mod detection
+scoreboard objectives add lem.fabric.banhammer dummy
+
 ##For addons to disable the built-in UI
 #Game
 scoreboard objectives add lem.ui.game.java.override dummy

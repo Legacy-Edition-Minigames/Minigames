@@ -1,6 +1,9 @@
 ##Install
 execute unless entity @a run function lem.base:install
 
+##Check installed fabric mods
+function lem.base:modcheck/run
+
 ##Set relog score to 1 if there are no players online
 execute unless entity @a run scoreboard players set * lem.relog 1
 
@@ -33,6 +36,10 @@ tntlighter enable true
 
 ##Send players to the overworld on every join
 playerJoinLocation enable true
+
+##Stop pending server restarts
+execute unless entity @a run schedule clear lem.base:restart/count
+execute unless entity @a run scoreboard players reset #Store lem.restarttimer.pending
 
 ##Run functions for addons
 function #lem.base:start
