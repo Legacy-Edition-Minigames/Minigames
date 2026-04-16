@@ -56,11 +56,10 @@ tag f4cf5b63-31e6-41fd-98c3-ec97168f3720 add heart-eilrahcf-1
 tag f4cf5b63-31e6-41fd-98c3-ec97168f3720 add heart-custom1
 tag f4cf5b63-31e6-41fd-98c3-ec97168f3720 add heart-custom
 
-##DSMSYB mode
-execute as 6c746b61-7f58-4597-8d9a-32fc518b9d87 run tag @s add dsmsyb
-execute as 295332b6-90ab-4953-9433-64da7e982932 run tag @s add dsmsyb
-execute as 9e3b8f63-d011-4512-b88f-43cd120e7d1a run tag @s add dsmsyb
-execute as e38466d9-d370-4948-b007-214e77b0dc8b run tag @s add dsmsyb
-execute as 3bedde3b-636f-4267-b417-25b7c310cbe7 run tag @s add dsmsyb
-execute as 76c53c48-f982-42e8-a671-d91c0a4e911a run tag @s add dsmsyb
-execute as @s[tag=dsmsyb] run dimensionloader prepareDimension lem.base:dsmsyb_runtime lem.base:dsmsyb lem.base:game/dsmsyb/start
+execute as 6c746b61-7f58-4597-8d9a-32fc518b9d87 run userconfig @s set lem.base:dsmsyb true
+execute as 295332b6-90ab-4953-9433-64da7e982932 run userconfig @s set lem.base:dsmsyb true
+execute as 9e3b8f63-d011-4512-b88f-43cd120e7d1a run userconfig @s set lem.base:dsmsyb true
+execute as e38466d9-d370-4948-b007-214e77b0dc8b run userconfig @s set lem.base:dsmsyb true
+execute as 3bedde3b-636f-4267-b417-25b7c310cbe7 run userconfig @s set lem.base:dsmsyb true
+execute as 76c53c48-f982-42e8-a671-d91c0a4e911a run userconfig @s set lem.base:dsmsyb true
+userconfig @s test lem.base:dsmsyb EQUAL true runFunction lem.base:game/dsmsyb/timer/start

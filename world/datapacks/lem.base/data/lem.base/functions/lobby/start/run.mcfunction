@@ -63,5 +63,8 @@ function lem.base:patreonreminder/start
 ##Start respawn check
 function lem.base:lobby/player/respawn/check
 
+##Restart server if a restart is pending
+execute if score #Store lem.restarttimer.pending matches 1 run function lem.base:restart/roundend
+
 ##Run functions for addons
 function #lem.base:lobby/start/run

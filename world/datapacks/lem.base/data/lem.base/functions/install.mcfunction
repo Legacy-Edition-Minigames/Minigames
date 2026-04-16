@@ -341,6 +341,34 @@ scoreboard objectives add lem.debug.mapreview.glow dummy
 #Enabled status
 scoreboard objectives add lem.debug.mapreview.enabled dummy
 
+##Server restart
+scoreboard objectives add lem.restarttimer.min dummy
+scoreboard objectives add lem.restarttimer.sec dummy
+scoreboard objectives add lem.restarttimer.pending dummy
+
+##AFK kick
+#Timer
+scoreboard objectives add lem.afk.timer dummy
+scoreboard objectives add lem.afk.timerset dummy
+#Detection
+scoreboard objectives add lem.afk.check.horse_one_cm minecraft.custom:minecraft.horse_one_cm
+scoreboard objectives add lem.afk.check.minecart_one_cm minecraft.custom:minecraft.minecart_one_cm
+scoreboard objectives add lem.afk.check.pig_one_cm minecraft.custom:minecraft.pig_one_cm
+scoreboard objectives add lem.afk.check.sprint_one_cm minecraft.custom:minecraft.sprint_one_cm
+scoreboard objectives add lem.afk.check.strider_one_cm minecraft.custom:minecraft.strider_one_cm
+scoreboard objectives add lem.afk.check.swim_one_cm minecraft.custom:minecraft.swim_one_cm
+scoreboard objectives add lem.afk.check.boat_one_cm minecraft.custom:minecraft.boat_one_cm
+scoreboard objectives add lem.afk.check.open_barrel minecraft.custom:minecraft.open_barrel
+scoreboard objectives add lem.afk.check.open_chest minecraft.custom:minecraft.open_chest
+scoreboard objectives add lem.afk.check.open_shulker_box minecraft.custom:minecraft.open_shulker_box
+scoreboard objectives add lem.afk.check.damage_dealt minecraft.custom:minecraft.damage_dealt
+scoreboard objectives add lem.afk.check.fish_caught minecraft.custom:minecraft.fish_caught
+scoreboard objectives add lem.afk.check.drop minecraft.custom:minecraft.drop
+scoreboard objectives add lem.afk.check.jump minecraft.custom:minecraft.jump
+
+##Mod detection
+scoreboard objectives add lem.fabric.banhammer dummy
+
 ##For addons to disable the built-in UI
 #Game
 scoreboard objectives add lem.ui.game.java.override dummy
@@ -427,7 +455,10 @@ worldborder warning distance 0
 scoreboard players set #Store lem.gamestatus 0
 
 ##Set lobby timer
-scoreboard players set #Store lem.lobbytimerset 60
+execute unless score #Store lem.lobbytimerset matches -1.. run scoreboard players set #Store lem.lobbytimerset 60
+
+##Set AFK timer
+execute unless score #Store lem.afk.timerset matches -1.. run scoreboard players set #Store lem.afk.timerset 10
 
 ##Mark lobby as ready to load
 scoreboard players set #Store lem.lobbyready 1
