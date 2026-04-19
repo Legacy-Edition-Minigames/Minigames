@@ -1,1 +1,1 @@
-kick @a You were removed from the game for being idle
+kick @s You were removed from the game for being idle
