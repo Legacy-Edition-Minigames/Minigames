@@ -1,5 +1,5 @@
 ##Display message
-tellraw @a ["",{"text":"[","bold":true,"color":"dark_blue"},{"text":"Notice","bold":true,"color":"blue"},{"text":"] ","bold":true,"color":"dark_blue"},{"text":"The server is restarting!","color":"gold"}]
+tellraw @a ["",{"text":"[","bold":true,"color":"dark_blue"},{"translate":"lem.generic.notice","bold":true,"color":"blue"},{"text":"] ","bold":true,"color":"dark_blue"},{"translate":"lem.restart.alert","color":"gold"}]
 
 ##Kick users
 function lem.base:restart/kick/check

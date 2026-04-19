@@ -1,5 +1,5 @@
 ##Display message
-tellraw @a ["",{"text":"[","bold":true,"color":"dark_blue"},{"text":"Notice","bold":true,"color":"blue"},{"text":"] ","bold":true,"color":"dark_blue"},{"text":"Waiting for current round to end before restarting server...","color":"gold"}]
+tellraw @a ["",{"text":"[","bold":true,"color":"dark_blue"},{"translate":"lem.generic.notice","bold":true,"color":"blue"},{"text":"] ","bold":true,"color":"dark_blue"},{"translate":"lem.restart.wait","color":"gold"}]
 
 ##Disable multiround
 scoreboard players set #Store lem.round 1
