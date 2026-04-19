@@ -11,6 +11,7 @@ tag @s remove fullhealthinit
 tag @s remove weaponheld
 tag @s remove spawnset
 tag @s remove spawnsetready
+tag @s remove tutorial-takeall-seen
 
 ##Reset kill counter
 #Per-Round
