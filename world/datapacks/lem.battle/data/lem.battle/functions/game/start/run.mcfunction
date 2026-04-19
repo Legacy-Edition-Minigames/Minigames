@@ -19,6 +19,9 @@ execute if score #Store lem.battle.takeall matches 0 run takeeverything enabled 
 ##Display ArmorBar (in the event someone joined during the countdown)
 execute as @a[tag=ingame] if score @s serverutils.haslemclient matches 2 run userconfig @s test lem.battle:armorbar EQUAL true runCommand armorHud @s true
 
+##Display tutorials
+function lem.battle:game/tutorial/start
+
 ##Remove setup tags
 #Players
 tag @a[tag=ingame] remove spawnset

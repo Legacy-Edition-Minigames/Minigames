@@ -242,6 +242,15 @@ scoreboard objectives add lem.battle.consoledamage dummy
 #Custom mode toggle
 scoreboard objectives add lem.battle.setconsoledamage dummy
 
+##Tutorial
+#Take everything
+scoreboard objectives add lem.battle.tutorial.takeall dummy
+scoreboard objectives add lem.battle.tutorial.takeall.smallinv dummy
+scoreboard objectives add lem.battle.tutorial.takeall.largeinv dummy
+scoreboard objectives add lem.battle.tutorial.takeall.lch dummy
+scoreboard objectives add lem.battle.tutorial.takeall.timer dummy
+scoreboard objectives add lem.battle.tutorial.takeall.chest minecraft.custom:open_chest
+
 ##For addons to disable built-in sounds
 #Game: Chest Refill
 scoreboard objectives add lem.battle.sound.game.refill.override dummy
