@@ -458,6 +458,8 @@ execute as 77e78a7c-ac26-4879-bed8-a831d640d7c7 run scoreboard players set @s le
 execute as f4cf5b63-31e6-41fd-98c3-ec97168f3720 run scoreboard players set @s lem.patreon 3
 #_Arronixx_
 execute as 78af622b-a7fc-4adc-8ba2-3ed561822404 run scoreboard players set @s lem.patreon 3
+#Jackboy317YT
+execute as f7351395-b16b-4b15-a91b-06d563568e4f run scoreboard players set @s lem.patreon 1
 
 ##Reset heart if no longer subscribed
 #Tiny
