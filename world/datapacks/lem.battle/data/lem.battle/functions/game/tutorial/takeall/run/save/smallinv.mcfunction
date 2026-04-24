@@ -6,4 +6,3 @@ execute if score @s lem.battle.tutorial.takeall.smallinv matches 1 run userconfi
 execute if score @s lem.battle.tutorial.takeall.smallinv matches 2 run userconfig @s set lem.battle:tutorial_takeall_smallinv 2
 execute if score @s lem.battle.tutorial.takeall.smallinv matches 3 run userconfig @s set lem.battle:tutorial_takeall_smallinv 3
 execute if score @s lem.battle.tutorial.takeall.smallinv matches 4 run userconfig @s set lem.battle:tutorial_takeall_smallinv 4
-execute if score @s lem.battle.tutorial.takeall.smallinv matches 5 run userconfig @s set lem.battle:tutorial_takeall_smallinv 5
