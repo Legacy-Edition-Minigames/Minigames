@@ -11,13 +11,13 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-java@v4
+      - uses: actions/checkout@v6
+      - uses: actions/setup-java@v5
         with:
           distribution: 'temurin' # See 'Supported distributions' for available options
           java-version: '21'
 
-      - uses: robinraju/release-downloader@v1.10
+      - uses: robinraju/release-downloader@v1
         with:
           repository: 'Legacy-Edition-Minigames/ToolBox'
           latest: true
@@ -33,6 +33,6 @@ jobs:
         run: rm Toolbox2.0_noupdater.jar
 
       - name: Push changes
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: Auto generate hash for dependency files
