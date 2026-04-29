@@ -12,4 +12,3 @@ execute if score @s lem.afk.check.open_shulker_box matches 1.. run tag @s add ac
 execute if score @s lem.afk.check.damage_dealt matches 1.. run tag @s add activitydetected
 execute if score @s lem.afk.check.fish_caught matches 1.. run tag @s add activitydetected
 execute if score @s lem.afk.check.drop matches 1.. run tag @s add activitydetected
-execute if score @s lem.afk.check.jump matches 1.. run tag @s add activitydetected

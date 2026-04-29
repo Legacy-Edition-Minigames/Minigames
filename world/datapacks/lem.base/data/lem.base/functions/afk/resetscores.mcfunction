@@ -12,4 +12,3 @@ scoreboard players reset @s lem.afk.check.open_shulker_box
 scoreboard players reset @s lem.afk.check.damage_dealt
 scoreboard players reset @s lem.afk.check.fish_caught
 scoreboard players reset @s lem.afk.check.drop
-scoreboard players reset @s lem.afk.check.jump
