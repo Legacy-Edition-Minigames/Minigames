@@ -20,6 +20,7 @@ execute if score #Store lem.battle.maptype matches 1..3 if score #Store lem.plis
 execute if score #Store lem.battle.maptype matches 4 if score #Store lem.battle.tp matches 2 run scoreboard players set #Store lem.battle.tpselected 2
 
 ##Use the selected TP type
+scoreboard players set #Store lem.battle.maploadtp 1
 execute as @a[tag=ingame] run function lem.battle:game/setup/teleport/check
 
 ##Face camera towards center

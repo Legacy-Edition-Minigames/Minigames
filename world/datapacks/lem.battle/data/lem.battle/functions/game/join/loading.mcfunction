@@ -1,5 +1,5 @@
 ##Teleport to spawnpoint
-function lem.battle:game/setup/teleport/check
+execute if score #Store lem.battle.maploadtp matches 1 run function lem.battle:game/setup/teleport/check
 
 ##Face center of the map
 function lem.battle:game/setup/teleport/facecenter/run
