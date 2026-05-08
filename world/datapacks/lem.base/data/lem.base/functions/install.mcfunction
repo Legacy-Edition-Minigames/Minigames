@@ -364,7 +364,6 @@ scoreboard objectives add lem.afk.check.open_shulker_box minecraft.custom:minecr
 scoreboard objectives add lem.afk.check.damage_dealt minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add lem.afk.check.fish_caught minecraft.custom:minecraft.fish_caught
 scoreboard objectives add lem.afk.check.drop minecraft.custom:minecraft.drop
-scoreboard objectives add lem.afk.check.jump minecraft.custom:minecraft.jump
 
 ##Mod detection
 scoreboard objectives add lem.fabric.banhammer dummy

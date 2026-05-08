@@ -34,7 +34,7 @@ scoreboard players set #Store lem.initialgame 1
 ##Reset players
 function lem.base:game/playerreset
 
-##Load players into the map
+##Prepare players
 execute as @a[tag=ingame] run function lem.base:game/join/start
 
 ##Refresh time

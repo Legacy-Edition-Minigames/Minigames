@@ -251,6 +251,9 @@ scoreboard objectives add lem.battle.tutorial.takeall.lch dummy
 scoreboard objectives add lem.battle.tutorial.takeall.timer dummy
 scoreboard objectives add lem.battle.tutorial.takeall.chest minecraft.custom:open_chest
 
+##Map loading TP check flag
+scoreboard objectives add lem.battle.maploadtp dummy
+
 ##For addons to disable built-in sounds
 #Game: Chest Refill
 scoreboard objectives add lem.battle.sound.game.refill.override dummy

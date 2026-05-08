@@ -1,1 +1,1 @@
-minecraft:kick @a You were removed from the game for being idle
+minecraft:kick @s You were removed from the game for being idle

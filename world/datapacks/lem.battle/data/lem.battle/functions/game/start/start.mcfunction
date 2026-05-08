@@ -12,3 +12,6 @@ chesttracker reset
 
 ##Display ArmorBar
 execute as @a[tag=ingame] if score @s serverutils.haslemclient matches 2 run userconfig @s test lem.battle:armorbar EQUAL true runCommand armorHud @s true
+
+##Reset loading TP variable
+scoreboard players reset #Store lem.battle.maploadtp
