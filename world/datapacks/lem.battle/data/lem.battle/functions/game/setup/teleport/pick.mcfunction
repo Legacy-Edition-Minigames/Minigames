@@ -7,7 +7,7 @@ execute store result score #Store lem.plist if entity @a[tag=ingame]
 #8 Players, not L+
 execute if score #Store lem.battle.maptype matches 1..3 if score #Store lem.plist matches ..8 if score #Store lem.battle.tp matches 1 run scoreboard players set #Store lem.battle.tpselected 1
 #9+ Players, not L+
-execute if score #Store lem.battle.maptype matches 1..3 if score #Store lem.plist matches 9.. if score #Store lem.battle.tp matches 1 run scoreboard players set #Store lem.battle.tpselected 3
+execute if score #Store lem.battle.maptype matches 1..3 if score #Store lem.plist matches 9.. if score #Store lem.battle.tp matches 1 run scoreboard players set #Store lem.battle.tpselected 1
 #L+
 execute if score #Store lem.battle.maptype matches 4 if score #Store lem.battle.tp matches 1 run scoreboard players set #Store lem.battle.tpselected 1
 
