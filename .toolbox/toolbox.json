@@ -2,6 +2,8 @@
     "config_version": 2,
     "name": "Battle Fools 24",
     "launchCMD": "java -jar <ram> <javaARGs> server.jar nogui <serverARGs>",
+     "game_version": "1.20.4",
+  "loader": "Fabric",
     "dependencies": [
       {
         "type": "GIT",
