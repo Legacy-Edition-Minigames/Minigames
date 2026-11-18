@@ -1,7 +1,7 @@
 {
   "config_version": 2,
   "name": "Battle Fools 26",
-  "launchCMD": "java -jar <ram> <javaARGs> server.jar nogui <serverARGs>",
+  "launchCMD": "java -jar <ram> <javaARGs> -XX:+UnlockDiagnosticVMOptions -XX:-UseBASE64Intrinsics server.jar nogui <serverARGs>",
   "game_version": "1.20.4",
   "loader": "Fabric",
   "dependencies": [
